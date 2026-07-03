@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🍍 Pineapple M7 — Agent OS Mission Control</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy-deep:#0a1122; --navy:#1A365D; --panel:rgba(19,32,56,.62); --panel2:rgba(13,24,44,.55);
+  --line:rgba(0,191,255,.16); --gold:#FBC02D; --gold2:#FFD700; --cyan:#00BFFF;
+  --violet:#b79cf2; --blue:#7fb0ff; --amber:#ff9e5e; --pink:#ff8fb0; --orange:#ff9e5e;
+  --ink:#f1f3fa; --muted:#8ea4c2; --sub:#5d75a0; --r:13px;
+}
+*{box-sizing:border-box;margin:0;padding:0;font-family:'Inter',sans-serif;}
+html,body{height:100%;}
+body{background:var(--navy-deep);
+  background-image:radial-gradient(at 8% 6%,rgba(26,54,93,.45) 0,transparent 48%),
+    radial-gradient(at 92% 8%,rgba(0,191,255,.16) 0,transparent 46%),
+    radial-gradient(at 50% 96%,rgba(251,192,45,.10) 0,transparent 50%);
+  color:var(--ink);height:100vh;overflow:hidden;display:flex;}
+a{color:inherit;text-decoration:none;}
+::-webkit-scrollbar{width:8px;height:8px;}::-webkit-scrollbar-thumb{background:var(--cyan);border-radius:8px;opacity:.4;}::-webkit-scrollbar-track{background:transparent;}
+
+/* sidebar */
+.side{width:212px;flex:none;background:var(--panel);border-right:1px solid var(--line);backdrop-filter:blur(14px);padding:18px 12px;display:flex;flex-direction:column;gap:2px;overflow:auto;}
+.logo{text-align:center;border-bottom:2px solid var(--gold);padding-bottom:14px;margin-bottom:14px;}
+.logo h1{color:var(--gold);font-size:18px;font-weight:800;letter-spacing:1px;}
+.logo span{font-size:9.5px;color:var(--cyan);font-weight:700;letter-spacing:3px;}
+.grp{font-size:9px;text-transform:uppercase;letter-spacing:1.5px;color:var(--sub);margin:14px 8px 4px;}
+.nav{display:flex;align-items:center;gap:10px;padding:9px 12px;border-radius:var(--r);color:var(--muted);font-size:13px;font-weight:500;cursor:pointer;border:1px solid transparent;}
+.nav:hover{background:rgba(26,54,93,.4);color:var(--ink);border-color:var(--line);}
+.nav.active{background:rgba(26,54,93,.5);color:var(--ink);border-left:4px solid var(--gold);}
+.navlink{display:flex;align-items:center;gap:10px;padding:9px 12px;border-radius:var(--r);color:var(--muted);font-size:13px;font-weight:500;cursor:pointer;border:1px solid transparent;}
+.navlink:hover{background:rgba(26,54,93,.4);color:var(--ink);border-color:var(--line);}
+.agent{display:flex;align-items:center;gap:9px;padding:6px 12px;font-size:12px;color:var(--muted);}
+.adot{width:8px;height:8px;border-radius:50%;flex:none;}
+.on{background:var(--cyan);box-shadow:0 0 8px var(--cyan);} .deg{background:var(--amber);box-shadow:0 0 8px var(--amber);} .off{background:#5a6b86;}
+.cred{font-size:9.5px;color:var(--sub);text-align:center;margin-top:auto;padding-top:14px;line-height:1.5;}
+
+/* main */
+.main{flex:1;display:flex;flex-direction:column;min-width:0;}
+.top{height:64px;flex:none;background:var(--panel);border-bottom:1px solid var(--line);backdrop-filter:blur(14px);padding:0 24px;display:flex;align-items:center;gap:14px;}
+.top h2{font-size:17px;font-weight:700;}
+.mic{width:40px;height:40px;border-radius:50%;background:radial-gradient(circle,#16335a,#0c1c31);border:2px solid var(--cyan);display:flex;align-items:center;justify-content:center;font-size:18px;cursor:pointer;box-shadow:0 0 12px #00bfff55;}
+.mic.listening{animation:pulse 1s infinite;border-color:var(--gold);}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(251,192,45,.6);}70%{box-shadow:0 0 0 12px rgba(251,192,45,0);}100%{box-shadow:0 0 0 0 rgba(251,192,45,0);}}
+.right{margin-left:auto;display:flex;align-items:center;gap:8px;}
+.badge{font-size:11px;padding:5px 11px;border-radius:18px;border:1px solid var(--line);color:var(--sub);font-weight:600;}
+.badge.live{color:var(--cyan);border-color:var(--cyan);background:rgba(0,191,255,.07);}
+.btn{background:var(--navy);color:var(--ink);border:1px solid var(--gold);padding:8px 13px;border-radius:8px;font-weight:600;cursor:pointer;font-size:12px;}
+.btn:hover{background:var(--gold);color:var(--navy-deep);box-shadow:0 0 8px var(--gold);}
+.btn.ghost{border-color:var(--line);}
+.view{flex:1;overflow:auto;padding:22px 24px;} .view.hide{display:none;}
+
+/* mission control */
+.statrow{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:16px;margin-bottom:20px;}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:15px 18px;backdrop-filter:blur(10px);}
+.stat span{font-size:11px;color:var(--sub);font-weight:600;text-transform:uppercase;letter-spacing:.5px;}
+.stat h3{font-size:23px;color:var(--gold2);font-weight:800;margin-top:5px;}
+.stat small{font-size:10px;color:var(--muted);}
+.dot{width:8px;height:8px;background:var(--cyan);border-radius:50%;box-shadow:0 0 8px var(--cyan);animation:pulse2 2s infinite;display:inline-block;margin-right:6px;}
+@keyframes pulse2{0%{transform:scale(.9);}70%{transform:scale(1.1);}100%{transform:scale(.9);}}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px;}
+.acard{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:17px;backdrop-filter:blur(10px);position:relative;}
+.acard .st{position:absolute;top:15px;right:16px;font-size:9.5px;letter-spacing:1px;padding:3px 9px;border-radius:11px;font-weight:700;}
+.acard h3{font-size:15px;margin:3px 0 6px;display:flex;align-items:center;gap:10px;}
+.acard .ico{width:32px;height:32px;border-radius:9px;display:flex;align-items:center;justify-content:center;font-size:16px;}
+.acard p{font-size:11.5px;color:var(--muted);line-height:1.55;min-height:36px;}
+.chip{background:rgba(26,54,93,.5);border:1px solid var(--line);color:#dce8f7;padding:6px 12px;border-radius:18px;font-size:11.5px;cursor:pointer;}
+.chip:hover{border-color:var(--gold);color:#fff;}
+.crow{display:flex;gap:7px;flex-wrap:wrap;margin-top:10px;}
+
+/* kanban */
+.kanban{display:grid;grid-template-columns:repeat(5,1fr);gap:11px;}
+.kcol{background:var(--panel2);border-radius:12px;border-top:3px solid var(--cyan);display:flex;flex-direction:column;min-width:0;min-height:90px;backdrop-filter:blur(8px);}
+.kcol.pause{border-top-color:var(--gold);}
+.kcol h4{font-size:11px;padding:10px 11px 6px;display:flex;justify-content:space-between;color:var(--gold);text-transform:uppercase;letter-spacing:.4px;}
+.kcol h4 .c{background:rgba(10,17,34,.6);border:1px solid var(--line);color:var(--gold);border-radius:11px;font-size:9px;padding:1px 7px;}
+.kcards{padding:5px 9px 11px;display:flex;flex-direction:column;gap:7px;flex:1;}
+.kcard{background:rgba(19,32,56,.85);border:1px solid var(--line);border-left:3px solid var(--gold);border-radius:7px;padding:8px 9px;font-size:11px;line-height:1.45;cursor:grab;}
+.kcard .tag{display:inline-block;font-size:8.5px;padding:1px 6px;border-radius:9px;color:#0b1b30;font-weight:700;margin-top:5px;}
+.kcol.dragover{outline:2px dashed var(--gold);outline-offset:-4px;}
+.t-Hermes{background:#FBC02D;}.t-ClaudeCode{background:#7fb0ff;}.t-NotebookLM{background:#b79cf2;}.t-Paperclip{background:#00BFFF;}.t-Higgsfield{background:#ff9e5e;}.t-Firewall{background:#ff8fb0;}.t-Saia{background:#cfd8e6;}.t-OutboxShield{background:#ffd76a;}
+
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:18px;margin-bottom:16px;backdrop-filter:blur(10px);}
+.panel h2{font-size:14px;margin-bottom:12px;color:var(--gold2);text-transform:uppercase;letter-spacing:.5px;display:flex;align-items:center;gap:8px;}
+.panel h2 .tag{margin-left:auto;font-size:10px;color:var(--sub);font-weight:400;text-transform:none;}
+pre.mem{background:#050811;border:1px solid var(--line);border-radius:9px;padding:13px;font-size:11.5px;line-height:1.6;color:#bcd0ea;max-height:360px;overflow:auto;white-space:pre-wrap;}
+textarea,input.box{width:100%;background:rgba(10,17,34,.7);border:1px solid var(--line);border-radius:9px;color:var(--ink);padding:11px;font-size:12.5px;}
+input.box:focus,textarea:focus{outline:none;border-color:var(--cyan);}
+.row{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap;}
+.grid3{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:10px;}
+.skill{background:rgba(19,32,56,.7);border:1px solid var(--line);border-radius:9px;padding:11px;font-size:11.5px;}
+.skill b{color:#dce8f7;display:block;margin-bottom:3px;}
+.foot{display:flex;align-items:center;gap:18px;padding:9px 24px;border-top:1px solid var(--line);font-size:11px;color:#9fb3cf;background:var(--panel);backdrop-filter:blur(10px);}
+.foot b{color:var(--cyan);} .foot .lock{margin-left:auto;background:var(--gold);color:var(--navy-deep);padding:3px 11px;border-radius:11px;font-weight:700;}
+#toast{position:fixed;bottom:54px;left:50%;transform:translateX(-50%) translateY(20px);background:rgba(19,41,74,.95);border:1px solid var(--gold);color:#fff;padding:11px 17px;border-radius:9px;font-size:12.5px;opacity:0;pointer-events:none;transition:.25s;z-index:99;max-width:82%;backdrop-filter:blur(8px);}
+#toast.show{opacity:1;transform:translateX(-50%) translateY(0);}
+</style>
+</head>
+<body>
+<div class="side">
+  <div class="logo"><h1>🍍 PINEAPPLE M7</h1><span>AGENT OS</span></div>
+  <div class="grp">Workspace</div>
+  <a class="nav active" data-v="mc">🛰️ Mission Control</a>
+  <a class="nav" data-v="pipe">🗂️ Pipeline (Kanban)</a>
+  <a class="nav" data-v="mem">🌌 Shared Memory</a>
+  <a class="nav" data-v="exec">▶️ Execute Playbook</a>
+  <a class="nav" data-v="skills">⚡ Skills & Tools</a>
+  <a class="nav" data-v="studio">🎬 Studio / Notebook</a>
+  <a class="nav" data-v="cloud">☁️ Cloud & Agents</a>
+  <div class="grp">Open</div>
+  <a class="navlink" onclick="window.open('M7_MASTER_SOP.md','_blank')">📘 Master SOP</a>
+  <a class="navlink" onclick="window.open('http://100.112.96.7:9119','_blank')">🜂 Hermes Cloud · 9119</a>
+  <a class="navlink" onclick="window.open('http://100.112.96.7:3000','_blank')">🖥️ Workspace · 3000</a>
+  <div class="grp">AI Fleet</div>
+  <div class="agent"><span class="adot off" id="d-claude"></span>Claude — builder</div>
+  <div class="agent"><span class="adot off" id="d-hermes"></span>Hermes — orchestrator</div>
+  <div class="agent"><span class="adot off" id="d-openclaw"></span>OpenClaw — gateway</div>
+  <div class="agent"><span class="adot off" id="d-paperclip"></span>Paperclip — teams</div>
+  <div class="agent"><span class="adot off" id="d-notebooklm"></span>NotebookLM — research</div>
+  <div class="agent"><span class="adot off" id="d-jarvis"></span>Jarvis — voice</div>
+  <div class="cred">IKO Certified · RCAT #03-0637<br>The Pineapple Standard</div>
+</div>
+
+<div class="main">
+  <div class="top">
+    <h2 id="title">Mission Control</h2>
+    <div class="mic" id="mic" title="Jarvis — click and speak" onclick="jarvis()">🎤</div>
+    <div class="right">
+      <span class="badge" id="obsBadge">Obsidian …</span>
+      <span class="badge" id="apiBadge">Backend …</span>
+      <button class="btn ghost" onclick="refreshAll()">↻</button>
+    </div>
+  </div>
+
+  <!-- MISSION CONTROL -->
+  <div class="view" id="v-mc">
+    <div class="statrow">
+      <div class="stat"><span><span class="dot"></span>Vault</span><h3 id="s-vault">…</h3><small>Obsidian REST · 27123</small></div>
+      <div class="stat"><span>Shared Memory</span><h3 id="s-mem">…</h3><small>SHARED_MEMORY.md</small></div>
+      <div class="stat"><span>Pipeline</span><h3 id="s-cards">…</h3><small>cards in flight</small></div>
+      <div class="stat"><span>Outbox</span><h3 id="s-outbox">…</h3><small>drafts awaiting you</small></div>
+      <div class="stat"><span>Firewall</span><h3>PASS</h3><small>0 green · 0 banned</small></div>
+    </div>
+    <div class="cards" id="agentCards"></div>
+  </div>
+
+  <!-- PIPELINE -->
+  <div class="view hide" id="v-pipe">
+    <div class="row" style="margin-bottom:14px;">
+      <button class="btn ghost" onclick="loadKanban()">⬇ Load from vault</button>
+      <button class="btn ghost" onclick="saveKanban()">⬆ Save to vault</button>
+      <input class="box" id="newcard" placeholder="New card… (or use 🎤 Jarvis: say 'create …')" style="flex:1;min-width:180px;">
+      <button class="btn" onclick="addCard()">+ Idea Input</button>
+    </div>
+    <div class="kanban" id="board"></div>
+  </div>
+
+  <!-- SHARED MEMORY -->
+  <div class="view hide" id="v-mem">
+    <div class="panel">
+      <h2>🌌 Shared Memory — every agent reads this <span class="tag" id="memMeta"></span></h2>
+      <pre class="mem" id="memBody">Loading SHARED_MEMORY.md…</pre>
+      <div class="row">
+        <input class="box" id="memAgent" placeholder="agent" style="flex:0 0 150px;">
+        <input class="box" id="memNote" placeholder="Add a note all agents will see…">
+        <button class="btn" onclick="appendMemory()">+ Log</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- EXECUTE -->
+  <div class="view hide" id="v-exec">
+    <div class="panel">
+      <h2>▶️ Execute the Playbook (Claude Code · Hermes — you never code)</h2>
+      <p style="font-size:12.5px;color:var(--muted);line-height:1.6;">Click a job → command copied → paste into Claude Code or Hermes. It reads <b>M7_EXECUTE.md</b>, works, drops drafts PAUSED in Outbox.</p>
+      <div class="grid3" style="margin-top:14px;">
+        <div class="skill"><b>📣 Week of content</b>8–12 branded captions<div class="row"><button class="btn ghost" onclick="exec('content')">Copy command</button></div></div>
+        <div class="skill"><b>🎬 Repurpose video</b>1 source → 6 cuts<div class="row"><button class="btn ghost" onclick="exec('repurpose')">Copy command</button></div></div>
+        <div class="skill"><b>🧠 Mastermind plan</b>Research→Writer→Editor→Judge<div class="row"><button class="btn ghost" onclick="exec('mastermind')">Copy command</button></div></div>
+        <div class="skill"><b>📈 SEO page</b>Frisco FAQ-schema<div class="row"><button class="btn ghost" onclick="exec('seo')">Copy command</button></div></div>
+        <div class="skill"><b>☁️ Deploy to cloud</b>GCP + Docker runbook<div class="row"><button class="btn ghost" onclick="exec('cloud')">Copy command</button></div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SKILLS -->
+  <div class="view hide" id="v-skills">
+    <div class="panel">
+      <h2>⚡ Skills & Tools <span class="tag">skills_inbox · 48 kits</span></h2>
+      <p style="font-size:12px;color:var(--muted);margin-bottom:10px;">Click "use" → command copied to hand the kit to an agent. (Make folders "Available offline" in Drive first so the files are local.)</p>
+      <div class="grid3" id="skillList"></div>
+    </div>
+  </div>
+
+  <!-- STUDIO -->
+  <div class="view hide" id="v-studio">
+    <div class="panel">
+      <h2>🎬 Studio / Notebook</h2>
+      <div class="row">
+        <button class="btn" onclick="location.href='M7_NOTEBOOK_BAY.html'">📄 Notebook Bay (read PDFs)</button>
+        <button class="btn ghost" onclick="window.open('https://notebooklm.google.com','_blank')">NotebookLM ↗</button>
+        <button class="btn ghost" onclick="window.open('https://labs.google.com/pomelli','_blank')">Pomelli ↗</button>
+      </div>
+      <div class="row" style="margin-top:14px;">
+        <input class="box" id="seoKw" placeholder="SEO topic e.g. Frisco hail damage repair">
+        <button class="btn" onclick="seoBrief()">Copy research command</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- CLOUD & AGENTS -->
+  <div class="view hide" id="v-cloud">
+    <div class="panel">
+      <h2>☁️ Cloud & Agents <span class="tag">24/7 on Google Cloud · Tailscale</span></h2>
+      <p style="font-size:12.5px;color:var(--muted);line-height:1.6;">Your Agent OS runs on the GCP VM. Reach it privately over Tailscale (no public ports). Open any tile:</p>
+      <div class="cards" style="margin-top:14px;">
+        <div class="acard"><h3><span class="ico" style="background:#7fb0ff22;color:#7fb0ff">📘</span>Master SOP</h3><p>The one manual Claude Code reads to run the whole OS.</p><div class="crow"><span class="chip" onclick="window.open('M7_MASTER_SOP.md','_blank')">Open SOP</span></div></div>
+        <div class="acard"><h3><span class="ico" style="background:#FBC02D22;color:#FBC02D">🜂</span>Hermes Gateway</h3><p>Cloud Hermes dashboard — sessions, kanban, skills.</p><div class="crow"><span class="chip" onclick="window.open('http://100.112.96.7:9119','_blank')">Open :9119</span></div></div>
+        <div class="acard"><h3><span class="ico" style="background:#00BFFF22;color:#00BFFF">🖥️</span>Workspace</h3><p>Cloud workspace (chat + files). Login: AUTH_USER / AUTH_PASS.</p><div class="crow"><span class="chip" onclick="window.open('http://100.112.96.7:3000','_blank')">Open :3000</span></div></div>
+        <div class="acard"><h3><span class="ico" style="background:#ff9e5e22;color:#ff9e5e">☁️</span>Deploy / Runbook</h3><p>Stand up or update the cloud stack.</p><div class="crow"><span class="chip" onclick="window.open('M7_MASTER_RUNBOOK.md','_blank')">Open runbook</span><span class="chip" onclick="exec('cloud')">Copy deploy cmd</span></div></div>
+      </div>
+      <p style="font-size:10.5px;color:var(--sub);margin-top:12px;">If a tile says "refused": the VM/Tailscale is off, or use your VM's Tailscale IP. Workspace login uses the AUTH_USER/AUTH_PASS from the cloud .env (cookie bug is on :3000 over HTTP — the :9119 gateway is more reliable).</p>
+    </div>
+  </div>
+
+  <div class="foot">
+    <span><span class="dot"></span>Obsidian <b id="f-obs">…</b></span>
+    <span>🤖 Agents <b id="f-agents">—</b></span>
+    <span>🌌 Memory <b id="f-mem">—</b></span>
+    <span class="lock">🔒 Outbox Shield ON · Saia is the only publisher & spender</span>
+  </div>
+</div>
+<div id="toast"></div>
+
+<script>
+const OBS="http://127.0.0.1:27123", OBS_KEY="1f8aa9201f4d4769ec53b2eb57dc1333c5a6b6e6b379294e71229a584d17cd8d";
+const API="http://127.0.0.1:51763", OBS_H={"Authorization":"Bearer "+OBS_KEY};
+let OBS_LIVE=false, API_LIVE=false;
+let toastT;function toast(m){const t=document.getElementById('toast');t.textContent=m;t.classList.add('show');clearTimeout(toastT);toastT=setTimeout(()=>t.classList.remove('show'),3800);}
+function copyText(t,n){if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t).then(()=>toast(n)).catch(()=>fb(t,n));}else fb(t,n);}
+function fb(t,n){const a=document.createElement('textarea');a.value=t;document.body.appendChild(a);a.select();try{document.execCommand('copy');toast(n);}catch(e){}document.body.removeChild(a);}
+
+async function vaultRead(p){if(OBS_LIVE){try{const r=await fetch(OBS+"/vault/"+encodeURI(p),{headers:OBS_H});if(r.ok)return await r.text();}catch(e){}}if(API_LIVE){try{const r=await fetch(API+"/api/filecontent?path="+encodeURIComponent(p));if(r.ok){const j=await r.json();return j.content;}}catch(e){}}return null;}
+async function vaultAppend(p,t){if(OBS_LIVE){try{const r=await fetch(OBS+"/vault/"+encodeURI(p),{method:"POST",headers:Object.assign({"Content-Type":"text/markdown"},OBS_H),body:t});return r.ok;}catch(e){}}return false;}
+async function vaultList(d){if(OBS_LIVE){try{const r=await fetch(OBS+"/vault/"+encodeURI(d)+"/",{headers:OBS_H});if(r.ok){const j=await r.json();return j.files||[];}}catch(e){}}return [];}
+
+async function probe(){
+  try{const r=await fetch(OBS+"/",{headers:OBS_H});OBS_LIVE=r.ok;}catch(e){OBS_LIVE=false;}
+  try{const r=await fetch(API+"/api/health");API_LIVE=r.ok;}catch(e){API_LIVE=false;}
+  const ob=document.getElementById('obsBadge'),ap=document.getElementById('apiBadge');
+  ob.textContent="Obsidian "+(OBS_LIVE?"● live":"○ open it");ob.className="badge"+(OBS_LIVE?" live":"");
+  ap.textContent="Backend "+(API_LIVE?"● live":"○ optional");ap.className="badge"+(API_LIVE?" live":"");
+  document.getElementById('f-obs').textContent=OBS_LIVE?"connected":"closed";
+  document.getElementById('s-vault').textContent=OBS_LIVE?"live":"open Obsidian";
+  setDot('claude',API_LIVE?'deg':'off');setDot('hermes',OBS_LIVE?'deg':'off');setDot('notebooklm',OBS_LIVE?'on':'off');
+  setDot('openclaw','off');setDot('paperclip','off');setDot('jarvis',('webkitSpeechRecognition' in window||'SpeechRecognition' in window)?'on':'off');
+}
+function setDot(id,c){const d=document.getElementById('d-'+id);if(d)d.className='adot '+c;}
+
+/* ===== JARVIS VOICE ===== */
+function jarvis(){
+  const SR=window.SpeechRecognition||window.webkitSpeechRecognition;
+  if(!SR){toast("Voice needs Chrome/Edge. Open this dashboard there for Jarvis.");return;}
+  const r=new SR();r.lang="en-US";r.interimResults=false;r.maxAlternatives=1;
+  const mic=document.getElementById('mic');mic.classList.add('listening');toast("🎤 Jarvis listening… speak a command");
+  r.onresult=e=>{const t=e.results[0][0].transcript.trim();handleVoice(t);};
+  r.onerror=e=>{toast("Jarvis: "+e.error);mic.classList.remove('listening');};
+  r.onend=()=>mic.classList.remove('listening');
+  r.start();
+}
+function handleVoice(t){
+  const low=t.toLowerCase();
+  if(low.startsWith("create")||low.startsWith("add")){
+    const txt=t.replace(/^(create|add)\s+/i,"");DATA.push({t:txt,a:"Hermes",c:0});saveLocal();renderBoard();
+    toast('🎤 Added to Idea Input: "'+txt+'"');
+  }else if(low.startsWith("research")){
+    copyText('Act as the research node. Research: '+t.replace(/^research\s+/i,"")+'. Save a sourced brief to 05_Campaign_Factory/10_Research_Stage/ (PAUSED).','🎤 Research command copied — paste into Hermes.');
+  }else{
+    copyText('Read 01_Command_Center/M7_EXECUTE.md and: '+t+'. Draft PAUSED to Outbox_Drafts, firewall-checked, no folder changes.','🎤 Heard: "'+t+'" — command copied.');
+  }
+}
+
+/* ===== AGENT CARDS ===== */
+const AGENTS=[
+ {k:'Claude',ico:'✦',c:'#ff9e5e',d:'Direct line to Claude Code. Full tool use, MCPs, plugins.',act:['Build a page','Audit the vault']},
+ {k:'Hermes',ico:'🜂',c:'#7fb0ff',d:'Nous orchestrator. Sessions, skills, kanban, Jarvis.',act:['Run M7_EXECUTE','Week of content']},
+ {k:'OpenClaw',ico:'◑',c:'#ff8fb0',d:'Local agent gateway. One-shot or control room.',act:['Open gateway']},
+ {k:'NotebookLM',ico:'📓',c:'#b79cf2',d:'Research node. Ingest sources → sourced briefs.',act:['Research Frisco storm']},
+ {k:'Paperclip',ico:'📎',c:'#00BFFF',d:'Content team. Repurpose 1 video into many.',act:['Repurpose a video']},
+ {k:'Higgsfield',ico:'🎬',c:'#ff9e5e',d:'Creative + AI cloning (Soul). Credit-gated.',act:['Creative blueprint']},
+];
+function renderAgents(){const w=document.getElementById('agentCards');w.innerHTML="";AGENTS.forEach(a=>{const el=document.createElement('div');el.className='acard';
+  el.innerHTML=`<span class="st" style="background:${a.c}22;color:${a.c}">READY</span><h3><span class="ico" style="background:${a.c}22;color:${a.c}">${a.ico}</span>${a.k}</h3><p>${a.d}</p><div class="crow">${a.act.map(x=>`<span class="chip" onclick="agentAct('${a.k}','${x}')">${x}</span>`).join('')}</div>`;w.appendChild(el);});}
+function agentAct(ag,act){copyText(`Read 01_Command_Center/M7_EXECUTE.md and GROUNDING.md, then: ${act}. Draft PAUSED to Outbox_Drafts, run brand_firewall.py --check, no folder changes. Saia publishes. Summarize.`,`📋 Command for ${ag} copied — paste into ${ag}.`);}
+
+/* ===== KANBAN ===== */
+const COLS=[{n:"💡 Idea Input",p:0},{n:"🧠 Agent Planning",p:0},{n:"⛔ Human Approval (PAUSED)",p:1},{n:"🛠️ Implementation",p:0},{n:"🏛️ Shipped Gallery",p:0}];
+let DATA=JSON.parse(localStorage.getItem("m7_cc_board")||"null")||[
+ {t:"Testimonial money-quote mining",a:"Paperclip",c:0},{t:"GBP weekly post batch",a:"Hermes",c:0},
+ {t:"Week 1 social captions — 8 posts (staged)",a:"Hermes",c:2},{t:"FAQ-schema pages — 3 pages (staged)",a:"ClaudeCode",c:2},
+ {t:"All staged assets land PAUSED · Outbox Shield",a:"OutboxShield",c:2},{t:"brand_firewall.py --check (0 green/0 banned)",a:"Firewall",c:3},
+ {t:"M7 Integrated Campaign — firewall PASS",a:"ClaudeCode",c:4}];
+function saveLocal(){localStorage.setItem("m7_cc_board",JSON.stringify(DATA));}
+function addCard(){const i=document.getElementById('newcard');if(!i.value.trim())return;DATA.push({t:i.value.trim(),a:"Hermes",c:0});i.value="";saveLocal();renderBoard();}
+function renderBoard(){const b=document.getElementById('board');if(!b)return;b.innerHTML="";let f=0;
+  COLS.forEach((col,ci)=>{const el=document.createElement('div');el.className='kcol'+(col.p?' pause':'');const items=DATA.map((d,i)=>({d,i})).filter(o=>o.d.c===ci);if(ci===1||ci===3)f+=items.length;
+    el.innerHTML=`<h4>${col.n}<span class="c">${items.length}</span></h4>`;const cc=document.createElement('div');cc.className='kcards';
+    items.forEach(({d,i})=>{const c=document.createElement('div');c.className='kcard';c.draggable=true;c.innerHTML=`${d.t}<br><span class="tag t-${d.a}">${d.a}</span>`;c.addEventListener('dragstart',e=>e.dataTransfer.setData('text/plain',i));cc.appendChild(c);});
+    el.appendChild(cc);el.addEventListener('dragover',e=>{e.preventDefault();el.classList.add('dragover');});el.addEventListener('dragleave',()=>el.classList.remove('dragover'));
+    el.addEventListener('drop',e=>{e.preventDefault();el.classList.remove('dragover');const i=+e.dataTransfer.getData('text/plain');if(!isNaN(i)){DATA[i].c=ci;saveLocal();renderBoard();}});b.appendChild(el);});
+  document.getElementById('s-cards').textContent=f;document.getElementById('f-agents').textContent=f+" in flight";}
+async function loadKanban(){const md=await vaultRead("01_Command_Center/M7_Agent_Kanban.md");if(!md){toast("Open Obsidian to load the live board.");return;}
+  const nd=[];let ci=-1;md.split("\n").forEach(l=>{if(l.startsWith("## "))ci++;else if(ci>=0&&l.trim().startsWith("- [")){const tx=l.trim().replace(/^- \[.?\]\s*/,"");const tg=(tx.match(/#(\w+)/)||[])[1]||"Hermes";nd.push({t:tx.replace(/\s*#\w+/g,"").trim(),a:tg,c:Math.min(ci,COLS.length-1)});}});
+  if(nd.length){DATA=nd;saveLocal();renderBoard();toast("⬇ Loaded "+nd.length+" cards live from your vault.");}}
+async function saveKanban(){if(!OBS_LIVE){toast("Open Obsidian to save to the vault.");return;}let body="---\nkanban-plugin: board\n---\n";COLS.forEach((col,ci)=>{body+="\n## "+col.n+"\n\n";DATA.filter(d=>d.c===ci).forEach(d=>{body+="- [ ] "+d.t+" #"+d.a+"\n";});body+="\n";});
+  try{const r=await fetch(OBS+"/vault/"+encodeURI("01_Command_Center/M7_Agent_Kanban.md"),{method:"PUT",headers:Object.assign({"Content-Type":"text/markdown"},OBS_H),body});toast(r.ok?"⬆ Saved board to your vault.":"Save blocked (CORS) — Load still works.");}catch(e){toast("Save failed.");}}
+
+/* ===== MEMORY / SKILLS / EXEC ===== */
+async function loadMemory(){const md=await vaultRead("03_Knowledge_Mat/SHARED_MEMORY.md");const b=document.getElementById('memBody');
+  if(md){b.textContent=md;document.getElementById('s-mem').textContent="live";document.getElementById('f-mem').textContent="connected";document.getElementById('memMeta').textContent=md.length+" chars";}
+  else{b.textContent="Open Obsidian (Local REST API on, 27123) to see your live SHARED_MEMORY.md. If it won't connect, open this page inside Obsidian's Web Viewer or run START_M7_SERVER.bat.";document.getElementById('s-mem').textContent="—";}}
+async function appendMemory(){const ag=document.getElementById('memAgent').value.trim()||"Saia";const n=document.getElementById('memNote').value.trim();if(!n)return;
+  const ok=await vaultAppend("03_Knowledge_Mat/SHARED_MEMORY.md",`\n- ${new Date().toISOString().slice(0,16).replace('T',' ')} · **${ag}**: ${n}`);
+  if(ok){document.getElementById('memNote').value="";toast("🌌 Logged to shared memory.");loadMemory();}else toast("Couldn't write (open Obsidian / CORS).");}
+const SKILLS=["NotebookLM Reimagined - Complete Build Kit","Second Brain Starter Kit - Obsidian + Claude Code","Memory Architect Kit","The Perfect Agentic OS Kit","AI Agent Army Pack","Banana Squad - Image Agent Team","MCP Workflow Power Bundle","Self-Improving AI Systems Kit","The Council Skill for Claude Code","Sora Studio Builder","Claude Code Masterclass Guide","Swiss Knife Superapp (Claude Code)","Prompt Suite Factory","Gemini File Search API Kit","Google Workspace CLI Starter Kit","FULL Agentic Patterns Kit"];
+async function loadSkills(){const w=document.getElementById('skillList');let names=SKILLS;const live=await vaultList("04_Tech_Lab/skills_inbox");if(live&&live.length)names=live.map(x=>x.replace(/\/$/,"")).filter(x=>x&&x!=="desktop.ini");
+  w.innerHTML=names.map(n=>`<div class="skill"><b>${n}</b><span style="font-size:10px;color:var(--cyan);cursor:pointer" onclick='copyText("Read everything in 04_Tech_Lab/skills_inbox/${n.replace(/"/g,"")}/ and apply it to my Pineapple task. CPPA, IKO, no green. Draft PAUSED to Outbox.","Command copied for ${n.replace(/"/g,"")}")'>▸ use this</span></div>`).join('');}
+const EX={content:"Read 01_Command_Center/M7_EXECUTE.md and execute this week's content: 8–12 branded captions (Authority/Proof/Heritage), Gold hooks, RCAT #03-0637 + IKO bar, CPPA CTA, 972-928-0788, a Tongan proverb each. Draft PAUSED to Outbox_Drafts, firewall-checked. No folder changes.",
+ repurpose:"Read M7_EXECUTE.md + M7_CONTENT_FACTORY.md. Take one source video → 6 short-cut scripts (different hooks). Draft PAUSED to Outbox_Drafts.",
+ mastermind:"Read M7_EXECUTE.md. Run the Mastermind (Research→Writer→Editor→Judge) on the top Agent-Planning card. Output PAUSED to Outbox_Drafts, firewall-checked.",
+ seo:"Read M7_INTEGRATED_CAMPAIGN.md §5. Draft a Frisco FAQ-schema page (IKO only, no GAF), answer each question in first 40 words. Draft PAUSED to Outbox_Drafts.",
+ cloud:"Read 01_Command_Center/M7_MASTER_RUNBOOK.md and M7_CLOUD_DEPLOYMENT_CHEATSHEET.md. Deploy to GCP step by step, pausing for my confirmation. Keep the persistent volume + HERMES_ALLOW_*_WRITE=false, never expose ports. Don't guess my secrets."};
+function exec(k){copyText(EX[k]+"\n\nSaia is the only publisher.","📋 Command copied — paste into Claude Code / Hermes.");}
+function seoBrief(){const kw=document.getElementById('seoKw').value.trim()||"Frisco hail damage repair";copyText(`Act as the SEO research node. For "${kw}": keyword cluster + intent map + content outline. Save to 05_Campaign_Factory/10_Research_Stage/ (PAUSED). IKO only, no GAF, no green.`,"📋 SEO command copied.");}
+
+/* nav + init */
+document.querySelectorAll('.nav').forEach(a=>a.addEventListener('click',()=>{document.querySelectorAll('.nav').forEach(x=>x.classList.remove('active'));a.classList.add('active');const v=a.dataset.v;document.querySelectorAll('.view').forEach(x=>x.classList.add('hide'));document.getElementById('v-'+v).classList.remove('hide');document.getElementById('title').textContent=a.textContent.trim();if(v==='mem')loadMemory();if(v==='skills')loadSkills();if(v==='pipe')renderBoard();}));
+async function refreshAll(){await probe();renderBoard();const ob=await vaultList("01_Command_Center/Outbox_Drafts");document.getElementById('s-outbox').textContent=(ob&&ob.length)||"—";loadMemory();}
+renderAgents();renderBoard();refreshAll();setInterval(probe,15000);
+</script>
+</body>
+</html>

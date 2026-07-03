@@ -1,0 +1,19 @@
+# Per-user state — never committed
+workspace/.env
+workspace/config.json
+workspace/cast/*.md
+workspace/locations/*.md
+workspace/styles/*.md
+workspace/shots/
+workspace/scenes/
+
+# Keep the template + INDEX so the structure is discoverable on fresh checkout
+!workspace/INDEX.md
+!workspace/cast/.gitkeep
+!workspace/locations/.gitkeep
+!workspace/styles/.gitkeep
+
+# Python venv if user bootstraps one inside the skill
+.venv/
+__pycache__/
+*.pyc

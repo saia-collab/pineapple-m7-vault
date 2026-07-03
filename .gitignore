@@ -1,0 +1,46 @@
+# ============================================================
+# M7 .gitignore — keep media + secrets OUT of GitHub
+# Your repo is PUBLIC — never commit keys or 28GB of video.
+# ============================================================
+
+# --- SECRETS (never commit) ---
+.env
+*.env
+**/.env
+04_Tech_Lab/config/.env
+04_Tech_Lab/config/*_config.json
+04_Tech_Lab/config/antigravity_mcp.json
+04_Tech_Lab/config/claude_desktop_obsidian_mcp.json
+.obsidian/plugins/obsidian-local-rest-api/data.json
+.obsidian/plugins/mcp-tools/data.json
+*secret*
+*apikey*
+*.key
+
+# --- BIG MEDIA (too large for GitHub; keep in cloud/external) ---
+02_Media_Vault/
+**/*.mp4
+**/*.MP4
+**/*.mov
+**/*.MOV
+**/*.zip
+**/*.psd
+
+# --- machine / build junk ---
+.obsidian/
+legacy_backup/
+node_modules/
+**/node_modules/
+**/.next/
+**/.turbo/
+**/_Archive*/
+Launcher_Archive/
+__pycache__/
+*.pyc
+.tmp.driveupload/
+desktop.ini
+**/desktop.ini
+04_Tech_Lab/logs/
+04_Tech_Lab/checkpoints/
+
+# --- keep everything else: playbooks, scripts, dashboards, SOPs ---

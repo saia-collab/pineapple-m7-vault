@@ -1,0 +1,11 @@
+{
+  "name": "pineapple-m7",
+  "version": "1.0.0",
+  "description": "Pineapple Contractors M7 Growth Suite: Automated copy drafting, photo auditing, and asset-tagged video scripting.",
+  "author": {
+    "name": "Tatafu Veehala"
+  },
+  "commands": [
+    "./commands/"
+  ]
+}

@@ -1,0 +1,28 @@
+name: generate_cppa_proposal
+description: Draft a Complimentary Professional Photo Audit (CPPA) proposal using the PACT framework.
+version: 1.0
+owner: hermes
+grounding:
+  - 03_Knowledge_Mat/GROUNDING.md
+  - 01_Command_Center/MASTER_PLAYBOOK.md
+inputs:
+  lead:
+    type: object
+    description: Scored lead (see m7_scoring.py output).
+framework: PACT
+  # Problem identification -> Anchor cultural context (Tauhi Va) ->
+  # Complimentary Photo Audit solution -> Trust-based CTA.
+steps:
+  - score: python 04_Tech_Lab/Scripts/m7_scoring.py --lead "{{lead}}"
+  - draft: compose PACT proposal grounded in GROUNDING.md lexicon
+  - audit: python 04_Tech_Lab/Scripts/brand_firewall.py --fix
+  - stage: write to 01_Command_Center/Outbox_Drafts/ (delivery_state PAUSED)
+outputs:
+  proposal_md: PAUSED draft in Outbox_Drafts/
+guardrails:
+  - Use "Complimentary Professional Photo Audit (CPPA)", never "free".
+  - Minimum project baseline $18,000; below = reject.
+  - PAUSED until human authorization.
+closing: "Ko e hala 'o e fononga ko e faka'apa'apa."
+
+<!-- M7-FIREWALL-EXEMPT: governance-reference -->

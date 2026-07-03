@@ -1,0 +1,29 @@
+name: social_content_batch
+description: Batch-generate the 1-3-12 creative set on the 50/5/3 video framework.
+version: 1.0
+owner: hermes
+grounding:
+  - 03_Knowledge_Mat/GROUNDING.md
+  - 01_Command_Center/MASTER_PLAYBOOK.md
+inputs:
+  campaign:
+    type: object
+    description: 1-3-12 spec (1 CBO, 3 avatars, 12 creatives).
+structure:
+  campaign: 1 (CBO $250/week)
+  avatars: [The Local Fan, The Culture Seeker, The Founder's Circle]
+  creatives: 12
+  video: "50/5/3 (50s total | hook frames 0-15 | end card frames 1411-1500)"
+  angles: [Heritage/Local, CPPA Value, Premium Durability]
+steps:
+  - build: compose 12 creatives across 3 angles
+  - audit: python 04_Tech_Lab/Scripts/brand_firewall.py --fix
+  - score: python 04_Tech_Lab/Scripts/m7_scoring.py --campaign "{{campaign}}"
+  - stage: write to 01_Command_Center/Outbox_Drafts/ (delivery_state PAUSED)
+guardrails:
+  - Advantage+ creative enhancements OFF.
+  - 1% Kill / 1.5% Scale enforced; CPL target $50, max $250.
+  - All delivery PAUSED until human authorization (Outbox Shield).
+closing: "Ko e hala 'o e fononga ko e faka'apa'apa."
+
+<!-- M7-FIREWALL-EXEMPT: governance-reference -->

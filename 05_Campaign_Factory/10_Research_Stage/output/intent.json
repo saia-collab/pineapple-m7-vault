@@ -1,0 +1,39 @@
+{
+  "stage": "10_Research_Stage",
+  "envelope_state": "DRAFT",
+  "next_state_on_completion": "READY",
+  "generated": "2026-06-22",
+  "service_region": {
+    "zips": ["75033", "75034", "75035", "75067", "75068"],
+    "radius_miles": "10-15"
+  },
+  "time_window": {
+    "start": "2026-05-23",
+    "end": "2026-06-22",
+    "label": "last 30 days"
+  },
+  "in_vault_ground_truth": {
+    "may_performance": "01_Command_Center/M7_INTEGRATED_CAMPAIGN.md \u00a71",
+    "audience_segments": "01_Command_Center/M7_INTEGRATED_CAMPAIGN.md \u00a72",
+    "faq_claim_window": "01_Command_Center/M7_INTEGRATED_CAMPAIGN.md \u00a75",
+    "lead_matrix": "01_Command_Center/GROUNDING.md \u00a74",
+    "meta_1_3_12": "01_Command_Center/MASTER_PLAYBOOK.md"
+  },
+  "external_sources_pending_ingest": [
+    "NWS Fort Worth severe weather reports (2026-05-23 \u2192 2026-06-22)",
+    "NCEI Storm Events Database \u2014 Collin + Denton County",
+    "NOAA SPC storm reports archive",
+    "Texas Department of Insurance claim-window guidance",
+    "Texas Insurance Code \u00a7542 (prompt-pay + claim window)",
+    "RCAT license lookup (#03-0637 verification)",
+    "IKO Certified Contractor registry",
+    "Google Maps / SERP \u2014 Frisco roofer competitor angles"
+  ],
+  "gaps_top_3_for_q3": [
+    "How do I know if my Frisco roof needs replacement or just repair?",
+    "What happens if my insurance company's adjuster already came out and said no?",
+    "Do you handle commercial flat-roof systems (TPO, modified bitumen)?"
+  ],
+  "firewall_status": "PASS",
+  "outbox_shield": "PAUSED \u2014 Saia is the only publisher and the only spender"
+}

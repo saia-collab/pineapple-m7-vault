@@ -1,0 +1,41 @@
+# =============================================================================
+# M7 AGENTIC OS — service container orchestration
+# Local-first. Brings up the engine, local model runtime, and the firewall guard.
+# Outbox Shield: no service publishes live or moves money.
+# Ko e hala 'o e fononga ko e faka'apa'apa.
+# =============================================================================
+version: "3.9"
+
+services:
+  m7-engine:
+    image: node:22-alpine
+    container_name: m7_engine
+    working_dir: /vault/04_Tech_Lab
+    command: sh -c "npm install express --no-audit --no-fund && node server.js"
+    ports:
+      - "3000:3000"          # dashboard + APIs
+    volumes:
+      - "..:/vault/04_Tech_Lab"
+      - "../../01_Command_Center:/vault/01_Command_Center"
+    restart: unless-stopped
+
+  ollama:
+    image: ollama/ollama:latest
+    container_name: m7_ollama
+    ports:
+      - "11434:11434"        # local inference API
+    volumes:
+      - ollama_models:/root/.ollama
+    restart: unless-stopped
+
+  brand-firewall:
+    image: python:3.11-slim
+    container_name: m7_firewall
+    working_dir: /vault
+    command: sh -c "pip install watchdog --quiet && python 04_Tech_Lab/Scripts/brand_firewall.py --root /vault --watch --fix"
+    volumes:
+      - "../../:/vault"
+    restart: unless-stopped
+
+volumes:
+  ollama_models:

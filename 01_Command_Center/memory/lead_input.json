@@ -1,0 +1,26 @@
+{
+  "company": "Acme Roofing",
+  "budget_signals": {
+    "funding_amount": 8000000,
+    "employee_count": 120,
+    "pricing_visible": true,
+    "tech_spend_indicators": ["cloud", "software"]
+  },
+  "authority_signals": {
+    "decision_makers_found": 2,
+    "c_suite_identified": true,
+    "org_chart_mapped": false
+  },
+  "need_signals": {
+    "pain_points_detected": 4,
+    "job_posts_relevant": true,
+    "reviews_mention_pain": false,
+    "competitor_complaints": 1
+  },
+  "timeline_signals": {
+    "hiring_for_role": false,
+    "recent_funding": true,
+    "contract_renewal": false,
+    "urgency_mentions": 2
+  }
+}

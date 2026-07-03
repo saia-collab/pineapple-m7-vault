@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🍍 M7 Notebook Bay</title>
+<style>
+:root{--navy:#0a1728;--panel:#13233c;--panel2:#0f1f37;--line:#24405e;--gold:#FBC02D;--cyan:#00BFFF;--ink:#e8eef7;--muted:#8ea4c2;--sub:#5d75a0;}
+*{box-sizing:border-box;margin:0;padding:0;font-family:'Segoe UI',Arial,sans-serif;}
+html,body{height:100%;}
+body{background:radial-gradient(1000px 500px at 80% -10%,#15304f33,transparent),var(--navy);color:var(--ink);height:100vh;display:flex;flex-direction:column;overflow:hidden;}
+.top{display:flex;align-items:center;gap:12px;padding:11px 18px;background:linear-gradient(90deg,#091525,#10243f00);border-bottom:1px solid var(--line);}
+.brand{font-weight:800;letter-spacing:1px;font-size:15px;}.brand b{color:var(--gold);}
+.top .btn{background:var(--gold);color:#0b1b30;border:none;padding:8px 13px;border-radius:8px;font-weight:700;cursor:pointer;font-size:12px;}
+.top .btn.ghost{background:transparent;color:#cfe0f5;border:1px solid var(--line);}
+.top .right{margin-left:auto;display:flex;gap:8px;}
+.wrap{flex:1;display:flex;min-height:0;}
+.reader{flex:1.5;display:flex;flex-direction:column;border-right:1px solid var(--line);min-width:0;}
+.drop{margin:14px;border:2px dashed #46618a;border-radius:12px;flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;color:var(--muted);cursor:pointer;text-align:center;padding:20px;}
+.drop.hot{border-color:var(--gold);color:var(--gold);background:#13294a;}
+.drop .big{font-size:40px;margin-bottom:10px;}
+#pages{flex:1;overflow:auto;padding:14px;display:none;}
+#pages canvas{width:100%;max-width:780px;margin:0 auto 14px;display:block;border:1px solid var(--line);border-radius:8px;background:#fff;}
+.pdfbar{display:none;align-items:center;gap:10px;padding:8px 14px;border-bottom:1px solid var(--line);font-size:12px;color:var(--muted);}
+.pdfbar b{color:var(--gold);}
+.notes{flex:1;display:flex;flex-direction:column;min-width:300px;}
+.notes h3{font-size:12px;color:#dce8f7;padding:12px 14px 6px;display:flex;align-items:center;gap:7px;}
+.notes textarea{flex:1;margin:0 14px 12px;background:#0c1c31;border:1px solid var(--line);border-radius:10px;color:var(--ink);padding:12px;font-size:13px;line-height:1.6;resize:none;}
+.notes .row{display:flex;gap:8px;padding:0 14px 14px;}
+.notes .row button{flex:1;background:transparent;color:#cfe0f5;border:1px solid var(--line);border-radius:8px;padding:9px;font-size:12px;cursor:pointer;}
+.notes .row button.gold{background:var(--gold);color:#0b1b30;border:none;font-weight:700;}
+.hint{font-size:10.5px;color:var(--sub);padding:0 14px 8px;}
+#toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%) translateY(20px);background:#13294a;border:1px solid var(--gold);color:#fff;padding:9px 15px;border-radius:9px;font-size:12.5px;opacity:0;transition:.25s;}
+#toast.show{opacity:1;transform:translateX(-50%) translateY(0);}
+</style>
+</head>
+<body>
+<div class="top">
+  <div class="brand">🍍 M7 <b>NOTEBOOK BAY</b> — read · highlight · note (no server, no Google, no tokens)</div>
+  <div class="right">
+    <button class="btn ghost" onclick="document.getElementById('file').click()">📄 Open PDF</button>
+    <button class="btn ghost" onclick="location.href='M7_COMMAND_CENTER.html'">← Command Center</button>
+  </div>
+</div>
+<input type="file" id="file" accept="application/pdf" style="display:none">
+
+<div class="wrap">
+  <div class="reader">
+    <div class="pdfbar" id="pdfbar"><span id="fname"></span> · <b id="pcount"></b></div>
+    <div class="drop" id="drop">
+      <div class="big">📄⬇</div>
+      <div><b>Drop a PDF here</b> (roofing manual, hail scope, insurance doc, playbook)</div>
+      <div class="hint" style="margin-top:8px;">Reads 100% on your computer. Nothing is uploaded anywhere.</div>
+    </div>
+    <div id="pages"></div>
+  </div>
+
+  <div class="notes">
+    <h3>📝 Notes</h3>
+    <textarea id="notes" placeholder="Type notes as you read. Money quotes, hail facts, claim numbers, content hooks…&#10;&#10;Tip: paste a testimonial transcript and pull the strongest lines for an ad."></textarea>
+    <div class="hint">Auto-saved in this browser. Export to drop into your vault (03_Knowledge_Mat).</div>
+    <div class="row">
+      <button onclick="clearNotes()">Clear</button>
+      <button class="gold" onclick="downloadNotes()">⬇ Save notes (.md)</button>
+    </div>
+  </div>
+</div>
+<div id="toast"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<script>
+let toastT;function toast(m){const t=document.getElementById('toast');t.textContent=m;t.classList.add('show');clearTimeout(toastT);toastT=setTimeout(()=>t.classList.remove('show'),3000);}
+if(window['pdfjsLib']){pdfjsLib.GlobalWorkerOptions.workerSrc="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js";}
+
+const drop=document.getElementById('drop'),fileInput=document.getElementById('file'),pages=document.getElementById('pages');
+['dragover','dragenter'].forEach(e=>drop.addEventListener(e,ev=>{ev.preventDefault();drop.classList.add('hot');}));
+['dragleave','drop'].forEach(e=>drop.addEventListener(e,ev=>{ev.preventDefault();drop.classList.remove('hot');}));
+drop.addEventListener('click',()=>fileInput.click());
+drop.addEventListener('drop',ev=>{if(ev.dataTransfer.files[0])openPDF(ev.dataTransfer.files[0]);});
+fileInput.addEventListener('change',()=>{if(fileInput.files[0])openPDF(fileInput.files[0]);});
+
+function openPDF(file){
+  if(file.type!=="application/pdf"){toast("Please drop a PDF.");return;}
+  if(!window['pdfjsLib']){toast("PDF engine still loading — try again in a second (needs internet once).");return;}
+  const fr=new FileReader();
+  fr.onload=function(){
+    const td=new Uint8Array(fr.result);
+    pdfjsLib.getDocument({data:td}).promise.then(pdf=>{
+      pages.innerHTML="";pages.style.display="block";drop.style.display="none";
+      document.getElementById('pdfbar').style.display="flex";
+      document.getElementById('fname').textContent=file.name;
+      document.getElementById('pcount').textContent=pdf.numPages+" pages";
+      for(let n=1;n<=pdf.numPages;n++){
+        pdf.getPage(n).then(page=>{
+          const vp=page.getViewport({scale:1.4});
+          const cv=document.createElement('canvas');cv.width=vp.width;cv.height=vp.height;
+          pages.appendChild(cv);
+          page.render({canvasContext:cv.getContext('2d'),viewport:vp});
+        });
+      }
+      toast("Loaded "+file.name);
+    }).catch(e=>toast("Could not open PDF: "+e));
+  };
+  fr.readAsArrayBuffer(file);
+}
+
+/* notes persistence */
+const NK="m7_notebook_notes";
+const ta=document.getElementById('notes');
+try{ta.value=localStorage.getItem(NK)||"";}catch(e){}
+ta.addEventListener('input',()=>{try{localStorage.setItem(NK,ta.value);}catch(e){}});
+function clearNotes(){if(confirm("Clear notes?")){ta.value="";try{localStorage.removeItem(NK);}catch(e){}}}
+function downloadNotes(){
+  const d=new Date().toISOString().slice(0,10);
+  const blob=new Blob(["# M7 Notebook notes — "+d+"\n\n"+ta.value+"\n"],{type:"text/markdown"});
+  const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=d+"_notebook_notes.md";a.click();
+  toast("Saved — drop it into 03_Knowledge_Mat/");
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<!-- PINEAPPLE CONTRACTORS M7 — OS_Dashboard.html
+     Standalone local Mission Control. Zero external hosting dependencies.
+     Palette: Royal Navy #1A365D / Pineapple Gold #FBC02D / Status Cyan #00BFFF.
+     The color green is strictly prohibited.
+     M7-FIREWALL-EXEMPT: green-detection-tooling -->
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>M7 OS — Mission Control</title>
+<style>
+  :root{
+    --navy:#1A365D; --navy-deep:#001122; --gold:#FBC02D; --gold-soft:#E5A93C;
+    --cyan:#00BFFF; --white:#FFFFFF; --ink:#0a1626; --line:rgba(251,192,45,.22);
+    --card:rgba(255,255,255,.04);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{
+    font-family:'Inter','Segoe UI',system-ui,sans-serif;
+    background:radial-gradient(1200px 600px at 70% -10%, #11294a 0%, var(--navy-deep) 60%);
+    color:var(--white); min-height:100vh; padding:28px;
+  }
+  header{display:flex;align-items:center;justify-content:space-between;
+    border-bottom:2px solid var(--gold); padding-bottom:16px; margin-bottom:24px;flex-wrap:wrap;gap:12px}
+  .brand{display:flex;align-items:center;gap:14px}
+  .badge{width:46px;height:46px;border-radius:12px;background:var(--gold);
+    color:var(--navy-deep);font-weight:800;font-size:22px;display:grid;place-items:center}
+  h1{font-size:20px;letter-spacing:.5px}
+  h1 span{color:var(--gold)}
+  .sub{font-size:12px;color:var(--cyan);letter-spacing:1px;text-transform:uppercase}
+  .clock{font-variant-numeric:tabular-nums;color:var(--gold);font-weight:600}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px;
+    backdrop-filter:blur(6px)}
+  .card h2{font-size:13px;text-transform:uppercase;letter-spacing:1.2px;color:var(--gold);
+    margin-bottom:12px;display:flex;align-items:center;gap:8px}
+  .dot{width:9px;height:9px;border-radius:50%;background:var(--cyan);box-shadow:0 0 10px var(--cyan)}
+  .metric{display:flex;justify-content:space-between;align-items:baseline;
+    padding:7px 0;border-bottom:1px dashed rgba(255,255,255,.08);font-size:14px}
+  .metric:last-child{border-bottom:none}
+  .metric b{color:var(--gold);font-size:15px}
+  .pill{display:inline-block;font-size:11px;padding:2px 9px;border-radius:999px;
+    background:rgba(0,191,255,.15);color:var(--cyan);border:1px solid rgba(0,191,255,.35)}
+  .pill.warn{background:rgba(251,192,45,.15);color:var(--gold);border-color:rgba(251,192,45,.4)}
+  .bar{height:7px;border-radius:6px;background:rgba(255,255,255,.1);overflow:hidden;margin-top:6px}
+  .bar > i{display:block;height:100%;background:linear-gradient(90deg,var(--gold),var(--cyan))}
+  .avatar-name{font-weight:700;color:var(--white)}
+  .muted{color:rgba(255,255,255,.6);font-size:12px}
+  /* 50/5/3 timeline */
+  .timeline{display:flex;height:34px;border-radius:8px;overflow:hidden;margin-top:8px;font-size:11px;font-weight:700}
+  .seg{display:grid;place-items:center;color:var(--navy-deep)}
+  .seg.hook{background:var(--gold);flex: 15}
+  .seg.body{background:var(--cyan);flex: 1395}
+  .seg.card2{background:var(--gold-soft);flex: 90}
+  /* Firewall terminal */
+  .terminal{grid-column:1/-1;background:var(--navy-deep);border:1px solid var(--gold);
+    border-radius:16px;padding:18px}
+  .terminal h2{color:var(--gold)}
+  .term-row{display:flex;gap:10px;margin-top:10px;flex-wrap:wrap}
+  .term-row input{flex:1;min-width:240px;background:#06101f;border:1px solid var(--line);
+    color:var(--white);padding:12px 14px;border-radius:10px;font-size:14px;font-family:inherit}
+  .term-row button{background:var(--gold);color:var(--navy-deep);border:none;
+    padding:12px 22px;border-radius:10px;font-weight:800;cursor:pointer}
+  .term-row button:hover{background:var(--cyan)}
+  .term-out{margin-top:14px;font-family:'Consolas','Courier New',monospace;font-size:13px;
+    background:#06101f;border-radius:10px;padding:14px;min-height:54px;line-height:1.6;white-space:pre-wrap}
+  /* AI fleet */
+  .fleet-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
+  .model{background:#06101f;border:1px solid var(--line);border-radius:12px;padding:14px}
+  .model .top{display:flex;align-items:center;justify-content:space-between;margin-bottom:6px}
+  .model .nm{font-weight:800;color:var(--white)}
+  .model .role{font-size:12px;color:rgba(255,255,255,.6);margin-bottom:8px}
+  .model .det{font-size:12px;color:var(--cyan)}
+  .led{width:10px;height:10px;border-radius:50%;display:inline-block}
+  .led.on{background:var(--cyan);box-shadow:0 0 10px var(--cyan)}
+  .led.off{background:var(--gold-soft);box-shadow:0 0 8px var(--gold-soft)}
+  .statebadge{font-size:11px;padding:2px 9px;border-radius:999px;border:1px solid}
+  .statebadge.on{color:var(--cyan);border-color:rgba(0,191,255,.4);background:rgba(0,191,255,.12)}
+  .statebadge.off{color:var(--gold);border-color:rgba(251,192,45,.4);background:rgba(251,192,45,.12)}
+  /* runner */
+  .run-row{display:flex;gap:10px;flex-wrap:wrap}
+  .run-row button{background:var(--gold);color:var(--navy-deep);border:none;padding:10px 16px;
+    border-radius:10px;font-weight:800;cursor:pointer;font-size:13px}
+  .run-row button:hover{background:var(--cyan)}
+  .run-row input{flex:1;min-width:260px;background:#06101f;border:1px solid var(--line);
+    color:var(--white);padding:10px 14px;border-radius:10px;font-size:13px;font-family:inherit}
+  /* sparklines */
+  .spark-wrap{margin-top:10px}
+  .spark-wrap svg{width:100%;height:38px;display:block}
+  .spark-label{font-size:10px;letter-spacing:.5px;text-transform:uppercase}
+  .ok{color:var(--cyan)} .mut{color:var(--gold)} .crit{color:#ff5c7c}
+  footer{margin-top:26px;text-align:center;color:var(--gold);font-style:italic;
+    border-top:1px solid var(--line);padding-top:16px;letter-spacing:.4px}
+</style>
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <div class="badge">🍍</div>
+      <div>
+        <h1>PINEAPPLE CONTRACTORS <span>M7</span> — MISSION CONTROL</h1>
+        <div class="sub">Sovereign Agentic OS · Local-First · Outbox Shielded</div>
+      </div>
+    </div>
+    <div style="text-align:right">
+      <div class="clock" id="clock">--:--:--</div>
+      <div class="muted">C:\Pineapple Contractors M7\</div>
+    </div>
+  </header>
+
+  <div class="grid">
+
+    <!-- SYSTEM COMPONENT STATUS -->
+    <div class="card">
+      <h2><span class="dot"></span> System Components</h2>
+      <div class="metric">Claude Code <span class="pill">ENABLED</span></div>
+      <div class="metric">Hermes Coordinator <span class="pill">DAEMON 24/7</span></div>
+      <div class="metric">OpenClaw Gateway <span class="pill">ENABLED</span></div>
+      <div class="metric">Obsidian Vault (MCP) <span class="pill">SYNCED</span></div>
+      <div class="metric">Antigravity Engine <span class="pill">READY</span></div>
+      <div class="metric">Brand Firewall <span class="pill warn">ARMED</span></div>
+    </div>
+
+    <!-- AVATAR: THE LOCAL FAN -->
+    <div class="card" id="card-local_fan">
+      <h2><span class="dot"></span> The Local Fan</h2>
+      <div class="avatar-name">Frisco homeowners 35–65 · near The Star</div>
+      <div class="metric">CTR <b data-f="ctr">—</b></div>
+      <div class="metric">CPL <b data-f="cpl">—</b></div>
+      <div class="metric">Status <span class="pill" data-f="status">—</span></div>
+      <div class="bar"><i data-f="bar" style="width:0%"></i></div>
+      <div class="spark-wrap"><svg data-f="spark" viewBox="0 0 200 38" preserveAspectRatio="none"></svg>
+        <span class="spark-label muted">CTR trend</span></div>
+    </div>
+
+    <!-- AVATAR: THE CULTURE SEEKER -->
+    <div class="card" id="card-culture_seeker">
+      <h2><span class="dot"></span> The Culture Seeker</h2>
+      <div class="avatar-name">Heritage &amp; community honor · Tauhi Vā</div>
+      <div class="metric">CTR <b data-f="ctr">—</b></div>
+      <div class="metric">CPL <b data-f="cpl">—</b></div>
+      <div class="metric">Status <span class="pill" data-f="status">—</span></div>
+      <div class="bar"><i data-f="bar" style="width:0%"></i></div>
+      <div class="spark-wrap"><svg data-f="spark" viewBox="0 0 200 38" preserveAspectRatio="none"></svg>
+        <span class="spark-label muted">CTR trend</span></div>
+    </div>
+
+    <!-- AVATAR: THE FOUNDER'S CIRCLE -->
+    <div class="card" id="card-founders_circle">
+      <h2><span class="dot"></span> The Founder's Circle</h2>
+      <div class="avatar-name">B2B property managers · investors · hotels</div>
+      <div class="metric">CTR <b data-f="ctr">—</b></div>
+      <div class="metric">CPL <b data-f="cpl">—</b></div>
+      <div class="metric">Status <span class="pill" data-f="status">—</span></div>
+      <div class="bar"><i data-f="bar" style="width:0%"></i></div>
+      <div class="spark-wrap"><svg data-f="spark" viewBox="0 0 200 38" preserveAspectRatio="none"></svg>
+        <span class="spark-label muted">CTR trend</span></div>
+    </div>
+
+    <!-- 50/5/3 LEGO VIDEO ENGINE -->
+    <div class="card">
+      <h2><span class="dot"></span> 50/5/3 Lego Video Engine</h2>
+      <div class="metric">Total runtime <b>50s · 1500f @30fps</b></div>
+      <div class="metric">Disruptive hook <b>frames 0–15</b></div>
+      <div class="metric">Core body <b>frames 16–1410</b></div>
+      <div class="metric">End card <b>3s · frames 1411–1500</b></div>
+      <div class="timeline">
+        <div class="seg hook">HOOK</div>
+        <div class="seg body">CORE BODY · drone + restoration</div>
+        <div class="seg card2">CTA</div>
+      </div>
+      <div class="muted" style="margin-top:8px">End card: Pineapple Gold on Royal Navy · 972-928-0788</div>
+    </div>
+
+    <!-- 1-3-12 OFFENSIVE SUMMARY -->
+    <div class="card">
+      <h2><span class="dot"></span> 1-3-12 Meta Offensive</h2>
+      <div class="metric">Campaign (CBO) <b>$250 / week</b></div>
+      <div class="metric">Ad sets (avatars) <b>3</b></div>
+      <div class="metric">Creatives <b>12</b></div>
+      <div class="metric">1% Kill Rule <span class="pill">CTR &lt; 1.0%</span></div>
+      <div class="metric">1.5% Scale Rule <span class="pill">CTR &gt; 1.5%</span></div>
+      <div class="metric">CPL target / max <b>$50 / $250</b></div>
+      <div class="metric">Live delivery <span class="pill warn">PAUSED — Outbox Shield</span></div>
+    </div>
+
+    <!-- AI MODEL FLEET -->
+    <div class="card" style="grid-column:1/-1">
+      <h2><span class="dot"></span> AI Model Fleet <span class="muted" id="fleetStamp" style="margin-left:auto;font-weight:400"></span></h2>
+      <div id="fleet" class="fleet-grid">
+        <div class="muted">Connecting to engine on :3000…</div>
+      </div>
+    </div>
+
+    <!-- VAULT & WORKFLOW (Obsidian + library + daily sync) -->
+    <div class="card" style="grid-column:1/-1">
+      <h2><span class="dot"></span> Vault &amp; Workflow <span class="muted" id="syncStamp" style="margin-left:auto;font-weight:400"></span></h2>
+      <div class="fleet-grid">
+        <div class="model"><div class="role">Skills (library)</div><div class="nm" id="vSkills">—</div></div>
+        <div class="model"><div class="role">Templates (library)</div><div class="nm" id="vTemplates">—</div></div>
+        <div class="model"><div class="role">Last daily sync</div><div class="det" id="vSync">—</div></div>
+        <div class="model"><div class="role">Outbox Shield</div><div class="nm" id="vShield" style="color:var(--gold)">PAUSED</div></div>
+      </div>
+      <div class="muted" style="margin-top:8px">Auto-refreshed by M7_DAILY_SYNC.bat (Task Scheduler). Catalog: 00_Atlas/CATALOG.md</div>
+    </div>
+
+    <!-- TASK & PLAYBOOK RUNNER -->
+    <div class="card" style="grid-column:1/-1">
+      <h2><span class="dot"></span> Task &amp; Playbook Runner</h2>
+      <div class="run-row">
+        <button onclick="runTask('firewall_scan')">Firewall Scan</button>
+        <button onclick="runTask('firewall_fix')">Firewall Fix</button>
+        <button onclick="runTask('score_demo')">Score 1-3-12</button>
+        <button onclick="runTask('refresh_telemetry')">Refresh Telemetry</button>
+        <button onclick="runTask('scaffold')">Verify Topography</button>
+      </div>
+      <div class="run-row" style="margin-top:10px">
+        <input id="olPrompt" placeholder="Ask the local Ollama model (e.g. draft a CPPA hook for Frisco)…" />
+        <button onclick="askOllama()">Run on Ollama</button>
+      </div>
+      <div class="run-row" style="margin-top:10px">
+        <input id="hermesGoal" placeholder="Dispatch a Hermes goal (e.g. assemble the 1-3-12 Storm campaign, leave PAUSED)…" />
+        <button onclick="dispatchHermes()">Launch Hermes Goal</button>
+      </div>
+      <div class="term-out" id="runOut">Idle. Engine APIs: /api/execute · /api/ollama · /api/hermes · /api/models</div>
+    </div>
+
+    <!-- CLIENT-SIDE BRAND FIREWALL TERMINAL -->
+    <div class="terminal">
+      <h2><span class="dot"></span> Brand Firewall — Live Compliance Terminal</h2>
+      <div class="muted">Type any ad copy. Banned terms are intercepted and rewritten on the fly. Green references are blocked.</div>
+      <div class="term-row">
+        <input id="fwInput" placeholder='e.g. "Free roof inspection, $0 down, GAF Certified"' />
+        <button onclick="runFirewall()">MUTATE &amp; VALIDATE</button>
+      </div>
+      <div class="term-out" id="fwOut">Awaiting input…</div>
+    </div>
+
+  </div>
+
+  <footer>Ko e hala 'o e fononga ko e faka'apa'apa.</footer>
+
+<script>
+/* ----------------------------------------------------------------------
+   CLIENT-SIDE BRAND FIREWALL — mirrors 04_Tech_Lab/Scripts/brand_firewall.py
+---------------------------------------------------------------------- */
+const LEXICON = [
+  [/free\s+inspection/ig, "Complimentary Professional Photo Audit (CPPA)"],
+  [/free\s+quote/ig,      "Complimentary Professional Photo Audit (CPPA)"],
+  [/free\s+estimate/ig,   "Complimentary Professional Photo Audit (CPPA)"],
+  [/\$0\s*(down|out\s*of\s*pocket)/ig, "Full Restoration Coverage"],
+  [/adjusters?\s+miss\s+damage/ig, "Comprehensive documentation for a successful claim"],
+  [/save\s+money/ig,      "Protecting your family's investment"],
+  [/gaf\s+master\s+elite\s+certified/ig, "IKO Certified (RCAT License #03-0637)"],
+  [/gaf\s+certified/ig,   "IKO Certified (RCAT License #03-0637)"],
+  [/six\s+brothers/ig,    "The Pineapple Standard"],
+  [/\bwarrior\b/ig,       "The Pineapple Standard"],
+  [/\btoa\b/ig,           "The Pineapple Standard"],
+  [/\bconsultation\b/ig,  "Complimentary Professional Photo Audit (CPPA)"],
+  [/\bfree\b/ig,          "Complimentary"],
+];
+const GREEN = [
+  /#00ff00\b/ig, /#2d7d46\b/ig, /#008000\b/ig,
+  /#(3cb371|2e8b57|228b22|32cd32|90ee90)\b/ig,
+  /\bgreen\b/ig,
+  /\b(lime|forestgreen|seagreen|olive|darkgreen|lightgreen|springgreen|chartreuse)\b/ig,
+  /\b(bg|text|border|ring|from|to|via)-green-\d{2,3}\b/ig,
+];
+
+function runFirewall(){
+  const raw = document.getElementById('fwInput').value || "";
+  const out = document.getElementById('fwOut');
+  if(!raw.trim()){ out.textContent = "Awaiting input…"; return; }
+
+  // Critical: green check first.
+  let greenHit = GREEN.some(rx => rx.test(raw));
+  let mutated = raw, count = 0;
+  LEXICON.forEach(([rx,repl])=>{
+    if(rx.test(mutated)){ count += (mutated.match(rx)||[]).length; mutated = mutated.replace(rx, repl); }
+  });
+
+  let html = "";
+  html += '<span class="muted">INPUT :</span> ' + escapeHtml(raw) + "\n";
+  html += '<span class="muted">OUTPUT:</span> ' + escapeHtml(mutated) + "\n";
+  if(greenHit){
+    html += '<span class="crit">STATUS: CRITICAL — green reference blocked. Build would fail (exit 1).</span>';
+  } else if(count > 0){
+    html += '<span class="mut">STATUS: ' + count + ' banned term(s) mutated to brand-compliant copy.</span>';
+  } else {
+    html += '<span class="ok">STATUS: OK — compliant. No infractions.</span>';
+  }
+  out.innerHTML = html;
+}
+function escapeHtml(s){return s.replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));}
+
+/* ----------------------------------------------------------------------
+   LIVE TELEMETRY — reads avatar_telemetry.json if served locally,
+   otherwise renders representative local-state values.
+---------------------------------------------------------------------- */
+const FALLBACK = {
+  local_fan:      {ctr:0.6, cpl:70,  status:"PAUSE (1% Kill)"},
+  culture_seeker: {ctr:1.9, cpl:38,  status:"SCALE (+15%)"},
+  founders_circle:{ctr:1.2, cpl:120, status:"HOLD"},
+};
+function paint(data){
+  Object.keys(data).forEach(key=>{
+    const card = document.getElementById('card-'+key); if(!card) return;
+    const d = data[key];
+    card.querySelector('[data-f="ctr"]').textContent = d.ctr.toFixed(2)+"%";
+    card.querySelector('[data-f="cpl"]').textContent = "$"+d.cpl;
+    const st = card.querySelector('[data-f="status"]');
+    st.textContent = d.status;
+    st.className = "pill" + (d.status.indexOf("PAUSE")>-1 ? " warn":"");
+    const pct = Math.max(0, Math.min(100, (d.ctr/1.5)*100));
+    card.querySelector('[data-f="bar"]').style.width = pct+"%";
+  });
+}
+async function loadTelemetry(){
+  try{
+    const r = await fetch('avatar_telemetry.json', {cache:'no-store'});
+    if(r.ok){ paint(await r.json()); return; }
+  }catch(e){}
+  paint(FALLBACK);
+}
+
+/* ----------------------------------------------------------------------
+   AI MODEL FLEET — live health from the engine (/api/models)
+---------------------------------------------------------------------- */
+async function loadModels(){
+  const el = document.getElementById('fleet');
+  try{
+    const r = await fetch('/api/models', {cache:'no-store'});
+    if(!r.ok) throw new Error('no engine');
+    const data = await r.json();
+    document.getElementById('fleetStamp').textContent =
+      'updated ' + new Date(data.generated).toLocaleTimeString('en-US',{hour12:false});
+    el.innerHTML = data.fleet.map(m=>{
+      const on = m.online;
+      const loaded = (m.loaded && m.loaded.length) ? (' · '+m.loaded.join(', ')) : '';
+      return `<div class="model">
+        <div class="top">
+          <span class="nm"><span class="led ${on?'on':'off'}"></span> ${m.label}</span>
+          <span class="statebadge ${on?'on':'off'}">${on?'ONLINE':m.status.toUpperCase()}</span>
+        </div>
+        <div class="role">${m.role}</div>
+        <div class="det">${escapeHtml(m.detail||'')}${escapeHtml(loaded)}</div>
+      </div>`;
+    }).join('');
+  }catch(e){
+    el.innerHTML = '<div class="muted">Engine offline. Start it: <b>node 04_Tech_Lab\\server.js</b> '
+      + '(or run RUN_M7_DASHBOARD.bat) and open this page at http://localhost:3000</div>';
+  }
+}
+
+/* TASK & PLAYBOOK RUNNER */
+async function runTask(task){
+  const out = document.getElementById('runOut');
+  out.innerHTML = '<span class="mut">Running '+task+'…</span>';
+  try{
+    const r = await fetch('/api/execute', {method:'POST',
+      headers:{'Content-Type':'application/json'}, body:JSON.stringify({task})});
+    const d = await r.json();
+    const cls = d.ok ? 'ok' : 'crit';
+    out.innerHTML = '<span class="muted">'+(d.label||task)+' (exit '+(d.exit??'?')+')</span>\n'
+      + '<span class="'+cls+'">'+escapeHtml((d.output||'').slice(0,4000))+'</span>';
+    if(task==='refresh_telemetry'){ loadTelemetry(); }
+  }catch(e){
+    out.innerHTML = '<span class="crit">Engine offline — start node 04_Tech_Lab\\server.js</span>';
+  }
+}
+
+async function askOllama(){
+  const out = document.getElementById('runOut');
+  const prompt = document.getElementById('olPrompt').value || '';
+  if(!prompt.trim()){ out.textContent='Enter a prompt for Ollama.'; return; }
+  out.innerHTML = '<span class="mut">Querying local Ollama…</span>';
+  try{
+    const r = await fetch('/api/ollama', {method:'POST',
+      headers:{'Content-Type':'application/json'}, body:JSON.stringify({prompt})});
+    const d = await r.json();
+    if(d.ok){ out.innerHTML = '<span class="muted">'+d.model+'</span>\n<span class="ok">'+escapeHtml(d.response)+'</span>'; }
+    else{ out.innerHTML = '<span class="crit">'+escapeHtml(d.error||'error')+' — '+escapeHtml(d.hint||'')+'</span>'; }
+  }catch(e){
+    out.innerHTML = '<span class="crit">Engine offline — start node 04_Tech_Lab\\server.js</span>';
+  }
+}
+
+/* HERMES GOAL DISPATCH */
+async function dispatchHermes(){
+  const out = document.getElementById('runOut');
+  const goal = document.getElementById('hermesGoal').value || '';
+  if(!goal.trim()){ out.textContent='Enter a goal for Hermes.'; return; }
+  out.innerHTML = '<span class="mut">Dispatching autonomous goal to Hermes…</span>';
+  try{
+    const r = await fetch('/api/hermes', {method:'POST',
+      headers:{'Content-Type':'application/json'}, body:JSON.stringify({goal})});
+    const d = await r.json();
+    if(d.ok){
+      out.innerHTML = '<span class="ok">Goal dispatched (Outbox Shield: PAUSED). Hermes is running the loop.</span>\n'
+        + '<span class="muted">'+escapeHtml(JSON.stringify(d.response).slice(0,1500))+'</span>';
+    } else {
+      out.innerHTML = '<span class="crit">'+escapeHtml(d.error||'error')+' — '+escapeHtml(d.hint||'')+'</span>';
+    }
+  }catch(e){
+    out.innerHTML = '<span class="crit">Engine offline — start node 04_Tech_Lab\\server.js</span>';
+  }
+}
+
+/* TREND SPARKLINES — CTR history per avatar (/api/history) */
+function drawSpark(svg, series){
+  if(!svg) return;
+  const W=200,H=38,pad=3;
+  if(!series || series.length<2){ svg.innerHTML='<text x="6" y="22" fill="#5b6b82" font-size="10">awaiting data…</text>'; return; }
+  const max=Math.max(...series,1.5), min=Math.min(...series,0);
+  const span=(max-min)||1;
+  const pts=series.map((v,i)=>{
+    const x=pad+(i*(W-2*pad)/(series.length-1));
+    const y=H-pad-((v-min)/span)*(H-2*pad);
+    return x.toFixed(1)+','+y.toFixed(1);
+  }).join(' ');
+  // 1.5% scale reference line
+  const yRef=H-pad-((1.5-min)/span)*(H-2*pad);
+  svg.innerHTML =
+    '<line x1="0" y1="'+yRef.toFixed(1)+'" x2="200" y2="'+yRef.toFixed(1)+'" stroke="#FBC02D" stroke-width="0.7" stroke-dasharray="3 3" opacity="0.5"/>'+
+    '<polyline points="'+pts+'" fill="none" stroke="#00BFFF" stroke-width="2" stroke-linejoin="round"/>';
+}
+async function loadHistory(){
+  try{
+    const r = await fetch('/api/history', {cache:'no-store'});
+    if(!r.ok) return;
+    const hist = await r.json();
+    ['local_fan','culture_seeker','founders_circle'].forEach(av=>{
+      const card=document.getElementById('card-'+av); if(!card) return;
+      const svg=card.querySelector('[data-f="spark"]');
+      const series=hist.map(h=>h.avatars && h.avatars[av] ? h.avatars[av].ctr : null).filter(v=>v!==null);
+      drawSpark(svg, series);
+    });
+  }catch(e){}
+}
+
+/* CLOCK */
+function tick(){
+  document.getElementById('clock').textContent =
+    new Date().toLocaleTimeString('en-US',{hour12:false});
+}
+setInterval(tick,1000); tick();
+loadTelemetry();
+loadModels();
+loadHistory();
+
+/* VAULT & WORKFLOW — reads sync_status.json (written by M7_DAILY_SYNC.bat) */
+async function loadSync(){
+  try{
+    const r = await fetch('/sync_status.json', {cache:'no-store'});
+    if(!r.ok){ document.getElementById('vSync').textContent='run REGISTER_DAILY_SYNC.bat to enable'; return; }
+    const d = await r.json();
+    document.getElementById('vSkills').textContent = d.skills ?? '—';
+    document.getElementById('vTemplates').textContent = d.templates ?? '—';
+    document.getElementById('vSync').textContent = d.last_sync ? new Date(d.last_sync).toLocaleString() : 'not yet run';
+    document.getElementById('vShield').textContent = d.outbox_shield || 'PAUSED';
+    document.getElementById('syncStamp').textContent = 'synced';
+  }catch(e){
+    document.getElementById('vSync').textContent = 'run REGISTER_DAILY_SYNC.bat to enable';
+  }
+}
+loadSync();
+setInterval(loadModels, 15000);
+setInterval(loadHistory, 15000);
+setInterval(loadSync, 30000);
+</script>
+</body>
+</html>

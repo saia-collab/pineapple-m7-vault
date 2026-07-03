@@ -1,0 +1,626 @@
+{
+  "campaign": "Pineapple Contractors — Corporate Meta Ads 2026",
+  "seasonal_window": "June 1 — August 31, 2026",
+  "focus_areas": ["Summer Heat Stress", "Commercial Restoration", "Insurance Deadline Urgency"],
+  "compliance": {
+    "certification": "IKO Certified",
+    "offer_language": "Complimentary",
+    "financial_language": "Full Restoration Coverage",
+    "forbidden": ["GAF", "Complimentary", "Complimentary", "$0", "zero dollars", "Frisco"]
+  },
+  "hooks": [
+    {
+      "id": "H001",
+      "category": "Summer Heat Damage",
+      "text": "June heat just opened up that spring hail damage. It's spreading inside your attic RIGHT NOW.",
+      "visual_cue": "Thermal imaging of roof heat signature + water intrusion",
+      "narrative_layer": "Problem",
+      "channel_priority": ["meta_ads", "tiktok"]
+    },
+    {
+      "id": "H002",
+      "category": "Insurance Deadline",
+      "text": "Your insurance claim window closes in 60 days. Not 60 weeks. 60 days.",
+      "visual_cue": "Calendar with red deadline highlight",
+      "narrative_layer": "Urgency",
+      "channel_priority": ["meta_ads", "linkedin"]
+    },
+    {
+      "id": "H003",
+      "category": "Commercial Flat Roof",
+      "text": "Facilities director: TPO membranes don't survive this temperature swing. Are you claiming the damage?",
+      "visual_cue": "Commercial building roofline at sunset with thermal distortion",
+      "narrative_layer": "Problem",
+      "channel_priority": ["linkedin", "meta_ads"]
+    },
+    {
+      "id": "H004",
+      "category": "Local Authority",
+      "text": "Out-of-state storm chasers don't know DFW insurance adjusters. We do.",
+      "visual_cue": "Tatafu + team on roof with IKO badge overlay",
+      "narrative_layer": "Authority",
+      "channel_priority": ["tiktok", "meta_ads"]
+    },
+    {
+      "id": "H005",
+      "category": "Hidden Damage",
+      "text": "Your A/C bill spiked in June? Your roof is the leak.",
+      "visual_cue": "Energy bill close-up + roof thermal image",
+      "narrative_layer": "Problem",
+      "channel_priority": ["meta_ads", "tiktok"]
+    },
+    {
+      "id": "H006",
+      "category": "Summer Heat Damage",
+      "text": "Shingles don't just degrade. They shed granules in extreme heat. We found what's left.",
+      "visual_cue": "Close-up macro of shingle granule loss",
+      "narrative_layer": "Proof",
+      "channel_priority": ["meta_ads"]
+    },
+    {
+      "id": "H007",
+      "category": "Insurance Deadline",
+      "text": "Homeowners who file in June still get full restoration. By August? Not guaranteed.",
+      "visual_cue": "Policy document + calendar deadline countdown",
+      "narrative_layer": "Urgency",
+      "channel_priority": ["meta_ads", "linkedin"]
+    },
+    {
+      "id": "H008",
+      "category": "Commercial Restoration",
+      "text": "Commercial flat roof insurance claims average $65K. Are you claiming yours?",
+      "visual_cue": "Commercial property portfolio overview + claim paperwork",
+      "narrative_layer": "Proof",
+      "channel_priority": ["linkedin"]
+    },
+    {
+      "id": "H009",
+      "category": "Hidden Damage",
+      "text": "That small leak you ignored in May? June heat just made it catastrophic.",
+      "visual_cue": "Before/after interior water damage progression",
+      "narrative_layer": "Problem",
+      "channel_priority": ["meta_ads", "tiktok"]
+    },
+    {
+      "id": "H010",
+      "category": "Local Authority",
+      "text": "Six Polynesian brothers. 5.0-star local rating. IKO Certified. That's Pineapple.",
+      "visual_cue": "Team photo + verified reviews badge",
+      "narrative_layer": "Authority",
+      "channel_priority": ["tiktok", "meta_ads"]
+    },
+    {
+      "id": "H011",
+      "category": "Summer Heat Damage",
+      "text": "100°F + existing hail damage = microfractures spreading daily.",
+      "visual_cue": "Thermal time-lapse of roof surface stress",
+      "narrative_layer": "Problem",
+      "channel_priority": ["meta_ads"]
+    },
+    {
+      "id": "H012",
+      "category": "Insurance Deadline",
+      "text": "Your insurance adjuster is swamped. Schedule YOUR inspection before August 15th.",
+      "visual_cue": "Busy adjuster desk + calendar booking interface",
+      "narrative_layer": "Urgency",
+      "channel_priority": ["meta_ads", "linkedin"]
+    },
+    {
+      "id": "H013",
+      "category": "Commercial Restoration",
+      "text": "Building management: Preventative inspections save emergency repairs. Let's audit your fleet.",
+      "visual_cue": "Multi-building portfolio + inspection checklist",
+      "narrative_layer": "Proof",
+      "channel_priority": ["linkedin"]
+    },
+    {
+      "id": "H014",
+      "category": "Local Authority",
+      "text": "We've inspected 10,000+ North Texas roofs. Every hail size. Every roof type.",
+      "visual_cue": "Drone montage of diverse roof types",
+      "narrative_layer": "Proof",
+      "channel_priority": ["meta_ads", "tiktok"]
+    },
+    {
+      "id": "H015",
+      "category": "Hidden Damage",
+      "text": "EPDM membranes tear silently in June heat. Your building doesn't know until it leaks.",
+      "visual_cue": "Commercial roof membrane close-up + tear pattern",
+      "narrative_layer": "Problem",
+      "channel_priority": ["linkedin"]
+    },
+    {
+      "id": "H016",
+      "category": "Summer Heat Damage",
+      "text": "Spring storm damage + June heat = your roof's breaking point.",
+      "visual_cue": "Split screen: hail damage + heat distortion overlay",
+      "narrative_layer": "Problem",
+      "channel_priority": ["meta_ads", "tiktok"]
+    },
+    {
+      "id": "H017",
+      "category": "Insurance Deadline",
+      "text": "Claims filed in June: full coverage. Claims filed in September: negotiated down 40%.",
+      "visual_cue": "Dollar amount comparison infographic",
+      "narrative_layer": "Urgency",
+      "channel_priority": ["meta_ads", "linkedin"]
+    },
+    {
+      "id": "H018",
+      "category": "Commercial Restoration",
+      "text": "Facilities: Budget your Q3 repairs NOW. Insurance claims expire in 90 days.",
+      "visual_cue": "Budget spreadsheet + deadline calendar",
+      "narrative_layer": "Urgency",
+      "channel_priority": ["linkedin"]
+    },
+    {
+      "id": "H019",
+      "category": "Local Authority",
+      "text": "North Texas families trust us. 42 five-star reviews. See why.",
+      "visual_cue": "Customer testimonial video montage",
+      "narrative_layer": "Proof",
+      "channel_priority": ["meta_ads", "tiktok"]
+    },
+    {
+      "id": "H020",
+      "category": "Hidden Damage",
+      "text": "Your neighbor's insurance paid $24K for the same storm. You didn't even file.",
+      "visual_cue": "Before/after neighbor comparison + policy details",
+      "narrative_layer": "Problem",
+      "channel_priority": ["meta_ads"]
+    },
+    {
+      "id": "H021",
+      "category": "Summer Heat Damage",
+      "text": "Thermal cycling opens seams on commercial membranes. One 100°F day can trigger failure.",
+      "visual_cue": "Thermal IR of membrane seams + failure point",
+      "narrative_layer": "Proof",
+      "channel_priority": ["linkedin"]
+    },
+    {
+      "id": "H022",
+      "category": "Insurance Deadline",
+      "text": "3 months. That's your window to claim June storm damage. Don't lose it.",
+      "visual_cue": "Countdown timer + storm damage photo",
+      "narrative_layer": "Urgency",
+      "channel_priority": ["meta_ads"]
+    },
+    {
+      "id": "H023",
+      "category": "Commercial Restoration",
+      "text": "Multi-unit residential portfolio: 60% of roofs need summer inspection. We audit 3 buildings/week.",
+      "visual_cue": "Apartment complex roofline + inspection crew",
+      "narrative_layer": "Proof",
+      "channel_priority": ["linkedin"]
+    },
+    {
+      "id": "H024",
+      "category": "Local Authority",
+      "text": "Licensed in Texas. Certified by IKO. Family-owned since day one.",
+      "visual_cue": "License badges + team heritage photo",
+      "narrative_layer": "Authority",
+      "channel_priority": ["meta_ads", "linkedin"]
+    },
+    {
+      "id": "H025",
+      "category": "Hidden Damage",
+      "text": "Microfractures don't show up in photos. They show up in your utility bill.",
+      "visual_cue": "Thermal imaging revealing hidden fractures",
+      "narrative_layer": "Problem",
+      "channel_priority": ["meta_ads"]
+    },
+    {
+      "id": "H026",
+      "category": "Summer Heat Damage",
+      "text": "June heat accelerates everything: water intrusion, membrane failure, insulation decay.",
+      "visual_cue": "Time-lapse of seasonal roof deterioration",
+      "narrative_layer": "Problem",
+      "channel_priority": ["meta_ads", "tiktok"]
+    },
+    {
+      "id": "H027",
+      "category": "Insurance Deadline",
+      "text": "Your insurance company already denied 2 claims in June. Don't be the third.",
+      "visual_cue": "Claim denial letter + expert review process",
+      "narrative_layer": "Urgency",
+      "channel_priority": ["meta_ads"]
+    },
+    {
+      "id": "H028",
+      "category": "Commercial Restoration",
+      "text": "Facilities director: TPO + EPDM + metal composite. We inspect them all. Same week.",
+      "visual_cue": "Montage of different commercial roof types",
+      "narrative_layer": "Proof",
+      "channel_priority": ["linkedin"]
+    },
+    {
+      "id": "H029",
+      "category": "Local Authority",
+      "text": "Out-of-state companies: flying in Thursday, flying out Friday. We live here.",
+      "visual_cue": "Local team on-site vs. generic contractor imagery",
+      "narrative_layer": "Authority",
+      "channel_priority": ["meta_ads", "tiktok"]
+    },
+    {
+      "id": "H030",
+      "category": "Hidden Damage",
+      "text": "Spring hail + June heat = your roof is in the last 30 days of its useful life.",
+      "visual_cue": "Structural integrity diagram + deterioration timeline",
+      "narrative_layer": "Problem",
+      "channel_priority": ["meta_ads"]
+    },
+    {
+      "id": "H031",
+      "category": "Summer Heat Damage",
+      "text": "Shingle reflectivity drops 40% in peak summer. Dark roofs absorb 160°F+ internally.",
+      "visual_cue": "Thermal imaging: light vs. dark roof comparison",
+      "narrative_layer": "Proof",
+      "channel_priority": ["meta_ads", "linkedin"]
+    },
+    {
+      "id": "H032",
+      "category": "Insurance Deadline",
+      "text": "We've recovered $1.2M for North Texas families in claims. Most never even asked.",
+      "visual_cue": "Total claims recovered infographic + client testimonials",
+      "narrative_layer": "Proof",
+      "channel_priority": ["meta_ads", "linkedin"]
+    },
+    {
+      "id": "H033",
+      "category": "Commercial Restoration",
+      "text": "Asset preservation: Document damage now, claim later, upgrade tomorrow. That's the playbook.",
+      "visual_cue": "Documentation process + upgrade before/after",
+      "narrative_layer": "Proof",
+      "channel_priority": ["linkedin"]
+    },
+    {
+      "id": "H034",
+      "category": "Local Authority",
+      "text": "RCAT License #03-0637. IKO Certified Partner. HUB Certified. Full transparency.",
+      "visual_cue": "Credential badges stacked + license verification link",
+      "narrative_layer": "Authority",
+      "channel_priority": ["meta_ads", "linkedin"]
+    },
+    {
+      "id": "H035",
+      "category": "Hidden Damage",
+      "text": "98% of roof leaks start as microfractures. We find them before they become catastrophes.",
+      "visual_cue": "Macro photography of microfracture progression",
+      "narrative_layer": "Proof",
+      "channel_priority": ["meta_ads"]
+    },
+    {
+      "id": "H036",
+      "category": "Summer Heat Damage",
+      "text": "Commercial flat roof at 105°F: membranes expand 3+ inches. Seams separate. We inspect before it fails.",
+      "visual_cue": "Thermal stress visualization + seam failure imagery",
+      "narrative_layer": "Problem",
+      "channel_priority": ["linkedin"]
+    },
+    {
+      "id": "H037",
+      "category": "Insurance Deadline",
+      "text": "Adjuster comes Tuesday. Pineapple inspects Monday. Full coverage documented. No surprises.",
+      "visual_cue": "Timeline: inspection → documentation → claim filing",
+      "narrative_layer": "Proof",
+      "channel_priority": ["meta_ads", "linkedin"]
+    },
+    {
+      "id": "H038",
+      "category": "Commercial Restoration",
+      "text": "Portfolio management: 47 buildings. 3-year inspection cycle. Zero emergency callouts.",
+      "visual_cue": "Building portfolio map + maintenance schedule",
+      "narrative_layer": "Proof",
+      "channel_priority": ["linkedin"]
+    },
+    {
+      "id": "H039",
+      "category": "Local Authority",
+      "text": "Same crew every time. They remember your roof. They know its history.",
+      "visual_cue": "Team continuity photo + repair history documentation",
+      "narrative_layer": "Authority",
+      "channel_priority": ["meta_ads", "tiktok"]
+    },
+    {
+      "id": "H040",
+      "category": "Hidden Damage",
+      "text": "Your attic temperature is 140°F+ in June. That's destroying your insulation + decking.",
+      "visual_cue": "Thermal imaging of attic heat buildup",
+      "narrative_layer": "Problem",
+      "channel_priority": ["meta_ads"]
+    },
+    {
+      "id": "H041",
+      "category": "Summer Heat Damage",
+      "text": "Combine hail micro-damage + UV degradation + thermal stress = roof failure window is NOW.",
+      "visual_cue": "Triple-threat visual: hail + UV + heat overlaid",
+      "narrative_layer": "Urgency",
+      "channel_priority": ["meta_ads"]
+    },
+    {
+      "id": "H042",
+      "category": "Insurance Deadline",
+      "text": "Insurance requires documented damage BEFORE coverage expires. We document everything.",
+      "visual_cue": "Professional damage documentation process + photo library",
+      "narrative_layer": "Proof",
+      "channel_priority": ["meta_ads", "linkedin"]
+    },
+    {
+      "id": "H043",
+      "category": "Commercial Restoration",
+      "text": "Corporate mandate: Certify all roof assets for Q3 safety audit. Let's schedule NOW.",
+      "visual_cue": "Corporate compliance documentation + certification badge",
+      "narrative_layer": "Urgency",
+      "channel_priority": ["linkedin"]
+    },
+    {
+      "id": "H044",
+      "category": "Local Authority",
+      "text": "Ask any adjuster in Collin County. They know us. They trust us. Your claim gets priority.",
+      "visual_cue": "Adjuster testimonial + claims processing acceleration",
+      "narrative_layer": "Authority",
+      "channel_priority": ["meta_ads", "linkedin"]
+    },
+    {
+      "id": "H045",
+      "category": "Hidden Damage",
+      "text": "Interior mold grows in 48 hours after a roof leak. June humidity speeds it up.",
+      "visual_cue": "Mold progression microscopy + damage cost impact",
+      "narrative_layer": "Problem",
+      "channel_priority": ["meta_ads"]
+    },
+    {
+      "id": "H046",
+      "category": "Summer Heat Damage",
+      "text": "Asphalt shingles soften at 160°F+. June peaks at 165°F on your roof. Count the days left.",
+      "visual_cue": "Temperature gauge + softening shingle animation",
+      "narrative_layer": "Proof",
+      "channel_priority": ["meta_ads"]
+    },
+    {
+      "id": "H047",
+      "category": "Insurance Deadline",
+      "text": "Biggest mistake: waiting for August to file. By then, claim approval windows close.",
+      "visual_cue": "Claims approval timeline + deadline warning",
+      "narrative_layer": "Urgency",
+      "channel_priority": ["meta_ads", "linkedin"]
+    },
+    {
+      "id": "H048",
+      "category": "Commercial Restoration",
+      "text": "Flat roof at year 7 of 10? Summer stress test reveals if you need replacement NOW.",
+      "visual_cue": "Roof lifecycle timeline + critical threshold visualization",
+      "narrative_layer": "Proof",
+      "channel_priority": ["linkedin"]
+    },
+    {
+      "id": "H049",
+      "category": "Local Authority",
+      "text": "The Pineapple Standard Standard: No shortcuts. No upsell. Just honest assessment + full restoration coverage.",
+      "visual_cue": "Tatafu on-camera + team values statement",
+      "narrative_layer": "Authority",
+      "channel_priority": ["tiktok", "meta_ads"]
+    },
+    {
+      "id": "H050",
+      "category": "Hidden Damage",
+      "text": "Book your Complimentary Professional Photo Audit before July 15th. June deadline windows close fast.",
+      "visual_cue": "CTA button + calendar booking interface",
+      "narrative_layer": "Action",
+      "channel_priority": ["meta_ads", "linkedin", "tiktok"]
+    }
+  ]
+}
+      "id": "H019",
+      "text": "We handle the insurance paperwork. You handle nothing.",
+      "visual_cue": "Homeowner relaxing while crew works"
+    },
+    {
+      "id": "H020",
+      "text": "Every storm season leaves invisible damage. This is proof.",
+      "visual_cue": "UV light exposing hidden granule loss"
+    },
+    {
+      "id": "H021",
+      "text": "Most roofing companies patch it. We restore it completely.",
+      "visual_cue": "Full tear-off and fresh install footage"
+    },
+    {
+      "id": "H022",
+      "text": "Your attic is telling you your roof is failing. Can you hear it?",
+      "visual_cue": "Moisture damage visible in attic interior"
+    },
+    {
+      "id": "H023",
+      "text": "IKO Certified team just completed this full restoration. Same for you?",
+      "visual_cue": "Completed roof with clean lines and new shingles"
+    },
+    {
+      "id": "H024",
+      "text": "Storm rolled through last week. Here's what we found the day after.",
+      "visual_cue": "Morning-after inspection footage"
+    },
+    {
+      "id": "H025",
+      "text": "This is what separates a compliant claim from a denied one.",
+      "visual_cue": "Detailed inspection report on tablet"
+    },
+    {
+      "id": "H026",
+      "text": "We work directly with your insurance company so you don't have to fight.",
+      "visual_cue": "Team meeting with insurance adjuster on site"
+    },
+    {
+      "id": "H027",
+      "text": "Granule loss. Bruising. Cracks. Your roof has all three right now.",
+      "visual_cue": "Split screen of three damage types"
+    },
+    {
+      "id": "H028",
+      "text": "Here's the damage hiding under your shingles right now.",
+      "visual_cue": "Shingle lifted to reveal underlayment damage"
+    },
+    {
+      "id": "H029",
+      "text": "This roof looked fine from the street. It was completely destroyed.",
+      "visual_cue": "Street view vs. drone close-up reveal"
+    },
+    {
+      "id": "H030",
+      "text": "Three minutes. That's how long a hail storm needs to total your roof.",
+      "visual_cue": "Storm footage with timestamp"
+    },
+    {
+      "id": "H031",
+      "text": "Your HOA won't catch this. Your inspector won't either. We do.",
+      "visual_cue": "Inspector with scope on rooftop"
+    },
+    {
+      "id": "H032",
+      "text": "Don't let your insurance company close your claim before you call us.",
+      "visual_cue": "Homeowner on phone with agent"
+    },
+    {
+      "id": "H033",
+      "text": "This is what full restoration coverage looks like in action.",
+      "visual_cue": "Fast-cut montage of install in progress"
+    },
+    {
+      "id": "H034",
+      "text": "We documented every impact point. Your insurance agreed. 100% covered.",
+      "visual_cue": "Crew marking damage with chalk circles"
+    },
+    {
+      "id": "H035",
+      "text": "Roof age plus storm equals one thing: a legitimate claim.",
+      "visual_cue": "Age assessment graphic overlay on roof photo"
+    },
+    {
+      "id": "H036",
+      "text": "The longer you wait, the more interior damage grows underneath.",
+      "visual_cue": "Ceiling watermark spreading time-lapse"
+    },
+    {
+      "id": "H037",
+      "text": "Certified. Experienced. Here within 24 hours of your call.",
+      "visual_cue": "Crew arriving at property at sunrise"
+    },
+    {
+      "id": "H038",
+      "text": "See the impact marks? Your insurance company sees them too.",
+      "visual_cue": "Adjuster and crew reviewing damage together"
+    },
+    {
+      "id": "H039",
+      "text": "We don't just replace roofs. We maximize your insurance settlement.",
+      "visual_cue": "Settlement paperwork with approval stamp"
+    },
+    {
+      "id": "H040",
+      "text": "This homeowner got full restoration coverage. Here's how.",
+      "visual_cue": "Happy homeowner in front of finished roof"
+    },
+    {
+      "id": "H041",
+      "text": "Wind damage is invisible from the ground. Deadly from above.",
+      "visual_cue": "Drone footage of wind-lifted shingles"
+    },
+    {
+      "id": "H042",
+      "text": "The storm map says your ZIP was hit. Have you checked your roof?",
+      "visual_cue": "Hail storm radar overlay graphic"
+    },
+    {
+      "id": "H043",
+      "text": "We coordinate with your insurance agent from inspection to completion.",
+      "visual_cue": "Three-way: homeowner, agent, crew on site"
+    },
+    {
+      "id": "H044",
+      "text": "IKO Certified means every shingle, every nail, every detail is done right.",
+      "visual_cue": "Close-up of precise nail gun installation"
+    },
+    {
+      "id": "H045",
+      "text": "Storm damage claims have deadlines. Most homeowners miss them.",
+      "visual_cue": "Calendar with deadline circled in red"
+    },
+    {
+      "id": "H046",
+      "text": "We've restored over 500 roofs. This one could be next.",
+      "visual_cue": "Gallery montage of completed restorations"
+    },
+    {
+      "id": "H047",
+      "text": "You paid for this coverage. Let us help you use every dollar of it.",
+      "visual_cue": "Policy document and completed inspection"
+    },
+    {
+      "id": "H048",
+      "text": "A compromised roof isn't just a roofing problem. It's a home value problem.",
+      "visual_cue": "Home appraisal report next to damaged shingle"
+    },
+    {
+      "id": "H049",
+      "text": "The damage is real. The coverage is there. The only question is: did you call?",
+      "visual_cue": "Crew ready to work, looking at camera"
+    },
+    {
+      "id": "H050",
+      "text": "Most homeowners discover hidden storm damage too late. Schedule now.",
+      "visual_cue": "Before-and-after restoration split screen"
+    }
+  ],
+  "meats": [
+    {
+      "id": "M001",
+      "text": "We partner with your insurance agent to make sure you get every dollar your policy covers. Our IKO Certified team documents every impact point with photos and detailed reports — the exact evidence your adjuster needs. Homeowners who contact us before closing their claim consistently qualify for full restoration coverage.",
+      "focus": "Insurance partnership + documentation",
+      "video": "C:\\Pineapple-Mana-Global\\02_Media_Vault\\Pineapple-Media-HQ\\2026_05_GENERAL_INBOX\\Raw_Mana_Capture\\VIDEOS\\REELS\\2025\\Nov\\Class 4 shingle.mp4"
+    },
+    {
+      "id": "M002",
+      "text": "Hidden storm damage is the number one reason homeowners lose on insurance claims. Granule loss, bruising, and micro-fractures are invisible from the ground but critical to your settlement. We coordinate directly with your insurance company from inspection through completion — handling all the paperwork so you don't have to.",
+      "focus": "Hidden damage education + coordination",
+      "video": "C:\\Pineapple-Mana-Global\\02_Media_Vault\\Pineapple-Media-HQ\\2026_05_GENERAL_INBOX\\Raw_Mana_Capture\\VIDEOS\\REELS\\July 2023\\8704 Barnbougle dunes.mp4"
+    },
+    {
+      "id": "M003",
+      "text": "Pineapple Contractors is IKO Certified with an RCAT license — that means your restoration meets the highest industry standards. We've completed hundreds of full restorations across the region. Every project is backed by manufacturer warranties and our own workmanship guarantee.",
+      "focus": "Credibility + certification + quality",
+      "video": "C:\\Pineapple-Mana-Global\\02_Media_Vault\\Pineapple-Media-HQ\\2026_05_GENERAL_INBOX\\Raw_Mana_Capture\\VIDEOS\\REELS\\Sep 2023\\1600 Winding Creek Rd.mp4"
+    },
+    {
+      "id": "M004",
+      "text": "Your roof is your home's first line of defense. After a storm event, every day you wait allows water intrusion to compound the damage. A roof claim can become a structural claim fast. Our complimentary inspection identifies every issue and gives you a full report to present to your insurance company.",
+      "focus": "Urgency + complimentary inspection",
+      "video": "C:\\Pineapple-Mana-Global\\02_Media_Vault\\Pineapple-Media-HQ\\2026_05_GENERAL_INBOX\\Raw_Mana_Capture\\VIDEOS\\Testimonials\\1001 Remington dr.mp4"
+    },
+    {
+      "id": "M005",
+      "text": "We help homeowners and insurance agents work together to get your roof restored correctly. Our process is simple: complimentary inspection, detailed damage report, insurance coordination, and full installation by our IKO Certified crew. From first call to final nail — we manage everything.",
+      "focus": "Full process overview + trust",
+      "video": "C:\\Pineapple-Mana-Global\\02_Media_Vault\\Pineapple-Media-HQ\\2026_05_GENERAL_INBOX\\Raw_Mana_Capture\\VIDEOS\\REELS\\July 2023\\1040 Clove Glen CT, Allen, TX.mp4"
+    }
+  ],
+  "ctas": [
+    {
+      "id": "C001",
+      "text": "Tap below to schedule your complimentary inspection — our IKO Certified team will be there within 24 hours.",
+      "action": "Schedule Complimentary Inspection",
+      "banner": "SCHEDULE YOUR COMPLIMENTARY INSPECTION"
+    },
+    {
+      "id": "C002",
+      "text": "Click the link and fill out our 30-second form. We call you within the hour to confirm your complimentary inspection.",
+      "action": "30-Second Form — Callback Within The Hour",
+      "banner": "30 SECONDS. WE CALL YOU WITHIN THE HOUR."
+    },
+    {
+      "id": "C003",
+      "text": "Don't let your claim window close. Tap now to get your complimentary inspection scheduled before the deadline.",
+      "action": "Schedule Before Deadline",
+      "banner": "DON'T LET YOUR CLAIM WINDOW CLOSE. TAP NOW."
+    }
+  ]
+}

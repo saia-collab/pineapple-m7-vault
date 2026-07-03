@@ -1,0 +1,19 @@
+{
+  "name": "pineapple-m7-agent-os",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pineapple Contractors M7 Agentic OS — local server entry, API routing, dashboard asset serving. Zero-dependency: runs on Node's built-ins, no npm install required.",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "firewall": "python 04_Tech_Lab/scripts/brand_firewall.py --check",
+    "doctor": "python 04_Tech_Lab/m7_doctor.py"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": {},
+  "keywords": ["agent-os", "pineapple-m7", "hermes", "command-center"],
+  "author": "Saia — Pineapple Contractors M7",
+  "license": "UNLICENSED"
+}

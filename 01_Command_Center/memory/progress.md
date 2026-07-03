@@ -1,0 +1,3224 @@
+- [JANITOR] Programmatically normalized asset file: 1006 wind ridge01.mov -> 1006 wind ridge01.mov
+- [JANITOR] Programmatically normalized asset file: 1309 Ponca St Carrollton.mov -> 1309 Ponca St Carrollton.mov
+- [JANITOR] Programmatically normalized asset file: 1309 Ponca St Carrollton.mp4 -> 1309 Ponca St Carrollton.mp4
+- [JANITOR] Programmatically normalized asset file: 2016 London Ln The Colony.mp4 -> 2016 London Ln The Colony.mp4
+- [JANITOR] Programmatically normalized asset file: 29 (2).MP4 -> 29 (2).MP4
+- [JANITOR] Programmatically normalized asset file: 29.MP4 -> 29.MP4
+- [JANITOR] Programmatically normalized asset file: 5905 Middleton Dr Parker 2.mp4 -> 5905 Middleton Dr Parker 2.mp4
+- [JANITOR] Programmatically normalized asset file: 7812 Inverness The Colony01.mov -> 7812 Inverness The Colony01.mov
+- [JANITOR] Programmatically normalized asset file: 9 (2).MP4 -> 9 (2).MP4
+- [JANITOR] Programmatically normalized asset file: 9 (7).MP4 -> 9 (7).MP4
+- [JANITOR] Programmatically normalized asset file: 9 (8).mp4 -> 9 (8).mp4
+- [JANITOR] Programmatically normalized asset file: 9.MP4 -> 9.MP4
+- [JANITOR] Programmatically normalized asset file: Hail damage.mp4 -> Hail damage.mp4
+- [JANITOR] Programmatically normalized asset file: Motivational 1.MP4 -> Motivational 1.MP4
+- [JANITOR] Programmatically normalized asset file: Motivational 2.mp4 -> Motivational 2.mp4
+- [JANITOR] Programmatically normalized asset file: Motivational 3.mp4 -> Motivational 3.mp4
+- [JANITOR] Programmatically normalized asset file: Motivational 4.mp4 -> Motivational 4.mp4
+- [JANITOR] Programmatically normalized asset file: Motivational 5.mp4 -> Motivational 5.mp4
+- [JANITOR] Programmatically normalized asset file: motivational reel 2.mov -> motivational reel 2.mov
+- [JANITOR] Programmatically normalized asset file: Polynesian Festivale 2025.mov -> Polynesian Festivale 2025.mov
+- [JANITOR] Programmatically normalized asset file: prequalifying.mp4 -> prequalifying.mp4
+- [JANITOR] Programmatically normalized asset file: Realtors.MP4 -> Realtors.MP4
+- [JANITOR] Programmatically normalized asset file: 1600 testimonial.mp4 -> 1600 testimonial.mp4
+- [JANITOR] Programmatically normalized asset file: john edwards.mp4 -> john edwards.mp4
+- [JANITOR] Programmatically normalized asset file: mike fendek testimonial.mp4 -> mike fendek testimonial.mp4
+- [JANITOR] Programmatically normalized asset file: tetsimonial 1005.mp4 -> tetsimonial 1005.mp4
+- [JANITOR] Programmatically normalized asset file: 22 (7).MP4 -> 22 (7).MP4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_01.mp4 -> Ad_Variation_01.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_02.mp4 -> Ad_Variation_02.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_03.mp4 -> Ad_Variation_03.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_04.mp4 -> Ad_Variation_04.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_05.mp4 -> Ad_Variation_05.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_06.mp4 -> Ad_Variation_06.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_07.mp4 -> Ad_Variation_07.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_08.mp4 -> Ad_Variation_08.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_09.mp4 -> Ad_Variation_09.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_10.mp4 -> Ad_Variation_10.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_11.mp4 -> Ad_Variation_11.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_12.mp4 -> Ad_Variation_12.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_13.mp4 -> Ad_Variation_13.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_14.mp4 -> Ad_Variation_14.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_15.mp4 -> Ad_Variation_15.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_16.mp4 -> Ad_Variation_16.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_17.mp4 -> Ad_Variation_17.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_18.mp4 -> Ad_Variation_18.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_19.mp4 -> Ad_Variation_19.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_20.mp4 -> Ad_Variation_20.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_21.mp4 -> Ad_Variation_21.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_22.mp4 -> Ad_Variation_22.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_23.mp4 -> Ad_Variation_23.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_24.mp4 -> Ad_Variation_24.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_25.mp4 -> Ad_Variation_25.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_27.mp4 -> Ad_Variation_27.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_28.mp4 -> Ad_Variation_28.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_29.mp4 -> Ad_Variation_29.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_30.mp4 -> Ad_Variation_30.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_32.mp4 -> Ad_Variation_32.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_33.mp4 -> Ad_Variation_33.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_36.mp4 -> Ad_Variation_36.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_37.mp4 -> Ad_Variation_37.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_39.mp4 -> Ad_Variation_39.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_40.mp4 -> Ad_Variation_40.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_43.mp4 -> Ad_Variation_43.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_44.mp4 -> Ad_Variation_44.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_45.mp4 -> Ad_Variation_45.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_46.mp4 -> Ad_Variation_46.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_47.mp4 -> Ad_Variation_47.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_48.mp4 -> Ad_Variation_48.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_49.mp4 -> Ad_Variation_49.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_50.mp4 -> Ad_Variation_50.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_CULT-001.mp4 -> Ad_Variation_CULT-001.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_CULT-002.mp4 -> Ad_Variation_CULT-002.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_CULT-003.mp4 -> Ad_Variation_CULT-003.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_H001.mp4 -> Ad_Variation_H001.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_H002.mp4 -> Ad_Variation_H002.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_H003.mp4 -> Ad_Variation_H003.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_H004.mp4 -> Ad_Variation_H004.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_H005.mp4 -> Ad_Variation_H005.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_H006.mp4 -> Ad_Variation_H006.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_H007.mp4 -> Ad_Variation_H007.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_H008.mp4 -> Ad_Variation_H008.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_H009.mp4 -> Ad_Variation_H009.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_H010.mp4 -> Ad_Variation_H010.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_H012.mp4 -> Ad_Variation_H012.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_H013.mp4 -> Ad_Variation_H013.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_H014.mp4 -> Ad_Variation_H014.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_H015.mp4 -> Ad_Variation_H015.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_H016.mp4 -> Ad_Variation_H016.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_H017.mp4 -> Ad_Variation_H017.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_H018.mp4 -> Ad_Variation_H018.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_H019.mp4 -> Ad_Variation_H019.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_H020.mp4 -> Ad_Variation_H020.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_H021.mp4 -> Ad_Variation_H021.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_H022.mp4 -> Ad_Variation_H022.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_H023.mp4 -> Ad_Variation_H023.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_H024.mp4 -> Ad_Variation_H024.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_H025.mp4 -> Ad_Variation_H025.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_H026.mp4 -> Ad_Variation_H026.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_H027.mp4 -> Ad_Variation_H027.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_H028.mp4 -> Ad_Variation_H028.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_H029.mp4 -> Ad_Variation_H029.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_H030.mp4 -> Ad_Variation_H030.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_H031.mp4 -> Ad_Variation_H031.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_H032.mp4 -> Ad_Variation_H032.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_H033.mp4 -> Ad_Variation_H033.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_H034.mp4 -> Ad_Variation_H034.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_H035.mp4 -> Ad_Variation_H035.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_H036.mp4 -> Ad_Variation_H036.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_H037.mp4 -> Ad_Variation_H037.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_H038.mp4 -> Ad_Variation_H038.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_H039.mp4 -> Ad_Variation_H039.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_H040.mp4 -> Ad_Variation_H040.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_H041.mp4 -> Ad_Variation_H041.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_H042.mp4 -> Ad_Variation_H042.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_H043.mp4 -> Ad_Variation_H043.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_H044.mp4 -> Ad_Variation_H044.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_H045.mp4 -> Ad_Variation_H045.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_H046.mp4 -> Ad_Variation_H046.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_H047.mp4 -> Ad_Variation_H047.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_H048.mp4 -> Ad_Variation_H048.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_H049.mp4 -> Ad_Variation_H049.mp4
+- [JANITOR] Programmatically normalized asset file: Ad_Variation_H050.mp4 -> Ad_Variation_H050.mp4
+- [JANITOR] Programmatically normalized asset file: C0017.MP4 -> C0017.MP4
+- [JANITOR] Programmatically normalized asset file: C0035.MP4 -> C0035.MP4
+- [JANITOR] Programmatically normalized asset file: C0037.MP4 -> C0037.MP4
+- [JANITOR] Programmatically normalized asset file: C0040.MP4 -> C0040.MP4
+- [JANITOR] Programmatically normalized asset file: C0041.MP4 -> C0041.MP4
+- [JANITOR] Programmatically normalized asset file: C0043.MP4 -> C0043.MP4
+- [JANITOR] Programmatically normalized asset file: C0046.MP4 -> C0046.MP4
+- [JANITOR] Programmatically normalized asset file: C0047.MP4 -> C0047.MP4
+- [JANITOR] Programmatically normalized asset file: C0048.MP4 -> C0048.MP4
+- [JANITOR] Programmatically normalized asset file: C0049.MP4 -> C0049.MP4
+- [JANITOR] Programmatically normalized asset file: C0057.MP4 -> C0057.MP4
+- [JANITOR] Programmatically normalized asset file: C0065.MP4 -> C0065.MP4
+- [JANITOR] Programmatically normalized asset file: C0072.MP4 -> C0072.MP4
+- [JANITOR] Programmatically normalized asset file: C0082.MP4 -> C0082.MP4
+- [JANITOR] Programmatically normalized asset file: Diwali.mp4 -> Diwali.mp4
+- [JANITOR] Programmatically normalized asset file: DJI_0497.MP4 -> DJI_0497.MP4
+- [JANITOR] Programmatically normalized asset file: DJI_20240302155005_0175_D.MP4 -> DJI_20240302155005_0175_D.MP4
+- [JANITOR] Programmatically normalized asset file: DJI_20260323101858_0001_D.mov -> DJI_20260323101858_0001_D.mov
+- [JANITOR] Programmatically normalized asset file: DJI_20260323101858_0001_D.MP4 -> DJI_20260323101858_0001_D.MP4
+- [JANITOR] Programmatically normalized asset file: DJI_20260323101953_0006_D.mov -> DJI_20260323101953_0006_D.mov
+- [JANITOR] Programmatically normalized asset file: DJI_20260323101953_0006_D.MP4 -> DJI_20260323101953_0006_D.MP4
+- [JANITOR] Programmatically normalized asset file: DJI_20260323111131_0021_D.MP4 -> DJI_20260323111131_0021_D.MP4
+- [JANITOR] Programmatically normalized asset file: DJI_20260323111217_0022_D.mov -> DJI_20260323111217_0022_D.mov
+- [JANITOR] Programmatically normalized asset file: DJI_20260323111217_0022_D.MP4 -> DJI_20260323111217_0022_D.MP4
+- [JANITOR] Programmatically normalized asset file: DJI_20260323111300_0023_D.MP4 -> DJI_20260323111300_0023_D.MP4
+- [JANITOR] Programmatically normalized asset file: DJI_20260323111507_0026_D.MP4 -> DJI_20260323111507_0026_D.MP4
+- [JANITOR] Programmatically normalized asset file: Hail damage.mp4 -> Hail damage.mp4
+- [JANITOR] Programmatically normalized asset file: Hiring sales reps.MP4 -> Hiring sales reps.MP4
+- [JANITOR] Programmatically normalized asset file: IMG_0025.MOV -> IMG_0025.MOV
+- [JANITOR] Programmatically normalized asset file: IMG_3269.MOV -> IMG_3269.MOV
+- [JANITOR] Programmatically normalized asset file: IMG_3794.MOV -> IMG_3794.MOV
+- [JANITOR] Programmatically normalized asset file: IMG_3795.MOV -> IMG_3795.MOV
+- [JANITOR] Programmatically normalized asset file: IMG_3820.MOV -> IMG_3820.MOV
+- [JANITOR] Programmatically normalized asset file: IMG_3824.MOV -> IMG_3824.MOV
+- [JANITOR] Programmatically normalized asset file: IMG_3834.MOV -> IMG_3834.MOV
+- [JANITOR] Programmatically normalized asset file: IMG_3871.MOV -> IMG_3871.MOV
+- [JANITOR] Programmatically normalized asset file: IMG_3898.MOV -> IMG_3898.MOV
+- [JANITOR] Programmatically normalized asset file: Motivational 1.MP4 -> Motivational 1.MP4
+- [JANITOR] Programmatically normalized asset file: Motivational 2.mp4 -> Motivational 2.mp4
+- [JANITOR] Programmatically normalized asset file: Motivational 3.mp4 -> Motivational 3.mp4
+- [JANITOR] Programmatically normalized asset file: Motivational 4.mp4 -> Motivational 4.mp4
+- [JANITOR] Programmatically normalized asset file: Motivational 5.mp4 -> Motivational 5.mp4
+- [JANITOR] Programmatically normalized asset file: prequalifying.mp4 -> prequalifying.mp4
+- [JANITOR] Programmatically normalized asset file: Realtors.MP4 -> Realtors.MP4
+- [JANITOR] Programmatically normalized asset file: REEL_MIKE_FENDEK_01_INSURANCE_PUSHBACK_0114-0133.mp4 -> REEL_MIKE_FENDEK_01_INSURANCE_PUSHBACK_0114-0133.mp4
+- [JANITOR] Programmatically normalized asset file: REEL_MIKE_FENDEK_01_INSURANCE_PUSHBACK_0114-0133_AUDIOFIX.mp4 -> REEL_MIKE_FENDEK_01_INSURANCE_PUSHBACK_0114-0133_AUDIOFIX.mp4
+- [JANITOR] Programmatically normalized asset file: REEL_MIKE_FENDEK_01_INSURANCE_PUSHBACK_0114-0133_COMPAT_AUDIO.mp4 -> REEL_MIKE_FENDEK_01_INSURANCE_PUSHBACK_0114-0133_COMPAT_AUDIO.mp4
+- [JANITOR] Programmatically normalized asset file: REEL_MIKE_FENDEK_02_UMPIRE_RULED_0411-0433.mp4 -> REEL_MIKE_FENDEK_02_UMPIRE_RULED_0411-0433.mp4
+- [JANITOR] Programmatically normalized asset file: REEL_MIKE_FENDEK_02_UMPIRE_RULED_0411-0433_AUDIOFIX.mp4 -> REEL_MIKE_FENDEK_02_UMPIRE_RULED_0411-0433_AUDIOFIX.mp4
+- [JANITOR] Programmatically normalized asset file: REEL_MIKE_FENDEK_02_UMPIRE_RULED_0411-0433_COMPAT_AUDIO.mp4 -> REEL_MIKE_FENDEK_02_UMPIRE_RULED_0411-0433_COMPAT_AUDIO.mp4
+- [JANITOR] Programmatically normalized asset file: REEL_MIKE_FENDEK_03_PEACE_OF_MIND_0942-1006.mp4 -> REEL_MIKE_FENDEK_03_PEACE_OF_MIND_0942-1006.mp4
+- [JANITOR] Programmatically normalized asset file: REEL_MIKE_FENDEK_03_PEACE_OF_MIND_0942-1006_COMPAT_AUDIO.mp4 -> REEL_MIKE_FENDEK_03_PEACE_OF_MIND_0942-1006_COMPAT_AUDIO.mp4
+- [JANITOR] Programmatically normalized asset file: REEL_MIKE_FENDEK_TESTIMONIAL_01_INSURANCE_PUSHBACK_CMT.mp4 -> REEL_MIKE_FENDEK_TESTIMONIAL_01_INSURANCE_PUSHBACK_CMT.mp4
+- [JANITOR] Programmatically normalized asset file: REEL_MIKE_FENDEK_TESTIMONIAL_01_INSURANCE_PUSHBACK_SHR.mp4 -> REEL_MIKE_FENDEK_TESTIMONIAL_01_INSURANCE_PUSHBACK_SHR.mp4
+- [JANITOR] Programmatically normalized asset file: REEL_MIKE_FENDEK_TESTIMONIAL_02_UMPIRE_RULED_CMT.mp4 -> REEL_MIKE_FENDEK_TESTIMONIAL_02_UMPIRE_RULED_CMT.mp4
+- [JANITOR] Programmatically normalized asset file: REEL_MIKE_FENDEK_TESTIMONIAL_02_UMPIRE_RULED_SHR.mp4 -> REEL_MIKE_FENDEK_TESTIMONIAL_02_UMPIRE_RULED_SHR.mp4
+- [JANITOR] Programmatically normalized asset file: REEL_MIKE_FENDEK_TESTIMONIAL_03_PEACE_OF_MIND_CMT.mp4 -> REEL_MIKE_FENDEK_TESTIMONIAL_03_PEACE_OF_MIND_CMT.mp4
+- [JANITOR] Programmatically normalized asset file: REEL_MIKE_FENDEK_TESTIMONIAL_03_PEACE_OF_MIND_SHR.mp4 -> REEL_MIKE_FENDEK_TESTIMONIAL_03_PEACE_OF_MIND_SHR.mp4
+- [JANITOR] Programmatically normalized asset file: REEL_REEL_1600_TESTIMONIAL_01_INSURANCE_PUSHBACK_CMT.mp4 -> REEL_REEL_1600_TESTIMONIAL_01_INSURANCE_PUSHBACK_CMT.mp4
+- [JANITOR] Programmatically normalized asset file: REEL_REEL_1600_TESTIMONIAL_01_INSURANCE_PUSHBACK_SHR.mp4 -> REEL_REEL_1600_TESTIMONIAL_01_INSURANCE_PUSHBACK_SHR.mp4
+- [JANITOR] Programmatically normalized asset file: REEL_REEL_1600_TESTIMONIAL_02_UMPIRE_RULED_CMT.mp4 -> REEL_REEL_1600_TESTIMONIAL_02_UMPIRE_RULED_CMT.mp4
+- [JANITOR] Programmatically normalized asset file: REEL_REEL_1600_TESTIMONIAL_02_UMPIRE_RULED_SHR.mp4 -> REEL_REEL_1600_TESTIMONIAL_02_UMPIRE_RULED_SHR.mp4
+- [JANITOR] Programmatically normalized asset file: REEL_REEL_1600_TESTIMONIAL_03_PEACE_OF_MIND_CMT.mp4 -> REEL_REEL_1600_TESTIMONIAL_03_PEACE_OF_MIND_CMT.mp4
+- [JANITOR] Programmatically normalized asset file: REEL_REEL_1600_TESTIMONIAL_03_PEACE_OF_MIND_SHR.mp4 -> REEL_REEL_1600_TESTIMONIAL_03_PEACE_OF_MIND_SHR.mp4
+- [JANITOR] Programmatically normalized asset file: REEL_REEL_6664_CONECUH_01_INSURANCE_PUSHBACK_CMT.mp4 -> REEL_REEL_6664_CONECUH_01_INSURANCE_PUSHBACK_CMT.mp4
+- [JANITOR] Programmatically normalized asset file: REEL_REEL_6664_CONECUH_01_INSURANCE_PUSHBACK_SHR.mp4 -> REEL_REEL_6664_CONECUH_01_INSURANCE_PUSHBACK_SHR.mp4
+- [JANITOR] Programmatically normalized asset file: REEL_REEL_6664_CONECUH_02_UMPIRE_RULED_CMT.mp4 -> REEL_REEL_6664_CONECUH_02_UMPIRE_RULED_CMT.mp4
+- [JANITOR] Programmatically normalized asset file: REEL_REEL_6664_CONECUH_02_UMPIRE_RULED_SHR.mp4 -> REEL_REEL_6664_CONECUH_02_UMPIRE_RULED_SHR.mp4
+- [JANITOR] Programmatically normalized asset file: REEL_REEL_6664_CONECUH_03_PEACE_OF_MIND_CMT.mp4 -> REEL_REEL_6664_CONECUH_03_PEACE_OF_MIND_CMT.mp4
+- [JANITOR] Programmatically normalized asset file: REEL_REEL_6664_CONECUH_03_PEACE_OF_MIND_SHR.mp4 -> REEL_REEL_6664_CONECUH_03_PEACE_OF_MIND_SHR.mp4
+- [JANITOR] Programmatically normalized asset file: REEL_REEL_JOHN_EDWARDS_01_INSURANCE_PUSHBACK_CMT.mp4 -> REEL_REEL_JOHN_EDWARDS_01_INSURANCE_PUSHBACK_CMT.mp4
+- [JANITOR] Programmatically normalized asset file: REEL_REEL_JOHN_EDWARDS_01_INSURANCE_PUSHBACK_SHR.mp4 -> REEL_REEL_JOHN_EDWARDS_01_INSURANCE_PUSHBACK_SHR.mp4
+- [JANITOR] Programmatically normalized asset file: REEL_REEL_JOHN_EDWARDS_02_UMPIRE_RULED_CMT.mp4 -> REEL_REEL_JOHN_EDWARDS_02_UMPIRE_RULED_CMT.mp4
+- [JANITOR] Programmatically normalized asset file: REEL_REEL_JOHN_EDWARDS_02_UMPIRE_RULED_SHR.mp4 -> REEL_REEL_JOHN_EDWARDS_02_UMPIRE_RULED_SHR.mp4
+- [JANITOR] Programmatically normalized asset file: REEL_REEL_JOHN_EDWARDS_03_PEACE_OF_MIND_CMT.mp4 -> REEL_REEL_JOHN_EDWARDS_03_PEACE_OF_MIND_CMT.mp4
+- [JANITOR] Programmatically normalized asset file: REEL_REEL_JOHN_EDWARDS_03_PEACE_OF_MIND_SHR.mp4 -> REEL_REEL_JOHN_EDWARDS_03_PEACE_OF_MIND_SHR.mp4
+- [JANITOR] Programmatically normalized asset file: REEL_REEL_MIKE_FENDEK_01_INSURANCE_PUSHBACK_CMT.mp4 -> REEL_REEL_MIKE_FENDEK_01_INSURANCE_PUSHBACK_CMT.mp4
+- [JANITOR] Programmatically normalized asset file: REEL_REEL_MIKE_FENDEK_01_INSURANCE_PUSHBACK_SHR.mp4 -> REEL_REEL_MIKE_FENDEK_01_INSURANCE_PUSHBACK_SHR.mp4
+- [JANITOR] Programmatically normalized asset file: REEL_REEL_MIKE_FENDEK_02_UMPIRE_RULED_CMT.mp4 -> REEL_REEL_MIKE_FENDEK_02_UMPIRE_RULED_CMT.mp4
+- [JANITOR] Programmatically normalized asset file: REEL_REEL_MIKE_FENDEK_02_UMPIRE_RULED_SHR.mp4 -> REEL_REEL_MIKE_FENDEK_02_UMPIRE_RULED_SHR.mp4
+- [JANITOR] Programmatically normalized asset file: REEL_REEL_MIKE_FENDEK_03_PEACE_OF_MIND_CMT.mp4 -> REEL_REEL_MIKE_FENDEK_03_PEACE_OF_MIND_CMT.mp4
+- [JANITOR] Programmatically normalized asset file: REEL_REEL_MIKE_FENDEK_03_PEACE_OF_MIND_SHR.mp4 -> REEL_REEL_MIKE_FENDEK_03_PEACE_OF_MIND_SHR.mp4
+- [JANITOR] Programmatically normalized asset file: REEL_REEL_TESTIMONIAL_1005_01_INSURANCE_PUSHBACK_CMT.mp4 -> REEL_REEL_TESTIMONIAL_1005_01_INSURANCE_PUSHBACK_CMT.mp4
+- [JANITOR] Programmatically normalized asset file: REEL_REEL_TESTIMONIAL_1005_01_INSURANCE_PUSHBACK_SHR.mp4 -> REEL_REEL_TESTIMONIAL_1005_01_INSURANCE_PUSHBACK_SHR.mp4
+- [JANITOR] Programmatically normalized asset file: REEL_REEL_TESTIMONIAL_1005_02_UMPIRE_RULED_CMT.mp4 -> REEL_REEL_TESTIMONIAL_1005_02_UMPIRE_RULED_CMT.mp4
+- [JANITOR] Programmatically normalized asset file: REEL_REEL_TESTIMONIAL_1005_02_UMPIRE_RULED_SHR.mp4 -> REEL_REEL_TESTIMONIAL_1005_02_UMPIRE_RULED_SHR.mp4
+- [JANITOR] Programmatically normalized asset file: REEL_REEL_TESTIMONIAL_1005_03_PEACE_OF_MIND_CMT.mp4 -> REEL_REEL_TESTIMONIAL_1005_03_PEACE_OF_MIND_CMT.mp4
+- [JANITOR] Programmatically normalized asset file: REEL_REEL_TESTIMONIAL_1005_03_PEACE_OF_MIND_SHR.mp4 -> REEL_REEL_TESTIMONIAL_1005_03_PEACE_OF_MIND_SHR.mp4
+- [JANITOR] Programmatically normalized asset file: Roofing.mp4 -> Roofing.mp4
+- [JANITOR] Programmatically normalized asset file: Sales 1.mp4 -> Sales 1.mp4
+- [JANITOR] Programmatically normalized asset file: 5905 Middleton Dr Parker 2.mp4 -> 5905 Middleton Dr Parker 2.mp4
+- [JANITOR] Programmatically normalized asset file: Hail damage.mp4 -> Hail damage.mp4
+- [JANITOR] Programmatically normalized asset file: Hiring sales reps.MP4 -> Hiring sales reps.MP4
+- [JANITOR] Programmatically normalized asset file: Motivational 1.MP4 -> Motivational 1.MP4
+- [JANITOR] Programmatically normalized asset file: Motivational 2.mp4 -> Motivational 2.mp4
+- [JANITOR] Programmatically normalized asset file: Motivational 3.mp4 -> Motivational 3.mp4
+- [JANITOR] Programmatically normalized asset file: Motivational 4.mp4 -> Motivational 4.mp4
+- [JANITOR] Programmatically normalized asset file: Motivational 5.mp4 -> Motivational 5.mp4
+- [JANITOR] Programmatically normalized asset file: prequalifying.mp4 -> prequalifying.mp4
+- [JANITOR] Programmatically normalized asset file: Realtors.MP4 -> Realtors.MP4
+- [JANITOR] Programmatically normalized asset file: Sales 1.mp4 -> Sales 1.mp4
+- [JANITOR] Programmatically normalized asset file: Pineapple-10.jpg -> Pineapple-10.jpg
+- [JANITOR] Programmatically normalized asset file: Pineapple-11.jpg -> Pineapple-11.jpg
+- [JANITOR] Programmatically normalized asset file: Pineapple-12.jpg -> Pineapple-12.jpg
+- [JANITOR] Programmatically normalized asset file: Pineapple-13.jpg -> Pineapple-13.jpg
+- [JANITOR] Programmatically normalized asset file: Pineapple-14.jpg -> Pineapple-14.jpg
+- [JANITOR] Programmatically normalized asset file: Pineapple-15.jpg -> Pineapple-15.jpg
+- [JANITOR] Programmatically normalized asset file: Pineapple-16.jpg -> Pineapple-16.jpg
+- [JANITOR] Programmatically normalized asset file: Pineapple-17.jpg -> Pineapple-17.jpg
+- [JANITOR] Programmatically normalized asset file: Pineapple-18.jpg -> Pineapple-18.jpg
+- [JANITOR] Programmatically normalized asset file: Pineapple-19.jpg -> Pineapple-19.jpg
+- [JANITOR] Programmatically normalized asset file: Pineapple-2.jpg -> Pineapple-2.jpg
+- [JANITOR] Programmatically normalized asset file: Pineapple-20.jpg -> Pineapple-20.jpg
+- [JANITOR] Programmatically normalized asset file: Pineapple-21.jpg -> Pineapple-21.jpg
+- [JANITOR] Programmatically normalized asset file: Pineapple-22.jpg -> Pineapple-22.jpg
+- [JANITOR] Programmatically normalized asset file: Pineapple-23.jpg -> Pineapple-23.jpg
+- [JANITOR] Programmatically normalized asset file: Pineapple-24.jpg -> Pineapple-24.jpg
+- [JANITOR] Programmatically normalized asset file: Pineapple-25.jpg -> Pineapple-25.jpg
+- [JANITOR] Programmatically normalized asset file: Pineapple-26.jpg -> Pineapple-26.jpg
+- [JANITOR] Programmatically normalized asset file: Pineapple-27.jpg -> Pineapple-27.jpg
+- [JANITOR] Programmatically normalized asset file: Pineapple-28.jpg -> Pineapple-28.jpg
+- [JANITOR] Programmatically normalized asset file: Pineapple-29.jpg -> Pineapple-29.jpg
+- [JANITOR] Programmatically normalized asset file: Pineapple-3.jpg -> Pineapple-3.jpg
+- [JANITOR] Programmatically normalized asset file: Pineapple-30.jpg -> Pineapple-30.jpg
+- [JANITOR] Programmatically normalized asset file: Pineapple-31.jpg -> Pineapple-31.jpg
+- [JANITOR] Programmatically normalized asset file: Pineapple-32.jpg -> Pineapple-32.jpg
+- [JANITOR] Programmatically normalized asset file: Pineapple-33.jpg -> Pineapple-33.jpg
+- [JANITOR] Programmatically normalized asset file: Pineapple-34.jpg -> Pineapple-34.jpg
+- [JANITOR] Programmatically normalized asset file: Pineapple-4.jpg -> Pineapple-4.jpg
+- [JANITOR] Programmatically normalized asset file: Pineapple-5.jpg -> Pineapple-5.jpg
+- [JANITOR] Programmatically normalized asset file: Pineapple-6.jpg -> Pineapple-6.jpg
+- [JANITOR] Programmatically normalized asset file: Pineapple-7.jpg -> Pineapple-7.jpg
+- [JANITOR] Programmatically normalized asset file: Pineapple-8.jpg -> Pineapple-8.jpg
+- [JANITOR] Programmatically normalized asset file: Pineapple-9.jpg -> Pineapple-9.jpg
+- [JANITOR] Programmatically normalized asset file: Pineapple.jpg -> Pineapple.jpg
+- [JANITOR] Programmatically normalized asset file: 113 Cloudcroft Dr Wylie-10.jpg -> 113 Cloudcroft Dr Wylie-10.jpg
+- [JANITOR] Programmatically normalized asset file: 113 Cloudcroft Dr Wylie-11.jpg -> 113 Cloudcroft Dr Wylie-11.jpg
+- [JANITOR] Programmatically normalized asset file: 113 Cloudcroft Dr Wylie-12.jpg -> 113 Cloudcroft Dr Wylie-12.jpg
+- [JANITOR] Programmatically normalized asset file: 113 Cloudcroft Dr Wylie-13.jpg -> 113 Cloudcroft Dr Wylie-13.jpg
+- [JANITOR] Programmatically normalized asset file: 113 Cloudcroft Dr Wylie-14.jpg -> 113 Cloudcroft Dr Wylie-14.jpg
+- [JANITOR] Programmatically normalized asset file: 113 Cloudcroft Dr Wylie-15.jpg -> 113 Cloudcroft Dr Wylie-15.jpg
+- [JANITOR] Programmatically normalized asset file: 113 Cloudcroft Dr Wylie-16.jpg -> 113 Cloudcroft Dr Wylie-16.jpg
+- [JANITOR] Programmatically normalized asset file: 113 Cloudcroft Dr Wylie-17.jpg -> 113 Cloudcroft Dr Wylie-17.jpg
+- [JANITOR] Programmatically normalized asset file: 113 Cloudcroft Dr Wylie-18.jpg -> 113 Cloudcroft Dr Wylie-18.jpg
+- [JANITOR] Programmatically normalized asset file: 113 Cloudcroft Dr Wylie-2.jpg -> 113 Cloudcroft Dr Wylie-2.jpg
+- [JANITOR] Programmatically normalized asset file: 113 Cloudcroft Dr Wylie-3.jpg -> 113 Cloudcroft Dr Wylie-3.jpg
+- [JANITOR] Programmatically normalized asset file: 113 Cloudcroft Dr Wylie-4.jpg -> 113 Cloudcroft Dr Wylie-4.jpg
+- [JANITOR] Programmatically normalized asset file: 113 Cloudcroft Dr Wylie-5.jpg -> 113 Cloudcroft Dr Wylie-5.jpg
+- [JANITOR] Programmatically normalized asset file: 113 Cloudcroft Dr Wylie-6.jpg -> 113 Cloudcroft Dr Wylie-6.jpg
+- [JANITOR] Programmatically normalized asset file: 113 Cloudcroft Dr Wylie-7.jpg -> 113 Cloudcroft Dr Wylie-7.jpg
+- [JANITOR] Programmatically normalized asset file: 113 Cloudcroft Dr Wylie-8.jpg -> 113 Cloudcroft Dr Wylie-8.jpg
+- [JANITOR] Programmatically normalized asset file: 113 Cloudcroft Dr Wylie-9.jpg -> 113 Cloudcroft Dr Wylie-9.jpg
+- [JANITOR] Programmatically normalized asset file: 113 Cloudcroft Dr Wylie.jpg -> 113 Cloudcroft Dr Wylie.jpg
+- [JANITOR] Programmatically normalized asset file: 1217 Bois D'Arc Ln - Anna-10.jpg -> 1217 Bois D'Arc Ln - Anna-10.jpg
+- [JANITOR] Programmatically normalized asset file: 1217 Bois D'Arc Ln - Anna-11.jpg -> 1217 Bois D'Arc Ln - Anna-11.jpg
+- [JANITOR] Programmatically normalized asset file: 1217 Bois D'Arc Ln - Anna-12.jpg -> 1217 Bois D'Arc Ln - Anna-12.jpg
+- [JANITOR] Programmatically normalized asset file: 1217 Bois D'Arc Ln - Anna-13.jpg -> 1217 Bois D'Arc Ln - Anna-13.jpg
+- [JANITOR] Programmatically normalized asset file: 1217 Bois D'Arc Ln - Anna-14.jpg -> 1217 Bois D'Arc Ln - Anna-14.jpg
+- [JANITOR] Programmatically normalized asset file: 1217 Bois D'Arc Ln - Anna-15.jpg -> 1217 Bois D'Arc Ln - Anna-15.jpg
+- [JANITOR] Programmatically normalized asset file: 1217 Bois D'Arc Ln - Anna-16.jpg -> 1217 Bois D'Arc Ln - Anna-16.jpg
+- [JANITOR] Programmatically normalized asset file: 1217 Bois D'Arc Ln - Anna-17.jpg -> 1217 Bois D'Arc Ln - Anna-17.jpg
+- [JANITOR] Programmatically normalized asset file: 1217 Bois D'Arc Ln - Anna-18.jpg -> 1217 Bois D'Arc Ln - Anna-18.jpg
+- [JANITOR] Programmatically normalized asset file: 1217 Bois D'Arc Ln - Anna-19.jpg -> 1217 Bois D'Arc Ln - Anna-19.jpg
+- [JANITOR] Programmatically normalized asset file: 1217 Bois D'Arc Ln - Anna-2.jpg -> 1217 Bois D'Arc Ln - Anna-2.jpg
+- [JANITOR] Programmatically normalized asset file: 1217 Bois D'Arc Ln - Anna-3.jpg -> 1217 Bois D'Arc Ln - Anna-3.jpg
+- [JANITOR] Programmatically normalized asset file: 1217 Bois D'Arc Ln - Anna-4.jpg -> 1217 Bois D'Arc Ln - Anna-4.jpg
+- [JANITOR] Programmatically normalized asset file: 1217 Bois D'Arc Ln - Anna-5.jpg -> 1217 Bois D'Arc Ln - Anna-5.jpg
+- [JANITOR] Programmatically normalized asset file: 1217 Bois D'Arc Ln - Anna-6.jpg -> 1217 Bois D'Arc Ln - Anna-6.jpg
+- [JANITOR] Programmatically normalized asset file: 1217 Bois D'Arc Ln - Anna-7.jpg -> 1217 Bois D'Arc Ln - Anna-7.jpg
+- [JANITOR] Programmatically normalized asset file: 1217 Bois D'Arc Ln - Anna-8.jpg -> 1217 Bois D'Arc Ln - Anna-8.jpg
+- [JANITOR] Programmatically normalized asset file: 1217 Bois D'Arc Ln - Anna-9.jpg -> 1217 Bois D'Arc Ln - Anna-9.jpg
+- [JANITOR] Programmatically normalized asset file: 1217 Bois D'Arc Ln - Anna.jpg -> 1217 Bois D'Arc Ln - Anna.jpg
+- [JANITOR] Programmatically normalized asset file: 2008 chalfront dr-10.jpg -> 2008 chalfront dr-10.jpg
+- [JANITOR] Programmatically normalized asset file: 2008 chalfront dr-11.jpg -> 2008 chalfront dr-11.jpg
+- [JANITOR] Programmatically normalized asset file: 2008 chalfront dr-2.jpg -> 2008 chalfront dr-2.jpg
+- [JANITOR] Programmatically normalized asset file: 2008 chalfront dr-3.jpg -> 2008 chalfront dr-3.jpg
+- [JANITOR] Programmatically normalized asset file: 2008 chalfront dr-4.jpg -> 2008 chalfront dr-4.jpg
+- [JANITOR] Programmatically normalized asset file: 2008 chalfront dr-5.jpg -> 2008 chalfront dr-5.jpg
+- [JANITOR] Programmatically normalized asset file: 2008 chalfront dr-6.jpg -> 2008 chalfront dr-6.jpg
+- [JANITOR] Programmatically normalized asset file: 2008 chalfront dr-7.jpg -> 2008 chalfront dr-7.jpg
+- [JANITOR] Programmatically normalized asset file: 2008 chalfront dr-8.jpg -> 2008 chalfront dr-8.jpg
+- [JANITOR] Programmatically normalized asset file: 2008 chalfront dr-9.jpg -> 2008 chalfront dr-9.jpg
+- [JANITOR] Programmatically normalized asset file: 2008 chalfront dr.jpg -> 2008 chalfront dr.jpg
+- [JANITOR] Programmatically normalized asset file: 3413 Cedar Ln - Melissa-10.jpg -> 3413 Cedar Ln - Melissa-10.jpg
+- [JANITOR] Programmatically normalized asset file: 3413 Cedar Ln - Melissa-11.jpg -> 3413 Cedar Ln - Melissa-11.jpg
+- [JANITOR] Programmatically normalized asset file: 3413 Cedar Ln - Melissa-12.jpg -> 3413 Cedar Ln - Melissa-12.jpg
+- [JANITOR] Programmatically normalized asset file: 3413 Cedar Ln - Melissa-13.jpg -> 3413 Cedar Ln - Melissa-13.jpg
+- [JANITOR] Programmatically normalized asset file: 3413 Cedar Ln - Melissa-14.jpg -> 3413 Cedar Ln - Melissa-14.jpg
+- [JANITOR] Programmatically normalized asset file: 3413 Cedar Ln - Melissa-15.jpg -> 3413 Cedar Ln - Melissa-15.jpg
+- [JANITOR] Programmatically normalized asset file: 3413 Cedar Ln - Melissa-16.jpg -> 3413 Cedar Ln - Melissa-16.jpg
+- [JANITOR] Programmatically normalized asset file: 3413 Cedar Ln - Melissa-17.jpg -> 3413 Cedar Ln - Melissa-17.jpg
+- [JANITOR] Programmatically normalized asset file: 3413 Cedar Ln - Melissa-18.jpg -> 3413 Cedar Ln - Melissa-18.jpg
+- [JANITOR] Programmatically normalized asset file: 3413 Cedar Ln - Melissa-19.jpg -> 3413 Cedar Ln - Melissa-19.jpg
+- [JANITOR] Programmatically normalized asset file: 3413 Cedar Ln - Melissa-2.jpg -> 3413 Cedar Ln - Melissa-2.jpg
+- [JANITOR] Programmatically normalized asset file: 3413 Cedar Ln - Melissa-3.jpg -> 3413 Cedar Ln - Melissa-3.jpg
+- [JANITOR] Programmatically normalized asset file: 3413 Cedar Ln - Melissa-4.jpg -> 3413 Cedar Ln - Melissa-4.jpg
+- [JANITOR] Programmatically normalized asset file: 3413 Cedar Ln - Melissa-5.jpg -> 3413 Cedar Ln - Melissa-5.jpg
+- [JANITOR] Programmatically normalized asset file: 3413 Cedar Ln - Melissa-6.jpg -> 3413 Cedar Ln - Melissa-6.jpg
+- [JANITOR] Programmatically normalized asset file: 3413 Cedar Ln - Melissa-7.jpg -> 3413 Cedar Ln - Melissa-7.jpg
+- [JANITOR] Programmatically normalized asset file: 3413 Cedar Ln - Melissa-8.jpg -> 3413 Cedar Ln - Melissa-8.jpg
+- [JANITOR] Programmatically normalized asset file: 3413 Cedar Ln - Melissa-9.jpg -> 3413 Cedar Ln - Melissa-9.jpg
+- [JANITOR] Programmatically normalized asset file: 3413 Cedar Ln - Melissa.jpg -> 3413 Cedar Ln - Melissa.jpg
+- [JANITOR] Programmatically normalized asset file: 3602 Dogwood Rd - Melissa-10.jpg -> 3602 Dogwood Rd - Melissa-10.jpg
+- [JANITOR] Programmatically normalized asset file: 3602 Dogwood Rd - Melissa-2.jpg -> 3602 Dogwood Rd - Melissa-2.jpg
+- [JANITOR] Programmatically normalized asset file: 3602 Dogwood Rd - Melissa-3.jpg -> 3602 Dogwood Rd - Melissa-3.jpg
+- [JANITOR] Programmatically normalized asset file: 3602 Dogwood Rd - Melissa-4.jpg -> 3602 Dogwood Rd - Melissa-4.jpg
+- [JANITOR] Programmatically normalized asset file: 3602 Dogwood Rd - Melissa-5.jpg -> 3602 Dogwood Rd - Melissa-5.jpg
+- [JANITOR] Programmatically normalized asset file: 3602 Dogwood Rd - Melissa-6.jpg -> 3602 Dogwood Rd - Melissa-6.jpg
+- [JANITOR] Programmatically normalized asset file: 3602 Dogwood Rd - Melissa-7.jpg -> 3602 Dogwood Rd - Melissa-7.jpg
+- [JANITOR] Programmatically normalized asset file: 3602 Dogwood Rd - Melissa-8.jpg -> 3602 Dogwood Rd - Melissa-8.jpg
+- [JANITOR] Programmatically normalized asset file: 3602 Dogwood Rd - Melissa-9.jpg -> 3602 Dogwood Rd - Melissa-9.jpg
+- [JANITOR] Programmatically normalized asset file: 3602 Dogwood Rd - Melissa.jpg -> 3602 Dogwood Rd - Melissa.jpg
+- [JANITOR] Programmatically normalized asset file: 3604 Dogwood Rd - Melissa-2.jpg -> 3604 Dogwood Rd - Melissa-2.jpg
+- [JANITOR] Programmatically normalized asset file: 3604 Dogwood Rd - Melissa-3.jpg -> 3604 Dogwood Rd - Melissa-3.jpg
+- [JANITOR] Programmatically normalized asset file: 3604 Dogwood Rd - Melissa-4.jpg -> 3604 Dogwood Rd - Melissa-4.jpg
+- [JANITOR] Programmatically normalized asset file: 3604 Dogwood Rd - Melissa-5.jpg -> 3604 Dogwood Rd - Melissa-5.jpg
+- [JANITOR] Programmatically normalized asset file: 3604 Dogwood Rd - Melissa-6.jpg -> 3604 Dogwood Rd - Melissa-6.jpg
+- [JANITOR] Programmatically normalized asset file: 3604 Dogwood Rd - Melissa-7.jpg -> 3604 Dogwood Rd - Melissa-7.jpg
+- [JANITOR] Programmatically normalized asset file: 3604 Dogwood Rd - Melissa.jpg -> 3604 Dogwood Rd - Melissa.jpg
+- [JANITOR] Programmatically normalized asset file: 3705 ladybank-10.jpg -> 3705 ladybank-10.jpg
+- [JANITOR] Programmatically normalized asset file: 3705 ladybank-11.jpg -> 3705 ladybank-11.jpg
+- [JANITOR] Programmatically normalized asset file: 3705 ladybank-12.jpg -> 3705 ladybank-12.jpg
+- [JANITOR] Programmatically normalized asset file: 3705 ladybank-13.jpg -> 3705 ladybank-13.jpg
+- [JANITOR] Programmatically normalized asset file: 3705 ladybank-14.jpg -> 3705 ladybank-14.jpg
+- [JANITOR] Programmatically normalized asset file: 3705 ladybank-15.jpg -> 3705 ladybank-15.jpg
+- [JANITOR] Programmatically normalized asset file: 3705 ladybank-16.jpg -> 3705 ladybank-16.jpg
+- [JANITOR] Programmatically normalized asset file: 3705 ladybank-17.jpg -> 3705 ladybank-17.jpg
+- [JANITOR] Programmatically normalized asset file: 3705 ladybank-18.jpg -> 3705 ladybank-18.jpg
+- [JANITOR] Programmatically normalized asset file: 3705 ladybank-19.jpg -> 3705 ladybank-19.jpg
+- [JANITOR] Programmatically normalized asset file: 3705 ladybank-2.jpg -> 3705 ladybank-2.jpg
+- [JANITOR] Programmatically normalized asset file: 3705 ladybank-20.jpg -> 3705 ladybank-20.jpg
+- [JANITOR] Programmatically normalized asset file: 3705 ladybank-21.jpg -> 3705 ladybank-21.jpg
+- [JANITOR] Programmatically normalized asset file: 3705 ladybank-22.jpg -> 3705 ladybank-22.jpg
+- [JANITOR] Programmatically normalized asset file: 3705 ladybank-23.jpg -> 3705 ladybank-23.jpg
+- [JANITOR] Programmatically normalized asset file: 3705 ladybank-24.jpg -> 3705 ladybank-24.jpg
+- [JANITOR] Programmatically normalized asset file: 3705 ladybank-25.jpg -> 3705 ladybank-25.jpg
+- [JANITOR] Programmatically normalized asset file: 3705 ladybank-26.jpg -> 3705 ladybank-26.jpg
+- [JANITOR] Programmatically normalized asset file: 3705 ladybank-3.jpg -> 3705 ladybank-3.jpg
+- [JANITOR] Programmatically normalized asset file: 3705 ladybank-4.jpg -> 3705 ladybank-4.jpg
+- [JANITOR] Programmatically normalized asset file: 3705 ladybank-5.jpg -> 3705 ladybank-5.jpg
+- [JANITOR] Programmatically normalized asset file: 3705 ladybank-6.jpg -> 3705 ladybank-6.jpg
+- [JANITOR] Programmatically normalized asset file: 3705 ladybank-7.jpg -> 3705 ladybank-7.jpg
+- [JANITOR] Programmatically normalized asset file: 3705 ladybank-8.jpg -> 3705 ladybank-8.jpg
+- [JANITOR] Programmatically normalized asset file: 3705 ladybank-9.jpg -> 3705 ladybank-9.jpg
+- [JANITOR] Programmatically normalized asset file: 3705 ladybank.jpg -> 3705 ladybank.jpg
+- [JANITOR] Programmatically normalized asset file: 4314 Cherry Ln - Melissa-10.jpg -> 4314 Cherry Ln - Melissa-10.jpg
+- [JANITOR] Programmatically normalized asset file: 4314 Cherry Ln - Melissa-11.jpg -> 4314 Cherry Ln - Melissa-11.jpg
+- [JANITOR] Programmatically normalized asset file: 4314 Cherry Ln - Melissa-12.jpg -> 4314 Cherry Ln - Melissa-12.jpg
+- [JANITOR] Programmatically normalized asset file: 4314 Cherry Ln - Melissa-13.jpg -> 4314 Cherry Ln - Melissa-13.jpg
+- [JANITOR] Programmatically normalized asset file: 4314 Cherry Ln - Melissa-14.jpg -> 4314 Cherry Ln - Melissa-14.jpg
+- [JANITOR] Programmatically normalized asset file: 4314 Cherry Ln - Melissa-15.jpg -> 4314 Cherry Ln - Melissa-15.jpg
+- [JANITOR] Programmatically normalized asset file: 4314 Cherry Ln - Melissa-16.jpg -> 4314 Cherry Ln - Melissa-16.jpg
+- [JANITOR] Programmatically normalized asset file: 4314 Cherry Ln - Melissa-2.jpg -> 4314 Cherry Ln - Melissa-2.jpg
+- [JANITOR] Programmatically normalized asset file: 4314 Cherry Ln - Melissa-3.jpg -> 4314 Cherry Ln - Melissa-3.jpg
+- [JANITOR] Programmatically normalized asset file: 4314 Cherry Ln - Melissa-4.jpg -> 4314 Cherry Ln - Melissa-4.jpg
+- [JANITOR] Programmatically normalized asset file: 4314 Cherry Ln - Melissa-5.jpg -> 4314 Cherry Ln - Melissa-5.jpg
+- [JANITOR] Programmatically normalized asset file: 4314 Cherry Ln - Melissa-6.jpg -> 4314 Cherry Ln - Melissa-6.jpg
+- [JANITOR] Programmatically normalized asset file: 4314 Cherry Ln - Melissa-7.jpg -> 4314 Cherry Ln - Melissa-7.jpg
+- [JANITOR] Programmatically normalized asset file: 4314 Cherry Ln - Melissa-8.jpg -> 4314 Cherry Ln - Melissa-8.jpg
+- [JANITOR] Programmatically normalized asset file: 4314 Cherry Ln - Melissa-9.jpg -> 4314 Cherry Ln - Melissa-9.jpg
+- [JANITOR] Programmatically normalized asset file: 4314 Cherry Ln - Melissa.jpg -> 4314 Cherry Ln - Melissa.jpg
+- [JANITOR] Programmatically normalized asset file: 4330 Cordata Dr � Melissa-10.jpg -> 4330 Cordata Dr � Melissa-10.jpg
+- [JANITOR] Programmatically normalized asset file: 4330 Cordata Dr � Melissa-11.jpg -> 4330 Cordata Dr � Melissa-11.jpg
+- [JANITOR] Programmatically normalized asset file: 4330 Cordata Dr � Melissa-12.jpg -> 4330 Cordata Dr � Melissa-12.jpg
+- [JANITOR] Programmatically normalized asset file: 4330 Cordata Dr � Melissa-13.jpg -> 4330 Cordata Dr � Melissa-13.jpg
+- [JANITOR] Programmatically normalized asset file: 4330 Cordata Dr � Melissa-14.jpg -> 4330 Cordata Dr � Melissa-14.jpg
+- [JANITOR] Programmatically normalized asset file: 4330 Cordata Dr � Melissa-2.jpg -> 4330 Cordata Dr � Melissa-2.jpg
+- [JANITOR] Programmatically normalized asset file: 4330 Cordata Dr � Melissa-3.jpg -> 4330 Cordata Dr � Melissa-3.jpg
+- [JANITOR] Programmatically normalized asset file: 4330 Cordata Dr � Melissa-4.jpg -> 4330 Cordata Dr � Melissa-4.jpg
+- [JANITOR] Programmatically normalized asset file: 4330 Cordata Dr � Melissa-5.jpg -> 4330 Cordata Dr � Melissa-5.jpg
+- [JANITOR] Programmatically normalized asset file: 4330 Cordata Dr � Melissa-6.jpg -> 4330 Cordata Dr � Melissa-6.jpg
+- [JANITOR] Programmatically normalized asset file: 4330 Cordata Dr � Melissa-7.jpg -> 4330 Cordata Dr � Melissa-7.jpg
+- [JANITOR] Programmatically normalized asset file: 4330 Cordata Dr � Melissa-8.jpg -> 4330 Cordata Dr � Melissa-8.jpg
+- [JANITOR] Programmatically normalized asset file: 4330 Cordata Dr � Melissa-9.jpg -> 4330 Cordata Dr � Melissa-9.jpg
+- [JANITOR] Programmatically normalized asset file: 4330 Cordata Dr � Melissa.jpg -> 4330 Cordata Dr � Melissa.jpg
+- [JANITOR] Programmatically normalized asset file: 5033 iroquis dr-10.jpg -> 5033 iroquis dr-10.jpg
+- [JANITOR] Programmatically normalized asset file: 5033 iroquis dr-11.jpg -> 5033 iroquis dr-11.jpg
+- [JANITOR] Programmatically normalized asset file: 5033 iroquis dr-12.jpg -> 5033 iroquis dr-12.jpg
+- [JANITOR] Programmatically normalized asset file: 5033 iroquis dr-13.jpg -> 5033 iroquis dr-13.jpg
+- [JANITOR] Programmatically normalized asset file: 5033 iroquis dr-2.jpg -> 5033 iroquis dr-2.jpg
+- [JANITOR] Programmatically normalized asset file: 5033 iroquis dr-3.jpg -> 5033 iroquis dr-3.jpg
+- [JANITOR] Programmatically normalized asset file: 5033 iroquis dr-4.jpg -> 5033 iroquis dr-4.jpg
+- [JANITOR] Programmatically normalized asset file: 5033 iroquis dr-5.jpg -> 5033 iroquis dr-5.jpg
+- [JANITOR] Programmatically normalized asset file: 5033 iroquis dr-6.jpg -> 5033 iroquis dr-6.jpg
+- [JANITOR] Programmatically normalized asset file: 5033 iroquis dr-7.jpg -> 5033 iroquis dr-7.jpg
+- [JANITOR] Programmatically normalized asset file: 5033 iroquis dr-8.jpg -> 5033 iroquis dr-8.jpg
+- [JANITOR] Programmatically normalized asset file: 5033 iroquis dr-9.jpg -> 5033 iroquis dr-9.jpg
+- [JANITOR] Programmatically normalized asset file: 5033 iroquis dr.jpg -> 5033 iroquis dr.jpg
+- [JANITOR] Programmatically normalized asset file: 5905 Middleton Dr Parker-10.jpg -> 5905 Middleton Dr Parker-10.jpg
+- [JANITOR] Programmatically normalized asset file: 5905 Middleton Dr Parker-11.jpg -> 5905 Middleton Dr Parker-11.jpg
+- [JANITOR] Programmatically normalized asset file: 5905 Middleton Dr Parker-12.jpg -> 5905 Middleton Dr Parker-12.jpg
+- [JANITOR] Programmatically normalized asset file: 5905 Middleton Dr Parker-13.jpg -> 5905 Middleton Dr Parker-13.jpg
+- [JANITOR] Programmatically normalized asset file: 5905 Middleton Dr Parker-14.jpg -> 5905 Middleton Dr Parker-14.jpg
+- [JANITOR] Programmatically normalized asset file: 5905 Middleton Dr Parker-15.jpg -> 5905 Middleton Dr Parker-15.jpg
+- [JANITOR] Programmatically normalized asset file: 5905 Middleton Dr Parker-2.jpg -> 5905 Middleton Dr Parker-2.jpg
+- [JANITOR] Programmatically normalized asset file: 5905 Middleton Dr Parker-3.jpg -> 5905 Middleton Dr Parker-3.jpg
+- [JANITOR] Programmatically normalized asset file: 5905 Middleton Dr Parker-4.jpg -> 5905 Middleton Dr Parker-4.jpg
+- [JANITOR] Programmatically normalized asset file: 5905 Middleton Dr Parker-5.jpg -> 5905 Middleton Dr Parker-5.jpg
+- [JANITOR] Programmatically normalized asset file: 5905 Middleton Dr Parker-6.jpg -> 5905 Middleton Dr Parker-6.jpg
+- [JANITOR] Programmatically normalized asset file: 5905 Middleton Dr Parker-7.jpg -> 5905 Middleton Dr Parker-7.jpg
+- [JANITOR] Programmatically normalized asset file: 5905 Middleton Dr Parker-8.jpg -> 5905 Middleton Dr Parker-8.jpg
+- [JANITOR] Programmatically normalized asset file: 5905 Middleton Dr Parker-9.jpg -> 5905 Middleton Dr Parker-9.jpg
+- [JANITOR] Programmatically normalized asset file: 5905 Middleton Dr Parker.jpg -> 5905 Middleton Dr Parker.jpg
+- [JANITOR] Programmatically normalized asset file: 765 Hawthorn St - Princeton-10.jpg -> 765 Hawthorn St - Princeton-10.jpg
+- [JANITOR] Programmatically normalized asset file: 765 Hawthorn St - Princeton-11.jpg -> 765 Hawthorn St - Princeton-11.jpg
+- [JANITOR] Programmatically normalized asset file: 765 Hawthorn St - Princeton-12.jpg -> 765 Hawthorn St - Princeton-12.jpg
+- [JANITOR] Programmatically normalized asset file: 765 Hawthorn St - Princeton-13.jpg -> 765 Hawthorn St - Princeton-13.jpg
+- [JANITOR] Programmatically normalized asset file: 765 Hawthorn St - Princeton-14.jpg -> 765 Hawthorn St - Princeton-14.jpg
+- [JANITOR] Programmatically normalized asset file: 765 Hawthorn St - Princeton-15.jpg -> 765 Hawthorn St - Princeton-15.jpg
+- [JANITOR] Programmatically normalized asset file: 765 Hawthorn St - Princeton-16.jpg -> 765 Hawthorn St - Princeton-16.jpg
+- [JANITOR] Programmatically normalized asset file: 765 Hawthorn St - Princeton-17.jpg -> 765 Hawthorn St - Princeton-17.jpg
+- [JANITOR] Programmatically normalized asset file: 765 Hawthorn St - Princeton-2.jpg -> 765 Hawthorn St - Princeton-2.jpg
+- [JANITOR] Programmatically normalized asset file: 765 Hawthorn St - Princeton-3.jpg -> 765 Hawthorn St - Princeton-3.jpg
+- [JANITOR] Programmatically normalized asset file: 765 Hawthorn St - Princeton-4.jpg -> 765 Hawthorn St - Princeton-4.jpg
+- [JANITOR] Programmatically normalized asset file: 765 Hawthorn St - Princeton-5.jpg -> 765 Hawthorn St - Princeton-5.jpg
+- [JANITOR] Programmatically normalized asset file: 765 Hawthorn St - Princeton-6.jpg -> 765 Hawthorn St - Princeton-6.jpg
+- [JANITOR] Programmatically normalized asset file: 765 Hawthorn St - Princeton-7.jpg -> 765 Hawthorn St - Princeton-7.jpg
+- [JANITOR] Programmatically normalized asset file: 765 Hawthorn St - Princeton-8.jpg -> 765 Hawthorn St - Princeton-8.jpg
+- [JANITOR] Programmatically normalized asset file: 765 Hawthorn St - Princeton-9.jpg -> 765 Hawthorn St - Princeton-9.jpg
+- [JANITOR] Programmatically normalized asset file: 765 Hawthorn St - Princeton.jpg -> 765 Hawthorn St - Princeton.jpg
+- [JANITOR] Programmatically normalized asset file: reel_hook_manifest.json -> reel_hook_manifest.json
+- [JANITOR] Programmatically normalized asset file: execute_star_posts.md -> execute_star_posts.md
+- [JANITOR] Programmatically normalized asset file: execute_star_posts_clean.md -> execute_star_posts_clean.md
+- [JANITOR] Programmatically normalized asset file: execute_star_posts_personal_reel_ready.md -> execute_star_posts_personal_reel_ready.md
+- [JANITOR] Programmatically normalized asset file: PACK_01_INSURANCE_PUSHBACK_CMT.md -> PACK_01_INSURANCE_PUSHBACK_CMT.md
+- [JANITOR] Programmatically normalized asset file: PACK_01_INSURANCE_PUSHBACK_SHR.md -> PACK_01_INSURANCE_PUSHBACK_SHR.md
+- [JANITOR] Programmatically normalized asset file: PACK_02_UMPIRE_RULED_CMT.md -> PACK_02_UMPIRE_RULED_CMT.md
+- [JANITOR] Programmatically normalized asset file: PACK_02_UMPIRE_RULED_SHR.md -> PACK_02_UMPIRE_RULED_SHR.md
+- [JANITOR] Programmatically normalized asset file: PACK_03_PEACE_OF_MIND_CMT.md -> PACK_03_PEACE_OF_MIND_CMT.md
+- [JANITOR] Programmatically normalized asset file: PACK_03_PEACE_OF_MIND_SHR.md -> PACK_03_PEACE_OF_MIND_SHR.md
+- [JANITOR] Programmatically normalized asset file: PACK_MIKE_FENDEK_TESTIMONIAL_01_INSURANCE_PUSHBACK_CMT.md -> PACK_MIKE_FENDEK_TESTIMONIAL_01_INSURANCE_PUSHBACK_CMT.md
+- [JANITOR] Programmatically normalized asset file: PACK_MIKE_FENDEK_TESTIMONIAL_01_INSURANCE_PUSHBACK_SHR.md -> PACK_MIKE_FENDEK_TESTIMONIAL_01_INSURANCE_PUSHBACK_SHR.md
+- [JANITOR] Programmatically normalized asset file: PACK_MIKE_FENDEK_TESTIMONIAL_02_UMPIRE_RULED_CMT.md -> PACK_MIKE_FENDEK_TESTIMONIAL_02_UMPIRE_RULED_CMT.md
+- [JANITOR] Programmatically normalized asset file: PACK_MIKE_FENDEK_TESTIMONIAL_02_UMPIRE_RULED_SHR.md -> PACK_MIKE_FENDEK_TESTIMONIAL_02_UMPIRE_RULED_SHR.md
+- [JANITOR] Programmatically normalized asset file: PACK_MIKE_FENDEK_TESTIMONIAL_03_PEACE_OF_MIND_CMT.md -> PACK_MIKE_FENDEK_TESTIMONIAL_03_PEACE_OF_MIND_CMT.md
+- [JANITOR] Programmatically normalized asset file: PACK_MIKE_FENDEK_TESTIMONIAL_03_PEACE_OF_MIND_SHR.md -> PACK_MIKE_FENDEK_TESTIMONIAL_03_PEACE_OF_MIND_SHR.md
+- [JANITOR] Programmatically normalized asset file: PACK_REEL_1600_TESTIMONIAL_02_UMPIRE_RULED_SHR.md -> PACK_REEL_1600_TESTIMONIAL_02_UMPIRE_RULED_SHR.md
+- [JANITOR] Programmatically normalized asset file: PACK_REEL_1600_TESTIMONIAL_03_PEACE_OF_MIND_CMT.md -> PACK_REEL_1600_TESTIMONIAL_03_PEACE_OF_MIND_CMT.md
+- [JANITOR] Programmatically normalized asset file: PACK_REEL_1600_TESTIMONIAL_03_PEACE_OF_MIND_SHR.md -> PACK_REEL_1600_TESTIMONIAL_03_PEACE_OF_MIND_SHR.md
+- [JANITOR] Programmatically normalized asset file: PACK_REEL_6664_CONECUH_01_INSURANCE_PUSHBACK_CMT.md -> PACK_REEL_6664_CONECUH_01_INSURANCE_PUSHBACK_CMT.md
+- [JANITOR] Programmatically normalized asset file: PACK_REEL_6664_CONECUH_01_INSURANCE_PUSHBACK_SHR.md -> PACK_REEL_6664_CONECUH_01_INSURANCE_PUSHBACK_SHR.md
+- [JANITOR] Programmatically normalized asset file: PACK_REEL_6664_CONECUH_02_UMPIRE_RULED_CMT.md -> PACK_REEL_6664_CONECUH_02_UMPIRE_RULED_CMT.md
+- [JANITOR] Programmatically normalized asset file: PACK_REEL_6664_CONECUH_02_UMPIRE_RULED_SHR.md -> PACK_REEL_6664_CONECUH_02_UMPIRE_RULED_SHR.md
+- [JANITOR] Programmatically normalized asset file: PACK_REEL_6664_CONECUH_03_PEACE_OF_MIND_CMT.md -> PACK_REEL_6664_CONECUH_03_PEACE_OF_MIND_CMT.md
+- [JANITOR] Programmatically normalized asset file: PACK_REEL_6664_CONECUH_03_PEACE_OF_MIND_SHR.md -> PACK_REEL_6664_CONECUH_03_PEACE_OF_MIND_SHR.md
+- [JANITOR] Programmatically normalized asset file: PACK_REEL_JOHN_EDWARDS_01_INSURANCE_PUSHBACK_CMT.md -> PACK_REEL_JOHN_EDWARDS_01_INSURANCE_PUSHBACK_CMT.md
+- [JANITOR] Programmatically normalized asset file: PACK_REEL_JOHN_EDWARDS_01_INSURANCE_PUSHBACK_SHR.md -> PACK_REEL_JOHN_EDWARDS_01_INSURANCE_PUSHBACK_SHR.md
+- [JANITOR] Programmatically normalized asset file: PACK_REEL_JOHN_EDWARDS_02_UMPIRE_RULED_CMT.md -> PACK_REEL_JOHN_EDWARDS_02_UMPIRE_RULED_CMT.md
+- [JANITOR] Programmatically normalized asset file: PACK_REEL_JOHN_EDWARDS_02_UMPIRE_RULED_SHR.md -> PACK_REEL_JOHN_EDWARDS_02_UMPIRE_RULED_SHR.md
+- [JANITOR] Programmatically normalized asset file: PACK_REEL_JOHN_EDWARDS_03_PEACE_OF_MIND_CMT.md -> PACK_REEL_JOHN_EDWARDS_03_PEACE_OF_MIND_CMT.md
+- [JANITOR] Programmatically normalized asset file: PACK_REEL_JOHN_EDWARDS_03_PEACE_OF_MIND_SHR.md -> PACK_REEL_JOHN_EDWARDS_03_PEACE_OF_MIND_SHR.md
+- [JANITOR] Programmatically normalized asset file: PACK_REEL_MIKE_FENDEK_01_INSURANCE_PUSHBACK_CMT.md -> PACK_REEL_MIKE_FENDEK_01_INSURANCE_PUSHBACK_CMT.md
+- [JANITOR] Programmatically normalized asset file: PACK_REEL_MIKE_FENDEK_01_INSURANCE_PUSHBACK_SHR.md -> PACK_REEL_MIKE_FENDEK_01_INSURANCE_PUSHBACK_SHR.md
+- [JANITOR] Programmatically normalized asset file: PACK_REEL_MIKE_FENDEK_02_UMPIRE_RULED_CMT.md -> PACK_REEL_MIKE_FENDEK_02_UMPIRE_RULED_CMT.md
+- [JANITOR] Programmatically normalized asset file: PACK_REEL_MIKE_FENDEK_02_UMPIRE_RULED_SHR.md -> PACK_REEL_MIKE_FENDEK_02_UMPIRE_RULED_SHR.md
+- [JANITOR] Programmatically normalized asset file: PACK_REEL_MIKE_FENDEK_03_PEACE_OF_MIND_CMT.md -> PACK_REEL_MIKE_FENDEK_03_PEACE_OF_MIND_CMT.md
+- [JANITOR] Programmatically normalized asset file: PACK_REEL_MIKE_FENDEK_03_PEACE_OF_MIND_SHR.md -> PACK_REEL_MIKE_FENDEK_03_PEACE_OF_MIND_SHR.md
+- [JANITOR] Programmatically normalized asset file: PACK_REEL_TESTIMONIAL_1005_01_INSURANCE_PUSHBACK_CMT.md -> PACK_REEL_TESTIMONIAL_1005_01_INSURANCE_PUSHBACK_CMT.md
+- [JANITOR] Programmatically normalized asset file: PACK_REEL_TESTIMONIAL_1005_01_INSURANCE_PUSHBACK_SHR.md -> PACK_REEL_TESTIMONIAL_1005_01_INSURANCE_PUSHBACK_SHR.md
+- [JANITOR] Programmatically normalized asset file: PACK_REEL_TESTIMONIAL_1005_02_UMPIRE_RULED_CMT.md -> PACK_REEL_TESTIMONIAL_1005_02_UMPIRE_RULED_CMT.md
+- [JANITOR] Programmatically normalized asset file: PACK_REEL_TESTIMONIAL_1005_02_UMPIRE_RULED_SHR.md -> PACK_REEL_TESTIMONIAL_1005_02_UMPIRE_RULED_SHR.md
+- [JANITOR] Programmatically normalized asset file: PACK_REEL_TESTIMONIAL_1005_03_PEACE_OF_MIND_CMT.md -> PACK_REEL_TESTIMONIAL_1005_03_PEACE_OF_MIND_CMT.md
+- [JANITOR] Programmatically normalized asset file: PACK_REEL_TESTIMONIAL_1005_03_PEACE_OF_MIND_SHR.md -> PACK_REEL_TESTIMONIAL_1005_03_PEACE_OF_MIND_SHR.md
+- [JANITOR] Programmatically normalized asset file: category-cult-training-flashcards.json -> category-cult-training-flashcards.json
+- [JANITOR] Programmatically normalized asset file: category-cult-training-report.md -> category-cult-training-report.md
+- [JANITOR] Programmatically normalized asset file: ASSET_ANALYZER.js -> ASSET_ANALYZER.js
+- [JANITOR] Programmatically normalized asset file: brand_overlay.py -> brand_overlay.py
+- [JANITOR] Programmatically normalized asset file: HANDOFF_RESUME.md -> HANDOFF_RESUME.md
+- [JANITOR] Programmatically normalized asset file: package-lock.json -> package-lock.json
+- [JANITOR] Programmatically normalized asset file: package.json -> package.json
+- [JANITOR] Programmatically normalized asset file: SHEET_TRACKER.js -> SHEET_TRACKER.js
+- [JANITOR] Programmatically normalized asset file: Artboard 4@3x.png -> Artboard 4@3x.png
+- [JANITOR] Programmatically normalized asset file: Oct -> Oct
+- [JANITOR] Programmatically normalized asset file: HANDOFF_RESUME.md -> HANDOFF_RESUME.md
+- [JANITOR] Programmatically normalized asset file: BLOATATO_DJI_20260323101858_0001_D.json -> BLOATATO_DJI_20260323101858_0001_D.json
+- [JANITOR] Programmatically normalized asset file: NEALROOFING.png -> NEALROOFING.png
+- [JANITOR] Programmatically normalized asset file: Screen Shot 2021-03-21 at 7.42.14 AM.PNG -> Screen Shot 2021-03-21 at 7.42.14 AM.PNG
+- [JANITOR] Programmatically normalized asset file: Screen Shot 2021-03-21 at 7.43.00 AM.PNG -> Screen Shot 2021-03-21 at 7.43.00 AM.PNG
+- [JANITOR] Programmatically normalized asset file: Screen Shot 2021-03-21 at 7.43.08 AM.PNG -> Screen Shot 2021-03-21 at 7.43.08 AM.PNG
+- [JANITOR] Programmatically normalized asset file: 1774061246651-1774061246920_jr_moeakiola_swfi-jr-ceo.jpeg -> 1774061246651-1774061246920_jr_moeakiola_swfi-jr-ceo.jpeg
+- [JANITOR] Programmatically normalized asset file: 2026 mETA.png -> 2026 mETA.png
+- [JANITOR] Programmatically normalized asset file: A5E9C040-6752-4F53-9B2F-F557252635EA.jpeg -> A5E9C040-6752-4F53-9B2F-F557252635EA.jpeg
+- [JANITOR] Programmatically normalized asset file: Ad_Copy_and_Content_Calendar_Veehala.pdf -> Ad_Copy_and_Content_Calendar_Veehala.pdf
+- [JANITOR] Programmatically normalized asset file: Agentic_OS_Architecture.pdf -> Agentic_OS_Architecture.pdf
+- [JANITOR] Programmatically normalized asset file: Architecture Over Agents.pdf -> Architecture Over Agents.pdf
+- [JANITOR] Programmatically normalized asset file: campaign-deck-builder-skill.skill -> campaign-deck-builder-skill.skill
+- [JANITOR] Programmatically normalized asset file: DC Tokos.jpg -> DC Tokos.jpg
+- [JANITOR] Programmatically normalized asset file: Dubai v1.jpg -> Dubai v1.jpg
+- [JANITOR] Programmatically normalized asset file: Dubai.jpg -> Dubai.jpg
+- [JANITOR] Programmatically normalized asset file: Family San Diego.jpg -> Family San Diego.jpg
+- [JANITOR] Programmatically normalized asset file: Folder Driven AI.pdf -> Folder Driven AI.pdf
+- [JANITOR] Programmatically normalized asset file: Local Folder AI Memory.pdf -> Local Folder AI Memory.pdf
+- [JANITOR] Programmatically normalized asset file: Marketing_Playbook_Veehala.pdf -> Marketing_Playbook_Veehala.pdf
+- [JANITOR] Programmatically normalized asset file: momanddadv1.jpg -> momanddadv1.jpg
+- [JANITOR] Programmatically normalized asset file: momanddadv2.jpg -> momanddadv2.jpg
+- [JANITOR] Programmatically normalized asset file: momanddadv3.jpg -> momanddadv3.jpg
+- [JANITOR] Programmatically normalized asset file: momanddadv5.jpg -> momanddadv5.jpg
+- [JANITOR] Programmatically normalized asset file: momanddadv7.jpg -> momanddadv7.jpg
+- [JANITOR] Programmatically normalized asset file: Momv1.jpg -> Momv1.jpg
+- [JANITOR] Programmatically normalized asset file: momv3.jpg -> momv3.jpg
+- [JANITOR] Programmatically normalized asset file: Mothers of the Moeakiola - Copy.jpg -> Mothers of the Moeakiola - Copy.jpg
+- [JANITOR] Programmatically normalized asset file: Mothers of the Moeakiola.jpg -> Mothers of the Moeakiola.jpg
+- [JANITOR] Programmatically normalized asset file: motherv2.jpg -> motherv2.jpg
+- [JANITOR] Programmatically normalized asset file: Pineapple Polynesian Festival 2026.PNG -> Pineapple Polynesian Festival 2026.PNG
+- [JANITOR] Programmatically normalized asset file: pineapple_bulk_content_grid_30.html -> pineapple_bulk_content_grid_30.html
+- [JANITOR] Programmatically normalized asset file: San diego Tokos.jpg -> San diego Tokos.jpg
+- [JANITOR] Programmatically normalized asset file: The_Folder_is_the_Agent.pdf -> The_Folder_is_the_Agent.pdf
+- [JANITOR] Programmatically normalized asset file: Three-Layer AI Folder Architecture -> Three-Layer AI Folder Architecture
+- [JANITOR] Programmatically normalized asset file: Tongan-Inspired AI Folder Architecture.png -> Tongan-Inspired AI Folder Architecture.png
+- [JANITOR] Programmatically normalized asset file: warrior_standard_campaign_architecture.html -> warrior_standard_campaign_architecture.html
+- [JANITOR] Programmatically normalized asset file: Tokos.jpg -> Tokos.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-10.jpg -> Diwali-10.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-100.jpg -> Diwali-100.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-101.jpg -> Diwali-101.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-102.jpg -> Diwali-102.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-103.jpg -> Diwali-103.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-104.jpg -> Diwali-104.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-105.jpg -> Diwali-105.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-106.jpg -> Diwali-106.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-107.jpg -> Diwali-107.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-108.jpg -> Diwali-108.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-109.jpg -> Diwali-109.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-11.jpg -> Diwali-11.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-110.jpg -> Diwali-110.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-111.jpg -> Diwali-111.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-112.jpg -> Diwali-112.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-113.jpg -> Diwali-113.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-114.jpg -> Diwali-114.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-115.jpg -> Diwali-115.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-116.jpg -> Diwali-116.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-117.jpg -> Diwali-117.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-118.jpg -> Diwali-118.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-119.jpg -> Diwali-119.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-12.jpg -> Diwali-12.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-120.jpg -> Diwali-120.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-121.jpg -> Diwali-121.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-122.jpg -> Diwali-122.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-123.jpg -> Diwali-123.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-124.jpg -> Diwali-124.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-125.jpg -> Diwali-125.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-126.jpg -> Diwali-126.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-127.jpg -> Diwali-127.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-128.jpg -> Diwali-128.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-129.jpg -> Diwali-129.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-13.jpg -> Diwali-13.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-130.jpg -> Diwali-130.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-131.jpg -> Diwali-131.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-132.jpg -> Diwali-132.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-133.jpg -> Diwali-133.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-134.jpg -> Diwali-134.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-135.jpg -> Diwali-135.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-136.jpg -> Diwali-136.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-137.jpg -> Diwali-137.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-138.jpg -> Diwali-138.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-139.jpg -> Diwali-139.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-14.jpg -> Diwali-14.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-140.jpg -> Diwali-140.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-141.jpg -> Diwali-141.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-142.jpg -> Diwali-142.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-143.jpg -> Diwali-143.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-144.jpg -> Diwali-144.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-145.jpg -> Diwali-145.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-146.jpg -> Diwali-146.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-147.jpg -> Diwali-147.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-148.jpg -> Diwali-148.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-149.jpg -> Diwali-149.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-15.jpg -> Diwali-15.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-150.jpg -> Diwali-150.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-151.jpg -> Diwali-151.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-152.jpg -> Diwali-152.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-153.jpg -> Diwali-153.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-154.jpg -> Diwali-154.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-155.jpg -> Diwali-155.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-156.jpg -> Diwali-156.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-157.jpg -> Diwali-157.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-158.jpg -> Diwali-158.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-159.jpg -> Diwali-159.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-16.jpg -> Diwali-16.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-160.jpg -> Diwali-160.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-161.jpg -> Diwali-161.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-162.jpg -> Diwali-162.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-163.jpg -> Diwali-163.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-164.jpg -> Diwali-164.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-165.jpg -> Diwali-165.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-166.jpg -> Diwali-166.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-167.jpg -> Diwali-167.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-168.jpg -> Diwali-168.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-169.jpg -> Diwali-169.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-17.jpg -> Diwali-17.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-170.jpg -> Diwali-170.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-171.jpg -> Diwali-171.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-172.jpg -> Diwali-172.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-173.jpg -> Diwali-173.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-174.jpg -> Diwali-174.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-175.jpg -> Diwali-175.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-176.jpg -> Diwali-176.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-177.jpg -> Diwali-177.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-178.jpg -> Diwali-178.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-179.jpg -> Diwali-179.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-18.jpg -> Diwali-18.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-180.jpg -> Diwali-180.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-181.jpg -> Diwali-181.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-182.jpg -> Diwali-182.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-183.jpg -> Diwali-183.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-184.jpg -> Diwali-184.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-185.jpg -> Diwali-185.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-186.jpg -> Diwali-186.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-187.jpg -> Diwali-187.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-188.jpg -> Diwali-188.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-189.jpg -> Diwali-189.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-19.jpg -> Diwali-19.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-190.jpg -> Diwali-190.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-191.jpg -> Diwali-191.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-192.jpg -> Diwali-192.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-193.jpg -> Diwali-193.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-194.jpg -> Diwali-194.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-195.jpg -> Diwali-195.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-196.jpg -> Diwali-196.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-197.jpg -> Diwali-197.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-198.jpg -> Diwali-198.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-199.jpg -> Diwali-199.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-2.jpg -> Diwali-2.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-20.jpg -> Diwali-20.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-200.jpg -> Diwali-200.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-201.jpg -> Diwali-201.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-202.jpg -> Diwali-202.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-203.jpg -> Diwali-203.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-204.jpg -> Diwali-204.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-205.jpg -> Diwali-205.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-206.jpg -> Diwali-206.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-207.jpg -> Diwali-207.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-208.jpg -> Diwali-208.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-209.jpg -> Diwali-209.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-21.jpg -> Diwali-21.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-210.jpg -> Diwali-210.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-211.jpg -> Diwali-211.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-212.jpg -> Diwali-212.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-213.jpg -> Diwali-213.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-214.jpg -> Diwali-214.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-215.jpg -> Diwali-215.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-216.jpg -> Diwali-216.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-217.jpg -> Diwali-217.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-218.jpg -> Diwali-218.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-219.jpg -> Diwali-219.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-22.jpg -> Diwali-22.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-220.jpg -> Diwali-220.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-221.jpg -> Diwali-221.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-222.jpg -> Diwali-222.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-223.jpg -> Diwali-223.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-224.jpg -> Diwali-224.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-225.jpg -> Diwali-225.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-226.jpg -> Diwali-226.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-227.jpg -> Diwali-227.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-228.jpg -> Diwali-228.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-229.jpg -> Diwali-229.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-23.jpg -> Diwali-23.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-230.jpg -> Diwali-230.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-231.jpg -> Diwali-231.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-232.jpg -> Diwali-232.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-233.jpg -> Diwali-233.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-234.jpg -> Diwali-234.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-235.jpg -> Diwali-235.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-236.jpg -> Diwali-236.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-237.jpg -> Diwali-237.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-238.jpg -> Diwali-238.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-239.jpg -> Diwali-239.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-24.jpg -> Diwali-24.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-240.jpg -> Diwali-240.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-241.jpg -> Diwali-241.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-242.jpg -> Diwali-242.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-243.jpg -> Diwali-243.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-244.jpg -> Diwali-244.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-245.jpg -> Diwali-245.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-246.jpg -> Diwali-246.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-247.jpg -> Diwali-247.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-248.jpg -> Diwali-248.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-249.jpg -> Diwali-249.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-25.jpg -> Diwali-25.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-250.jpg -> Diwali-250.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-251.jpg -> Diwali-251.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-252.jpg -> Diwali-252.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-253.jpg -> Diwali-253.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-254.jpg -> Diwali-254.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-255.jpg -> Diwali-255.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-256.jpg -> Diwali-256.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-257.jpg -> Diwali-257.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-26.jpg -> Diwali-26.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-27.jpg -> Diwali-27.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-28.jpg -> Diwali-28.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-29.jpg -> Diwali-29.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-3.jpg -> Diwali-3.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-30.jpg -> Diwali-30.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-31.jpg -> Diwali-31.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-32.jpg -> Diwali-32.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-33.jpg -> Diwali-33.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-34.jpg -> Diwali-34.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-35.jpg -> Diwali-35.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-36.jpg -> Diwali-36.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-37.jpg -> Diwali-37.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-38.jpg -> Diwali-38.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-39.jpg -> Diwali-39.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-4.jpg -> Diwali-4.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-40.jpg -> Diwali-40.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-41.jpg -> Diwali-41.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-42.jpg -> Diwali-42.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-43.jpg -> Diwali-43.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-44.jpg -> Diwali-44.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-45.jpg -> Diwali-45.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-46.jpg -> Diwali-46.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-47.jpg -> Diwali-47.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-48.jpg -> Diwali-48.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-49.jpg -> Diwali-49.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-5.jpg -> Diwali-5.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-50.jpg -> Diwali-50.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-51.jpg -> Diwali-51.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-52.jpg -> Diwali-52.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-53.jpg -> Diwali-53.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-54.jpg -> Diwali-54.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-55.jpg -> Diwali-55.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-56.jpg -> Diwali-56.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-57.jpg -> Diwali-57.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-58.jpg -> Diwali-58.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-59.jpg -> Diwali-59.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-6.jpg -> Diwali-6.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-60.jpg -> Diwali-60.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-61.jpg -> Diwali-61.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-62.jpg -> Diwali-62.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-63.jpg -> Diwali-63.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-64.jpg -> Diwali-64.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-65.jpg -> Diwali-65.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-66.jpg -> Diwali-66.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-67.jpg -> Diwali-67.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-68.jpg -> Diwali-68.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-69.jpg -> Diwali-69.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-7.jpg -> Diwali-7.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-70.jpg -> Diwali-70.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-71.jpg -> Diwali-71.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-72.jpg -> Diwali-72.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-73.jpg -> Diwali-73.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-74.jpg -> Diwali-74.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-75.jpg -> Diwali-75.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-76.jpg -> Diwali-76.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-77.jpg -> Diwali-77.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-78.jpg -> Diwali-78.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-79.jpg -> Diwali-79.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-8.jpg -> Diwali-8.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-80.jpg -> Diwali-80.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-81.jpg -> Diwali-81.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-82.jpg -> Diwali-82.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-83.jpg -> Diwali-83.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-84.jpg -> Diwali-84.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-85.jpg -> Diwali-85.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-86.jpg -> Diwali-86.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-87.jpg -> Diwali-87.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-88.jpg -> Diwali-88.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-89.jpg -> Diwali-89.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-9.jpg -> Diwali-9.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-90.jpg -> Diwali-90.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-91.jpg -> Diwali-91.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-92.jpg -> Diwali-92.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-93.jpg -> Diwali-93.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-94.jpg -> Diwali-94.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-95.jpg -> Diwali-95.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-96.jpg -> Diwali-96.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-97.jpg -> Diwali-97.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-98.jpg -> Diwali-98.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali-99.jpg -> Diwali-99.jpg
+- [JANITOR] Programmatically normalized asset file: Diwali.jpg -> Diwali.jpg
+- [JANITOR] Programmatically normalized asset file: roof-10.jpg -> roof-10.jpg
+- [JANITOR] Programmatically normalized asset file: roof-11.jpg -> roof-11.jpg
+- [JANITOR] Programmatically normalized asset file: roof-12.jpg -> roof-12.jpg
+- [JANITOR] Programmatically normalized asset file: roof-13.jpg -> roof-13.jpg
+- [JANITOR] Programmatically normalized asset file: roof-14.jpg -> roof-14.jpg
+- [JANITOR] Programmatically normalized asset file: roof-15.jpg -> roof-15.jpg
+- [JANITOR] Programmatically normalized asset file: roof-16.jpg -> roof-16.jpg
+- [JANITOR] Programmatically normalized asset file: roof-17.jpg -> roof-17.jpg
+- [JANITOR] Programmatically normalized asset file: roof-18.jpg -> roof-18.jpg
+- [JANITOR] Programmatically normalized asset file: roof-19.jpg -> roof-19.jpg
+- [JANITOR] Programmatically normalized asset file: roof-2.jpg -> roof-2.jpg
+- [JANITOR] Programmatically normalized asset file: roof-20.jpg -> roof-20.jpg
+- [JANITOR] Programmatically normalized asset file: roof-21.jpg -> roof-21.jpg
+- [JANITOR] Programmatically normalized asset file: roof-22.jpg -> roof-22.jpg
+- [JANITOR] Programmatically normalized asset file: roof-23.jpg -> roof-23.jpg
+- [JANITOR] Programmatically normalized asset file: roof-3.jpg -> roof-3.jpg
+- [JANITOR] Programmatically normalized asset file: roof-4.jpg -> roof-4.jpg
+- [JANITOR] Programmatically normalized asset file: roof-5.jpg -> roof-5.jpg
+- [JANITOR] Programmatically normalized asset file: roof-6.jpg -> roof-6.jpg
+- [JANITOR] Programmatically normalized asset file: roof-7.jpg -> roof-7.jpg
+- [JANITOR] Programmatically normalized asset file: roof-8.jpg -> roof-8.jpg
+- [JANITOR] Programmatically normalized asset file: roof-9.jpg -> roof-9.jpg
+- [JANITOR] Programmatically normalized asset file: roof.jpg -> roof.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-10.jpg -> pineapple_-10.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-11.jpg -> pineapple_-11.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-12.jpg -> pineapple_-12.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-13.jpg -> pineapple_-13.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-14.jpg -> pineapple_-14.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-15.jpg -> pineapple_-15.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-16.jpg -> pineapple_-16.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-2.jpg -> pineapple_-2.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-3.jpg -> pineapple_-3.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-4.jpg -> pineapple_-4.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-5.jpg -> pineapple_-5.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-6.jpg -> pineapple_-6.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-7.jpg -> pineapple_-7.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-8.jpg -> pineapple_-8.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-9.jpg -> pineapple_-9.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_.jpg -> pineapple_.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-46.jpg -> pineapple-46.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-47.jpg -> pineapple-47.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-48.jpg -> pineapple-48.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-49.jpg -> pineapple-49.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-50.jpg -> pineapple-50.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-51.jpg -> pineapple-51.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-52.jpg -> pineapple-52.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-53.jpg -> pineapple-53.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-54.jpg -> pineapple-54.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-55.jpg -> pineapple-55.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-56.jpg -> pineapple-56.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-57.jpg -> pineapple-57.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-58.jpg -> pineapple-58.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-59.jpg -> pineapple-59.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-60.jpg -> pineapple-60.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-61.jpg -> pineapple-61.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-62.jpg -> pineapple-62.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-63.jpg -> pineapple-63.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-64.jpg -> pineapple-64.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-65.jpg -> pineapple-65.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-66.jpg -> pineapple-66.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-67.jpg -> pineapple-67.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-68.jpg -> pineapple-68.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-69.jpg -> pineapple-69.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-70.jpg -> pineapple-70.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-71.jpg -> pineapple-71.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-72.jpg -> pineapple-72.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-73.jpg -> pineapple-73.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-74.jpg -> pineapple-74.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-75.jpg -> pineapple-75.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-76.jpg -> pineapple-76.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-77.jpg -> pineapple-77.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-78.jpg -> pineapple-78.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-79.jpg -> pineapple-79.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-80.jpg -> pineapple-80.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-81.jpg -> pineapple-81.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-82.jpg -> pineapple-82.jpg
+- [JANITOR] Programmatically normalized asset file: 1005 remington park-2.jpg -> 1005 remington park-2.jpg
+- [JANITOR] Programmatically normalized asset file: 1005 remington park-3.jpg -> 1005 remington park-3.jpg
+- [JANITOR] Programmatically normalized asset file: 1005 remington park-4.jpg -> 1005 remington park-4.jpg
+- [JANITOR] Programmatically normalized asset file: 1005 remington park-5.jpg -> 1005 remington park-5.jpg
+- [JANITOR] Programmatically normalized asset file: 1005 remington park-6.jpg -> 1005 remington park-6.jpg
+- [JANITOR] Programmatically normalized asset file: 1005 remington park-7.jpg -> 1005 remington park-7.jpg
+- [JANITOR] Programmatically normalized asset file: 1005 remington park-8.jpg -> 1005 remington park-8.jpg
+- [JANITOR] Programmatically normalized asset file: 1005 remington park.jpg -> 1005 remington park.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-01.jpg -> pineapple-01.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-02.jpg -> pineapple-02.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-03.jpg -> pineapple-03.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-04.jpg -> pineapple-04.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-05.jpg -> pineapple-05.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-06.jpg -> pineapple-06.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-07.jpg -> pineapple-07.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-08.jpg -> pineapple-08.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-09.jpg -> pineapple-09.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-10.jpg -> pineapple-10.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-11.jpg -> pineapple-11.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-01.jpg -> pineapple-01.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-02.jpg -> pineapple-02.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-03.jpg -> pineapple-03.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-04.jpg -> pineapple-04.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-05.jpg -> pineapple-05.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-06.jpg -> pineapple-06.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-07.jpg -> pineapple-07.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-08.jpg -> pineapple-08.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-09.jpg -> pineapple-09.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-10.jpg -> pineapple-10.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-11.jpg -> pineapple-11.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-12.jpg -> pineapple-12.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-13.jpg -> pineapple-13.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-14.jpg -> pineapple-14.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-15.jpg -> pineapple-15.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-16.jpg -> pineapple-16.jpg
+- [JANITOR] Programmatically normalized asset file: 1045 allen clove-10.jpg -> 1045 allen clove-10.jpg
+- [JANITOR] Programmatically normalized asset file: 1045 allen clove-11.jpg -> 1045 allen clove-11.jpg
+- [JANITOR] Programmatically normalized asset file: 1045 allen clove-12.jpg -> 1045 allen clove-12.jpg
+- [JANITOR] Programmatically normalized asset file: 1045 allen clove-13.jpg -> 1045 allen clove-13.jpg
+- [JANITOR] Programmatically normalized asset file: 1045 allen clove-14.jpg -> 1045 allen clove-14.jpg
+- [JANITOR] Programmatically normalized asset file: 1045 allen clove-15.jpg -> 1045 allen clove-15.jpg
+- [JANITOR] Programmatically normalized asset file: 1045 allen clove-16.jpg -> 1045 allen clove-16.jpg
+- [JANITOR] Programmatically normalized asset file: 1045 allen clove-17.jpg -> 1045 allen clove-17.jpg
+- [JANITOR] Programmatically normalized asset file: 1045 allen clove-18.jpg -> 1045 allen clove-18.jpg
+- [JANITOR] Programmatically normalized asset file: 1045 allen clove-19.jpg -> 1045 allen clove-19.jpg
+- [JANITOR] Programmatically normalized asset file: 1045 allen clove-2.jpg -> 1045 allen clove-2.jpg
+- [JANITOR] Programmatically normalized asset file: 1045 allen clove-20.jpg -> 1045 allen clove-20.jpg
+- [JANITOR] Programmatically normalized asset file: 1045 allen clove-21.jpg -> 1045 allen clove-21.jpg
+- [JANITOR] Programmatically normalized asset file: 1045 allen clove-22.jpg -> 1045 allen clove-22.jpg
+- [JANITOR] Programmatically normalized asset file: 1045 allen clove-3.jpg -> 1045 allen clove-3.jpg
+- [JANITOR] Programmatically normalized asset file: 1045 allen clove-4.jpg -> 1045 allen clove-4.jpg
+- [JANITOR] Programmatically normalized asset file: 1045 allen clove-5.jpg -> 1045 allen clove-5.jpg
+- [JANITOR] Programmatically normalized asset file: 1045 allen clove-6.jpg -> 1045 allen clove-6.jpg
+- [JANITOR] Programmatically normalized asset file: 1045 allen clove-7.jpg -> 1045 allen clove-7.jpg
+- [JANITOR] Programmatically normalized asset file: 1045 allen clove-8.jpg -> 1045 allen clove-8.jpg
+- [JANITOR] Programmatically normalized asset file: 1045 allen clove-9.jpg -> 1045 allen clove-9.jpg
+- [JANITOR] Programmatically normalized asset file: 1045 allen clove.jpg -> 1045 allen clove.jpg
+- [JANITOR] Programmatically normalized asset file: 105 independence rockwall-10.jpg -> 105 independence rockwall-10.jpg
+- [JANITOR] Programmatically normalized asset file: 105 independence rockwall-11.jpg -> 105 independence rockwall-11.jpg
+- [JANITOR] Programmatically normalized asset file: 105 independence rockwall-12.jpg -> 105 independence rockwall-12.jpg
+- [JANITOR] Programmatically normalized asset file: 105 independence rockwall-13.jpg -> 105 independence rockwall-13.jpg
+- [JANITOR] Programmatically normalized asset file: 105 independence rockwall-14.jpg -> 105 independence rockwall-14.jpg
+- [JANITOR] Programmatically normalized asset file: 105 independence rockwall-15.jpg -> 105 independence rockwall-15.jpg
+- [JANITOR] Programmatically normalized asset file: 105 independence rockwall-2.jpg -> 105 independence rockwall-2.jpg
+- [JANITOR] Programmatically normalized asset file: 105 independence rockwall-3.jpg -> 105 independence rockwall-3.jpg
+- [JANITOR] Programmatically normalized asset file: 105 independence rockwall-4.jpg -> 105 independence rockwall-4.jpg
+- [JANITOR] Programmatically normalized asset file: 105 independence rockwall-5.jpg -> 105 independence rockwall-5.jpg
+- [JANITOR] Programmatically normalized asset file: 105 independence rockwall-6.jpg -> 105 independence rockwall-6.jpg
+- [JANITOR] Programmatically normalized asset file: 105 independence rockwall-7.jpg -> 105 independence rockwall-7.jpg
+- [JANITOR] Programmatically normalized asset file: 105 independence rockwall-8.jpg -> 105 independence rockwall-8.jpg
+- [JANITOR] Programmatically normalized asset file: 105 independence rockwall-9.jpg -> 105 independence rockwall-9.jpg
+- [JANITOR] Programmatically normalized asset file: 105 independence rockwall.jpg -> 105 independence rockwall.jpg
+- [JANITOR] Programmatically normalized asset file: hair-067.jpg -> hair-067.jpg
+- [JANITOR] Programmatically normalized asset file: hair-068.jpg -> hair-068.jpg
+- [JANITOR] Programmatically normalized asset file: hair-069.jpg -> hair-069.jpg
+- [JANITOR] Programmatically normalized asset file: hair-070.jpg -> hair-070.jpg
+- [JANITOR] Programmatically normalized asset file: hair-071.jpg -> hair-071.jpg
+- [JANITOR] Programmatically normalized asset file: hair-072.jpg -> hair-072.jpg
+- [JANITOR] Programmatically normalized asset file: hair-073.jpg -> hair-073.jpg
+- [JANITOR] Programmatically normalized asset file: hair-074.jpg -> hair-074.jpg
+- [JANITOR] Programmatically normalized asset file: hair-075.jpg -> hair-075.jpg
+- [JANITOR] Programmatically normalized asset file: hair-076.jpg -> hair-076.jpg
+- [JANITOR] Programmatically normalized asset file: hair-077.jpg -> hair-077.jpg
+- [JANITOR] Programmatically normalized asset file: hair-078.jpg -> hair-078.jpg
+- [JANITOR] Programmatically normalized asset file: hair-079.jpg -> hair-079.jpg
+- [JANITOR] Programmatically normalized asset file: hair-080.jpg -> hair-080.jpg
+- [JANITOR] Programmatically normalized asset file: hair-081.jpg -> hair-081.jpg
+- [JANITOR] Programmatically normalized asset file: hair-082.jpg -> hair-082.jpg
+- [JANITOR] Programmatically normalized asset file: hair-083.jpg -> hair-083.jpg
+- [JANITOR] Programmatically normalized asset file: hair-084.jpg -> hair-084.jpg
+- [JANITOR] Programmatically normalized asset file: hair-085.jpg -> hair-085.jpg
+- [JANITOR] Programmatically normalized asset file: hair-086.jpg -> hair-086.jpg
+- [JANITOR] Programmatically normalized asset file: hair-087.jpg -> hair-087.jpg
+- [JANITOR] Programmatically normalized asset file: hair-088.jpg -> hair-088.jpg
+- [JANITOR] Programmatically normalized asset file: hair-089.jpg -> hair-089.jpg
+- [JANITOR] Programmatically normalized asset file: hair-090.jpg -> hair-090.jpg
+- [JANITOR] Programmatically normalized asset file: hair-091.jpg -> hair-091.jpg
+- [JANITOR] Programmatically normalized asset file: hair-092.jpg -> hair-092.jpg
+- [JANITOR] Programmatically normalized asset file: hair-093.jpg -> hair-093.jpg
+- [JANITOR] Programmatically normalized asset file: hair-094.jpg -> hair-094.jpg
+- [JANITOR] Programmatically normalized asset file: hair-095.jpg -> hair-095.jpg
+- [JANITOR] Programmatically normalized asset file: hair-096.jpg -> hair-096.jpg
+- [JANITOR] Programmatically normalized asset file: hair-097.jpg -> hair-097.jpg
+- [JANITOR] Programmatically normalized asset file: hair-098.jpg -> hair-098.jpg
+- [JANITOR] Programmatically normalized asset file: hair-099.jpg -> hair-099.jpg
+- [JANITOR] Programmatically normalized asset file: hair-100.jpg -> hair-100.jpg
+- [JANITOR] Programmatically normalized asset file: hair-101.jpg -> hair-101.jpg
+- [JANITOR] Programmatically normalized asset file: hair-102.jpg -> hair-102.jpg
+- [JANITOR] Programmatically normalized asset file: hair-103.jpg -> hair-103.jpg
+- [JANITOR] Programmatically normalized asset file: hair-104.jpg -> hair-104.jpg
+- [JANITOR] Programmatically normalized asset file: hair-105.jpg -> hair-105.jpg
+- [JANITOR] Programmatically normalized asset file: hair-106.jpg -> hair-106.jpg
+- [JANITOR] Programmatically normalized asset file: hair-107.jpg -> hair-107.jpg
+- [JANITOR] Programmatically normalized asset file: hair-108.jpg -> hair-108.jpg
+- [JANITOR] Programmatically normalized asset file: hair-109.jpg -> hair-109.jpg
+- [JANITOR] Programmatically normalized asset file: hair-110.jpg -> hair-110.jpg
+- [JANITOR] Programmatically normalized asset file: hair-111.jpg -> hair-111.jpg
+- [JANITOR] Programmatically normalized asset file: hair-112.jpg -> hair-112.jpg
+- [JANITOR] Programmatically normalized asset file: hair-113.jpg -> hair-113.jpg
+- [JANITOR] Programmatically normalized asset file: hair-114.jpg -> hair-114.jpg
+- [JANITOR] Programmatically normalized asset file: hair-115.jpg -> hair-115.jpg
+- [JANITOR] Programmatically normalized asset file: hair-116.jpg -> hair-116.jpg
+- [JANITOR] Programmatically normalized asset file: hair-117.jpg -> hair-117.jpg
+- [JANITOR] Programmatically normalized asset file: hair-118.jpg -> hair-118.jpg
+- [JANITOR] Programmatically normalized asset file: 12733 Skeeter dr-10.jpg -> 12733 Skeeter dr-10.jpg
+- [JANITOR] Programmatically normalized asset file: 12733 Skeeter dr-11.jpg -> 12733 Skeeter dr-11.jpg
+- [JANITOR] Programmatically normalized asset file: 12733 Skeeter dr-12.jpg -> 12733 Skeeter dr-12.jpg
+- [JANITOR] Programmatically normalized asset file: 12733 Skeeter dr-13.jpg -> 12733 Skeeter dr-13.jpg
+- [JANITOR] Programmatically normalized asset file: 12733 Skeeter dr-14.jpg -> 12733 Skeeter dr-14.jpg
+- [JANITOR] Programmatically normalized asset file: 12733 Skeeter dr-15.jpg -> 12733 Skeeter dr-15.jpg
+- [JANITOR] Programmatically normalized asset file: 12733 Skeeter dr-16.jpg -> 12733 Skeeter dr-16.jpg
+- [JANITOR] Programmatically normalized asset file: 12733 Skeeter dr-17.jpg -> 12733 Skeeter dr-17.jpg
+- [JANITOR] Programmatically normalized asset file: 12733 Skeeter dr-18.jpg -> 12733 Skeeter dr-18.jpg
+- [JANITOR] Programmatically normalized asset file: 12733 Skeeter dr-19.jpg -> 12733 Skeeter dr-19.jpg
+- [JANITOR] Programmatically normalized asset file: 12733 Skeeter dr-2.jpg -> 12733 Skeeter dr-2.jpg
+- [JANITOR] Programmatically normalized asset file: 12733 Skeeter dr-20.jpg -> 12733 Skeeter dr-20.jpg
+- [JANITOR] Programmatically normalized asset file: 12733 Skeeter dr-3.jpg -> 12733 Skeeter dr-3.jpg
+- [JANITOR] Programmatically normalized asset file: 12733 Skeeter dr-4.jpg -> 12733 Skeeter dr-4.jpg
+- [JANITOR] Programmatically normalized asset file: 12733 Skeeter dr-5.jpg -> 12733 Skeeter dr-5.jpg
+- [JANITOR] Programmatically normalized asset file: 12733 Skeeter dr-6.jpg -> 12733 Skeeter dr-6.jpg
+- [JANITOR] Programmatically normalized asset file: 12733 Skeeter dr-7.jpg -> 12733 Skeeter dr-7.jpg
+- [JANITOR] Programmatically normalized asset file: 12733 Skeeter dr-8.jpg -> 12733 Skeeter dr-8.jpg
+- [JANITOR] Programmatically normalized asset file: 12733 Skeeter dr-9.jpg -> 12733 Skeeter dr-9.jpg
+- [JANITOR] Programmatically normalized asset file: 12733 Skeeter dr.jpg -> 12733 Skeeter dr.jpg
+- [JANITOR] Programmatically normalized asset file: 12733 Skeeter-10.jpg -> 12733 Skeeter-10.jpg
+- [JANITOR] Programmatically normalized asset file: 12733 Skeeter-11.jpg -> 12733 Skeeter-11.jpg
+- [JANITOR] Programmatically normalized asset file: 12733 Skeeter-12.jpg -> 12733 Skeeter-12.jpg
+- [JANITOR] Programmatically normalized asset file: 12733 Skeeter-13.jpg -> 12733 Skeeter-13.jpg
+- [JANITOR] Programmatically normalized asset file: 12733 Skeeter-14.jpg -> 12733 Skeeter-14.jpg
+- [JANITOR] Programmatically normalized asset file: 12733 Skeeter-15.jpg -> 12733 Skeeter-15.jpg
+- [JANITOR] Programmatically normalized asset file: 12733 Skeeter-16.jpg -> 12733 Skeeter-16.jpg
+- [JANITOR] Programmatically normalized asset file: 12733 Skeeter-17.jpg -> 12733 Skeeter-17.jpg
+- [JANITOR] Programmatically normalized asset file: 12733 Skeeter-18.jpg -> 12733 Skeeter-18.jpg
+- [JANITOR] Programmatically normalized asset file: 12733 Skeeter-19.jpg -> 12733 Skeeter-19.jpg
+- [JANITOR] Programmatically normalized asset file: 12733 Skeeter-2.jpg -> 12733 Skeeter-2.jpg
+- [JANITOR] Programmatically normalized asset file: 12733 Skeeter-20.jpg -> 12733 Skeeter-20.jpg
+- [JANITOR] Programmatically normalized asset file: 12733 Skeeter-3.jpg -> 12733 Skeeter-3.jpg
+- [JANITOR] Programmatically normalized asset file: 12733 Skeeter-4.jpg -> 12733 Skeeter-4.jpg
+- [JANITOR] Programmatically normalized asset file: 12733 Skeeter-5.jpg -> 12733 Skeeter-5.jpg
+- [JANITOR] Programmatically normalized asset file: 12733 Skeeter-6.jpg -> 12733 Skeeter-6.jpg
+- [JANITOR] Programmatically normalized asset file: 12733 Skeeter-7.jpg -> 12733 Skeeter-7.jpg
+- [JANITOR] Programmatically normalized asset file: 12733 Skeeter-8.jpg -> 12733 Skeeter-8.jpg
+- [JANITOR] Programmatically normalized asset file: 12733 Skeeter-9.jpg -> 12733 Skeeter-9.jpg
+- [JANITOR] Programmatically normalized asset file: 12733 Skeeter.jpg -> 12733 Skeeter.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-10.jpg -> pineapple_-10.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-11.jpg -> pineapple_-11.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-12.jpg -> pineapple_-12.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-13.jpg -> pineapple_-13.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-14.jpg -> pineapple_-14.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-15.jpg -> pineapple_-15.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-16.jpg -> pineapple_-16.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-17.jpg -> pineapple_-17.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-18.jpg -> pineapple_-18.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-19.jpg -> pineapple_-19.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-2.jpg -> pineapple_-2.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-20.jpg -> pineapple_-20.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-21.jpg -> pineapple_-21.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-22.jpg -> pineapple_-22.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-23.jpg -> pineapple_-23.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-24.jpg -> pineapple_-24.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-3.jpg -> pineapple_-3.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-4.jpg -> pineapple_-4.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-5.jpg -> pineapple_-5.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-6.jpg -> pineapple_-6.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-7.jpg -> pineapple_-7.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-8.jpg -> pineapple_-8.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-9.jpg -> pineapple_-9.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_.jpg -> pineapple_.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-10.jpg -> pineapple_-10.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-11.jpg -> pineapple_-11.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-12.jpg -> pineapple_-12.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-13.jpg -> pineapple_-13.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-14.jpg -> pineapple_-14.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-15.jpg -> pineapple_-15.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-16.jpg -> pineapple_-16.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-17.jpg -> pineapple_-17.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-18.jpg -> pineapple_-18.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-19.jpg -> pineapple_-19.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-2.jpg -> pineapple_-2.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-20.jpg -> pineapple_-20.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-21.jpg -> pineapple_-21.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-22.jpg -> pineapple_-22.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-3.jpg -> pineapple_-3.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-4.jpg -> pineapple_-4.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-5.jpg -> pineapple_-5.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-6.jpg -> pineapple_-6.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-7.jpg -> pineapple_-7.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-8.jpg -> pineapple_-8.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-9.jpg -> pineapple_-9.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_.jpg -> pineapple_.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-312.jpg -> bartender-312.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-313.jpg -> bartender-313.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-315.jpg -> bartender-315.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-316.jpg -> bartender-316.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-317.jpg -> bartender-317.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-318.jpg -> bartender-318.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-319.jpg -> bartender-319.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-320.jpg -> bartender-320.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-322.jpg -> bartender-322.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-323.jpg -> bartender-323.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-324.jpg -> bartender-324.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-325.jpg -> bartender-325.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-326.jpg -> bartender-326.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-327.jpg -> bartender-327.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-328.jpg -> bartender-328.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-329.jpg -> bartender-329.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-330.jpg -> bartender-330.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-331.jpg -> bartender-331.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-332.jpg -> bartender-332.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-333.jpg -> bartender-333.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-334.jpg -> bartender-334.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-335.jpg -> bartender-335.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-336.jpg -> bartender-336.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-337.jpg -> bartender-337.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-338.jpg -> bartender-338.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-339.jpg -> bartender-339.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-340.jpg -> bartender-340.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-341.jpg -> bartender-341.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-342.jpg -> bartender-342.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-343.jpg -> bartender-343.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-345.jpeg -> bartender-345.jpeg
+- [JANITOR] Programmatically normalized asset file: bartender-346.jpg -> bartender-346.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-347.jpg -> bartender-347.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0492.JPG -> DJI_0492.JPG
+- [JANITOR] Programmatically normalized asset file: DJI_0493.JPG -> DJI_0493.JPG
+- [JANITOR] Programmatically normalized asset file: DJI_0494.JPG -> DJI_0494.JPG
+- [JANITOR] Programmatically normalized asset file: DJI_0495.JPG -> DJI_0495.JPG
+- [JANITOR] Programmatically normalized asset file: DJI_0496.JPG -> DJI_0496.JPG
+- [JANITOR] Programmatically normalized asset file: DJI_0498.JPG -> DJI_0498.JPG
+- [JANITOR] Programmatically normalized asset file: DJI_0499.JPG -> DJI_0499.JPG
+- [JANITOR] Programmatically normalized asset file: DJI_0500.JPG -> DJI_0500.JPG
+- [JANITOR] Programmatically normalized asset file: DJI_0502.JPG -> DJI_0502.JPG
+- [JANITOR] Programmatically normalized asset file: pineapple-10.jpg -> pineapple-10.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-11.jpg -> pineapple-11.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-12.jpg -> pineapple-12.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-13.jpg -> pineapple-13.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-14.jpg -> pineapple-14.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-15.jpg -> pineapple-15.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-16.jpg -> pineapple-16.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-17.jpg -> pineapple-17.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-18.jpg -> pineapple-18.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-19.jpg -> pineapple-19.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-2.jpg -> pineapple-2.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-20.jpg -> pineapple-20.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-21.jpg -> pineapple-21.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-22.jpg -> pineapple-22.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-23.jpg -> pineapple-23.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-24.jpg -> pineapple-24.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-25.jpg -> pineapple-25.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-26.jpg -> pineapple-26.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-27.jpg -> pineapple-27.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-28.jpg -> pineapple-28.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-29.jpg -> pineapple-29.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-3.jpg -> pineapple-3.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-30.jpg -> pineapple-30.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-31.jpg -> pineapple-31.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-32.jpg -> pineapple-32.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-4.jpg -> pineapple-4.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-5.jpg -> pineapple-5.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-6.jpg -> pineapple-6.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-7.jpg -> pineapple-7.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-8.jpg -> pineapple-8.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-9.jpg -> pineapple-9.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple.jpg -> pineapple.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-10.jpg -> pineapple_-10.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-11.jpg -> pineapple_-11.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-12.jpg -> pineapple_-12.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-13.jpg -> pineapple_-13.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-14.jpg -> pineapple_-14.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-15.jpg -> pineapple_-15.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-16.jpg -> pineapple_-16.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-17.jpg -> pineapple_-17.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-18.jpg -> pineapple_-18.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-19.jpg -> pineapple_-19.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-2.jpg -> pineapple_-2.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-20.jpg -> pineapple_-20.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-21.jpg -> pineapple_-21.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-22.jpg -> pineapple_-22.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-23.jpg -> pineapple_-23.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-24.jpg -> pineapple_-24.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-25.jpg -> pineapple_-25.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-26.jpg -> pineapple_-26.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-27.jpg -> pineapple_-27.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-28.jpg -> pineapple_-28.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-29.jpg -> pineapple_-29.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-3.jpg -> pineapple_-3.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-30.jpg -> pineapple_-30.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-31.jpg -> pineapple_-31.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-32.jpg -> pineapple_-32.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-33.jpg -> pineapple_-33.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-34.jpg -> pineapple_-34.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-4.jpg -> pineapple_-4.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-5.jpg -> pineapple_-5.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-6.jpg -> pineapple_-6.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-7.jpg -> pineapple_-7.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-8.jpg -> pineapple_-8.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-9.jpg -> pineapple_-9.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_.jpg -> pineapple_.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-01.jpg -> pineapple drone-01.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-02.jpg -> pineapple drone-02.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-03.jpg -> pineapple drone-03.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-04.jpg -> pineapple drone-04.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-05.jpg -> pineapple drone-05.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-06.jpg -> pineapple drone-06.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-07.jpg -> pineapple drone-07.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-08.jpg -> pineapple drone-08.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-09.jpg -> pineapple drone-09.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-10.jpg -> pineapple drone-10.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-11.jpg -> pineapple drone-11.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-12.jpg -> pineapple drone-12.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-13.jpg -> pineapple drone-13.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-14.jpg -> pineapple drone-14.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-15.jpg -> pineapple drone-15.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-16.jpg -> pineapple drone-16.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-17.jpg -> pineapple drone-17.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-18.jpg -> pineapple drone-18.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-19.jpg -> pineapple drone-19.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-20.jpg -> pineapple drone-20.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-21.jpg -> pineapple drone-21.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-22.jpg -> pineapple drone-22.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-23.jpg -> pineapple drone-23.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-24.jpg -> pineapple drone-24.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-25.jpg -> pineapple drone-25.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-236.jpg -> bartender-236.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-237.jpg -> bartender-237.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-238.jpg -> bartender-238.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-239.jpg -> bartender-239.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-240.jpg -> bartender-240.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-241.jpg -> bartender-241.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-242.jpg -> bartender-242.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-243.jpg -> bartender-243.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-244.jpg -> bartender-244.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-245.jpg -> bartender-245.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-246.jpg -> bartender-246.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-247.jpg -> bartender-247.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-248.jpg -> bartender-248.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-249.jpg -> bartender-249.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-250.jpg -> bartender-250.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-251.jpg -> bartender-251.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-252.jpg -> bartender-252.jpg
+- [JANITOR] Programmatically normalized asset file: Roofing-10.jpg -> Roofing-10.jpg
+- [JANITOR] Programmatically normalized asset file: Roofing-11.jpg -> Roofing-11.jpg
+- [JANITOR] Programmatically normalized asset file: Roofing-12.jpg -> Roofing-12.jpg
+- [JANITOR] Programmatically normalized asset file: Roofing-13.jpg -> Roofing-13.jpg
+- [JANITOR] Programmatically normalized asset file: Roofing-2.jpg -> Roofing-2.jpg
+- [JANITOR] Programmatically normalized asset file: Roofing-3.jpg -> Roofing-3.jpg
+- [JANITOR] Programmatically normalized asset file: Roofing-4.jpg -> Roofing-4.jpg
+- [JANITOR] Programmatically normalized asset file: Roofing-5.jpg -> Roofing-5.jpg
+- [JANITOR] Programmatically normalized asset file: Roofing-6.jpg -> Roofing-6.jpg
+- [JANITOR] Programmatically normalized asset file: Roofing-7.jpg -> Roofing-7.jpg
+- [JANITOR] Programmatically normalized asset file: Roofing-8.jpg -> Roofing-8.jpg
+- [JANITOR] Programmatically normalized asset file: Roofing-9.jpg -> Roofing-9.jpg
+- [JANITOR] Programmatically normalized asset file: Roofing.jpg -> Roofing.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-45.jpg -> pineapple 4-8-45.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-46.jpg -> pineapple 4-8-46.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-47.jpg -> pineapple 4-8-47.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-48.jpg -> pineapple 4-8-48.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-49.jpg -> pineapple 4-8-49.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-50.jpg -> pineapple 4-8-50.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-51.jpg -> pineapple 4-8-51.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-52.jpg -> pineapple 4-8-52.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-53.jpg -> pineapple 4-8-53.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-54.jpg -> pineapple 4-8-54.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-55.jpg -> pineapple 4-8-55.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-56.jpg -> pineapple 4-8-56.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-57.jpg -> pineapple 4-8-57.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-58.jpg -> pineapple 4-8-58.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-59.jpg -> pineapple 4-8-59.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-60.jpg -> pineapple 4-8-60.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-61.jpg -> pineapple 4-8-61.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-62.jpg -> pineapple 4-8-62.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-63.jpg -> pineapple 4-8-63.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-64.jpg -> pineapple 4-8-64.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-65.jpg -> pineapple 4-8-65.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0425.jpg -> DJI_0425.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0426.jpg -> DJI_0426.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0427.jpg -> DJI_0427.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0428.jpg -> DJI_0428.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0429.jpg -> DJI_0429.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0430.jpg -> DJI_0430.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0431.jpg -> DJI_0431.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0432.jpg -> DJI_0432.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0433.jpg -> DJI_0433.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0434.jpg -> DJI_0434.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0435.jpg -> DJI_0435.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0436.jpg -> DJI_0436.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0437.jpg -> DJI_0437.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0438.jpg -> DJI_0438.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0439.jpg -> DJI_0439.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0440.jpg -> DJI_0440.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-01.jpg -> pineapple-01.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-02.jpg -> pineapple-02.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-03.jpg -> pineapple-03.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-04.jpg -> pineapple-04.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-05.jpg -> pineapple-05.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-06.jpg -> pineapple-06.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-07.jpg -> pineapple-07.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-08.jpg -> pineapple-08.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-09.jpg -> pineapple-09.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-10.jpg -> pineapple-10.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-11.jpg -> pineapple-11.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-12.jpg -> pineapple-12.jpg
+- [JANITOR] Programmatically normalized asset file: roof-10.jpg -> roof-10.jpg
+- [JANITOR] Programmatically normalized asset file: roof-11.jpg -> roof-11.jpg
+- [JANITOR] Programmatically normalized asset file: roof-12.jpg -> roof-12.jpg
+- [JANITOR] Programmatically normalized asset file: roof-13.jpg -> roof-13.jpg
+- [JANITOR] Programmatically normalized asset file: roof-14.jpg -> roof-14.jpg
+- [JANITOR] Programmatically normalized asset file: roof-15.jpg -> roof-15.jpg
+- [JANITOR] Programmatically normalized asset file: roof-16.jpg -> roof-16.jpg
+- [JANITOR] Programmatically normalized asset file: roof-17.jpg -> roof-17.jpg
+- [JANITOR] Programmatically normalized asset file: roof-18.jpg -> roof-18.jpg
+- [JANITOR] Programmatically normalized asset file: roof-19.jpg -> roof-19.jpg
+- [JANITOR] Programmatically normalized asset file: roof-2.jpg -> roof-2.jpg
+- [JANITOR] Programmatically normalized asset file: roof-20.jpg -> roof-20.jpg
+- [JANITOR] Programmatically normalized asset file: roof-21.jpg -> roof-21.jpg
+- [JANITOR] Programmatically normalized asset file: roof-22.jpg -> roof-22.jpg
+- [JANITOR] Programmatically normalized asset file: roof-3.jpg -> roof-3.jpg
+- [JANITOR] Programmatically normalized asset file: roof-4.jpg -> roof-4.jpg
+- [JANITOR] Programmatically normalized asset file: roof-5.jpg -> roof-5.jpg
+- [JANITOR] Programmatically normalized asset file: roof-6.jpg -> roof-6.jpg
+- [JANITOR] Programmatically normalized asset file: roof-7.jpg -> roof-7.jpg
+- [JANITOR] Programmatically normalized asset file: roof-8.jpg -> roof-8.jpg
+- [JANITOR] Programmatically normalized asset file: roof-9.jpg -> roof-9.jpg
+- [JANITOR] Programmatically normalized asset file: roof.jpg -> roof.jpg
+- [JANITOR] Programmatically normalized asset file: hair-159.jpg -> hair-159.jpg
+- [JANITOR] Programmatically normalized asset file: hair-160.jpg -> hair-160.jpg
+- [JANITOR] Programmatically normalized asset file: hair-161.jpg -> hair-161.jpg
+- [JANITOR] Programmatically normalized asset file: hair-162.jpg -> hair-162.jpg
+- [JANITOR] Programmatically normalized asset file: hair-163.jpg -> hair-163.jpg
+- [JANITOR] Programmatically normalized asset file: hair-164.jpg -> hair-164.jpg
+- [JANITOR] Programmatically normalized asset file: hair-165.jpg -> hair-165.jpg
+- [JANITOR] Programmatically normalized asset file: hair-166.jpg -> hair-166.jpg
+- [JANITOR] Programmatically normalized asset file: hair-167.jpg -> hair-167.jpg
+- [JANITOR] Programmatically normalized asset file: hair-168.jpg -> hair-168.jpg
+- [JANITOR] Programmatically normalized asset file: hair-169.jpg -> hair-169.jpg
+- [JANITOR] Programmatically normalized asset file: hair-170.jpg -> hair-170.jpg
+- [JANITOR] Programmatically normalized asset file: hair-171.jpg -> hair-171.jpg
+- [JANITOR] Programmatically normalized asset file: hair-172.jpg -> hair-172.jpg
+- [JANITOR] Programmatically normalized asset file: hair-173.jpg -> hair-173.jpg
+- [JANITOR] Programmatically normalized asset file: hair-174.jpg -> hair-174.jpg
+- [JANITOR] Programmatically normalized asset file: hair-175.jpg -> hair-175.jpg
+- [JANITOR] Programmatically normalized asset file: hair-176.jpg -> hair-176.jpg
+- [JANITOR] Programmatically normalized asset file: hair-177.jpg -> hair-177.jpg
+- [JANITOR] Programmatically normalized asset file: hair-178.jpg -> hair-178.jpg
+- [JANITOR] Programmatically normalized asset file: hair-179.jpg -> hair-179.jpg
+- [JANITOR] Programmatically normalized asset file: hair-182.jpg -> hair-182.jpg
+- [JANITOR] Programmatically normalized asset file: hair-183.jpg -> hair-183.jpg
+- [JANITOR] Programmatically normalized asset file: hair-184.jpg -> hair-184.jpg
+- [JANITOR] Programmatically normalized asset file: hair-185.jpg -> hair-185.jpg
+- [JANITOR] Programmatically normalized asset file: hair-186.jpg -> hair-186.jpg
+- [JANITOR] Programmatically normalized asset file: hair-187.jpg -> hair-187.jpg
+- [JANITOR] Programmatically normalized asset file: hair-188.jpg -> hair-188.jpg
+- [JANITOR] Programmatically normalized asset file: hair-189.jpg -> hair-189.jpg
+- [JANITOR] Programmatically normalized asset file: hair-190.jpg -> hair-190.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0055.jpg -> DJI_0055.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0056-2.jpg -> DJI_0056-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0056.jpg -> DJI_0056.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0057-2.jpg -> DJI_0057-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0057.jpg -> DJI_0057.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0058-2.jpg -> DJI_0058-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0059-2.jpg -> DJI_0059-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0059.jpg -> DJI_0059.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0060-2.jpg -> DJI_0060-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0061-2.jpg -> DJI_0061-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0061.jpg -> DJI_0061.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0062-2.jpg -> DJI_0062-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0062.jpg -> DJI_0062.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0063-2.jpg -> DJI_0063-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0063.jpg -> DJI_0063.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0064-2.jpg -> DJI_0064-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0064.jpg -> DJI_0064.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0065.jpg -> DJI_0065.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0066-2.jpg -> DJI_0066-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0066.jpg -> DJI_0066.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0067-2.jpg -> DJI_0067-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0067.jpg -> DJI_0067.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0068-2.jpg -> DJI_0068-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0068.jpg -> DJI_0068.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0069-2.jpg -> DJI_0069-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0069.jpg -> DJI_0069.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0070-2.jpg -> DJI_0070-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0070.jpg -> DJI_0070.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0071-2.jpg -> DJI_0071-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0071.jpg -> DJI_0071.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0072-2.jpg -> DJI_0072-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0072.jpg -> DJI_0072.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0073-2.jpg -> DJI_0073-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0073.jpg -> DJI_0073.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0074-2.jpg -> DJI_0074-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0074.jpg -> DJI_0074.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0075-2.jpg -> DJI_0075-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0075.jpg -> DJI_0075.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0076-2.jpg -> DJI_0076-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0076.jpg -> DJI_0076.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0077-2.jpg -> DJI_0077-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0077.jpg -> DJI_0077.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0078-2.jpg -> DJI_0078-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0078.jpg -> DJI_0078.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0079-2.jpg -> DJI_0079-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0079.jpg -> DJI_0079.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0080-2.jpg -> DJI_0080-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0080.jpg -> DJI_0080.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0081-2.jpg -> DJI_0081-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0081.jpg -> DJI_0081.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0082-2.jpg -> DJI_0082-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0082.jpg -> DJI_0082.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0083-2.jpg -> DJI_0083-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0083.jpg -> DJI_0083.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0564.jpg -> DJI_0564.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0565.jpg -> DJI_0565.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0566.jpg -> DJI_0566.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0567.jpg -> DJI_0567.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0568.jpg -> DJI_0568.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0569.jpg -> DJI_0569.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0570.jpg -> DJI_0570.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0571.jpg -> DJI_0571.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0572.jpg -> DJI_0572.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0573.jpg -> DJI_0573.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0574.jpg -> DJI_0574.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0575.jpg -> DJI_0575.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0576.jpg -> DJI_0576.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0577.jpg -> DJI_0577.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0578.jpg -> DJI_0578.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0579.jpg -> DJI_0579.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0580.jpg -> DJI_0580.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0581.jpg -> DJI_0581.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0582.jpg -> DJI_0582.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0583.jpg -> DJI_0583.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0584.jpg -> DJI_0584.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0585.jpg -> DJI_0585.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0843-2.jpg -> DJI_0843-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0843.jpg -> DJI_0843.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0844-2.jpg -> DJI_0844-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0844.jpg -> DJI_0844.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0845-2.jpg -> DJI_0845-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0845.jpg -> DJI_0845.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0846-2.jpg -> DJI_0846-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0846.jpg -> DJI_0846.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0847-2.jpg -> DJI_0847-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0847.jpg -> DJI_0847.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0848-2.jpg -> DJI_0848-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0848.jpg -> DJI_0848.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0849-2.jpg -> DJI_0849-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0850-2.jpg -> DJI_0850-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0850.jpg -> DJI_0850.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0851-2.jpg -> DJI_0851-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0852-2.jpg -> DJI_0852-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0852.jpg -> DJI_0852.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0853-2.jpg -> DJI_0853-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0853.jpg -> DJI_0853.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0854-2.jpg -> DJI_0854-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0854.jpg -> DJI_0854.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0855-2.jpg -> DJI_0855-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0856-2.jpg -> DJI_0856-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0856.jpg -> DJI_0856.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0857-2.jpg -> DJI_0857-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0857.jpg -> DJI_0857.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0858-2.jpg -> DJI_0858-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0859-2.jpg -> DJI_0859-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0859.jpg -> DJI_0859.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0860-2.jpg -> DJI_0860-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0860.jpg -> DJI_0860.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0861-2.jpg -> DJI_0861-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0861.jpg -> DJI_0861.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0862-2.jpg -> DJI_0862-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0862.jpg -> DJI_0862.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0863-2.jpg -> DJI_0863-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0863.jpg -> DJI_0863.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0864-2.jpg -> DJI_0864-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0864.jpg -> DJI_0864.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0865-2.jpg -> DJI_0865-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0865.jpg -> DJI_0865.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0866-2.jpg -> DJI_0866-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0866.jpg -> DJI_0866.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0867-2.jpg -> DJI_0867-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0867.jpg -> DJI_0867.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0868-2.jpg -> DJI_0868-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0868.jpg -> DJI_0868.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0869-2.jpg -> DJI_0869-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0869.jpg -> DJI_0869.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0870-2.jpg -> DJI_0870-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0870.jpg -> DJI_0870.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-253.jpg -> bartender-253.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-254.jpg -> bartender-254.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-255.jpg -> bartender-255.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-256.jpg -> bartender-256.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-268.jpg -> bartender-268.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-269.jpg -> bartender-269.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-270.jpg -> bartender-270.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-23.jpg -> pineapple-23.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-24.jpg -> pineapple-24.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-25.jpg -> pineapple-25.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-26.jpg -> pineapple-26.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-27.jpg -> pineapple-27.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-28.jpg -> pineapple-28.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-29.jpg -> pineapple-29.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-30.jpg -> pineapple-30.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-31.jpg -> pineapple-31.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-32.jpg -> pineapple-32.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-33.jpg -> pineapple-33.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-34.jpg -> pineapple-34.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-35.jpg -> pineapple-35.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-36.jpg -> pineapple-36.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-37.jpg -> pineapple-37.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-38.jpg -> pineapple-38.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-39.jpg -> pineapple-39.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-40.jpg -> pineapple-40.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-41.jpg -> pineapple-41.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-42.jpg -> pineapple-42.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-43.jpg -> pineapple-43.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-44.jpg -> pineapple-44.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-45.jpg -> pineapple-45.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-01.jpg -> pineapple-01.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-02.jpg -> pineapple-02.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-03.jpg -> pineapple-03.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-06.jpg -> pineapple-06.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-07.jpg -> pineapple-07.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-08.jpg -> pineapple-08.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-09.jpg -> pineapple-09.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-10.jpg -> pineapple-10.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-11.jpg -> pineapple-11.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-12.jpg -> pineapple-12.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0830-2.jpg -> DJI_0830-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0830.jpg -> DJI_0830.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0831-2.jpg -> DJI_0831-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0831.jpg -> DJI_0831.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0832-2.jpg -> DJI_0832-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0832.jpg -> DJI_0832.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0833-2.jpg -> DJI_0833-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0833.jpg -> DJI_0833.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0834-2.jpg -> DJI_0834-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0834.jpg -> DJI_0834.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0835-2.jpg -> DJI_0835-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0835.jpg -> DJI_0835.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0836-2.jpg -> DJI_0836-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0836.jpg -> DJI_0836.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0837-2.jpg -> DJI_0837-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0837.jpg -> DJI_0837.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0838-2.jpg -> DJI_0838-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0838.jpg -> DJI_0838.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0839-2.jpg -> DJI_0839-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0839.jpg -> DJI_0839.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0840-2.jpg -> DJI_0840-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0840.jpg -> DJI_0840.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0841-2.jpg -> DJI_0841-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0841.jpg -> DJI_0841.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0842-2.jpg -> DJI_0842-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0842.jpg -> DJI_0842.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-72.jpg -> pineapple drone-72.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-73.jpg -> pineapple drone-73.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-74.jpg -> pineapple drone-74.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-75.jpg -> pineapple drone-75.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-76.jpg -> pineapple drone-76.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-77.jpg -> pineapple drone-77.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-78.jpg -> pineapple drone-78.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-79.jpg -> pineapple drone-79.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-80.jpg -> pineapple drone-80.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-81.jpg -> pineapple drone-81.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-82.jpg -> pineapple drone-82.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-83.jpg -> pineapple drone-83.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-84.jpg -> pineapple drone-84.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-85.jpg -> pineapple drone-85.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-86.jpg -> pineapple drone-86.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-87.jpg -> pineapple drone-87.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-88.jpg -> pineapple drone-88.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-89.jpg -> pineapple drone-89.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-90.jpg -> pineapple drone-90.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-91.jpg -> pineapple drone-91.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-92.jpg -> pineapple drone-92.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-93.jpg -> pineapple drone-93.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-94.jpg -> pineapple drone-94.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-95.jpg -> pineapple drone-95.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-96.jpg -> pineapple drone-96.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-97.jpg -> pineapple drone-97.jpg
+- [JANITOR] Programmatically normalized asset file: 3042 Nyala trail-10.jpg -> 3042 Nyala trail-10.jpg
+- [JANITOR] Programmatically normalized asset file: 3042 Nyala trail-11.jpg -> 3042 Nyala trail-11.jpg
+- [JANITOR] Programmatically normalized asset file: 3042 Nyala trail-12.jpg -> 3042 Nyala trail-12.jpg
+- [JANITOR] Programmatically normalized asset file: 3042 Nyala trail-13.jpg -> 3042 Nyala trail-13.jpg
+- [JANITOR] Programmatically normalized asset file: 3042 Nyala trail-14.jpg -> 3042 Nyala trail-14.jpg
+- [JANITOR] Programmatically normalized asset file: 3042 Nyala trail-15.jpg -> 3042 Nyala trail-15.jpg
+- [JANITOR] Programmatically normalized asset file: 3042 Nyala trail-16.jpg -> 3042 Nyala trail-16.jpg
+- [JANITOR] Programmatically normalized asset file: 3042 Nyala trail-17.jpg -> 3042 Nyala trail-17.jpg
+- [JANITOR] Programmatically normalized asset file: 3042 Nyala trail-18.jpg -> 3042 Nyala trail-18.jpg
+- [JANITOR] Programmatically normalized asset file: 3042 Nyala trail-19.jpg -> 3042 Nyala trail-19.jpg
+- [JANITOR] Programmatically normalized asset file: 3042 Nyala trail-2.jpg -> 3042 Nyala trail-2.jpg
+- [JANITOR] Programmatically normalized asset file: 3042 Nyala trail-20.jpg -> 3042 Nyala trail-20.jpg
+- [JANITOR] Programmatically normalized asset file: 3042 Nyala trail-21.jpg -> 3042 Nyala trail-21.jpg
+- [JANITOR] Programmatically normalized asset file: 3042 Nyala trail-22.jpg -> 3042 Nyala trail-22.jpg
+- [JANITOR] Programmatically normalized asset file: 3042 Nyala trail-3.jpg -> 3042 Nyala trail-3.jpg
+- [JANITOR] Programmatically normalized asset file: 3042 Nyala trail-4.jpg -> 3042 Nyala trail-4.jpg
+- [JANITOR] Programmatically normalized asset file: 3042 Nyala trail-5.jpg -> 3042 Nyala trail-5.jpg
+- [JANITOR] Programmatically normalized asset file: 3042 Nyala trail-6.jpg -> 3042 Nyala trail-6.jpg
+- [JANITOR] Programmatically normalized asset file: 3042 Nyala trail-7.jpg -> 3042 Nyala trail-7.jpg
+- [JANITOR] Programmatically normalized asset file: 3042 Nyala trail-8.jpg -> 3042 Nyala trail-8.jpg
+- [JANITOR] Programmatically normalized asset file: 3042 Nyala trail-9.jpg -> 3042 Nyala trail-9.jpg
+- [JANITOR] Programmatically normalized asset file: 3042 Nyala trail.jpg -> 3042 Nyala trail.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-26.jpg -> pineapple drone-26.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-27.jpg -> pineapple drone-27.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-28.jpg -> pineapple drone-28.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-29.jpg -> pineapple drone-29.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-30.jpg -> pineapple drone-30.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-31.jpg -> pineapple drone-31.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-32.jpg -> pineapple drone-32.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-33.jpg -> pineapple drone-33.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-34.jpg -> pineapple drone-34.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-35.jpg -> pineapple drone-35.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-36.jpg -> pineapple drone-36.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-37.jpg -> pineapple drone-37.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-38.jpg -> pineapple drone-38.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-39.jpg -> pineapple drone-39.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-40.jpg -> pineapple drone-40.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-41.jpg -> pineapple drone-41.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-42.jpg -> pineapple drone-42.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-43.jpg -> pineapple drone-43.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-44.jpg -> pineapple drone-44.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-45.jpg -> pineapple drone-45.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-46.jpg -> pineapple drone-46.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-47.jpg -> pineapple drone-47.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-48.jpg -> pineapple drone-48.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-49.jpg -> pineapple drone-49.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-50.jpg -> pineapple drone-50.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-51.jpg -> pineapple drone-51.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-52.jpg -> pineapple drone-52.jpg
+- [JANITOR] Programmatically normalized asset file: 310 Stephanie-10.jpg -> 310 Stephanie-10.jpg
+- [JANITOR] Programmatically normalized asset file: 310 Stephanie-11.jpg -> 310 Stephanie-11.jpg
+- [JANITOR] Programmatically normalized asset file: 310 Stephanie-12.jpg -> 310 Stephanie-12.jpg
+- [JANITOR] Programmatically normalized asset file: 310 Stephanie-13.jpg -> 310 Stephanie-13.jpg
+- [JANITOR] Programmatically normalized asset file: 310 Stephanie-14.jpg -> 310 Stephanie-14.jpg
+- [JANITOR] Programmatically normalized asset file: 310 Stephanie-16.jpg -> 310 Stephanie-16.jpg
+- [JANITOR] Programmatically normalized asset file: 310 Stephanie-2.jpg -> 310 Stephanie-2.jpg
+- [JANITOR] Programmatically normalized asset file: 310 Stephanie-3.jpg -> 310 Stephanie-3.jpg
+- [JANITOR] Programmatically normalized asset file: 310 Stephanie-4.jpg -> 310 Stephanie-4.jpg
+- [JANITOR] Programmatically normalized asset file: 310 Stephanie-5.jpg -> 310 Stephanie-5.jpg
+- [JANITOR] Programmatically normalized asset file: 310 Stephanie-6.jpg -> 310 Stephanie-6.jpg
+- [JANITOR] Programmatically normalized asset file: 310 Stephanie-7.jpg -> 310 Stephanie-7.jpg
+- [JANITOR] Programmatically normalized asset file: 310 Stephanie-8.jpg -> 310 Stephanie-8.jpg
+- [JANITOR] Programmatically normalized asset file: 310 Stephanie-9.jpg -> 310 Stephanie-9.jpg
+- [JANITOR] Programmatically normalized asset file: 310 Stephanie.jpg -> 310 Stephanie.jpg
+- [JANITOR] Programmatically normalized asset file: hair-119.jpg -> hair-119.jpg
+- [JANITOR] Programmatically normalized asset file: hair-120.jpg -> hair-120.jpg
+- [JANITOR] Programmatically normalized asset file: hair-121.jpg -> hair-121.jpg
+- [JANITOR] Programmatically normalized asset file: hair-122.jpg -> hair-122.jpg
+- [JANITOR] Programmatically normalized asset file: hair-123.jpg -> hair-123.jpg
+- [JANITOR] Programmatically normalized asset file: hair-124.jpg -> hair-124.jpg
+- [JANITOR] Programmatically normalized asset file: hair-125.jpg -> hair-125.jpg
+- [JANITOR] Programmatically normalized asset file: hair-126.jpg -> hair-126.jpg
+- [JANITOR] Programmatically normalized asset file: hair-127.jpg -> hair-127.jpg
+- [JANITOR] Programmatically normalized asset file: hair-128.jpg -> hair-128.jpg
+- [JANITOR] Programmatically normalized asset file: hair-129.jpg -> hair-129.jpg
+- [JANITOR] Programmatically normalized asset file: hair-130.jpg -> hair-130.jpg
+- [JANITOR] Programmatically normalized asset file: hair-131.jpg -> hair-131.jpg
+- [JANITOR] Programmatically normalized asset file: hair-132.jpg -> hair-132.jpg
+- [JANITOR] Programmatically normalized asset file: hair-133.jpg -> hair-133.jpg
+- [JANITOR] Programmatically normalized asset file: hair-134.jpg -> hair-134.jpg
+- [JANITOR] Programmatically normalized asset file: hair-136.jpg -> hair-136.jpg
+- [JANITOR] Programmatically normalized asset file: hair-137.jpg -> hair-137.jpg
+- [JANITOR] Programmatically normalized asset file: hair-138.jpg -> hair-138.jpg
+- [JANITOR] Programmatically normalized asset file: hair-139.jpg -> hair-139.jpg
+- [JANITOR] Programmatically normalized asset file: hair-140.jpg -> hair-140.jpg
+- [JANITOR] Programmatically normalized asset file: hair-141.jpg -> hair-141.jpg
+- [JANITOR] Programmatically normalized asset file: hair-142.jpg -> hair-142.jpg
+- [JANITOR] Programmatically normalized asset file: hair-143.jpg -> hair-143.jpg
+- [JANITOR] Programmatically normalized asset file: hair-144.jpg -> hair-144.jpg
+- [JANITOR] Programmatically normalized asset file: hair-145.jpg -> hair-145.jpg
+- [JANITOR] Programmatically normalized asset file: hair-146.jpg -> hair-146.jpg
+- [JANITOR] Programmatically normalized asset file: hair-147.jpg -> hair-147.jpg
+- [JANITOR] Programmatically normalized asset file: hair-148.jpg -> hair-148.jpg
+- [JANITOR] Programmatically normalized asset file: hair-149.jpg -> hair-149.jpg
+- [JANITOR] Programmatically normalized asset file: hair-150.jpg -> hair-150.jpg
+- [JANITOR] Programmatically normalized asset file: hair-151.jpg -> hair-151.jpg
+- [JANITOR] Programmatically normalized asset file: hair-152.jpg -> hair-152.jpg
+- [JANITOR] Programmatically normalized asset file: hair-153.jpg -> hair-153.jpg
+- [JANITOR] Programmatically normalized asset file: hair-154.jpg -> hair-154.jpg
+- [JANITOR] Programmatically normalized asset file: hair-155.jpg -> hair-155.jpg
+- [JANITOR] Programmatically normalized asset file: hair-156.jpg -> hair-156.jpg
+- [JANITOR] Programmatically normalized asset file: hair-157.jpg -> hair-157.jpg
+- [JANITOR] Programmatically normalized asset file: hair-158.jpg -> hair-158.jpg
+- [JANITOR] Programmatically normalized asset file: 310 Stephanie_.jpg -> 310 Stephanie_.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-137.jpg -> bartender-137.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-138.jpg -> bartender-138.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-139.jpg -> bartender-139.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-140.jpg -> bartender-140.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-141.jpg -> bartender-141.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-142.jpg -> bartender-142.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-143.jpg -> bartender-143.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-144.jpg -> bartender-144.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-145.jpg -> bartender-145.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-146.jpg -> bartender-146.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-147.jpg -> bartender-147.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-148.jpg -> bartender-148.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-149.jpg -> bartender-149.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-150.jpg -> bartender-150.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-151.jpg -> bartender-151.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-152.jpg -> bartender-152.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-153.jpg -> bartender-153.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-66.jpg -> pineapple 4-8-66.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-67.jpg -> pineapple 4-8-67.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-68.jpg -> pineapple 4-8-68.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-69.jpg -> pineapple 4-8-69.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-70.jpg -> pineapple 4-8-70.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-71.jpg -> pineapple 4-8-71.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-72.jpg -> pineapple 4-8-72.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-73.jpg -> pineapple 4-8-73.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-74.jpg -> pineapple 4-8-74.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-75.jpg -> pineapple 4-8-75.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-76.jpg -> pineapple 4-8-76.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-77.jpg -> pineapple 4-8-77.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-78.jpg -> pineapple 4-8-78.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-79.jpg -> pineapple 4-8-79.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-80.jpg -> pineapple 4-8-80.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-81.jpg -> pineapple 4-8-81.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-82.jpg -> pineapple 4-8-82.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-83.jpg -> pineapple 4-8-83.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-84.jpg -> pineapple 4-8-84.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-85.jpg -> pineapple 4-8-85.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-86.jpg -> pineapple 4-8-86.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-87.jpg -> pineapple 4-8-87.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-88.jpg -> pineapple 4-8-88.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_20240302154637_0158_D.DNG -> DJI_20240302154637_0158_D.DNG
+- [JANITOR] Programmatically normalized asset file: DJI_20240302154653_0159_D.DNG -> DJI_20240302154653_0159_D.DNG
+- [JANITOR] Programmatically normalized asset file: DJI_20240302154700_0160_D.DNG -> DJI_20240302154700_0160_D.DNG
+- [JANITOR] Programmatically normalized asset file: DJI_20240302154713_0161_D.DNG -> DJI_20240302154713_0161_D.DNG
+- [JANITOR] Programmatically normalized asset file: DJI_20240302154718_0162_D.DNG -> DJI_20240302154718_0162_D.DNG
+- [JANITOR] Programmatically normalized asset file: DJI_20240302154727_0163_D.DNG -> DJI_20240302154727_0163_D.DNG
+- [JANITOR] Programmatically normalized asset file: DJI_20240302154736_0164_D.DNG -> DJI_20240302154736_0164_D.DNG
+- [JANITOR] Programmatically normalized asset file: DJI_20240302154750_0165_D.DNG -> DJI_20240302154750_0165_D.DNG
+- [JANITOR] Programmatically normalized asset file: DJI_20240302154758_0166_D.DNG -> DJI_20240302154758_0166_D.DNG
+- [JANITOR] Programmatically normalized asset file: DJI_20240302154805_0167_D.DNG -> DJI_20240302154805_0167_D.DNG
+- [JANITOR] Programmatically normalized asset file: DJI_20240302154833_0168_D.DNG -> DJI_20240302154833_0168_D.DNG
+- [JANITOR] Programmatically normalized asset file: DJI_20240302154839_0169_D.DNG -> DJI_20240302154839_0169_D.DNG
+- [JANITOR] Programmatically normalized asset file: DJI_20240302154904_0170_D.DNG -> DJI_20240302154904_0170_D.DNG
+- [JANITOR] Programmatically normalized asset file: DJI_20240302154908_0171_D.DNG -> DJI_20240302154908_0171_D.DNG
+- [JANITOR] Programmatically normalized asset file: DJI_20240302154918_0172_D.DNG -> DJI_20240302154918_0172_D.DNG
+- [JANITOR] Programmatically normalized asset file: DJI_20240302154932_0173_D.DNG -> DJI_20240302154932_0173_D.DNG
+- [JANITOR] Programmatically normalized asset file: DJI_20240302154943_0174_D.DNG -> DJI_20240302154943_0174_D.DNG
+- [JANITOR] Programmatically normalized asset file: DJI_20240303155036_0154_D.DNG -> DJI_20240303155036_0154_D.DNG
+- [JANITOR] Programmatically normalized asset file: DJI_20240303155042_0155_D.DNG -> DJI_20240303155042_0155_D.DNG
+- [JANITOR] Programmatically normalized asset file: bartender-349.jpg -> bartender-349.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-350.jpg -> bartender-350.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-351.jpg -> bartender-351.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-352.jpg -> bartender-352.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-353.jpg -> bartender-353.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-354.jpg -> bartender-354.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-355.jpg -> bartender-355.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-356.jpg -> bartender-356.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-357.jpg -> bartender-357.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-358.jpg -> bartender-358.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-359.jpg -> bartender-359.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-360.jpg -> bartender-360.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-361.jpg -> bartender-361.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-362.jpg -> bartender-362.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-363.jpg -> bartender-363.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-364.jpg -> bartender-364.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-365.jpg -> bartender-365.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-366.jpg -> bartender-366.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-367.jpg -> bartender-367.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-368.jpg -> bartender-368.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-369.jpg -> bartender-369.jpg
+- [JANITOR] Programmatically normalized asset file: drone.jpg -> drone.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-089.jpg -> pineapple-089.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-090.jpg -> pineapple-090.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-091.jpg -> pineapple-091.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-092.jpg -> pineapple-092.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-093.jpg -> pineapple-093.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-094.jpg -> pineapple-094.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-095.jpg -> pineapple-095.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-096.jpg -> pineapple-096.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-097.jpg -> pineapple-097.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-098.jpg -> pineapple-098.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-099.jpg -> pineapple-099.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-100.jpg -> pineapple-100.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-101.jpg -> pineapple-101.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-102.jpg -> pineapple-102.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-103.jpg -> pineapple-103.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-104.jpg -> pineapple-104.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-105.jpg -> pineapple-105.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-108.jpg -> pineapple-108.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-109.jpg -> pineapple-109.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-23.jpg -> pineapple-23.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-24.jpg -> pineapple-24.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-25.jpg -> pineapple-25.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-26.jpg -> pineapple-26.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-27.jpg -> pineapple-27.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-28.jpg -> pineapple-28.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-29.jpg -> pineapple-29.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-30.jpg -> pineapple-30.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-31.jpg -> pineapple-31.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-32.jpg -> pineapple-32.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-33.jpg -> pineapple-33.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-34.jpg -> pineapple-34.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-35.jpg -> pineapple-35.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-36.jpg -> pineapple-36.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-37.jpg -> pineapple-37.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-38.jpg -> pineapple-38.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-39.jpg -> pineapple-39.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-40.jpg -> pineapple-40.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-41.jpg -> pineapple-41.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-42.jpg -> pineapple-42.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-43.jpg -> pineapple-43.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-44.jpg -> pineapple-44.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-45.jpg -> pineapple-45.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0019.JPG -> DJI_0019.JPG
+- [JANITOR] Programmatically normalized asset file: DJI_0020.JPG -> DJI_0020.JPG
+- [JANITOR] Programmatically normalized asset file: DJI_0021.JPG -> DJI_0021.JPG
+- [JANITOR] Programmatically normalized asset file: DJI_0022.JPG -> DJI_0022.JPG
+- [JANITOR] Programmatically normalized asset file: DJI_0023.JPG -> DJI_0023.JPG
+- [JANITOR] Programmatically normalized asset file: DJI_0024.JPG -> DJI_0024.JPG
+- [JANITOR] Programmatically normalized asset file: DJI_0025.JPG -> DJI_0025.JPG
+- [JANITOR] Programmatically normalized asset file: DJI_0026.JPG -> DJI_0026.JPG
+- [JANITOR] Programmatically normalized asset file: DJI_0028.JPG -> DJI_0028.JPG
+- [JANITOR] Programmatically normalized asset file: DJI_0029.JPG -> DJI_0029.JPG
+- [JANITOR] Programmatically normalized asset file: pineapple-13.jpg -> pineapple-13.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-14.jpg -> pineapple-14.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-15.jpg -> pineapple-15.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-16.jpg -> pineapple-16.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-17.jpg -> pineapple-17.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-18.jpg -> pineapple-18.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-19.jpg -> pineapple-19.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-20.jpg -> pineapple-20.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-21.jpg -> pineapple-21.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-22.jpg -> pineapple-22.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-180.jpg -> bartender-180.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-181.jpg -> bartender-181.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-182.jpg -> bartender-182.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-183.jpg -> bartender-183.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-184.jpg -> bartender-184.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-185.jpg -> bartender-185.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-186.jpg -> bartender-186.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-187.jpg -> bartender-187.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-188.jpg -> bartender-188.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-189.jpg -> bartender-189.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-190.jpg -> bartender-190.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-191.jpg -> bartender-191.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-192.jpg -> bartender-192.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-193.jpg -> bartender-193.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-194.jpg -> bartender-194.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-195.jpg -> bartender-195.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-196.jpg -> bartender-196.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-197.jpg -> bartender-197.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-198.jpg -> bartender-198.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-199.jpg -> bartender-199.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-200.jpg -> bartender-200.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-201.jpg -> bartender-201.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-202.jpg -> bartender-202.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-203.jpg -> bartender-203.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-204.jpg -> bartender-204.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-205.jpg -> bartender-205.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-206.jpg -> bartender-206.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-207.jpg -> bartender-207.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-208.jpg -> bartender-208.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-209.jpg -> bartender-209.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-210.jpg -> bartender-210.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-211.jpg -> bartender-211.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-212.jpg -> bartender-212.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-213.jpg -> bartender-213.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-214.jpg -> bartender-214.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-215.jpg -> bartender-215.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-216.jpg -> bartender-216.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-217.jpg -> bartender-217.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-218.jpg -> bartender-218.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-219.jpg -> bartender-219.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-220.jpg -> bartender-220.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-221.jpg -> bartender-221.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-222.jpg -> bartender-222.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-268.jpg -> bartender-268.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-45.jpg -> pineapple-45.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-46.jpg -> pineapple-46.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-47.jpg -> pineapple-47.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-48.jpg -> pineapple-48.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-49.jpg -> pineapple-49.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-50.jpg -> pineapple-50.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-51.jpg -> pineapple-51.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-52.jpg -> pineapple-52.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-53.jpg -> pineapple-53.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-54.jpg -> pineapple-54.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-55.jpg -> pineapple-55.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-56.jpg -> pineapple-56.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-57.jpg -> pineapple-57.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-58.jpg -> pineapple-58.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-59.jpg -> pineapple-59.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-60.jpg -> pineapple-60.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-61.jpg -> pineapple-61.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-62.jpg -> pineapple-62.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-63.jpg -> pineapple-63.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-64.jpg -> pineapple-64.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-65.jpg -> pineapple-65.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-66.jpg -> pineapple-66.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-67.jpg -> pineapple-67.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-68.jpg -> pineapple-68.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-69.jpg -> pineapple-69.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-70.jpg -> pineapple-70.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-71.jpg -> pineapple-71.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-72.jpg -> pineapple-72.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-73.jpg -> pineapple-73.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-74.jpg -> pineapple-74.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-75.jpg -> pineapple-75.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-76.jpg -> pineapple-76.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-77.jpg -> pineapple-77.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-78.jpg -> pineapple-78.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-79.jpg -> pineapple-79.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-80.jpg -> pineapple-80.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-81.jpg -> pineapple-81.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-82.jpg -> pineapple-82.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-83.jpg -> pineapple-83.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-84.jpg -> pineapple-84.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-85.jpg -> pineapple-85.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-86.jpg -> pineapple-86.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-87.jpg -> pineapple-87.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-88.jpg -> pineapple-88.jpg
+- [JANITOR] Programmatically normalized asset file: nikko-074.jpg -> nikko-074.jpg
+- [JANITOR] Programmatically normalized asset file: nikko-075.jpg -> nikko-075.jpg
+- [JANITOR] Programmatically normalized asset file: nikko-076.jpg -> nikko-076.jpg
+- [JANITOR] Programmatically normalized asset file: nikko-077.jpg -> nikko-077.jpg
+- [JANITOR] Programmatically normalized asset file: nikko-078.jpg -> nikko-078.jpg
+- [JANITOR] Programmatically normalized asset file: nikko-079.jpg -> nikko-079.jpg
+- [JANITOR] Programmatically normalized asset file: nikko-080.jpg -> nikko-080.jpg
+- [JANITOR] Programmatically normalized asset file: nikko-081.jpg -> nikko-081.jpg
+- [JANITOR] Programmatically normalized asset file: nikko-082.jpg -> nikko-082.jpg
+- [JANITOR] Programmatically normalized asset file: nikko-083.jpg -> nikko-083.jpg
+- [JANITOR] Programmatically normalized asset file: nikko-084.jpg -> nikko-084.jpg
+- [JANITOR] Programmatically normalized asset file: nikko-085.jpg -> nikko-085.jpg
+- [JANITOR] Programmatically normalized asset file: nikko-086.jpg -> nikko-086.jpg
+- [JANITOR] Programmatically normalized asset file: nikko-087.jpg -> nikko-087.jpg
+- [JANITOR] Programmatically normalized asset file: nikko-088.jpg -> nikko-088.jpg
+- [JANITOR] Programmatically normalized asset file: nikko-089.jpg -> nikko-089.jpg
+- [JANITOR] Programmatically normalized asset file: nikko-090.jpg -> nikko-090.jpg
+- [JANITOR] Programmatically normalized asset file: nikko-091.jpg -> nikko-091.jpg
+- [JANITOR] Programmatically normalized asset file: nikko-092.jpg -> nikko-092.jpg
+- [JANITOR] Programmatically normalized asset file: nikko-093.jpg -> nikko-093.jpg
+- [JANITOR] Programmatically normalized asset file: nikko-094.jpg -> nikko-094.jpg
+- [JANITOR] Programmatically normalized asset file: nikko-095.jpg -> nikko-095.jpg
+- [JANITOR] Programmatically normalized asset file: nikko-096.jpg -> nikko-096.jpg
+- [JANITOR] Programmatically normalized asset file: nikko-097.jpg -> nikko-097.jpg
+- [JANITOR] Programmatically normalized asset file: nikko-098.jpg -> nikko-098.jpg
+- [JANITOR] Programmatically normalized asset file: nikko-099.jpg -> nikko-099.jpg
+- [JANITOR] Programmatically normalized asset file: nikko-100.jpg -> nikko-100.jpg
+- [JANITOR] Programmatically normalized asset file: nikko-101.jpg -> nikko-101.jpg
+- [JANITOR] Programmatically normalized asset file: nikko-102.jpg -> nikko-102.jpg
+- [JANITOR] Programmatically normalized asset file: nikko-103.jpg -> nikko-103.jpg
+- [JANITOR] Programmatically normalized asset file: nikko-104.jpg -> nikko-104.jpg
+- [JANITOR] Programmatically normalized asset file: nikko-105.jpg -> nikko-105.jpg
+- [JANITOR] Programmatically normalized asset file: nikko-106.jpg -> nikko-106.jpg
+- [JANITOR] Programmatically normalized asset file: nikko-107.jpg -> nikko-107.jpg
+- [JANITOR] Programmatically normalized asset file: nikko-108.jpg -> nikko-108.jpg
+- [JANITOR] Programmatically normalized asset file: nikko-109.jpg -> nikko-109.jpg
+- [JANITOR] Programmatically normalized asset file: nikko-110.jpg -> nikko-110.jpg
+- [JANITOR] Programmatically normalized asset file: nikko-111.jpg -> nikko-111.jpg
+- [JANITOR] Programmatically normalized asset file: nikko-112.jpg -> nikko-112.jpg
+- [JANITOR] Programmatically normalized asset file: nikko-113.jpg -> nikko-113.jpg
+- [JANITOR] Programmatically normalized asset file: nikko-114.jpg -> nikko-114.jpg
+- [JANITOR] Programmatically normalized asset file: nikko-115.jpg -> nikko-115.jpg
+- [JANITOR] Programmatically normalized asset file: nikko-116.jpg -> nikko-116.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-10.jpg -> pineapple_-10.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-11.jpg -> pineapple_-11.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-12.jpg -> pineapple_-12.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-13.jpg -> pineapple_-13.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-14.jpg -> pineapple_-14.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-15.jpg -> pineapple_-15.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-16.jpg -> pineapple_-16.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-17.jpg -> pineapple_-17.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-18.jpg -> pineapple_-18.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-19.jpg -> pineapple_-19.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-2.jpg -> pineapple_-2.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-3.jpg -> pineapple_-3.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-4.jpg -> pineapple_-4.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-5.jpg -> pineapple_-5.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-6.jpg -> pineapple_-6.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-7.jpg -> pineapple_-7.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-8.jpg -> pineapple_-8.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-9.jpg -> pineapple_-9.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_.jpg -> pineapple_.jpg
+- [JANITOR] Programmatically normalized asset file: 4445 Addax trail-2.jpg -> 4445 Addax trail-2.jpg
+- [JANITOR] Programmatically normalized asset file: 4445 Addax trail-3.jpg -> 4445 Addax trail-3.jpg
+- [JANITOR] Programmatically normalized asset file: 4445 Addax trail-4.jpg -> 4445 Addax trail-4.jpg
+- [JANITOR] Programmatically normalized asset file: 4445 Addax trail-5.jpg -> 4445 Addax trail-5.jpg
+- [JANITOR] Programmatically normalized asset file: 4445 Addax trail-6.jpg -> 4445 Addax trail-6.jpg
+- [JANITOR] Programmatically normalized asset file: 4445 Addax trail-7.jpg -> 4445 Addax trail-7.jpg
+- [JANITOR] Programmatically normalized asset file: 4445 Addax trail-8.jpg -> 4445 Addax trail-8.jpg
+- [JANITOR] Programmatically normalized asset file: 4445 Addax trail.jpg -> 4445 Addax trail.jpg
+- [JANITOR] Programmatically normalized asset file: Pineapple-01.jpg -> Pineapple-01.jpg
+- [JANITOR] Programmatically normalized asset file: Pineapple-02.jpg -> Pineapple-02.jpg
+- [JANITOR] Programmatically normalized asset file: Pineapple-03.jpg -> Pineapple-03.jpg
+- [JANITOR] Programmatically normalized asset file: Pineapple-04.jpg -> Pineapple-04.jpg
+- [JANITOR] Programmatically normalized asset file: Pineapple-05.jpg -> Pineapple-05.jpg
+- [JANITOR] Programmatically normalized asset file: Pineapple-06.jpg -> Pineapple-06.jpg
+- [JANITOR] Programmatically normalized asset file: Pineapple-07.jpg -> Pineapple-07.jpg
+- [JANITOR] Programmatically normalized asset file: Pineapple-08.jpg -> Pineapple-08.jpg
+- [JANITOR] Programmatically normalized asset file: Pineapple-09.jpg -> Pineapple-09.jpg
+- [JANITOR] Programmatically normalized asset file: Pineapple-10.jpg -> Pineapple-10.jpg
+- [JANITOR] Programmatically normalized asset file: Pineapple-11.jpg -> Pineapple-11.jpg
+- [JANITOR] Programmatically normalized asset file: Pineapple-12.jpg -> Pineapple-12.jpg
+- [JANITOR] Programmatically normalized asset file: Pineapple-13.jpg -> Pineapple-13.jpg
+- [JANITOR] Programmatically normalized asset file: Pineapple-14.jpg -> Pineapple-14.jpg
+- [JANITOR] Programmatically normalized asset file: Pineapple-15.jpg -> Pineapple-15.jpg
+- [JANITOR] Programmatically normalized asset file: Pineapple-16.jpg -> Pineapple-16.jpg
+- [JANITOR] Programmatically normalized asset file: Pineapple-17.jpg -> Pineapple-17.jpg
+- [JANITOR] Programmatically normalized asset file: Pineapple-18.jpg -> Pineapple-18.jpg
+- [JANITOR] Programmatically normalized asset file: Pineapple-19.jpg -> Pineapple-19.jpg
+- [JANITOR] Programmatically normalized asset file: Pineapple-20.jpg -> Pineapple-20.jpg
+- [JANITOR] Programmatically normalized asset file: Pineapple-21.jpg -> Pineapple-21.jpg
+- [JANITOR] Programmatically normalized asset file: Pineapple-22.jpg -> Pineapple-22.jpg
+- [JANITOR] Programmatically normalized asset file: Pineapple-23.jpg -> Pineapple-23.jpg
+- [JANITOR] Programmatically normalized asset file: Pineapple-24.jpg -> Pineapple-24.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-485.jpg -> pineapple 4-8-485.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-486.jpg -> pineapple 4-8-486.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-487.jpg -> pineapple 4-8-487.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-488.jpg -> pineapple 4-8-488.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-489.jpg -> pineapple 4-8-489.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-490.jpg -> pineapple 4-8-490.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-491.jpg -> pineapple 4-8-491.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-492.jpg -> pineapple 4-8-492.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-502.jpg -> pineapple 4-8-502.jpg
+- [JANITOR] Programmatically normalized asset file: 4581 Hatebeest trail-10.jpg -> 4581 Hatebeest trail-10.jpg
+- [JANITOR] Programmatically normalized asset file: 4581 Hatebeest trail-11.jpg -> 4581 Hatebeest trail-11.jpg
+- [JANITOR] Programmatically normalized asset file: 4581 Hatebeest trail-12.jpg -> 4581 Hatebeest trail-12.jpg
+- [JANITOR] Programmatically normalized asset file: 4581 Hatebeest trail-13.jpg -> 4581 Hatebeest trail-13.jpg
+- [JANITOR] Programmatically normalized asset file: 4581 Hatebeest trail-14.jpg -> 4581 Hatebeest trail-14.jpg
+- [JANITOR] Programmatically normalized asset file: 4581 Hatebeest trail-15.jpg -> 4581 Hatebeest trail-15.jpg
+- [JANITOR] Programmatically normalized asset file: 4581 Hatebeest trail-16.jpg -> 4581 Hatebeest trail-16.jpg
+- [JANITOR] Programmatically normalized asset file: 4581 Hatebeest trail-17.jpg -> 4581 Hatebeest trail-17.jpg
+- [JANITOR] Programmatically normalized asset file: 4581 Hatebeest trail-18.jpg -> 4581 Hatebeest trail-18.jpg
+- [JANITOR] Programmatically normalized asset file: 4581 Hatebeest trail-19.jpg -> 4581 Hatebeest trail-19.jpg
+- [JANITOR] Programmatically normalized asset file: 4581 Hatebeest trail-2.jpg -> 4581 Hatebeest trail-2.jpg
+- [JANITOR] Programmatically normalized asset file: 4581 Hatebeest trail-20.jpg -> 4581 Hatebeest trail-20.jpg
+- [JANITOR] Programmatically normalized asset file: 4581 Hatebeest trail-3.jpg -> 4581 Hatebeest trail-3.jpg
+- [JANITOR] Programmatically normalized asset file: 4581 Hatebeest trail-4.jpg -> 4581 Hatebeest trail-4.jpg
+- [JANITOR] Programmatically normalized asset file: 4581 Hatebeest trail-5.jpg -> 4581 Hatebeest trail-5.jpg
+- [JANITOR] Programmatically normalized asset file: 4581 Hatebeest trail-6.jpg -> 4581 Hatebeest trail-6.jpg
+- [JANITOR] Programmatically normalized asset file: 4581 Hatebeest trail-7.jpg -> 4581 Hatebeest trail-7.jpg
+- [JANITOR] Programmatically normalized asset file: 4581 Hatebeest trail-8.jpg -> 4581 Hatebeest trail-8.jpg
+- [JANITOR] Programmatically normalized asset file: 4581 Hatebeest trail-9.jpg -> 4581 Hatebeest trail-9.jpg
+- [JANITOR] Programmatically normalized asset file: 4581 Hatebeest trail.jpg -> 4581 Hatebeest trail.jpg
+- [JANITOR] Programmatically normalized asset file: pic.JPG -> pic.JPG
+- [JANITOR] Programmatically normalized asset file: pic_1.JPG -> pic_1.JPG
+- [JANITOR] Programmatically normalized asset file: pic_10.JPG -> pic_10.JPG
+- [JANITOR] Programmatically normalized asset file: pic_11.JPG -> pic_11.JPG
+- [JANITOR] Programmatically normalized asset file: pic_12.JPG -> pic_12.JPG
+- [JANITOR] Programmatically normalized asset file: pic_13.JPG -> pic_13.JPG
+- [JANITOR] Programmatically normalized asset file: pic_14.JPG -> pic_14.JPG
+- [JANITOR] Programmatically normalized asset file: pic_15.JPG -> pic_15.JPG
+- [JANITOR] Programmatically normalized asset file: pic_16.JPG -> pic_16.JPG
+- [JANITOR] Programmatically normalized asset file: pic_17.JPG -> pic_17.JPG
+- [JANITOR] Programmatically normalized asset file: pic_18.JPG -> pic_18.JPG
+- [JANITOR] Programmatically normalized asset file: pic_19.JPG -> pic_19.JPG
+- [JANITOR] Programmatically normalized asset file: pic_2.JPG -> pic_2.JPG
+- [JANITOR] Programmatically normalized asset file: pic_3.JPG -> pic_3.JPG
+- [JANITOR] Programmatically normalized asset file: pic_4.JPG -> pic_4.JPG
+- [JANITOR] Programmatically normalized asset file: pic_5.JPG -> pic_5.JPG
+- [JANITOR] Programmatically normalized asset file: pic_6.JPG -> pic_6.JPG
+- [JANITOR] Programmatically normalized asset file: pic_7.JPG -> pic_7.JPG
+- [JANITOR] Programmatically normalized asset file: pic_8.JPG -> pic_8.JPG
+- [JANITOR] Programmatically normalized asset file: pic_9.JPG -> pic_9.JPG
+- [JANITOR] Programmatically normalized asset file: DJI_20240223125409_0134_D.DNG -> DJI_20240223125409_0134_D.DNG
+- [JANITOR] Programmatically normalized asset file: DJI_20240223125424_0135_D.DNG -> DJI_20240223125424_0135_D.DNG
+- [JANITOR] Programmatically normalized asset file: DJI_20240223125435_0136_D.DNG -> DJI_20240223125435_0136_D.DNG
+- [JANITOR] Programmatically normalized asset file: DJI_20240223125449_0137_D.DNG -> DJI_20240223125449_0137_D.DNG
+- [JANITOR] Programmatically normalized asset file: DJI_20240223125458_0138_D.DNG -> DJI_20240223125458_0138_D.DNG
+- [JANITOR] Programmatically normalized asset file: DJI_20240223125511_0139_D.DNG -> DJI_20240223125511_0139_D.DNG
+- [JANITOR] Programmatically normalized asset file: DJI_20240223125517_0140_D.DNG -> DJI_20240223125517_0140_D.DNG
+- [JANITOR] Programmatically normalized asset file: DJI_20240223125528_0141_D.DNG -> DJI_20240223125528_0141_D.DNG
+- [JANITOR] Programmatically normalized asset file: DJI_20240223125603_0142_D.DNG -> DJI_20240223125603_0142_D.DNG
+- [JANITOR] Programmatically normalized asset file: DJI_20240223125612_0143_D.DNG -> DJI_20240223125612_0143_D.DNG
+- [JANITOR] Programmatically normalized asset file: DJI_20240223125624_0144_D.DNG -> DJI_20240223125624_0144_D.DNG
+- [JANITOR] Programmatically normalized asset file: DJI_20240223125659_0147_D.DNG -> DJI_20240223125659_0147_D.DNG
+- [JANITOR] Programmatically normalized asset file: DJI_20240223125713_0148_D.DNG -> DJI_20240223125713_0148_D.DNG
+- [JANITOR] Programmatically normalized asset file: DJI_20240223125734_0149_D.DNG -> DJI_20240223125734_0149_D.DNG
+- [JANITOR] Programmatically normalized asset file: DJI_20240223125750_0150_D.DNG -> DJI_20240223125750_0150_D.DNG
+- [JANITOR] Programmatically normalized asset file: DJI_20240223125811_0151_D.DNG -> DJI_20240223125811_0151_D.DNG
+- [JANITOR] Programmatically normalized asset file: DJI_20240223125817_0152_D.DNG -> DJI_20240223125817_0152_D.DNG
+- [JANITOR] Programmatically normalized asset file: DJI_20240223125843_0153_D.DNG -> DJI_20240223125843_0153_D.DNG
+- [JANITOR] Programmatically normalized asset file: pineapple drone-53.jpg -> pineapple drone-53.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-54.jpg -> pineapple drone-54.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-55.jpg -> pineapple drone-55.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-56.jpg -> pineapple drone-56.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-57.jpg -> pineapple drone-57.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-58.jpg -> pineapple drone-58.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-59.jpg -> pineapple drone-59.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-60.jpg -> pineapple drone-60.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-61.jpg -> pineapple drone-61.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-62.jpg -> pineapple drone-62.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-63.jpg -> pineapple drone-63.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-64.jpg -> pineapple drone-64.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-65.jpg -> pineapple drone-65.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-66.jpg -> pineapple drone-66.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-67.jpg -> pineapple drone-67.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-68.jpg -> pineapple drone-68.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-69.jpg -> pineapple drone-69.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-70.jpg -> pineapple drone-70.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple drone-71.jpg -> pineapple drone-71.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-223.jpg -> bartender-223.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-224.jpg -> bartender-224.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-225.jpg -> bartender-225.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-226.jpg -> bartender-226.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-227.jpg -> bartender-227.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-228.jpg -> bartender-228.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-229.jpg -> bartender-229.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-230.jpg -> bartender-230.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-231.jpg -> bartender-231.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-232.jpg -> bartender-232.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-233.jpg -> bartender-233.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-234.jpg -> bartender-234.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-235.jpg -> bartender-235.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-290.jpg -> bartender-290.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-291.jpg -> bartender-291.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-292.jpg -> bartender-292.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-293.jpg -> bartender-293.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-294.jpg -> bartender-294.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-295.jpg -> bartender-295.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-296.jpg -> bartender-296.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-297.jpg -> bartender-297.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-298.jpg -> bartender-298.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-299.jpg -> bartender-299.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-300.jpg -> bartender-300.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-301.jpg -> bartender-301.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-302.jpg -> bartender-302.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-303.jpg -> bartender-303.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-304.jpg -> bartender-304.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-305.jpg -> bartender-305.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-306.jpg -> bartender-306.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-307.jpg -> bartender-307.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-308.jpg -> bartender-308.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-309.jpg -> bartender-309.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-310.jpg -> bartender-310.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-311.jpg -> bartender-311.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-10.jpg -> pineapple_-10.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-11.jpg -> pineapple_-11.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-12.jpg -> pineapple_-12.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-13.jpg -> pineapple_-13.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-14.jpg -> pineapple_-14.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-15.jpg -> pineapple_-15.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-16.jpg -> pineapple_-16.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-17.jpg -> pineapple_-17.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-18.jpg -> pineapple_-18.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-19.jpg -> pineapple_-19.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-2.jpg -> pineapple_-2.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-3.jpg -> pineapple_-3.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-4.jpg -> pineapple_-4.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-5.jpg -> pineapple_-5.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-6.jpg -> pineapple_-6.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-7.jpg -> pineapple_-7.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-8.jpg -> pineapple_-8.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-9.jpg -> pineapple_-9.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_.jpg -> pineapple_.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0922-2.jpg -> DJI_0922-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0922.jpg -> DJI_0922.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0923-2.jpg -> DJI_0923-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0923.jpg -> DJI_0923.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0924-2.jpg -> DJI_0924-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0924.jpg -> DJI_0924.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0925-2.jpg -> DJI_0925-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0925.jpg -> DJI_0925.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0926-2.jpg -> DJI_0926-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0926.jpg -> DJI_0926.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0927-2.jpg -> DJI_0927-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0927.jpg -> DJI_0927.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0928-2.jpg -> DJI_0928-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0928.jpg -> DJI_0928.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0929-2.jpg -> DJI_0929-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0929.jpg -> DJI_0929.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0931-2.jpg -> DJI_0931-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0931.jpg -> DJI_0931.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0932-2.jpg -> DJI_0932-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0932.jpg -> DJI_0932.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0933-2.jpg -> DJI_0933-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0933.jpg -> DJI_0933.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0934-2.jpg -> DJI_0934-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0934.jpg -> DJI_0934.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0935-2.jpg -> DJI_0935-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0935.jpg -> DJI_0935.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0936-2.jpg -> DJI_0936-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0936.jpg -> DJI_0936.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0937-2.jpg -> DJI_0937-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0937.jpg -> DJI_0937.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0938-2.jpg -> DJI_0938-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0938.jpg -> DJI_0938.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0939-2.jpg -> DJI_0939-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0939.jpg -> DJI_0939.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0940-2.jpg -> DJI_0940-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0940.jpg -> DJI_0940.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0941-2.jpg -> DJI_0941-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0941.jpg -> DJI_0941.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0942-2.jpg -> DJI_0942-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0942.jpg -> DJI_0942.jpg
+- [JANITOR] Programmatically normalized asset file: 536 livestock rockwall-10.jpg -> 536 livestock rockwall-10.jpg
+- [JANITOR] Programmatically normalized asset file: 536 livestock rockwall-11.jpg -> 536 livestock rockwall-11.jpg
+- [JANITOR] Programmatically normalized asset file: 536 livestock rockwall-12.jpg -> 536 livestock rockwall-12.jpg
+- [JANITOR] Programmatically normalized asset file: 536 livestock rockwall-13.jpg -> 536 livestock rockwall-13.jpg
+- [JANITOR] Programmatically normalized asset file: 536 livestock rockwall-14.jpg -> 536 livestock rockwall-14.jpg
+- [JANITOR] Programmatically normalized asset file: 536 livestock rockwall-15.jpg -> 536 livestock rockwall-15.jpg
+- [JANITOR] Programmatically normalized asset file: 536 livestock rockwall-16.jpg -> 536 livestock rockwall-16.jpg
+- [JANITOR] Programmatically normalized asset file: 536 livestock rockwall-17.jpg -> 536 livestock rockwall-17.jpg
+- [JANITOR] Programmatically normalized asset file: 536 livestock rockwall-18.jpg -> 536 livestock rockwall-18.jpg
+- [JANITOR] Programmatically normalized asset file: 536 livestock rockwall-19.jpg -> 536 livestock rockwall-19.jpg
+- [JANITOR] Programmatically normalized asset file: 536 livestock rockwall-2.jpg -> 536 livestock rockwall-2.jpg
+- [JANITOR] Programmatically normalized asset file: 536 livestock rockwall-20.jpg -> 536 livestock rockwall-20.jpg
+- [JANITOR] Programmatically normalized asset file: 536 livestock rockwall-21.jpg -> 536 livestock rockwall-21.jpg
+- [JANITOR] Programmatically normalized asset file: 536 livestock rockwall-22.jpg -> 536 livestock rockwall-22.jpg
+- [JANITOR] Programmatically normalized asset file: 536 livestock rockwall-23.jpg -> 536 livestock rockwall-23.jpg
+- [JANITOR] Programmatically normalized asset file: 536 livestock rockwall-24.jpg -> 536 livestock rockwall-24.jpg
+- [JANITOR] Programmatically normalized asset file: 536 livestock rockwall-25.jpg -> 536 livestock rockwall-25.jpg
+- [JANITOR] Programmatically normalized asset file: 536 livestock rockwall-26.jpg -> 536 livestock rockwall-26.jpg
+- [JANITOR] Programmatically normalized asset file: 536 livestock rockwall-27.jpg -> 536 livestock rockwall-27.jpg
+- [JANITOR] Programmatically normalized asset file: 536 livestock rockwall-28.jpg -> 536 livestock rockwall-28.jpg
+- [JANITOR] Programmatically normalized asset file: 536 livestock rockwall-29.jpg -> 536 livestock rockwall-29.jpg
+- [JANITOR] Programmatically normalized asset file: 536 livestock rockwall-3.jpg -> 536 livestock rockwall-3.jpg
+- [JANITOR] Programmatically normalized asset file: 536 livestock rockwall-30.jpg -> 536 livestock rockwall-30.jpg
+- [JANITOR] Programmatically normalized asset file: 536 livestock rockwall-31.jpg -> 536 livestock rockwall-31.jpg
+- [JANITOR] Programmatically normalized asset file: 536 livestock rockwall-32.jpg -> 536 livestock rockwall-32.jpg
+- [JANITOR] Programmatically normalized asset file: 536 livestock rockwall-33.jpg -> 536 livestock rockwall-33.jpg
+- [JANITOR] Programmatically normalized asset file: 536 livestock rockwall-34.jpg -> 536 livestock rockwall-34.jpg
+- [JANITOR] Programmatically normalized asset file: 536 livestock rockwall-35.jpg -> 536 livestock rockwall-35.jpg
+- [JANITOR] Programmatically normalized asset file: 536 livestock rockwall-36.jpg -> 536 livestock rockwall-36.jpg
+- [JANITOR] Programmatically normalized asset file: 536 livestock rockwall-37.jpg -> 536 livestock rockwall-37.jpg
+- [JANITOR] Programmatically normalized asset file: 536 livestock rockwall-4.jpg -> 536 livestock rockwall-4.jpg
+- [JANITOR] Programmatically normalized asset file: 536 livestock rockwall-5.jpg -> 536 livestock rockwall-5.jpg
+- [JANITOR] Programmatically normalized asset file: 536 livestock rockwall-6.jpg -> 536 livestock rockwall-6.jpg
+- [JANITOR] Programmatically normalized asset file: 536 livestock rockwall-7.jpg -> 536 livestock rockwall-7.jpg
+- [JANITOR] Programmatically normalized asset file: 536 livestock rockwall-8.jpg -> 536 livestock rockwall-8.jpg
+- [JANITOR] Programmatically normalized asset file: 536 livestock rockwall-9.jpg -> 536 livestock rockwall-9.jpg
+- [JANITOR] Programmatically normalized asset file: 536 livestock rockwall.jpg -> 536 livestock rockwall.jpg
+- [JANITOR] Programmatically normalized asset file: 581 kentucky lane-2.jpg -> 581 kentucky lane-2.jpg
+- [JANITOR] Programmatically normalized asset file: 581 kentucky lane-3.jpg -> 581 kentucky lane-3.jpg
+- [JANITOR] Programmatically normalized asset file: 581 kentucky lane-4.jpg -> 581 kentucky lane-4.jpg
+- [JANITOR] Programmatically normalized asset file: 581 kentucky lane-5.jpg -> 581 kentucky lane-5.jpg
+- [JANITOR] Programmatically normalized asset file: 581 kentucky lane-6.jpg -> 581 kentucky lane-6.jpg
+- [JANITOR] Programmatically normalized asset file: 581 kentucky lane.jpg -> 581 kentucky lane.jpg
+- [JANITOR] Programmatically normalized asset file: Roofing-10.jpg -> Roofing-10.jpg
+- [JANITOR] Programmatically normalized asset file: Roofing-11.jpg -> Roofing-11.jpg
+- [JANITOR] Programmatically normalized asset file: Roofing-12.jpg -> Roofing-12.jpg
+- [JANITOR] Programmatically normalized asset file: Roofing-13.jpg -> Roofing-13.jpg
+- [JANITOR] Programmatically normalized asset file: Roofing-14.jpg -> Roofing-14.jpg
+- [JANITOR] Programmatically normalized asset file: Roofing-15.jpg -> Roofing-15.jpg
+- [JANITOR] Programmatically normalized asset file: Roofing-16.jpg -> Roofing-16.jpg
+- [JANITOR] Programmatically normalized asset file: Roofing-17.jpg -> Roofing-17.jpg
+- [JANITOR] Programmatically normalized asset file: Roofing-18.jpg -> Roofing-18.jpg
+- [JANITOR] Programmatically normalized asset file: Roofing-19.jpg -> Roofing-19.jpg
+- [JANITOR] Programmatically normalized asset file: Roofing-2.jpg -> Roofing-2.jpg
+- [JANITOR] Programmatically normalized asset file: Roofing-20.jpg -> Roofing-20.jpg
+- [JANITOR] Programmatically normalized asset file: Roofing-3.jpg -> Roofing-3.jpg
+- [JANITOR] Programmatically normalized asset file: Roofing-4.jpg -> Roofing-4.jpg
+- [JANITOR] Programmatically normalized asset file: Roofing-5.jpg -> Roofing-5.jpg
+- [JANITOR] Programmatically normalized asset file: Roofing-6.jpg -> Roofing-6.jpg
+- [JANITOR] Programmatically normalized asset file: Roofing-7.jpg -> Roofing-7.jpg
+- [JANITOR] Programmatically normalized asset file: Roofing-8.jpg -> Roofing-8.jpg
+- [JANITOR] Programmatically normalized asset file: Roofing-9.jpg -> Roofing-9.jpg
+- [JANITOR] Programmatically normalized asset file: Roofing.jpg -> Roofing.jpg
+- [JANITOR] Programmatically normalized asset file: 6504 Dynamite dr, Mckinney-10.jpg -> 6504 Dynamite dr, Mckinney-10.jpg
+- [JANITOR] Programmatically normalized asset file: 6504 Dynamite dr, Mckinney-11.jpg -> 6504 Dynamite dr, Mckinney-11.jpg
+- [JANITOR] Programmatically normalized asset file: 6504 Dynamite dr, Mckinney-12.jpg -> 6504 Dynamite dr, Mckinney-12.jpg
+- [JANITOR] Programmatically normalized asset file: 6504 Dynamite dr, Mckinney-13.jpg -> 6504 Dynamite dr, Mckinney-13.jpg
+- [JANITOR] Programmatically normalized asset file: 6504 Dynamite dr, Mckinney-14.jpg -> 6504 Dynamite dr, Mckinney-14.jpg
+- [JANITOR] Programmatically normalized asset file: 6504 Dynamite dr, Mckinney-15.jpg -> 6504 Dynamite dr, Mckinney-15.jpg
+- [JANITOR] Programmatically normalized asset file: 6504 Dynamite dr, Mckinney-16.jpg -> 6504 Dynamite dr, Mckinney-16.jpg
+- [JANITOR] Programmatically normalized asset file: 6504 Dynamite dr, Mckinney-17.jpg -> 6504 Dynamite dr, Mckinney-17.jpg
+- [JANITOR] Programmatically normalized asset file: 6504 Dynamite dr, Mckinney-18.jpg -> 6504 Dynamite dr, Mckinney-18.jpg
+- [JANITOR] Programmatically normalized asset file: 6504 Dynamite dr, Mckinney-19.jpg -> 6504 Dynamite dr, Mckinney-19.jpg
+- [JANITOR] Programmatically normalized asset file: 6504 Dynamite dr, Mckinney-2.jpg -> 6504 Dynamite dr, Mckinney-2.jpg
+- [JANITOR] Programmatically normalized asset file: 6504 Dynamite dr, Mckinney-20.jpg -> 6504 Dynamite dr, Mckinney-20.jpg
+- [JANITOR] Programmatically normalized asset file: 6504 Dynamite dr, Mckinney-3.jpg -> 6504 Dynamite dr, Mckinney-3.jpg
+- [JANITOR] Programmatically normalized asset file: 6504 Dynamite dr, Mckinney-4.jpg -> 6504 Dynamite dr, Mckinney-4.jpg
+- [JANITOR] Programmatically normalized asset file: 6504 Dynamite dr, Mckinney-5.jpg -> 6504 Dynamite dr, Mckinney-5.jpg
+- [JANITOR] Programmatically normalized asset file: 6504 Dynamite dr, Mckinney-6.jpg -> 6504 Dynamite dr, Mckinney-6.jpg
+- [JANITOR] Programmatically normalized asset file: 6504 Dynamite dr, Mckinney-7.jpg -> 6504 Dynamite dr, Mckinney-7.jpg
+- [JANITOR] Programmatically normalized asset file: 6504 Dynamite dr, Mckinney-8.jpg -> 6504 Dynamite dr, Mckinney-8.jpg
+- [JANITOR] Programmatically normalized asset file: 6504 Dynamite dr, Mckinney-9.jpg -> 6504 Dynamite dr, Mckinney-9.jpg
+- [JANITOR] Programmatically normalized asset file: 6504 Dynamite dr, Mckinney.jpg -> 6504 Dynamite dr, Mckinney.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-10.jpg -> pineapple-10.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-11.jpg -> pineapple-11.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-12.jpg -> pineapple-12.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-13.jpg -> pineapple-13.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-14.jpg -> pineapple-14.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-15.jpg -> pineapple-15.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-16.jpg -> pineapple-16.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-17.jpg -> pineapple-17.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-18.jpg -> pineapple-18.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-19.jpg -> pineapple-19.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-2.jpg -> pineapple-2.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-20.jpg -> pineapple-20.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-21.jpg -> pineapple-21.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-22.jpg -> pineapple-22.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-23.jpg -> pineapple-23.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-24.jpg -> pineapple-24.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-25.jpg -> pineapple-25.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-3.jpg -> pineapple-3.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-4.jpg -> pineapple-4.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-5.jpg -> pineapple-5.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-6.jpg -> pineapple-6.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-7.jpg -> pineapple-7.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-8.jpg -> pineapple-8.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-9.jpg -> pineapple-9.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple.jpg -> pineapple.jpg
+- [JANITOR] Programmatically normalized asset file: Roofing-10.jpg -> Roofing-10.jpg
+- [JANITOR] Programmatically normalized asset file: Roofing-11.jpg -> Roofing-11.jpg
+- [JANITOR] Programmatically normalized asset file: Roofing-12.jpg -> Roofing-12.jpg
+- [JANITOR] Programmatically normalized asset file: Roofing-13.jpg -> Roofing-13.jpg
+- [JANITOR] Programmatically normalized asset file: Roofing-14.jpg -> Roofing-14.jpg
+- [JANITOR] Programmatically normalized asset file: Roofing-15.jpg -> Roofing-15.jpg
+- [JANITOR] Programmatically normalized asset file: Roofing-16.jpg -> Roofing-16.jpg
+- [JANITOR] Programmatically normalized asset file: Roofing-17.jpg -> Roofing-17.jpg
+- [JANITOR] Programmatically normalized asset file: Roofing-18.jpg -> Roofing-18.jpg
+- [JANITOR] Programmatically normalized asset file: Roofing-19.jpg -> Roofing-19.jpg
+- [JANITOR] Programmatically normalized asset file: Roofing-2.jpg -> Roofing-2.jpg
+- [JANITOR] Programmatically normalized asset file: Roofing-3.jpg -> Roofing-3.jpg
+- [JANITOR] Programmatically normalized asset file: Roofing-4.jpg -> Roofing-4.jpg
+- [JANITOR] Programmatically normalized asset file: Roofing-5.jpg -> Roofing-5.jpg
+- [JANITOR] Programmatically normalized asset file: Roofing-6.jpg -> Roofing-6.jpg
+- [JANITOR] Programmatically normalized asset file: Roofing-7.jpg -> Roofing-7.jpg
+- [JANITOR] Programmatically normalized asset file: Roofing-8.jpg -> Roofing-8.jpg
+- [JANITOR] Programmatically normalized asset file: Roofing-9.jpg -> Roofing-9.jpg
+- [JANITOR] Programmatically normalized asset file: Roofing.jpg -> Roofing.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0902-2.jpg -> DJI_0902-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0902.jpg -> DJI_0902.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0903-2.jpg -> DJI_0903-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0903.jpg -> DJI_0903.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0904-2.jpg -> DJI_0904-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0904.jpg -> DJI_0904.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0905-2.jpg -> DJI_0905-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0905.jpg -> DJI_0905.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0906-2.jpg -> DJI_0906-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0906.jpg -> DJI_0906.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0907-2.jpg -> DJI_0907-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0907.jpg -> DJI_0907.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0908-2.jpg -> DJI_0908-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0908.jpg -> DJI_0908.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0909-2.jpg -> DJI_0909-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0909.jpg -> DJI_0909.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0910-2.jpg -> DJI_0910-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0910.jpg -> DJI_0910.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0911-2.jpg -> DJI_0911-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0911.jpg -> DJI_0911.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0912-2.jpg -> DJI_0912-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0912.jpg -> DJI_0912.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0913-2.jpg -> DJI_0913-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0913.jpg -> DJI_0913.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0914-2.jpg -> DJI_0914-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0914.jpg -> DJI_0914.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0915-2.jpg -> DJI_0915-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0915.jpg -> DJI_0915.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0916-2.jpg -> DJI_0916-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0916.jpg -> DJI_0916.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0917-2.jpg -> DJI_0917-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0917.jpg -> DJI_0917.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0918-2.jpg -> DJI_0918-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0918.jpg -> DJI_0918.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0919-2.jpg -> DJI_0919-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0919.jpg -> DJI_0919.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0920-2.jpg -> DJI_0920-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0920.jpg -> DJI_0920.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0921-2.jpg -> DJI_0921-2.jpg
+- [JANITOR] Programmatically normalized asset file: DJI_0921.jpg -> DJI_0921.jpg
+- [JANITOR] Programmatically normalized asset file: Roofing-10.jpg -> Roofing-10.jpg
+- [JANITOR] Programmatically normalized asset file: Roofing-11.jpg -> Roofing-11.jpg
+- [JANITOR] Programmatically normalized asset file: Roofing-12.jpg -> Roofing-12.jpg
+- [JANITOR] Programmatically normalized asset file: Roofing-13.jpg -> Roofing-13.jpg
+- [JANITOR] Programmatically normalized asset file: Roofing-14.jpg -> Roofing-14.jpg
+- [JANITOR] Programmatically normalized asset file: Roofing-15.jpg -> Roofing-15.jpg
+- [JANITOR] Programmatically normalized asset file: Roofing-16.jpg -> Roofing-16.jpg
+- [JANITOR] Programmatically normalized asset file: Roofing-17.jpg -> Roofing-17.jpg
+- [JANITOR] Programmatically normalized asset file: Roofing-18.jpg -> Roofing-18.jpg
+- [JANITOR] Programmatically normalized asset file: Roofing-19.jpg -> Roofing-19.jpg
+- [JANITOR] Programmatically normalized asset file: Roofing-2.jpg -> Roofing-2.jpg
+- [JANITOR] Programmatically normalized asset file: Roofing-20.jpg -> Roofing-20.jpg
+- [JANITOR] Programmatically normalized asset file: Roofing-21.jpg -> Roofing-21.jpg
+- [JANITOR] Programmatically normalized asset file: Roofing-22.jpg -> Roofing-22.jpg
+- [JANITOR] Programmatically normalized asset file: Roofing-3.jpg -> Roofing-3.jpg
+- [JANITOR] Programmatically normalized asset file: Roofing-6.jpg -> Roofing-6.jpg
+- [JANITOR] Programmatically normalized asset file: 6504 Dynamite dr, Mckinney-12.jpg -> 6504 Dynamite dr, Mckinney-12.jpg
+- [JANITOR] Programmatically normalized asset file: 6504 Dynamite dr, Mckinney-13.jpg -> 6504 Dynamite dr, Mckinney-13.jpg
+- [JANITOR] Programmatically normalized asset file: 6504 Dynamite dr, Mckinney-14.jpg -> 6504 Dynamite dr, Mckinney-14.jpg
+- [JANITOR] Programmatically normalized asset file: 6504 Dynamite dr, Mckinney-15.jpg -> 6504 Dynamite dr, Mckinney-15.jpg
+- [JANITOR] Programmatically normalized asset file: 6504 Dynamite dr, Mckinney-16.jpg -> 6504 Dynamite dr, Mckinney-16.jpg
+- [JANITOR] Programmatically normalized asset file: 6504 Dynamite dr, Mckinney-17.jpg -> 6504 Dynamite dr, Mckinney-17.jpg
+- [JANITOR] Programmatically normalized asset file: 6504 Dynamite dr, Mckinney-18.jpg -> 6504 Dynamite dr, Mckinney-18.jpg
+- [JANITOR] Programmatically normalized asset file: 6504 Dynamite dr, Mckinney-19.jpg -> 6504 Dynamite dr, Mckinney-19.jpg
+- [JANITOR] Programmatically normalized asset file: 6504 Dynamite dr, Mckinney-2.jpg -> 6504 Dynamite dr, Mckinney-2.jpg
+- [JANITOR] Programmatically normalized asset file: 6504 Dynamite dr, Mckinney-20.jpg -> 6504 Dynamite dr, Mckinney-20.jpg
+- [JANITOR] Programmatically normalized asset file: 6504 Dynamite dr, Mckinney-21.jpg -> 6504 Dynamite dr, Mckinney-21.jpg
+- [JANITOR] Programmatically normalized asset file: 6504 Dynamite dr, Mckinney-22.jpg -> 6504 Dynamite dr, Mckinney-22.jpg
+- [JANITOR] Programmatically normalized asset file: 6504 Dynamite dr, Mckinney-23.jpg -> 6504 Dynamite dr, Mckinney-23.jpg
+- [JANITOR] Programmatically normalized asset file: 6504 Dynamite dr, Mckinney-24.jpg -> 6504 Dynamite dr, Mckinney-24.jpg
+- [JANITOR] Programmatically normalized asset file: 6504 Dynamite dr, Mckinney-3.jpg -> 6504 Dynamite dr, Mckinney-3.jpg
+- [JANITOR] Programmatically normalized asset file: 6504 Dynamite dr, Mckinney-4.jpg -> 6504 Dynamite dr, Mckinney-4.jpg
+- [JANITOR] Programmatically normalized asset file: 6504 Dynamite dr, Mckinney-5.jpg -> 6504 Dynamite dr, Mckinney-5.jpg
+- [JANITOR] Programmatically normalized asset file: 6504 Dynamite dr, Mckinney-6.jpg -> 6504 Dynamite dr, Mckinney-6.jpg
+- [JANITOR] Programmatically normalized asset file: 6504 Dynamite dr, Mckinney-7.jpg -> 6504 Dynamite dr, Mckinney-7.jpg
+- [JANITOR] Programmatically normalized asset file: 6504 Dynamite dr, Mckinney-8.jpg -> 6504 Dynamite dr, Mckinney-8.jpg
+- [JANITOR] Programmatically normalized asset file: 6504 Dynamite dr, Mckinney-9.jpg -> 6504 Dynamite dr, Mckinney-9.jpg
+- [JANITOR] Programmatically normalized asset file: 6504 Dynamite dr, Mckinney.jpg -> 6504 Dynamite dr, Mckinney.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-271.jpg -> bartender-271.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-272.jpg -> bartender-272.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-273.jpg -> bartender-273.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-274.jpg -> bartender-274.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-275.jpg -> bartender-275.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-276.jpg -> bartender-276.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-279.jpg -> bartender-279.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-280.jpg -> bartender-280.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-281.jpg -> bartender-281.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-282.jpg -> bartender-282.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-283.jpg -> bartender-283.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-284.jpg -> bartender-284.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-285.jpg -> bartender-285.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-286.jpg -> bartender-286.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-287.jpg -> bartender-287.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-288.jpg -> bartender-288.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-289.jpg -> bartender-289.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-83.jpg -> pineapple-83.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-84.jpg -> pineapple-84.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-85.jpg -> pineapple-85.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-86.jpg -> pineapple-86.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-87.jpg -> pineapple-87.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-88.jpg -> pineapple-88.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-89.jpg -> pineapple-89.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-90.jpg -> pineapple-90.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-91.jpg -> pineapple-91.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-92.jpg -> pineapple-92.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-93.jpg -> pineapple-93.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-94.jpg -> pineapple-94.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-95.jpg -> pineapple-95.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-96.jpg -> pineapple-96.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-97.jpg -> pineapple-97.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-98.jpg -> pineapple-98.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-99.jpg -> pineapple-99.jpg
+- [JANITOR] Programmatically normalized asset file: 8814 golden pong-2.jpg -> 8814 golden pong-2.jpg
+- [JANITOR] Programmatically normalized asset file: 8814 golden pong-3.jpg -> 8814 golden pong-3.jpg
+- [JANITOR] Programmatically normalized asset file: 8814 golden pong-4.jpg -> 8814 golden pong-4.jpg
+- [JANITOR] Programmatically normalized asset file: 8814 golden pong-5.jpg -> 8814 golden pong-5.jpg
+- [JANITOR] Programmatically normalized asset file: 8814 golden pong-6.jpg -> 8814 golden pong-6.jpg
+- [JANITOR] Programmatically normalized asset file: 8814 golden pong-7.jpg -> 8814 golden pong-7.jpg
+- [JANITOR] Programmatically normalized asset file: 8814 golden pong-8.jpg -> 8814 golden pong-8.jpg
+- [JANITOR] Programmatically normalized asset file: 8814 golden pong-9.jpg -> 8814 golden pong-9.jpg
+- [JANITOR] Programmatically normalized asset file: 8814 golden pong.jpg -> 8814 golden pong.jpg
+- [JANITOR] Programmatically normalized asset file: IMG_1492.JPG -> IMG_1492.JPG
+- [JANITOR] Programmatically normalized asset file: IMG_1493.JPG -> IMG_1493.JPG
+- [JANITOR] Programmatically normalized asset file: IMG_1495.JPG -> IMG_1495.JPG
+- [JANITOR] Programmatically normalized asset file: IMG_1496.JPG -> IMG_1496.JPG
+- [JANITOR] Programmatically normalized asset file: IMG_1497.JPG -> IMG_1497.JPG
+- [JANITOR] Programmatically normalized asset file: Ohio Commercial-10.jpg -> Ohio Commercial-10.jpg
+- [JANITOR] Programmatically normalized asset file: Ohio Commercial-11.jpg -> Ohio Commercial-11.jpg
+- [JANITOR] Programmatically normalized asset file: Ohio Commercial-12.jpg -> Ohio Commercial-12.jpg
+- [JANITOR] Programmatically normalized asset file: Ohio Commercial-13.jpg -> Ohio Commercial-13.jpg
+- [JANITOR] Programmatically normalized asset file: Ohio Commercial-14.jpg -> Ohio Commercial-14.jpg
+- [JANITOR] Programmatically normalized asset file: Ohio Commercial-15.jpg -> Ohio Commercial-15.jpg
+- [JANITOR] Programmatically normalized asset file: Ohio Commercial-16.jpg -> Ohio Commercial-16.jpg
+- [JANITOR] Programmatically normalized asset file: Ohio Commercial-17.jpg -> Ohio Commercial-17.jpg
+- [JANITOR] Programmatically normalized asset file: Ohio Commercial-18.jpg -> Ohio Commercial-18.jpg
+- [JANITOR] Programmatically normalized asset file: Ohio Commercial-19.jpg -> Ohio Commercial-19.jpg
+- [JANITOR] Programmatically normalized asset file: Ohio Commercial-2.jpg -> Ohio Commercial-2.jpg
+- [JANITOR] Programmatically normalized asset file: Ohio Commercial-20.jpg -> Ohio Commercial-20.jpg
+- [JANITOR] Programmatically normalized asset file: Ohio Commercial-21.jpg -> Ohio Commercial-21.jpg
+- [JANITOR] Programmatically normalized asset file: Ohio Commercial-22.jpg -> Ohio Commercial-22.jpg
+- [JANITOR] Programmatically normalized asset file: Ohio Commercial-23.jpg -> Ohio Commercial-23.jpg
+- [JANITOR] Programmatically normalized asset file: Ohio Commercial-24.jpg -> Ohio Commercial-24.jpg
+- [JANITOR] Programmatically normalized asset file: Ohio Commercial-25.jpg -> Ohio Commercial-25.jpg
+- [JANITOR] Programmatically normalized asset file: Ohio Commercial-26.jpg -> Ohio Commercial-26.jpg
+- [JANITOR] Programmatically normalized asset file: Ohio Commercial-27.jpg -> Ohio Commercial-27.jpg
+- [JANITOR] Programmatically normalized asset file: Ohio Commercial-28.jpg -> Ohio Commercial-28.jpg
+- [JANITOR] Programmatically normalized asset file: Ohio Commercial-3.jpg -> Ohio Commercial-3.jpg
+- [JANITOR] Programmatically normalized asset file: Ohio Commercial-4.jpg -> Ohio Commercial-4.jpg
+- [JANITOR] Programmatically normalized asset file: Ohio Commercial-5.jpg -> Ohio Commercial-5.jpg
+- [JANITOR] Programmatically normalized asset file: Ohio Commercial-6.jpg -> Ohio Commercial-6.jpg
+- [JANITOR] Programmatically normalized asset file: Ohio Commercial-7.jpg -> Ohio Commercial-7.jpg
+- [JANITOR] Programmatically normalized asset file: Ohio Commercial-8.jpg -> Ohio Commercial-8.jpg
+- [JANITOR] Programmatically normalized asset file: Ohio Commercial-9.jpg -> Ohio Commercial-9.jpg
+- [JANITOR] Programmatically normalized asset file: Ohio Commercial.jpg -> Ohio Commercial.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-154.jpg -> bartender-154.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-155.jpg -> bartender-155.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-156.jpg -> bartender-156.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-157.jpg -> bartender-157.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-158.jpg -> bartender-158.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-159.jpg -> bartender-159.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-160.jpg -> bartender-160.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-161.jpg -> bartender-161.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-162.jpg -> bartender-162.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-163.jpg -> bartender-163.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-164.jpg -> bartender-164.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-165.jpg -> bartender-165.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-166.jpg -> bartender-166.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-167.jpg -> bartender-167.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-168.jpg -> bartender-168.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-169.jpg -> bartender-169.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-170.jpg -> bartender-170.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-171.jpg -> bartender-171.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-172.jpg -> bartender-172.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-173.jpg -> bartender-173.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-174.jpg -> bartender-174.jpg
+- [JANITOR] Programmatically normalized asset file: bartender-175.jpg -> bartender-175.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-13.jpg -> pineapple-13.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-14.jpg -> pineapple-14.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-15.jpg -> pineapple-15.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-16.jpg -> pineapple-16.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-17.jpg -> pineapple-17.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-18.jpg -> pineapple-18.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-19.jpg -> pineapple-19.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-20.jpg -> pineapple-20.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-21.jpg -> pineapple-21.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple-22.jpg -> pineapple-22.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-470.jpg -> pineapple 4-8-470.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-471.jpg -> pineapple 4-8-471.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-472.jpg -> pineapple 4-8-472.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-473.jpg -> pineapple 4-8-473.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-474.jpg -> pineapple 4-8-474.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-475.jpg -> pineapple 4-8-475.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-476.jpg -> pineapple 4-8-476.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-477.jpg -> pineapple 4-8-477.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-478.jpg -> pineapple 4-8-478.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-479.jpg -> pineapple 4-8-479.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-480.jpg -> pineapple 4-8-480.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-481.jpg -> pineapple 4-8-481.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-482.jpg -> pineapple 4-8-482.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-483.jpg -> pineapple 4-8-483.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-484.jpg -> pineapple 4-8-484.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-493.jpg -> pineapple 4-8-493.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-494.jpg -> pineapple 4-8-494.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-495.jpg -> pineapple 4-8-495.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-496.jpg -> pineapple 4-8-496.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-497.jpg -> pineapple 4-8-497.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-498.jpg -> pineapple 4-8-498.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-499.jpg -> pineapple 4-8-499.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-500.jpg -> pineapple 4-8-500.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-501.jpg -> pineapple 4-8-501.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-502.jpg -> pineapple 4-8-502.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-503.jpg -> pineapple 4-8-503.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple 4-8-504.jpg -> pineapple 4-8-504.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-10.jpg -> pineapple_-10.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-11.jpg -> pineapple_-11.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-12.jpg -> pineapple_-12.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-13.jpg -> pineapple_-13.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-14.jpg -> pineapple_-14.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-15.jpg -> pineapple_-15.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-16.jpg -> pineapple_-16.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-17.jpg -> pineapple_-17.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-18.jpg -> pineapple_-18.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-19.jpg -> pineapple_-19.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-2.jpg -> pineapple_-2.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-20.jpg -> pineapple_-20.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-21.jpg -> pineapple_-21.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-22.jpg -> pineapple_-22.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-3.jpg -> pineapple_-3.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-4.jpg -> pineapple_-4.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-5.jpg -> pineapple_-5.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-6.jpg -> pineapple_-6.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-7.jpg -> pineapple_-7.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-8.jpg -> pineapple_-8.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_-9.jpg -> pineapple_-9.jpg
+- [JANITOR] Programmatically normalized asset file: pineapple_.jpg -> pineapple_.jpg
+- [JANITOR] Programmatically normalized asset file: 1003 Remington Park Dr Fairview, TX, United States_-10.jpg -> 1003 Remington Park Dr Fairview, TX, United States_-10.jpg
+- [JANITOR] Programmatically normalized asset file: 1003 Remington Park Dr Fairview, TX, United States_-11.jpg -> 1003 Remington Park Dr Fairview, TX, United States_-11.jpg
+- [JANITOR] Programmatically normalized asset file: 1003 Remington Park Dr Fairview, TX, United States_-12.jpg -> 1003 Remington Park Dr Fairview, TX, United States_-12.jpg
+- [JANITOR] Programmatically normalized asset file: 1003 Remington Park Dr Fairview, TX, United States_-13.jpg -> 1003 Remington Park Dr Fairview, TX, United States_-13.jpg
+- [JANITOR] Programmatically normalized asset file: 1003 Remington Park Dr Fairview, TX, United States_-14.jpg -> 1003 Remington Park Dr Fairview, TX, United States_-14.jpg
+- [JANITOR] Programmatically normalized asset file: 1003 Remington Park Dr Fairview, TX, United States_-15.jpg -> 1003 Remington Park Dr Fairview, TX, United States_-15.jpg
+- [JANITOR] Programmatically normalized asset file: 1003 Remington Park Dr Fairview, TX, United States_-16.jpg -> 1003 Remington Park Dr Fairview, TX, United States_-16.jpg
+- [JANITOR] Programmatically normalized asset file: 1003 Remington Park Dr Fairview, TX, United States_-5.jpg -> 1003 Remington Park Dr Fairview, TX, United States_-5.jpg
+- [JANITOR] Programmatically normalized asset file: 1003 Remington Park Dr Fairview, TX, United States_-6.jpg -> 1003 Remington Park Dr Fairview, TX, United States_-6.jpg
+- [JANITOR] Programmatically normalized asset file: 1003 Remington Park Dr Fairview, TX, United States_-7.jpg -> 1003 Remington Park Dr Fairview, TX, United States_-7.jpg
+- [JANITOR] Programmatically normalized asset file: 1003 Remington Park Dr Fairview, TX, United States_-8.jpg -> 1003 Remington Park Dr Fairview, TX, United States_-8.jpg
+- [JANITOR] Programmatically normalized asset file: 1003 Remington Park Dr Fairview, TX, United States_-9.jpg -> 1003 Remington Park Dr Fairview, TX, United States_-9.jpg
+- [JANITOR] Programmatically normalized asset file: 1003 Remington Park Dr Fairview, TX, United States_.jpg -> 1003 Remington Park Dr Fairview, TX, United States_.jpg
+- [JANITOR] Programmatically normalized asset file: 1308 Ponca St Carrollton, TX, United States-10.jpg -> 1308 Ponca St Carrollton, TX, United States-10.jpg
+- [JANITOR] Programmatically normalized asset file: 1308 Ponca St Carrollton, TX, United States-11.jpg -> 1308 Ponca St Carrollton, TX, United States-11.jpg
+- [JANITOR] Programmatically normalized asset file: 1308 Ponca St Carrollton, TX, United States-12.jpg -> 1308 Ponca St Carrollton, TX, United States-12.jpg
+- [JANITOR] Programmatically normalized asset file: 1308 Ponca St Carrollton, TX, United States-13.jpg -> 1308 Ponca St Carrollton, TX, United States-13.jpg
+- [JANITOR] Programmatically normalized asset file: 1308 Ponca St Carrollton, TX, United States-2.jpg -> 1308 Ponca St Carrollton, TX, United States-2.jpg
+- [JANITOR] Programmatically normalized asset file: 1308 Ponca St Carrollton, TX, United States-3.jpg -> 1308 Ponca St Carrollton, TX, United States-3.jpg
+- [JANITOR] Programmatically normalized asset file: 1308 Ponca St Carrollton, TX, United States-4.jpg -> 1308 Ponca St Carrollton, TX, United States-4.jpg
+- [JANITOR] Programmatically normalized asset file: 1308 Ponca St Carrollton, TX, United States-5.jpg -> 1308 Ponca St Carrollton, TX, United States-5.jpg
+- [JANITOR] Programmatically normalized asset file: 1308 Ponca St Carrollton, TX, United States-6.jpg -> 1308 Ponca St Carrollton, TX, United States-6.jpg
+- [JANITOR] Programmatically normalized asset file: 1308 Ponca St Carrollton, TX, United States-7.jpg -> 1308 Ponca St Carrollton, TX, United States-7.jpg
+- [JANITOR] Programmatically normalized asset file: 1308 Ponca St Carrollton, TX, United States-8.jpg -> 1308 Ponca St Carrollton, TX, United States-8.jpg
+- [JANITOR] Programmatically normalized asset file: 1308 Ponca St Carrollton, TX, United States-9.jpg -> 1308 Ponca St Carrollton, TX, United States-9.jpg
+- [JANITOR] Programmatically normalized asset file: 1308 Ponca St Carrollton, TX, United States.jpg -> 1308 Ponca St Carrollton, TX, United States.jpg
+- [JANITOR] Programmatically normalized asset file: 1308 Ponca St Carrollton, TX, United States-10.jpg -> 1308 Ponca St Carrollton, TX, United States-10.jpg
+- [JANITOR] Programmatically normalized asset file: 1308 Ponca St Carrollton, TX, United States-11.jpg -> 1308 Ponca St Carrollton, TX, United States-11.jpg
+- [JANITOR] Programmatically normalized asset file: 1308 Ponca St Carrollton, TX, United States-12.jpg -> 1308 Ponca St Carrollton, TX, United States-12.jpg
+- [JANITOR] Programmatically normalized asset file: 1308 Ponca St Carrollton, TX, United States-13.jpg -> 1308 Ponca St Carrollton, TX, United States-13.jpg
+- [JANITOR] Programmatically normalized asset file: 1308 Ponca St Carrollton, TX, United States-14.jpg -> 1308 Ponca St Carrollton, TX, United States-14.jpg
+- [JANITOR] Programmatically normalized asset file: 1308 Ponca St Carrollton, TX, United States-15.jpg -> 1308 Ponca St Carrollton, TX, United States-15.jpg
+- [JANITOR] Programmatically normalized asset file: 1308 Ponca St Carrollton, TX, United States-16.jpg -> 1308 Ponca St Carrollton, TX, United States-16.jpg
+- [JANITOR] Programmatically normalized asset file: 1308 Ponca St Carrollton, TX, United States-17.jpg -> 1308 Ponca St Carrollton, TX, United States-17.jpg
+- [JANITOR] Programmatically normalized asset file: 1308 Ponca St Carrollton, TX, United States-18.jpg -> 1308 Ponca St Carrollton, TX, United States-18.jpg
+- [JANITOR] Programmatically normalized asset file: 1308 Ponca St Carrollton, TX, United States-2.jpg -> 1308 Ponca St Carrollton, TX, United States-2.jpg
+- [JANITOR] Programmatically normalized asset file: 1308 Ponca St Carrollton, TX, United States-3.jpg -> 1308 Ponca St Carrollton, TX, United States-3.jpg
+- [JANITOR] Programmatically normalized asset file: 1308 Ponca St Carrollton, TX, United States-4.jpg -> 1308 Ponca St Carrollton, TX, United States-4.jpg
+- [JANITOR] Programmatically normalized asset file: 1308 Ponca St Carrollton, TX, United States-5.jpg -> 1308 Ponca St Carrollton, TX, United States-5.jpg
+- [JANITOR] Programmatically normalized asset file: 1308 Ponca St Carrollton, TX, United States-6.jpg -> 1308 Ponca St Carrollton, TX, United States-6.jpg
+- [JANITOR] Programmatically normalized asset file: 1308 Ponca St Carrollton, TX, United States-7.jpg -> 1308 Ponca St Carrollton, TX, United States-7.jpg
+- [JANITOR] Programmatically normalized asset file: 1308 Ponca St Carrollton, TX, United States-8.jpg -> 1308 Ponca St Carrollton, TX, United States-8.jpg
+- [JANITOR] Programmatically normalized asset file: 1308 Ponca St Carrollton, TX, United States-9.jpg -> 1308 Ponca St Carrollton, TX, United States-9.jpg
+- [JANITOR] Programmatically normalized asset file: 1308 Ponca St Carrollton, TX, United States.jpg -> 1308 Ponca St Carrollton, TX, United States.jpg
+- [JANITOR] Programmatically normalized asset file: 3821 Lands End St-10.jpg -> 3821 Lands End St-10.jpg
+- [JANITOR] Programmatically normalized asset file: 3821 Lands End St-11.jpg -> 3821 Lands End St-11.jpg
+- [JANITOR] Programmatically normalized asset file: 3821 Lands End St-12.jpg -> 3821 Lands End St-12.jpg
+- [JANITOR] Programmatically normalized asset file: 3821 Lands End St-13.jpg -> 3821 Lands End St-13.jpg
+- [JANITOR] Programmatically normalized asset file: 3821 Lands End St-14.jpg -> 3821 Lands End St-14.jpg
+- [JANITOR] Programmatically normalized asset file: 3821 Lands End St-15.jpg -> 3821 Lands End St-15.jpg
+- [JANITOR] Programmatically normalized asset file: 3821 Lands End St-16.jpg -> 3821 Lands End St-16.jpg
+- [JANITOR] Programmatically normalized asset file: 3821 Lands End St-17.jpg -> 3821 Lands End St-17.jpg
+- [JANITOR] Programmatically normalized asset file: 3821 Lands End St-2.jpg -> 3821 Lands End St-2.jpg
+- [JANITOR] Programmatically normalized asset file: 3821 Lands End St-3.jpg -> 3821 Lands End St-3.jpg
+- [JANITOR] Programmatically normalized asset file: 3821 Lands End St-4.jpg -> 3821 Lands End St-4.jpg
+- [JANITOR] Programmatically normalized asset file: 3821 Lands End St-5.jpg -> 3821 Lands End St-5.jpg
+- [JANITOR] Programmatically normalized asset file: 3821 Lands End St-6.jpg -> 3821 Lands End St-6.jpg
+- [JANITOR] Programmatically normalized asset file: 3821 Lands End St-7.jpg -> 3821 Lands End St-7.jpg
+- [JANITOR] Programmatically normalized asset file: 3821 Lands End St-8.jpg -> 3821 Lands End St-8.jpg
+- [JANITOR] Programmatically normalized asset file: 3821 Lands End St-9.jpg -> 3821 Lands End St-9.jpg
+- [JANITOR] Programmatically normalized asset file: 3821 Lands End St.jpg -> 3821 Lands End St.jpg
+- [JANITOR] Programmatically normalized asset file: 9008 Webb Kay Dr-2.jpg -> 9008 Webb Kay Dr-2.jpg
+- [JANITOR] Programmatically normalized asset file: 9008 Webb Kay Dr-3.jpg -> 9008 Webb Kay Dr-3.jpg
+- [JANITOR] Programmatically normalized asset file: 9008 Webb Kay Dr-4.jpg -> 9008 Webb Kay Dr-4.jpg
+- [JANITOR] Programmatically normalized asset file: 9008 Webb Kay Dr-5.jpg -> 9008 Webb Kay Dr-5.jpg
+- [JANITOR] Programmatically normalized asset file: 9008 Webb Kay Dr-6.jpg -> 9008 Webb Kay Dr-6.jpg
+- [JANITOR] Programmatically normalized asset file: 9008 Webb Kay Dr-7.jpg -> 9008 Webb Kay Dr-7.jpg
+- [JANITOR] Programmatically normalized asset file: 9008 Webb Kay Dr-8.jpg -> 9008 Webb Kay Dr-8.jpg
+- [JANITOR] Programmatically normalized asset file: 9008 Webb Kay Dr-9.jpg -> 9008 Webb Kay Dr-9.jpg
+- [JANITOR] Programmatically normalized asset file: 9008 Webb Kay Dr.jpg -> 9008 Webb Kay Dr.jpg
+- [JANITOR] Programmatically normalized asset file: 1000 Remington Park Dr-10.jpg -> 1000 Remington Park Dr-10.jpg
+- [JANITOR] Programmatically normalized asset file: 1000 Remington Park Dr-11.jpg -> 1000 Remington Park Dr-11.jpg
+- [JANITOR] Programmatically normalized asset file: 1000 Remington Park Dr-2.jpg -> 1000 Remington Park Dr-2.jpg
+- [JANITOR] Programmatically normalized asset file: 1000 Remington Park Dr-3.jpg -> 1000 Remington Park Dr-3.jpg
+- [JANITOR] Programmatically normalized asset file: 1000 Remington Park Dr-4.jpg -> 1000 Remington Park Dr-4.jpg
+- [JANITOR] Programmatically normalized asset file: 1000 Remington Park Dr-5.jpg -> 1000 Remington Park Dr-5.jpg
+- [JANITOR] Programmatically normalized asset file: 1000 Remington Park Dr-6.jpg -> 1000 Remington Park Dr-6.jpg
+- [JANITOR] Programmatically normalized asset file: 1000 Remington Park Dr-7.jpg -> 1000 Remington Park Dr-7.jpg
+- [JANITOR] Programmatically normalized asset file: 1000 Remington Park Dr-8.jpg -> 1000 Remington Park Dr-8.jpg
+- [JANITOR] Programmatically normalized asset file: 1000 Remington Park Dr-9.jpg -> 1000 Remington Park Dr-9.jpg
+- [JANITOR] Programmatically normalized asset file: 1000 Remington Park Dr.jpg -> 1000 Remington Park Dr.jpg
+- [JANITOR] Programmatically normalized asset file: 1006 Wind Ridge Dr-01.jpg -> 1006 Wind Ridge Dr-01.jpg
+- [JANITOR] Programmatically normalized asset file: 1006 Wind Ridge Dr-02.jpg -> 1006 Wind Ridge Dr-02.jpg
+- [JANITOR] Programmatically normalized asset file: 1006 Wind Ridge Dr-03.jpg -> 1006 Wind Ridge Dr-03.jpg
+- [JANITOR] Programmatically normalized asset file: 1006 Wind Ridge Dr-04.jpg -> 1006 Wind Ridge Dr-04.jpg
+- [JANITOR] Programmatically normalized asset file: 1006 Wind Ridge Dr-05.jpg -> 1006 Wind Ridge Dr-05.jpg
+- [JANITOR] Programmatically normalized asset file: 1006 Wind Ridge Dr-06.jpg -> 1006 Wind Ridge Dr-06.jpg
+- [JANITOR] Programmatically normalized asset file: 1006 Wind Ridge Dr-07.jpg -> 1006 Wind Ridge Dr-07.jpg
+- [JANITOR] Programmatically normalized asset file: 1006 Wind Ridge Dr-08.jpg -> 1006 Wind Ridge Dr-08.jpg
+- [JANITOR] Programmatically normalized asset file: 1006 Wind Ridge Dr-09.jpg -> 1006 Wind Ridge Dr-09.jpg
+- [JANITOR] Programmatically normalized asset file: 1006 Wind Ridge Dr-10.jpg -> 1006 Wind Ridge Dr-10.jpg
+- [JANITOR] Programmatically normalized asset file: 1006 Wind Ridge Dr-11.jpg -> 1006 Wind Ridge Dr-11.jpg
+- [JANITOR] Programmatically normalized asset file: 1006 Wind Ridge Dr-12.jpg -> 1006 Wind Ridge Dr-12.jpg
+- [JANITOR] Programmatically normalized asset file: 1006 Wind Ridge Dr-13.jpg -> 1006 Wind Ridge Dr-13.jpg
+- [JANITOR] Programmatically normalized asset file: 1006 Wind Ridge Dr-14.jpg -> 1006 Wind Ridge Dr-14.jpg
+- [JANITOR] Programmatically normalized asset file: 1006 Wind Ridge Dr-15.jpg -> 1006 Wind Ridge Dr-15.jpg
+- [JANITOR] Programmatically normalized asset file: 1006 Wind Ridge Dr-16.jpg -> 1006 Wind Ridge Dr-16.jpg
+- [JANITOR] Programmatically normalized asset file: 1006 Wind Ridge Dr-17.jpg -> 1006 Wind Ridge Dr-17.jpg
+- [JANITOR] Programmatically normalized asset file: 1006 Wind Ridge Dr-18.jpg -> 1006 Wind Ridge Dr-18.jpg
+- [JANITOR] Programmatically normalized asset file: 1006 Wind Ridge Dr-19.jpg -> 1006 Wind Ridge Dr-19.jpg
+- [JANITOR] Programmatically normalized asset file: 1006 Wind Ridge Dr-20.jpg -> 1006 Wind Ridge Dr-20.jpg
+- [JANITOR] Programmatically normalized asset file: 1006 Wind Ridge Dr-21.jpg -> 1006 Wind Ridge Dr-21.jpg
+- [JANITOR] Programmatically normalized asset file: 1006 Wind Ridge Dr-22.jpg -> 1006 Wind Ridge Dr-22.jpg
+- [JANITOR] Programmatically normalized asset file: pic-01.jpg -> pic-01.jpg
+- [JANITOR] Programmatically normalized asset file: pic-02.jpg -> pic-02.jpg
+- [JANITOR] Programmatically normalized asset file: pic-03.jpg -> pic-03.jpg
+- [JANITOR] Programmatically normalized asset file: pic-04.jpg -> pic-04.jpg
+- [JANITOR] Programmatically normalized asset file: pic-05.jpg -> pic-05.jpg
+- [JANITOR] Programmatically normalized asset file: pic-06.jpg -> pic-06.jpg
+- [JANITOR] Programmatically normalized asset file: pic-07.jpg -> pic-07.jpg
+- [JANITOR] Programmatically normalized asset file: pic-08.jpg -> pic-08.jpg
+- [JANITOR] Programmatically normalized asset file: pic-09.jpg -> pic-09.jpg
+- [JANITOR] Programmatically normalized asset file: pic-10.jpg -> pic-10.jpg
+- [JANITOR] Programmatically normalized asset file: pic-11.jpg -> pic-11.jpg
+- [JANITOR] Programmatically normalized asset file: pic-12.jpg -> pic-12.jpg
+- [JANITOR] Programmatically normalized asset file: pic-13.jpg -> pic-13.jpg
+- [JANITOR] Programmatically normalized asset file: pic-14.jpg -> pic-14.jpg
+- [JANITOR] Programmatically normalized asset file: pic-15.jpg -> pic-15.jpg
+- [JANITOR] Programmatically normalized asset file: pic-16.jpg -> pic-16.jpg
+- [JANITOR] Programmatically normalized asset file: pic-17.jpg -> pic-17.jpg
+- [JANITOR] Programmatically normalized asset file: pic-18.jpg -> pic-18.jpg
+- [JANITOR] Programmatically normalized asset file: pic-19.jpg -> pic-19.jpg
+- [JANITOR] Programmatically normalized asset file: pic-20.jpg -> pic-20.jpg
+- [JANITOR] Programmatically normalized asset file: 113 E Cloudcrfot Dr-10.jpg -> 113 E Cloudcrfot Dr-10.jpg
+- [JANITOR] Programmatically normalized asset file: 113 E Cloudcrfot Dr-11.jpg -> 113 E Cloudcrfot Dr-11.jpg
+- [JANITOR] Programmatically normalized asset file: 113 E Cloudcrfot Dr-12.jpg -> 113 E Cloudcrfot Dr-12.jpg
+- [JANITOR] Programmatically normalized asset file: 113 E Cloudcrfot Dr-13.jpg -> 113 E Cloudcrfot Dr-13.jpg
+- [JANITOR] Programmatically normalized asset file: 113 E Cloudcrfot Dr-14.jpg -> 113 E Cloudcrfot Dr-14.jpg
+- [JANITOR] Programmatically normalized asset file: 113 E Cloudcrfot Dr-15.jpg -> 113 E Cloudcrfot Dr-15.jpg
+- [JANITOR] Programmatically normalized asset file: 113 E Cloudcrfot Dr-16.jpg -> 113 E Cloudcrfot Dr-16.jpg
+- [JANITOR] Programmatically normalized asset file: 113 E Cloudcrfot Dr-17.jpg -> 113 E Cloudcrfot Dr-17.jpg
+- [JANITOR] Programmatically normalized asset file: 113 E Cloudcrfot Dr-18.jpg -> 113 E Cloudcrfot Dr-18.jpg
+- [JANITOR] Programmatically normalized asset file: 113 E Cloudcrfot Dr-19.jpg -> 113 E Cloudcrfot Dr-19.jpg
+- [JANITOR] Programmatically normalized asset file: 113 E Cloudcrfot Dr-2.jpg -> 113 E Cloudcrfot Dr-2.jpg
+- [JANITOR] Programmatically normalized asset file: 113 E Cloudcrfot Dr-20.jpg -> 113 E Cloudcrfot Dr-20.jpg
+- [JANITOR] Programmatically normalized asset file: 113 E Cloudcrfot Dr-21.jpg -> 113 E Cloudcrfot Dr-21.jpg
+- [JANITOR] Programmatically normalized asset file: 113 E Cloudcrfot Dr-3.jpg -> 113 E Cloudcrfot Dr-3.jpg
+- [JANITOR] Programmatically normalized asset file: 113 E Cloudcrfot Dr-4.jpg -> 113 E Cloudcrfot Dr-4.jpg
+- [JANITOR] Programmatically normalized asset file: 113 E Cloudcrfot Dr-5.jpg -> 113 E Cloudcrfot Dr-5.jpg
+- [JANITOR] Programmatically normalized asset file: 113 E Cloudcrfot Dr-6.jpg -> 113 E Cloudcrfot Dr-6.jpg
+- [JANITOR] Programmatically normalized asset file: 113 E Cloudcrfot Dr-7.jpg -> 113 E Cloudcrfot Dr-7.jpg
+- [JANITOR] Programmatically normalized asset file: 113 E Cloudcrfot Dr-8.jpg -> 113 E Cloudcrfot Dr-8.jpg
+- [JANITOR] Programmatically normalized asset file: 113 E Cloudcrfot Dr-9.jpg -> 113 E Cloudcrfot Dr-9.jpg
+- [JANITOR] Programmatically normalized asset file: 113 E Cloudcrfot Dr.jpg -> 113 E Cloudcrfot Dr.jpg
+- [JANITOR] Programmatically normalized asset file: 1309 Ponca St Carrollton-01.jpg -> 1309 Ponca St Carrollton-01.jpg
+- [JANITOR] Programmatically normalized asset file: 1309 Ponca St Carrollton-02.jpg -> 1309 Ponca St Carrollton-02.jpg
+- [JANITOR] Programmatically normalized asset file: 1309 Ponca St Carrollton-03.jpg -> 1309 Ponca St Carrollton-03.jpg
+- [JANITOR] Programmatically normalized asset file: 1309 Ponca St Carrollton-04.jpg -> 1309 Ponca St Carrollton-04.jpg
+- [JANITOR] Programmatically normalized asset file: 1309 Ponca St Carrollton-05.jpg -> 1309 Ponca St Carrollton-05.jpg
+- [JANITOR] Programmatically normalized asset file: 1309 Ponca St Carrollton-06.jpg -> 1309 Ponca St Carrollton-06.jpg
+- [JANITOR] Programmatically normalized asset file: 1309 Ponca St Carrollton-07.jpg -> 1309 Ponca St Carrollton-07.jpg
+- [JANITOR] Programmatically normalized asset file: 1309 Ponca St Carrollton-08.jpg -> 1309 Ponca St Carrollton-08.jpg
+- [JANITOR] Programmatically normalized asset file: 1309 Ponca St Carrollton-09.jpg -> 1309 Ponca St Carrollton-09.jpg
+- [JANITOR] Programmatically normalized asset file: 1309 Ponca St Carrollton-10.jpg -> 1309 Ponca St Carrollton-10.jpg
+- [JANITOR] Programmatically normalized asset file: 1309 Ponca St Carrollton-11.jpg -> 1309 Ponca St Carrollton-11.jpg
+- [JANITOR] Programmatically normalized asset file: 1309 Ponca St Carrollton-12.jpg -> 1309 Ponca St Carrollton-12.jpg
+- [JANITOR] Programmatically normalized asset file: 1309 Ponca St Carrollton-13.jpg -> 1309 Ponca St Carrollton-13.jpg
+- [JANITOR] Programmatically normalized asset file: 1309 Ponca St Carrollton-14.jpg -> 1309 Ponca St Carrollton-14.jpg
+- [JANITOR] Programmatically normalized asset file: 1309 Ponca St Carrollton-15.jpg -> 1309 Ponca St Carrollton-15.jpg
+- [JANITOR] Programmatically normalized asset file: 1309 Ponca St Carrollton-16.jpg -> 1309 Ponca St Carrollton-16.jpg
+- [JANITOR] Programmatically normalized asset file: 1309 Ponca St Carrollton-17.jpg -> 1309 Ponca St Carrollton-17.jpg
+- [JANITOR] Programmatically normalized asset file: 1309 Ponca St Carrollton-18.jpg -> 1309 Ponca St Carrollton-18.jpg
+- [JANITOR] Programmatically normalized asset file: 1309 Ponca St Carrollton-19.jpg -> 1309 Ponca St Carrollton-19.jpg
+- [JANITOR] Programmatically normalized asset file: 1309 Ponca St Carrollton-20.jpg -> 1309 Ponca St Carrollton-20.jpg
+- [JANITOR] Programmatically normalized asset file: 1309 Ponca St Carrollton-21.jpg -> 1309 Ponca St Carrollton-21.jpg
+- [JANITOR] Programmatically normalized asset file: 1309 Ponca St Carrollton-22.jpg -> 1309 Ponca St Carrollton-22.jpg
+- [JANITOR] Programmatically normalized asset file: 1309 Ponca St Carrollton-23.jpg -> 1309 Ponca St Carrollton-23.jpg
+- [JANITOR] Programmatically normalized asset file: 1733 Big Bend Blvd-10.jpg -> 1733 Big Bend Blvd-10.jpg
+- [JANITOR] Programmatically normalized asset file: 1733 Big Bend Blvd-11.jpg -> 1733 Big Bend Blvd-11.jpg
+- [JANITOR] Programmatically normalized asset file: 1733 Big Bend Blvd-12.jpg -> 1733 Big Bend Blvd-12.jpg
+- [JANITOR] Programmatically normalized asset file: 1733 Big Bend Blvd-13.jpg -> 1733 Big Bend Blvd-13.jpg
+- [JANITOR] Programmatically normalized asset file: 1733 Big Bend Blvd-14.jpg -> 1733 Big Bend Blvd-14.jpg
+- [JANITOR] Programmatically normalized asset file: 1733 Big Bend Blvd-15.jpg -> 1733 Big Bend Blvd-15.jpg
+- [JANITOR] Programmatically normalized asset file: 1733 Big Bend Blvd-16.jpg -> 1733 Big Bend Blvd-16.jpg
+- [JANITOR] Programmatically normalized asset file: 1733 Big Bend Blvd-17.jpg -> 1733 Big Bend Blvd-17.jpg
+- [JANITOR] Programmatically normalized asset file: 1733 Big Bend Blvd-18.jpg -> 1733 Big Bend Blvd-18.jpg
+- [JANITOR] Programmatically normalized asset file: 1733 Big Bend Blvd-19.jpg -> 1733 Big Bend Blvd-19.jpg
+- [JANITOR] Programmatically normalized asset file: 1733 Big Bend Blvd-2.jpg -> 1733 Big Bend Blvd-2.jpg
+- [JANITOR] Programmatically normalized asset file: 1733 Big Bend Blvd-20.jpg -> 1733 Big Bend Blvd-20.jpg
+- [JANITOR] Programmatically normalized asset file: 1733 Big Bend Blvd-21.jpg -> 1733 Big Bend Blvd-21.jpg
+- [JANITOR] Programmatically normalized asset file: 1733 Big Bend Blvd-22.jpg -> 1733 Big Bend Blvd-22.jpg
+- [JANITOR] Programmatically normalized asset file: 1733 Big Bend Blvd-23.jpg -> 1733 Big Bend Blvd-23.jpg
+- [JANITOR] Programmatically normalized asset file: 1733 Big Bend Blvd-3.jpg -> 1733 Big Bend Blvd-3.jpg
+- [JANITOR] Programmatically normalized asset file: 1733 Big Bend Blvd-4.jpg -> 1733 Big Bend Blvd-4.jpg
+- [JANITOR] Programmatically normalized asset file: 1733 Big Bend Blvd-5.jpg -> 1733 Big Bend Blvd-5.jpg
+- [JANITOR] Programmatically normalized asset file: 1733 Big Bend Blvd-6.jpg -> 1733 Big Bend Blvd-6.jpg
+- [JANITOR] Programmatically normalized asset file: 1733 Big Bend Blvd-7.jpg -> 1733 Big Bend Blvd-7.jpg
+- [JANITOR] Programmatically normalized asset file: 1733 Big Bend Blvd-8.jpg -> 1733 Big Bend Blvd-8.jpg
+- [JANITOR] Programmatically normalized asset file: 1733 Big Bend Blvd-9.jpg -> 1733 Big Bend Blvd-9.jpg
+- [JANITOR] Programmatically normalized asset file: 1733 Big Bend Blvd.jpg -> 1733 Big Bend Blvd.jpg
+- [JANITOR] Programmatically normalized asset file: 2016londonln-01.jpg -> 2016londonln-01.jpg
+- [JANITOR] Programmatically normalized asset file: 2016londonln-02.jpg -> 2016londonln-02.jpg
+- [JANITOR] Programmatically normalized asset file: 2016londonln-03.jpg -> 2016londonln-03.jpg
+- [JANITOR] Programmatically normalized asset file: 2016londonln-04.jpg -> 2016londonln-04.jpg
+- [JANITOR] Programmatically normalized asset file: 2016londonln-05.jpg -> 2016londonln-05.jpg
+- [JANITOR] Programmatically normalized asset file: 2016londonln-06.jpg -> 2016londonln-06.jpg
+- [JANITOR] Programmatically normalized asset file: 2016londonln-07.jpg -> 2016londonln-07.jpg
+- [JANITOR] Programmatically normalized asset file: 2016londonln-08.jpg -> 2016londonln-08.jpg
+- [JANITOR] Programmatically normalized asset file: 2016londonln-09.jpg -> 2016londonln-09.jpg
+- [JANITOR] Programmatically normalized asset file: 2016londonln-10.jpg -> 2016londonln-10.jpg
+- [JANITOR] Programmatically normalized asset file: 2016londonln-11.jpg -> 2016londonln-11.jpg
+- [JANITOR] Programmatically normalized asset file: 2016londonln-12.jpg -> 2016londonln-12.jpg
+- [JANITOR] Programmatically normalized asset file: 2016londonln-13.jpg -> 2016londonln-13.jpg
+- [JANITOR] Programmatically normalized asset file: 2016londonln-14.jpg -> 2016londonln-14.jpg
+- [JANITOR] Programmatically normalized asset file: 2016londonln-15.jpg -> 2016londonln-15.jpg
+- [JANITOR] Programmatically normalized asset file: 2016londonln-16.jpg -> 2016londonln-16.jpg
+- [JANITOR] Programmatically normalized asset file: 2016londonln-17.jpg -> 2016londonln-17.jpg
+- [JANITOR] Programmatically normalized asset file: 2016londonln-18.jpg -> 2016londonln-18.jpg
+- [JANITOR] Programmatically normalized asset file: 2016londonln-19.jpg -> 2016londonln-19.jpg
+- [JANITOR] Programmatically normalized asset file: 2016londonln-20.jpg -> 2016londonln-20.jpg
+- [JANITOR] Programmatically normalized asset file: 2016londonln-21.jpg -> 2016londonln-21.jpg
+- [JANITOR] Programmatically normalized asset file: 2016londonln-22.jpg -> 2016londonln-22.jpg
+- [JANITOR] Programmatically normalized asset file: 2022 Churchill Downs Ln-10.jpg -> 2022 Churchill Downs Ln-10.jpg
+- [JANITOR] Programmatically normalized asset file: 2022 Churchill Downs Ln-11.jpg -> 2022 Churchill Downs Ln-11.jpg
+- [JANITOR] Programmatically normalized asset file: 2022 Churchill Downs Ln-12.jpg -> 2022 Churchill Downs Ln-12.jpg
+- [JANITOR] Programmatically normalized asset file: 2022 Churchill Downs Ln-13.jpg -> 2022 Churchill Downs Ln-13.jpg
+- [JANITOR] Programmatically normalized asset file: 2022 Churchill Downs Ln-14.jpg -> 2022 Churchill Downs Ln-14.jpg
+- [JANITOR] Programmatically normalized asset file: 2022 Churchill Downs Ln-15.jpg -> 2022 Churchill Downs Ln-15.jpg
+- [JANITOR] Programmatically normalized asset file: 2022 Churchill Downs Ln-16.jpg -> 2022 Churchill Downs Ln-16.jpg
+- [JANITOR] Programmatically normalized asset file: 2022 Churchill Downs Ln-17.jpg -> 2022 Churchill Downs Ln-17.jpg
+- [JANITOR] Programmatically normalized asset file: 2022 Churchill Downs Ln-18.jpg -> 2022 Churchill Downs Ln-18.jpg
+- [JANITOR] Programmatically normalized asset file: 2022 Churchill Downs Ln-19.jpg -> 2022 Churchill Downs Ln-19.jpg
+- [JANITOR] Programmatically normalized asset file: 2022 Churchill Downs Ln-2.jpg -> 2022 Churchill Downs Ln-2.jpg
+- [JANITOR] Programmatically normalized asset file: 2022 Churchill Downs Ln-20.jpg -> 2022 Churchill Downs Ln-20.jpg
+- [JANITOR] Programmatically normalized asset file: 2022 Churchill Downs Ln-3.jpg -> 2022 Churchill Downs Ln-3.jpg
+- [JANITOR] Programmatically normalized asset file: 2022 Churchill Downs Ln-4.jpg -> 2022 Churchill Downs Ln-4.jpg
+- [JANITOR] Programmatically normalized asset file: 2022 Churchill Downs Ln-5.jpg -> 2022 Churchill Downs Ln-5.jpg
+- [JANITOR] Programmatically normalized asset file: 2022 Churchill Downs Ln-6.jpg -> 2022 Churchill Downs Ln-6.jpg
+- [JANITOR] Programmatically normalized asset file: 2022 Churchill Downs Ln-7.jpg -> 2022 Churchill Downs Ln-7.jpg
+- [JANITOR] Programmatically normalized asset file: 2022 Churchill Downs Ln-8.jpg -> 2022 Churchill Downs Ln-8.jpg
+- [JANITOR] Programmatically normalized asset file: 2022 Churchill Downs Ln-9.jpg -> 2022 Churchill Downs Ln-9.jpg
+- [JANITOR] Programmatically normalized asset file: 2022 Churchill Downs Ln.jpg -> 2022 Churchill Downs Ln.jpg
+- [JANITOR] Programmatically normalized asset file: 2124IronsideDrTheColony-01.jpg -> 2124IronsideDrTheColony-01.jpg
+- [JANITOR] Programmatically normalized asset file: 2124IronsideDrTheColony-02.jpg -> 2124IronsideDrTheColony-02.jpg
+- [JANITOR] Programmatically normalized asset file: 2124IronsideDrTheColony-03.jpg -> 2124IronsideDrTheColony-03.jpg
+- [JANITOR] Programmatically normalized asset file: 2124IronsideDrTheColony-04.jpg -> 2124IronsideDrTheColony-04.jpg
+- [JANITOR] Programmatically normalized asset file: 2124IronsideDrTheColony-05.jpg -> 2124IronsideDrTheColony-05.jpg
+- [JANITOR] Programmatically normalized asset file: 2124IronsideDrTheColony-06.jpg -> 2124IronsideDrTheColony-06.jpg
+- [JANITOR] Programmatically normalized asset file: 2124IronsideDrTheColony-07.jpg -> 2124IronsideDrTheColony-07.jpg
+- [JANITOR] Programmatically normalized asset file: 2124IronsideDrTheColony-08.jpg -> 2124IronsideDrTheColony-08.jpg
+- [JANITOR] Programmatically normalized asset file: 2124IronsideDrTheColony-09.jpg -> 2124IronsideDrTheColony-09.jpg
+- [JANITOR] Programmatically normalized asset file: 2124IronsideDrTheColony-10.jpg -> 2124IronsideDrTheColony-10.jpg
+- [JANITOR] Programmatically normalized asset file: 2124IronsideDrTheColony-11.jpg -> 2124IronsideDrTheColony-11.jpg
+- [JANITOR] Programmatically normalized asset file: 2124IronsideDrTheColony-12.jpg -> 2124IronsideDrTheColony-12.jpg
+- [JANITOR] Programmatically normalized asset file: 2124IronsideDrTheColony-13.jpg -> 2124IronsideDrTheColony-13.jpg
+- [JANITOR] Programmatically normalized asset file: 2124IronsideDrTheColony-14.jpg -> 2124IronsideDrTheColony-14.jpg
+- [JANITOR] Programmatically normalized asset file: 2124IronsideDrTheColony-15.jpg -> 2124IronsideDrTheColony-15.jpg
+- [JANITOR] Programmatically normalized asset file: 2124IronsideDrTheColony-16.jpg -> 2124IronsideDrTheColony-16.jpg
+- [JANITOR] Programmatically normalized asset file: 2124IronsideDrTheColony-17.jpg -> 2124IronsideDrTheColony-17.jpg
+- [JANITOR] Programmatically normalized asset file: 2124IronsideDrTheColony-18.jpg -> 2124IronsideDrTheColony-18.jpg
+- [JANITOR] Programmatically normalized asset file: 2124IronsideDrTheColony-19.jpg -> 2124IronsideDrTheColony-19.jpg
+- [JANITOR] Programmatically normalized asset file: 2124IronsideDrTheColony-20.jpg -> 2124IronsideDrTheColony-20.jpg
+- [JANITOR] Programmatically normalized asset file: 2329 Williston Ct-10.jpg -> 2329 Williston Ct-10.jpg
+- [JANITOR] Programmatically normalized asset file: 2329 Williston Ct-11.jpg -> 2329 Williston Ct-11.jpg
+- [JANITOR] Programmatically normalized asset file: 2329 Williston Ct-12.jpg -> 2329 Williston Ct-12.jpg
+- [JANITOR] Programmatically normalized asset file: 2329 Williston Ct-13.jpg -> 2329 Williston Ct-13.jpg
+- [JANITOR] Programmatically normalized asset file: 2329 Williston Ct-14.jpg -> 2329 Williston Ct-14.jpg
+- [JANITOR] Programmatically normalized asset file: 2329 Williston Ct-15.jpg -> 2329 Williston Ct-15.jpg
+- [JANITOR] Programmatically normalized asset file: 2329 Williston Ct-16.jpg -> 2329 Williston Ct-16.jpg
+- [JANITOR] Programmatically normalized asset file: 2329 Williston Ct-17.jpg -> 2329 Williston Ct-17.jpg
+- [JANITOR] Programmatically normalized asset file: 2329 Williston Ct-18.jpg -> 2329 Williston Ct-18.jpg
+- [JANITOR] Programmatically normalized asset file: 2329 Williston Ct-19.jpg -> 2329 Williston Ct-19.jpg
+- [JANITOR] Programmatically normalized asset file: 2329 Williston Ct-2.jpg -> 2329 Williston Ct-2.jpg
+- [JANITOR] Programmatically normalized asset file: 2329 Williston Ct-20.jpg -> 2329 Williston Ct-20.jpg
+- [JANITOR] Programmatically normalized asset file: 2329 Williston Ct-3.jpg -> 2329 Williston Ct-3.jpg
+- [JANITOR] Programmatically normalized asset file: 2329 Williston Ct-4.jpg -> 2329 Williston Ct-4.jpg
+- [JANITOR] Programmatically normalized asset file: 2329 Williston Ct-5.jpg -> 2329 Williston Ct-5.jpg
+- [JANITOR] Programmatically normalized asset file: 2329 Williston Ct-6.jpg -> 2329 Williston Ct-6.jpg
+- [JANITOR] Programmatically normalized asset file: 2329 Williston Ct-7.jpg -> 2329 Williston Ct-7.jpg
+- [JANITOR] Programmatically normalized asset file: 2329 Williston Ct-8.jpg -> 2329 Williston Ct-8.jpg
+- [JANITOR] Programmatically normalized asset file: 2329 Williston Ct-9.jpg -> 2329 Williston Ct-9.jpg
+- [JANITOR] Programmatically normalized asset file: 2329 Williston Ct.jpg -> 2329 Williston Ct.jpg
+- [JANITOR] Programmatically normalized asset file: 2342 Salisbury Ct-01.jpg -> 2342 Salisbury Ct-01.jpg
+- [JANITOR] Programmatically normalized asset file: 2342 Salisbury Ct-02.jpg -> 2342 Salisbury Ct-02.jpg
+- [JANITOR] Programmatically normalized asset file: 2342 Salisbury Ct-03.jpg -> 2342 Salisbury Ct-03.jpg
+- [JANITOR] Programmatically normalized asset file: 2342 Salisbury Ct-04.jpg -> 2342 Salisbury Ct-04.jpg
+- [JANITOR] Programmatically normalized asset file: 2342 Salisbury Ct-05.jpg -> 2342 Salisbury Ct-05.jpg
+- [JANITOR] Programmatically normalized asset file: 2342 Salisbury Ct-06.jpg -> 2342 Salisbury Ct-06.jpg
+- [JANITOR] Programmatically normalized asset file: 2342 Salisbury Ct-07.jpg -> 2342 Salisbury Ct-07.jpg
+- [JANITOR] Programmatically normalized asset file: 2342 Salisbury Ct-08.jpg -> 2342 Salisbury Ct-08.jpg
+- [JANITOR] Programmatically normalized asset file: 2342 Salisbury Ct-09.jpg -> 2342 Salisbury Ct-09.jpg
+- [JANITOR] Programmatically normalized asset file: 2342 Salisbury Ct-10.jpg -> 2342 Salisbury Ct-10.jpg
+- [JANITOR] Programmatically normalized asset file: 2342 Salisbury Ct-11.jpg -> 2342 Salisbury Ct-11.jpg
+- [JANITOR] Programmatically normalized asset file: 2342 Salisbury Ct-12.jpg -> 2342 Salisbury Ct-12.jpg
+- [JANITOR] Programmatically normalized asset file: 2342 Salisbury Ct-13.jpg -> 2342 Salisbury Ct-13.jpg
+- [JANITOR] Programmatically normalized asset file: 2342 Salisbury Ct-14.jpg -> 2342 Salisbury Ct-14.jpg
+- [JANITOR] Programmatically normalized asset file: 2342 Salisbury Ct-15.jpg -> 2342 Salisbury Ct-15.jpg
+- [JANITOR] Programmatically normalized asset file: 2342 Salisbury Ct-16.jpg -> 2342 Salisbury Ct-16.jpg
+- [JANITOR] Programmatically normalized asset file: 2342 Salisbury Ct-17.jpg -> 2342 Salisbury Ct-17.jpg
+- [JANITOR] Programmatically normalized asset file: 2342 Salisbury Ct-18.jpg -> 2342 Salisbury Ct-18.jpg
+- [JANITOR] Programmatically normalized asset file: 2342 Salisbury Ct-19.jpg -> 2342 Salisbury Ct-19.jpg
+- [JANITOR] Programmatically normalized asset file: 235 Herod St-01.jpg -> 235 Herod St-01.jpg
+- [JANITOR] Programmatically normalized asset file: 235 Herod St-02.jpg -> 235 Herod St-02.jpg
+- [JANITOR] Programmatically normalized asset file: 235 Herod St-03.jpg -> 235 Herod St-03.jpg
+- [JANITOR] Programmatically normalized asset file: 235 Herod St-04.jpg -> 235 Herod St-04.jpg
+- [JANITOR] Programmatically normalized asset file: 235 Herod St-05.jpg -> 235 Herod St-05.jpg
+- [JANITOR] Programmatically normalized asset file: 235 Herod St-06.jpg -> 235 Herod St-06.jpg
+- [JANITOR] Programmatically normalized asset file: 235 Herod St-07.jpg -> 235 Herod St-07.jpg
+- [JANITOR] Programmatically normalized asset file: 235 Herod St-08.jpg -> 235 Herod St-08.jpg
+- [JANITOR] Programmatically normalized asset file: 235 Herod St-09.jpg -> 235 Herod St-09.jpg
+- [JANITOR] Programmatically normalized asset file: 235 Herod St-10.jpg -> 235 Herod St-10.jpg
+- [JANITOR] Programmatically normalized asset file: 235 Herod St-11.jpg -> 235 Herod St-11.jpg
+- [JANITOR] Programmatically normalized asset file: 235 Herod St-12.jpg -> 235 Herod St-12.jpg
+- [JANITOR] Programmatically normalized asset file: 235 Herod St-13.jpg -> 235 Herod St-13.jpg
+- [JANITOR] Programmatically normalized asset file: 235 Herod St-14.jpg -> 235 Herod St-14.jpg
+- [JANITOR] Programmatically normalized asset file: 235 Herod St-15.jpg -> 235 Herod St-15.jpg
+- [JANITOR] Programmatically normalized asset file: 235 Herod St-16.jpg -> 235 Herod St-16.jpg
+- [JANITOR] Programmatically normalized asset file: 235 Herod St-17.jpg -> 235 Herod St-17.jpg
+- [JANITOR] Programmatically normalized asset file: 235 Herod St-18.jpg -> 235 Herod St-18.jpg
+- [JANITOR] Programmatically normalized asset file: 235 Herod St-19.jpg -> 235 Herod St-19.jpg
+- [JANITOR] Programmatically normalized asset file: 235 Herod St-20.jpg -> 235 Herod St-20.jpg
+- [JANITOR] Programmatically normalized asset file: 235 Herod St-21.jpg -> 235 Herod St-21.jpg
+- [JANITOR] Programmatically normalized asset file: 235 Herod St-22.jpg -> 235 Herod St-22.jpg
+- [JANITOR] Programmatically normalized asset file: 235 Herod St-23.jpg -> 235 Herod St-23.jpg
+- [JANITOR] Programmatically normalized asset file: 235 Herod St-24.jpg -> 235 Herod St-24.jpg
+- [JANITOR] Programmatically normalized asset file: Roof-10.jpg -> Roof-10.jpg
+- [JANITOR] Programmatically normalized asset file: Roof-11.jpg -> Roof-11.jpg
+- [JANITOR] Programmatically normalized asset file: Roof-12.jpg -> Roof-12.jpg
+- [JANITOR] Programmatically normalized asset file: Roof-13.jpg -> Roof-13.jpg
+- [JANITOR] Programmatically normalized asset file: Roof-14.jpg -> Roof-14.jpg
+- [JANITOR] Programmatically normalized asset file: Roof-15.jpg -> Roof-15.jpg
+- [JANITOR] Programmatically normalized asset file: Roof-16.jpg -> Roof-16.jpg
+- [JANITOR] Programmatically normalized asset file: Roof-2.jpg -> Roof-2.jpg
+- [JANITOR] Programmatically normalized asset file: Roof-3.jpg -> Roof-3.jpg
+- [JANITOR] Programmatically normalized asset file: Roof-4.jpg -> Roof-4.jpg
+- [JANITOR] Programmatically normalized asset file: Roof-5.jpg -> Roof-5.jpg
+- [JANITOR] Programmatically normalized asset file: Roof-6.jpg -> Roof-6.jpg
+- [JANITOR] Programmatically normalized asset file: Roof-7.jpg -> Roof-7.jpg
+- [JANITOR] Programmatically normalized asset file: Roof-8.jpg -> Roof-8.jpg
+- [JANITOR] Programmatically normalized asset file: Roof-9.jpg -> Roof-9.jpg
+- [JANITOR] Programmatically normalized asset file: Roof.jpg -> Roof.jpg
+- [JANITOR] Programmatically normalized asset file: 2500 windhaven parkway-01.jpg -> 2500 windhaven parkway-01.jpg
+- [JANITOR] Programmatically normalized asset file: 2500 windhaven parkway-02.jpg -> 2500 windhaven parkway-02.jpg
+- [JANITOR] Programmatically normalized asset file: 2500 windhaven parkway-03.jpg -> 2500 windhaven parkway-03.jpg
+- [JANITOR] Programmatically normalized asset file: 2500 windhaven parkway-04.jpg -> 2500 windhaven parkway-04.jpg
+- [JANITOR] Programmatically normalized asset file: 2500 windhaven parkway-08.jpg -> 2500 windhaven parkway-08.jpg
+- [JANITOR] Programmatically normalized asset file: 2500 windhaven parkway-09.jpg -> 2500 windhaven parkway-09.jpg
+- [JANITOR] Programmatically normalized asset file: 2500 windhaven parkway-10.jpg -> 2500 windhaven parkway-10.jpg
+- [JANITOR] Programmatically normalized asset file: 2500 windhaven parkway-11.jpg -> 2500 windhaven parkway-11.jpg
+- [JANITOR] Programmatically normalized asset file: 2500 windhaven parkway-12.jpg -> 2500 windhaven parkway-12.jpg
+- [JANITOR] Programmatically normalized asset file: 2500 windhaven parkway-13.jpg -> 2500 windhaven parkway-13.jpg
+- [JANITOR] Programmatically normalized asset file: 2500 windhaven parkway-14.jpg -> 2500 windhaven parkway-14.jpg
+- [JANITOR] Programmatically normalized asset file: 2500 windhaven parkway-15.jpg -> 2500 windhaven parkway-15.jpg
+- [JANITOR] Programmatically normalized asset file: 2508RedDrawRd-01.jpg -> 2508RedDrawRd-01.jpg
+- [JANITOR] Programmatically normalized asset file: 2508RedDrawRd-02.jpg -> 2508RedDrawRd-02.jpg
+- [JANITOR] Programmatically normalized asset file: 2508RedDrawRd-03.jpg -> 2508RedDrawRd-03.jpg
+- [JANITOR] Programmatically normalized asset file: 2508RedDrawRd-04.jpg -> 2508RedDrawRd-04.jpg
+- [JANITOR] Programmatically normalized asset file: 2508RedDrawRd-05.jpg -> 2508RedDrawRd-05.jpg
+- [JANITOR] Programmatically normalized asset file: 2508RedDrawRd-06.jpg -> 2508RedDrawRd-06.jpg
+- [JANITOR] Programmatically normalized asset file: 2508RedDrawRd-07.jpg -> 2508RedDrawRd-07.jpg
+- [JANITOR] Programmatically normalized asset file: 2508RedDrawRd-08.jpg -> 2508RedDrawRd-08.jpg
+- [JANITOR] Programmatically normalized asset file: 2508RedDrawRd-09.jpg -> 2508RedDrawRd-09.jpg
+- [JANITOR] Programmatically normalized asset file: 2508RedDrawRd-10.jpg -> 2508RedDrawRd-10.jpg
+- [JANITOR] Programmatically normalized asset file: 2508RedDrawRd-11.jpg -> 2508RedDrawRd-11.jpg
+- [JANITOR] Programmatically normalized asset file: 2508RedDrawRd-12.jpg -> 2508RedDrawRd-12.jpg
+- [JANITOR] Programmatically normalized asset file: 2508RedDrawRd-13.jpg -> 2508RedDrawRd-13.jpg
+- [JANITOR] Programmatically normalized asset file: 2508RedDrawRd-14.jpg -> 2508RedDrawRd-14.jpg
+- [JANITOR] Programmatically normalized asset file: 2508RedDrawRd-15.jpg -> 2508RedDrawRd-15.jpg
+- [JANITOR] Programmatically normalized asset file: 2508RedDrawRd-16.jpg -> 2508RedDrawRd-16.jpg
+- [JANITOR] Programmatically normalized asset file: 2508RedDrawRd-17.jpg -> 2508RedDrawRd-17.jpg
+- [JANITOR] Programmatically normalized asset file: 2508RedDrawRd-18.jpg -> 2508RedDrawRd-18.jpg
+- [JANITOR] Programmatically normalized asset file: 2508RedDrawRd-19.jpg -> 2508RedDrawRd-19.jpg
+- [JANITOR] Programmatically normalized asset file: 2508RedDrawRd-20.jpg -> 2508RedDrawRd-20.jpg
+- [JANITOR] Programmatically normalized asset file: 2508RedDrawRd-21.jpg -> 2508RedDrawRd-21.jpg
+- [JANITOR] Programmatically normalized asset file: 2616 Pine Trail Dr-01.jpg -> 2616 Pine Trail Dr-01.jpg
+- [JANITOR] Programmatically normalized asset file: 2616 Pine Trail Dr-02.jpg -> 2616 Pine Trail Dr-02.jpg
+- [JANITOR] Programmatically normalized asset file: 2616 Pine Trail Dr-03.jpg -> 2616 Pine Trail Dr-03.jpg
+- [JANITOR] Programmatically normalized asset file: 2616 Pine Trail Dr-04.jpg -> 2616 Pine Trail Dr-04.jpg
+- [JANITOR] Programmatically normalized asset file: 2616 Pine Trail Dr-05.jpg -> 2616 Pine Trail Dr-05.jpg
+- [JANITOR] Programmatically normalized asset file: 2616 Pine Trail Dr-06.jpg -> 2616 Pine Trail Dr-06.jpg
+- [JANITOR] Programmatically normalized asset file: 2616 Pine Trail Dr-07.jpg -> 2616 Pine Trail Dr-07.jpg
+- [JANITOR] Programmatically normalized asset file: 2616 Pine Trail Dr-08.jpg -> 2616 Pine Trail Dr-08.jpg
+- [JANITOR] Programmatically normalized asset file: 2616 Pine Trail Dr-09.jpg -> 2616 Pine Trail Dr-09.jpg
+- [JANITOR] Programmatically normalized asset file: 2616 Pine Trail Dr-10.jpg -> 2616 Pine Trail Dr-10.jpg
+- [JANITOR] Programmatically normalized asset file: 2616 Pine Trail Dr-11.jpg -> 2616 Pine Trail Dr-11.jpg
+- [JANITOR] Programmatically normalized asset file: 2616 Pine Trail Dr-12.jpg -> 2616 Pine Trail Dr-12.jpg
+- [JANITOR] Programmatically normalized asset file: 2616 Pine Trail Dr-13.jpg -> 2616 Pine Trail Dr-13.jpg
+- [JANITOR] Programmatically normalized asset file: 2616 Pine Trail Dr-14.jpg -> 2616 Pine Trail Dr-14.jpg
+- [JANITOR] Programmatically normalized asset file: 2616 Pine Trail Dr-15.jpg -> 2616 Pine Trail Dr-15.jpg
+- [JANITOR] Programmatically normalized asset file: 2616 Pine Trail Dr-16.jpg -> 2616 Pine Trail Dr-16.jpg
+- [JANITOR] Programmatically normalized asset file: 2616 Pine Trail Dr-17.jpg -> 2616 Pine Trail Dr-17.jpg
+- [JANITOR] Programmatically normalized asset file: 2616 Pine Trail Dr-18.jpg -> 2616 Pine Trail Dr-18.jpg
+- [JANITOR] Programmatically normalized asset file: 2616 Pine Trail Dr-19.jpg -> 2616 Pine Trail Dr-19.jpg
+- [JANITOR] Programmatically normalized asset file: 2616 Pine Trail Dr-20.jpg -> 2616 Pine Trail Dr-20.jpg
+- [JANITOR] Programmatically normalized asset file: 2701 N Umberland Dr-10.jpg -> 2701 N Umberland Dr-10.jpg
+- [JANITOR] Programmatically normalized asset file: 2701 N Umberland Dr-11.jpg -> 2701 N Umberland Dr-11.jpg
+- [JANITOR] Programmatically normalized asset file: 2701 N Umberland Dr-12.jpg -> 2701 N Umberland Dr-12.jpg
+- [JANITOR] Programmatically normalized asset file: 2701 N Umberland Dr-13.jpg -> 2701 N Umberland Dr-13.jpg
+- [JANITOR] Programmatically normalized asset file: 2701 N Umberland Dr-14.jpg -> 2701 N Umberland Dr-14.jpg
+- [JANITOR] Programmatically normalized asset file: 2701 N Umberland Dr-15.jpg -> 2701 N Umberland Dr-15.jpg
+- [JANITOR] Programmatically normalized asset file: 2701 N Umberland Dr-16.jpg -> 2701 N Umberland Dr-16.jpg
+- [JANITOR] Programmatically normalized asset file: 2701 N Umberland Dr-17.jpg -> 2701 N Umberland Dr-17.jpg
+- [JANITOR] Programmatically normalized asset file: 2701 N Umberland Dr-18.jpg -> 2701 N Umberland Dr-18.jpg
+- [JANITOR] Programmatically normalized asset file: 2701 N Umberland Dr-19.jpg -> 2701 N Umberland Dr-19.jpg
+- [JANITOR] Programmatically normalized asset file: 2701 N Umberland Dr-2.jpg -> 2701 N Umberland Dr-2.jpg
+- [JANITOR] Programmatically normalized asset file: 2701 N Umberland Dr-20.jpg -> 2701 N Umberland Dr-20.jpg
+- [JANITOR] Programmatically normalized asset file: 2701 N Umberland Dr-21.jpg -> 2701 N Umberland Dr-21.jpg
+- [JANITOR] Programmatically normalized asset file: 2701 N Umberland Dr-22.jpg -> 2701 N Umberland Dr-22.jpg
+- [JANITOR] Programmatically normalized asset file: 2701 N Umberland Dr-23.jpg -> 2701 N Umberland Dr-23.jpg
+- [JANITOR] Programmatically normalized asset file: 2701 N Umberland Dr-24.jpg -> 2701 N Umberland Dr-24.jpg
+- [JANITOR] Programmatically normalized asset file: 2701 N Umberland Dr-25.jpg -> 2701 N Umberland Dr-25.jpg
+- [JANITOR] Programmatically normalized asset file: 2701 N Umberland Dr-3.jpg -> 2701 N Umberland Dr-3.jpg
+- [JANITOR] Programmatically normalized asset file: 2701 N Umberland Dr-4.jpg -> 2701 N Umberland Dr-4.jpg
+- [JANITOR] Programmatically normalized asset file: 2701 N Umberland Dr-5.jpg -> 2701 N Umberland Dr-5.jpg
+- [JANITOR] Programmatically normalized asset file: 2701 N Umberland Dr-6.jpg -> 2701 N Umberland Dr-6.jpg
+- [JANITOR] Programmatically normalized asset file: 2701 N Umberland Dr-7.jpg -> 2701 N Umberland Dr-7.jpg
+- [JANITOR] Programmatically normalized asset file: 2701 N Umberland Dr-8.jpg -> 2701 N Umberland Dr-8.jpg
+- [JANITOR] Programmatically normalized asset file: 2701 N Umberland Dr-9.jpg -> 2701 N Umberland Dr-9.jpg
+- [JANITOR] Programmatically normalized asset file: 2701 N Umberland Dr.jpg -> 2701 N Umberland Dr.jpg
+- [JANITOR] Programmatically normalized asset file: roof-10.jpg -> roof-10.jpg
+- [JANITOR] Programmatically normalized asset file: roof-11.jpg -> roof-11.jpg
+- [JANITOR] Programmatically normalized asset file: roof-12.jpg -> roof-12.jpg
+- [JANITOR] Programmatically normalized asset file: roof-13.jpg -> roof-13.jpg
+- [JANITOR] Programmatically normalized asset file: roof-14.jpg -> roof-14.jpg
+- [JANITOR] Programmatically normalized asset file: roof-15.jpg -> roof-15.jpg
+- [JANITOR] Programmatically normalized asset file: roof-16.jpg -> roof-16.jpg
+- [JANITOR] Programmatically normalized asset file: roof-17.jpg -> roof-17.jpg
+- [JANITOR] Programmatically normalized asset file: roof-18.jpg -> roof-18.jpg
+- [JANITOR] Programmatically normalized asset file: roof-19.jpg -> roof-19.jpg
+- [JANITOR] Programmatically normalized asset file: roof-2.jpg -> roof-2.jpg
+- [JANITOR] Programmatically normalized asset file: roof-3.jpg -> roof-3.jpg
+- [JANITOR] Programmatically normalized asset file: roof-4.jpg -> roof-4.jpg
+- [JANITOR] Programmatically normalized asset file: roof-5.jpg -> roof-5.jpg
+- [JANITOR] Programmatically normalized asset file: roof-6.jpg -> roof-6.jpg
+- [JANITOR] Programmatically normalized asset file: roof-7.jpg -> roof-7.jpg
+- [JANITOR] Programmatically normalized asset file: roof-8.jpg -> roof-8.jpg
+- [JANITOR] Programmatically normalized asset file: roof-9.jpg -> roof-9.jpg
+- [JANITOR] Programmatically normalized asset file: roof.jpg -> roof.jpg
+- [JANITOR] Programmatically normalized asset file: 3615 Hulen park Circle-10.jpg -> 3615 Hulen park Circle-10.jpg
+- [JANITOR] Programmatically normalized asset file: 3615 Hulen park Circle-11.jpg -> 3615 Hulen park Circle-11.jpg
+- [JANITOR] Programmatically normalized asset file: 3615 Hulen park Circle-12.jpg -> 3615 Hulen park Circle-12.jpg
+- [JANITOR] Programmatically normalized asset file: 3615 Hulen park Circle-13.jpg -> 3615 Hulen park Circle-13.jpg
+- [JANITOR] Programmatically normalized asset file: 3615 Hulen park Circle-14.jpg -> 3615 Hulen park Circle-14.jpg
+- [JANITOR] Programmatically normalized asset file: 3615 Hulen park Circle-15.jpg -> 3615 Hulen park Circle-15.jpg
+- [JANITOR] Programmatically normalized asset file: 3615 Hulen park Circle-16.jpg -> 3615 Hulen park Circle-16.jpg
+- [JANITOR] Programmatically normalized asset file: 3615 Hulen park Circle-17.jpg -> 3615 Hulen park Circle-17.jpg
+- [JANITOR] Programmatically normalized asset file: 3615 Hulen park Circle-18.jpg -> 3615 Hulen park Circle-18.jpg
+- [JANITOR] Programmatically normalized asset file: 3615 Hulen park Circle-19.jpg -> 3615 Hulen park Circle-19.jpg
+- [JANITOR] Programmatically normalized asset file: 3615 Hulen park Circle-2.jpg -> 3615 Hulen park Circle-2.jpg
+- [JANITOR] Programmatically normalized asset file: 3615 Hulen park Circle-20.jpg -> 3615 Hulen park Circle-20.jpg
+- [JANITOR] Programmatically normalized asset file: 3615 Hulen park Circle-21.jpg -> 3615 Hulen park Circle-21.jpg
+- [JANITOR] Programmatically normalized asset file: 3615 Hulen park Circle-3.jpg -> 3615 Hulen park Circle-3.jpg
+- [JANITOR] Programmatically normalized asset file: 3615 Hulen park Circle-4.jpg -> 3615 Hulen park Circle-4.jpg
+- [JANITOR] Programmatically normalized asset file: 3615 Hulen park Circle-5.jpg -> 3615 Hulen park Circle-5.jpg
+- [JANITOR] Programmatically normalized asset file: 3615 Hulen park Circle-6.jpg -> 3615 Hulen park Circle-6.jpg
+- [JANITOR] Programmatically normalized asset file: 3615 Hulen park Circle-7.jpg -> 3615 Hulen park Circle-7.jpg
+- [JANITOR] Programmatically normalized asset file: 3615 Hulen park Circle-8.jpg -> 3615 Hulen park Circle-8.jpg
+- [JANITOR] Programmatically normalized asset file: 3615 Hulen park Circle-9.jpg -> 3615 Hulen park Circle-9.jpg
+- [JANITOR] Programmatically normalized asset file: 3615 Hulen park Circle.jpg -> 3615 Hulen park Circle.jpg
+- [JANITOR] Programmatically normalized asset file: roof-10.jpg -> roof-10.jpg
+- [JANITOR] Programmatically normalized asset file: roof-11.jpg -> roof-11.jpg
+- [JANITOR] Programmatically normalized asset file: roof-12.jpg -> roof-12.jpg
+- [JANITOR] Programmatically normalized asset file: roof-13.jpg -> roof-13.jpg
+- [JANITOR] Programmatically normalized asset file: roof-14.jpg -> roof-14.jpg
+- [JANITOR] Programmatically normalized asset file: roof-2.jpg -> roof-2.jpg
+- [JANITOR] Programmatically normalized asset file: roof-3.jpg -> roof-3.jpg
+- [JANITOR] Programmatically normalized asset file: roof-4.jpg -> roof-4.jpg
+- [JANITOR] Programmatically normalized asset file: roof-5.jpg -> roof-5.jpg
+- [JANITOR] Programmatically normalized asset file: roof-6.jpg -> roof-6.jpg
+- [JANITOR] Programmatically normalized asset file: roof-7.jpg -> roof-7.jpg
+- [JANITOR] Programmatically normalized asset file: roof-8.jpg -> roof-8.jpg
+- [JANITOR] Programmatically normalized asset file: roof-9.jpg -> roof-9.jpg
+- [JANITOR] Programmatically normalized asset file: roof.jpg -> roof.jpg
+- [JANITOR] Programmatically normalized asset file: 3715 Viewmont r-10.jpg -> 3715 Viewmont r-10.jpg
+- [JANITOR] Programmatically normalized asset file: 3715 Viewmont r-11.jpg -> 3715 Viewmont r-11.jpg
+- [JANITOR] Programmatically normalized asset file: 3715 Viewmont r-12.jpg -> 3715 Viewmont r-12.jpg
+- [JANITOR] Programmatically normalized asset file: 3715 Viewmont r-13.jpg -> 3715 Viewmont r-13.jpg
+- [JANITOR] Programmatically normalized asset file: 3715 Viewmont r-14.jpg -> 3715 Viewmont r-14.jpg
+- [JANITOR] Programmatically normalized asset file: 3715 Viewmont r-15.jpg -> 3715 Viewmont r-15.jpg
+- [JANITOR] Programmatically normalized asset file: 3715 Viewmont r-16.jpg -> 3715 Viewmont r-16.jpg
+- [JANITOR] Programmatically normalized asset file: 3715 Viewmont r-17.jpg -> 3715 Viewmont r-17.jpg
+- [JANITOR] Programmatically normalized asset file: 3715 Viewmont r-18.jpg -> 3715 Viewmont r-18.jpg
+- [JANITOR] Programmatically normalized asset file: 3715 Viewmont r-2.jpg -> 3715 Viewmont r-2.jpg
+- [JANITOR] Programmatically normalized asset file: 3715 Viewmont r-3.jpg -> 3715 Viewmont r-3.jpg
+- [JANITOR] Programmatically normalized asset file: 3715 Viewmont r-4.jpg -> 3715 Viewmont r-4.jpg
+- [JANITOR] Programmatically normalized asset file: 3715 Viewmont r-5.jpg -> 3715 Viewmont r-5.jpg
+- [JANITOR] Programmatically normalized asset file: 3715 Viewmont r-6.jpg -> 3715 Viewmont r-6.jpg
+- [JANITOR] Programmatically normalized asset file: 3715 Viewmont r-7.jpg -> 3715 Viewmont r-7.jpg
+- [JANITOR] Programmatically normalized asset file: 3715 Viewmont r-8.jpg -> 3715 Viewmont r-8.jpg
+- [JANITOR] Programmatically normalized asset file: 3715 Viewmont r-9.jpg -> 3715 Viewmont r-9.jpg
+- [JANITOR] Programmatically normalized asset file: 3715 Viewmont r.jpg -> 3715 Viewmont r.jpg
+- [JANITOR] Programmatically normalized asset file: 3715 Viewmont Dr-01.jpg -> 3715 Viewmont Dr-01.jpg
+- [JANITOR] Programmatically normalized asset file: 3715 Viewmont Dr-02.jpg -> 3715 Viewmont Dr-02.jpg
+- [JANITOR] Programmatically normalized asset file: 3715 Viewmont Dr-03.jpg -> 3715 Viewmont Dr-03.jpg
+- [JANITOR] Programmatically normalized asset file: 3715 Viewmont Dr-04.jpg -> 3715 Viewmont Dr-04.jpg
+- [JANITOR] Programmatically normalized asset file: 3715 Viewmont Dr-05.jpg -> 3715 Viewmont Dr-05.jpg
+- [JANITOR] Programmatically normalized asset file: 3715 Viewmont Dr-06.jpg -> 3715 Viewmont Dr-06.jpg
+- [JANITOR] Programmatically normalized asset file: 3715 Viewmont Dr-07.jpg -> 3715 Viewmont Dr-07.jpg
+- [JANITOR] Programmatically normalized asset file: 3715 Viewmont Dr-08.jpg -> 3715 Viewmont Dr-08.jpg
+- [JANITOR] Programmatically normalized asset file: 3715 Viewmont Dr-09.jpg -> 3715 Viewmont Dr-09.jpg
+- [JANITOR] Programmatically normalized asset file: 3715 Viewmont Dr-10.jpg -> 3715 Viewmont Dr-10.jpg
+- [JANITOR] Programmatically normalized asset file: 3715 Viewmont Dr-11.jpg -> 3715 Viewmont Dr-11.jpg
+- [JANITOR] Programmatically normalized asset file: 3715 Viewmont Dr-12.jpg -> 3715 Viewmont Dr-12.jpg
+- [JANITOR] Programmatically normalized asset file: 3715 Viewmont Dr-13.jpg -> 3715 Viewmont Dr-13.jpg
+- [JANITOR] Programmatically normalized asset file: 3715 Viewmont Dr-14.jpg -> 3715 Viewmont Dr-14.jpg
+- [JANITOR] Programmatically normalized asset file: 3715 Viewmont Dr-15.jpg -> 3715 Viewmont Dr-15.jpg
+- [JANITOR] Programmatically normalized asset file: 3715 Viewmont Dr-16.jpg -> 3715 Viewmont Dr-16.jpg
+- [JANITOR] Programmatically normalized asset file: 3715 Viewmont Dr-17.jpg -> 3715 Viewmont Dr-17.jpg
+- [JANITOR] Programmatically normalized asset file: 3715 Viewmont Dr-18.jpg -> 3715 Viewmont Dr-18.jpg
+- [JANITOR] Programmatically normalized asset file: 3715 Viewmont Dr-19.jpg -> 3715 Viewmont Dr-19.jpg
+- [JANITOR] Programmatically normalized asset file: 401 Eastland Drive-10.jpg -> 401 Eastland Drive-10.jpg
+- [JANITOR] Programmatically normalized asset file: 401 Eastland Drive-11.jpg -> 401 Eastland Drive-11.jpg
+- [JANITOR] Programmatically normalized asset file: 401 Eastland Drive-12.jpg -> 401 Eastland Drive-12.jpg
+- [JANITOR] Programmatically normalized asset file: 401 Eastland Drive-13.jpg -> 401 Eastland Drive-13.jpg
+- [JANITOR] Programmatically normalized asset file: 401 Eastland Drive-14.jpg -> 401 Eastland Drive-14.jpg
+- [JANITOR] Programmatically normalized asset file: 401 Eastland Drive-15.jpg -> 401 Eastland Drive-15.jpg
+- [JANITOR] Programmatically normalized asset file: 401 Eastland Drive-16.jpg -> 401 Eastland Drive-16.jpg
+- [JANITOR] Programmatically normalized asset file: 401 Eastland Drive-17.jpg -> 401 Eastland Drive-17.jpg
+- [JANITOR] Programmatically normalized asset file: 401 Eastland Drive-18.jpg -> 401 Eastland Drive-18.jpg
+- [JANITOR] Programmatically normalized asset file: 401 Eastland Drive-19.jpg -> 401 Eastland Drive-19.jpg
+- [JANITOR] Programmatically normalized asset file: 401 Eastland Drive-2.jpg -> 401 Eastland Drive-2.jpg
+- [JANITOR] Programmatically normalized asset file: 401 Eastland Drive-20.jpg -> 401 Eastland Drive-20.jpg
+- [JANITOR] Programmatically normalized asset file: 401 Eastland Drive-21.jpg -> 401 Eastland Drive-21.jpg
+- [JANITOR] Programmatically normalized asset file: 401 Eastland Drive-3.jpg -> 401 Eastland Drive-3.jpg
+- [JANITOR] Programmatically normalized asset file: 401 Eastland Drive-4.jpg -> 401 Eastland Drive-4.jpg
+- [JANITOR] Programmatically normalized asset file: 401 Eastland Drive-5.jpg -> 401 Eastland Drive-5.jpg
+- [JANITOR] Programmatically normalized asset file: 401 Eastland Drive-6.jpg -> 401 Eastland Drive-6.jpg
+- [JANITOR] Programmatically normalized asset file: 401 Eastland Drive-7.jpg -> 401 Eastland Drive-7.jpg
+- [JANITOR] Programmatically normalized asset file: 401 Eastland Drive-8.jpg -> 401 Eastland Drive-8.jpg
+- [JANITOR] Programmatically normalized asset file: 401 Eastland Drive-9.jpg -> 401 Eastland Drive-9.jpg
+- [JANITOR] Programmatically normalized asset file: 401 Eastland Drive.jpg -> 401 Eastland Drive.jpg
+- [JANITOR] Programmatically normalized asset file: 4137 Astoria St-01.jpg -> 4137 Astoria St-01.jpg
+- [JANITOR] Programmatically normalized asset file: 4137 Astoria St-02.jpg -> 4137 Astoria St-02.jpg
+- [JANITOR] Programmatically normalized asset file: 4137 Astoria St-03.jpg -> 4137 Astoria St-03.jpg
+- [JANITOR] Programmatically normalized asset file: 4137 Astoria St-04.jpg -> 4137 Astoria St-04.jpg
+- [JANITOR] Programmatically normalized asset file: 4137 Astoria St-05.jpg -> 4137 Astoria St-05.jpg
+- [JANITOR] Programmatically normalized asset file: 4137 Astoria St-06.jpg -> 4137 Astoria St-06.jpg
+- [JANITOR] Programmatically normalized asset file: 4137 Astoria St-07.jpg -> 4137 Astoria St-07.jpg
+- [JANITOR] Programmatically normalized asset file: 4137 Astoria St-08.jpg -> 4137 Astoria St-08.jpg
+- [JANITOR] Programmatically normalized asset file: 4137 Astoria St-09.jpg -> 4137 Astoria St-09.jpg
+- [JANITOR] Programmatically normalized asset file: 4137 Astoria St-10.jpg -> 4137 Astoria St-10.jpg
+- [JANITOR] Programmatically normalized asset file: 4137 Astoria St-11.jpg -> 4137 Astoria St-11.jpg
+- [JANITOR] Programmatically normalized asset file: 4137 Astoria St-12.jpg -> 4137 Astoria St-12.jpg
+- [JANITOR] Programmatically normalized asset file: 4137 Astoria St-13.jpg -> 4137 Astoria St-13.jpg
+- [JANITOR] Programmatically normalized asset file: 4137 Astoria St-14.jpg -> 4137 Astoria St-14.jpg
+- [JANITOR] Programmatically normalized asset file: 4137 Astoria St-15.jpg -> 4137 Astoria St-15.jpg
+- [JANITOR] Programmatically normalized asset file: 4137 Astoria St-16.jpg -> 4137 Astoria St-16.jpg
+- [JANITOR] Programmatically normalized asset file: 4137 Astoria St-17.jpg -> 4137 Astoria St-17.jpg
+- [JANITOR] Programmatically normalized asset file: 4137 Astoria St-18.jpg -> 4137 Astoria St-18.jpg
+- [JANITOR] Programmatically normalized asset file: 4137 Astoria St-19.jpg -> 4137 Astoria St-19.jpg
+- [JANITOR] Programmatically normalized asset file: 4137 Astoria St-20.jpg -> 4137 Astoria St-20.jpg
+- [JANITOR] Programmatically normalized asset file: 4300 Emerson Ave,-01.jpg -> 4300 Emerson Ave,-01.jpg
+- [JANITOR] Programmatically normalized asset file: 4300 Emerson Ave,-02.jpg -> 4300 Emerson Ave,-02.jpg
+- [JANITOR] Programmatically normalized asset file: 4300 Emerson Ave,-03.jpg -> 4300 Emerson Ave,-03.jpg
+- [JANITOR] Programmatically normalized asset file: 4300 Emerson Ave,-04.jpg -> 4300 Emerson Ave,-04.jpg
+- [JANITOR] Programmatically normalized asset file: 4300 Emerson Ave,-05.jpg -> 4300 Emerson Ave,-05.jpg
+- [JANITOR] Programmatically normalized asset file: 4300 Emerson Ave,-06.jpg -> 4300 Emerson Ave,-06.jpg
+- [JANITOR] Programmatically normalized asset file: 4300 Emerson Ave,-07.jpg -> 4300 Emerson Ave,-07.jpg
+- [JANITOR] Programmatically normalized asset file: 4300 Emerson Ave,-08.jpg -> 4300 Emerson Ave,-08.jpg
+- [JANITOR] Programmatically normalized asset file: 4300 Emerson Ave,-09.jpg -> 4300 Emerson Ave,-09.jpg
+- [JANITOR] Programmatically normalized asset file: 4300 Emerson Ave,-10.jpg -> 4300 Emerson Ave,-10.jpg
+- [JANITOR] Programmatically normalized asset file: 4300 Emerson Ave,-11.jpg -> 4300 Emerson Ave,-11.jpg
+- [JANITOR] Programmatically normalized asset file: 4300 Emerson Ave,-12.jpg -> 4300 Emerson Ave,-12.jpg
+- [JANITOR] Programmatically normalized asset file: 4300 Emerson Ave,-13.jpg -> 4300 Emerson Ave,-13.jpg
+- [JANITOR] Programmatically normalized asset file: 4300 Emerson Ave,-14.jpg -> 4300 Emerson Ave,-14.jpg
+- [JANITOR] Programmatically normalized asset file: 4300 Emerson Ave,-15.jpg -> 4300 Emerson Ave,-15.jpg
+- [JANITOR] Programmatically normalized asset file: 4300 Emerson Ave,-16.jpg -> 4300 Emerson Ave,-16.jpg
+- [JANITOR] Programmatically normalized asset file: 4300 Emerson Ave,-17.jpg -> 4300 Emerson Ave,-17.jpg
+- [JANITOR] Programmatically normalized asset file: 4300 Emerson Ave,-18.jpg -> 4300 Emerson Ave,-18.jpg
+- [JANITOR] Programmatically normalized asset file: 4300 Emerson Ave,-19.jpg -> 4300 Emerson Ave,-19.jpg
+- [JANITOR] Programmatically normalized asset file: 4300 Emerson Ave,-20.jpg -> 4300 Emerson Ave,-20.jpg
+- [JANITOR] Programmatically normalized asset file: 4300 Emerson Ave,-21.jpg -> 4300 Emerson Ave,-21.jpg
+- [JANITOR] Programmatically normalized asset file: 4300 Emerson Ave,-22.jpg -> 4300 Emerson Ave,-22.jpg
+- [JANITOR] Programmatically normalized asset file: 4300 Emerson Ave,-23.jpg -> 4300 Emerson Ave,-23.jpg
+- [JANITOR] Programmatically normalized asset file: 4300 Emerson Ave,-24.jpg -> 4300 Emerson Ave,-24.jpg
+- [JANITOR] Programmatically normalized asset file: 4300 Emerson Ave,-25.jpg -> 4300 Emerson Ave,-25.jpg
+- [JANITOR] Programmatically normalized asset file: 4301 Saginaw Ln-01.jpg -> 4301 Saginaw Ln-01.jpg
+- [JANITOR] Programmatically normalized asset file: 4301 Saginaw Ln-02.jpg -> 4301 Saginaw Ln-02.jpg
+- [JANITOR] Programmatically normalized asset file: 4301 Saginaw Ln-03.jpg -> 4301 Saginaw Ln-03.jpg
+- [JANITOR] Programmatically normalized asset file: 4301 Saginaw Ln-04.jpg -> 4301 Saginaw Ln-04.jpg
+- [JANITOR] Programmatically normalized asset file: 4301 Saginaw Ln-05.jpg -> 4301 Saginaw Ln-05.jpg
+- [JANITOR] Programmatically normalized asset file: 4301 Saginaw Ln-06.jpg -> 4301 Saginaw Ln-06.jpg
+- [JANITOR] Programmatically normalized asset file: 4301 Saginaw Ln-07.jpg -> 4301 Saginaw Ln-07.jpg
+- [JANITOR] Programmatically normalized asset file: 4301 Saginaw Ln-08.jpg -> 4301 Saginaw Ln-08.jpg
+- [JANITOR] Programmatically normalized asset file: 4301 Saginaw Ln-09.jpg -> 4301 Saginaw Ln-09.jpg
+- [JANITOR] Programmatically normalized asset file: 4301 Saginaw Ln-10.jpg -> 4301 Saginaw Ln-10.jpg
+- [JANITOR] Programmatically normalized asset file: 4301 Saginaw Ln-11.jpg -> 4301 Saginaw Ln-11.jpg
+- [JANITOR] Programmatically normalized asset file: 4301 Saginaw Ln-12.jpg -> 4301 Saginaw Ln-12.jpg
+- [JANITOR] Programmatically normalized asset file: 4301 Saginaw Ln-13.jpg -> 4301 Saginaw Ln-13.jpg
+- [JANITOR] Programmatically normalized asset file: 4301 Saginaw Ln-14.jpg -> 4301 Saginaw Ln-14.jpg
+- [JANITOR] Programmatically normalized asset file: 4301 Saginaw Ln-15.jpg -> 4301 Saginaw Ln-15.jpg
+- [JANITOR] Programmatically normalized asset file: 4301 Saginaw Ln-16.jpg -> 4301 Saginaw Ln-16.jpg
+- [JANITOR] Programmatically normalized asset file: 4301 Saginaw Ln-17.jpg -> 4301 Saginaw Ln-17.jpg
+- [JANITOR] Programmatically normalized asset file: 4301 Saginaw Ln-18.jpg -> 4301 Saginaw Ln-18.jpg
+- [JANITOR] Programmatically normalized asset file: 4301 Saginaw Ln-19.jpg -> 4301 Saginaw Ln-19.jpg
+- [JANITOR] Programmatically normalized asset file: 4301 Saginaw Ln-20.jpg -> 4301 Saginaw Ln-20.jpg
+- [JANITOR] Programmatically normalized asset file: 4301 Saginaw Ln-21.jpg -> 4301 Saginaw Ln-21.jpg
+- [JANITOR] Programmatically normalized asset file: 4301 Saginaw Ln-22.jpg -> 4301 Saginaw Ln-22.jpg
+- [JANITOR] Programmatically normalized asset file: 4301 Saginaw Ln-23.jpg -> 4301 Saginaw Ln-23.jpg
+- [JANITOR] Programmatically normalized asset file: 4301 Saginaw Ln-24.jpg -> 4301 Saginaw Ln-24.jpg
+- [JANITOR] Programmatically normalized asset file: roof-10.jpg -> roof-10.jpg
+- [JANITOR] Programmatically normalized asset file: roof-11.jpg -> roof-11.jpg
+- [JANITOR] Programmatically normalized asset file: roof-12.jpg -> roof-12.jpg
+- [JANITOR] Programmatically normalized asset file: roof-13.jpg -> roof-13.jpg
+- [JANITOR] Programmatically normalized asset file: roof-14.jpg -> roof-14.jpg
+- [JANITOR] Programmatically normalized asset file: roof-15.jpg -> roof-15.jpg
+- [JANITOR] Programmatically normalized asset file: roof-16.jpg -> roof-16.jpg
+- [JANITOR] Programmatically normalized asset file: roof-17.jpg -> roof-17.jpg
+- [JANITOR] Programmatically normalized asset file: roof-18.jpg -> roof-18.jpg
+- [JANITOR] Programmatically normalized asset file: roof-19.jpg -> roof-19.jpg
+- [JANITOR] Programmatically normalized asset file: roof-2.jpg -> roof-2.jpg
+- [JANITOR] Programmatically normalized asset file: roof-20.jpg -> roof-20.jpg
+- [JANITOR] Programmatically normalized asset file: roof-21.jpg -> roof-21.jpg
+- [JANITOR] Programmatically normalized asset file: roof-3.jpg -> roof-3.jpg
+- [JANITOR] Programmatically normalized asset file: roof-4.jpg -> roof-4.jpg
+- [JANITOR] Programmatically normalized asset file: roof-5.jpg -> roof-5.jpg
+- [JANITOR] Programmatically normalized asset file: roof-6.jpg -> roof-6.jpg
+- [JANITOR] Programmatically normalized asset file: roof-7.jpg -> roof-7.jpg
+- [JANITOR] Programmatically normalized asset file: roof-8.jpg -> roof-8.jpg
+- [JANITOR] Programmatically normalized asset file: roof-9.jpg -> roof-9.jpg
+- [JANITOR] Programmatically normalized asset file: roof.jpg -> roof.jpg
+- [JANITOR] Programmatically normalized asset file: 4601 Birkshire Ln-10.jpg -> 4601 Birkshire Ln-10.jpg
+- [JANITOR] Programmatically normalized asset file: 4601 Birkshire Ln-11.jpg -> 4601 Birkshire Ln-11.jpg
+- [JANITOR] Programmatically normalized asset file: 4601 Birkshire Ln-12.jpg -> 4601 Birkshire Ln-12.jpg
+- [JANITOR] Programmatically normalized asset file: 4601 Birkshire Ln-13.jpg -> 4601 Birkshire Ln-13.jpg
+- [JANITOR] Programmatically normalized asset file: 4601 Birkshire Ln-14.jpg -> 4601 Birkshire Ln-14.jpg
+- [JANITOR] Programmatically normalized asset file: 4601 Birkshire Ln-15.jpg -> 4601 Birkshire Ln-15.jpg
+- [JANITOR] Programmatically normalized asset file: 4601 Birkshire Ln-16.jpg -> 4601 Birkshire Ln-16.jpg
+- [JANITOR] Programmatically normalized asset file: 4601 Birkshire Ln-17.jpg -> 4601 Birkshire Ln-17.jpg
+- [JANITOR] Programmatically normalized asset file: 4601 Birkshire Ln-18.jpg -> 4601 Birkshire Ln-18.jpg
+- [JANITOR] Programmatically normalized asset file: 4601 Birkshire Ln-19.jpg -> 4601 Birkshire Ln-19.jpg
+- [JANITOR] Programmatically normalized asset file: 4601 Birkshire Ln-2.jpg -> 4601 Birkshire Ln-2.jpg
+- [JANITOR] Programmatically normalized asset file: 4601 Birkshire Ln-20.jpg -> 4601 Birkshire Ln-20.jpg
+- [JANITOR] Programmatically normalized asset file: 4601 Birkshire Ln-21.jpg -> 4601 Birkshire Ln-21.jpg
+- [JANITOR] Programmatically normalized asset file: 4601 Birkshire Ln-3.jpg -> 4601 Birkshire Ln-3.jpg
+- [JANITOR] Programmatically normalized asset file: 4601 Birkshire Ln-4.jpg -> 4601 Birkshire Ln-4.jpg
+- [JANITOR] Programmatically normalized asset file: 4601 Birkshire Ln-5.jpg -> 4601 Birkshire Ln-5.jpg
+- [JANITOR] Programmatically normalized asset file: 4601 Birkshire Ln-6.jpg -> 4601 Birkshire Ln-6.jpg
+- [JANITOR] Programmatically normalized asset file: 4601 Birkshire Ln-7.jpg -> 4601 Birkshire Ln-7.jpg
+- [JANITOR] Programmatically normalized asset file: 4601 Birkshire Ln-8.jpg -> 4601 Birkshire Ln-8.jpg
+- [JANITOR] Programmatically normalized asset file: 4601 Birkshire Ln-9.jpg -> 4601 Birkshire Ln-9.jpg
+- [JANITOR] Programmatically normalized asset file: 4601 Birkshire Ln.jpg -> 4601 Birkshire Ln.jpg
+- [JANITOR] Programmatically normalized asset file: 5012 McClellan Dr-10.jpg -> 5012 McClellan Dr-10.jpg
+- [JANITOR] Programmatically normalized asset file: 5012 McClellan Dr-11.jpg -> 5012 McClellan Dr-11.jpg
+- [JANITOR] Programmatically normalized asset file: 5012 McClellan Dr-12.jpg -> 5012 McClellan Dr-12.jpg
+- [JANITOR] Programmatically normalized asset file: 5012 McClellan Dr-13.jpg -> 5012 McClellan Dr-13.jpg
+- [JANITOR] Programmatically normalized asset file: 5012 McClellan Dr-14.jpg -> 5012 McClellan Dr-14.jpg
+- [JANITOR] Programmatically normalized asset file: 5012 McClellan Dr-15.jpg -> 5012 McClellan Dr-15.jpg
+- [JANITOR] Programmatically normalized asset file: 5012 McClellan Dr-16.jpg -> 5012 McClellan Dr-16.jpg
+- [JANITOR] Programmatically normalized asset file: 5012 McClellan Dr-17.jpg -> 5012 McClellan Dr-17.jpg
+- [JANITOR] Programmatically normalized asset file: 5012 McClellan Dr-18.jpg -> 5012 McClellan Dr-18.jpg
+- [JANITOR] Programmatically normalized asset file: 5012 McClellan Dr-19.jpg -> 5012 McClellan Dr-19.jpg
+- [JANITOR] Programmatically normalized asset file: 5012 McClellan Dr-2.jpg -> 5012 McClellan Dr-2.jpg
+- [JANITOR] Programmatically normalized asset file: 5012 McClellan Dr-20.jpg -> 5012 McClellan Dr-20.jpg
+- [JANITOR] Programmatically normalized asset file: 5012 McClellan Dr-21.jpg -> 5012 McClellan Dr-21.jpg
+- [JANITOR] Programmatically normalized asset file: 5012 McClellan Dr-3.jpg -> 5012 McClellan Dr-3.jpg
+- [JANITOR] Programmatically normalized asset file: 5012 McClellan Dr-4.jpg -> 5012 McClellan Dr-4.jpg
+- [JANITOR] Programmatically normalized asset file: 5012 McClellan Dr-5.jpg -> 5012 McClellan Dr-5.jpg
+- [JANITOR] Programmatically normalized asset file: 5012 McClellan Dr-6.jpg -> 5012 McClellan Dr-6.jpg
+- [JANITOR] Programmatically normalized asset file: 5012 McClellan Dr-7.jpg -> 5012 McClellan Dr-7.jpg
+- [JANITOR] Programmatically normalized asset file: 5012 McClellan Dr-8.jpg -> 5012 McClellan Dr-8.jpg
+- [JANITOR] Programmatically normalized asset file: 5012 McClellan Dr-9.jpg -> 5012 McClellan Dr-9.jpg
+- [JANITOR] Programmatically normalized asset file: 5012 McClellan Dr.jpg -> 5012 McClellan Dr.jpg
+- [JANITOR] Programmatically normalized asset file: 5020 griffin Dr-10.jpg -> 5020 griffin Dr-10.jpg
+- [JANITOR] Programmatically normalized asset file: 5020 griffin Dr-11.jpg -> 5020 griffin Dr-11.jpg
+- [JANITOR] Programmatically normalized asset file: 5020 griffin Dr-12.jpg -> 5020 griffin Dr-12.jpg
+- [JANITOR] Programmatically normalized asset file: 5020 griffin Dr-13.jpg -> 5020 griffin Dr-13.jpg
+- [JANITOR] Programmatically normalized asset file: 5020 griffin Dr-14.jpg -> 5020 griffin Dr-14.jpg
+- [JANITOR] Programmatically normalized asset file: 5020 griffin Dr-15.jpg -> 5020 griffin Dr-15.jpg
+- [JANITOR] Programmatically normalized asset file: 5020 griffin Dr-16.jpg -> 5020 griffin Dr-16.jpg
+- [JANITOR] Programmatically normalized asset file: 5020 griffin Dr-17.jpg -> 5020 griffin Dr-17.jpg
+- [JANITOR] Programmatically normalized asset file: 5020 griffin Dr-18.jpg -> 5020 griffin Dr-18.jpg
+- [JANITOR] Programmatically normalized asset file: 5020 griffin Dr-19.jpg -> 5020 griffin Dr-19.jpg
+- [JANITOR] Programmatically normalized asset file: 5020 griffin Dr-2.jpg -> 5020 griffin Dr-2.jpg
+- [JANITOR] Programmatically normalized asset file: 5020 griffin Dr-20.jpg -> 5020 griffin Dr-20.jpg
+- [JANITOR] Programmatically normalized asset file: 5020 griffin Dr-4.jpg -> 5020 griffin Dr-4.jpg
+- [JANITOR] Programmatically normalized asset file: 5020 griffin Dr-5.jpg -> 5020 griffin Dr-5.jpg
+- [JANITOR] Programmatically normalized asset file: 5020 griffin Dr-6.jpg -> 5020 griffin Dr-6.jpg
+- [JANITOR] Programmatically normalized asset file: 5020 griffin Dr-7.jpg -> 5020 griffin Dr-7.jpg
+- [JANITOR] Programmatically normalized asset file: 5020 griffin Dr-8.jpg -> 5020 griffin Dr-8.jpg
+- [JANITOR] Programmatically normalized asset file: 5020 griffin Dr-9.jpg -> 5020 griffin Dr-9.jpg
+- [JANITOR] Programmatically normalized asset file: 5020 griffin Dr.jpg -> 5020 griffin Dr.jpg
+- [JANITOR] Programmatically normalized asset file: 5033 Iroquois-10.jpg -> 5033 Iroquois-10.jpg
+- [JANITOR] Programmatically normalized asset file: 5033 Iroquois-11.jpg -> 5033 Iroquois-11.jpg
+- [JANITOR] Programmatically normalized asset file: 5033 Iroquois-12.jpg -> 5033 Iroquois-12.jpg
+- [JANITOR] Programmatically normalized asset file: 5033 Iroquois-13.jpg -> 5033 Iroquois-13.jpg
+- [JANITOR] Programmatically normalized asset file: 5033 Iroquois-14.jpg -> 5033 Iroquois-14.jpg
+- [JANITOR] Programmatically normalized asset file: 5033 Iroquois-15.jpg -> 5033 Iroquois-15.jpg
+- [JANITOR] Programmatically normalized asset file: 5033 Iroquois-16.jpg -> 5033 Iroquois-16.jpg
+- [JANITOR] Programmatically normalized asset file: 5033 Iroquois-17.jpg -> 5033 Iroquois-17.jpg
+- [JANITOR] Programmatically normalized asset file: 5033 Iroquois-18.jpg -> 5033 Iroquois-18.jpg
+- [JANITOR] Programmatically normalized asset file: 5033 Iroquois-19.jpg -> 5033 Iroquois-19.jpg
+- [JANITOR] Programmatically normalized asset file: 5033 Iroquois-2.jpg -> 5033 Iroquois-2.jpg
+- [JANITOR] Programmatically normalized asset file: 5033 Iroquois-20.jpg -> 5033 Iroquois-20.jpg
+- [JANITOR] Programmatically normalized asset file: 5033 Iroquois-21.jpg -> 5033 Iroquois-21.jpg
+- [JANITOR] Programmatically normalized asset file: 5033 Iroquois-22.jpg -> 5033 Iroquois-22.jpg
+- [JANITOR] Programmatically normalized asset file: 5033 Iroquois-23.jpg -> 5033 Iroquois-23.jpg
+- [JANITOR] Programmatically normalized asset file: 5033 Iroquois-3.jpg -> 5033 Iroquois-3.jpg
+- [JANITOR] Programmatically normalized asset file: 5033 Iroquois-4.jpg -> 5033 Iroquois-4.jpg
+- [JANITOR] Programmatically normalized asset file: 5033 Iroquois-5.jpg -> 5033 Iroquois-5.jpg
+- [JANITOR] Programmatically normalized asset file: 5033 Iroquois-6.jpg -> 5033 Iroquois-6.jpg
+- [JANITOR] Programmatically normalized asset file: 5033 Iroquois-7.jpg -> 5033 Iroquois-7.jpg
+- [JANITOR] Programmatically normalized asset file: 5033 Iroquois-8.jpg -> 5033 Iroquois-8.jpg

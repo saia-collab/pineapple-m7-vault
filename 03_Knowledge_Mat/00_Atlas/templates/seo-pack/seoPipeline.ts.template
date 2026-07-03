@@ -1,0 +1,82 @@
+// SEO pipeline config — TEMPLATE for AIPB members
+//
+// HOW TO USE:
+// 1. Open the file `src/lib/seoPipeline.ts` inside your Agentic OS repo
+// 2. Replace the SITES array and the TRANSCRIPTS_DIR / BLOG_POST_SKILL paths
+//    with the snippets below, using YOUR own folder paths.
+// 3. Save the file and restart `npm run dev`.
+//
+// Each site object describes ONE of your 5 sites:
+//   id        — short slug, no spaces. Used internally + in the dashboard.
+//   name      — pretty name (your domain). Shown in the UI.
+//   url       — your live production URL.
+//   path      — absolute path to the site's repo on your laptop.
+//   postsDir  — absolute path to the folder that holds blog post .md files.
+//
+// For Eleventy sites: postsDir is usually <path>/src/blog/posts
+// For Astro sites:    postsDir is usually <path>/src/content/blog
+// For Hugo sites:     postsDir is usually <path>/content/posts
+// For Jekyll sites:   postsDir is usually <path>/_posts
+//
+// IMPORTANT: All 5 paths must actually exist on disk before you restart
+// Agentic OS, or the SEO tab will show them as missing.
+
+import path from "node:path";
+import os from "node:os";
+
+export interface Site {
+  id: string;
+  name: string;
+  url: string;
+  path: string;
+  postsDir: string;
+}
+
+// ─── REPLACE THESE 5 ENTRIES WITH YOUR REAL SITES ───────────────────────────
+export const SITES: Site[] = [
+  {
+    id: "site1",
+    name: "your-first-domain.com",
+    url: "https://your-first-domain.com",
+    path: path.join(os.homedir(), "my-site-1"),
+    postsDir: path.join(os.homedir(), "my-site-1", "src/blog/posts"),
+  },
+  {
+    id: "site2",
+    name: "your-second-domain.com",
+    url: "https://your-second-domain.com",
+    path: path.join(os.homedir(), "my-site-2"),
+    postsDir: path.join(os.homedir(), "my-site-2", "src/blog/posts"),
+  },
+  {
+    id: "site3",
+    name: "your-third-domain.com",
+    url: "https://your-third-domain.com",
+    path: path.join(os.homedir(), "my-site-3"),
+    postsDir: path.join(os.homedir(), "my-site-3", "src/blog/posts"),
+  },
+  {
+    id: "site4",
+    name: "your-fourth-domain.com",
+    url: "https://your-fourth-domain.com",
+    path: path.join(os.homedir(), "my-site-4"),
+    postsDir: path.join(os.homedir(), "my-site-4", "src/blog/posts"),
+  },
+  {
+    id: "site5",
+    name: "your-fifth-domain.com",
+    url: "https://your-fifth-domain.com",
+    path: path.join(os.homedir(), "my-site-5"),
+    postsDir: path.join(os.homedir(), "my-site-5", "src/blog/posts"),
+  },
+];
+
+// ─── REPLACE WITH PATHS INSIDE YOUR "HOME" SITE (we use site1 by default) ───
+//
+// Your "home" site is the one that stores the blog-post.md skill + the
+// transcripts that drive every generation run.
+export const TRANSCRIPTS_DIR = path.join(os.homedir(), "my-site-1", ".claude", "transcripts");
+export const BLOG_POST_SKILL = path.join(os.homedir(), "my-site-1", ".claude", "skills", "blog-post.md");
+
+// ─── Rest of the file is identical to the stock Agentic OS version ──────────
+// Don't edit below this line — the helpers consume the values above.

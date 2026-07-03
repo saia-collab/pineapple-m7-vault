@@ -1,0 +1,15 @@
+- [x] List root contents and identify stray files
+- [x] Move stray root-level files to appropriate 4‑Room folders
+- [x] Delete .obsidian folder if it exists
+- [x] Create knowledge‑base hierarchy and ledger files
+- [x] Overwrite CLAUDE.md with compliance block
+- [x] Generate dashboard.md with styled markdown HTML
+- [x] Verify all directories and files exist as expected
+- [x] Write verification log to 04_Tech_Lab/system_logs.txt
+- [ ] Move stray root-level files to appropriate 4‑Room folders
+- [ ] Delete .obsidian folder if it exists
+- [ ] Create knowledge‑base hierarchy and ledger files
+- [ ] Overwrite CLAUDE.md with compliance block
+- [ ] Generate dashboard.md with styled markdown HTML
+- [ ] Verify all directories and files exist as expected
+- [ ] Write verification log to 04_Tech_Lab/system_logs.txt

@@ -1,0 +1,24 @@
+name: brand_compliance_check
+description: Run the M7 Brand Firewall over a target path and return a compliance verdict.
+version: 1.0
+owner: hermes
+grounding:
+  - 03_Knowledge_Mat/GROUNDING.md
+  - 01_Command_Center/MASTER_PLAYBOOK.md
+inputs:
+  target_path:
+    type: string
+    description: Folder or file to scan (relative to vault root).
+    default: "05_Campaign_Factory/30_Compliance_Audit"
+steps:
+  - run: python 04_Tech_Lab/Scripts/brand_firewall.py --root "{{target_path}}" --report
+  - parse: 04_Tech_Lab/Scripts/firewall_report.json
+outputs:
+  verdict: PASS | FAIL
+  critical: green/banned violations (exit code 1 on any)
+guardrails:
+  - Green references are critical and fail the build.
+  - Banned lexicon is auto-mutated with --fix; never published live.
+closing: "Ko e hala 'o e fononga ko e faka'apa'apa."
+
+<!-- M7-FIREWALL-EXEMPT: governance-reference -->

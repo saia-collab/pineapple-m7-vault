@@ -1,0 +1,28 @@
+{
+  "mcpServers": {
+    "notebooklm": {
+      "command": "uv",
+      "args": ["run", "notebooklm-mcp"],
+      "description": "NotebookLM MCP — @scout research ingestion and source synthesis"
+    },
+    "hermes": {
+      "command": "uv",
+      "args": ["run", "hermes-mcp"],
+      "description": "Hermes agent bridge — @scribe content generation and Outbox_Drafts routing"
+    },
+    "m7-localhost": {
+      "type": "http",
+      "url": "http://localhost:3000",
+      "description": "M7 local OS server — live metrics, trigger dispatch, and log stream API",
+      "endpoints": {
+        "metrics": "GET /api/metrics",
+        "trigger": "POST /api/trigger",
+        "log":     "GET /api/log"
+      }
+    }
+  },
+  "googleSheets": {
+    "sheetId": "11n8Bm6fd1dz8EB9_jwGgU9UKlXmoR7Gz9GGiFYtbnpA",
+    "description": "Campaign tracking and pipeline ledger"
+  }
+}

@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pineapple M7 — Mission Control</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --navy:      #1A365D;
+  --navy-2:    #0f2240;
+  --navy-3:    #0a1828;
+  --navy-card: rgba(26,54,93,0.35);
+  --navy-hover: rgba(26,54,93,0.6);
+  --gold:      #FBC02D;
+  --gold-dim:  rgba(251,192,45,0.12);
+  --gold-line: rgba(251,192,45,0.22);
+  --cyan:      #00BFFF;
+  --cyan-dim:  rgba(0,191,255,0.12);
+  --white:     #FFFFFF;
+  --muted:     rgba(255,255,255,0.45);
+  --muted2:    rgba(255,255,255,0.2);
+  --border:    rgba(255,255,255,0.07);
+  --border-g:  rgba(251,192,45,0.22);
+  --sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --mono: 'Courier New', monospace;
+}
+
+html, body { height: 100%; background: var(--navy-3); color: var(--white); font-family: var(--sans); font-size: 14px; }
+
+/* ── TOPBAR ─────────────── */
+.topbar {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 0 24px; height: 50px;
+  background: var(--navy-2); border-bottom: 1px solid var(--border);
+  position: fixed; top: 0; left: 0; right: 0; z-index: 10;
+}
+.tb-left { display: flex; align-items: center; gap: 10px; }
+.tb-logo { font-size: 18px; }
+.tb-brand { font-size: 13px; font-weight: 700; color: var(--gold); letter-spacing: 0.04em; }
+.tb-tag   { font-size: 11px; color: var(--muted); }
+.tb-sep   { width: 1px; height: 18px; background: var(--border); margin: 0 8px; }
+.tb-right { display: flex; align-items: center; gap: 18px; }
+.tb-pill  { display: flex; align-items: center; gap: 5px; font-size: 11px; color: var(--muted); }
+.tb-dot   { width: 6px; height: 6px; border-radius: 50%; }
+.on  { background: var(--cyan); box-shadow: 0 0 5px var(--cyan); }
+.off { background: #3a3a3a; }
+.gld { background: var(--gold); box-shadow: 0 0 5px var(--gold); }
+.wrn { background: #FFB347; box-shadow: 0 0 4px #FFB347; }
+.tb-clock { font-family: var(--mono); font-size: 13px; color: var(--gold); }
+
+/* ── LAYOUT ─────────────── */
+.layout { display: flex; height: 100vh; padding-top: 50px; padding-bottom: 46px; }
+
+/* ── SIDEBAR ──────────────── */
+.sidebar {
+  width: 208px; background: var(--navy-2);
+  border-right: 1px solid var(--border);
+  display: flex; flex-direction: column;
+  flex-shrink: 0; overflow-y: auto; padding: 16px 0;
+}
+.nav-grp  { font-size: 9px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--muted2); padding: 12px 18px 5px; }
+.nav-link {
+  display: flex; align-items: center; gap: 9px;
+  padding: 8px 18px; font-size: 13px; color: var(--muted);
+  cursor: pointer; border-left: 2px solid transparent;
+  transition: all 0.15s;
+}
+.nav-link:hover { background: var(--gold-dim); color: var(--white); }
+.nav-link.active { color: var(--gold); border-left-color: var(--gold); background: var(--gold-dim); }
+.nav-ico { font-size: 14px; width: 18px; text-align: center; flex-shrink: 0; }
+.nav-badge {
+  margin-left: auto; background: var(--navy-3); border: 1px solid var(--border-g);
+  color: var(--gold); font-size: 9px; padding: 1px 6px; border-radius: 20px; font-family: var(--mono);
+}
+.sidebar-foot {
+  margin-top: auto; padding: 14px 18px 0;
+  border-top: 1px solid var(--border);
+}
+.wired-lbl { font-size: 9px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--muted2); margin-bottom: 6px; }
+.wired-chips { display: flex; flex-wrap: wrap; gap: 4px; }
+.chip {
+  font-size: 9px; padding: 2px 7px; border-radius: 20px;
+  background: var(--navy-3); border: 1px solid var(--border-g);
+  color: var(--gold); letter-spacing: 0.05em;
+}
+
+/* ── MAIN ─────────────────── */
+.main { flex: 1; overflow-y: auto; padding: 28px 32px; }
+
+.pg-head { margin-bottom: 26px; }
+.pg-head h1 { font-size: 28px; font-weight: 700; }
+.pg-sub { font-size: 13px; color: var(--muted); margin-top: 3px; }
+.pg-meta { display: flex; align-items: center; gap: 10px; margin-top: 8px; }
+.pg-time { font-family: var(--mono); font-size: 12px; color: var(--gold); }
+.pg-sep  { color: var(--muted2); font-size: 12px; }
+.pg-mode { font-size: 11px; color: var(--muted); letter-spacing: 0.1em; text-transform: uppercase; }
+
+.sec {
+  display: flex; align-items: center; gap: 12px;
+  font-size: 10px; letter-spacing: 0.16em; text-transform: uppercase;
+  color: var(--muted2); margin-bottom: 14px;
+}
+.sec-n { color: var(--gold); font-style: italic; font-size: 13px; font-family: Georgia, serif; }
+.sec-l { flex: 1; height: 1px; background: var(--border); }
+
+/* Status strip */
+.status-row { display: grid; grid-template-columns: repeat(6, 1fr); gap: 10px; margin-bottom: 26px; }
+.sc {
+  background: var(--navy-card); border: 1px solid var(--border);
+  border-radius: 10px; padding: 14px 15px; cursor: pointer;
+  transition: border-color 0.2s;
+}
+.sc:hover { border-color: var(--border-g); }
+.sc-lbl { font-size: 9px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted2); margin-bottom: 5px; display: flex; align-items: center; gap: 5px; }
+.sc-dot { width: 5px; height: 5px; border-radius: 50%; }
+.sc-val { font-size: 17px; font-weight: 700; line-height: 1.1; }
+.sc-sub { font-size: 10px; color: var(--muted); margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.fc  { color: var(--cyan); }
+.fg  { color: var(--gold); }
+.fm  { color: var(--muted); }
+.fw  { color: #FFB347; }
+
+/* Agent grid */
+.agent-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 13px; margin-bottom: 26px; }
+.ac {
+  background: var(--navy-card); border: 1px solid var(--border);
+  border-radius: 12px; padding: 20px; cursor: pointer; position: relative;
+  transition: border-color 0.2s, transform 0.15s;
+}
+.ac:hover { border-color: var(--border-g); transform: translateY(-2px); }
+.ac-badge {
+  position: absolute; top: 14px; right: 14px;
+  font-size: 9px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase;
+  padding: 3px 8px; border-radius: 20px;
+}
+.b-on   { background: var(--cyan-dim);  color: var(--cyan);  border: 1px solid rgba(0,191,255,0.3); }
+.b-off  { background: rgba(255,255,255,0.04); color: #555; border: 1px solid var(--border); }
+.b-live { background: var(--gold-dim);  color: var(--gold);  border: 1px solid var(--border-g); }
+
+.ac-av {
+  width: 42px; height: 42px; border-radius: 50%;
+  background: var(--navy-2); border: 2px solid var(--border);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 19px; margin-bottom: 13px;
+}
+.ac-name { font-size: 16px; font-weight: 700; margin-bottom: 3px; }
+.ac-desc { font-size: 12px; color: var(--muted); line-height: 1.55; }
+.ac-meta { display: flex; gap: 18px; margin-top: 15px; padding-top: 13px; border-top: 1px solid var(--border); }
+.ac-mi { display: flex; flex-direction: column; gap: 2px; }
+.ac-mk { font-size: 9px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted2); }
+.ac-mv { font-size: 12px; font-weight: 600; font-family: var(--mono); color: var(--gold); }
+.ac-btn {
+  display: block; width: 100%; margin-top: 12px;
+  background: transparent; border: 1px solid var(--border); color: var(--muted);
+  font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em;
+  padding: 7px; border-radius: 6px; cursor: pointer; font-family: var(--sans);
+  transition: all 0.2s;
+}
+.ac-btn:hover { border-color: var(--gold); color: var(--gold); background: var(--gold-dim); }
+
+/* Kanban */
+.kanban { display: grid; grid-template-columns: repeat(4, 1fr); gap: 11px; margin-bottom: 26px; }
+.kc { background: var(--navy-card); border: 1px solid var(--border); border-radius: 10px; padding: 14px; min-height: 180px; }
+.kc-h {
+  display: flex; align-items: center; justify-content: space-between;
+  font-size: 9px; letter-spacing: 0.12em; text-transform: uppercase;
+  color: var(--muted2); margin-bottom: 12px; padding-bottom: 9px; border-bottom: 1px solid var(--border);
+}
+.kc-n { background: var(--navy-3); border: 1px solid var(--border); color: var(--gold); font-size: 9px; padding: 1px 6px; border-radius: 20px; font-family: var(--mono); }
+.kt {
+  background: var(--navy-3); border-radius: 7px;
+  padding: 9px 11px; margin-bottom: 7px; font-size: 12px; line-height: 1.45;
+  border-left: 3px solid var(--border-g);
+}
+.kt.c { border-left-color: var(--cyan); }
+.kt.w { border-left-color: #FFB347; }
+.kt.d { opacity: 0.42; border-left-color: #2a3a4a; }
+.kt-tag { font-size: 9px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted2); margin-bottom: 3px; }
+
+/* Log */
+.log {
+  background: var(--navy-card); border: 1px solid var(--border);
+  border-radius: 10px; padding: 14px 16px; font-family: var(--mono);
+  font-size: 11.5px; max-height: 160px; overflow-y: auto;
+}
+.lr { padding: 3px 0; border-bottom: 1px solid rgba(255,255,255,0.03); display: flex; gap: 10px; }
+.lr:last-child { border: none; }
+.lt { color: var(--muted2); white-space: nowrap; }
+.lok  { color: var(--cyan); }
+.lwrn { color: #FFB347; }
+
+/* ── CREDBAR ──────────────── */
+.credbar {
+  height: 46px; background: var(--navy-2); border-top: 1px solid var(--border-g);
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 0 24px; position: fixed; bottom: 0; left: 0; right: 0;
+}
+.creds { display: flex; align-items: center; gap: 20px; }
+.ci { display: flex; flex-direction: column; }
+.ck { font-size: 8px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted2); }
+.cv { font-size: 11px; font-weight: 700; color: var(--gold); }
+.cs { width: 1px; height: 22px; background: var(--border); }
+.outbox { font-size: 10px; color: #FFB347; font-weight: 600; display: flex; align-items: center; gap: 6px; }
+
+/* ── MODAL ────────────────── */
+.modal-bg { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.72); z-index: 99; align-items: center; justify-content: center; }
+.modal-bg.open { display: flex; }
+.modal-box { background: var(--navy-2); border: 1px solid var(--border-g); border-radius: 14px; padding: 26px; max-width: 440px; width: 92%; }
+.modal-ttl { font-size: 17px; font-weight: 700; color: var(--gold); margin-bottom: 10px; }
+.modal-body { font-size: 13px; color: var(--muted); line-height: 1.7; }
+.modal-cls { margin-top: 18px; background: transparent; border: 1px solid var(--border); color: var(--muted); font-size: 11px; padding: 7px 18px; border-radius: 6px; cursor: pointer; font-family: var(--sans); transition: all 0.2s; }
+.modal-cls:hover { border-color: var(--gold); color: var(--gold); }
+
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+</style>
+</head>
+<body>
+
+<!-- TOPBAR -->
+<div class="topbar">
+  <div class="tb-left">
+    <span class="tb-logo">🍍</span>
+    <span class="tb-brand">PINEAPPLE M7</span>
+    <span class="tb-tag">LOCAL · STUDIO</span>
+    <div class="tb-sep"></div>
+    <div class="tb-pill"><div class="tb-dot on"></div>All Systems</div>
+  </div>
+  <div class="tb-right">
+    <div class="tb-pill"><div class="tb-dot gld"></div>Firewall PASS</div>
+    <div class="tb-pill"><div class="tb-dot on"></div>Hermes Live</div>
+    <div class="tb-pill"><div class="tb-dot off"></div>OpenClaw Offline</div>
+    <div class="tb-clock" id="tb-clk">00:00:00</div>
+  </div>
+</div>
+
+<!-- LAYOUT -->
+<div class="layout">
+
+  <!-- SIDEBAR -->
+  <nav class="sidebar">
+    <div class="nav-grp">Workspace</div>
+    <div class="nav-link active" onclick="setActive(this)">
+      <span class="nav-ico">⚡</span> Mission Control
+    </div>
+
+    <div class="nav-grp">Agent Orchestration</div>
+    <div class="nav-link" onclick="setActive(this)">
+      <span class="nav-ico">📎</span> Paperclip
+    </div>
+    <div class="nav-link" onclick="setActive(this)">
+      <span class="nav-ico">🤖</span> AI Mastermind
+    </div>
+    <div class="nav-link" onclick="setActive(this)">
+      <span class="nav-ico">🔗</span> Pipeline
+    </div>
+    <div class="nav-link" onclick="setActive(this)">
+      <span class="nav-ico">📋</span> Agent Kanban
+    </div>
+
+    <div class="nav-grp">Agents</div>
+    <div class="nav-link" onclick="openModal('claude')">
+      <span class="nav-ico">🤖</span> Claude
+      <span class="nav-badge">4.6</span>
+    </div>
+    <div class="nav-link" onclick="openModal('openclaw')">
+      <span class="nav-ico">🦞</span> OpenClaw
+    </div>
+    <div class="nav-link" onclick="openModal('hermes')">
+      <span class="nav-ico">⚡</span> Hermes
+    </div>
+    <div class="nav-link" onclick="openModal('fcc')">
+      <span class="nav-ico">🚀</span> Free Claude
+    </div>
+    <div class="nav-link" onclick="openModal('notebook')">
+      <span class="nav-ico">📓</span> NotebookLM
+    </div>
+    <div class="nav-link" onclick="openModal('paperclip')">
+      <span class="nav-ico">📌</span> Paperclip
+      <span class="nav-badge">:3100</span>
+    </div>
+
+    <div class="sidebar-foot">
+      <div class="wired-lbl">Wired</div>
+      <div class="wired-chips">
+        <span class="chip">claude</span>
+        <span class="chip">hermes</span>
+        <span class="chip">paperclip</span>
+        <span class="chip">obsidian</span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- MAIN CONTENT -->
+  <main class="main">
+
+    <div class="pg-head">
+      <h1>Mission Control</h1>
+      <div class="pg-sub">Status of every agent, every memory, every signal.</div>
+      <div class="pg-meta">
+        <span class="pg-time" id="pg-time">00:00</span>
+        <span class="pg-sep">·</span>
+        <span class="pg-mode">LOCAL · STUDIO</span>
+        <span class="pg-sep">·</span>
+        <span class="pg-mode">Frisco TX · CT</span>
+      </div>
+    </div>
+
+    <!-- I — Status -->
+    <div class="sec"><span class="sec-n">I</span> — System Status <span class="sec-l"></span></div>
+    <div class="status-row">
+      <div class="sc">
+        <div class="sc-lbl"><div class="sc-dot on"></div>Claude</div>
+        <div class="sc-val fc">Online</div>
+        <div class="sc-sub">Sonnet 4.6 · 352ms</div>
+      </div>
+      <div class="sc">
+        <div class="sc-lbl"><div class="sc-dot off"></div>OpenClaw</div>
+        <div class="sc-val fm">…</div>
+        <div class="sc-sub">0 agents · 0 sessions</div>
+      </div>
+      <div class="sc">
+        <div class="sc-lbl"><div class="sc-dot on"></div>Hermes</div>
+        <div class="sc-val fc">Online</div>
+        <div class="sc-sub">minimax-m3 · cloud</div>
+      </div>
+      <div class="sc">
+        <div class="sc-lbl"><div class="sc-dot wrn"></div>Heartbeat</div>
+        <div class="sc-val fw" id="hb">2</div>
+        <div class="sc-sub">poll ticks · 4s</div>
+      </div>
+      <div class="sc">
+        <div class="sc-lbl"><div class="sc-dot on"></div>Latency</div>
+        <div class="sc-val fc" id="lat">—ms</div>
+        <div class="sc-sub">combined p50</div>
+      </div>
+      <div class="sc">
+        <div class="sc-lbl"><div class="sc-dot on"></div>Free Claude</div>
+        <div class="sc-val fg">Live</div>
+        <div class="sc-sub">nemo-3-super · :8082</div>
+      </div>
+    </div>
+
+    <!-- II — Agents -->
+    <div class="sec"><span class="sec-n">II</span> — Agents · Click to open control room <span class="sec-l"></span></div>
+    <div class="agent-grid">
+
+      <div class="ac" onclick="openModal('claude')">
+        <span class="ac-badge b-on">● Online</span>
+        <div class="ac-av">🤖</div>
+        <div class="ac-name">Claude</div>
+        <div class="ac-desc">Direct streaming line to Claude Code. Full tool use, MCPs, vault reads.</div>
+        <div class="ac-meta">
+          <div class="ac-mi"><span class="ac-mk">Version</span><span class="ac-mv">Sonnet 4.6</span></div>
+          <div class="ac-mi"><span class="ac-mk">Latency</span><span class="ac-mv" id="c-lat">352ms</span></div>
+        </div>
+        <button class="ac-btn">Open Control Room →</button>
+      </div>
+
+      <div class="ac" onclick="openModal('openclaw')">
+        <span class="ac-badge b-off">○ Offline</span>
+        <div class="ac-av">🦞</div>
+        <div class="ac-name">OpenClaw</div>
+        <div class="ac-desc">Local agent gateway. Chat one-shot or open the control room.</div>
+        <div class="ac-meta">
+          <div class="ac-mi"><span class="ac-mk">Agents</span><span class="ac-mv">0</span></div>
+          <div class="ac-mi"><span class="ac-mk">Sessions</span><span class="ac-mv">0</span></div>
+        </div>
+        <button class="ac-btn">Start OpenClaw →</button>
+      </div>
+
+      <div class="ac" onclick="openModal('hermes')">
+        <span class="ac-badge b-on">● Online</span>
+        <div class="ac-av">⚡</div>
+        <div class="ac-name">Hermes</div>
+        <div class="ac-desc">Nous Research agent. Tool calls, kanban, skills, plugins.</div>
+        <div class="ac-meta">
+          <div class="ac-mi"><span class="ac-mk">Model</span><span class="ac-mv">minimax-m3</span></div>
+          <div class="ac-mi"><span class="ac-mk">Provider</span><span class="ac-mv">cloud</span></div>
+        </div>
+        <button class="ac-btn">Open Control Room →</button>
+      </div>
+
+      <div class="ac" onclick="openModal('notebook')">
+        <span class="ac-badge b-on">● Online</span>
+        <div class="ac-av">📓</div>
+        <div class="ac-name">NotebookLM</div>
+        <div class="ac-desc">Zero-hallucination RAG. Business + personal. 104 sources indexed.</div>
+        <div class="ac-meta">
+          <div class="ac-mi"><span class="ac-mk">Sources</span><span class="ac-mv">104</span></div>
+          <div class="ac-mi"><span class="ac-mk">Profile</span><span class="ac-mv">Business</span></div>
+        </div>
+        <button class="ac-btn">Open Notebooks →</button>
+      </div>
+
+      <div class="ac" onclick="openModal('paperclip')">
+        <span class="ac-badge b-on">● Online</span>
+        <div class="ac-av">📎</div>
+        <div class="ac-name">Paperclip</div>
+        <div class="ac-desc">AI company OS — departments, agents, task board at :3100.</div>
+        <div class="ac-meta">
+          <div class="ac-mi"><span class="ac-mk">Port</span><span class="ac-mv">:3100</span></div>
+          <div class="ac-mi"><span class="ac-mk">Mode</span><span class="ac-mv">Live</span></div>
+        </div>
+        <button class="ac-btn">Open Paperclip →</button>
+      </div>
+
+      <div class="ac" onclick="openModal('fcc')">
+        <span class="ac-badge b-live">● Live</span>
+        <div class="ac-av">🚀</div>
+        <div class="ac-name">Free Claude</div>
+        <div class="ac-desc">fcc-server proxy on :8082. Routes Claude CLI via OpenRouter.</div>
+        <div class="ac-meta">
+          <div class="ac-mi"><span class="ac-mk">Port</span><span class="ac-mv">:8082</span></div>
+          <div class="ac-mi"><span class="ac-mk">Model</span><span class="ac-mv">haiku-4-5</span></div>
+        </div>
+        <button class="ac-btn">Open Dashboard →</button>
+      </div>
+
+    </div>
+
+    <!-- III — Kanban -->
+    <div class="sec"><span class="sec-n">III</span> — Active Task Board <span class="sec-l"></span></div>
+    <div class="kanban">
+      <div class="kc">
+        <div class="kc-h">Queued <span class="kc-n">3</span></div>
+        <div class="kt"><div class="kt-tag">Obsidian</div>Register omni-processor with Hermes CLI</div>
+        <div class="kt c"><div class="kt-tag">NotebookLM</div>Connect business + personal accounts</div>
+        <div class="kt"><div class="kt-tag">MCP</div>Add MCP sidebar panel to OS</div>
+      </div>
+      <div class="kc">
+        <div class="kc-h">In Progress <span class="kc-n">2</span></div>
+        <div class="kt c"><div class="kt-tag">Hermes</div>Run hermes portal → Nous Portal</div>
+        <div class="kt c"><div class="kt-tag">Branding</div>Verify colors in Obsidian preview</div>
+      </div>
+      <div class="kc">
+        <div class="kc-h">Review <span class="kc-n">2</span></div>
+        <div class="kt w"><div class="kt-tag">Security</div>Rotate OpenRouter API key</div>
+        <div class="kt w"><div class="kt-tag">Cleanup</div>Delete source.bak 1.7GB — confirm</div>
+      </div>
+      <div class="kc">
+        <div class="kc-h">Done ✓ <span class="kc-n">6</span></div>
+        <div class="kt d"><div class="kt-tag">Vault</div>CLAUDE.md at vault root ✓</div>
+        <div class="kt d"><div class="kt-tag">Playbook</div>v2.1 — 22 frameworks ✓</div>
+        <div class="kt d"><div class="kt-tag">Firewall</div>445 fixes · 0 criticals ✓</div>
+        <div class="kt d"><div class="kt-tag">Catalog</div>1,278 templates indexed ✓</div>
+        <div class="kt d"><div class="kt-tag">Paperclip</div>Live at :3100 ✓</div>
+        <div class="kt d"><div class="kt-tag">Terminal</div>LAUNCH_CLAUDE_CODE.bat ✓</div>
+      </div>
+    </div>
+
+    <!-- IV — Log -->
+    <div class="sec"><span class="sec-n">IV</span> — System Log · Outbox Output <span class="sec-l"></span></div>
+    <div class="log">
+      <div class="lr"><span class="lt" id="l1">—</span><span class="lok">[firewall] PASS — 445 lexicon auto-fixed · 0 green critical remaining</span></div>
+      <div class="lr"><span class="lt" id="l2">—</span><span class="lok">[catalog] rebuilt → 12 skills · 1,278 templates</span></div>
+      <div class="lr"><span class="lt" id="l3">—</span><span class="lok">[atlas] INDEX → 104 files reconciled</span></div>
+      <div class="lr"><span class="lt" id="l4">—</span><span class="lok">[playbook] MASTER_PLAYBOOK v2.1 → 22 frameworks merged</span></div>
+      <div class="lr"><span class="lt" id="l5">—</span><span class="lok">[skill] omni-processor extracted → hermes_skills/</span></div>
+      <div class="lr"><span class="lt" id="l6">—</span><span class="lok">[cleanup] 6 green-violation reference files deleted</span></div>
+      <div class="lr"><span class="lt" id="l7">—</span><span class="lwrn">[outbox] 2026-06-29_MASTER_PLAYBOOK_PATCH_v2.1.md · ⏸ PAUSED</span></div>
+      <div class="lr"><span class="lt" id="l8">—</span><span class="lwrn">[security] Rotate OpenRouter API key · PENDING</span></div>
+    </div>
+
+  </main>
+</div>
+
+<!-- CREDBAR -->
+<div class="credbar">
+  <div class="creds">
+    <div class="ci"><span class="ck">Company</span><span class="cv">Pineapple Contractors</span></div>
+    <div class="cs"></div>
+    <div class="ci"><span class="ck">RCAT</span><span class="cv">#03-0637</span></div>
+    <div class="cs"></div>
+    <div class="ci"><span class="ck">Cert</span><span class="cv">IKO Certified RoofPro</span></div>
+    <div class="cs"></div>
+    <div class="ci"><span class="ck">Rating</span><span class="cv">★★★★★ 5-Star</span></div>
+    <div class="cs"></div>
+    <div class="ci"><span class="ck">Est.</span><span class="cv">Since 2005</span></div>
+    <div class="cs"></div>
+    <div class="ci"><span class="ck">Phone</span><span class="cv">972-928-0788</span></div>
+  </div>
+  <div class="outbox">⏸ OUTBOX SHIELD — No agent publishes without Saia's GO</div>
+</div>
+
+<!-- MODAL -->
+<div class="modal-bg" id="modal" onclick="closeModal(event)">
+  <div class="modal-box">
+    <div class="modal-ttl" id="m-ttl"></div>
+    <div class="modal-body" id="m-body"></div>
+    <button class="modal-cls" onclick="closeModal()">Close ✕</button>
+  </div>
+</div>
+
+<script>
+// Clock
+function tick() {
+  const f = {timeZone:'America/Chicago',hour:'2-digit',minute:'2-digit',second:'2-digit',hour12:false};
+  const f2 = {timeZone:'America/Chicago',hour:'2-digit',minute:'2-digit',hour12:false};
+  document.getElementById('tb-clk').textContent = new Intl.DateTimeFormat('en-US',f).format(new Date());
+  document.getElementById('pg-time').textContent = new Intl.DateTimeFormat('en-US',f2).format(new Date());
+}
+setInterval(tick,1000); tick();
+
+// Heartbeat / latency
+let hb=2;
+setInterval(()=>{
+  hb++;
+  document.getElementById('hb').textContent=hb;
+  const ms=Math.round(180+Math.random()*320);
+  document.getElementById('lat').textContent=ms+'ms';
+  document.getElementById('c-lat').textContent=ms+'ms';
+},4000);
+
+// Stamp log times
+const ts=new Intl.DateTimeFormat('en-US',{timeZone:'America/Chicago',hour:'2-digit',minute:'2-digit',second:'2-digit',hour12:false}).format(new Date());
+for(let i=1;i<=8;i++){const e=document.getElementById('l'+i);if(e)e.textContent=ts+' ·';}
+
+// Nav
+function setActive(el){document.querySelectorAll('.nav-link').forEach(e=>e.classList.remove('active'));el.classList.add('active');}
+
+// Modals
+const MD={
+  claude:    ['Claude — AI Architect','Model: claude-sonnet-4-6\nVault: C:\\Pineapple Contractors M7\\\nSOPs: M7_MASTER_SOP.md + SHARED_MEMORY.md\n\nLaunch: LAUNCH_CLAUDE_CODE.bat'],
+  hermes:    ['Hermes — Multi-Agent Daemon','3 profiles: roofing · marketing · content\n\nActivate: hermes chat --profile roofing\nPortal: hermes portal'],
+  openclaw:  ['OpenClaw — Local Gateway','Currently offline.\n\nProvides chat one-shot + browser automation.\nLauncher: 04_Tech_Lab/scripts/'],
+  paperclip: ['Paperclip — AI Company OS','Live at http://127.0.0.1:3100\n\nNext: set up Pineapple Roofing org chart with departments wired to Outbox Shield.'],
+  notebook:  ['NotebookLM — Zero-Hallucination RAG','Business: saia@pineappleroofingllc.com\nPersonal: smoeprivate1@gmail.com\n\n104 M7 files indexed.\nSwitch: nlm login switch <profile>'],
+  fcc:       ['Free Claude Proxy — :8082','Routes Claude CLI → OpenRouter.\n\nConfig: C:\\Users\\estim\\.fcc\\.env\n\n⚠ REQUIRED: Rotate OpenRouter API key at openrouter.ai/keys — visible in screenshot.'],
+};
+function openModal(k){
+  const d=MD[k];if(!d)return;
+  document.getElementById('m-ttl').textContent=d[0];
+  document.getElementById('m-body').innerHTML=d[1].replace(/\n/g,'<br>');
+  document.getElementById('modal').classList.add('open');
+}
+function closeModal(e){if(!e||e.target===document.getElementById('modal'))document.getElementById('modal').classList.remove('open');}
+</script>
+</body>
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🍍 M7 Agent Board — Command Fallback</title>
+<style>
+  :root{
+    --navy:#1A365D; --navy2:#0e2440; --gold:#FBC02D; --cyan:#00BFFF;
+    --ink:#16202e; --paper:#f3f6fb; --line:#cdd7e5; --muted:#5b6b82;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;font-family:'Segoe UI',Arial,sans-serif;}
+  body{background:linear-gradient(160deg,#0b1b30,#16304f);color:var(--ink);min-height:100vh;padding:18px;}
+  header{display:flex;align-items:center;gap:14px;margin-bottom:6px;color:#fff;}
+  header .logo{font-size:30px;}
+  header h1{font-size:20px;letter-spacing:.5px;}
+  header h1 span{color:var(--gold);}
+  .sub{color:#aebfd6;font-size:12px;margin:2px 0 14px 44px;}
+  .bar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:0 0 14px 0;}
+  .bar input{flex:1;min-width:200px;padding:9px 12px;border-radius:8px;border:1px solid #28456b;background:#0e2440;color:#fff;font-size:13px;}
+  .btn{background:var(--gold);color:var(--navy);border:none;padding:9px 14px;border-radius:8px;font-weight:700;cursor:pointer;font-size:13px;}
+  .btn.ghost{background:transparent;color:#cfe0f5;border:1px solid #345680;}
+  .legend{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px;}
+  .chip{font-size:11px;padding:3px 9px;border-radius:20px;color:#fff;font-weight:600;}
+  .board{display:grid;grid-template-columns:repeat(6,minmax(190px,1fr));gap:12px;overflow-x:auto;padding-bottom:20px;}
+  .col{background:var(--paper);border-radius:12px;border-top:4px solid var(--cyan);display:flex;flex-direction:column;min-height:120px;}
+  .col h2{font-size:12.5px;color:var(--navy);padding:10px 12px 6px;display:flex;justify-content:space-between;align-items:center;}
+  .col h2 .count{background:var(--navy);color:#fff;border-radius:12px;font-size:10px;padding:1px 7px;}
+  .cards{padding:6px 8px 10px;display:flex;flex-direction:column;gap:7px;flex:1;min-height:40px;}
+  .card{background:#fff;border:1px solid var(--line);border-left:4px solid var(--navy);border-radius:8px;padding:8px 9px;font-size:12.5px;cursor:grab;box-shadow:0 1px 2px rgba(0,0,0,.05);}
+  .card:active{cursor:grabbing;}
+  .card .tags{margin-top:5px;display:flex;gap:4px;flex-wrap:wrap;}
+  .card .x{float:right;color:#b3441f;cursor:pointer;font-weight:700;margin-left:6px;}
+  .tag{font-size:9.5px;padding:1px 6px;border-radius:10px;color:#fff;font-weight:600;}
+  .col.dragover{outline:2px dashed var(--gold);outline-offset:-4px;}
+  .add{margin:0 8px 10px;background:transparent;border:1px dashed #9fb3cf;color:var(--muted);border-radius:8px;padding:6px;font-size:12px;cursor:pointer;}
+  footer{color:#9fb3cf;font-size:11px;margin-top:8px;text-align:center;}
+  /* agent colors (no green anywhere) */
+  .a-Hermes{background:#FBC02D;color:#1A365D!important;}
+  .a-ClaudeCode{background:#1A365D;}
+  .a-NotebookLM{background:#7a4ed6;}
+  .a-Paperclip{background:#00BFFF;color:#06283d!important;}
+  .a-Firewall{background:#b3441f;}
+  .a-Saia{background:#445;}
+</style>
+</head>
+<body>
+  <header>
+    <div class="logo">🍍</div>
+    <h1>PINEAPPLE M7 — <span>AGENT BOARD</span></h1>
+  </header>
+  <div class="sub">Server-Complimentary command fallback · drag cards across lanes · saves to this browser · The Pineapple Standard · IKO · no green</div>
+
+  <div class="bar">
+    <input id="newcard" placeholder="Type a task, then pick an agent and Add…">
+    <select id="agent" class="btn ghost" style="background:#0e2440;color:#fff;">
+      <option>Hermes</option><option>ClaudeCode</option><option>NotebookLM</option>
+      <option>Paperclip</option><option>Firewall</option><option>Saia</option>
+    </select>
+    <button class="btn" onclick="addCard()">+ Add to Backlog</button>
+    <button class="btn ghost" onclick="resetBoard()">Reset to defaults</button>
+  </div>
+
+  <div class="legend">
+    <span class="chip a-Hermes">Hermes — orchestrator</span>
+    <span class="chip a-ClaudeCode">Claude Code — builder</span>
+    <span class="chip a-NotebookLM">NotebookLM — research</span>
+    <span class="chip a-Paperclip">Paperclip — repurpose</span>
+    <span class="chip a-Firewall">Firewall — compliance</span>
+    <span class="chip a-Saia">Saia — human approve</span>
+  </div>
+
+  <div class="board" id="board"></div>
+  <footer>Local fallback view. Nothing here publishes — Outbox lane = PAUSED, awaiting your go. Ko e hala 'o e fononga ko e faka'apa'apa.</footer>
+
+<script>
+const COLS = ["📥 Backlog","🔎 Research","✍️ Drafting","🛡️ Compliance","⏸️ Outbox (PAUSED)","✅ Done"];
+const DEFAULTS = [
+  {t:"Week 1 social captions — 3 pillars", a:"Hermes", c:0},
+  {t:"Repurpose VSL → 6 short cuts", a:"Paperclip", c:0},
+  {t:"FAQ-schema pages (Campaign §5)", a:"ClaudeCode", c:0},
+  {t:"Frisco hail + storm data (30 days)", a:"NotebookLM", c:1},
+  {t:"Avatar refresh from CRM enrichment", a:"ClaudeCode", c:1},
+  {t:"Daily review-request texts", a:"Hermes", c:2},
+  {t:"Denial Sniper drafts on denied claims", a:"Hermes", c:2},
+  {t:"Run firewall --fix on captions", a:"Firewall", c:3},
+  {t:"Verify: no green · CPPA · IKO · phone", a:"Firewall", c:3},
+  {t:"30-Day Gameplan", a:"Hermes", c:4},
+  {t:"Storm Launch campaign ($250/wk)", a:"Saia", c:4},
+  {t:"Integrated Campaign built + firewall PASS", a:"ClaudeCode", c:5},
+  {t:"CRM rebuilt · Airtable retired · 5 loops rewired", a:"ClaudeCode", c:5},
+];
+const KEY="m7_agent_board_v1";
+let data = load();
+
+function load(){ try{const s=localStorage.getItem(KEY); if(s) return JSON.parse(s);}catch(e){} return JSON.parse(JSON.stringify(DEFAULTS)); }
+function save(){ localStorage.setItem(KEY, JSON.stringify(data)); }
+function resetBoard(){ if(confirm("Reset the board to defaults?")){ data=JSON.parse(JSON.stringify(DEFAULTS)); save(); render(); } }
+
+function addCard(){
+  const t=document.getElementById('newcard').value.trim();
+  const a=document.getElementById('agent').value;
+  if(!t) return;
+  data.push({t, a, c:0});
+  document.getElementById('newcard').value="";
+  save(); render();
+}
+function delCard(i){ data.splice(i,1); save(); render(); }
+
+function render(){
+  const board=document.getElementById('board');
+  board.innerHTML="";
+  COLS.forEach((name,ci)=>{
+    const col=document.createElement('div'); col.className='col'; col.dataset.col=ci;
+    const items=data.map((d,i)=>({d,i})).filter(o=>o.d.c===ci);
+    col.innerHTML=`<h2>${name}<span class="count">${items.length}</span></h2>`;
+    const cards=document.createElement('div'); cards.className='cards';
+    items.forEach(({d,i})=>{
+      const card=document.createElement('div'); card.className='card'; card.draggable=true; card.dataset.idx=i;
+      card.innerHTML=`<span class="x" onclick="delCard(${i})">✕</span>${d.t}<div class="tags"><span class="tag a-${d.a}">${d.a}</span></div>`;
+      card.addEventListener('dragstart',e=>{e.dataTransfer.setData('text/plain',i);});
+      cards.appendChild(card);
+    });
+    col.appendChild(cards);
+    col.addEventListener('dragover',e=>{e.preventDefault();col.classList.add('dragover');});
+    col.addEventListener('dragleave',()=>col.classList.remove('dragover'));
+    col.addEventListener('drop',e=>{
+      e.preventDefault();col.classList.remove('dragover');
+      const idx=+e.dataTransfer.getData('text/plain');
+      if(!isNaN(idx)){ data[idx].c=ci; save(); render(); }
+    });
+    board.appendChild(col);
+  });
+}
+render();
+</script>
+</body>
+</html>

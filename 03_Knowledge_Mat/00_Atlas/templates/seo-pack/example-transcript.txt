@@ -1,0 +1,60 @@
+Example transcript — this is what your transcript files should look like.
+
+Save each transcript as a plain .txt file inside your main site's `.claude/transcripts/` folder. Use a lowercase, hyphen-separated slug as the filename. For example: `hermes-second-brain.txt`, `openclaw-mission-control.txt`, or `claude-code-seo-agent.txt`.
+
+The filename slug becomes the article URL when Claude writes the post.
+
+The content can be a raw video transcript or a polished version — Claude reads the whole thing and pulls out the key features, numbers, examples, and terminology.
+
+Below is a sample transcript snippet so you can see the format. Yours will be much longer (a typical 10-minute video transcript is 1,500-2,500 words).
+
+─── SAMPLE TRANSCRIPT BELOW ──────────────────────────────────────────────────
+
+Hey everyone, Julian here. Today I want to show you Hermes Second Brain — the new memory system that turns Hermes into a persistent AI assistant that actually remembers everything.
+
+So the problem with most AI agents is they forget. You start a session, you tell them everything about you and your work, and then the next session it's like you've never met. Frustrating.
+
+Hermes Second Brain fixes that. It runs locally on your machine. It indexes every conversation. It builds a vector store. And then when you start a new chat, it pulls relevant memories from your past automatically.
+
+I've been running it for three weeks now. Here's what I've found.
+
+First, the setup is dead simple. You install it via the Hermes CLI with one command. It creates a local SQLite database in your Hermes home folder. No cloud. No accounts. Nothing leaves your machine.
+
+Second, the memory recall is fast. Sub-100ms queries on a database with 1,200+ entries. You don't notice any lag in the chat.
+
+Third — and this is the killer feature — it works across all your Hermes sessions. So I can have a coding session in the morning. A planning session at lunch. A research session in the evening. And the next day, Hermes pulls context from all three.
+
+Here's a concrete example. Last week I was building a new feature. I asked Hermes "what was that library I was using for the kanban board?" Three weeks ago I'd told it I was using DragDropContext. It pulled that memory back instantly. No context dump, no re-explanation needed.
+
+The technical setup: it uses local embeddings via the all-MiniLM-L6-v2 model. 384 dimensions. Stored as quantised int8 to save space. The full memory store for 1,200 entries is about 4MB on disk.
+
+If you want to try it: hermes second-brain init in your terminal. That's it. It starts indexing automatically. Within an hour you'll have a working second brain.
+
+For people in the AI Profit Boardroom, I've put together a setup guide that walks you through every step plus how to integrate it with the Agentic OS dashboard so you can search your second brain from a beautiful UI.
+
+That's it for today. If this video was useful, hit subscribe. And if you want the full setup with everything wired together, AIPB is the place.
+
+─── END SAMPLE ──────────────────────────────────────────────────────────────
+
+Notice the structure:
+
+- Clear opening that sets the problem
+- Personal experience and stats ("three weeks", "1,200+ entries", "sub-100ms")
+- Concrete example ("last week I was building a feature…")
+- Technical details ("all-MiniLM-L6-v2", "384 dimensions", "4MB")
+- One-line CTA at the end
+
+When Claude reads this, it picks up:
+
+- The product name → "Hermes Second Brain"
+- The benefit → "persistent memory that works across sessions"
+- The stats → "1,200 entries, 4MB, sub-100ms, three weeks of use"
+- The technical specs → "local SQLite, all-MiniLM-L6-v2 embeddings"
+- The setup command → "hermes second-brain init"
+- The CTA → AIPB membership
+
+It then uses ALL of these in the 5 unique blog posts it writes.
+
+Your transcripts should aim for the same quality. Concrete. Specific. Numbers. Real examples. Real commands. Real outcomes.
+
+If your transcript is vague, your blog posts will be vague. Garbage in, garbage out.

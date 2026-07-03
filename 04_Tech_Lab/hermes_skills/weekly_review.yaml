@@ -1,0 +1,26 @@
+name: weekly_review
+description: Monday "track and double down" loop. Pulls last-week lead + ad data, applies the 1% Kill / 1.5% Scale rules, and writes a one-page decision brief PAUSED for the owner.
+version: 1.0
+owner: hermes
+schedule: "weekly MON 08:00"
+grounding:
+  - 01_Command_Center/MASTER_PLAYBOOK.md
+  - 01_Command_Center/SPEND_CONTROL.md
+  - 02_Workspaces/Pineapple_Mana_Master_CRM_M7.xlsx
+steps:
+  - pull: last 7 days from CRM Google_LSA_Leads + Attribution + Meta_Ads tabs.
+  - score: run m7_scoring.py on the week's creatives (1% Kill < 1.0% CTR; 1.5% Scale > 1.5% CTR & CPL < $50).
+  - compute: per source — leads, CPPAs booked, jobs signed, $ signed, cost per signed job.
+  - decide: name the WINNING source (lowest cost per signed job) and the LAGGARD to cut.
+  - write: a one-page brief to 01_Command_Center/Outbox_Drafts/YYYY-MM-DD_Weekly_Review.md with:
+      reviews gained, leads not contacted <5min (flag), creatives to PAUSE, creatives to SCALE +15%,
+      and the single budget move for the week.
+  - log: append to 04_Tech_Lab/logs/weekly_review_log.json.
+outputs:
+  brief: PAUSED weekly decision brief (owner approves the budget move).
+guardrails:
+  - Recommends budget shifts; does NOT change live spend. Human executes in Meta/LSA.
+  - Track cost per SIGNED JOB, not per click.
+closing: "Ko e hala 'o e fononga ko e faka'apa'apa."
+
+# M7-FIREWALL-EXEMPT: governance-reference

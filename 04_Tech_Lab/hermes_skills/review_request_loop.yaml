@@ -1,0 +1,33 @@
+name: review_request_loop
+description: Daily loop that drafts a Google review request for every completed job and stages it PAUSED for human send. Protects + compounds the 5.0-star review asset (top driver of LSA + Maps rank).
+version: 1.0
+owner: hermes
+schedule: "daily 18:00"   # after the work day
+grounding:
+  - 03_Knowledge_Mat/GROUNDING.md
+  - 01_Command_Center/MASTER_PLAYBOOK.md
+  - 01_Command_Center/M7_LEAD_ENGINE.md
+inputs:
+  crm:
+    type: source
+    description: CRM Google_LSA_Leads + Master_Lead_Tracker (jobs with Lead Status = Completed).
+  review_link:
+    type: string
+    description: Google Business Profile review short-link (paste once).
+steps:
+  - find: jobs marked "Completed" in the CRM since the last run (dedupe on phone/address).
+  - draft: for each, the same-day review-request text from M7_LEAD_ENGINE.md, personalized with first name + the review_link.
+  - audit: run brand_firewall rules (no banned terms, no green).
+  - stage: write each as a PAUSED draft to 01_Command_Center/Outbox_Drafts/ named YYYY-MM-DD_Review_<Name>.md
+  - log: append to 04_Tech_Lab/logs/review_loop_log.json (job, drafted_at, status=PAUSED).
+  - report: list the drafts for human approval. DO NOT SEND.
+outputs:
+  drafts: PAUSED review-request texts in Outbox_Drafts/
+  followups: a 3-day nudge draft if no review recorded (Review Left? = No)
+guardrails:
+  - delivery_state always PAUSED; a human sends from their phone (Outbox Shield).
+  - Ask 100% of completed jobs; never re-ask the same customer within 14 days.
+  - Reply-to-every-review is a separate human task (good and bad reviews).
+closing: "Ko e hala 'o e fononga ko e faka'apa'apa."
+
+# M7-FIREWALL-EXEMPT: governance-reference

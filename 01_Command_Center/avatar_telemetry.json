@@ -1,0 +1,17 @@
+{
+  "local_fan": {
+    "ctr": 0.6,
+    "cpl": 70,
+    "status": "PAUSE (1% Kill)"
+  },
+  "culture_seeker": {
+    "ctr": 1.9,
+    "cpl": 38,
+    "status": "SCALE (+15%)"
+  },
+  "founders_circle": {
+    "ctr": 1.2,
+    "cpl": 120,
+    "status": "HOLD"
+  }
+}

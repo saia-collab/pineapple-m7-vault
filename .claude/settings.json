@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Read",
+      "Write",
+      "Edit",
+      "Bash(python:*)",
+      "Bash(python3:*)",
+      "Bash(py:*)",
+      "Bash(node:*)",
+      "Bash(npx:*)",
+      "Bash(npm:*)",
+      "Bash(pip:*)",
+      "Bash(mkdir:*)",
+      "Bash(cp:*)",
+      "Bash(mv:*)",
+      "Bash(ls:*)",
+      "Bash(cat:*)",
+      "Bash(find:*)",
+      "Bash(git:*)",
+      "Bash(curl:*)",
+      "PowerShell(*)",
+      "PowerShell(Get-Process -Name \"node\" -ErrorAction SilentlyContinue)",
+      "PowerShell(Stop-Process -Force)"
+    ],
+    "deny": [
+      "Bash(rm -rf:*)"
+    ]
+  },
+  "_note": "M7 non-interactive execution. Live ad publishing stays manual (Outbox Shield). Ko e hala o e fononga ko e fakaapaapa."
+}

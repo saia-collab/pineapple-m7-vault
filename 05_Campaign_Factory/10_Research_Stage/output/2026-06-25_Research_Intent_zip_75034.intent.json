@@ -1,0 +1,73 @@
+{
+  "stage": "10_Research_Stage",
+  "envelope_state": "DRAFT",
+  "next_state_on_completion": "READY",
+  "generated": "2026-06-25",
+  "target_zip": "75034",
+  "zone": "frisco_core",
+  "score": 90,
+  "service_region": {
+    "zips_core": [
+      "75033",
+      "75034",
+      "75035"
+    ],
+    "zips_wider": [
+      "75067",
+      "75068"
+    ]
+  },
+  "keywords": [
+    "hail damage",
+    "frisco storm roofer",
+    "property manager",
+    "insurance claim"
+  ],
+  "competitor_url": null,
+  "rubric_dimensions": [
+    {
+      "id": "geo_anchor",
+      "label": "Geographic anchor (Frisco core ZIP)",
+      "weight": 25,
+      "score": 25,
+      "ground": "GROUNDING.md \u00a74 + MASTER_PLAYBOOK.md (Regional Expansion Vectors)"
+    },
+    {
+      "id": "storm_recency",
+      "label": "Storm / hail recency in the window",
+      "weight": 20,
+      "score": 20,
+      "ground": "MASTER_PLAYBOOK.md Lead Matrix: +20 storm mention"
+    },
+    {
+      "id": "credential_match",
+      "label": "Credential match (RCAT + IKO surface)",
+      "weight": 15,
+      "score": 15,
+      "ground": "CLAUDE.md \u00a72.4 + MASTER_PLAYBOOK.md (required credentials)"
+    },
+    {
+      "id": "intent_class",
+      "label": "Search intent class (informational / commercial / transactional)",
+      "weight": 15,
+      "score": 15,
+      "ground": "<<VERIFY \u2014 Saia to confirm rubric vs. M7_INTEGRATED_CAMPAIGN.md \u00a72>>"
+    },
+    {
+      "id": "lexicon_safety",
+      "label": "Lexicon safety (CPPA / FRC substitution fit)",
+      "weight": 15,
+      "score": 15,
+      "ground": "CLAUDE.md \u00a72.1 + GROUNDING.md banned lexicon"
+    },
+    {
+      "id": "competitor_gap",
+      "label": "Competitor / SERP gap (citation bait surface)",
+      "weight": 10,
+      "score": 0,
+      "ground": "<<VERIFY \u2014 competitor scrape step not yet run on live SERP>>"
+    }
+  ],
+  "firewall_status": "PASS",
+  "outbox_shield": "PAUSED"
+}

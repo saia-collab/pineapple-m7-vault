@@ -1,0 +1,23 @@
+{
+  "id": "conv-1782096051700-5froi218s",
+  "providerId": "claude",
+  "title": "Resolve Open Brand Firewall & Catalog Tasks",
+  "titleGenerationStatus": "success",
+  "createdAt": 1782096051708,
+  "updatedAt": 1782783730120,
+  "lastResponseAt": 1782783592865,
+  "sessionId": "b3cc0972-8ba8-49d0-b894-a61f8b03d069",
+  "providerState": {
+    "providerSessionId": "b3cc0972-8ba8-49d0-b894-a61f8b03d069"
+  },
+  "currentNote": "01_Command_Center/dashboard.md",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 0,
+    "percentage": 0
+  }
+}
