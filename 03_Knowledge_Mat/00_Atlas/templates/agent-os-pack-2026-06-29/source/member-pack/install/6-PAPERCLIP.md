@@ -31,7 +31,7 @@ Want a ready-made impressive company? Ask Claude (in this folder) to *"build me 
 ## Good to know
 - **Costs are capped.** You set a monthly budget per agent. When it hits the limit, it stops — no runaway bills.
 - **Keep it calm.** Don't wake all agents at once on a small machine — run a few at a time so it stays smooth.
-- **Hermes agents are Complimentary** if you point them at a local model.
+- **Hermes agents are free** if you point them at a local model.
 
 ## Done?
 Last optional piece: plug in your favorite agents → **`7-AGENT-CLIS.md`**.

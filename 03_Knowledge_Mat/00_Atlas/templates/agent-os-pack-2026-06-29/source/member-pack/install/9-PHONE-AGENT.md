@@ -24,7 +24,7 @@ API_SERVER_PORT=8642
 ```
 *(For the random string, run `openssl rand -hex 24` and paste the result.)* This turns on the little endpoint that ElevenLabs calls.
 
-**2. Pin a FAST model (this matters).** A phone call needs quick, reliable replies. **Don't** use a slow "thinking" model or a Complimentary tier — you'll hear silence mid-call. In `~/.hermes/profiles/main/config.yaml` set a fast model as the default (e.g. a Grok "fast" model, or Claude Haiku).
+**2. Pin a FAST model (this matters).** A phone call needs quick, reliable replies. **Don't** use a slow "thinking" model or a free tier — you'll hear silence mid-call. In `~/.hermes/profiles/main/config.yaml` set a fast model as the default (e.g. a Grok "fast" model, or Claude Haiku).
 
 **3. Apply it:** `hermes gateway restart`
 

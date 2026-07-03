@@ -773,7 +773,7 @@ const CRAB_KEYFRAMES = `
 @keyframes claw-wave-r { 0%,100%{transform:rotate(15deg)} 25%{transform:rotate(45deg)} 75%{transform:rotate(5deg)} }
 @keyframes mouth-talk { 0%,100%{transform:scaleY(0.3)} 30%{transform:scaleY(1)} 60%{transform:scaleY(0.5)} 80%{transform:scaleY(1)} }
 @keyframes eye-blink { 0%,90%,100%{opacity:1} 95%{opacity:0.2} }
-@keyframes eye-cycle { 0%{fill:#5ab896} 33%{fill:#60a5fa} 66%{fill:#f472b6} 100%{fill:#5ab896} }
+@keyframes eye-cycle { 0%{fill:#00BFFF} 33%{fill:#60a5fa} 66%{fill:#f472b6} 100%{fill:#00BFFF} }
 @keyframes antenna-spin { 0%{transform:rotate(0)} 100%{transform:rotate(360deg)} }
 @keyframes antenna-pulse { 0%,100%{transform:scale(1);opacity:1} 50%{transform:scale(1.4);opacity:0.6} }
 @keyframes pulse-ring { 0%{transform:scale(0.7);opacity:0.7} 100%{transform:scale(1.6);opacity:0} }
@@ -856,8 +856,8 @@ function CrazyCrabRobot({ stage, size = 100 }: { stage: TalkStage; size?: number
 
           {/* LED EYES */}
           <g style={{ animation: eyeAnim }}>
-            <circle cx="50" cy="63" r="3.5" fill="#5ab896" />
-            <circle cx="70" cy="63" r="3.5" fill="#5ab896" />
+            <circle cx="50" cy="63" r="3.5" fill="#00BFFF" />
+            <circle cx="70" cy="63" r="3.5" fill="#00BFFF" />
             <circle cx="50" cy="63" r="1" fill="#fff" />
             <circle cx="70" cy="63" r="1" fill="#fff" />
           </g>

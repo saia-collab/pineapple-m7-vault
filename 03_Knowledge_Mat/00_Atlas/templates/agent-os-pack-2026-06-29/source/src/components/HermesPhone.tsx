@@ -97,19 +97,19 @@ export default function HermesPhone() {
       {/* ───────── HERO ───────── */}
       <div className="relative overflow-hidden rounded-3xl p-8 text-center"
         style={{ background: live
-          ? "radial-gradient(120% 120% at 50% 0%, rgba(52,211,153,0.18), rgba(15,16,25,0.6) 60%)"
+          ? "radial-gradient(120% 120% at 50% 0%, rgba(0,191,255,0.18), rgba(15,16,25,0.6) 60%)"
           : "radial-gradient(120% 120% at 50% 0%, rgba(96,165,250,0.18), rgba(124,58,237,0.10) 40%, rgba(15,16,25,0.6) 70%)",
           border: "1px solid var(--panel-border)" }}>
         {/* pulse rings */}
         <div className="relative mx-auto mb-4 grid place-items-center" style={{ width: 110, height: 110 }}>
           {[0, 1, 2].map((i) => (
             <motion.span key={i} className="absolute rounded-full"
-              style={{ width: 70, height: 70, border: `2px solid ${live ? "#34d399" : "#60a5fa"}` }}
+              style={{ width: 70, height: 70, border: `2px solid ${live ? "#00BFFF" : "#60a5fa"}` }}
               animate={{ scale: [1, 2.1], opacity: [0.5, 0] }}
               transition={{ duration: 2.4, repeat: Infinity, delay: i * 0.8, ease: "easeOut" }} />
           ))}
           <motion.div className="relative grid place-items-center rounded-full"
-            style={{ width: 70, height: 70, background: live ? "linear-gradient(135deg,#34d399,#10b981)" : "linear-gradient(135deg,#60a5fa,#7c3aed)", color: "#fff", boxShadow: `0 8px 40px -6px ${live ? "#34d399" : "#7c3aed"}` }}
+            style={{ width: 70, height: 70, background: live ? "linear-gradient(135deg,#00BFFF,#00BFFF)" : "linear-gradient(135deg,#60a5fa,#7c3aed)", color: "#fff", boxShadow: `0 8px 40px -6px ${live ? "#00BFFF" : "#7c3aed"}` }}
             animate={working ? { rotate: [0, 8, -8, 0] } : {}} transition={{ duration: 1, repeat: working ? Infinity : 0 }}>
             {live ? <PhoneCall size={30} /> : <Phone size={30} />}
           </motion.div>
@@ -131,8 +131,8 @@ export default function HermesPhone() {
 
         {/* state pill */}
         <div className="mt-3 inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-[12.5px]"
-          style={{ background: live ? "rgba(52,211,153,0.15)" : "rgba(255,255,255,0.05)", border: `1px solid ${live ? "rgba(52,211,153,0.5)" : "var(--panel-border)"}`, color: live ? "#34d399" : "var(--fg-dim)" }}>
-          {live ? (<><span className="relative flex h-2 w-2"><span className="absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-70 animate-ping" /><span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-400" /></span> Live — pick up the phone ☎️</>)
+          style={{ background: live ? "rgba(0,191,255,0.15)" : "rgba(255,255,255,0.05)", border: `1px solid ${live ? "rgba(0,191,255,0.5)" : "var(--panel-border)"}`, color: live ? "#00BFFF" : "var(--fg-dim)" }}>
+          {live ? (<><span className="relative flex h-2 w-2"><span className="absolute inline-flex h-full w-full rounded-full bg-cyan-400 opacity-70 animate-ping" /><span className="relative inline-flex rounded-full h-2 w-2 bg-cyan-400" /></span> Live — pick up the phone ☎️</>)
             : working ? (<><Loader2 size={13} className="animate-spin" /> Setting up…</>)
             : "Not connected yet"}
         </div>
@@ -145,16 +145,16 @@ export default function HermesPhone() {
             <div key={i} className="contents">
               <div className="flex flex-col items-center gap-1.5 shrink-0" style={{ minWidth: 64 }}>
                 <div className="grid place-items-center rounded-xl" style={{ width: 38, height: 38,
-                  background: st.ok ? "rgba(52,211,153,0.14)" : "rgba(255,255,255,0.04)",
-                  border: `1px solid ${st.ok ? "rgba(52,211,153,0.45)" : "var(--panel-border)"}`,
-                  color: st.ok ? "#34d399" : "var(--fg-dim)" }}>{st.icon}</div>
+                  background: st.ok ? "rgba(0,191,255,0.14)" : "rgba(255,255,255,0.04)",
+                  border: `1px solid ${st.ok ? "rgba(0,191,255,0.45)" : "var(--panel-border)"}`,
+                  color: st.ok ? "#00BFFF" : "var(--fg-dim)" }}>{st.icon}</div>
                 <span className="text-[10.5px] text-[var(--fg-dim)]">{st.label}</span>
               </div>
               {i < stages.length - 1 && (
                 <div className="relative flex-1 h-[2px] mt-[-14px]" style={{ background: "var(--panel-border)" }}>
                   {stages[i].ok && stages[i + 1].ok && (
                     <motion.span className="absolute top-1/2 -translate-y-1/2 h-1.5 w-1.5 rounded-full"
-                      style={{ background: live ? "#34d399" : "#60a5fa" }}
+                      style={{ background: live ? "#00BFFF" : "#60a5fa" }}
                       animate={{ left: ["0%", "100%"], opacity: [0, 1, 0] }}
                       transition={{ duration: 1.6, repeat: Infinity, ease: "linear", delay: i * 0.3 }} />
                   )}
@@ -176,7 +176,7 @@ export default function HermesPhone() {
           </button>
         ) : (
           <div className="flex items-center gap-2">
-            <div className="flex-1 text-center text-[13.5px] text-emerald-300 font-medium py-2">✅ Your phone agent is live</div>
+            <div className="flex-1 text-center text-[13.5px] text-cyan-300 font-medium py-2">✅ Your phone agent is live</div>
             <button onClick={goLive} disabled={working} className="flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-[12.5px] border border-[var(--panel-border)] text-[var(--fg-dim)] hover:text-[var(--fg)]"><RefreshCw size={13} /> Re-sync</button>
             <button onClick={stop} disabled={working} className="flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-[12.5px]" style={{ border: "1px solid rgba(248,113,113,0.4)", color: "#f87171" }}><Square size={13} /> Stop</button>
           </div>

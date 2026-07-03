@@ -9,7 +9,7 @@ There's only **one** difference: the double-click `Start Agent OS.command` files
 ---
 
 ## Before you start (one-time, 2 minutes)
-**Install Node.js** (it's Complimentary — the dashboard needs it):
+**Install Node.js** (it's free — the dashboard needs it):
 1. Go to **<https://nodejs.org>**
 2. Click the big green **LTS** button and run the installer.
 3. Click "Next" until it finishes.

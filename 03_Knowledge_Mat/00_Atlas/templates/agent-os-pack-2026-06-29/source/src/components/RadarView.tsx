@@ -18,7 +18,7 @@ interface Signal {
 interface DayEntry { day: string; scannedAt: string | null; count: number; signals: Signal[]; }
 
 const CAT_COLOR: Record<string, string> = {
-  Models: "#22d3ee", Agents: "#34d399", Tools: "#a78bfa", SEO: "#a3e635", Drama: "#fb7185", Money: "#fbbf24",
+  Models: "#22d3ee", Agents: "#00BFFF", Tools: "#a78bfa", SEO: "#00BFFF", Drama: "#fb7185", Money: "#fbbf24",
 };
 const catColor = (c: string) => CAT_COLOR[c] || "#22d3ee";
 
@@ -216,7 +216,7 @@ export default function RadarView() {
   return (
     <div className="rdr">
       <style>{`
-        .rdr{ --cy:#22d3ee; --tl:#34d399; --am:#fbbf24; --ink:#dbeafe; --dim:#6b7a8d; }
+        .rdr{ --cy:#22d3ee; --tl:#00BFFF; --am:#fbbf24; --ink:#dbeafe; --dim:#6b7a8d; }
         .rdr{ color:var(--ink); font-family:'Manrope',system-ui,sans-serif; }
         .rdr-bar{ display:flex; align-items:center; gap:14px; flex-wrap:wrap; padding:13px 18px; border:1px solid rgba(34,211,238,.22); border-radius:14px; background:linear-gradient(180deg,rgba(34,211,238,.05),rgba(34,211,238,.01)); }
         .rdr-live{ display:inline-flex; align-items:center; gap:8px; font-family:'JetBrains Mono',monospace; font-size:.66rem; letter-spacing:.18em; text-transform:uppercase; color:var(--cy); }
@@ -319,7 +319,7 @@ export default function RadarView() {
         .rdr-hook{ font-style:italic; color:#9fb6cc; font-size:.9rem; margin:8px 0; }
         .rdr-actions{ display:flex; align-items:center; gap:10px; margin-top:12px; flex-wrap:wrap; }
         .rdr-fmt{ font-family:'JetBrains Mono',monospace; font-size:.6rem; letter-spacing:.1em; text-transform:uppercase; color:var(--cy); border:1px solid rgba(34,211,238,.3); border-radius:999px; padding:4px 11px; }
-        .rdr-draftbtn{ display:inline-flex; align-items:center; gap:7px; background:linear-gradient(180deg,rgba(52,211,153,.18),rgba(52,211,153,.06)); color:var(--tl); border:1px solid rgba(52,211,153,.45); border-radius:999px; padding:7px 16px; font-weight:700; font-size:.84rem; cursor:pointer; transition:transform .15s; }
+        .rdr-draftbtn{ display:inline-flex; align-items:center; gap:7px; background:linear-gradient(180deg,rgba(0,191,255,.18),rgba(0,191,255,.06)); color:var(--tl); border:1px solid rgba(0,191,255,.45); border-radius:999px; padding:7px 16px; font-weight:700; font-size:.84rem; cursor:pointer; transition:transform .15s; }
         .rdr-draftbtn:hover{ transform:translateY(-1px); } .rdr-draftbtn:disabled{ opacity:.6; cursor:default; }
         .rdr-pubbtn{ display:inline-flex; align-items:center; gap:7px; background:linear-gradient(180deg,rgba(212,165,116,.20),rgba(212,165,116,.06)); color:#e6c69a; border:1px solid rgba(212,165,116,.5); border-radius:999px; padding:7px 16px; font-weight:700; font-size:.84rem; cursor:pointer; transition:transform .15s; }
         .rdr-pubbtn:hover{ transform:translateY(-1px); } .rdr-pubbtn:disabled{ opacity:.55; cursor:default; }
@@ -327,7 +327,7 @@ export default function RadarView() {
         .rdr-pub .pub-prog{ display:inline-flex; align-items:center; gap:8px; font-family:'JetBrains Mono',monospace; font-size:.78rem; color:#e6c69a; }
         .rdr-pub .pub-err{ font-size:.82rem; color:#f0a0a0; }
         .rdr-pub .pub-done{ background:rgba(212,165,116,.07); border:1px solid rgba(212,165,116,.3); border-radius:12px; padding:13px 15px; }
-        .rdr-pub .pdh{ font-family:'JetBrains Mono',monospace; font-size:.66rem; letter-spacing:.1em; text-transform:uppercase; color:#5ab896; }
+        .rdr-pub .pdh{ font-family:'JetBrains Mono',monospace; font-size:.66rem; letter-spacing:.1em; text-transform:uppercase; color:#00BFFF; }
         .rdr-pub .pdrow{ display:flex; align-items:center; gap:14px; margin-top:8px; padding-top:8px; border-top:1px solid rgba(212,165,116,.12); }
         .rdr-pub .pdrow:first-of-type{ border-top:none; }
         .rdr-pub .pdsite{ flex:1; min-width:0; color:#f3ebda; font-weight:600; font-size:.88rem; font-family:'JetBrains Mono',monospace; overflow:hidden; text-overflow:ellipsis; }
@@ -384,7 +384,7 @@ export default function RadarView() {
               <circle className="rdr-arc" cx={C} cy={C} r={R_ARC1} fill="none" stroke="#22d3ee" strokeWidth="2.4" strokeDasharray="70 120" opacity="0.55" strokeLinecap="round">
                 <animateTransform attributeName="transform" type="rotate" from={`0 ${C} ${C}`} to={`360 ${C} ${C}`} dur={sweeping ? "5s" : "16s"} repeatCount="indefinite" />
               </circle>
-              <circle className="rdr-arc" cx={C} cy={C} r={R_ARC2} fill="none" stroke="#34d399" strokeWidth="1.6" strokeDasharray="30 200" opacity="0.5" strokeLinecap="round">
+              <circle className="rdr-arc" cx={C} cy={C} r={R_ARC2} fill="none" stroke="#00BFFF" strokeWidth="1.6" strokeDasharray="30 200" opacity="0.5" strokeLinecap="round">
                 <animateTransform attributeName="transform" type="rotate" from={`360 ${C} ${C}`} to={`0 ${C} ${C}`} dur={sweeping ? "7s" : "24s"} repeatCount="indefinite" />
               </circle>
               <circle cx={C} cy={C} r={R_ARC3} fill="none" stroke="rgba(34,211,238,.18)" strokeWidth="1" />
@@ -440,7 +440,7 @@ export default function RadarView() {
               <div key={`${p.at}-${i}`} className="rdr-card rdr-phist">
                 <div className="rdr-toprow">
                   <span className="rdr-time"><Clock size={11} /> {ago(p.at)}</span>
-                  <span className="ph-badge" style={{ color: p.status === "draft" ? "#c4607e" : "#5ab896", borderColor: p.status === "draft" ? "#c4607e55" : "#5ab89655" }}>{p.status === "draft" ? "DRAFT" : "LIVE"}</span>
+                  <span className="ph-badge" style={{ color: p.status === "draft" ? "#c4607e" : "#00BFFF", borderColor: p.status === "draft" ? "#c4607e55" : "#00BFFF55" }}>{p.status === "draft" ? "DRAFT" : "LIVE"}</span>
                   {p.indexed && <span className="rdr-posts">✓ indexing</span>}
                   <span className="ph-count">{p.results.length} site{p.results.length > 1 ? "s" : ""}</span>
                 </div>

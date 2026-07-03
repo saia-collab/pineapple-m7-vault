@@ -13,7 +13,7 @@ This is the cross-platform, agent-driven equivalent of `Update Agent OS.command`
 These live *outside* the app folder (or are local state) and hold everything personal. Leave them exactly as they are:
 - `~/.agentic-os/` — settings (`config.json`: vault path, `userName`, model routing, keys-config)
 - `~/.hermes/` — Hermes profiles, secrets, sessions, skills
-- `~/.fcc/.env` — the Complimentary-build model setting
+- `~/.fcc/.env` — the free-build model setting
 - `~/.gmail-mcp/` (and any credential folder) — email connection + service-account key
 - The user's **Obsidian vault** (their notes) — never touch
 - Local campaign/data folders the user created (e.g. `~/backlink-outreach`)

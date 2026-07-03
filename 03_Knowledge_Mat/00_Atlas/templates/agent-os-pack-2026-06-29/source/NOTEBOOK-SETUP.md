@@ -39,7 +39,7 @@ You need 3 things.
 If you don't have it yet, do the main Build Guide first.
 
 🟢 **A Google account with NotebookLM access.**
-Complimentary tier is fine.
+Free tier is fine.
 
 🟢 **Claude Code or Claude Desktop installed.**
 

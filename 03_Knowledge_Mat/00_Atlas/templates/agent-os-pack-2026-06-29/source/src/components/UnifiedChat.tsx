@@ -30,7 +30,7 @@ const storageKey = (agent: AgentKey, sub?: string) => `agentic-os-chat-v2:${agen
 function profileAccent(name: string): string {
   if (name.startsWith("seo-keywords")) return "#fbbf24";
   if (name.startsWith("seo-outline")) return "#8b5cf6";
-  if (name.startsWith("seo-writer")) return "#5ab896";
+  if (name.startsWith("seo-writer")) return "#00BFFF";
   if (name.startsWith("seo-links")) return "#f472b6";
   if (name === "julian") return "#d4a574";
   return "#60a5fa";
@@ -83,8 +83,13 @@ export default function UnifiedChat({
     if (agent !== "hermes") return;
     fetch("/api/hermes/profiles", { cache: "no-store" })
       .then((r) => r.json())
-      .then((j: { profiles?: { name: string }[] }) =>
-        setHermesProfiles((j.profiles ?? []).map((p) => p.name).filter((n) => !n.startsWith("swarm"))))
+      .then((j: { profiles?: { name: string }[] }) => {
+        const names = (j.profiles ?? []).map((p) => p.name).filter((n) => !n.startsWith("swarm"));
+        setHermesProfiles(names);
+        // Drop a stale selection (a profile that no longer exists on this machine) so we
+        // never keep sending a dead `--profile` that fails every message.
+        setHermesProfile((cur) => (cur && !names.includes(cur) ? "" : cur));
+      })
       .catch(() => {});
   }, [agent]);
   useEffect(() => {

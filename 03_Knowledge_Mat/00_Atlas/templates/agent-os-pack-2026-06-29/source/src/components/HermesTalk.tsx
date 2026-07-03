@@ -169,8 +169,8 @@ export default function HermesTalk() {
             {convo ? <PhoneOff size={22} /> : <Mic size={24} />}
           </button>
         </div>
-        <div className="text-center text-[12.5px] mb-3" style={{ color: convo ? "#34d399" : ACCENT }}>
-          {convo && <span style={{ color: "#34d399" }}>● </span>}{status}
+        <div className="text-center text-[12.5px] mb-3" style={{ color: convo ? "#00BFFF" : ACCENT }}>
+          {convo && <span style={{ color: "#00BFFF" }}>● </span>}{status}
         </div>
         <div className="flex gap-2 items-end">
           <input value={input} onChange={(e) => setInput(e.target.value)}
@@ -192,7 +192,7 @@ export default function HermesTalk() {
         .orb-btn:hover { transform: scale(1.06); }
         .orb-btn[data-s="active"], .orb[data-s="active"] { background: radial-gradient(circle at 35% 30%, #6ee7b7, #2563eb 70%); }
         .orb-btn[data-s="listen"], .orb[data-s="listen"] { animation: ring 1.1s infinite; background: radial-gradient(circle at 35% 30%, #fca5f1, #db2777 70%); }
-        .orb-btn[data-s="speak"], .orb[data-s="speak"] { animation: ring 0.7s infinite; background: radial-gradient(circle at 35% 30%, #6ee7b7, #059669 70%); }
+        .orb-btn[data-s="speak"], .orb[data-s="speak"] { animation: ring 0.7s infinite; background: radial-gradient(circle at 35% 30%, #6ee7b7, #00BFFF 70%); }
         .orb-btn[data-s="think"], .orb[data-s="think"] { animation: spin 1s linear infinite; }
         @keyframes ring { 0%{box-shadow:0 0 0 0 ${ACCENT}66} 70%{box-shadow:0 0 0 22px transparent} 100%{box-shadow:0 0 0 0 transparent} }
         @keyframes spin { to { transform: rotate(360deg) } }

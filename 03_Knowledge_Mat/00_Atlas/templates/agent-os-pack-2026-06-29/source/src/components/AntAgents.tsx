@@ -99,7 +99,7 @@ export default function AntAgents() {
                 {running ? <Loader2 size={15} className="animate-spin" /> : <Play size={15} />}{running ? "Running" : "Run"}
               </button>
             </div>
-            {status && <div className="text-[12.5px]" style={{ color: status.startsWith("⚠") ? "#f87171" : status.startsWith("✓") ? "#34d399" : ACCENT }}>{status}</div>}
+            {status && <div className="text-[12.5px]" style={{ color: status.startsWith("⚠") ? "#f87171" : status.startsWith("✓") ? "#00BFFF" : ACCENT }}>{status}</div>}
 
             {/* trace timeline */}
             {trace.length > 0 && (
@@ -132,7 +132,7 @@ function TraceRow({ e }: { e: Ev }) {
     <div className="inline-flex items-center gap-1.5 text-[12px] px-2.5 py-1 rounded-full border" style={{ borderColor: "rgba(92,192,163,.4)", color: "#5cc0a3" }}><Wrench size={12} /> {e.tool ?? "tool"}</div>
   );
   if (t.endsWith("status_idle") || t.endsWith("status_terminated")) return (
-    <div className="flex items-center gap-1.5 text-[12px] text-emerald-300"><CheckCircle2 size={13} /> {t.endsWith("terminated") ? "session ended" : "done"}</div>
+    <div className="flex items-center gap-1.5 text-[12px] text-cyan-300"><CheckCircle2 size={13} /> {t.endsWith("terminated") ? "session ended" : "done"}</div>
   );
   if (t.startsWith("span.")) return null; // hide low-level model spans
   return <div className="text-[11.5px] text-[var(--fg-dimmer)] font-[var(--font-geist-mono)]">· {t}</div>;

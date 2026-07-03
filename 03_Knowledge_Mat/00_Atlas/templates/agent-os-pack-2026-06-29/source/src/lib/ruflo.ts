@@ -162,6 +162,6 @@ export function roleColor(typeOrName: string): string {
   if (/research|keyword|intent|serp|backlink/.test(s)) return "#60a5fa"; // blue — research
   if (/seo|optim|schema|link/.test(s)) return "#d4a574";  // gold — seo
   if (/architect|content/.test(s)) return "#c4607e";      // plum — architecture
-  if (/front|web-vital|coder|dev/.test(s)) return "#5ab896"; // emerald — build
+  if (/front|web-vital|coder|dev/.test(s)) return "#00BFFF"; // emerald — build
   return "#a59783";
 }

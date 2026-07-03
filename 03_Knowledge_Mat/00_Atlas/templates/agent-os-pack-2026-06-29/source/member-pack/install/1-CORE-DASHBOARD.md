@@ -6,7 +6,7 @@ This is the main screen — the thing everything else plugs into. Get this worki
 One web page on your own computer that holds all your AI tools in one place. It opens at **http://localhost:3737**.
 
 ## What you need first
-**Node.js, version 20 or newer.** It's Complimentary.
+**Node.js, version 20 or newer.** It's free.
 - Don't have it? Go to **https://nodejs.org**, click the big green **LTS** button, and run the installer. Click "next" until it's done.
 - To check you have it: open **Terminal** (Mac: press ⌘+Space, type "Terminal") and type `node -v`. If it says v20 or higher, you're good.
 
@@ -62,7 +62,7 @@ Then open **http://localhost:3737**. The optional pieces work on Linux too — *
 The dashboard works out of the box. If you want to point it at custom folders or tools, it reads an optional config file at `~/.agentic-os/config.json`. There's an example file in this pack (`config.example.json`) — copy it there and edit only if you need to. Most people never touch this.
 
 ## ⭐ Connect your notes (do this early — it powers a lot)
-If you use **Obsidian**, the dashboard turns your notes into a beautiful **Memory Galaxy**, and gives Jarvis a real memory ("what do you remember about…"). If your vault sits in `~/Documents/Obsidian Vault` it's found automatically; if it's elsewhere, it's one line in `config.json`. Full steps: **`11-MEMORY-OBSIDIAN.md`**. (No Obsidian yet? That guide gets you set up — it's Complimentary.)
+If you use **Obsidian**, the dashboard turns your notes into a beautiful **Memory Galaxy**, and gives Jarvis a real memory ("what do you remember about…"). If your vault sits in `~/Documents/Obsidian Vault` it's found automatically; if it's elsewhere, it's one line in `config.json`. Full steps: **`11-MEMORY-OBSIDIAN.md`**. (No Obsidian yet? That guide gets you set up — it's free.)
 
 ## Done?
 The dashboard is the foundation. Next, the fun one: **`2-VOICE-BUILDING.md`** — say "build me a game" and watch it appear.

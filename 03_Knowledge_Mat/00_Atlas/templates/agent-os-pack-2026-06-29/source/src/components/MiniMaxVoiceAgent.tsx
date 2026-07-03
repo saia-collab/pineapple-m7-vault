@@ -45,6 +45,13 @@ export default function MiniMaxVoiceAgent({ accent = "#60a5fa" }: { accent?: str
 
   useEffect(() => { scrollRef.current?.scrollTo({ top: scrollRef.current.scrollHeight, behavior: "smooth" }); }, [turns, stage]);
   useEffect(() => () => { endCall(); }, []); // cleanup on unmount
+  // 🔒 Privacy: end the call (release the mic) the moment this tab goes to the
+  // background — never keep recording while you've switched away. Restart is deliberate.
+  useEffect(() => {
+    const onVis = () => { if (document.hidden && activeRef.current) endCall(); };
+    document.addEventListener("visibilitychange", onVis);
+    return () => document.removeEventListener("visibilitychange", onVis);
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   function pickMime(): string {
     const cands = ["audio/webm;codecs=opus", "audio/webm", "audio/mp4", "audio/ogg"];
@@ -259,8 +266,8 @@ export default function MiniMaxVoiceAgent({ accent = "#60a5fa" }: { accent?: str
             {active ? <PhoneOff size={22} /> : <Mic size={24} />}
           </button>
         </div>
-        <div className="text-center text-[12.5px] mb-1" style={{ color: active ? "#34d399" : accent }}>
-          {active && <span style={{ color: "#34d399" }}>● </span>}{statusText}
+        <div className="text-center text-[12.5px] mb-1" style={{ color: active ? "#00BFFF" : accent }}>
+          {active && <span style={{ color: "#00BFFF" }}>● </span>}{statusText}
         </div>
         {err && <div className="text-center text-[11.5px] mb-2" style={{ color: "#f0a3b4" }}>{err}</div>}
         <div className="flex gap-2 items-end">

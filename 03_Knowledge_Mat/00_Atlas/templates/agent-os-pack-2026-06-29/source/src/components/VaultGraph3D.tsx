@@ -19,7 +19,7 @@ const PARA_COLORS: Record<string, string> = {
   "00 Inbox":     "#f472b6",
   "01 Daily":     "#fbbf24",
   "02 Projects":  "#60a5fa",
-  "03 Areas":     "#34d399",
+  "03 Areas":     "#00BFFF",
   "04 Resources": "#a78bfa",
   "05 Memories":  "#fb7185",
   "06 Archive":   "#94a3b8",

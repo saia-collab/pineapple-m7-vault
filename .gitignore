@@ -7,6 +7,12 @@
 .env
 *.env
 **/.env
+.env.local
+**/.env.local
+.env.*
+**/.env.*
+keys*
+*keys.txt
 04_Tech_Lab/config/.env
 04_Tech_Lab/config/*_config.json
 04_Tech_Lab/config/antigravity_mcp.json

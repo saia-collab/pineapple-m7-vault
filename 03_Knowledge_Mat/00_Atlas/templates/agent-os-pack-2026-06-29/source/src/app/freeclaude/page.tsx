@@ -19,8 +19,8 @@ export default function FreeClaudeRoute() {
             <button key={t.key} onClick={() => setView(t.key)}
               className="flex items-center gap-2 px-3 py-1.5 rounded-full border text-[12.5px] transition"
               style={{
-                background: active ? "rgba(16,185,129,0.16)" : "transparent",
-                borderColor: active ? "#10b981" : "var(--panel-border)",
+                background: active ? "rgba(0,191,255,0.16)" : "transparent",
+                borderColor: active ? "#00BFFF" : "var(--panel-border)",
                 color: active ? "var(--fg)" : "var(--fg-dim)",
               }}>
               {t.icon}{t.label}

@@ -1,6 +1,6 @@
 # The Agent Factory — speak it, your agent builds it (for $0)
 
-The **Agent Factory** lives in the **Complimentary Claude Code** tab. You say (or type) an
+The **Agent Factory** lives in the **Free Claude Code** tab. You say (or type) an
 idea — *"build me a snake game"* — and a model running **on your own Mac** writes
 the whole thing in ~15 seconds, then runs it live in the preview on the right.
 No cloud. No API bill. Fully private.
@@ -25,7 +25,7 @@ MODEL="ollama/gemma2"        # or ollama/qwen2.5-coder:14b — match what you pu
 That's it. The dashboard calls your local Ollama directly (`http://localhost:11434`).
 
 ## Use it
-1. Open the dashboard → **Complimentary Claude Code** → **Agent Factory** tab.
+1. Open the dashboard → **Free Claude Code** → **Agent Factory** tab.
 2. Tap the mic and say *"build me a neon galaxy game"* — or type it and hit **Build**.
 3. Watch the code stream in live on the left.
 4. In ~15s the finished app runs in the preview on the right.

@@ -1,5 +1,8 @@
 import { NextResponse } from "next/server";
 import { run } from "@/lib/runner";
+import { hermesHome } from "@/lib/config";
+import { existsSync } from "node:fs";
+import path from "node:path";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -59,7 +62,13 @@ export async function POST(req: Request) {
   // the flags Goal Mode already uses.) If the reply is STILL blank after this,
   // it's almost always auth — run `hermes status` and check the provider shows
   // a ✓ for its API key.
-  const profileArgs = profile ? ["--profile", profile] : [];
+  // A stale/deleted profile selection (e.g. a "kimi" pill left in localStorage from an
+  // earlier setup) must NOT hard-fail every message with "Profile 'kimi' does not exist".
+  // Only pass --profile when that profile actually exists; otherwise fall back to Hermes'
+  // default active profile so the chat still works.
+  const profileArgs = profile && existsSync(path.join(hermesHome(), "profiles", profile))
+    ? ["--profile", profile]
+    : [];
   // Pack the recent conversation in so follow-ups keep context (no more amnesia).
   const fullPrompt = buildPromptWithHistory(history, prompt);
   const out = await run("hermes", [...profileArgs, "-z", fullPrompt, "--yolo", "--accept-hooks"], { timeoutMs: TIMEOUT_MS });

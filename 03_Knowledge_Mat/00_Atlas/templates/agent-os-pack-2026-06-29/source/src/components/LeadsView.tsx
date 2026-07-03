@@ -36,13 +36,13 @@ async function postJson<T>(url: string, body: unknown): Promise<T> {
 
 function scoreColor(s?: number): string {
   if (s == null) return "#64748b";
-  if (s >= 75) return "#34d399";
+  if (s >= 75) return "#00BFFF";
   if (s >= 50) return "#fbbf24";
   return "#f87171";
 }
 
 function statusColor(s: string): string {
-  if (s === "deliverable" || s === "verified") return "#34d399";
+  if (s === "deliverable" || s === "verified") return "#00BFFF";
   if (s === "undeliverable") return "#f87171";
   return "#fbbf24"; // risky / guessed / unknown
 }
@@ -287,7 +287,7 @@ export default function LeadsView() {
         )}
         {candidates.length > 0 && (
           <div className="mt-3 flex items-center gap-2 text-sm text-white/60">
-            <CheckCircle2 size={15} style={{ color: "#34d399" }} /> {candidates.length} candidate{candidates.length > 1 ? "s" : ""} ready
+            <CheckCircle2 size={15} style={{ color: "#00BFFF" }} /> {candidates.length} candidate{candidates.length > 1 ? "s" : ""} ready
             <ArrowRight size={14} /> enrich &amp; score below
           </div>
         )}
@@ -336,7 +336,7 @@ export default function LeadsView() {
                         {l.emailDraft && <p className="mt-2 text-xs text-white/55 whitespace-pre-wrap">{l.emailDraft}</p>}
                         <button onClick={() => copy(`${l.opener}\n\n${l.emailDraft || ""}`.trim(), l.id)}
                           className="mt-2 inline-flex items-center gap-1 text-xs text-white/50 hover:text-white">
-                          {copied === l.id ? <Check size={12} style={{ color: "#34d399" }} /> : <Copy size={12} />} {copied === l.id ? "Copied" : "Copy outreach"}
+                          {copied === l.id ? <Check size={12} style={{ color: "#00BFFF" }} /> : <Copy size={12} />} {copied === l.id ? "Copied" : "Copy outreach"}
                         </button>
                       </div>
                     )}
@@ -370,7 +370,7 @@ export default function LeadsView() {
 
 function Pill({ ok, label, dim, onClick }: { ok: boolean; label: string; dim?: boolean; onClick?: () => void }) {
   const style = ok
-    ? { background: "rgba(52,211,153,0.12)", color: "#6ee7b7", borderColor: "rgba(52,211,153,0.3)" }
+    ? { background: "rgba(0,191,255,0.12)", color: "#6ee7b7", borderColor: "rgba(0,191,255,0.3)" }
     : { background: dim ? "transparent" : "rgba(245,158,11,0.1)", color: dim ? "rgba(255,255,255,0.5)" : "#fcd34d", borderColor: "rgba(245,158,11,0.25)" };
   const Tag = onClick ? "button" : "span";
   return (

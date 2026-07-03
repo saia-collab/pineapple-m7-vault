@@ -281,8 +281,8 @@ function Stepper({ stage }: { stage: Stage }) {
           <div key={s.key} className="flex items-center gap-1.5">
             <div className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-full border text-[11.5px]"
               style={{
-                background: active ? `${ACCENT}1f` : done ? "rgba(52,211,153,0.12)" : "transparent",
-                borderColor: active ? ACCENT : done ? "rgba(52,211,153,0.4)" : "var(--line-soft)",
+                background: active ? `${ACCENT}1f` : done ? "rgba(0,191,255,0.12)" : "transparent",
+                borderColor: active ? ACCENT : done ? "rgba(0,191,255,0.4)" : "var(--line-soft)",
                 color: active ? "var(--cream)" : done ? "var(--emerald)" : "var(--cream-mute)",
               }}>
               {done ? <CheckCircle2 size={13} /> : s.icon}{s.label}
@@ -406,7 +406,7 @@ function ScriptStage({ run, setRun, busy, onBack, onRegen, onGo }: {
         <div className="flex items-center justify-between">
           <div className="action-tag" style={{ color: ACCENT }}>Research notes</div>
           {run.scriptEngine && (
-            <span className="text-[9.5px] uppercase tracking-widest px-1.5 py-0.5 rounded" style={{ background: run.scriptEngine === "claude" ? `${ACCENT}18` : "rgba(94,234,212,0.14)", color: run.scriptEngine === "claude" ? ACCENT : "#5eead4" }}>
+            <span className="text-[9.5px] uppercase tracking-widest px-1.5 py-0.5 rounded" style={{ background: run.scriptEngine === "claude" ? `${ACCENT}18` : "rgba(0,191,255,0.14)", color: run.scriptEngine === "claude" ? ACCENT : "#5eead4" }}>
               {run.scriptEngine === "claude" ? "researched · claude" : "drafted · local"}
             </span>
           )}

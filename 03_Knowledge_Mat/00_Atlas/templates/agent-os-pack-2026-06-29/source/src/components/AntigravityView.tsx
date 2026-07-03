@@ -148,7 +148,7 @@ export default function AntigravityView() {
                         {p.kind === "scratch" ? p.name : p.name.slice(0, 8) + "…"}
                       </div>
                       <span className="text-[9px] uppercase tracking-widest shrink-0"
-                        style={{ color: p.kind === "scratch" ? "#a3e635" : "#94a3b8" }}>
+                        style={{ color: p.kind === "scratch" ? "#00BFFF" : "#94a3b8" }}>
                         {p.kind}
                       </span>
                     </div>

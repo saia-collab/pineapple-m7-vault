@@ -4,7 +4,7 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Mic, MicOff, Hammer, Loader2, RotateCw, ExternalLink, Sparkles, History, Square, X, Play, Zap } from "lucide-react";
 
-const FCC = "#10b981";                 // Free Claude Code green
+const FCC = "#00BFFF";                 // Free Claude Code green
 const N2 = "#7c5cff";                  // N2 violet
 // On-device builds share the gallery project; N2 builds collect in their own "n2"
 // folder so they show up as a dedicated N2 section in the workspace.

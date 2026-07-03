@@ -16,7 +16,7 @@ interface FccProject { name: string; root: string; mtime: number; fileCount: num
 type FccFileKind = "text" | "image" | "video" | "audio" | "pdf" | "binary";
 interface FccFile { name: string; relPath: string; bytes: number; mtime: number; kind: FccFileKind; }
 
-const ACCENT = "#10b981";
+const ACCENT = "#00BFFF";
 const STORAGE_KEY = "agentic-os/freeclaude/history/v1";
 const ACTIVE_PROJECT_KEY = "agentic-os/freeclaude/active-project/v1";
 
@@ -265,8 +265,8 @@ export default function FreeClaudePanel() {
       accent="system"
       icon={
         <svg width={14} height={14} viewBox="0 0 24 24" fill="none">
-          <circle cx="9" cy="11" r="3" fill="#10b981" />
-          <circle cx="15" cy="11" r="3" fill="#10b981" />
+          <circle cx="9" cy="11" r="3" fill="#00BFFF" />
+          <circle cx="15" cy="11" r="3" fill="#00BFFF" />
           <circle cx="9" cy="11" r="1" fill="#065f46" />
           <circle cx="15" cy="11" r="1" fill="#065f46" />
         </svg>
@@ -274,7 +274,7 @@ export default function FreeClaudePanel() {
       actions={
         <div className="flex items-center gap-2">
           <span className={`pill ${reachable ? "pill-info" : ""}`}
-                style={reachable ? { background: "rgba(16,185,129,0.18)", borderColor: "rgba(16,185,129,0.4)", color: "#34d399" } : {}}>
+                style={reachable ? { background: "rgba(0,191,255,0.18)", borderColor: "rgba(0,191,255,0.4)", color: "#00BFFF" } : {}}>
             {reachable ? "live" : "offline"}
           </span>
           {fcc?.model && (
@@ -329,8 +329,8 @@ export default function FreeClaudePanel() {
                       Same Claude Code CLI — every request routed through the local
                       <code className="mx-1 text-[var(--fg)]">fcc-server</code> proxy to a free
                       or cheap upstream. Currently routed to{" "}
-                      <span className="text-emerald-300 font-medium">{modelShort}</span>
-                      {fcc?.provider && <> on <span className="text-emerald-300">{fcc.provider}</span></>}.
+                      <span className="text-cyan-300 font-medium">{modelShort}</span>
+                      {fcc?.provider && <> on <span className="text-cyan-300">{fcc.provider}</span></>}.
                     </p>
                     <ul className="mt-3 text-xs text-[var(--fg-dimmer)] space-y-1">
                       <li>• Working directory: <code className="text-[var(--fg-dim)]">~/freeclaude-scratch/{activeProject}/</code></li>
@@ -353,7 +353,7 @@ export default function FreeClaudePanel() {
                   <motion.div key={i} initial={{ opacity: 0, y: 6 }} animate={{ opacity: 1, y: 0 }}
                     className={`rounded-xl px-4 py-3 text-sm leading-relaxed border ${
                       m.role === "user"
-                        ? "bg-[rgba(16,185,129,0.08)] border-[rgba(16,185,129,0.22)] text-[var(--fg)]"
+                        ? "bg-[rgba(0,191,255,0.08)] border-[rgba(0,191,255,0.22)] text-[var(--fg)]"
                         : "bg-[rgba(255,255,255,0.02)] border-[rgba(255,255,255,0.06)] text-[var(--fg)]"
                     }`}>
                     <div className="text-[10px] tracking-widest uppercase mb-1 opacity-60">
@@ -372,7 +372,7 @@ export default function FreeClaudePanel() {
                         <span className="tick live" style={{ color: ACCENT, animationDelay: ".2s" }} />
                         <span className="tick live" style={{ color: ACCENT, animationDelay: ".4s" }} />
                       </span>
-                      <span className="text-emerald-400/70 normal-case tracking-normal metric">{elapsed}s</span>
+                      <span className="text-cyan-400/70 normal-case tracking-normal metric">{elapsed}s</span>
                     </div>
                     <div className="whitespace-pre-wrap font-[var(--font-geist-mono)]">{partial || (elapsed < 5 ? "thinking…" : `thinking… (${modelShort} can take 30-90s)`)}</div>
                   </motion.div>
@@ -399,7 +399,7 @@ export default function FreeClaudePanel() {
                 </button>
               ) : (
                 <button onClick={send} disabled={!input.trim() || !reachable}
-                  className="px-3 py-2 rounded-lg bg-[rgba(16,185,129,0.18)] border border-[rgba(16,185,129,0.4)] text-emerald-300 text-sm flex items-center gap-1.5 hover:bg-[rgba(16,185,129,0.28)] transition disabled:opacity-40 disabled:cursor-not-allowed">
+                  className="px-3 py-2 rounded-lg bg-[rgba(0,191,255,0.18)] border border-[rgba(0,191,255,0.4)] text-cyan-300 text-sm flex items-center gap-1.5 hover:bg-[rgba(0,191,255,0.28)] transition disabled:opacity-40 disabled:cursor-not-allowed">
                   <Send size={14} /> Send
                 </button>
               )}

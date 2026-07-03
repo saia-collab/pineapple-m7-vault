@@ -51,7 +51,7 @@ You need 3 things.
 
 This is the tool that builds things for you.
 
-Get it Complimentary at claude.ai/code.
+Get it free at claude.ai/code.
 
 It runs in your Terminal.
 

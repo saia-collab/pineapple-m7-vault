@@ -16,7 +16,7 @@ interface Summary {
 // Per-agent accent (mirrors AgentAvatar). Anything unknown falls back to gold.
 const COLOR: Record<string, string> = {
   claude: "#d97757", openclaw: "#f472b6", hermes: "#60a5fa", gemini: "#4285F4",
-  antigravity: "#7c3aed", freeclaude: "#10b981", codex: "#22c55e", jarvis: "#e6c69a", n2: "#7c5cff",
+  antigravity: "#7c3aed", freeclaude: "#00BFFF", codex: "#00BFFF", jarvis: "#e6c69a", n2: "#7c5cff",
 };
 const LABEL: Record<string, string> = {
   claude: "Claude", openclaw: "OpenClaw", hermes: "Hermes", gemini: "Gemini",

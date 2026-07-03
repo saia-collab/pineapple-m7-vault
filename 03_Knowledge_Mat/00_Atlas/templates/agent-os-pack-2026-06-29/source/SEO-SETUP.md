@@ -64,7 +64,7 @@ You could use Astro, Hugo, Jekyll — any of them.
 
 🟢 **A Netlify account**
 
-It's Complimentary.
+It's free.
 
 Sign up at netlify.com.
 
@@ -80,7 +80,7 @@ Use Riverside, Loom, Descript, or just your phone.
 
 🟢 **A transcript of your video**
 
-Most recording tools spit one out for Complimentary.
+Most recording tools spit one out for free.
 
 If not, drop the video into Descript or Whisper.
 
@@ -368,7 +368,7 @@ Lowercase only.
 
 - 🔥 **One video = 5 posts = 5 sites.** Don't film 5 videos. Film one. Let the pipeline do the rest.
 
-- 🎯 **Pick keywords with low competition first.** Use Ahrefs Complimentary keyword generator. Aim for under KD 20.
+- 🎯 **Pick keywords with low competition first.** Use Ahrefs free keyword generator. Aim for under KD 20.
 
 - 📺 **Embed the same video on all 5 posts.** Google rewards dwell time. Video dwell time is the cheat code.
 

@@ -10,7 +10,7 @@ You pick the mode and how many shots; it runs in the background and shows live p
 
 ## What you need
 - **Your OpenRouter key** — the same one the other AI tabs use (in `~/.hermes/auth.json`). No new account. *(The image/clip models are billed by OpenRouter — you only pay for what you generate.)*
-- **ffmpeg** — the Complimentary tool that assembles the video.
+- **ffmpeg** — the free tool that assembles the video.
   - Mac: `brew install ffmpeg`  ·  Windows: `winget install ffmpeg`  ·  Linux: `sudo apt install ffmpeg`
 - **Python 3** — already on Mac/Linux; on Windows install from <https://python.org> if `python --version` doesn't work.
 

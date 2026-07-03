@@ -6,6 +6,19 @@ INTENT: Append-only changelog of agent workspace-remediation and compliance acti
 
 ---
 
+## 2026-07-03 — M7 theme rebrand + one-button updater
+**Agent:** Claude Code (VP) · **Model:** claude-opus-4-8
+
+1. **Agent OS updated** 2026-06-29 → 2026-07-03 (safe, per UPDATE-WITH-AI.md): backup, mirror new code, restored 7 M7 customizations, npm install+build, verified :3000/:3737 + Leads/Radar tabs. SEO pack kept Pineapple version.
+2. **M7 theme rebrand** — `globals.css` palette → Royal Navy `#1A365D` bg + Pineapple Gold `#FBC02D` + Status Cyan `#00BFFF`; `--emerald` (green) remapped to cyan. Then swept 112+ hardcoded greens (hex + tailwind emerald/green/lime classes + rgba inline) across 36 files → cyan/gold. Verified: 0 green in served assets. Dashboard now M7-branded.
+3. **One-button updater** — `UPDATE_AGENT_OS.bat` (double-click) + `04_Tech_Lab/update_agent_os.ps1`: finds newest pack, backs up, PRESERVES 8 M7 customizations (incl. theme), applies, runs zero-green sweep, rebuilds, restarts. Encodes the whole safe-update process so every future update stays M7-branded + compliant.
+
+Known/optional (user screenshots): Jarvis Realtime needs OPENAI_API_KEY; Studio MiniMax needs `hermes auth add minimax-oauth` (or use Grok).
+
+Ko e hala 'o e fononga ko e faka'apa'apa.
+
+---
+
 ## 2026-07-03 — Atlas cleanup + GitHub repo review + backup ritual
 **Agent:** Claude Code (CEO/VP) · **Model:** claude-opus-4-8
 

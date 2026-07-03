@@ -88,7 +88,7 @@ export default function OpenDesignView() {
           <div className="text-[15px] font-semibold text-[var(--cream)] leading-none flex items-center gap-2">
             Open Design
             <span className="inline-flex items-center gap-1.5 text-[10px] font-medium px-2 py-0.5 rounded-full"
-              style={online ? { background: "rgba(90,184,150,0.14)", color: "var(--emerald)", border: "1px solid rgba(90,184,150,0.4)" }
+              style={online ? { background: "rgba(0,191,255,0.14)", color: "var(--emerald)", border: "1px solid rgba(0,191,255,0.4)" }
                 : { background: "rgba(110,99,83,0.12)", color: "var(--cream-mute)", border: "1px solid var(--line-soft)" }}>
               <span className="w-1.5 h-1.5 rounded-full" style={{ background: online ? "var(--emerald)" : "var(--cream-mute)", boxShadow: online ? "0 0 8px var(--emerald)" : "none" }} />
               {healthy === null ? "checking…" : online ? "running · 127.0.0.1:7456" : "offline"}

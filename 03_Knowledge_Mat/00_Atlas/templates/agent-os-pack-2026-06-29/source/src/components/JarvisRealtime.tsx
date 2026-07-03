@@ -4,7 +4,7 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { Loader2, Send, X, Radio, History, Maximize2, Hammer } from "lucide-react";
 
 const CYAN = "#22d3ee";
-const TEAL = "#34d399";
+const TEAL = "#00BFFF";
 
 // Voice builds use GLM 5.2 (z.ai) — fast, reliable, strong at one-shot HTML/JS
 // (falls back to the on-device model server-side if z.ai ever hiccups) — and land
@@ -236,7 +236,7 @@ export default function JarvisRealtime({ voice = "ash", onClose }: { voice?: str
             <History size={13} /> {showHist ? "Live" : "History"}
           </button>
           {status === "idle" || status === "error" ? (
-            <button onClick={connect} className="px-3 h-8 rounded-lg border text-[12px] flex items-center gap-1.5" style={{ borderColor: TEAL, color: TEAL, background: "rgba(52,211,153,0.12)" }}>
+            <button onClick={connect} className="px-3 h-8 rounded-lg border text-[12px] flex items-center gap-1.5" style={{ borderColor: TEAL, color: TEAL, background: "rgba(0,191,255,0.12)" }}>
               <Radio size={13} /> Go live
             </button>
           ) : (

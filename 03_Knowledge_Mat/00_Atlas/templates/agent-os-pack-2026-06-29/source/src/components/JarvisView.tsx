@@ -7,7 +7,7 @@ import JarvisBuilds from "./JarvisBuilds";
 import JarvisRealtime from "./JarvisRealtime";
 
 const CYAN = "#22d3ee";
-const TEAL = "#34d399";
+const TEAL = "#00BFFF";
 const AMBER = "#fbbf24";
 
 interface Turn { id: number; who: "you" | "hermes"; text: string; working?: boolean }
@@ -281,8 +281,8 @@ function detectMemory(p: string): { action: "save"; text: string } | { action: "
 
 const SHOW_AGENTS = [
   { n: "Claude", c: "#d97757" }, { n: "OpenClaw", c: "#f472b6" }, { n: "Hermes", c: "#60a5fa" },
-  { n: "Antigravity", c: "#7c3aed" }, { n: "Codex", c: "#22c55e" },
-  { n: "Free Claude", c: "#10b981" }, { n: "Jarvis", c: "#22d3ee" },
+  { n: "Antigravity", c: "#7c3aed" }, { n: "Codex", c: "#00BFFF" },
+  { n: "Free Claude", c: "#00BFFF" }, { n: "Jarvis", c: "#22d3ee" },
 ];
 function ShowPanel({ kind, onPlay }: { kind: ShowKind; onPlay: (f: string) => void }) {
   const [files, setFiles] = useState<{ relPath: string; mtime: number }[]>([]);
@@ -1011,14 +1011,40 @@ export default function JarvisView() {
   }
   const restartWake = safeStartWake;   // speak()/build resume the wake loop after Jarvis finishes
 
-  // On unmount (tab switch / navigate away) kill every listener AND clear the flags
+  // On unmount (navigate away in the app) kill every listener AND clear the flags
   // the onend handlers check — otherwise a recognizer auto-restarts after we've left
-  // and the mic keeps listening on other tabs.
+  // and the mic keeps listening. abort() releases the mic IMMEDIATELY (stop() can
+  // linger and keep the browser's recording dot lit).
   useEffect(() => () => {
-    liveRef.current = false; wakeOnRef.current = false; armedRef.current = false; wakeRunningRef.current = false;
-    try { wakeRef.current?.stop(); } catch {}
-    try { recRef.current?.stop(); } catch {}
+    liveRef.current = false; wakeOnRef.current = false; armedRef.current = false; wakeRunningRef.current = false; listeningRef.current = false;
+    try { wakeRef.current?.abort(); } catch {}
+    try { recRef.current?.abort(); } catch {}
   }, []);
+
+  // 🔒 PRIVACY — never listen while this browser tab is in the background.
+  // The moment you switch tabs/apps, drop the mic on EVERY mode (wake word, live
+  // loop, push-to-talk) so Jarvis isn't recording your conversations or burning
+  // the API behind your back. Remember what was on and resume it only when you
+  // come back to this tab. (The Realtime child stops itself via its own handler.)
+  useEffect(() => {
+    let resumeWake = false, resumeLive = false;
+    const onVis = () => {
+      if (document.hidden) {
+        resumeWake = wakeOnRef.current; resumeLive = liveRef.current;
+        wakeOnRef.current = false; liveRef.current = false; armedRef.current = false; wakeRunningRef.current = false; listeningRef.current = false;
+        try { wakeRef.current?.abort(); } catch {}
+        try { recRef.current?.abort(); } catch {}
+        setWake(false); setLive(false); setListening(false);
+        if (phaseRef.current === "listening") setPhase("idle");
+        if (resumeWake || resumeLive) setStatus("Paused — Jarvis stops listening while this tab is in the background.");
+      } else {
+        if (resumeWake) { resumeWake = false; startWake(); }
+        else if (resumeLive) { resumeLive = false; liveRef.current = true; setLive(true); startListening(); }
+      }
+    };
+    document.addEventListener("visibilitychange", onVis);
+    return () => document.removeEventListener("visibilitychange", onVis);
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   // Esc exits wall mode
   useEffect(() => {
@@ -1053,7 +1079,7 @@ export default function JarvisView() {
       </button>
       <button onClick={toggleLive} disabled={realtime} title={realtime ? "Turn Realtime off to use Live" : "Live — hands-free, just talk (no clicks, no wake word)"}
         className="px-3 h-9 rounded-lg border text-[12px] flex items-center gap-1.5 transition disabled:opacity-30"
-        style={{ borderColor: live ? TEAL : "var(--panel-border)", color: live ? TEAL : "var(--fg-dim)", background: live ? "rgba(52,211,153,0.14)" : "transparent" }}>
+        style={{ borderColor: live ? TEAL : "var(--panel-border)", color: live ? TEAL : "var(--fg-dim)", background: live ? "rgba(0,191,255,0.14)" : "transparent" }}>
         <Mic size={13} className={live ? "animate-pulse" : ""} /> Live {live ? "ON" : "OFF"}
       </button>
       <button onClick={toggleWake} disabled={realtime} title={realtime ? "Turn Realtime off to use the wake word" : 'Wake word — say "Jarvis" hands-free'}
@@ -1064,7 +1090,7 @@ export default function JarvisView() {
       <button onClick={() => setMode((m) => (m === "auto" ? "agent" : "auto"))}
         title={mode === "auto" ? "Auto: instant answers, opens apps/sites, escalates big tasks. Click for Agent." : "Agent: full Hermes agent with tools (~28s). Click for Auto."}
         className="px-3 h-9 rounded-lg border text-[12px] flex items-center gap-1.5 transition"
-        style={{ borderColor: mode === "auto" ? TEAL : "#60a5fa", color: mode === "auto" ? TEAL : "#60a5fa", background: mode === "auto" ? "rgba(52,211,153,0.10)" : "rgba(96,165,250,0.10)" }}>
+        style={{ borderColor: mode === "auto" ? TEAL : "#60a5fa", color: mode === "auto" ? TEAL : "#60a5fa", background: mode === "auto" ? "rgba(0,191,255,0.10)" : "rgba(96,165,250,0.10)" }}>
         {mode === "auto" ? <><Zap size={13} /> Auto</> : <><Cpu size={13} /> Agent</>}
       </button>
       <button onClick={() => runBriefing(briefingRange)} disabled={busy}

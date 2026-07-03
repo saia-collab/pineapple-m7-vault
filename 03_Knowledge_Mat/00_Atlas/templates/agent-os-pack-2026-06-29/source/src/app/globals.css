@@ -3,33 +3,34 @@
 /* ─────────────────────────────────────────────────────────────────────
    Agentic OS — Midnight Aubergine design system
    Tokens, typography, paper-grain backdrop, and component primitives
-   that match Complimentary-claude-code-elegant.html.
+   that match free-claude-code-elegant.html.
    ───────────────────────────────────────────────────────────────────── */
 
 :root {
-  /* Midnight Aubergine palette */
-  --bg-deep:    #15101a;
-  --bg-mid:     #1c1622;
-  --bg-card:    #251d2c;
-  --bg-elev:    #2e2436;
+  /* Pineapple M7 palette — Royal Navy + Pineapple Gold + Status Cyan. ZERO green. */
+  --bg-deep:    #0a1828;
+  --bg-mid:     #0f2240;
+  --bg-card:    #13294d;
+  --bg-elev:    #1A365D;
 
-  --cream:      #f3ebda;
-  --cream-soft: #ddd0bb;
-  --cream-dim:  #a59783;
-  --cream-mute: #6e6353;
+  --cream:      #EAF2FB;
+  --cream-soft: #b8c9de;
+  --cream-dim:  #7f95b0;
+  --cream-mute: #55697f;
 
-  --gold:       #d4a574;
-  --gold-soft:  #e6c69a;
-  --gold-deep:  #a87f54;
+  --gold:       #FBC02D;
+  --gold-soft:  #ffd54f;
+  --gold-deep:  #c79a1e;
 
-  --emerald:    #5ab896;
-  --emerald-dim:#3a8a6e;
-  --plum:       #c4607e;
-  --rust:       #c97c5e;
+  /* --emerald was green (#00BFFF) — remapped to Status Cyan to enforce the zero-green law */
+  --emerald:    #00BFFF;
+  --emerald-dim:#0090c0;
+  --plum:       #00BFFF;
+  --rust:       #FBC02D;
 
-  --line:       rgba(212, 165, 116, 0.20);
-  --line-soft:  rgba(243, 235, 218, 0.08);
-  --line-deep:  rgba(243, 235, 218, 0.04);
+  --line:       rgba(251, 192, 45, 0.20);
+  --line-soft:  rgba(234, 242, 251, 0.08);
+  --line-deep:  rgba(234, 242, 251, 0.04);
 
   --shadow-1: 0 1px 0 rgba(243, 235, 218, 0.03), 0 8px 24px rgba(0,0,0,0.5);
   --shadow-2: 0 2px 0 rgba(243, 235, 218, 0.04), 0 20px 60px rgba(0,0,0,0.55);
@@ -434,7 +435,7 @@ blockquote cite {
   text-transform: uppercase;
   color: var(--cream-dim);
 }
-.pill-ok   { color: var(--emerald);   border-color: rgba(90, 184, 150, 0.30); background: rgba(90, 184, 150, 0.06); }
+.pill-ok   { color: var(--emerald);   border-color: rgba(0,191,255, 0.30); background: rgba(0,191,255, 0.06); }
 .pill-warn { color: var(--gold);      border-color: rgba(212, 165, 116, 0.30); background: rgba(212, 165, 116, 0.06); }
 .pill-err  { color: var(--plum);      border-color: rgba(196, 96, 126, 0.30); background: rgba(196, 96, 126, 0.06); }
 .pill-info { color: var(--gold-soft); border-color: rgba(230, 198, 154, 0.30); background: rgba(212, 165, 116, 0.06); }

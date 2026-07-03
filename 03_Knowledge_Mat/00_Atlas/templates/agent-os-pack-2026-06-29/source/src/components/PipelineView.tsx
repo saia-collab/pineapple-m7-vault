@@ -19,8 +19,8 @@ const ROUTE_COLOR: Record<RouteKind, string> = {
 const COLS: { key: Stage; n: string; label: string; blurb: string; icon: React.ReactNode; accent: string }[] = [
   { key: "inbox",    n: "01", label: "Capture",        blurb: "Raw input — no structure",        icon: <Inbox size={14} />,       accent: "#22d3ee" },
   { key: "review",   n: "03", label: "Human Gate",     blurb: "The one checkpoint",              icon: <ShieldCheck size={14} />, accent: "#fbbf24" },
-  { key: "building", n: "04", label: "Execute",        blurb: "PM + subagents build it",         icon: <Cpu size={14} />,         accent: "#34d399" },
-  { key: "shipped",  n: "05", label: "Shipped & Filed", blurb: "Done",                            icon: <CheckCircle2 size={14} />, accent: "#a3e635" },
+  { key: "building", n: "04", label: "Execute",        blurb: "PM + subagents build it",         icon: <Cpu size={14} />,         accent: "#00BFFF" },
+  { key: "shipped",  n: "05", label: "Shipped & Filed", blurb: "Done",                            icon: <CheckCircle2 size={14} />, accent: "#00BFFF" },
 ];
 
 // Obsidian-style knowledge-graph backdrop — drifting nodes, proximity links, and
@@ -33,7 +33,7 @@ function GraphBackdrop() {
     let w = 0, h = 0;
     const resize = () => { w = cv.clientWidth; h = cv.clientHeight; cv.width = w * dpr; cv.height = h * dpr; ctx.setTransform(dpr, 0, 0, dpr, 0, 0); };
     resize(); window.addEventListener("resize", resize);
-    const COLORS = ["#22d3ee", "#34d399", "#a855f7", "#fbbf24", "#60a5fa"];
+    const COLORS = ["#22d3ee", "#00BFFF", "#a855f7", "#fbbf24", "#60a5fa"];
     const N = 58;
     const nodes = Array.from({ length: N }, () => ({
       x: Math.random(), y: Math.random(), vx: (Math.random() - 0.5) * 0.00016, vy: (Math.random() - 0.5) * 0.00016,
@@ -53,7 +53,7 @@ function GraphBackdrop() {
       for (const p of pulses) {
         p.t += 0.006; if (p.t > 1) { p.t = 0; p.a = Math.floor(Math.random() * N); p.b = Math.floor(Math.random() * N); }
         const a = nodes[p.a], b = nodes[p.b]; const x = (a.x + (b.x - a.x) * p.t) * w, y = (a.y + (b.y - a.y) * p.t) * h;
-        ctx.fillStyle = "rgba(52,211,153,0.9)"; ctx.beginPath(); ctx.arc(x, y, 2, 0, Math.PI * 2); ctx.fill();
+        ctx.fillStyle = "rgba(0,191,255,0.9)"; ctx.beginPath(); ctx.arc(x, y, 2, 0, Math.PI * 2); ctx.fill();
       }
       // nodes + glow
       for (const n of nodes) {
@@ -164,12 +164,12 @@ export default function PipelineView() {
       <div className="relative z-10">
       {/* Header */}
       <div className="mb-1 flex items-end gap-3 flex-wrap">
-        <h1 className="text-2xl font-medium tracking-tight">From Inbox to <span style={{ color: "#34d399" }}>Shipped</span></h1>
+        <h1 className="text-2xl font-medium tracking-tight">From Inbox to <span style={{ color: "#00BFFF" }}>Shipped</span></h1>
         <span className="text-[12.5px] text-[var(--fg-dim)] font-mono pb-1">one human checkpoint · everything else is agents</span>
         <div className="ml-auto flex items-center gap-0.5 rounded-lg border p-0.5" style={{ borderColor: "var(--panel-border)" }}>
           {([["board", "Pipeline", <Columns3 size={13} key="b" />], ["gallery", "Gallery", <LayoutGrid size={13} key="g" />]] as const).map(([k, label, icon]) => (
             <button key={k} onClick={() => setView(k)} className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md text-[12px] font-medium transition"
-              style={{ background: view === k ? "rgba(52,211,153,0.15)" : "transparent", color: view === k ? "#34d399" : "var(--fg-dim)" }}>
+              style={{ background: view === k ? "rgba(0,191,255,0.15)" : "transparent", color: view === k ? "#00BFFF" : "var(--fg-dim)" }}>
               {icon}{label}
             </button>
           ))}
@@ -285,7 +285,7 @@ function BuildsGallery({ items, onOpen, onPin }: { items: Item[]; onOpen: (it: I
 
 function BuildTile({ it, onOpen, onPin }: { it: Item; onOpen: () => void; onPin: () => void }) {
   const [live, setLive] = useState(false);
-  const accent = it.route ? ROUTE_COLOR[it.route] : "#34d399";
+  const accent = it.route ? ROUTE_COLOR[it.route] : "#00BFFF";
   const url = it.buildFile ? buildPreviewUrl(it.buildFile) : "";
   return (
     <div className="rounded-2xl border overflow-hidden flex flex-col transition hover:border-[var(--panel-border-hot)]" style={{ borderColor: it.pinned ? "rgba(251,191,36,0.5)" : "var(--panel-border)", background: "rgba(255,255,255,0.015)" }}>
@@ -344,15 +344,15 @@ function Card({ it, busy, onOpen, onShape, onDecide, onBuild, onStop, onPin, onD
         )}
         {it.stage === "review" && (
           <div className="mt-2.5 flex gap-1.5">
-            <button onClick={(e) => { e.stopPropagation(); onDecide(true); }} className="flex-1 inline-flex items-center justify-center gap-1 px-2 py-1.5 rounded-lg text-[11.5px] font-semibold" style={{ background: "rgba(52,211,153,0.15)", color: "#34d399", border: "1px solid rgba(52,211,153,0.4)" }}><Check size={12} /> Approve</button>
+            <button onClick={(e) => { e.stopPropagation(); onDecide(true); }} className="flex-1 inline-flex items-center justify-center gap-1 px-2 py-1.5 rounded-lg text-[11.5px] font-semibold" style={{ background: "rgba(0,191,255,0.15)", color: "#00BFFF", border: "1px solid rgba(0,191,255,0.4)" }}><Check size={12} /> Approve</button>
             <button onClick={(e) => { e.stopPropagation(); onDecide(false); }} className="px-2 py-1.5 rounded-lg text-[11.5px]" style={{ color: "#f43f5e", border: "1px solid rgba(244,63,94,0.35)" }}><Ban size={12} /></button>
           </div>
         )}
         {it.stage === "building" && (
-          <button onClick={(e) => { e.stopPropagation(); onBuild(); }} className="mt-2.5 w-full inline-flex items-center justify-center gap-1.5 px-2 py-1.5 rounded-lg text-[11.5px] font-semibold" style={{ background: "rgba(52,211,153,0.14)", color: "#34d399", border: "1px solid rgba(52,211,153,0.4)" }}><Cpu size={12} /> Build the deliverable</button>
+          <button onClick={(e) => { e.stopPropagation(); onBuild(); }} className="mt-2.5 w-full inline-flex items-center justify-center gap-1.5 px-2 py-1.5 rounded-lg text-[11.5px] font-semibold" style={{ background: "rgba(0,191,255,0.14)", color: "#00BFFF", border: "1px solid rgba(0,191,255,0.4)" }}><Cpu size={12} /> Build the deliverable</button>
         )}
         {it.stage === "shipped" && it.buildFile && (
-          <button onClick={(e) => { e.stopPropagation(); onOpen(); }} className="mt-2.5 w-full inline-flex items-center justify-center gap-1.5 px-2 py-1.5 rounded-lg text-[11.5px] font-semibold" style={{ background: "rgba(163,230,53,0.14)", color: "#a3e635", border: "1px solid rgba(163,230,53,0.4)" }}><Play size={11} /> View what was built</button>
+          <button onClick={(e) => { e.stopPropagation(); onOpen(); }} className="mt-2.5 w-full inline-flex items-center justify-center gap-1.5 px-2 py-1.5 rounded-lg text-[11.5px] font-semibold" style={{ background: "rgba(251,192,45,0.14)", color: "#00BFFF", border: "1px solid rgba(251,192,45,0.4)" }}><Play size={11} /> View what was built</button>
         )}
       </>)}
     </motion.div>
@@ -380,9 +380,9 @@ function Drawer({ it, busy, onClose, onShape, onDecide, onBuild, onStop, onDelet
 
         {/* What was built — live preview of the deliverable */}
         {it.buildFile && (
-          <div className="mb-5 rounded-xl border overflow-hidden" style={{ borderColor: "rgba(163,230,53,0.4)" }}>
-            <div className="flex items-center justify-between px-3 py-2 border-b" style={{ borderColor: "rgba(163,230,53,0.25)", background: "rgba(163,230,53,0.06)" }}>
-              <span className="text-[11px] font-mono flex items-center gap-1.5" style={{ color: "#a3e635" }}><Play size={11} /> What the agents built</span>
+          <div className="mb-5 rounded-xl border overflow-hidden" style={{ borderColor: "rgba(251,192,45,0.4)" }}>
+            <div className="flex items-center justify-between px-3 py-2 border-b" style={{ borderColor: "rgba(251,192,45,0.25)", background: "rgba(251,192,45,0.06)" }}>
+              <span className="text-[11px] font-mono flex items-center gap-1.5" style={{ color: "#00BFFF" }}><Play size={11} /> What the agents built</span>
               <a href={buildPreviewUrl(it.buildFile)} target="_blank" rel="noopener noreferrer" className="text-[var(--fg-dim)] hover:text-[var(--fg)]" title="Open full-screen"><ExternalLink size={13} /></a>
             </div>
             <iframe key={it.buildFile} src={buildPreviewUrl(it.buildFile)} title="deliverable" className="w-full border-0 bg-black" style={{ height: 300 }} sandbox="allow-scripts allow-pointer-lock allow-same-origin" />
@@ -406,14 +406,14 @@ function Drawer({ it, busy, onClose, onShape, onDecide, onBuild, onStop, onDelet
         )}
         {!busy && it.stage === "review" && (
           <div className="mt-4 flex gap-2">
-            <button onClick={() => onDecide(true)} className="flex-1 inline-flex items-center justify-center gap-1.5 px-3 py-2.5 rounded-lg text-[13px] font-semibold" style={{ background: "rgba(52,211,153,0.15)", color: "#34d399", border: "1px solid rgba(52,211,153,0.4)" }}>
+            <button onClick={() => onDecide(true)} className="flex-1 inline-flex items-center justify-center gap-1.5 px-3 py-2.5 rounded-lg text-[13px] font-semibold" style={{ background: "rgba(0,191,255,0.15)", color: "#00BFFF", border: "1px solid rgba(0,191,255,0.4)" }}>
               <Check size={14} /> Approve &amp; build
             </button>
             <button onClick={() => onDecide(false)} className="px-3.5 py-2.5 rounded-lg text-[13px]" style={{ color: "#f43f5e", border: "1px solid rgba(244,63,94,0.35)" }}><Ban size={14} /></button>
           </div>
         )}
         {!busy && it.stage === "building" && !it.buildFile && (
-          <button onClick={onBuild} className="mt-4 w-full inline-flex items-center justify-center gap-1.5 px-3 py-2.5 rounded-lg text-[13px] font-semibold" style={{ background: "rgba(52,211,153,0.15)", color: "#34d399", border: "1px solid rgba(52,211,153,0.4)" }}>
+          <button onClick={onBuild} className="mt-4 w-full inline-flex items-center justify-center gap-1.5 px-3 py-2.5 rounded-lg text-[13px] font-semibold" style={{ background: "rgba(0,191,255,0.15)", color: "#00BFFF", border: "1px solid rgba(0,191,255,0.4)" }}>
             <Cpu size={14} /> Build the deliverable
           </button>
         )}

@@ -164,7 +164,7 @@ export default function GoalsView() {
                 }}
                 title={g.done ? "Mark as active" : "Mark as done"}
               >
-                {g.done && <Check size={12} className="text-emerald-300" />}
+                {g.done && <Check size={12} className="text-cyan-300" />}
               </button>
               <div className="flex-1 min-w-0">
                 <div className={`text-[14px] ${g.done ? "line-through text-[var(--fg-dimmer)]" : "text-[var(--fg)]"}`}>

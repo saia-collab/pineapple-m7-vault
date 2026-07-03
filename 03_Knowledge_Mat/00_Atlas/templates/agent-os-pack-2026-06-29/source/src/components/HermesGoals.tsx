@@ -48,7 +48,7 @@ function statusBadge(s: GoalStatus) {
   const map: Record<GoalStatus, { bg: string; fg: string; icon: React.ReactNode; label: string }> = {
     queued:    { bg: "rgba(110,99,83,0.18)",  fg: "var(--cream-dim)",     icon: <Clock size={11} />, label: "queued" },
     running:   { bg: "rgba(96,165,250,0.18)", fg: ACCENT,                  icon: <Loader2 size={11} className="animate-spin" />, label: "running" },
-    completed: { bg: "rgba(90,184,150,0.18)", fg: "var(--emerald)",       icon: <CheckCircle2 size={11} />, label: "done" },
+    completed: { bg: "rgba(0,191,255,0.18)", fg: "var(--emerald)",       icon: <CheckCircle2 size={11} />, label: "done" },
     failed:    { bg: "rgba(196,96,126,0.18)", fg: "var(--plum)",          icon: <AlertCircle size={11} />, label: "failed" },
     stopped:   { bg: "rgba(201,124,94,0.18)", fg: "var(--rust)",          icon: <Pause size={11} />, label: "stopped" },
   };

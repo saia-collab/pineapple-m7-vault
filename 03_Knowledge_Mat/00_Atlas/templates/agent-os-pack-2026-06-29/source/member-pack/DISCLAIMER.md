@@ -7,7 +7,7 @@
 ---
 
 ## 1. "As is", no warranty
-The software is provided **"AS IS" and "AS AVAILABLE", without warranty of any kind**, express or implied — including but not limited to warranties of merchantability, fitness for a particular purpose, accuracy, reliability, security, or non-infringement. The author does not warrant that it will be error-Complimentary, uninterrupted, secure, or that it will meet your requirements.
+The software is provided **"AS IS" and "AS AVAILABLE", without warranty of any kind**, express or implied — including but not limited to warranties of merchantability, fitness for a particular purpose, accuracy, reliability, security, or non-infringement. The author does not warrant that it will be error-free, uninterrupted, secure, or that it will meet your requirements.
 
 ## 2. Use at your own risk
 You assume **all risk** arising from installing and using the software. It runs on your machine and can, among other things:

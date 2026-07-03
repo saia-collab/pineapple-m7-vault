@@ -6,11 +6,11 @@
 0. **Surface the disclaimer first.** Before installing anything, tell the user in one line that the Agent OS runs powerful agents on their own machine and is used **at their own risk** — point them to `DISCLAIMER.md` (no warranty; they're responsible for their keys, costs, and what their agents do). Then continue.
 1. **Do the work for them.** Run the commands yourself. Don't make them open a terminal unless a step truly needs them (like clicking "allow" on a microphone prompt).
 2. **Explain in plain English** what you're about to do, in one short sentence, before each major step.
-3. **Stop and ask** whenever you need: a password, a paid action, a Complimentary-account signup, or a key. Never invent or guess a key.
+3. **Stop and ask** whenever you need: a password, a paid action, a free-account signup, or a key. Never invent or guess a key.
 4. **Required vs optional.** Only Step 1 + Step 2 are required to get a working dashboard. Steps 3–7 are optional powers — ask the user which ones they want before doing them.
 5. **Verify each step worked** before moving on. If something fails, fix it or tell the user clearly what's needed.
 6. **Never** enter the user's passwords, payment details, or API keys into any website yourself — paste keys into local config files only, and ask the user to do any website logins.
-7. **MODEL ROUTING — do not break this.** The local Ollama model (Gemma2/qwen-coder) is ONLY for the Complimentary on-device builder (Step 2). **Never set it as the default for Hermes, the video tools, or any coding/engineering agent**, and never globally swap the user's strong model (e.g. N2, real Claude, an OpenRouter model) for Gemma2 "to make things consistent." Gemma2 is too small to drive Hermes' tools or author real video — doing this produces flaky agents and 5-second text/blob videos. Coding agents → Complimentary Claude Code on N2 (or real Claude); Hermes/Jarvis → an OpenRouter model; video authoring → a strong model. (See `install/0-HOW-IT-ALL-WORKS.md`.)
+7. **MODEL ROUTING — do not break this.** The local Ollama model (Gemma2/qwen-coder) is ONLY for the free on-device builder (Step 2). **Never set it as the default for Hermes, the video tools, or any coding/engineering agent**, and never globally swap the user's strong model (e.g. N2, real Claude, an OpenRouter model) for Gemma2 "to make things consistent." Gemma2 is too small to drive Hermes' tools or author real video — doing this produces flaky agents and 5-second text/blob videos. Coding agents → Free Claude Code on N2 (or real Claude); Hermes/Jarvis → an OpenRouter model; video authoring → a strong model. (See `install/0-HOW-IT-ALL-WORKS.md`.)
 
 ---
 
@@ -34,7 +34,7 @@ Many features (Memory Galaxy, Journal, Notebook, Jarvis's "what do you remember"
 1. **Find the vault yourself first.** Check the auto-detected spots and the common real-world ones:
    - `~/Documents/Obsidian Vault`, `~/Obsidian Vault`, `~/Obsidian` (these auto-detect — if one exists, you're done, skip to step 4).
    - Also look in iCloud (`~/Library/Mobile Documents/iCloud~md~obsidian/Documents/`), `~/Documents`, `~/Dropbox`, and `~/Desktop` for a folder containing a `.obsidian` directory (that marks a vault).
-2. **If you still can't find it, ask** the user: "Where's your Obsidian vault folder? (Or say 'I don't have one' and I'll help you make one.)" If they don't have Obsidian, point them to `install/11-MEMORY-OBSIDIAN.md` (Complimentary, 3 min) or offer to skip and come back later.
+2. **If you still can't find it, ask** the user: "Where's your Obsidian vault folder? (Or say 'I don't have one' and I'll help you make one.)" If they don't have Obsidian, point them to `install/11-MEMORY-OBSIDIAN.md` (free, 3 min) or offer to skip and come back later.
 3. **Point the dashboard at it WITHOUT clobbering their other settings.** Merge `vaultRoot` into `~/.agentic-os/config.json` — read the existing file, add/replace just that one key, write it back:
    ```bash
    python3 - <<'PY'
@@ -54,19 +54,19 @@ Many features (Memory Galaxy, Journal, Notebook, Jarvis's "what do you remember"
 
 > Full detail (incl. the "just ask the AI" path you're fulfilling right now): `install/11-MEMORY-OBSIDIAN.md`
 
-## Step 2 — Voice building (RECOMMENDED — Complimentary, no keys)
-This is the "say build me a game and it appears" feature. It runs a small AI **on the user's own machine**, so it's Complimentary and private.
-1. Tell the user to install **Ollama** (a Complimentary app): https://ollama.com — or install it for them if you can (`brew install ollama` on Mac).
+## Step 2 — Voice building (RECOMMENDED — free, no keys)
+This is the "say build me a game and it appears" feature. It runs a small AI **on the user's own machine**, so it's free and private.
+1. Tell the user to install **Ollama** (a free app): https://ollama.com — or install it for them if you can (`brew install ollama` on Mac).
 2. Pull a model: `ollama pull gemma2` (or `qwen2.5-coder:14b` if they have 16GB+ RAM — better at code).
 3. Create `~/.fcc/.env` with the line: `MODEL="ollama/gemma2"` (match the model you pulled).
 4. Verify: `ollama list` shows the model.
-5. Tell them: "Open the **Complimentary Claude Code** tab → **Agent Factory**, and type 'build me a starfield'. It builds on your machine."
+5. Tell them: "Open the **Free Claude Code** tab → **Agent Factory**, and type 'build me a starfield'. It builds on your machine."
 
 > Full detail: `install/2-VOICE-BUILDING.md`
 
-## Step 3 — Jarvis the talking voice (OPTIONAL — needs a Complimentary key)
-Ask the user: *"Do you want the voice that talks back to you (Jarvis)? It needs a Complimentary ElevenLabs account."* If yes:
-1. Send them to https://elevenlabs.io → sign up Complimentary → Profile → copy their **API key**. (They do this; you don't log in for them.)
+## Step 3 — Jarvis the talking voice (OPTIONAL — needs a free key)
+Ask the user: *"Do you want the voice that talks back to you (Jarvis)? It needs a free ElevenLabs account."* If yes:
+1. Send them to https://elevenlabs.io → sign up free → Profile → copy their **API key**. (They do this; you don't log in for them.)
 2. Put the key in their Hermes profile env (see Step 4) OR in the dashboard env as `ELEVENLABS_API_KEY`.
 3. The voice *input* (talking to it) works in Chrome/Safari with no key.
 
@@ -75,14 +75,14 @@ Ask the user: *"Do you want the voice that talks back to you (Jarvis)? It needs 
 ## Step 4 — Hermes the agent (OPTIONAL)
 Ask: *"Do you want Hermes — an agent that does multi-step jobs with real tools?"* If yes:
 1. Install it (it has its own installer — `install/4-HERMES.md` has the current command).
-2. It needs **one** AI key (OpenRouter is easiest + cheapest). Ask the user to make a Complimentary OpenRouter account at https://openrouter.ai and paste the key where the doc says.
+2. It needs **one** AI key (OpenRouter is easiest + cheapest). Ask the user to make a free OpenRouter account at https://openrouter.ai and paste the key where the doc says.
 
 > Full detail: `install/4-HERMES.md`
 
-## Step 5 — Complimentary Claude Code proxy (OPTIONAL)
-Routes coding to Complimentary models. Only needed if they want the full Complimentary Claude Code chat (Step 2's voice-build already works without it).
+## Step 5 — Free Claude Code proxy (OPTIONAL)
+Routes coding to free models. Only needed if they want the full Free Claude Code chat (Step 2's voice-build already works without it).
 
-> Full detail: `install/5-Complimentary-CLAUDE-CODE.md`
+> Full detail: `install/5-FREE-CLAUDE-CODE.md`
 
 ## Step 6 — Paperclip (OPTIONAL — the AI company)
 Ask: *"Do you want Paperclip — run a whole team of AI agents like a company, with an org chart?"* If yes:
@@ -94,7 +94,7 @@ Ask: *"Do you want Paperclip — run a whole team of AI agents like a company, w
 ## Step 7 — The agent tabs (OPTIONAL)
 Each tab (Claude, Codex, OpenClaw, Antigravity) lights up when its CLI is installed. Ask which the user already uses and install only those.
 
-- **Claude tab = `claude login`, NOT an API key.** Have the user run `claude login` (browser OAuth, works with their Claude Pro/Max subscription). **Do NOT create a `.env.local` with `ANTHROPIC_API_KEY` — and NEVER write an empty `ANTHROPIC_API_KEY=`**, because an empty value overrides their `claude login` and breaks the Claude tab. Only set a *real* `ANTHROPIC_API_KEY` if the user explicitly wants pay-per-token instead of a subscription. No subscription? Point them to Complimentary Claude Code (Step 5) — no key needed.
+- **Claude tab = `claude login`, NOT an API key.** Have the user run `claude login` (browser OAuth, works with their Claude Pro/Max subscription). **Do NOT create a `.env.local` with `ANTHROPIC_API_KEY` — and NEVER write an empty `ANTHROPIC_API_KEY=`**, because an empty value overrides their `claude login` and breaks the Claude tab. Only set a *real* `ANTHROPIC_API_KEY` if the user explicitly wants pay-per-token instead of a subscription. No subscription? Point them to Free Claude Code (Step 5) — no key needed.
 - **Gemini CLI was retired 2026-06-18** → install **Antigravity** (`agy`) instead; don't set up the old Gemini CLI.
 
 > Full detail: `install/7-AGENT-CLIS.md`
@@ -109,6 +109,6 @@ Give the user a short, friendly summary:
 - ✅ what's working (dashboard + whichever pieces they chose)
 - 🔑 any keys they still need to add later
 - 🔗 the link: **http://localhost:3737**
-- 💡 one thing to try first (e.g. "Open Complimentary Claude Code and say 'build me a galaxy'").
+- 💡 one thing to try first (e.g. "Open Free Claude Code and say 'build me a galaxy'").
 
 If anything broke, point them to `install/8-TROUBLESHOOTING.md` and offer to fix it.

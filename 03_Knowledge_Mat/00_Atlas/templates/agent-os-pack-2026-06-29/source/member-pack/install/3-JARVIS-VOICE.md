@@ -10,17 +10,17 @@ The whole thing runs on **three words**:
 ## What you get
 The **Hermes → Jarvis** tab. A glowing reactor that listens, talks back, and reacts to your voice.
 
-## Two parts: listening (Complimentary) and speaking (Complimentary key)
+## Two parts: listening (free) and speaking (free key)
 
-**Part A — Talking TO it: Complimentary, works right away.**
+**Part A — Talking TO it: free, works right away.**
 The microphone uses your browser's built-in speech, so there's nothing to install.
 - Use **Chrome** or **Safari** (not all browsers support it).
 - The first time, your browser asks to use the microphone — click **Allow**.
 - That's it. Tap the reactor and talk, or flip on the **wake word** and just say "Jarvis".
 
-**Part B — Hearing IT talk back in the nice voice: a Complimentary key.**
-The premium "British butler" voice comes from a service called **ElevenLabs**. They have a Complimentary tier.
-1. Go to **https://elevenlabs.io** and **sign up** (Complimentary). *(You do this yourself — never let an AI log in for you.)*
+**Part B — Hearing IT talk back in the nice voice: a free key.**
+The premium "British butler" voice comes from a service called **ElevenLabs**. They have a free tier.
+1. Go to **https://elevenlabs.io** and **sign up** (free). *(You do this yourself — never let an AI log in for you.)*
 2. Click your profile → find your **API key** → copy it.
 3. Paste it into your settings. The simplest way: create or open the file `~/.hermes/profiles/main/.env` and add this line (paste your key after the `=`):
    ```

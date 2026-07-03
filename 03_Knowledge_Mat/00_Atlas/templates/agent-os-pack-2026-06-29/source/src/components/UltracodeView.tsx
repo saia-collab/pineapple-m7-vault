@@ -26,7 +26,7 @@ const MISSIONS: Mission[] = [
     prompt: "Run a security audit of this Agent OS codebase (src/). Use parallel subagents to hunt independently for: (1) injection / unsafe shell exec, (2) missing input validation at API boundaries, (3) secret/credential leakage, (4) path-traversal in file routes. Have reviewer agents try to refute each finding before it's reported. Output a prioritised findings report as security-audit.md — real issues only, no false positives.",
   },
   {
-    id: "deadcode", label: "Find dead code", icon: <Scissors size={13} />, color: "#5ab896", project: "ultracode-deadcode",
+    id: "deadcode", label: "Find dead code", icon: <Scissors size={13} />, color: "#00BFFF", project: "ultracode-deadcode",
     prompt: "Find dead code + cleanup opportunities across src/. Use parallel subagents to scan different areas, then cross-check: unused exports, unreachable branches, orphaned components, duplicated helpers. Verify each candidate is genuinely unused before listing it. Output dead-code-report.md with file:line references and a confidence level per item.",
   },
   {
@@ -41,7 +41,7 @@ const MISSIONS: Mission[] = [
 
 const GOLD = "#d4a574";
 const PINK = "#f472b6";
-const EMERALD = "#5ab896";
+const EMERALD = "#00BFFF";
 const PLUM = "#c4607e";
 const BLUE = "#60a5fa";
 

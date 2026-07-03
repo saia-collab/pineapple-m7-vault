@@ -85,9 +85,9 @@ const STYLE: Record<AgentKey, {
   fcc: {
     // Free Claude Code = the open-source proxy sibling. Green/emerald gradient to
     // signal "free", with a stylised owl glyph (the default upstream is Owl Alpha).
-    accent: "#10b981",
-    bg: "rgba(16,185,129,0.18)",
-    gradient: "linear-gradient(135deg, #34d399 0%, #10b981 60%, #065f46 100%)",
+    accent: "#00BFFF",
+    bg: "rgba(0,191,255,0.18)",
+    gradient: "linear-gradient(135deg, #00BFFF 0%, #00BFFF 60%, #065f46 100%)",
     label: "Free Claude Code",
     glyph: (s) => (
       <svg width={s * 0.62} height={s * 0.62} viewBox="0 0 24 24" fill="none">
@@ -114,8 +114,8 @@ const STYLE: Record<AgentKey, {
   codex: {
     // Codex (OpenAI) — onyx/charcoal gradient + open-spiral mark (riff on the
     // OpenAI logo without copying it). Sits visually between Claude and Gemini.
-    accent: "#22c55e",
-    bg: "rgba(34,197,94,0.18)",
+    accent: "#00BFFF",
+    bg: "rgba(0,191,255,0.18)",
     gradient: "linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 45%, #166534 100%)",
     label: "Codex",
     glyph: (s) => (

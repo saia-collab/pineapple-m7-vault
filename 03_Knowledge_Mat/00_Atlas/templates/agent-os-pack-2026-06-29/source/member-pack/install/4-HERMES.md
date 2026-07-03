@@ -20,7 +20,7 @@ pip install hermes-agent
 (If `pip` isn't found, try `pip3`.) When it's done, check it with `hermes --version`.
 
 **2. Get an OpenRouter key.**
-- Go to **https://openrouter.ai**, sign up (Complimentary), add a few dollars of credit, and copy your **API key**. *(You do this yourself — don't let an AI enter your card.)*
+- Go to **https://openrouter.ai**, sign up (free), add a few dollars of credit, and copy your **API key**. *(You do this yourself — don't let an AI enter your card.)*
 
 **3. Give Hermes the key.**
 Create the file `~/.hermes/profiles/main/.env` and add:
@@ -85,7 +85,7 @@ Then reopen **Hermes → Chat** — the new profiles show up as pills. (Even eas
 ## Tip — keep it cheap and safe
 - Start with a small model (Haiku) for everyday stuff. It's fast and costs very little.
 - In the Jarvis tab, **"Auto" mode** answers instantly and only escalates big jobs to the full agent — so you don't burn money on simple questions.
-- Voice **builds** run on your local Complimentary model (see `2-VOICE-BUILDING.md`) — those cost $0 no matter how many you make.
+- Voice **builds** run on your local free model (see `2-VOICE-BUILDING.md`) — those cost $0 no matter how many you make.
 
 ## Done?
-Next optional power: Complimentary coding → **`5-Complimentary-CLAUDE-CODE.md`**, or skip ahead to the AI company → **`6-PAPERCLIP.md`**.
+Next optional power: free coding → **`5-FREE-CLAUDE-CODE.md`**, or skip ahead to the AI company → **`6-PAPERCLIP.md`**.

@@ -17,7 +17,7 @@ import {
 // We turn that into a vertical timeline of typed event cards. Long command
 // outputs collapse by default. Stderr noise hides behind a toggle.
 
-const ACCENT = "#22c55e";
+const ACCENT = "#00BFFF";
 
 type EvKind =
   | "agent_message"
@@ -202,8 +202,8 @@ export default function GoalLogStream({ log, running }: { log: string; running: 
                 <motion.div key={e.i} initial={{ opacity: 0, y: 4 }} animate={{ opacity: 1, y: 0 }}
                   className="rounded-md px-4 py-3 border"
                   style={{
-                    background: "rgba(34,197,94,0.05)",
-                    borderColor: "rgba(34,197,94,0.22)",
+                    background: "rgba(0,191,255,0.05)",
+                    borderColor: "rgba(0,191,255,0.22)",
                   }}>
                   <div className="text-[10px] uppercase tracking-widest mb-1.5 flex items-center gap-1.5" style={{ color: ACCENT }}>
                     <Sparkles size={10} /> Codex
@@ -254,7 +254,7 @@ export default function GoalLogStream({ log, running }: { log: string; running: 
               return (
                 <motion.div key={e.i} initial={{ opacity: 0, y: 4 }} animate={{ opacity: 1, y: 0 }}
                   className="rounded-md border"
-                  style={{ background: "rgba(255,255,255,0.018)", borderColor: ok ? "rgba(90,184,150,0.22)" : "rgba(196,96,126,0.28)" }}>
+                  style={{ background: "rgba(255,255,255,0.018)", borderColor: ok ? "rgba(0,191,255,0.22)" : "rgba(196,96,126,0.28)" }}>
                   <button onClick={() => toggleExpanded(e.i)}
                     className="w-full flex items-center gap-2.5 px-3 py-2 text-left">
                     {ok

@@ -652,7 +652,7 @@ function InstallModal({ name, onClose, onComplete }: { name: string; onClose: ()
                           style={{
                             color: installOk ? "var(--emerald)" : "var(--cream)",
                             border: `1px solid ${installOk ? "var(--emerald)" : "var(--cream-mute)"}55`,
-                            background: installOk ? "rgba(90,184,150,0.1)" : "transparent",
+                            background: installOk ? "rgba(0,191,255,0.1)" : "transparent",
                           }}>
                     {installOk ? <><CheckCircle2 size={11} /> Done</> : <>Close</>}
                   </button>
@@ -682,7 +682,7 @@ function StatusPill({ status, alreadyInstalled }: { status: string; alreadyInsta
 function TransportPill({ transport }: { transport: "stdio" | "http" | "unknown" | string }) {
   const isHttp = transport === "http";
   const Icon = isHttp ? Globe : Terminal;
-  const color = isHttp ? "#a3e635" : "#fbbf24";
+  const color = isHttp ? "#00BFFF" : "#fbbf24";
   return (
     <span className="text-[9.5px] uppercase tracking-[0.2em] px-1.5 py-0.5 rounded flex items-center gap-1 shrink-0"
           style={{ color, border: `1px solid ${color}40`, background: `${color}10` }}>
@@ -927,9 +927,9 @@ function AddCustomModal({ existingNames, onClose, onComplete }: { existingNames:
               <button onClick={() => setTransport("http")}
                       className="flex-1 px-3 py-2 rounded-md border text-[12px] flex items-center justify-center gap-2 transition"
                       style={{
-                        borderColor: transport === "http" ? "#a3e635" : "var(--line-soft)",
-                        background: transport === "http" ? "rgba(163,230,53,0.1)" : "transparent",
-                        color: transport === "http" ? "#a3e635" : "var(--cream-mute)",
+                        borderColor: transport === "http" ? "#00BFFF" : "var(--line-soft)",
+                        background: transport === "http" ? "rgba(251,192,45,0.1)" : "transparent",
+                        color: transport === "http" ? "#00BFFF" : "var(--cream-mute)",
                       }}>
                 <Globe size={12} /> http
               </button>
@@ -1042,7 +1042,7 @@ function AddCustomModal({ existingNames, onClose, onComplete }: { existingNames:
             <div className="rounded-md border p-3 text-[11.5px] space-y-1"
                  style={{
                    borderColor: result.ok ? "var(--emerald)" : "var(--plum)",
-                   background: result.ok ? "rgba(90,184,150,0.08)" : "rgba(196,96,126,0.08)",
+                   background: result.ok ? "rgba(0,191,255,0.08)" : "rgba(196,96,126,0.08)",
                    color: "var(--cream)",
                  }}>
               <div className="flex items-center gap-2 font-medium">

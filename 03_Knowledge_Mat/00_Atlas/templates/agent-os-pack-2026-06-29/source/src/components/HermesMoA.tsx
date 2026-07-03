@@ -74,7 +74,7 @@ export default function HermesMoA() {
       });
       const d = await r.json();
       if (!r.ok || d.error) setError(d.error || `HTTP ${r.status}`);
-      else { setResult(d); loadWorkspace(); }
+      else { setResult(d); loadWorkspace(); if (d.build) setSelected(d.build); }
     } catch (e) { setError(String(e)); }
     finally { setRunning(false); }
   }

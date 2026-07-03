@@ -6,11 +6,11 @@ import {
   BookOpen, Plus, Send, RefreshCw, MessageSquare, Library, Headphones,
   Video as VideoIcon, Image as ImageIcon, Brain, FileText, Layers, FileQuestion,
   Sparkles, AlertCircle, Download, Clock, ExternalLink, X, ChevronRight,
-  Telescope, Globe, Zap,
+  Telescope, Globe, Zap, Loader2,
 } from "lucide-react";
 import VoiceButton from "./VoiceButton";
 
-type Tab = "library" | "research" | "chat" | "studio" | "assets";
+type Tab = "library" | "shortvideo" | "research" | "chat" | "studio" | "assets";
 type ResearchSource = { title?: string; url?: string; source?: string; link?: string; type?: string; snippet?: string; description?: string; summary?: string; [k: string]: unknown };
 type ResearchPhase = "idle" | "starting" | "running" | "done" | "error";
 // The 9 artifact types the new MCP actually supports (matches studio_create + download_artifact).
@@ -58,7 +58,7 @@ const ARTIFACT_TYPES: { value: ArtifactType; label: string; icon: React.ReactNod
   { value: "audio",       label: "Audio Overview", icon: <Headphones size={14} />,    colour: "#22d3ee" },
   { value: "video",       label: "Video",          icon: <VideoIcon size={14} />,     colour: "#a855f7" },
   { value: "slide_deck",  label: "Slide Deck",     icon: <Layers size={14} />,        colour: "#fde047" },
-  { value: "mind_map",    label: "Mind Map",       icon: <Brain size={14} />,         colour: "#10b981" },
+  { value: "mind_map",    label: "Mind Map",       icon: <Brain size={14} />,         colour: "#00BFFF" },
   { value: "infographic", label: "Infographic",    icon: <ImageIcon size={14} />,     colour: "#ec4899" },
   { value: "flashcards",  label: "Flashcards",     icon: <Layers size={14} />,        colour: "#fb923c" },
   { value: "quiz",        label: "Quiz",           icon: <FileQuestion size={14} />,  colour: "#f87171" },
@@ -100,6 +100,78 @@ export default function NotebookView() {
   const [studioBusy, setStudioBusy] = useState(false);
   const [artifacts, setArtifacts] = useState<Artifact[]>([]);
 
+  // Short Video generator
+  const [svFocus, setSvFocus] = useState("");
+  const [svBusy, setSvBusy] = useState(false);
+  const [svStatus, setSvStatus] = useState<string | null>(null);
+  const [svVideo, setSvVideo] = useState<string | null>(null);
+  const svPoll = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const SV_RENDERING = "⏳ Google is rendering your short — usually 10–15 min (that's the wait; the video is ~60s). It shows up under \"Your shorts\" below and plays automatically when it's done — you can leave and come back.";
+  const SV_PENDING_KEY = "agentic-os/notebooklm-sv-pending";
+  const [svRecent, setSvRecent] = useState<{ id: string; status: string; label: string; cached: boolean }[]>([]);
+  useEffect(() => () => { if (svPoll.current) clearTimeout(svPoll.current); }, []);
+
+  const loadRecent = useCallback(async (nb: string) => {
+    try { const r = await fetch(`/api/notebooklm/shortvideo/recent?nb=${nb}`, { cache: "no-store" }); const j = await r.json(); setSvRecent(j.videos || []); } catch { setSvRecent([]); }
+  }, []);
+
+  const pollShort = useCallback((nb: string, artId: string) => {
+    if (svPoll.current) clearTimeout(svPoll.current);
+    const tick = async () => {
+      try {
+        const s = await fetch(`/api/notebooklm/shortvideo/status?nb=${nb}&id=${artId}`, { cache: "no-store" }).then((x) => x.json());
+        if (s.status === "completed" && s.video) { setSvVideo(s.video); setSvStatus("Done ✓ — your short is ready."); setSvBusy(false); try { localStorage.removeItem(SV_PENDING_KEY); } catch {} loadRecent(nb); }
+        else if (s.status === "failed") { setSvStatus("⚠ Generation failed — try a different notebook or focus."); setSvBusy(false); try { localStorage.removeItem(SV_PENDING_KEY); } catch {} }
+        else { setSvStatus(SV_RENDERING); loadRecent(nb); svPoll.current = setTimeout(tick, 12000); }
+      } catch { svPoll.current = setTimeout(tick, 15000); }
+    };
+    svPoll.current = setTimeout(tick, 3000);
+  }, [loadRecent]);
+
+  async function playRecent(id: string) {
+    if (!activeId) return;
+    setSvStatus("Loading that short…");
+    try {
+      const s = await fetch(`/api/notebooklm/shortvideo/status?nb=${activeId}&id=${id}`, { cache: "no-store" }).then((x) => x.json());
+      if (s.status === "completed" && s.video) { setSvVideo(s.video); setSvStatus(null); loadRecent(activeId); }
+      else setSvStatus("That one's still rendering — check back in a few minutes.");
+    } catch { setSvStatus("Couldn't load that short."); }
+  }
+
+  // Resume a still-cooking render on return.
+  useEffect(() => {
+    try {
+      const raw = localStorage.getItem(SV_PENDING_KEY);
+      if (raw) { const { nb, id } = JSON.parse(raw); if (nb && id) { setSvBusy(true); setSvStatus("⏳ Picking your short back up…"); pollShort(nb, id); } }
+    } catch {}
+  }, [pollShort]);
+  // Whenever a notebook is picked on the Short Video tab, list its shorts.
+  useEffect(() => { if (tab === "shortvideo" && activeId) loadRecent(activeId); }, [tab, activeId, loadRecent]);
+  // While any short is still rendering, quietly refresh the list every 30s.
+  useEffect(() => {
+    if (tab !== "shortvideo" || !activeId) return;
+    const rendering = svRecent.some((v) => v.status !== "completed" && !/fail/i.test(v.status));
+    if (!rendering) return;
+    const iv = setInterval(() => loadRecent(activeId), 30000);
+    return () => clearInterval(iv);
+  }, [tab, activeId, svRecent, loadRecent]);
+
+  async function generateShort() {
+    if (!activeId || svBusy) return;
+    setSvBusy(true); setSvVideo(null); setSvStatus("Starting your short…");
+    try {
+      const r = await fetch("/api/notebooklm/shortvideo", {
+        method: "POST", headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ notebookId: activeId, focus: svFocus }),
+      });
+      const j = await r.json();
+      if (!r.ok || j.error) { setSvStatus(`⚠ ${j.error || `HTTP ${r.status}`}`); setSvBusy(false); return; }
+      try { localStorage.setItem(SV_PENDING_KEY, JSON.stringify({ nb: activeId, id: j.artifactId })); } catch {}
+      setSvStatus(SV_RENDERING);
+      pollShort(activeId, j.artifactId);
+    } catch (e) { setSvStatus(`⚠ ${String(e).slice(0, 120)}`); setSvBusy(false); }
+  }
+
   // Saved assets (downloaded artifacts in the vault)
   const [savedAssets, setSavedAssets] = useState<SavedAsset[]>([]);
 
@@ -116,7 +188,7 @@ export default function NotebookView() {
   useEffect(() => {
     const sp = new URLSearchParams(window.location.search);
     const t = sp.get("tab");
-    if (t && ["library", "research", "chat", "studio", "assets"].includes(t)) setTab(t as Tab);
+    if (t && ["library", "shortvideo", "research", "chat", "studio", "assets"].includes(t)) setTab(t as Tab);
     const nb = sp.get("nb"); if (nb) setActiveId(nb);
   }, []);
 
@@ -336,6 +408,7 @@ export default function NotebookView() {
 
   const tabs: { key: Tab; label: string; icon: React.ReactNode }[] = [
     { key: "library",  label: "Library",  icon: <Library size={14} /> },
+    { key: "shortvideo", label: "Short Video", icon: <VideoIcon size={14} /> },
     { key: "research", label: "Research", icon: <Telescope size={14} /> },
     { key: "chat",     label: "Chat",     icon: <MessageSquare size={14} /> },
     { key: "studio",   label: "Studio",   icon: <Sparkles size={14} /> },
@@ -429,6 +502,71 @@ export default function NotebookView() {
               );
             })}
           </div>
+        </div>
+      )}
+
+      {tab === "shortvideo" && (
+        <div className="space-y-4">
+          <div className="panel p-5 space-y-4">
+            <div className="flex items-center gap-2">
+              <VideoIcon size={16} style={{ color: ACCENT }} />
+              <div>
+                <div className="text-[14px] font-medium text-[var(--fg)]">Short Video Generator</div>
+                <div className="text-[12px] text-[var(--fg-dim)]">Pick a notebook, hit go. NotebookLM turns its sources into a ~60-second <b style={{ color: "var(--fg)" }}>vertical</b> short — ready for Reels, Shorts &amp; TikTok. <span className="text-[var(--fg-dimmer)]">Rendering takes ~10–15 min on Google&apos;s side; it plays here when done.</span></div>
+              </div>
+            </div>
+            {authed === false ? (
+              <div className="text-[12.5px] text-[var(--fg-dim)]">Connect NotebookLM first — run <code>nlm login</code> in a terminal.</div>
+            ) : (<>
+              <div>
+                <label className="text-[10px] uppercase tracking-widest text-[var(--fg-dimmer)]">1 · Choose a notebook</label>
+                <select value={activeId ?? ""} onChange={(e) => setActiveId(e.target.value || null)}
+                  className="w-full mt-1 bg-[var(--panel)] border border-[var(--panel-border)] rounded-lg px-3 h-[38px] text-[13px] text-[var(--fg)] focus:outline-none">
+                  <option value="">Choose a notebook…</option>
+                  {notebooks.map((n) => <option key={n.id} value={n.id}>{notebookLabel(n)}</option>)}
+                </select>
+              </div>
+              <div>
+                <label className="text-[10px] uppercase tracking-widest text-[var(--fg-dimmer)]">2 · What&apos;s it about? <span className="opacity-60 normal-case tracking-normal">(optional)</span></label>
+                <textarea value={svFocus} onChange={(e) => setSvFocus(e.target.value)} rows={2}
+                  placeholder="e.g. the one big idea, punchy and energetic — or leave blank and let it choose"
+                  className="w-full mt-1 bg-[var(--panel)] border border-[var(--panel-border)] rounded-lg px-3 py-2 text-[13px] text-[var(--fg)] focus:outline-none resize-none" />
+              </div>
+              <button onClick={generateShort} disabled={!activeId || svBusy}
+                className="w-full h-[44px] rounded-xl flex items-center justify-center gap-2 text-[14px] font-semibold disabled:opacity-40 transition"
+                style={{ background: ACCENT, color: "#1a1400" }}>
+                {svBusy ? <><Loader2 size={15} className="animate-spin" /> Generating…</> : <><VideoIcon size={15} /> Generate Short Video</>}
+              </button>
+              {svStatus && <div className="text-[12.5px] text-center" style={{ color: svStatus.startsWith("⚠") ? "#fca5a5" : svStatus.startsWith("Done") ? "#86efac" : "var(--fg-dim)" }}>{svStatus}</div>}
+              <div className="text-[11px] text-[var(--fg-dimmer)] text-center">No notebook yet? Make one in the <button onClick={() => setTab("library")} className="underline" style={{ color: ACCENT }}>Library</button> tab (add a doc, PDF, or YouTube link) — then come back.</div>
+            </>)}
+          </div>
+
+          {svVideo && (
+            <div className="panel p-4 flex flex-col items-center gap-3">
+              <video src={svVideo} controls playsInline autoPlay muted loop className="rounded-xl bg-black" style={{ maxHeight: "72vh", aspectRatio: "9/16" }} />
+              <a href={svVideo} download className="px-3 h-[34px] rounded-lg flex items-center gap-1.5 text-[12px]" style={{ background: `${ACCENT}22`, border: `1px solid ${ACCENT}55`, color: ACCENT }}><Download size={12} /> Download</a>
+            </div>
+          )}
+
+          {activeId && svRecent.length > 0 && (
+            <div className="panel p-4">
+              <div className="flex items-center gap-2 mb-1.5">
+                <VideoIcon size={13} style={{ color: ACCENT }} />
+                <div className="text-[12.5px] font-medium text-[var(--fg)]">Your shorts in this notebook</div>
+                <button onClick={() => loadRecent(activeId)} title="Refresh" className="ml-auto text-[var(--fg-dim)] hover:text-[var(--fg)]"><RefreshCw size={12} /></button>
+              </div>
+              {svRecent.map((v) => (
+                <div key={v.id} className="flex items-center gap-2 py-2 border-t border-[var(--panel-border)]">
+                  <span className="text-[10px] px-1.5 py-0.5 rounded-full shrink-0 uppercase tracking-wide" style={{ background: v.status === "completed" ? "#00BFFF22" : "#eab30822", color: v.status === "completed" ? "#86efac" : "#fde047" }}>{v.status === "completed" ? "ready" : "rendering"}</span>
+                  <span className="text-[12px] text-[var(--fg-dim)] truncate flex-1">{v.label}</span>
+                  {v.status === "completed"
+                    ? <button onClick={() => playRecent(v.id)} className="text-[11px] px-2.5 py-1 rounded-lg shrink-0 flex items-center gap-1" style={{ background: `${ACCENT}22`, border: `1px solid ${ACCENT}55`, color: ACCENT }}>▶ Play</button>
+                    : <Loader2 size={13} className="animate-spin shrink-0" style={{ color: "#fde047" }} />}
+                </div>
+              ))}
+            </div>
+          )}
         </div>
       )}
 

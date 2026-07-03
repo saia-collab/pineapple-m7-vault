@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { resolveModel, localChat } from "@/lib/localOllama";
+import { hermesOneShot, seoPlannerPrompt, parsePlannerJson } from "@/lib/kanbanSeo";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -12,8 +13,23 @@ const SYS =
   "No prose, no markdown. Keep titles under 5 words. Make the set varied and genuinely useful or fun.";
 
 export async function POST(req: Request) {
-  const { goal } = await req.json();
+  const { goal, engine, profile } = await req.json();
   if (typeof goal !== "string" || !goal.trim()) return NextResponse.json({ error: "missing goal" }, { status: 400 });
+
+  // ── Hermes SEO mode: a cloud Hermes profile plans an SEO article cluster ──
+  if (engine === "hermes") {
+    const prof = typeof profile === "string" ? profile : "kimi-highspeed";
+    const label = `Hermes · ${prof}`;
+    try {
+      const raw = await hermesOneShot(prof, seoPlannerPrompt(goal.trim()), 120_000);
+      const parsed = parsePlannerJson(raw);
+      const cards = parsed.map((c, i) => ({ id: `c${Date.now().toString(36)}${i}`, title: c.title, brief: c.brief }));
+      if (!cards.length) return NextResponse.json({ error: "the planner returned no cards — try rephrasing the goal", model: label }, { status: 502 });
+      return NextResponse.json({ cards, model: label });
+    } catch (e) {
+      return NextResponse.json({ error: `planner failed: ${String(e).slice(0, 200)}`, model: label }, { status: 502 });
+    }
+  }
 
   const model = await resolveModel();
   try {

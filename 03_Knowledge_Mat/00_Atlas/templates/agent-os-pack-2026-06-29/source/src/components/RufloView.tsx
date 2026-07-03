@@ -10,7 +10,7 @@ import { motion } from "framer-motion";
 import { Network, Rocket, RefreshCw, Loader2, Users, Cpu, GitBranch, AlertCircle, Zap, Send } from "lucide-react";
 import { usePollWhileVisible } from "@/lib/usePollWhileVisible";
 
-const GOLD = "#d4a574", PINK = "#f472b6", BLUE = "#60a5fa", EMERALD = "#5ab896", PLUM = "#c4607e", MUTE = "#a59783";
+const GOLD = "#d4a574", PINK = "#f472b6", BLUE = "#60a5fa", EMERALD = "#00BFFF", PLUM = "#c4607e", MUTE = "#a59783";
 
 interface Agent { id: string; type: string; name?: string; status: string; health: number; taskCount: number; model?: string; domain?: string; createdAt?: string; }
 interface Swarm { id: string; topology: string; maxAgents: number; status: string; strategy?: string; createdAt?: string; updatedAt?: string; }

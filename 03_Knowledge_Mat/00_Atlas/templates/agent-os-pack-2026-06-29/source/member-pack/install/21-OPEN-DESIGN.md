@@ -51,11 +51,11 @@ chmod +x ~/open-design/od-host-start.sh ~/open-design/od-host-stop.sh
 1. Open the **Open Design** tab (sidebar).
 2. Click **Start Open Design**. It boots the host and the design studio appears embedded in the tab (running on `127.0.0.1:7456`).
 3. Generate prototypes/dashboards/decks/images — they save to `~/open-design/.od/projects/` and preview right in the tab.
-4. **Stop** when you're done to Complimentary the ports.
+4. **Stop** when you're done to free the ports.
 
 ## Good to know
 - **It drives your own agents.** Open Design uses the coding CLIs on your PATH (Claude Code, Hermes, Codex…), or a BYOK key from its own Settings. Nothing here needs a key from this pack.
-- **Ports 7455 / 7456 must be Complimentary.** If Start fails, check nothing else is using them.
+- **Ports 7455 / 7456 must be free.** If Start fails, check nothing else is using them.
 - **Offline = not installed/started.** The tab showing "offline" just means the host isn't running — start it, or ignore the tab.
 
 ## Done?

@@ -70,7 +70,7 @@ function kindFromExt(name: string): CdxFileKind {
   return "binary";
 }
 
-const ACCENT = "#22c55e";
+const ACCENT = "#00BFFF";
 const STORAGE_KEY = "agentic-os/codex/history/v1";
 const ACTIVE_PROJECT_KEY = "agentic-os/codex/active-project/v1";
 
@@ -470,7 +470,7 @@ export default function CodexView() {
                   <motion.div key={i} initial={{ opacity: 0, y: 6 }} animate={{ opacity: 1, y: 0 }}
                     className={`rounded-xl px-4 py-3 text-sm leading-relaxed border ${
                       m.role === "user"
-                        ? "bg-[rgba(34,197,94,0.06)] border-[rgba(34,197,94,0.22)] text-[var(--cream)]"
+                        ? "bg-[rgba(0,191,255,0.06)] border-[rgba(0,191,255,0.22)] text-[var(--cream)]"
                         : "bg-[rgba(255,255,255,0.02)] border-[rgba(255,255,255,0.06)] text-[var(--cream)]"
                     }`}>
                     <div className="text-[10px] tracking-widest uppercase mb-1 opacity-60">{m.role === "user" ? "you" : "codex"}</div>
@@ -487,7 +487,7 @@ export default function CodexView() {
                         <span className="tick live" style={{ color: ACCENT, animationDelay: ".2s" }} />
                         <span className="tick live" style={{ color: ACCENT, animationDelay: ".4s" }} />
                       </span>
-                      <span className="text-emerald-400/70 normal-case tracking-normal metric">{elapsed}s</span>
+                      <span className="text-cyan-400/70 normal-case tracking-normal metric">{elapsed}s</span>
                     </div>
                     <div className="whitespace-pre-wrap font-[var(--font-geist-mono)]">{partial || "thinking…"}</div>
                   </motion.div>
@@ -703,7 +703,7 @@ export default function CodexView() {
                         {openSession.turns.map((t, i) => (
                           <div key={i} className={`rounded-md px-3 py-2 text-[13px] leading-relaxed border ${
                             t.role === "user"
-                              ? "bg-[rgba(34,197,94,0.06)] border-[rgba(34,197,94,0.22)]"
+                              ? "bg-[rgba(0,191,255,0.06)] border-[rgba(0,191,255,0.22)]"
                               : t.role === "reasoning"
                               ? "bg-[rgba(255,255,255,0.015)] border-[rgba(255,255,255,0.04)]"
                               : "bg-[rgba(255,255,255,0.02)] border-[rgba(255,255,255,0.06)]"

@@ -1,15 +1,15 @@
-# 13 · Game Studio (Optional — Complimentary, fun)
+# 13 · Game Studio (Optional — free, fun)
 
-The **Game Studio** tab (sidebar) commissions **real, playable browser games** from a sentence. Type "a neon brick-breaker with power-ups" and it builds a finished, playable game you can open and share — using the same Complimentary, on-your-machine build engine as voice-building.
+The **Game Studio** tab (sidebar) commissions **real, playable browser games** from a sentence. Type "a neon brick-breaker with power-ups" and it builds a finished, playable game you can open and share — using the same free, on-your-machine build engine as voice-building.
 
 ## What you get
 A simple box: describe a game → it gets built → it lands in your games gallery, ready to play. A little board tracks what's being built.
 
 ## What you need
-**Nothing extra if you've already done `2-VOICE-BUILDING.md`.** Game Studio runs on the same Complimentary local build engine (Ollama). If voice-building works, Game Studio works.
+**Nothing extra if you've already done `2-VOICE-BUILDING.md`.** Game Studio runs on the same free local build engine (Ollama). If voice-building works, Game Studio works.
 
 - If you set up **Ollama** for voice-building → you're done.
-- If you haven't yet → do **`2-VOICE-BUILDING.md`** first (it's Complimentary), then come back.
+- If you haven't yet → do **`2-VOICE-BUILDING.md`** first (it's free), then come back.
 
 ## Try it
 1. Open **Game Studio** (sidebar).

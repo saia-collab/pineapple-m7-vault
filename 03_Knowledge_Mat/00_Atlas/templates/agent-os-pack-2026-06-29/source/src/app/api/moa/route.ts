@@ -77,7 +77,7 @@ export async function POST(req: Request) {
 
   const t0 = Date.now();
   // 1. the panel answers in parallel
-  const drafts = await Promise.all(PRESET.references.map((m) => callModel(key, m, prompt, 1600)));
+  const drafts = await Promise.all(PRESET.references.map((m) => callModel(key, m, prompt, 4000)));
   // 2. the aggregator synthesises the single best answer
   const blocks = PRESET.references
     .map((m, i) => `### Draft from expert ${i + 1} (${m}):\n${drafts[i].text}`)
@@ -87,12 +87,15 @@ export async function POST(req: Request) {
     "the user's prompt privately. Read every draft, judge them, and write ONE final answer that is better " +
     "than any single draft — keep what's correct, fix what's wrong, drop the fluff. Do not mention the " +
     `drafts or that you are aggregating.\n\nUSER PROMPT:\n${prompt}\n\n${blocks}\n\nNow write the single best final answer:`;
-  const final = await callModel(key, PRESET.aggregator, aggPrompt, 1800);
+  // Generous cap so a full single-file build (a landing page can be 6k+ tokens) is never truncated.
+  const final = await callModel(key, PRESET.aggregator, aggPrompt, 8000);
   const totalSecs = +((Date.now() - t0) / 1000).toFixed(2);
 
   // Persist the run to the workspace so the Mixture tab can show everything the panel made.
+  // saveRun also extracts any HTML page from the answer into a previewable build file.
+  let build: string | null = null;
   if (final.ok) {
-    saveRun({
+    build = saveRun({
       at: Date.now(), prompt, totalSecs, aggregator: PRESET.aggregator, final: final.text,
       references: PRESET.references.map((m, i) => ({ model: m, secs: drafts[i].secs })),
     });
@@ -101,6 +104,7 @@ export async function POST(req: Request) {
   return Response.json({
     final: final.text,
     finalOk: final.ok,
+    build, // the previewable .html the panel built (if any) — UI auto-selects it
     aggregator: PRESET.aggregator,
     aggSecs: final.secs,
     totalSecs,

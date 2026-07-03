@@ -64,7 +64,7 @@ If your Agent OS build doesn't read `HERMES_HOME` yet, make `.hermes` a **juncti
 
 - An Obsidian vault is just a folder of `.md` files. Any tool can read/write it. Agent OS already points at one vault via **`vaultRoot`** in `~/.agentic-os/config.json` (that's the Memory Galaxy + Jarvis's memory), and the daily log already writes your Claude Code work into it. Point every note-writing tool at the **same vault folder** and you get one shared, human-readable source of truth.
 - What you can't cleanly merge is each tool's **internal index** — Hermes has its own memory provider, Claude/Codex use their own memory files, Paperclip uses its own database. Different formats. Pointing them at the same `.md` files doesn't fuse those indexes.
-- **The conflict-Complimentary pattern:** treat the vault as the shared documents, and give each tool its **own subfolder** so nothing overwrites anything:
+- **The conflict-free pattern:** treat the vault as the shared documents, and give each tool its **own subfolder** so nothing overwrites anything:
   - `01 Daily/` — the daily work log
   - `AI News/` — Radar
   - `Hermes/` — Hermes outputs

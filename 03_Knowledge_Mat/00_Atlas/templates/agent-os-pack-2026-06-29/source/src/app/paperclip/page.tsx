@@ -91,7 +91,7 @@ function BuildsGallery() {
                     <div className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl text-[13px] font-semibold" style={{ background: "#d4a574", color: "#1a1206" }}><Play size={14} /> Open live build</div>
                   </div>
                 )}
-                <div className="absolute top-2.5 left-2.5 inline-flex items-center gap-1.5 px-2 py-1 rounded-md text-[10px] font-bold tracking-wide" style={{ background: "rgba(52,211,153,0.16)", color: "#34d399", backdropFilter: "blur(6px)" }}>
+                <div className="absolute top-2.5 left-2.5 inline-flex items-center gap-1.5 px-2 py-1 rounded-md text-[10px] font-bold tracking-wide" style={{ background: "rgba(0,191,255,0.16)", color: "#00BFFF", backdropFilter: "blur(6px)" }}>
                   ● {build.status === "done" ? "SHIPPED" : (build.status || "").toUpperCase()}
                 </div>
               </a>

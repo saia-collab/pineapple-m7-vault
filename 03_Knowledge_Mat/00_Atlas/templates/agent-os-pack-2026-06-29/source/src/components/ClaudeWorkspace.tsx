@@ -184,7 +184,7 @@ export default function ClaudeWorkspace() {
                 <div className="grid place-items-center h-full p-6"><audio src={previewUrl} controls /></div>
               )}
               {isHtml && previewMode === "preview" && previewUrl && (
-                <iframe src={previewUrl} className="w-full h-full border-0 bg-white" title={openFile.name} allow="microphone; clipboard-write" sandbox="allow-scripts allow-same-origin allow-popups" />
+                <iframe src={previewUrl} className="w-full h-full border-0 bg-white" title={openFile.name} allow="microphone; clipboard-write; pointer-lock; fullscreen; gamepad; autoplay" sandbox="allow-scripts allow-same-origin allow-popups allow-pointer-lock" />
               )}
               {(openFile.isText && (!isHtml || previewMode === "source")) && (
                 <pre className="text-[11.5px] mono text-[var(--cream)] p-4 whitespace-pre-wrap leading-relaxed">{fileText}</pre>

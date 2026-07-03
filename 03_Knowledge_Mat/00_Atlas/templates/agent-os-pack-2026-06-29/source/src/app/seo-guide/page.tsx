@@ -13,7 +13,7 @@ export default function SEOGuideRoute() {
         <a
           href="/downloads/seo-pack.zip"
           download
-          className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg text-[12px] border border-[rgba(163,230,53,0.4)] bg-[rgba(163,230,53,0.12)] text-lime-300 hover:bg-[rgba(163,230,53,0.18)] transition"
+          className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg text-[12px] border border-[rgba(251,192,45,0.4)] bg-[rgba(251,192,45,0.12)] text-amber-300 hover:bg-[rgba(251,192,45,0.18)] transition"
         >
           ⬇ Download SEO Pack (.zip)
         </a>

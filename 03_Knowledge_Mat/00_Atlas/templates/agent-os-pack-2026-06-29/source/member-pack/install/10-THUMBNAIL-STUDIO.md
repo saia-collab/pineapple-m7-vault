@@ -18,14 +18,14 @@ That's it. The image generator itself is included in this pack.
 ## Setup (5 minutes)
 
 ### Step 1 — Get an OpenAI API key + add credits
-1. Go to <https://platform.openai.com> → sign in (or make a Complimentary account).
+1. Go to <https://platform.openai.com> → sign in (or make a free account).
 2. **Settings → Billing** → add a payment method → **add credits** (even $5 is plenty — each thumbnail costs roughly $0.04). Turn on auto-recharge if you want it to never run dry.
 3. **API Keys** → *Create new secret key* → copy it (starts with `sk-...`).
 
 > 💡 If you ever see *"insufficient_quota"* in the tool, it means this credit balance is empty — top it up here.
 
 ### Step 2 — Drop in the generator + your key
-The tool looks for a small script at `~/.claude/skills/youtube-thumbnails/scripts/generate.py`. This pack includes a clean copy.
+The tool looks for a small script at `~/.claude/skills/youtube-thumbnails/scripts/generate.py`. This pack includes a clean copy (plus its `text_overlay.py` helper — both are needed).
 
 Run these in Terminal (or just paste them to your AI assistant and let it do it):
 
@@ -33,8 +33,8 @@ Run these in Terminal (or just paste them to your AI assistant and let it do it)
 # 1. make the folder
 mkdir -p ~/.claude/skills/youtube-thumbnails/scripts
 
-# 2. copy the generator from this pack  (run from inside the pack folder)
-cp extras/thumbnail-generator/generate.py ~/.claude/skills/youtube-thumbnails/scripts/
+# 2. copy BOTH generator files from this pack  (run from inside the pack folder)
+cp extras/thumbnail-generator/*.py ~/.claude/skills/youtube-thumbnails/scripts/
 
 # 3. install Pillow (image library) if you don't have it
 python3 -m pip install --user Pillow

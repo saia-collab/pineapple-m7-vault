@@ -2,17 +2,17 @@
 
 The **Video** tab (sidebar) makes videos two ways, and lets you browse everything you've rendered. It has three sub-tabs:
 
-- **Create** — turn an HTML composition into an MP4 with the **HyperFrames** tool. Complimentary, runs on your machine.
+- **Create** — turn an HTML composition into an MP4 with the **HyperFrames** tool. Free, runs on your machine.
 - **Avatar** — type a script → get a **talking-head AI avatar** video. Uses a service called HeyGen (needs a key).
 - **Workspace** — browse every video you've made (from the Agent OS, Hermes, or your Downloads).
 
-You can use just the Complimentary **Create** side and ignore Avatar entirely. Pick what you need.
+You can use just the free **Create** side and ignore Avatar entirely. Pick what you need.
 
-## A · Create (Complimentary — HyperFrames)
+## A · Create (free — HyperFrames)
 This renders motion-graphics videos (title cards, animations, captions) from HTML.
 
 1. You need **Node.js** (you already have it if the dashboard runs).
-2. **Install ffmpeg** (one time). Some video + voice features use **ffmpeg / ffprobe** to stitch and measure media. It's Complimentary:
+2. **Install ffmpeg** (one time). Some video + voice features use **ffmpeg / ffprobe** to stitch and measure media. It's free:
    - **Mac:** `brew install ffmpeg`
    - **Linux:** `sudo apt install ffmpeg` (Debian/Ubuntu)
    - **Windows:** download from <https://ffmpeg.org> (or `winget install ffmpeg`)
@@ -27,7 +27,7 @@ This renders motion-graphics videos (title cards, animations, captions) from HTM
 ## B · Avatar (needs a HeyGen key)
 This makes a video of an AI presenter speaking your script.
 
-1. Go to **https://www.heygen.com**, sign up, and copy your **API key**. *(You do this yourself — never let an AI enter your card.)* HeyGen has a Complimentary tier to start.
+1. Go to **https://www.heygen.com**, sign up, and copy your **API key**. *(You do this yourself — never let an AI enter your card.)* HeyGen has a free tier to start.
 2. Save the key in its own file so it stays private:
    ```bash
    mkdir -p ~/.agentic-os

@@ -5,8 +5,8 @@ The **Notebook** tab connects your dashboard to **Google NotebookLM** — so you
 > The tab shows "⚠ Not connected" until you do the two quick steps below. That's normal — it just means NotebookLM isn't set up yet.
 
 ## What you need
-- A Complimentary **Google / NotebookLM account** (you almost certainly have one).
-- A small Complimentary tool that links the dashboard to NotebookLM.
+- A free **Google / NotebookLM account** (you almost certainly have one).
+- A small free tool that links the dashboard to NotebookLM.
 
 ## The steps (about 3 minutes)
 

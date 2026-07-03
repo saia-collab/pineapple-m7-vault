@@ -42,7 +42,7 @@ Something's already on that port (maybe an old copy). Close the old Terminal win
 ### Claude tab shows a "needs `ANTHROPIC_API_KEY`" banner / Claude chat won't authenticate
 - You don't need an API key — the Claude tab uses **`claude login`**. Run `claude login` (browser sign-in, works with your Claude Pro/Max subscription), then restart the dashboard.
 - **If a setup step created a `.env.local` with an empty `ANTHROPIC_API_KEY=`, that's the cause** — an empty key overrides your login. Delete that line (or the whole `.env.local` in your app folder) and use `claude login`.
-- No Claude subscription? Use the **Complimentary Claude Code** tab instead — no key needed (`5-Complimentary-CLAUDE-CODE.md`). Or, to pay per token, put a *real* key in `.env.local` (`ANTHROPIC_API_KEY=sk-ant-…`).
+- No Claude subscription? Use the **Free Claude Code** tab instead — no key needed (`5-FREE-CLAUDE-CODE.md`). Or, to pay per token, put a *real* key in `.env.local` (`ANTHROPIC_API_KEY=sk-ant-…`).
 
 ### Everything feels slow / fans spinning
 - Too many AI things running at once. Local models are heavy. Run **one** big job at a time, and close preview tabs you're not watching (each animation uses your graphics card).

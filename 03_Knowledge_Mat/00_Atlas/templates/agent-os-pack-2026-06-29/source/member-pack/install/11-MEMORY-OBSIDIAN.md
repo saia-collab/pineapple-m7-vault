@@ -16,7 +16,7 @@ It also quietly powers a lot of other things:
 
 You don't have to touch any settings. You have an AI that can do this for you.
 
-1. Open **Claude Code** inside your Agent OS folder (the same AI you used to set things up — Complimentary: <https://claude.com/claude-code>).
+1. Open **Claude Code** inside your Agent OS folder (the same AI you used to set things up — free: <https://claude.com/claude-code>).
 2. Paste this:
 
    > **"Connect my Obsidian vault to the Agent OS. Find my vault on this Mac, point the dashboard at it, restart the dashboard, then tell me to open the Memory tab to check it worked."**
@@ -36,7 +36,7 @@ You're probably done already. The dashboard **auto-finds** a vault in any of the
 If your vault is in one of those, open the **Memory** tab — your notes should already be floating there as stars. ✅ Nothing to do.
 
 ## Don't have Obsidian yet?
-It's Complimentary and takes 3 minutes:
+It's free and takes 3 minutes:
 1. Download it: **<https://obsidian.md>** → install.
 2. Open it → **Create new vault** → name it (e.g. "My Vault") and save it in **Documents**. (Saving it in Documents means the dashboard finds it automatically — no setup.)
 3. Write a few notes. Link them by typing `[[` and picking another note — those links become the lines in your galaxy.

@@ -134,7 +134,7 @@ export default function Overview() {
             title="Journal"
             tagline="Daily entries, voice or text, one file per day."
             icon={<BookOpen size={20} />}
-            accent="#a3e635"
+            accent="#00BFFF"
             stat="Daily files in vault"
           />
           <SelfCard

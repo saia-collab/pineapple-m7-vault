@@ -6,7 +6,7 @@ The **Kimi Code** tab adds **Kimi K2.7** — Moonshot's coding agent — as anot
 A Kimi chat + a workspace of everything it builds. It works just like the other agent tabs — the tab lights up once Kimi Code is installed and you're logged in.
 
 ## What you need
-The **Kimi Code CLI** (a Complimentary download) and a Kimi account (OAuth login — no key to copy).
+The **Kimi Code CLI** (a free download) and a Kimi account (OAuth login — no key to copy).
 
 ## The steps (about 3 minutes)
 
@@ -33,4 +33,4 @@ Open **Kimi Code**, type *"build me a simple pomodoro timer"* (⌘+Enter to send
 - No key to paste — it uses your Kimi account via a one-time browser login.
 
 ## Done?
-That's Kimi. For Complimentary local building by voice, see **`2-VOICE-BUILDING.md`**; for the other agent tabs, **`7-AGENT-CLIS.md`**.
+That's Kimi. For free local building by voice, see **`2-VOICE-BUILDING.md`**; for the other agent tabs, **`7-AGENT-CLIS.md`**.

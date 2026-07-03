@@ -33,7 +33,7 @@ export default function HermesManage() {
 
   useEffect(() => { ensure(); }, [ensure]);
 
-  const dot = state === "up" ? "#34d399" : state === "error" ? "#f87171" : ACCENT;
+  const dot = state === "up" ? "#00BFFF" : state === "error" ? "#f87171" : ACCENT;
   const label =
     state === "up" ? "Connected" :
     state === "starting" ? "Starting dashboard…" :

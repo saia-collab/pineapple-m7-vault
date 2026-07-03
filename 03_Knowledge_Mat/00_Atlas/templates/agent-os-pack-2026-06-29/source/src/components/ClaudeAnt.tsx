@@ -62,7 +62,7 @@ export default function ClaudeAnt() {
           </div>
         </div>
         {loaded.current && (
-          <div className="text-[11px] px-2.5 py-1 rounded-full border" style={{ borderColor: connected ? "rgba(52,211,153,.4)" : "var(--panel-border)", color: connected ? "#34d399" : "var(--fg-dim)" }}>
+          <div className="text-[11px] px-2.5 py-1 rounded-full border" style={{ borderColor: connected ? "rgba(0,191,255,.4)" : "var(--panel-border)", color: connected ? "#00BFFF" : "var(--fg-dim)" }}>
             {connected ? `● connected${status?.version ? " · " + status.version.split(/\s+/)[0] : ""}` : status?.wrongAnt ? "⚠ wrong ‘ant’ found" : "○ not connected"}
           </div>
         )}
@@ -89,7 +89,7 @@ export default function ClaudeAnt() {
           </div>
           {out && (
             <div className="rounded-xl border overflow-hidden" style={{ borderColor: "var(--panel-border)" }}>
-              <div className="px-3 py-2 text-[11.5px] font-[var(--font-geist-mono)] border-b flex items-center justify-between" style={{ borderColor: "var(--panel-border)", color: out.ok ? "#34d399" : "#f87171" }}>
+              <div className="px-3 py-2 text-[11.5px] font-[var(--font-geist-mono)] border-b flex items-center justify-between" style={{ borderColor: "var(--panel-border)", color: out.ok ? "#00BFFF" : "#f87171" }}>
                 <span>$ {out.cmd}</span><span>{out.ok ? "ok" : "error"}</span>
               </div>
               <pre className="scroll p-3 text-[12px] leading-relaxed overflow-auto max-h-[360px] font-[var(--font-geist-mono)]" style={{ color: "var(--fg-dim)" }}>
@@ -110,9 +110,9 @@ export default function ClaudeAnt() {
           )}
           <div className="text-[12px] font-[var(--font-geist-mono)] bg-[rgba(0,0,0,.3)] rounded-lg p-3 space-y-1.5 mb-1" style={{ color: "var(--fg-dim)" }}>
             <div><span className="text-[var(--fg-dimmer)]"># 1. install (from platform.claude.com — brew / curl / go)</span></div>
-            <div className="text-[#34d399]">brew install anthropics/tap/ant</div>
+            <div className="text-[#00BFFF]">brew install anthropics/tap/ant</div>
             <div><span className="text-[var(--fg-dimmer)]"># 2. log in (browser OAuth, scoped to a workspace)</span></div>
-            <div className="text-[#34d399]">ant auth login</div>
+            <div className="text-[#00BFFF]">ant auth login</div>
             <div><span className="text-[var(--fg-dimmer)]"># then restart the dashboard — this tab goes live</span></div>
           </div>
           <p className="text-[11.5px] text-[var(--fg-dimmer)] mt-2">Tip: not sure of the exact install command? Open Claude Code and ask — it knows <code>ant</code> via the built-in <code>/claude-api</code> skill.</p>

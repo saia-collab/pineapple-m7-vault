@@ -49,7 +49,7 @@ const SITE_ACCENT: Record<string, string> = {
 
 function badgeClass(b: string): string {
   if (b === "LOW CTR") return "bg-[rgba(56,189,248,0.14)] text-sky-300 border-sky-400/30";
-  if (b === "STRIKING DISTANCE") return "bg-[rgba(163,230,53,0.14)] text-lime-300 border-lime-400/30";
+  if (b === "STRIKING DISTANCE") return "bg-[rgba(251,192,45,0.14)] text-amber-300 border-amber-400/30";
   if (b === "CONTENT GAP") return "bg-[rgba(251,191,36,0.14)] text-amber-300 border-amber-400/30";
   return "bg-[rgba(168,85,247,0.14)] text-purple-300 border-purple-400/30";
 }
@@ -390,8 +390,8 @@ export default function SEOView() {
               onClick={() => setTab(t.key)}
               className="flex items-center gap-2 px-3 py-1.5 rounded-full border text-[12.5px] transition"
               style={{
-                background: active ? "rgba(163,230,53,0.16)" : "transparent",
-                borderColor: active ? "#a3e635" : "var(--panel-border)",
+                background: active ? "rgba(251,192,45,0.16)" : "transparent",
+                borderColor: active ? "#00BFFF" : "var(--panel-border)",
                 color: active ? "var(--fg)" : "var(--fg-dim)",
               }}
             >
@@ -408,7 +408,7 @@ export default function SEOView() {
             the zip. Pushed to the right via ml-auto so they don't crowd tabs. */}
         <a
           href="/seo-guide"
-          className="ml-auto flex items-center gap-1.5 px-3 py-1.5 rounded-full border text-[12.5px] transition border-[var(--panel-border)] text-[var(--fg-dim)] hover:text-[var(--fg)] hover:border-[rgba(163,230,53,0.4)]"
+          className="ml-auto flex items-center gap-1.5 px-3 py-1.5 rounded-full border text-[12.5px] transition border-[var(--panel-border)] text-[var(--fg-dim)] hover:text-[var(--fg)] hover:border-[rgba(251,192,45,0.4)]"
           title="Open the step-by-step SEO setup guide for AIPB members"
         >
           <BookOpen size={14} /> Setup Guide
@@ -416,7 +416,7 @@ export default function SEOView() {
         <a
           href="/downloads/seo-pack.zip"
           download
-          className="flex items-center gap-1.5 px-3 py-1.5 rounded-full border text-[12.5px] transition border-[rgba(163,230,53,0.4)] bg-[rgba(163,230,53,0.12)] text-lime-300 hover:bg-[rgba(163,230,53,0.18)]"
+          className="flex items-center gap-1.5 px-3 py-1.5 rounded-full border text-[12.5px] transition border-[rgba(251,192,45,0.4)] bg-[rgba(251,192,45,0.12)] text-amber-300 hover:bg-[rgba(251,192,45,0.18)]"
           title="Download the skill + config templates + sample transcript (.zip)"
         >
           <Save size={14} /> SEO Pack (.zip)
@@ -427,8 +427,8 @@ export default function SEOView() {
         <div className="space-y-5">
           {/* GSC connection banner */}
           <div className="panel p-4 flex items-center gap-3 flex-wrap">
-            <div className="w-9 h-9 rounded-lg grid place-items-center shrink-0" style={{ background: rConnected ? "rgba(163,230,53,0.14)" : "rgba(255,255,255,0.05)" }}>
-              <Globe size={17} className={rConnected ? "text-[#a3e635]" : "text-[var(--fg-dim)]"} />
+            <div className="w-9 h-9 rounded-lg grid place-items-center shrink-0" style={{ background: rConnected ? "rgba(251,192,45,0.14)" : "rgba(255,255,255,0.05)" }}>
+              <Globe size={17} className={rConnected ? "text-[#00BFFF]" : "text-[var(--fg-dim)]"} />
             </div>
             <div className="min-w-0">
               <div className="flex items-center gap-2">
@@ -436,7 +436,7 @@ export default function SEOView() {
                 {rConnected === null ? (
                   <span className="text-[10px] text-[var(--fg-dim)]">checking…</span>
                 ) : rConnected ? (
-                  <span className="text-[10px] px-2 py-0.5 rounded-full bg-[rgba(163,230,53,0.16)] text-lime-300 inline-flex items-center gap-1"><CheckCircle2 size={10} /> CONNECTED</span>
+                  <span className="text-[10px] px-2 py-0.5 rounded-full bg-[rgba(251,192,45,0.16)] text-amber-300 inline-flex items-center gap-1"><CheckCircle2 size={10} /> CONNECTED</span>
                 ) : (
                   <span className="text-[10px] px-2 py-0.5 rounded-full bg-[rgba(248,113,113,0.16)] text-red-300">NOT CONNECTED</span>
                 )}
@@ -450,7 +450,7 @@ export default function SEOView() {
           {/* research form */}
           <div className="panel p-5">
             <div className="flex items-center gap-2 mb-4">
-              <TrendingUp size={16} className="text-[#a3e635]" />
+              <TrendingUp size={16} className="text-[#00BFFF]" />
               <h3 className="text-sm font-medium">Keyword research &amp; competitor analysis</h3>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
@@ -477,7 +477,7 @@ export default function SEOView() {
             </div>
             <div className="flex items-center justify-between gap-3 mt-3 flex-wrap">
               <p className="text-[11px] text-[var(--fg-dim)] max-w-xl">Scores queries from GSC: striking distance (positions 5–20), low CTR on page 1, content gaps, and high-impression opportunities — then ranks what to write or refresh next.</p>
-              <button onClick={runResearch} disabled={rLoading || !rSite} className="flex items-center gap-2 px-4 h-[38px] rounded-lg border text-sm font-medium transition disabled:opacity-50 border-[rgba(163,230,53,0.4)] bg-[rgba(163,230,53,0.14)] text-lime-300 hover:bg-[rgba(163,230,53,0.2)]">
+              <button onClick={runResearch} disabled={rLoading || !rSite} className="flex items-center gap-2 px-4 h-[38px] rounded-lg border text-sm font-medium transition disabled:opacity-50 border-[rgba(251,192,45,0.4)] bg-[rgba(251,192,45,0.14)] text-amber-300 hover:bg-[rgba(251,192,45,0.2)]">
                 {rLoading ? <><Loader2 size={14} className="animate-spin" /> Researching…</> : <><Search size={14} /> Run research</>}
               </button>
             </div>
@@ -502,7 +502,7 @@ export default function SEOView() {
                     <div className="min-w-0 flex-1">
                       <div className="flex items-center gap-2 flex-wrap">
                         <span className="text-sm font-medium text-[var(--fg)]">{t.keyword}</span>
-                        <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-[rgba(163,230,53,0.16)] text-lime-300 metric">SCORE {t.score.toLocaleString()}</span>
+                        <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-[rgba(251,192,45,0.16)] text-amber-300 metric">SCORE {t.score.toLocaleString()}</span>
                         {t.badges.map((b) => <span key={b} className={`text-[10px] px-1.5 py-0.5 rounded-full border ${badgeClass(b)}`}>{b}</span>)}
                       </div>
                       <p className="text-[12px] text-[var(--fg-dim)] mt-1">{t.reason}</p>
@@ -511,7 +511,7 @@ export default function SEOView() {
                         <span>{t.clicks} clicks</span>
                         <span>{(t.ctr * 100).toFixed(1)}% CTR</span>
                         <span>avg pos {t.position}</span>
-                        {t.page && <a href={t.page} target="_blank" rel="noopener" className="inline-flex items-center gap-1 text-[var(--fg-dim)] hover:text-[#a3e635] truncate max-w-[300px]"><Link2 size={10} /> {t.page.replace(/^https?:\/\//, "")}</a>}
+                        {t.page && <a href={t.page} target="_blank" rel="noopener" className="inline-flex items-center gap-1 text-[var(--fg-dim)] hover:text-[#00BFFF] truncate max-w-[300px]"><Link2 size={10} /> {t.page.replace(/^https?:\/\//, "")}</a>}
                       </div>
                       {t.competitors && t.competitors.length > 0 && (
                         <div className="mt-2.5 pt-2.5 border-t border-[var(--panel-border)]">
@@ -520,7 +520,7 @@ export default function SEOView() {
                         </div>
                       )}
                     </div>
-                    <button onClick={() => useTopic(t.keyword)} className="flex items-center gap-1.5 px-3 h-[34px] rounded-lg border text-[12.5px] shrink-0 transition border-[rgba(163,230,53,0.35)] text-lime-300 hover:bg-[rgba(163,230,53,0.14)]">
+                    <button onClick={() => useTopic(t.keyword)} className="flex items-center gap-1.5 px-3 h-[34px] rounded-lg border text-[12.5px] shrink-0 transition border-[rgba(251,192,45,0.35)] text-amber-300 hover:bg-[rgba(251,192,45,0.14)]">
                       <Sparkles size={13} /> Use topic <ArrowRight size={12} />
                     </button>
                   </div>
@@ -531,7 +531,7 @@ export default function SEOView() {
 
           {!rData && !rError && !rLoading && (
             <div className="panel p-6 text-center text-[12.5px] text-[var(--fg-dim)]">
-              Pick a site and hit <span className="text-lime-300">Run research</span> to pull your live Search Console opportunities.
+              Pick a site and hit <span className="text-amber-300">Run research</span> to pull your live Search Console opportunities.
             </div>
           )}
         </div>
@@ -541,7 +541,7 @@ export default function SEOView() {
         <div className="space-y-5">
           <div className="panel p-5">
             <div className="flex items-center gap-2 mb-4">
-              <Sparkles size={16} className="text-[#a3e635]" />
+              <Sparkles size={16} className="text-[#00BFFF]" />
               <h3 className="text-sm font-medium">Generate 5 unique SEO articles for all 5 sites</h3>
             </div>
 
@@ -574,8 +574,8 @@ export default function SEOView() {
                     onClick={() => setTranscriptMode("pick")}
                     className="px-2 py-1 rounded-md text-[10px] uppercase tracking-widest border transition flex items-center gap-1"
                     style={{
-                      background: transcriptMode === "pick" ? "rgba(163,230,53,0.16)" : "transparent",
-                      borderColor: transcriptMode === "pick" ? "#a3e635" : "var(--panel-border)",
+                      background: transcriptMode === "pick" ? "rgba(251,192,45,0.16)" : "transparent",
+                      borderColor: transcriptMode === "pick" ? "#00BFFF" : "var(--panel-border)",
                       color: transcriptMode === "pick" ? "var(--fg)" : "var(--fg-dim)",
                     }}
                   >
@@ -585,8 +585,8 @@ export default function SEOView() {
                     onClick={() => setTranscriptMode("paste")}
                     className="px-2 py-1 rounded-md text-[10px] uppercase tracking-widest border transition flex items-center gap-1"
                     style={{
-                      background: transcriptMode === "paste" ? "rgba(163,230,53,0.16)" : "transparent",
-                      borderColor: transcriptMode === "paste" ? "#a3e635" : "var(--panel-border)",
+                      background: transcriptMode === "paste" ? "rgba(251,192,45,0.16)" : "transparent",
+                      borderColor: transcriptMode === "paste" ? "#00BFFF" : "var(--panel-border)",
                       color: transcriptMode === "paste" ? "var(--fg)" : "var(--fg-dim)",
                     }}
                   >
@@ -606,8 +606,8 @@ export default function SEOView() {
                           onClick={() => pickTranscript(t)}
                           className="text-left px-2 py-1.5 rounded-md text-[12px] transition truncate"
                           style={{
-                            background: active ? "rgba(163,230,53,0.16)" : "transparent",
-                            border: active ? "1px solid rgba(163,230,53,0.6)" : "1px solid var(--panel-border)",
+                            background: active ? "rgba(251,192,45,0.16)" : "transparent",
+                            border: active ? "1px solid rgba(251,192,45,0.6)" : "1px solid var(--panel-border)",
                             color: active ? "var(--fg)" : "var(--fg-dim)",
                           }}
                           title={t.preview}
@@ -646,7 +646,7 @@ export default function SEOView() {
                     </span>
                     <div className="flex items-center gap-2">
                       {savedNotice && (
-                        <span className={savedNotice.startsWith("saved") ? "text-emerald-300" : "text-rose-300"}>
+                        <span className={savedNotice.startsWith("saved") ? "text-cyan-300" : "text-rose-300"}>
                           {savedNotice}
                         </span>
                       )}
@@ -721,7 +721,7 @@ export default function SEOView() {
                     onClick={startGenerate}
                     disabled={!keyword.trim() || !slug.trim()}
                     className="px-4 h-[38px] rounded-lg flex items-center gap-1.5 text-sm transition disabled:opacity-40"
-                    style={{ background: "rgba(163,230,53,0.2)", border: "1px solid rgba(163,230,53,0.55)", color: "#a3e635" }}
+                    style={{ background: "rgba(251,192,45,0.2)", border: "1px solid rgba(251,192,45,0.55)", color: "#00BFFF" }}
                   >
                     <Play size={14} /> Generate 5 articles
                   </button>
@@ -734,12 +734,12 @@ export default function SEOView() {
             <div className="panel p-5">
               <div className="flex items-center justify-between mb-2">
                 <div className="text-sm font-medium flex items-center gap-2">
-                  <FileSearch size={14} className="text-[#a3e635]" />
+                  <FileSearch size={14} className="text-[#00BFFF]" />
                   Live generation
-                  {generating && <span className="inline-flex ml-2"><span className="tick live" style={{color:"#a3e635"}}/><span className="tick live" style={{color:"#a3e635",animationDelay:".15s"}}/><span className="tick live" style={{color:"#a3e635",animationDelay:".3s"}}/></span>}
+                  {generating && <span className="inline-flex ml-2"><span className="tick live" style={{color:"#00BFFF"}}/><span className="tick live" style={{color:"#00BFFF",animationDelay:".15s"}}/><span className="tick live" style={{color:"#00BFFF",animationDelay:".3s"}}/></span>}
                 </div>
                 {genDone && (
-                  <div className={`text-[11px] uppercase tracking-widest ${genDone.code === 0 ? "text-emerald-300" : "text-rose-300"}`}>
+                  <div className={`text-[11px] uppercase tracking-widest ${genDone.code === 0 ? "text-cyan-300" : "text-rose-300"}`}>
                     {genDone.code === 0 ? "✓ done" : `exit ${genDone.code}`}
                   </div>
                 )}
@@ -766,7 +766,7 @@ export default function SEOView() {
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
                 {sites.filter((s) => writtenSiteIds.has(s.site.id) || deployStatus[s.site.id]).map((s) => {
-                  const accent = SITE_ACCENT[s.site.id] ?? "#a3e635";
+                  const accent = SITE_ACCENT[s.site.id] ?? "#00BFFF";
                   const status = deployStatus[s.site.id];
                   const liveUrl = `${s.site.url}/blog/${slug}/`;
                   return (
@@ -818,7 +818,7 @@ export default function SEOView() {
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
             {sites.map((s) => {
-              const accent = SITE_ACCENT[s.site.id] ?? "#a3e635";
+              const accent = SITE_ACCENT[s.site.id] ?? "#00BFFF";
               const status = deployStatus[s.site.id];
               const log = deployLog[s.site.id] ?? [];
               return (
@@ -831,7 +831,7 @@ export default function SEOView() {
                       <div className="text-[10px] text-[var(--fg-dimmer)] font-[var(--font-geist-mono)] truncate">{s.site.path}</div>
                     </div>
                     <div className="flex items-center gap-2 shrink-0">
-                      {status === "ok"  && <CheckCircle2 size={14} className="text-emerald-300" />}
+                      {status === "ok"  && <CheckCircle2 size={14} className="text-cyan-300" />}
                       {status === "err" && <AlertCircle size={14} className="text-rose-300" />}
                       <button
                         disabled={status === "running"}
@@ -894,7 +894,7 @@ export default function SEOView() {
             ) : (
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                 {historyDeploys.slice(0, 12).map((d) => {
-                  const accent = SITE_ACCENT[d.siteId] ?? "#a3e635";
+                  const accent = SITE_ACCENT[d.siteId] ?? "#00BFFF";
                   const colour = d.status === "ok" ? "#86efac" : d.status === "failed" ? "#f87171" : "#fbbf24";
                   return (
                     <motion.div
@@ -963,7 +963,7 @@ export default function SEOView() {
           <section>
             <div className="flex items-center justify-between mb-3">
               <h3 className="text-sm font-medium flex items-center gap-2">
-                <Sparkles size={14} className="text-[#a3e635]" />
+                <Sparkles size={14} className="text-[#00BFFF]" />
                 Generate sessions
                 <span className="text-[10px] uppercase tracking-widest text-[var(--fg-dimmer)] font-normal ml-2">
                   {historySessions.length} sessions logged
@@ -1013,7 +1013,7 @@ export default function SEOView() {
                           </div>
                           <ul className="space-y-1">
                             {s.articles.map((a) => {
-                              const accent = SITE_ACCENT[a.siteId] ?? "#a3e635";
+                              const accent = SITE_ACCENT[a.siteId] ?? "#00BFFF";
                               return (
                                 <li key={a.filePath} className="flex items-center gap-2 text-[11.5px]">
                                   <span className="w-1.5 h-1.5 rounded-full shrink-0" style={{ background: accent, boxShadow: `0 0 8px ${accent}` }} />
@@ -1077,14 +1077,14 @@ export default function SEOView() {
             <div className="flex items-center gap-2 shrink-0">
               <span className="flex items-center gap-1.5 text-[11.5px] metric px-2.5 py-1 rounded-full border"
                 style={{
-                  borderColor: openseoUp ? "rgba(163,230,53,0.4)" : "var(--panel-border)",
-                  color: openseoUp ? "#a3e635" : "var(--fg-dim)",
+                  borderColor: openseoUp ? "rgba(251,192,45,0.4)" : "var(--panel-border)",
+                  color: openseoUp ? "#00BFFF" : "var(--fg-dim)",
                 }}>
-                <span className="w-1.5 h-1.5 rounded-full" style={{ background: openseoUp ? "#a3e635" : openseoUp === false ? "#f87171" : "#a1a1aa" }} />
+                <span className="w-1.5 h-1.5 rounded-full" style={{ background: openseoUp ? "#00BFFF" : openseoUp === false ? "#f87171" : "#a1a1aa" }} />
                 {openseoUp == null ? "checking…" : openseoUp ? "running" : "not running"}
               </span>
               <a href="http://localhost:3001" target="_blank" rel="noopener noreferrer"
-                className="flex items-center gap-1.5 px-3 py-1.5 rounded-full border text-[12.5px] transition border-[var(--panel-border)] text-[var(--fg-dim)] hover:text-[var(--fg)] hover:border-[rgba(163,230,53,0.4)]">
+                className="flex items-center gap-1.5 px-3 py-1.5 rounded-full border text-[12.5px] transition border-[var(--panel-border)] text-[var(--fg-dim)] hover:text-[var(--fg)] hover:border-[rgba(251,192,45,0.4)]">
                 <ExternalLink size={14} /> Open full
               </a>
             </div>
