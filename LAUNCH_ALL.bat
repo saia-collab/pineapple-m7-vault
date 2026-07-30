@@ -24,4 +24,4 @@ start /b /d "C:\Pineapple Contractors M7\03_Knowledge_Mat\00_Atlas\templates\age
 start /b cmd /c "npx fcc-server --port 8082"
 echo 📎 Launching Paperclip AI Company Daemon Engine...
 start /b cmd /c "npx paperclipai run"
-echo 🟢 Command Center (3939), Agentic OS (3737), FCC Proxy (8082), and Paperclip (3100) are operating persistently.
+echo 🔷 Command Center (3939), Agentic OS (3737), FCC Proxy (8082), and Paperclip (3100) are operating persistently.
