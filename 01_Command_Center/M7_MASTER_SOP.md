@@ -78,7 +78,8 @@ Saia is the only one who publishes, posts, sends, or spends.**
 | `04_Tech_Lab/server_m7.py` | Python backend (alt to server.js) |
 | `04_Tech_Lab/m7_doctor.py` | Connection health checker |
 | `04_Tech_Lab/skills_inbox/` | 48 downloaded skill kits |
-| Launchers (root .bat) | `RUN_AGENT_OS.bat` · `M7_DOCTOR.bat` · `M7_CLEANUP.bat` · `START_M7_SERVER.bat` |
+| Launchers (root .bat) | `AM_STARTUP.bat` · `RUN_AGENT_OS.bat` · `LAUNCH_ALL.bat` · `M7_DOCTOR.bat` · `M7_CLEANUP.bat` · `ORGANIZE_MEDIA.bat` |
+| `Launcher_Archive/` | Retired launchers (`START_M7_SERVER`, `RUN_M7_DASHBOARD`, `M7_TIDY`, `INGEST_AND_INDEX`…). Kept for reference — **do not run**; ports and paths are stale. |
 
 ---
 
@@ -143,7 +144,7 @@ Paste into Hermes/Claude Code:
 | Symptom | Fix |
 |--------|-----|
 | **Disk full / freezes** | Media is in Google Cloud now — keep `02_Media_Vault` OFF the local disk. Keep 15GB+ free. |
-| **localhost refused** | The server isn't running — double-click `RUN_AGENT_OS.bat` (or `START_M7_SERVER.bat`). |
+| **localhost refused** | The server isn't running — double-click `RUN_AGENT_OS.bat` (Command Center, :3939) or `AM_STARTUP.bat` (studio, :3737). See `PORT_MAP.md`. `START_M7_SERVER.bat` is retired — it lives in `Launcher_Archive/` and its port is stale. |
 | **Hermes "install didn't finish"** | That's the local Desktop app — **don't use it** (eats RAM). Hermes runs on the cloud VM. |
 | **Hermes workspace :3000 login fails** | Cookie bug on HTTP. Use the gateway dashboard at **:9119**; log in with AUTH_USER/AUTH_PASS from the cloud `.env`; keep `AUTH_COOKIE_SECURE=false`; use the same Tailscale IP each time. |
 | **Skills folders empty** | Drive Stream placeholders — right-click `skills_inbox` → "Available offline," then `INGEST_AND_INDEX.bat`. |
