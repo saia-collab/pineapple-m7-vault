@@ -35,7 +35,7 @@ Saia is the only one who publishes, posts, sends, or spends.**
   SAIA (voice / click / type)
         │
         ▼
-  COMMAND CENTER  ── M7_COMMAND_CENTER.html (served by server.js @ localhost:3737)
+  COMMAND CENTER  ── M7_COMMAND_CENTER.html (served by server.js @ localhost:3939)
         │            tabs: Mission Control · Pipeline · Shared Memory · Execute · Skills · Studio · Jarvis
         ▼
   AGENTS  ── Claude Code (builder) · Hermes (orchestrator) · NotebookLM (research) ·
@@ -56,7 +56,7 @@ Saia is the only one who publishes, posts, sends, or spends.**
 ## 2. FILE MAP — where everything lives (vault root: `C:\Pineapple Contractors M7`)
 | File | What it is |
 |------|-----------|
-| `server.js` + `package.json` + `.env.example` | Local Agent OS server (Node, zero-dep) → serves dashboard + APIs on :3737 |
+| `server.js` + `package.json` + `.env.example` | Local Agent OS server (Node, zero-dep) → serves dashboard + APIs on :3939 |
 | `01_Command_Center/M7_COMMAND_CENTER.html` | The live command center (Mission Control + Jarvis voice) |
 | `01_Command_Center/M7_NOTEBOOK_BAY.html` | Local PDF reader + notes (no server) |
 | `01_Command_Center/GROUNDING.md` | Brand constitution (the law) |
@@ -85,7 +85,7 @@ Saia is the only one who publishes, posts, sends, or spends.**
 ## 3. HOW TO RUN IT (the only commands you need)
 | Goal | Do this |
 |------|---------|
-| Start the command center | Double-click **`RUN_AGENT_OS.bat`** → opens `http://localhost:3737` |
+| Start the command center | Double-click **`RUN_AGENT_OS.bat`** → opens `http://localhost:3939` |
 | Check everything's connected | Double-click **`M7_DOCTOR.bat`** (green/red checklist) |
 | Tidy the vault | Double-click **`M7_CLEANUP.bat`** |
 | Run on the cloud (24/7) | Follow **`M7_MASTER_RUNBOOK.md`** (GitHub → GCP → Docker) |

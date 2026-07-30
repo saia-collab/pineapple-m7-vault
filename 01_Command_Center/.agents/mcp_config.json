@@ -10,14 +10,19 @@
       "args": ["run", "hermes-mcp"],
       "description": "Hermes agent bridge — @scribe content generation and Outbox_Drafts routing"
     },
-    "m7-localhost": {
+    "m7-command-center": {
       "type": "http",
-      "url": "http://localhost:3000",
-      "description": "M7 local OS server — live metrics, trigger dispatch, and log stream API",
+      "url": "http://localhost:3939",
+      "description": "M7 Command Center (server.js) — vault Kanban, memory, Outbox and brand firewall APIs",
       "endpoints": {
-        "metrics": "GET /api/metrics",
-        "trigger": "POST /api/trigger",
-        "log":     "GET /api/log"
+        "health":     "GET  /api/health",
+        "kanban":     "GET  /api/kanban",
+        "memory":     "GET  /api/memory",
+        "filecontent":"GET  /api/filecontent",
+        "outbox":     "GET  /api/outbox",
+        "firewall":   "POST /api/firewall",
+        "approve":    "POST /api/approve",
+        "memory_log": "POST /api/memory/log"
       }
     }
   },

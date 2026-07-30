@@ -64,14 +64,14 @@ At the top you'll see profile pills: **main · roofing · marketing · content**
 ---
 
 ### STEP 6 — Check your Outbox (30 seconds)
-Go to **http://127.0.0.1:3737** (your M7 Command Center) → **Pipeline (Kanban)**
+Go to **http://127.0.0.1:3939** (your M7 Command Center) → **Pipeline (Kanban)**
 Review anything sitting in "⛔ Human Approval (PAUSED)" — those are ready for your GO.
 
 ---
 
 ## Your 3 browser tabs to always have open
 1. **http://127.0.0.1:3000** — Agentic OS (Hermes, NotebookLM, Kanban, Paperclip)
-2. **http://127.0.0.1:3737** — M7 Command Center (Execute Playbook, Outbox, Memory)
+2. **http://127.0.0.1:3939** — M7 Command Center (Execute Playbook, Outbox, Memory)
 3. **http://127.0.0.1:8082/admin** — Complimentary Claude Code Admin (provider status)
 
 ---
