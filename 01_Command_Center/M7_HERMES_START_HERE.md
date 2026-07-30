@@ -16,7 +16,7 @@ Breathe. You have 3 windows open. Here's what each one is and what to do. You on
 ## THE 3 WINDOWS (what they are)
 | Window | What it is | What you do |
 | :--- | :--- | :--- |
-| **M7 Engine** (says "ENGINE ACTIVE / localhost:3000") | the dashboard server | leave it open, don't touch |
+| **M7 Engine** (says "ENGINE ACTIVE / localhost:3939") | the dashboard server | leave it open, don't touch |
 | **M7 Brand Firewall** (says "watching 6 Fala rooms") | the compliance guard | leave it open, don't touch |
 | **Hermes Agent** (the gold "HERMES-AGENT" window) | your AI worker | **this is where you type** |
 
@@ -63,14 +63,14 @@ ad spend stays manual).
 You rarely need these. Here's the whole list:
 | File | When |
 | :--- | :--- |
-| `RUN_M7_DASHBOARD.bat` | start of a work session (opens Engine + dashboard) — only if not already running |
-| `HERMES_COMMAND_CENTER.bat` | to start Hermes + everything together |
+| `RUN_AGENT_OS.bat` | start of a work session (opens Engine + dashboard) — only if not already running |
+| `LAUNCH_ALL.bat` | to start Hermes + everything together |
 | `INGEST_AND_INDEX.bat` | after you drop files into `skills_inbox` |
 | `REGISTER_DAILY_SYNC.bat` | ONCE — turns on the daily auto-update |
-| `M7_TIDY.bat` | if the folder looks messy |
+| `M7_CLEANUP.bat` | if the folder looks messy |
 
-## THE DASHBOARD (localhost:3000)
-Open a browser → `http://localhost:3000`. It shows your AI fleet, the avatars, and a task runner.
+## THE DASHBOARD (localhost:3939)
+Open a browser → `http://localhost:3939`. It shows your AI fleet, the avatars, and a task runner.
 You don't *have* to use it — it's the visual view. Hermes + the Outbox folder are what matter.
 
 ---

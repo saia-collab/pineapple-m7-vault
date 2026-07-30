@@ -53,19 +53,19 @@ Your two plugins were mismatched. I corrected the configs to your real settings:
 | `05_Campaign_Factory` | The assembly line | Research → Copy → Compliance stages |
 
 **Rule:** nothing loose in the root except `MEMORY.md`, `USER.md`, `GROUNDING.md`, and the
-`.bat` launchers. (Run `M7_TIDY.bat` to auto-clean stray files — see section 6.)
+`.bat` launchers. (Run `M7_CLEANUP.bat` to auto-clean stray files — see section 6.)
 
 ---
 
 ## 3. THE LAUNCHERS (your only buttons — double-click these)
 | File | What it does | When |
 | :--- | :--- | :--- |
-| `RUN_M7_DASHBOARD.bat` | Starts engine + dashboard at localhost:3000 | Every work session |
-| `HERMES_COMMAND_CENTER.bat` | Starts Hermes + engine + firewall together | When using Hermes |
+| `RUN_AGENT_OS.bat` | Starts engine + dashboard at localhost:3939 | Every work session |
+| `LAUNCH_ALL.bat` | Starts Hermes + engine + firewall together | When using Hermes |
 | `INGEST_AND_INDEX.bat` | Files new skills/templates + rebuilds catalog | After dropping files in `skills_inbox` |
 | `REGISTER_DAILY_SYNC.bat` | Schedules daily 9 AM auto-update | ONCE |
 | `M7_DAILY_SYNC.bat` | The daily self-update (runs itself once scheduled) | Automatic |
-| `M7_TIDY.bat` | Cleans loose root files into the right rooms | When the root looks messy |
+| `M7_CLEANUP.bat` | Cleans loose root files into the right rooms | When the root looks messy |
 
 ---
 
@@ -99,14 +99,14 @@ All of them obey `GROUNDING.md` and the **Outbox Shield** (drafts only; you publ
 ---
 
 ## 6. CLEAN-UP PLAN (local + Google Drive)
-- Run `M7_TIDY.bat` (section 3) to sweep loose root files into the right rooms.
+- Run `M7_CLEANUP.bat` (section 3) to sweep loose root files into the right rooms.
 - Google Drive mirrors the vault automatically — once local is tidy, Drive matches within minutes.
 - Don't manually reorganize folders in Drive; always tidy locally and let it sync down.
 
 ---
 
 ## 7. THE DAILY RITUAL (Plan-Push-Play-Profit)
-1. **Plan** — open dashboard (`RUN_M7_DASHBOARD.bat` → localhost:3000). Check telemetry + tasks.
+1. **Plan** — open dashboard (`RUN_AGENT_OS.bat` → localhost:3939). Check telemetry + tasks.
 2. **Push** — generate/refresh a campaign; it lands PAUSED in `Outbox_Drafts`.
 3. **Play** — review, then YOU launch one ad set in Meta ($250/week cap).
 4. **Profit** — track which avatar books CPPAs; double down on the winner (see `SPEND_CONTROL.md`).

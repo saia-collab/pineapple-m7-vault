@@ -12,7 +12,7 @@ color_status: "#00BFFF"
 
 ## ▶ START A WORK SESSION
 1. Open **Obsidian** (leave it open — it powers the vault API).
-2. Double-click **`RUN_M7_DASHBOARD.bat`** → opens **http://localhost:3000**.
+2. Double-click **`RUN_AGENT_OS.bat`** → opens **http://localhost:3939**.
 
 ## 🔌 FIX OBSIDIAN CONNECTION (only if "MCP offline")
 ```
@@ -23,11 +23,11 @@ claude mcp add --transport http obsidian http://127.0.0.1:27123/mcp/ --header "A
 ## 🎛 THE ONLY BUTTONS YOU NEED
 | Double-click | When |
 | :--- | :--- |
-| `RUN_M7_DASHBOARD.bat` | every session (engine + dashboard) |
-| `HERMES_COMMAND_CENTER.bat` | when using Hermes |
+| `RUN_AGENT_OS.bat` | every session (engine + dashboard) |
+| `LAUNCH_ALL.bat` | when using Hermes |
 | `INGEST_AND_INDEX.bat` | after dropping files in `skills_inbox` |
 | `REGISTER_DAILY_SYNC.bat` | ONCE (turns on daily auto-update) |
-| `M7_TIDY.bat` | when the folder looks messy |
+| `M7_CLEANUP.bat` | when the folder looks messy |
 
 ## 🗓 DAILY RITUAL
 - **PLAN** — open dashboard, read telemetry + tasks.

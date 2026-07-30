@@ -11,7 +11,7 @@ color_status: "#00BFFF"
 # 🍍 HERMES — DAY-ONE CARD
 
 ## THE 3 WINDOWS
-- **M7 Engine** (localhost:3000) → leave open, don't touch.
+- **M7 Engine** (localhost:3939) → leave open, don't touch.
 - **Brand Firewall** ("watching 6 Fala rooms") → leave open, don't touch.
 - **HERMES-AGENT** (gold window) → **type here**, in the box.
 

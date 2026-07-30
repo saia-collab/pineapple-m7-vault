@@ -60,7 +60,7 @@ This matrix inventories the entire system. Any AI Agent executing changes must v
 
 * **`OS_Dashboard.html`**: Premium live GUI featuring AI model health indicators, sparklines, and task executors.
 
-* **`RUN_M7_DASHBOARD.bat`**: One-click startup routine that triggers dependency checks, starts the Express server, and loads the interface.
+* **`RUN_AGENT_OS.bat`**: One-click startup routine that triggers dependency checks, starts the Express server, and loads the interface.
 
 ### 🟡 Human Checklist: One-Time System Calibration (Needs Your Execution)
 
@@ -230,7 +230,7 @@ claude mcp add --transport http obsidian [http://127.0.0.1:27123/mcp/](http://12
 When your **15 zip files** arrive, follow this flawless intake protocol to process, verify, and store them with zero human error.
 
 ```
- [15 Skill Zips] ──> Drop into 'skills_inbox/' ──> Double-click 'INGEST_SKILLS.bat' ──> Complete
+ [15 Skill Zips] ──> Drop into 'skills_inbox/' ──> Double-click 'INGEST_AND_INDEX.bat' ──> Complete
 
 ```
 
@@ -238,7 +238,7 @@ When your **15 zip files** arrive, follow this flawless intake protocol to proce
 
 1. **Placement**: Paste all 15 downloaded `.zip` files directly into `04_Tech_Lab\skills_inbox\`.
 
-2. **Execution**: Double-click `04_Tech_Lab\INGEST_SKILLS.bat`.
+2. **Execution**: Double-click `04_Tech_Lab\INGEST_AND_INDEX.bat`.
 
 3. **Autonomous Processing**:
 
@@ -479,7 +479,7 @@ During the interactive setup prompts, configure these selections:
 
 With your playbook completely updated, execute your daily workspace operations with this clean workflow:
 
-1. **Boot the System**: Double-click `RUN_M7_DASHBOARD.bat` inside your project directory to boot the server and launch the live web panel.
+1. **Boot the System**: Double-click `RUN_AGENT_OS.bat` inside your project directory to boot the server and launch the live web panel.
 
 2. **Verify Model Fleets**: Check your dashboard at `http://localhost:3000/`. Confirm that your local **Ollama** and **Hermes** cards display active cyan/cyan online states.
 
@@ -502,7 +502,7 @@ For your M7 setup, there are two elite platforms that read and write files direc
 **Cursor** is a fork of VS Code built entirely around AI. It is the absolute best tool if you want a visual code editor where the AI does all the heavy lifting directly in your files.
 
 * **How it kills Copy-Paste:** Cursor has a feature called **Composer (Ctrl + I / Cmd + I)**. You can talk to it in natural language, mention files using `@server.js` or `@M7_CLAUDE_PROJECT_PLAYBOOK.md`, and say: *"Add a telemetry log check to server.js and test it."* Cursor will write the code directly inside your files. You just click **"Accept"** or **"Reject"**.
-* **Built-in Terminal:** You can run `RUN_M7_DASHBOARD.bat` or python scripts in Cursor’s built-in terminal side-by-side with your code.
+* **Built-in Terminal:** You can run `RUN_AGENT_OS.bat` or python scripts in Cursor’s built-in terminal side-by-side with your code.
 * **Obsidian Integration (MCP):** Cursor supports Model Context Protocol (MCP). You can connect it directly to your running Obsidian vault so the AI can read your `GROUNDING.md` rules while modifying your Python factory files.
 
 ---
@@ -565,7 +565,7 @@ Because you have multiple interconnected moving parts (Express JavaScript backen
 #### 1. Launch the Workspace
 1. Download and open **Cursor IDE**.
 2. Go to `File > Open Folder...` and select the root directory of your **M7 System** vault.
-3. Open the built-in terminal window in Cursor (`Ctrl + ~` or `Cmd + ~`) and leave your main dashboard launcher active (`RUN_M7_DASHBOARD.bat`).
+3. Open the built-in terminal window in Cursor (`Ctrl + ~` or `Cmd + ~`) and leave your main dashboard launcher active (`RUN_AGENT_OS.bat`).
 
 #### 2. Arm the AI Agent (The "Composer" Feature)
 1. Hit **`Ctrl + I`** (Windows) or **`Cmd + I`** (Mac) to open the **Composer UI**.
@@ -577,7 +577,7 @@ Because you have multiple interconnected moving parts (Express JavaScript backen
 When you want to execute operations, check configurations, or deploy a code change, tag your references with the `@` symbol inside Composer.
 
 **Example Prompt for Ingesting Tomorrow's 15 Zips:**
-> "I have dropped the zip assets into the inbox. Use the terminal tool to execute `@INGEST_SKILLS.bat`. Once it finishes, read `@intake_log.json` to verify that all skills were correctly filed, and verify that the brand firewall didn't leave any unresolved mutations."
+> "I have dropped the zip assets into the inbox. Use the terminal tool to execute `@INGEST_AND_INDEX.bat`. Once it finishes, read `@intake_log.json` to verify that all skills were correctly filed, and verify that the brand firewall didn't leave any unresolved mutations."
 
 **Example Prompt for General Feature Extensions:**
 > "Review the endpoints in `@server.js`. I want to expand our analytics logging. Update the server file directly, then run `node --check 04_Tech_Lab/server.js` to ensure the syntax remains completely unbroken before saving."
@@ -601,7 +601,7 @@ If the learning curve for Cursor feels heavy right now, jumping over to **Claude
 Claude Code is an autonomous *agent*, meaning it doesn't just display code; it interacts with your environment. It can cleanly handle:
 
 * **File Sync & Vault Integrity Management:** It reads and tracks modifications across your entire directory structure natively on your hard drive, making sure edits to JSON configs, Python scripts, and Markdown files stay perfectly aligned. This completely avoids Google Drive truncation or copy-paste text drops.
-* **Running Your Automation Suites:** It can execute bash, batch, and Python scripts directly (e.g., launching `INGEST_SKILLS.bat` or `m7_factory.py`), read the terminal outputs, verify success, and fix bugs if they pop up.
+* **Running Your Automation Suites:** It can execute bash, batch, and Python scripts directly (e.g., launching `INGEST_AND_INDEX.bat` or `m7_factory.py`), read the terminal outputs, verify success, and fix bugs if they pop up.
 * **Pre-Flight Syntax & Code Checking:** It acts like a local "Codex" engine by validating JavaScript runtime changes via `node --check` and testing Python script compilation before saving edits.
 
 ---
@@ -644,7 +644,7 @@ Initialize deployment sequence against @M7_CLAUDE_PROJECT_PLAYBOOK.md.
 
 Execute the following three steps sequentially:
 1. Pre-Flight Check: Scan 04_Tech_Lab/config/models.json and 04_Tech_Lab/server.js to verify all system routes and model target configurations match the playbook mapping.
-2. Skill Intake: Trigger the terminal command to run 04_Tech_Lab/INGEST_SKILLS.bat to parse any newly arrived zip materials in the skills inbox. Check 04_Tech_Lab/logs/intake_log.json afterward to verify correct filing.
+2. Skill Intake: Trigger the terminal command to run 04_Tech_Lab/INGEST_AND_INDEX.bat to parse any newly arrived zip materials in the skills inbox. Check 04_Tech_Lab/logs/intake_log.json afterward to verify correct filing.
 3. Vault Compilation: Run the factory pipeline script (04_Tech_Lab/m7_factory.py) to parse data, cross-reference GROUNDING.md for brand compliance, and verify that any written creative outputs are explicitly locked behind the Outbox Shield in a 'PAUSED' state.
 
 Confirm when all three operations return 100% success states. Do not modify files without running terminal syntax validation checks.
@@ -714,7 +714,7 @@ This matrix inventories the entire system. Any AI Agent executing changes must v
 
 * **`OS_Dashboard.html`**: Premium live GUI featuring AI model health indicators, sparklines, and task executors.
 
-* **`RUN_M7_DASHBOARD.bat`**: One-click startup routine that triggers dependency checks, starts the Express server, and loads the interface.
+* **`RUN_AGENT_OS.bat`**: One-click startup routine that triggers dependency checks, starts the Express server, and loads the interface.
 
 ### 🟡 Human Checklist: One-Time System Calibration (Needs Your Execution)
 
@@ -884,7 +884,7 @@ claude mcp add --transport http obsidian [http://127.0.0.1:27123/mcp/](http://12
 When your **15 zip files** arrive, follow this flawless intake protocol to process, verify, and store them with zero human error.
 
 ```
- [15 Skill Zips] ──> Drop into 'skills_inbox/' ──> Double-click 'INGEST_SKILLS.bat' ──> Complete
+ [15 Skill Zips] ──> Drop into 'skills_inbox/' ──> Double-click 'INGEST_AND_INDEX.bat' ──> Complete
 
 ```
 
@@ -892,7 +892,7 @@ When your **15 zip files** arrive, follow this flawless intake protocol to proce
 
 1. **Placement**: Paste all 15 downloaded `.zip` files directly into `04_Tech_Lab\skills_inbox\`.
 
-2. **Execution**: Double-click `04_Tech_Lab\INGEST_SKILLS.bat`.
+2. **Execution**: Double-click `04_Tech_Lab\INGEST_AND_INDEX.bat`.
 
 3. **Autonomous Processing**:
 
@@ -1133,7 +1133,7 @@ During the interactive setup prompts, configure these selections:
 
 With your playbook completely updated, execute your daily workspace operations with this clean workflow:
 
-1. **Boot the System**: Double-click `RUN_M7_DASHBOARD.bat` inside your project directory to boot the server and launch the live web panel.
+1. **Boot the System**: Double-click `RUN_AGENT_OS.bat` inside your project directory to boot the server and launch the live web panel.
 
 2. **Verify Model Fleets**: Check your dashboard at `http://localhost:3000/`. Confirm that your local **Ollama** and **Hermes** cards display active cyan/cyan online states.
 
