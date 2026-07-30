@@ -127,8 +127,12 @@ Ports are documented once, in **`PORT_MAP.md`**. Do not re-derive them.
 Not in the vault `.env`. The Agentic OS reads them from the Hermes profile:
 
 ```
-~/.hermes/profiles/main/.env      →      OPENROUTER_API_KEY=...
+%LOCALAPPDATA%\hermes\profiles\main\.env      →      OPENROUTER_API_KEY=...
 ```
+
+(That is `C:\Users\<you>\AppData\Local\hermes\…` — **not** `~/.hermes\…`.
+`sync_hermes_m7.ps1` and `update_agent_os.ps1` both resolve it from
+`$env:LOCALAPPDATA`, which is authoritative.)
 
 One key feeds Hermes, Fusion, Loop and Hy3-Coder. Don't repeat it per-tab.
 To have an agent wire everything for you, point it at the pack's `SETUP-WITH-AI.md`.
