@@ -20,7 +20,7 @@ for /f "tokens=5" %%a in ('netstat -aon ^| findstr :3100') do taskkill /f /pid %
 for /f "tokens=5" %%a in ('netstat -aon ^| findstr :8082') do taskkill /f /pid %%a 2>nul
 
 start /b cmd /c "set PORT=3939 && npm start"
-start /b /d "C:\Pineapple Contractors M7\03_Knowledge_Mat\00_Atlas\templates\agent-os-pack-2026-07-30\source" cmd /c "set PORT=3737 && npm start"
+start /b /d "C:\Pineapple Contractors M7\03_Knowledge_Mat\00_Atlas\templates\agent-os-pack-2026-07-31\source" cmd /c "set PORT=3737 && npm start"
 start /b cmd /c "npx fcc-server --port 8082"
 echo 📎 Launching Paperclip AI Company Daemon Engine...
 start /b cmd /c "npx paperclipai run"
