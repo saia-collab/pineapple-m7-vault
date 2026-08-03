@@ -88,7 +88,7 @@ These are model endpoints, not editors — use them for content that lands PAUSE
 
 ## THE DOWNLOAD LOOP (as Gumroad finishes, in batches of ~10)
 1. Drop downloaded files (zip / loose / folder — all fine) into `04_Tech_Lab\skills_inbox\`.
-2. If the `--watch` from Track B is running, it auto-processes. Otherwise double-click `INGEST_SKILLS.bat`.
+2. If the `--watch` from Track B is running, it auto-processes. Otherwise double-click `INGEST_AND_INDEX.bat`.
 3. After all 47: `python 04_Tech_Lab\Scripts\m7_aggregate.py` to index everything into `00_Atlas\INDEX.md`.
 
 ---

@@ -103,7 +103,7 @@ hermes chat --profile julian     # general research
 ---
 
 ## AGENTIC OS DASHBOARD — ✅ LIVE at :3000
-- **URL:** http://127.0.0.1:3000
+- **URL:** http://127.0.0.1:3939
 - **All agent cards:** now wired to correct status (Claude Online, Hermes Online, OpenClaw Offline, Paperclip Live)
 
 ---

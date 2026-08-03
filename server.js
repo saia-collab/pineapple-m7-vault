@@ -1,7 +1,9 @@
 /* ============================================================
  * Pineapple Contractors M7 — Agent OS local server (server.js)
  * Zero-dependency: uses only Node built-ins. No npm install needed.
- * Run:  node server.js     then open  http://localhost:3737
+ * Run:  node server.js     then open  http://localhost:3939
+ * Port note: 3939, not 3737 — the Agentic OS pack claims 3737 for itself
+ * (its start script hardcodes PORT=3737), so the two collided.
  * Serves the Command Center dashboard + vault APIs (Kanban, Memory,
  * Outbox, Firewall). Everything stays PAUSED — never publishes or spends.
  * ============================================================ */
@@ -10,7 +12,7 @@ const fs = require("fs");
 const path = require("path");
 const { spawnSync } = require("child_process");
 
-const PORT = process.env.PORT || 3737;
+const PORT = process.env.PORT || 3939;
 const VAULT = __dirname;                                   // server.js lives at vault root
 const CMD = path.join(VAULT, "01_Command_Center");
 const OUTBOX = path.join(CMD, "Outbox_Drafts");

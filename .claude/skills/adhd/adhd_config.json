@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "name": "adhd-agent-config",
+  "version": "1.0.0",
+  "description": "Executive Function & Parallel Ideation Config for Claude Code",
+  "execution_settings": {
+    "default_branches": 5,
+    "ideas_per_branch": 6,
+    "top_shortlist_count": 3,
+    "context_isolation_wall": true,
+    "bypass_keywords": [
+      "quick",
+      "standard",
+      "canonical",
+      "textbook",
+      "just",
+      "one-line"
+    ],
+    "auto_star_selection": true
+  },
+  "scoring_weights": {
+    "novelty_weight": 0.35,
+    "viability_weight": 0.40,
+    "fit_weight": 0.25
+  },
+  "default_frame_preset": "software_engineering",
+  "frame_presets": {
+    "software_engineering": [
+      "hardware_engineer",
+      "speedrunner",
+      "3am_oncall",
+      "inversion",
+      "extreme_crudest"
+    ],
+    "business_strategy_pricing": [
+      "regulator",
+      "marketplace_operator",
+      "game_designer",
+      "load_bearing_deletion",
+      "extreme_infinite"
+    ],
+    "creative_content": [
+      "10_year_old",
+      "biology",
+      "logistics",
+      "ant_colony",
+      "competitor_adversary"
+    ]
+  },
+  "frames_registry": {
+    "hardware_engineer": "Thinks in latency, memory limits, bandwidth bottlenecks, and physical constraints.",
+    "regulator": "Asks what has to be provable, traceable, audit-logged, or refusable.",
+    "10_year_old": "Ignores every convention; asks 'why can't you just do X?' with zero tech bias.",
+    "competitor_adversary": "Attacks the obvious solution to break it, then inverts the attack into an edge case feature.",
+    "biology": "Borrows mechanisms from immune systems, evolutionary pressure, cellular signaling, or ecosystems.",
+    "logistics": "Applies queuing theory, batching, just-in-time routing, hub-and-spoke, and last-mile strategies.",
+    "game_designer": "Looks for core loops, instant feedback, artificial friction, save states, and speedrun skips.",
+    "marketplace_operator": "Reinterprets the problem as buyers, sellers, order books, auctions, and clearing houses.",
+    "inversion": "Solves 'how to guarantee 100% failure/latency,' then negates every single answer back to positive space.",
+    "extreme_crudest": "The crudest, dirtiest hack that still technically passes ($0 budget, 1 hour).",
+    "extreme_infinite": "The maximalist, zero-latency, ultimate architecture (Infinite budget, 10 years).",
+    "load_bearing_deletion": "Identifies the single assumption everyone treats as fixed and deletes it completely.",
+    "speedrunner": "Hunts bugs, sequence skips, race conditions, and legal-but-abusive execution paths.",
+    "ant_colony": "No central coordinator; dumb autonomous sub-agents relying strictly on local state/signals.",
+    "3am_oncall": "Designs for extreme resilience so no human ever gets paged at 3 AM."
+  }
+}

@@ -56,7 +56,7 @@ A single-glance map of what has been executed, what **you** need to do, and what
 - `.obsidian/plugins/obsidian-local-rest-api/data.json` — API key + HTTP port **27124**
 - `.obsidian/plugins/mcp-tools/data.json`, `community-plugins.json`, `appearance.json` (gold accent)
 - `.claude/settings.json` — non-interactive execution allow-list (live ad publishing stays denied)
-- `RUN_M7_DASHBOARD.bat` — one-click launcher
+- `RUN_AGENT_OS.bat` — one-click launcher
 - Full 4-Fala folder topography scaffolded; configs JSON-validated; firewall + scoring tested live
 
 ---
@@ -64,7 +64,7 @@ A single-glance map of what has been executed, what **you** need to do, and what
 ## 🟡 WHAT YOU NEED TO DO (one-time, ~10 min)
 
 1. **Let Google Drive finish syncing** — watch for the green check in the Drive tray before launching (the files are saved; Drive just needs to settle).
-2. **Launch:** double-click **`RUN_M7_DASHBOARD.bat`** → opens `http://localhost:3000/OS_Dashboard.html`.
+2. **Launch:** double-click **`RUN_AGENT_OS.bat`** → opens `http://localhost:3939/OS_Dashboard.html`.
 3. **Obsidian plugins:** open the vault → Settings → Community plugins → enable **Local REST API** and **MCP Tools** (key already wired). Confirm `http://127.0.0.1:27124` is live.
 4. **Connect agents:** copy the MCP configs into place, then restart the apps:
    - `04_Tech_Lab\config\claude_desktop_config.json` → `%APPDATA%\Claude\claude_desktop_config.json`
@@ -81,12 +81,12 @@ A single-glance map of what has been executed, what **you** need to do, and what
 1. **`GROUNDING.md`** — brand constitution deployed to root + `03_Knowledge_Mat/`. ✅
 2. **Support scripts** — `m7_fetch.py`, `m7_cleanup.py`, `m7_aggregate.py` built + tested. ✅
 3. **Full factory pipeline** — `m7_factory.py` runs 10→20→30 and writes `approved.json` + PAUSED drafts into `Outbox_Drafts/`. ✅
-4. **Skill / Template intake** — `m7_skill_intake.py` + `INGEST_SKILLS.bat` + `04_Tech_Lab/skills_inbox/`. ✅
+4. **Skill / Template intake** — `m7_skill_intake.py` + `INGEST_AND_INDEX.bat` + `04_Tech_Lab/skills_inbox/`. ✅
 
 ### 📥 TOMORROW — the 15 skill/template zips (drag-drop, no manual filing)
 
 1. Drop all 15 `.zip` files into **`04_Tech_Lab\skills_inbox\`**.
-2. Double-click **`INGEST_SKILLS.bat`** (vault root).
+2. Double-click **`INGEST_AND_INDEX.bat`** (vault root).
 3. Each zip is auto-classified (Skill → `04_Tech_Lab\skills\`, Template → `03_Knowledge_Mat\00_Atlas\templates\`), firewall-scanned + mutated, and logged to `04_Tech_Lab\logs\skill_intake_log.json`.
 4. Tested live: skill vs template detection, filing, and banned-term mutation all confirmed working.
 
@@ -103,10 +103,10 @@ A single-glance map of what has been executed, what **you** need to do, and what
 
 ```bash
 # Launch everything
-RUN_M7_DASHBOARD.bat
+RUN_AGENT_OS.bat
 
 # Engine only
-node 04_Tech_Lab\server.js                         # http://localhost:3000
+node 04_Tech_Lab\server.js                         # http://localhost:3939
 
 # Brand firewall
 python 04_Tech_Lab\Scripts\brand_firewall.py --report   # scan
@@ -133,7 +133,7 @@ python 04_Tech_Lab\Scripts\m7_cleanup.py --apply
 python 04_Tech_Lab\Scripts\m7_fetch.py --url https://example.com
 
 # Skill / Template intake (the 15 zips)
-INGEST_SKILLS.bat
+INGEST_AND_INDEX.bat
 python 04_Tech_Lab\Scripts\m7_skill_intake.py --watch
 ```
 
@@ -141,7 +141,7 @@ python 04_Tech_Lab\Scripts\m7_skill_intake.py --watch
 
 | Port | URL | Use |
 | :--- | :--- | :--- |
-| 3000 | `http://localhost:3000` | M7 Engine + dashboard + APIs |
+| 3939 | `http://localhost:3939` | M7 Engine + dashboard + APIs |
 | 27124 | `http://127.0.0.1:27124` | Obsidian REST API (initial wiring) |
 | 27123 | `https://127.0.0.1:27123` | Obsidian REST API (secure) |
 | 11434 | `http://localhost:11434` | Ollama |

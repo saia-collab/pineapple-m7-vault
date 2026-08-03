@@ -60,7 +60,7 @@ Goal: when someone (or ChatGPT/Google AI) asks "best Frisco roofer for hail clai
 | Private/offline drafts | **Ollama** |
 | Schedule + assemble + loop | **Hermes** |
 | Compliance gate | **brand_firewall.py** |
-| See it all | **Dashboard** (localhost:3000) |
+| See it all | **Dashboard** (localhost:3939) |
 
 ---
 

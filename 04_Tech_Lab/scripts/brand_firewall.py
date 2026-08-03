@@ -45,7 +45,7 @@ from pathlib import Path
 # --------------------------------------------------------------------------- #
 
 # Vault root. Override with --root. Auto-detected two levels up from this script
-# (04_Tech_Lab/Scripts/brand_firewall.py -> vault root). Falls back to cwd when the
+# (04_Tech_Lab/scripts/brand_firewall.py -> vault root). Falls back to cwd when the
 # script is relocated (CI, /tmp, inline --check) so import never crashes.
 def _detect_root() -> Path:
     here = Path(__file__).resolve()
@@ -383,7 +383,7 @@ def write_report(root: Path, violations, fixed_files):
         "violations": [v.as_dict() for v in violations],
         "closing": "Ko e hala 'o e fononga ko e faka'apa'apa.",
     }
-    out = root / "04_Tech_Lab" / "Scripts" / "firewall_report.json"
+    out = root / "04_Tech_Lab" / "scripts" / "firewall_report.json"
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps(report, indent=2), encoding="utf-8")
     print(f"[firewall] report -> {out}")

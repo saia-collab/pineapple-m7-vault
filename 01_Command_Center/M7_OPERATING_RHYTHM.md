@@ -21,7 +21,7 @@ Do these THREE in order. This is the 80/20 of a local services business.
    Reply/call within 5 minutes. A 5-minute reply beats a perfect ad every time.
 2. **Ask for reviews:** text/email yesterday's finished-job customers for a Google review.
    Reviews are the #1 lever for LSA ranking + trust. Target: 1–3 new reviews/day.
-3. **Dashboard glance:** open `RUN_M7_DASHBOARD.bat` → localhost:3000. Anything to kill/scale? Note it.
+3. **Dashboard glance:** open `RUN_AGENT_OS.bat` → localhost:3000. Anything to kill/scale? Note it.
 
 > If your brain has more gas today, do ONE bonus block below. If not, you still won. Stop.
 

@@ -3,13 +3,29 @@
 M7 DOCTOR — non-human connection + health checklist.
 Checks that every part of the Pineapple M7 OS is connected and talking.
 Run:  python m7_doctor.py   (or double-click M7_DOCTOR.bat)
-Standard library only — no installs. Prints a green/red checklist.
+Standard library only — no installs. Prints a pass/fail checklist.
 """
-import json, socket, subprocess, sys, urllib.request
+import json, os, socket, subprocess, sys, urllib.request
 from pathlib import Path
 
 VAULT = Path(__file__).resolve().parent.parent
-OBSIDIAN_KEY = "1f8aa9201f4d4769ec53b2eb57dc1333c5a6b6e6b379294e71229a584d17cd8d"  # from Local REST API plugin
+
+# Obsidian Local REST API key. This repo is public, so the key is NEVER stored
+# here — set OBSIDIAN_API_KEY in the environment or in the vault .env
+# (gitignored). Get it from Obsidian → Local REST API plugin settings.
+def _obsidian_key() -> str:
+    key = os.environ.get("OBSIDIAN_API_KEY", "").strip()
+    if key:
+        return key
+    env = VAULT / ".env"
+    if env.exists():
+        for line in env.read_text(encoding="utf-8", errors="ignore").splitlines():
+            line = line.strip()
+            if line.startswith("OBSIDIAN_API_KEY="):
+                return line.split("=", 1)[1].strip().strip('"').strip("'")
+    return ""
+
+OBSIDIAN_KEY = _obsidian_key()
 OK, BAD, WARN = "[ OK ]", "[FAIL]", "[WARN]"
 rows = []
 
@@ -59,18 +75,28 @@ def port_open(host, port):
     except Exception:
         return False
 
-# 4) M7 backend (51763)
-if port_open("127.0.0.1", 51763):
-    st, body = http_ok("http://127.0.0.1:51763/api/health")
-    add("M7 backend (port 51763)", OK if st == 200 else WARN, "health responded" if st == 200 else body[:60])
+# 4) M7 Command Center (3939 — see 01_Command_Center/PORT_MAP.md)
+# Was checking 51763 and pointing at START_M7_SERVER.bat; server.js has never
+# listened on 51763 and that launcher does not exist, so this check reported
+# "not running" even when the backend was healthy.
+M7_PORT = int(os.environ.get("PORT", "3939"))
+if port_open("127.0.0.1", M7_PORT):
+    st, body = http_ok(f"http://127.0.0.1:{M7_PORT}/api/health")
+    add(f"M7 Command Center (port {M7_PORT})", OK if st == 200 else WARN,
+        "health responded" if st == 200 else body[:60])
 else:
-    add("M7 backend (port 51763)", WARN, "not running — start with START_M7_SERVER.bat")
+    add(f"M7 Command Center (port {M7_PORT})", WARN,
+        "not running — start with RUN_AGENT_OS.bat")
 
 # 5) Obsidian Local REST API (27123)
 if port_open("127.0.0.1", 27123):
-    st, body = http_ok("http://127.0.0.1:27123/", {"Authorization": "Bearer " + OBSIDIAN_KEY})
-    add("Obsidian REST API (port 27123)", OK if st in (200, 204) else WARN,
-        "connected + authorized" if st in (200, 204) else "reachable but auth/endpoint issue")
+    if not OBSIDIAN_KEY:
+        add("Obsidian REST API (port 27123)", WARN,
+            "reachable, but no key — set OBSIDIAN_API_KEY in .env")
+    else:
+        st, body = http_ok("http://127.0.0.1:27123/", {"Authorization": "Bearer " + OBSIDIAN_KEY})
+        add("Obsidian REST API (port 27123)", OK if st in (200, 204) else WARN,
+            "connected + authorized" if st in (200, 204) else "reachable but auth/endpoint issue")
 else:
     add("Obsidian REST API (port 27123)", WARN, "Obsidian closed or Local REST API plugin off")
 

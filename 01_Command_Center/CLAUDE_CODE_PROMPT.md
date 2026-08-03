@@ -12,7 +12,7 @@ color_status: "#00BFFF"
 ## Do you need Cursor or an IDE?
 No. Three ways to run things, easiest first:
 
-1. **Double-click the `.bat` files** — no IDE, no terminal. `RUN_M7_DASHBOARD.bat` (start everything) and `INGEST_SKILLS.bat` (process zips). This covers 90% of daily use.
+1. **Double-click the `.bat` files** — no IDE, no terminal. `RUN_AGENT_OS.bat` (start everything) and `INGEST_AND_INDEX.bat` (process zips). This covers 90% of daily use.
 2. **Claude Code (CLI)** — best for "execute the rest of the playbook autonomously." Your `.claude/settings.json` is already set so it won't stop to ask permission inside this vault. Install once, then run from the vault.
 3. **Cursor / VS Code** — optional. Works as an editor, but Cursor's agent is separate from Claude Code and won't use this vault's `.claude/settings.json` permission profile. Use it only if you prefer a GUI; it's not required.
 

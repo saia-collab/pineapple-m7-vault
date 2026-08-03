@@ -80,7 +80,7 @@ me immediately with the speed-to-lead text ready to send."
 | **Antigravity** | Gemini agent surface | web sweeps, landing-page formatting |
 | **Claude Code** | Builder/coder | edits files/scripts in the vault |
 | **Hermes** | Orchestrator (this sheet) | schedules + delegates to all of the above |
-| **Dashboard** | Mission Control | see it all at localhost:3000 |
+| **Dashboard** | Mission Control | see it all at localhost:3939 |
 
 **The flow:** NotebookLM (facts) → Gemini Gem (style) → Hermes (assemble + schedule) →
 brand_firewall (compliance) → Outbox_Drafts (PAUSED) → **you publish** → CRM tracks → double down.
