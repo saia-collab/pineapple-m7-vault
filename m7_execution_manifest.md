@@ -568,3 +568,9 @@ Fired the entire M7_TASK_QUEUE while Saia set up DataForSEO. All PAUSED in Outbo
   - 03_Knowledge_Mat/active_context/skills/gbp_review_responder.md (from Nico prompt, M7 brand law folded in)
   - 03_Knowledge_Mat/active_context/skills/blog_to_gbp.md (from Julian prompt, 1400-char cap)
 - Priority guidance to user: speed-to-lead (5-min callback) > any SEO trick; do review responder daily; batch blog→GBP weekly.
+
+## 2026-08-04e — VA task handoff + brother brand-voice capture kit
+- M7_VA_TASK_HANDOFF.md: full daily (90 min) / weekly (3-4 hr) / monthly (4-6 hr) VA workload including lead intake, review response, GBP posts, photo library, review-request sweep, NAP audit. Explicit "what VA does NOT do" list (negative reviews, insurance convos, live publishing, quoting prices) + escalation tree. Onboarding checklist.
+- M7_BRAND_HANDOFF_FOR_NAA_SIONE.md: 11-section brand capture questionnaire designed to be short and voice-memo-friendly (Naa Sione lives on job sites). Covers wording he hates, insurance expertise, Hormozi format applied to us, palette lock, HQ address disambiguation (Frisco vs Lewisville), service-area rank, service LEAD/KEEP/DROP, content-restart decision, Polynesian heritage lean.
+- M7_BROTHER_CLAUDE_PROMPT.md: single copy-paste prompt he pastes into HIS own Claude/ChatGPT/Gemini. Turns brand capture into an AI-conducted 20-45 min interview that outputs a clean markdown he texts back. Handles the reality that a paper form is homework he wont do; a conversation he will do.
+- Rationale: existing AI content sits unpublished in Outbox because Naa Sione (field-experienced, customer/adjuster-facing) keeps rejecting the wording. Nothing unblocks until his voice is captured. This kit is the unblocker.
