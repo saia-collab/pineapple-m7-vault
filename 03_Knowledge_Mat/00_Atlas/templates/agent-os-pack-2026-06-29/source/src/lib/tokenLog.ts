@@ -18,7 +18,7 @@ const FILE = path.join(STATE_DIR, "token-usage.jsonl");
 export interface TokenEvent {
   id: string;
   ts: number;
-  agent: string;          // "claude" | "freeclaude" | "hermes" | "gemini" | "jarvis" | …
+  agent: string;          // "claude" | "freeclaude" | "hermes" | "gemini" | "apollo" | …
   model: string;          // model id, e.g. "nex-agi/nex-n2-pro:free"
   promptTokens: number;
   completionTokens: number;

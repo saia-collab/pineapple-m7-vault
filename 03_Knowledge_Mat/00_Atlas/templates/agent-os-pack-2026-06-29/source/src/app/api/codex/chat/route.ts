@@ -1,5 +1,6 @@
 import { spawnStream } from "@/lib/runner";
 import { codexApprovalArgs } from "@/lib/codexWorkspace";
+import { omnirouteCodexArgs, openrouterCodexArgs, openrouterCodexEnv, OPENROUTER_HY3_MODEL, omnirouteCodexEnv, nativeCodexArgs, nativeCodexEnv, NATIVE_CODEX_MODEL, withSteer, probeOmniRoute } from "@/lib/omniroute";
 import { mkdir } from "node:fs/promises";
 import { existsSync } from "node:fs";
 import path from "node:path";
@@ -74,13 +75,40 @@ export async function POST(req: Request) {
     cwd = (await ensureCodexProject("codex-default")) ?? path.join(CODEX_SCRATCH_ROOT, "codex-default");
   }
 
+  // Engine selection:
+  //  • "hy3"   → direct OpenRouter, tencent/hy3:free (Tencent's 295B, free window)
+  //  • "gpt56" → native OpenAI Codex on the user's ChatGPT OAuth login (gpt-5.6)
+  //  • default → local OmniRoute gateway (90+ free providers)
+  const engine = body.engine === "hy3" ? "hy3" : body.engine === "gpt56" ? "gpt56" : "omniroute";
+
+  if (engine === "omniroute" && !(await probeOmniRoute())) {
+    return new Response(
+      JSON.stringify({ type: "error", message: "OmniRoute isn't running on :20128. Open the OmniRoute tab (or run `omniroute`), then try again." }) + "\n",
+      { status: 503, headers: { "Content-Type": "application/x-ndjson; charset=utf-8" } },
+    );
+  }
+  if (engine === "hy3" && !process.env.OPENROUTER_API_KEY) {
+    return new Response(
+      JSON.stringify({ type: "error", message: "OPENROUTER_API_KEY is missing from the server env — add it to .env.local and restart the OS." }) + "\n",
+      { status: 503, headers: { "Content-Type": "application/x-ndjson; charset=utf-8" } },
+    );
+  }
+
   // Codex runs non-interactively here, so its terminal approval prompt can't be
   // answered from the browser — pass an explicit approval policy or it blocks.
-  const args = ["exec", "--json", "--skip-git-repo-check", ...codexApprovalArgs(body.approvalMode)];
-  if (model) args.push("--model", model);
-  args.push(fullPrompt);
+  const providerArgs = engine === "hy3"
+    ? openrouterCodexArgs(model || OPENROUTER_HY3_MODEL)
+    : engine === "gpt56"
+    ? nativeCodexArgs(model || NATIVE_CODEX_MODEL)
+    : omnirouteCodexArgs(model);
+  const args = ["exec", "--json", "--skip-git-repo-check",
+    ...codexApprovalArgs(body.approvalMode),
+    ...providerArgs,
+  ];
+  args.push(withSteer(fullPrompt));
 
-  const child = spawnStream("codex", args, { cwd });
+  const extraEnv = engine === "hy3" ? openrouterCodexEnv() : engine === "gpt56" ? nativeCodexEnv() : omnirouteCodexEnv();
+  const child = spawnStream("codex", args, { cwd, extraEnv });
 
   const encoder = new TextEncoder();
   const stream = new ReadableStream({
@@ -98,7 +126,11 @@ export async function POST(req: Request) {
       };
       child.stdout.on("data", (b: Buffer) => send(b.toString()));
       child.stderr.on("data", (b: Buffer) => {
-        send(JSON.stringify({ type: "stderr", text: b.toString() }) + "\n");
+        const text = b.toString();
+        // Codex still pings its (unused) OpenAI OAuth refresh on startup even when
+        // running on the OmniRoute provider — pure noise here, don't show the user.
+        if (/codex_login|refresh token|auth::manager|log out and sign in/i.test(text)) return;
+        send(JSON.stringify({ type: "stderr", text }) + "\n");
       });
       child.on("close", (code) => {
         send(JSON.stringify({ type: "done", code }) + "\n");

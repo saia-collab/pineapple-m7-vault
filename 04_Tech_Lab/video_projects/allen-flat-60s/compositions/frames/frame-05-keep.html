@@ -1,0 +1,34 @@
+<template>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=DM+Sans:wght@400;500;700&display=swap');
+#root{position:relative;width:1080px;height:1920px;overflow:hidden;font-family:"DM Sans",system-ui,sans-serif;}
+#frame-05-keep-bg{position:absolute;inset:0;background:#1A365D;}
+.frame-05-keep-wrap{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;align-items:center;padding:0 96px;text-align:center;box-sizing:border-box;}
+.frame-05-keep-serif{font-family:"Libre Caslon Display",Georgia,serif;font-weight:400;line-height:.92;letter-spacing:-.02em;}
+.frame-05-keep-eyebrow{font-family:"DM Sans",sans-serif;font-weight:700;font-size:26px;letter-spacing:.28em;text-transform:uppercase;}
+
+</style>
+<div id="root" data-composition-id="frame-05-keep" data-start="0" data-width="1080" data-height="1920" data-duration="10">
+  <div id="frame-05-keep-bg" class="clip" data-start="0" data-duration="10" data-track-index="0"></div>
+  <div class="frame-05-keep-wrap clip" data-start="0" data-duration="10" data-track-index="1">
+
+    <div id="f5-seal" style="width:200px;height:200px;border:2px solid #FBC02D;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#FBC02D;font-family:'DM Sans';font-weight:700;font-size:26px;letter-spacing:.14em;text-transform:uppercase;line-height:1.3;margin-bottom:56px;">Phased<br>Work</div>
+    <div class="frame-05-keep-serif" id="f5-h" style="color:#F7F5EF;font-size:118px;">Tenants never<br>stop working.</div>
+    <div id="f5-sub" style="color:rgba(247,245,239,.72);font-size:34px;margin-top:40px;">We phase the job around your operation.</div>
+    <div class="frame-05-keep-serif" id="f5-q" style="color:#FBC02D;font-size:72px;font-style:italic;margin-top:56px;">Downtime is the real cost.</div>
+
+  </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+<script>
+window.__timelines = window.__timelines || {};
+(function(){
+  const tl = gsap.timeline({paused:true});
+  tl.fromTo("#f5-seal",{opacity:0,scale:.7},{opacity:1,scale:1,duration:.7,ease:"back.out(1.6)"},0.3);
+  tl.fromTo("#f5-h",{opacity:0,y:44},{opacity:1,y:0,duration:.6,ease:"power3.out"},1.4);
+  tl.fromTo("#f5-sub",{opacity:0,y:24},{opacity:1,y:0,duration:.6},3.2);
+  tl.fromTo("#f5-q",{opacity:0,y:34},{opacity:1,y:0,duration:.7,ease:"power3.out"},5.4);
+  window.__timelines["frame-05-keep"] = tl;
+})();
+</script>
+</template>

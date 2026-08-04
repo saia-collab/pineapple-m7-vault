@@ -40,7 +40,7 @@ function buildPromptWithHistory(history: ChatMsg[], current: string): string {
 }
 
 export async function POST(req: Request) {
-  const { prompt, dangerouslySkipPermissions, history } = await req.json();
+  const { prompt, dangerouslySkipPermissions, history, model } = await req.json();
   if (typeof prompt !== "string" || prompt.length === 0) {
     return NextResponse.json({ error: "missing prompt" }, { status: 400 });
   }
@@ -49,6 +49,9 @@ export async function POST(req: Request) {
   }
 
   const args: string[] = ["-p", buildPromptWithHistory(history, prompt)];
+  // Launch-day default: Gemini 3.6 Flash (High) — 17% fewer tokens, faster agentic steps.
+  // Callers may override with any `agy models` name (e.g. "Gemini 3.1 Pro (High)").
+  args.push("--model", typeof model === "string" && model.trim() ? model.trim() : "Gemini 3.6 Flash (High)");
   if (dangerouslySkipPermissions === true) args.push("--dangerously-skip-permissions");
 
   const out = await run("antigravity", args, { timeoutMs: TIMEOUT_MS });

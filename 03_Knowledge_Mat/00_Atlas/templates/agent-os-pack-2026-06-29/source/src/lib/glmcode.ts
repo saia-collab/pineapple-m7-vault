@@ -10,6 +10,10 @@
 // Proven working: `claude -p "..." --model glm-5.2:cloud` with this env writes
 // real files via the Write tool (2 turns, ~$0.30 on a small build).
 
+import { readFileSync } from "node:fs";
+import { homedir } from "node:os";
+import { join } from "node:path";
+
 export const GLM_CODE_BASE = process.env.GLM_CODE_BASE || "http://localhost:11434";
 export const GLM_CODE_MODEL = process.env.GLM_CODE_MODEL || "glm-5.2:cloud";
 
@@ -34,6 +38,33 @@ export function glmcodeSpawnEnv(): Record<string, string> {
   };
   if (process.env.OLLAMA_API_KEY) env.OLLAMA_API_KEY = process.env.OLLAMA_API_KEY;
   return env;
+}
+
+// Kimi K3 (Moonshot 2.8T flagship) via the Kimi coding plan — the real Claude Code
+// harness driven by K3. Same env-override trick, pointed at Kimi's Anthropic-compatible
+// endpoint (api.kimi.com/coding). The coding-plan OAuth token rotates ~every 15 min, so
+// we read it FRESH from the kimi-code CLI's credentials file on every spawn.
+export const KIMI_K3_MODEL = "k3";
+export function kimik3SpawnEnv(): Record<string, string> {
+  let token = "";
+  try {
+    const cred = JSON.parse(readFileSync(join(homedir(), ".kimi-code", "credentials", "kimi-code.json"), "utf8"));
+    token = cred.access_token || "";
+  } catch { /* not logged in — the build will surface a clear auth error */ }
+  return {
+    ANTHROPIC_BASE_URL: "https://api.kimi.com/coding",
+    ANTHROPIC_API_KEY: token,
+    ANTHROPIC_AUTH_TOKEN: token,
+    ANTHROPIC_MODEL: KIMI_K3_MODEL,
+    ANTHROPIC_DEFAULT_OPUS_MODEL: KIMI_K3_MODEL,
+    ANTHROPIC_DEFAULT_SONNET_MODEL: KIMI_K3_MODEL,
+    ANTHROPIC_DEFAULT_HAIKU_MODEL: KIMI_K3_MODEL,
+    ANTHROPIC_SMALL_FAST_MODEL: KIMI_K3_MODEL,
+    CLAUDE_CODE_AUTO_COMPACT_WINDOW: "900000", // K3 carries a 1M-token context
+    CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC: "1",
+    DISABLE_TELEMETRY: "1",
+    DISABLE_ERROR_REPORTING: "1",
+  };
 }
 
 export interface GlmCodeState {

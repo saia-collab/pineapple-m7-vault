@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Frisco Roofing Company &amp; Grapevine Roofing Company | Pineapple Contractors</title>
+<meta name="description" content="The local Frisco roofing company and Grapevine roofing company North Texas trusts since 2005. IKO Certified, RCAT #03-0637. Book your Complimentary Professional Photo Audit — 972-928-0788.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<!-- M7 PAUSED DRAFT · Navy #1A365D + Gold #FBC02D + Cyan #00BFFF · zero green in design · CPPA not "free" · IKO Certified (never the banned brand) -->
+<style>
+  :root{
+    --navy:#1A365D; --navy-900:#0e2038; --gold:#FBC02D; --cyan:#00BFFF;
+    --ink:#101828; --slate:#5a6b82; --line:#e6e9ef; --paper:#fff; --mist:#f6f8fb; --maxw:1200px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{font-family:'Inter',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+    color:var(--ink);line-height:1.65;background:var(--paper);-webkit-font-smoothing:antialiased}
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 24px}
+  h1,h2,h3{font-family:'Poppins',sans-serif;line-height:1.1;letter-spacing:-0.02em;font-weight:800;color:var(--navy)}
+  .eyebrow{font-family:'Poppins';font-size:.78rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--cyan)}
+  .btn{display:inline-flex;align-items:center;gap:.5rem;font-family:'Poppins';font-weight:700;padding:.9rem 1.6rem;border-radius:6px;
+    font-size:.95rem;transition:transform .12s,box-shadow .12s;cursor:pointer;border:0;letter-spacing:.01em}
+  .btn-gold{background:var(--gold);color:var(--navy-900)}
+  .btn-gold:hover{transform:translateY(-2px);box-shadow:0 10px 26px rgba(251,192,45,.4)}
+  .btn-ghost{background:rgba(255,255,255,.06);color:#fff;border:1.5px solid rgba(255,255,255,.55);backdrop-filter:blur(2px)}
+  .btn-ghost:hover{border-color:var(--gold);color:var(--gold)}
+  .btn-navy{background:var(--navy);color:#fff}
+  .btn-navy:hover{transform:translateY(-2px);box-shadow:0 10px 26px rgba(26,54,93,.3)}
+
+  .util{background:var(--navy-900);color:#c9d6e8;font-size:.82rem}
+  .util .wrap{display:flex;justify-content:space-between;align-items:center;height:42px;gap:16px;flex-wrap:wrap}
+  .util .dot{color:var(--gold);margin:0 4px}
+  .util .social a{margin-left:14px;opacity:.85}.util .social a:hover{opacity:1;color:var(--gold)}
+
+  header{position:sticky;top:0;z-index:50;background:#fff;border-bottom:1px solid var(--line);box-shadow:0 1px 0 rgba(16,24,40,.02)}
+  .nav{display:flex;align-items:center;justify-content:space-between;height:82px;gap:20px}
+  .brand img{height:46px;display:block}
+  .menu{display:flex;gap:28px;font-family:'Poppins';font-weight:600;font-size:.94rem;color:#334155}
+  .menu a:hover{color:var(--gold)}
+  .menu a.active{color:var(--gold);position:relative}
+  .menu a.active:after{content:"";position:absolute;left:0;right:0;bottom:-30px;height:2px;background:var(--gold)}
+  .nav .cta{display:flex;align-items:center;gap:18px}
+  .nav .phone{font-family:'Poppins';font-weight:700;color:var(--navy);font-size:1rem;white-space:nowrap}
+
+  .hero{position:relative;color:#fff;
+    background:linear-gradient(105deg,rgba(14,32,56,.94) 0%,rgba(14,32,56,.82) 45%,rgba(14,32,56,.55) 100%),
+      url('assets/Pineapple1.2307281443262.jpg');
+    background-size:cover;background-position:center right}
+  .hero .grid{display:grid;grid-template-columns:1.1fr .9fr;gap:52px;align-items:center;padding:88px 0 92px}
+  .hero h1{color:#fff;font-size:3.1rem;margin:.7rem 0 1.1rem;text-shadow:0 2px 18px rgba(0,0,0,.25)}
+  .hero h1 .accent{color:var(--gold)}
+  .hero p.lead{font-size:1.16rem;color:#e3ebf6;max-width:40ch;margin-bottom:2rem}
+  .hero .actions{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:2.2rem}
+  .chips{display:flex;flex-wrap:wrap;gap:12px 26px;font-size:.9rem;color:#cfd9e8}
+  .chip{display:flex;align-items:center;gap:8px}.chip b{color:#fff}.chip .i{color:var(--gold);font-weight:800}
+
+  .estimate{background:#fff;border-radius:14px;padding:28px;color:var(--ink);box-shadow:0 30px 70px rgba(6,16,34,.45)}
+  .estimate h3{font-size:1.3rem;margin-bottom:.2rem;line-height:1.2}
+  .estimate .sub{font-size:.9rem;color:var(--slate);margin-bottom:18px}
+  .steps{display:flex;gap:6px;margin-bottom:18px}
+  .steps .s{flex:1;height:5px;border-radius:99px;background:var(--line)}.steps .s.on{background:var(--gold)}
+  .field{margin-bottom:12px}
+  .field label{display:block;font-family:'Poppins';font-size:.72rem;font-weight:700;color:var(--slate);margin-bottom:6px;text-transform:uppercase;letter-spacing:.06em}
+  .field input,.field select{width:100%;padding:.78rem .85rem;border:1px solid var(--line);border-radius:8px;font-size:.98rem;background:var(--mist);font-family:'Inter'}
+  .field input:focus,.field select:focus{outline:none;border-color:var(--cyan);background:#fff}
+  .estimate .row{display:flex;gap:10px}
+  .estimate .fine{font-size:.76rem;color:var(--slate);margin-top:10px}
+  .stepwrap{display:none}.stepwrap.on{display:block}
+
+  .trust{border-bottom:1px solid var(--line);background:#fff}
+  .trust .grid{display:grid;grid-template-columns:repeat(4,1fr)}
+  .trust .cell{padding:28px 22px;border-left:1px solid var(--line);display:flex;flex-direction:column;gap:2px}
+  .trust .cell:first-child{border-left:0}
+  .trust .k{font-family:'Poppins';font-weight:800;color:var(--navy);font-size:1.08rem}
+  .trust .v{font-size:.88rem;color:var(--slate)}
+
+  section{padding:82px 0}
+  .sec-head{max-width:62ch;margin-bottom:40px}
+  .sec-head h2{font-size:2.25rem;margin-top:.5rem}
+  .sec-head p{color:var(--slate);margin-top:.7rem;font-size:1.06rem}
+
+  /* local proof */
+  .localproof{display:grid;grid-template-columns:1.1fr .9fr;gap:48px;align-items:center}
+  .localproof h2{font-size:2rem;margin-bottom:.6rem}
+  .localproof p{color:var(--slate);margin-bottom:1rem;font-size:1.02rem}
+  .stats{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:1.4rem}
+  .stat{background:var(--mist);border:1px solid var(--line);border-radius:10px;padding:18px}
+  .stat .k{font-family:'Poppins';font-weight:800;color:var(--navy);font-size:1.5rem}
+  .stat .v{font-size:.85rem;color:var(--slate);margin-top:4px}
+  .mapbox{background:linear-gradient(135deg,var(--navy) 0%,var(--navy-900) 100%);border-radius:14px;padding:36px;color:#fff;position:relative;min-height:380px;display:flex;flex-direction:column;justify-content:space-between;overflow:hidden}
+  .mapbox .ring{position:absolute;width:240px;height:240px;border:2px solid var(--gold);border-radius:50%;top:50%;left:50%;transform:translate(-50%,-50%);opacity:.5}
+  .mapbox .ring.inner{width:140px;height:140px;opacity:.85;border-color:var(--cyan)}
+  .mapbox .pin{position:absolute;background:var(--gold);color:var(--navy-900);font-family:'Poppins';font-weight:800;font-size:.78rem;padding:6px 12px;border-radius:99px;letter-spacing:.06em}
+  .mapbox .pin.f{top:28%;left:42%}
+  .mapbox .pin.g{top:58%;left:64%}
+  .mapbox .pin.hq{background:var(--cyan);color:var(--navy-900);top:42%;left:50%;transform:translate(-50%,-50%)}
+  .mapbox h3{color:#fff;font-size:1.3rem;margin-bottom:.3rem}
+  .mapbox p{color:#cfd9e8;font-size:.95rem;margin-bottom:1.4rem}
+  .mapbox .hqblock{position:relative;z-index:2}
+
+  .cities{display:grid;grid-template-columns:1fr 1fr;gap:28px}
+  .city{background:#fff;border:1px solid var(--line);border-radius:14px;padding:36px;position:relative;overflow:hidden}
+  .city .tag{position:absolute;top:0;right:0;background:var(--navy);color:var(--gold);font-family:'Poppins';font-size:.72rem;font-weight:800;padding:6px 14px;border-bottom-left-radius:10px;letter-spacing:.06em}
+  .city h3{font-size:1.6rem;margin-bottom:.4rem}
+  .city .loc{color:var(--cyan);font-family:'Poppins';font-size:.82rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase;margin-bottom:18px}
+  .city p{color:var(--slate);font-size:.97rem;margin-bottom:1.2rem}
+  .city ul{list-style:none;margin-bottom:1.5rem}
+  .city li{padding:7px 0;color:var(--slate);font-size:.95rem;border-top:1px solid var(--line);display:flex;gap:10px}
+  .city li:first-child{border-top:0}
+  .city li:before{content:"✔";color:var(--gold);font-weight:800;flex:0 0 auto}
+
+  .process{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}
+  .step{position:relative;padding:24px;background:#fff;border:1px solid var(--line);border-radius:12px}
+  .step .num{font-family:'Poppins';font-weight:800;font-size:1.5rem;color:var(--gold);margin-bottom:8px}
+  .step h3{font-size:1.05rem;margin-bottom:.4rem}
+  .step p{color:var(--slate);font-size:.92rem}
+
+  .strip{background:var(--navy);color:#fff;text-align:center;padding:48px 0}
+  .strip h2{color:#fff;font-size:1.7rem;max-width:36ch;margin:0 auto .5rem}
+  .strip p{color:#cfd9e8;margin-bottom:1.2rem}
+  .strip .actions{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+
+  .why{background:var(--navy);color:#fff}.why h2{color:#fff}
+  .why .grid{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:start}
+  .why ul{list-style:none;margin-top:8px}
+  .why li{padding:18px 0;border-top:1px solid rgba(255,255,255,.13);display:flex;gap:16px}
+  .why li:first-child{border-top:0}.why li .b{font-family:'Poppins';color:var(--gold);font-weight:800}
+  .why li b{color:#fff}.why li span.t{color:#cdd8e8;font-size:.98rem}
+
+  .final{background:var(--gold)}
+  .final .grid{display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap}
+  .final h2{color:var(--navy-900);font-size:2rem;max-width:24ch}
+  .final .actions{display:flex;gap:12px;flex-wrap:wrap}
+
+  .zips{display:flex;flex-wrap:wrap;gap:10px;margin-top:6px}
+  .zips .pill{font-family:'Poppins';border:1px solid var(--line);border-radius:99px;padding:.55rem 1.2rem;font-weight:600;color:var(--navy);font-size:.93rem;background:#fff}
+
+  footer{background:var(--navy-900);color:#aebfd6;font-size:.92rem;padding:56px 0 30px}
+  footer .grid{display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:38px;margin-bottom:30px}
+  footer img.flogo{height:46px;margin-bottom:14px}
+  footer h4{font-family:'Poppins';color:#fff;font-size:.9rem;margin-bottom:12px;letter-spacing:.06em;text-transform:uppercase}
+  footer a{display:block;padding:4px 0;color:#aebfd6}footer a:hover{color:var(--gold)}
+  footer .legal{border-top:1px solid rgba(255,255,255,.13);padding-top:18px;font-size:.82rem;color:#8296b3}
+  .badges{display:flex;gap:16px;align-items:center;margin-top:6px}.badges img{height:52px;background:#fff;border-radius:6px;padding:6px}
+
+  @media(max-width:900px){
+    .hero .grid,.why .grid,.trust .grid,.cities,.localproof,.process,footer .grid{grid-template-columns:1fr}
+    .trust .cell{border-left:0;border-top:1px solid var(--line)}.trust .cell:first-child{border-top:0}
+    .hero h1{font-size:2.1rem}.menu,.util .social{display:none}
+  }
+</style>
+</head>
+<body>
+
+<div class="util"><div class="wrap">
+  <div>📞 <strong>(972) 928-0788</strong> <span class="dot">·</span> License #03-0637 <span class="dot">·</span> IKO Certified <span class="dot">·</span> ⭐ 5-Star Rated Since 2005</div>
+  <div class="social"><a href="#">Google</a><a href="#">BBB</a><a href="#">Facebook</a><a href="#">Yelp</a><a href="#">Instagram</a><a href="#">YouTube</a></div>
+</div></div>
+
+<header><div class="wrap nav">
+  <a class="brand" href="index.html"><img src="assets/logo-dark.png" alt="Pineapple Contractors"></a>
+  <nav class="menu">
+    <a href="residential-roofing.html">Roofing</a>
+    <a href="index.html#services">Construction</a>
+    <a href="index.html#services">Restoration</a>
+    <a class="active" href="frisco-roofing.html">Service Areas</a>
+    <a href="index.html#why">About</a>
+    <a href="#cppa">Contact</a>
+  </nav>
+  <div class="cta"><span class="phone">(972) 928-0788</span><a class="btn btn-gold" href="#cppa">Book Your CPPA →</a></div>
+</div></header>
+
+<div class="hero"><div class="wrap grid">
+  <div>
+    <span class="eyebrow">Frisco · Plano · McKinney · Grapevine</span>
+    <h1>Your local <span class="accent">Frisco &amp; Grapevine</span> roofing company.</h1>
+    <p class="lead">Family-owned, IKO Certified, RCAT-licensed roofers serving Frisco and Grapevine since 2005. Residential roofing, storm restoration and insurance-claim help — done to The Pineapple Standard.</p>
+    <div class="actions">
+      <a class="btn btn-gold" href="#cppa">Request Estimate →</a>
+      <a class="btn btn-ghost" href="tel:9729280788">📞 (972) 928-0788</a>
+    </div>
+    <div class="chips">
+      <span class="chip"><span class="i">★</span> <b>5-Star</b> local reputation</span>
+      <span class="chip"><span class="i">🏠</span> <b>Frisco-based</b> since 2005</span>
+      <span class="chip"><span class="i">✔</span> <b>IKO</b> Certified</span>
+      <span class="chip"><span class="i">§</span> <b>RCAT</b> #03-0637</span>
+    </div>
+  </div>
+
+  <form class="estimate" id="cppa" onsubmit="return false;">
+    <h3>Book Your Complimentary Professional Photo Audit</h3>
+    <div class="sub">A no-cost, no-pressure photo assessment of your roof.</div>
+    <div class="steps"><div class="s on"></div><div class="s"></div><div class="s"></div></div>
+    <div class="stepwrap on" data-step="1">
+      <div class="field"><label>Nearest city</label>
+        <select><option>Frisco</option><option>Grapevine</option><option>Plano</option><option>McKinney</option><option>Allen</option><option>Other DFW</option></select></div>
+      <div class="field"><label>What do you need?</label>
+        <select><option>Roof Repair</option><option>Roof Replacement</option><option>Storm / Hail Damage</option><option>Insurance Claim Help</option><option>Not sure — please assess</option></select></div>
+      <button class="btn btn-navy" style="width:100%" onclick="cppaNext(2)">Continue →</button>
+    </div>
+    <div class="stepwrap" data-step="2">
+      <div class="field"><label>Property address</label><input placeholder="Street, City, TX"></div>
+      <button class="btn btn-navy" style="width:100%" onclick="cppaNext(3)">Continue →</button>
+    </div>
+    <div class="stepwrap" data-step="3">
+      <div class="row"><div class="field" style="flex:1"><label>Name</label><input placeholder="Full name"></div>
+      <div class="field" style="flex:1"><label>Phone</label><input placeholder="(972) …"></div></div>
+      <div class="field"><label>Email</label><input placeholder="you@email.com"></div>
+      <button class="btn btn-gold" style="width:100%" onclick="cppaDone()">Start My CPPA →</button>
+    </div>
+    <div class="fine" id="cppaFine">Step 1 of 3 · No cost, no obligation.</div>
+  </form>
+</div></div>
+
+<div class="trust"><div class="wrap grid">
+  <div class="cell"><div class="k">Since 2005</div><div class="v">20+ years on local roofs</div></div>
+  <div class="cell"><div class="k">RCAT #03-0637</div><div class="v">State-licensed contractor</div></div>
+  <div class="cell"><div class="k">IKO Certified</div><div class="v">Manufacturer-certified installs</div></div>
+  <div class="cell"><div class="k">5-Star Local</div><div class="v">400+ DFW reviews</div></div>
+</div></div>
+
+<section><div class="wrap">
+  <div class="localproof">
+    <div>
+      <span class="eyebrow">Local &amp; family-owned</span>
+      <h2>The roofing company actually rooted in Frisco and Grapevine.</h2>
+      <p>We're not a storm-chasing crew that shows up after hail and disappears. We've been headquartered in Frisco since 2005 — and we work both sides of the Metroplex, including the homes, HOAs and small businesses that keep Grapevine running.</p>
+      <p>When you call (972) 928-0788, you reach a real local team. When we show up, you see the same IKO Certified installers and the same Pineapple Standard. That's the difference.</p>
+      <div class="stats">
+        <div class="stat"><div class="k">20+ yrs</div><div class="v">Serving DFW since 2005</div></div>
+        <div class="stat"><div class="k">400+</div><div class="v">Five-star local reviews</div></div>
+        <div class="stat"><div class="k">$18K+</div><div class="v">Min. project size for quality</div></div>
+        <div class="stat"><div class="k">≤5 min</div><div class="v">Speed-to-lead response</div></div>
+      </div>
+    </div>
+    <div class="mapbox">
+      <div class="hqblock">
+        <span class="eyebrow" style="color:var(--gold)">Headquarters</span>
+        <h3>Frisco, TX</h3>
+        <p>1 Cowboys Way, Suite 270W · Frisco, TX 75034</p>
+        <a class="btn btn-gold" href="tel:9729280788">📞 (972) 928-0788</a>
+      </div>
+      <div class="ring"></div>
+      <div class="ring inner"></div>
+      <div class="pin hq">HQ · FRISCO</div>
+      <div class="pin f">FRISCO</div>
+      <div class="pin g">GRAPEVINE</div>
+    </div>
+  </div>
+</div></section>
+
+<section id="cities" style="background:var(--mist)"><div class="wrap">
+  <div class="sec-head"><span class="eyebrow">Two cities · one standard</span>
+    <h2>Frisco roofing &amp; Grapevine roofing, done right.</h2>
+    <p>Whether you're in a Frisco master-planned community or a classic Grapevine neighborhood, you get the same crew, the same IKO Certified install and the same 50-year product warranty.</p></div>
+  <div class="cities">
+    <div class="city">
+      <span class="tag">Frisco · Collin County</span>
+      <div class="loc">ZIPs 75033 · 75034 · 75035 · 75068</div>
+      <h3>Frisco Roofing Company</h3>
+      <p>From Starwood and Phillips Creek Ranch to Frisco Square and the new developments north of Hwy 380 — we've roofed in every corner of Frisco. Hail hits Collin County hard, and our crews live here, so we're already on the ground when the storm clears.</p>
+      <ul>
+        <li>Storm &amp; hail damage repair</li>
+        <li>Full residential re-roofs</li>
+        <li>Insurance claim documentation &amp; adjuster meet</li>
+        <li>HOA-approved shingle profiles &amp; colors</li>
+        <li>Same-day tarp &amp; emergency response</li>
+      </ul>
+      <a class="btn btn-navy" href="#cppa">Book Frisco CPPA →</a>
+    </div>
+    <div class="city">
+      <span class="tag">Grapevine · Tarrant County</span>
+      <div class="loc">ZIPs 76051 · 76039 (Colleyville border)</div>
+      <h3>Grapevine Roofing Company</h3>
+      <p>Grapevine homes run the gamut — historic properties near Main Street, lakeside builds, and newer subdivisions off Hwy 121. We tailor the system to the architecture, the slope and the way your roof takes North Texas wind.</p>
+      <ul>
+        <li>Storm &amp; hail damage repair</li>
+        <li>Full residential re-roofs</li>
+        <li>Insurance claim documentation &amp; adjuster meet</li>
+        <li>Lake-area wind &amp; uplift-rated installs</li>
+        <li>Ventilation &amp; decking upgrades</li>
+      </ul>
+      <a class="btn btn-navy" href="#cppa">Book Grapevine CPPA →</a>
+    </div>
+  </div>
+</div></section>
+
+<section id="process"><div class="wrap">
+  <div class="sec-head"><span class="eyebrow">How it works locally</span>
+    <h2>From your driveway to a finished roof — in four steps</h2>
+    <p>The same process we've run on hundreds of Frisco and Grapevine homes since 2005.</p></div>
+  <div class="process">
+    <div class="step"><div class="num">01</div><h3>Local Photo Audit</h3><p>A local crew member comes out, walks the property and photographs the roof, attic and exterior — at no cost.</p></div>
+    <div class="step"><div class="num">02</div><h3>Findings &amp; Photo Report</h3><p>You get a documented read on what we see — what needs attention now, what can wait, and what insurance may cover.</p></div>
+    <div class="step"><div class="num">03</div><h3>Written Estimate</h3><p>A line-by-line scope, fair pricing, valid 7–14 days. No high-pressure follow-up, ever.</p></div>
+    <div class="step"><div class="num">04</div><h3>Install &amp; Walkthrough</h3><p>IKO Certified install, daily cleanup, magnetic sweep, and a final walkthrough before we invoice.</p></div>
+  </div>
+</div></section>
+
+<div class="strip"><div class="wrap">
+  <span class="eyebrow" style="display:block;margin-bottom:8px">Local &amp; family-owned</span>
+  <h2>Storm damage or aging roof in Frisco or Grapevine? Let's take a look.</h2>
+  <p>Book a Complimentary Professional Photo Audit. Real answers, no pressure, real warranty.</p>
+  <div class="actions">
+    <a class="btn btn-gold" href="#cppa">Book My CPPA →</a>
+    <a class="btn btn-ghost" href="tel:9729280788">📞 (972) 928-0788</a>
+  </div>
+</div></div>
+
+<section><div class="wrap">
+  <div class="sec-head"><span class="eyebrow">Neighborhoods &amp; ZIPs we serve</span>
+    <h2>Where we work in &amp; around Frisco &amp; Grapevine</h2>
+    <p>Most projects fall inside a 10–15 mile radius of our Frisco HQ. If you're just outside that, ask — we often can still help.</p></div>
+  <div class="zips">
+    <span class="pill">75033</span><span class="pill">75034</span><span class="pill">75035</span><span class="pill">75036</span><span class="pill">75068</span><span class="pill">75070</span><span class="pill">75071</span><span class="pill">75013</span><span class="pill">75024</span><span class="pill">75025</span><span class="pill">75069</span><span class="pill">75072</span><span class="pill">76051</span><span class="pill">76092</span><span class="pill">76039</span><span class="pill">76021</span><span class="pill">76022</span><span class="pill">76034</span>
+  </div>
+</div></section>
+
+<div class="why"><section><div class="wrap grid">
+  <div><span class="eyebrow">The Pineapple Standard</span>
+    <h2>Why Frisco &amp; Grapevine trust Pineapple</h2>
+    <p style="color:#cdd8e8;margin-top:.7rem">A Polynesian-owned, family-run team that treats your home like our own — across Collin &amp; Tarrant County.</p></div>
+  <ul>
+    <li><span class="b">01</span><span class="t"><b>Local, not storm-chasing.</b> Same family ownership, same Frisco HQ, same number for 20+ years.</span></li>
+    <li><span class="b">02</span><span class="t"><b>IKO Certified craftsmanship.</b> Certified installs with 50-year product warranty.</span></li>
+    <li><span class="b">03</span><span class="t"><b>Insurance handled.</b> We document the damage and meet your adjuster on site.</span></li>
+    <li><span class="b">04</span><span class="t"><b>Clear communication.</b> Scope, schedule and pricing in plain English — every time.</span></li>
+  </ul>
+</div></section></div>
+
+<div class="final"><section style="padding:54px 0"><div class="wrap grid">
+  <h2>Frisco or Grapevine roof? Call the local team that actually shows up.</h2>
+  <div class="actions">
+    <a class="btn btn-navy" href="tel:9729280788">📞 (972) 928-0788</a>
+    <a class="btn btn-navy" href="#cppa" style="background:var(--navy-900)">Book My CPPA →</a>
+  </div>
+</div></section></div>
+
+<footer><div class="wrap">
+  <div class="grid">
+    <div>
+      <img class="flogo" src="assets/logo-light.png" alt="Pineapple Contractors">
+      <p style="max-width:36ch">IKO Certified roofing &amp; construction across Dallas–Fort Worth since 2005. RCAT License #03-0637.</p>
+      <div class="badges"><img src="assets/RCA-logo2.2504040827321.png" alt="RCA"><img src="assets/logo-duralast.2504211144117.png" alt="Duralast"></div>
+    </div>
+    <div><h4>Services</h4><a href="residential-roofing.html">Residential Roofing</a><a href="index.html#services">Commercial Roofing</a><a href="index.html#services">Restoration</a><a href="index.html#services">Construction</a><a href="index.html#services">Insurance Claims</a></div>
+    <div><h4>Company</h4><a href="index.html#why">About</a><a href="frisco-roofing.html">Service Areas</a><a href="blog.html">Blog</a><a href="index.html#why">Reviews</a><a href="#cppa">Contact</a></div>
+  </div>
+  <div class="legal">© Pineapple Contractors · RCAT #03-0637 · IKO Certified · 5-Star Rated · Since 2005 · (972) 928-0788
+    <br><span style="color:var(--gold)">⏸ PAUSED DRAFT — lead form inactive (Outbox Shield) until reviewed &amp; wired.</span></div>
+</div></footer>
+
+<script>
+  function cppaNext(n){
+    document.querySelectorAll('.stepwrap').forEach(function(w){w.classList.remove('on')});
+    document.querySelector('.stepwrap[data-step="'+n+'"]').classList.add('on');
+    document.querySelectorAll('.steps .s').forEach(function(s,i){s.classList.toggle('on', i<n)});
+    document.getElementById('cppaFine').textContent='Step '+n+' of 3 · No cost, no obligation.';
+  }
+  function cppaDone(){document.getElementById('cppaFine').innerHTML='<b style="color:#1A365D">Draft mode — lead capture is paused (Outbox Shield). Wire to email/text before go-live.</b>';}
+</script>
+</body>
+</html>

@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<!--
+  DRAFT — DO NOT PUBLISH · PAUSED (Outbox Shield DEC-005)
+  Author: JR. Moeakiola · Pineapple Contractors M7
+  Stack: HTML5 + Tailwind v4 (Play CDN) + Inter fonts (no green anywhere)
+  Build: pineapplecontractors.com Phase 1 · Home page
+  Sources loaded: M7_WEBSITE_CLONE_PLAN.md, M7_DESIGN_SKILL.md, GROUNDING.md, BRAND_KIT.md
+  Notes: Drop-in ready for Elementor. Swap Play CDN for compiled CSS in Phase 2.
+-->
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pineapple Contractors — Frisco's Documentation-First Roofing Team | IKO Certified · RCAT #03-0637</title>
+  <meta name="description" content="Polynesian-owned, IKO Certified roofing in Frisco, TX since 2005. Start with a Complimentary Professional Photo Audit (CPPA). RCAT #03-0637 · IKO Certified · 5-Star. Call 972-928-0788." />
+  <meta name="theme-color" content="#1A365D" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231A365D'/%3E%3Ctext x='50%25' y='54%25' font-size='42' text-anchor='middle' dominant-baseline='middle' fill='%23FBC02D'%3E%F0%9F%8D%8D%3C/text%3E%3C/svg%3E" />
+
+  <!-- Fonts: Bricolage Grotesque (display), Manrope (body), Caveat (eyebrow accent) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=Manrope:wght@400;500;600;700;800&family=Caveat:wght@600;700&display=swap" rel="stylesheet" />
+
+  <!-- Tailwind v4 Play CDN — modern, JIT, no build step required for this draft -->
+  <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+  <script>
+    // M7 Design Skill v2 — palette filter (zero green, ever)
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            navy:        { DEFAULT:'#1A365D', deep:'#0b1c38', mid:'#12294d', panel:'#14294a' },
+            gold:        { DEFAULT:'#FBC02D', soft:'#FFE08A' },
+            cyan:        '#00BFFF',
+            cream:       '#eaf1fb',
+            muted:       '#9db4d8',
+            rust:        '#c97c5e',
+          },
+          fontFamily: {
+            display: ['"Bricolage Grotesque"','system-ui','sans-serif'],
+            body:    ['Manrope','system-ui','sans-serif'],
+            hand:    ['Caveat','cursive'],
+          },
+          boxShadow: {
+            'gold-glow':  '0 12px 30px rgba(251,192,45,.28)',
+            'cyan-glow':  '0 12px 30px rgba(0,191,255,.28)',
+            'navy-glow':  '0 30px 70px rgba(0,0,0,.45)',
+          },
+          backgroundImage: {
+            'hero-radial':  'radial-gradient(1200px 500px at 75% -10%, rgba(0,191,255,.14), transparent 60%), radial-gradient(900px 500px at 10% 110%, rgba(251,192,45,.10), transparent 60%), linear-gradient(180deg, #0b1c38, #0a1730)',
+            'moat':         'repeating-linear-gradient(90deg, rgba(26,54,93,.9) 0 22px, rgba(18,41,77,.9) 22px 44px)',
+            'pull':         'linear-gradient(135deg, rgba(0,191,255,.10), rgba(251,192,45,.06))',
+          },
+          keyframes: {
+            scan:  { '0%,100%':{ transform:'translateY(-40%)' }, '50%':{ transform:'translateY(120%)' } },
+            float: { '0%,100%':{ transform:'translateY(0)' }, '50%':{ transform:'translateY(-6px)' } },
+          },
+          animation: {
+            scan:  'scan 3.5s ease-in-out infinite',
+            float: 'float 4s ease-in-out infinite',
+          },
+          maxWidth: { wrap:'1120px' },
+        },
+      },
+    };
+  </script>
+
+  <style type="text/tailwindcss">
+    /* Base — body type defaults; Tailwind handles utility classes */
+    @layer base {
+      html { scroll-behavior:smooth; }
+      body { @apply font-body text-cream bg-navy-deep antialiased leading-relaxed; }
+      h1,h2,h3 { @apply font-display font-extrabold tracking-tight leading-[1.08]; }
+      .eyebrow { @apply font-hand font-bold text-[26px] text-gold inline-block; }
+      .accent  { @apply text-gold; }
+      .cyan    { @apply text-cyan; }
+    }
+  </style>
+</head>
+
+<body class="bg-navy-deep text-cream">
+
+  <!-- ======================== TOP UTILITY BAR (140px rule) ======================== -->
+  <div class="bg-gold text-navy text-sm font-semibold">
+    <div class="max-w-wrap mx-auto px-6 h-[140px] flex flex-col items-center justify-center text-center gap-2">
+      <div class="font-display text-[20px] sm:text-[22px] font-extrabold tracking-tight">
+        PINEAPPLE CONTRACTORS · FRISCO, TX · SINCE 2005
+      </div>
+      <div class="text-[13px] sm:text-[14px] font-bold flex flex-wrap items-center justify-center gap-x-3 gap-y-1">
+        <span>IKO CERTIFIED</span><span aria-hidden="true">·</span>
+        <span>RCAT #03-0637</span><span aria-hidden="true">·</span>
+        <span>5-STAR RATED</span><span aria-hidden="true">·</span>
+        <span>972-928-0788</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================== HEADER / NAV ======================== -->
+  <header class="sticky top-0 z-50 bg-navy-deep/80 backdrop-blur-xl border-b border-white/10">
+    <div class="max-w-wrap mx-auto px-6 h-[72px] flex items-center justify-between">
+      <a href="#" class="flex items-center gap-3 font-display font-extrabold text-lg text-white">
+        <span class="w-9 h-9 rounded-xl bg-gradient-to-br from-gold to-amber-500 grid place-items-center text-xl shadow-gold-glow">🍍</span>
+        Pineapple <span class="text-gold">Contractors</span>
+      </a>
+      <nav class="hidden lg:flex items-center gap-7 font-semibold text-[15px]">
+        <a href="#services"     class="text-muted hover:text-white transition">Services</a>
+        <a href="#storm"        class="text-muted hover:text-white transition">Storm &amp; Insurance</a>
+        <a href="#areas"        class="text-muted hover:text-white transition">Service Areas</a>
+        <a href="#proof"        class="text-muted hover:text-white transition">Our Work</a>
+        <a href="#faq"          class="text-muted hover:text-white transition">FAQ</a>
+        <a href="tel:9729280788" class="text-cream hover:text-cyan transition">972-928-0788</a>
+        <a href="#cppa" class="bg-gold text-navy px-4 py-2.5 rounded-xl font-extrabold hover:translate-y-[-2px] transition">Start CPPA</a>
+      </nav>
+      <button class="lg:hidden text-white text-2xl" aria-label="Open menu">☰</button>
+    </div>
+  </header>
+
+  <!-- ======================== HERO ======================== -->
+  <section class="relative overflow-hidden bg-hero-radial">
+    <div class="max-w-wrap mx-auto px-6 py-20 lg:py-24">
+      <div class="grid lg:grid-cols-[1.15fr_0.85fr] gap-12 items-center">
+
+        <div>
+          <span class="eyebrow">The Documentation-First Engine™</span>
+          <h1 class="mt-4 text-white text-[clamp(36px,5.4vw,60px)]">
+            Frisco's <span class="accent">Documentation-First</span> Roofing Team
+          </h1>
+          <p class="mt-5 text-[19px] text-muted max-w-[520px]">
+            Polynesian-owned, family-operated, and IKO Certified since 2005. We show you what's real,
+            document what insurance needs, and install roofs that protect your family for decades —
+            without the sales theatre.
+          </p>
+
+          <div class="mt-7 flex flex-wrap gap-2.5">
+            <span class="px-3.5 py-1.5 rounded-full text-[13px] font-bold text-cyan border border-cyan/40 bg-cyan/10">IKO Certified</span>
+            <span class="px-3.5 py-1.5 rounded-full text-[13px] font-bold text-cyan border border-cyan/40 bg-cyan/10">RCAT #03-0637</span>
+            <span class="px-3.5 py-1.5 rounded-full text-[13px] font-bold text-cyan border border-cyan/40 bg-cyan/10">Since 2005</span>
+            <span class="px-3.5 py-1.5 rounded-full text-[13px] font-bold text-cyan border border-cyan/40 bg-cyan/10">5-Star Rated</span>
+          </div>
+
+          <div class="mt-8 flex flex-wrap gap-3">
+            <a href="#cppa" class="inline-flex items-center gap-2 bg-gold text-navy font-extrabold text-[16px] px-7 py-4 rounded-2xl shadow-gold-glow hover:translate-y-[-2px] transition">
+              📸 Start Your CPPA
+            </a>
+            <a href="tel:9729280788" class="inline-flex items-center gap-2 border-2 border-white/25 text-white font-extrabold text-[16px] px-7 py-4 rounded-2xl hover:border-cyan hover:text-cyan transition">
+              📞 972-928-0788
+            </a>
+          </div>
+
+          <dl class="mt-9 grid grid-cols-3 gap-3 max-w-[520px]">
+            <div class="rounded-2xl bg-white/5 border border-white/10 p-4">
+              <dt class="font-display text-3xl font-extrabold text-gold leading-none">20+</dt>
+              <dd class="text-[12.5px] text-muted mt-1.5">Years in North Texas</dd>
+            </div>
+            <div class="rounded-2xl bg-white/5 border border-white/10 p-4">
+              <dt class="font-display text-3xl font-extrabold text-gold leading-none">$18K+</dt>
+              <dd class="text-[12.5px] text-muted mt-1.5">Min. Project Floor</dd>
+            </div>
+            <div class="rounded-2xl bg-white/5 border border-white/10 p-4">
+              <dt class="font-display text-3xl font-extrabold text-gold leading-none">5 min</dt>
+              <dd class="text-[12.5px] text-muted mt-1.5">Speed-to-Lead</dd>
+            </div>
+          </dl>
+        </div>
+
+        <!-- HERO ART — animated, Tailwind-driven, no green -->
+        <div class="relative h-[380px] sm:h-[420px] rounded-3xl border border-white/10 bg-gradient-to-br from-[#153059] to-[#0d203f] shadow-navy-glow overflow-hidden">
+          <div class="absolute inset-0 bg-gradient-to-b from-transparent via-cyan/15 to-transparent h-[60%] animate-scan"></div>
+
+          <div class="absolute top-6 left-6 px-3.5 py-2.5 rounded-xl bg-navy-deep/85 border border-white/10 text-[12.5px] font-bold text-cyan shadow-lg">
+            <span class="inline-block w-2 h-2 rounded-full bg-cyan mr-2 align-middle animate-pulse"></span>
+            LIVE: 142 Frisco roofs scanned
+          </div>
+
+          <div class="absolute top-1/2 -translate-y-1/2 right-6 px-3.5 py-2.5 rounded-xl bg-navy-deep/85 border border-white/10 text-[12.5px] font-bold text-gold shadow-lg">
+            🔍 47 hail hits detected · 12 documented
+          </div>
+
+          <div class="absolute bottom-6 left-6 px-3.5 py-2.5 rounded-xl bg-navy-deep/85 border border-white/10 text-[12.5px] font-bold text-white shadow-lg">
+            ✅ Claim approved · Plano · $24,800
+          </div>
+
+          <!-- roofline accent (moat) -->
+          <div class="absolute bottom-0 left-0 right-0 h-[44%] bg-moat"
+               style="clip-path: polygon(0 45%, 50% 0, 100% 45%, 100% 100%, 0 100%);"></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== SOURCE QUOTE ======================== -->
+  <section class="bg-navy border-y border-white/10 py-8">
+    <div class="max-w-wrap mx-auto px-6 text-center">
+      <p class="font-hand text-[28px] sm:text-[32px] text-cream/90">
+        "Show. Don't sell. Prove. <span class="text-gold">— The Pineapple Standard</span>"
+      </p>
+    </div>
+  </section>
+
+  <!-- ======================== I — THE PROBLEM ======================== -->
+  <section class="py-20">
+    <div class="max-w-wrap mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
+      <div>
+        <span class="eyebrow">I — The Problem</span>
+        <h2 class="mt-3 text-white text-[clamp(28px,3.6vw,40px)]">
+          Most roofers sell you a roof. <span class="accent">We document what's real first.</span>
+        </h2>
+        <p class="mt-5 text-muted text-lg">
+          Hail doesn't show up loud. It shows up as bruised shingles, lifted flashing, and a denied
+          claim six months later. North Texas storms hit hard, fast, and often — and the paperwork
+          lags behind the damage. By the time you notice the stain, the window is already closing.
+        </p>
+      </div>
+      <div class="rounded-3xl bg-pull border border-white/10 border-l-4 border-l-gold p-7 text-[19px] font-semibold text-white">
+        "If your roofer isn't documenting your roof like an adjuster, they're not protecting your claim."
+        <div class="mt-3 text-[14px] font-bold text-gold">— The Documentation-First Engine™</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== II — WHAT'S DIFFERENT ======================== -->
+  <section class="py-20 bg-navy-deep">
+    <div class="max-w-wrap mx-auto px-6">
+      <div class="text-center max-w-[720px] mx-auto mb-12">
+        <span class="eyebrow">II — What's Different</span>
+        <h2 class="mt-3 text-white text-[clamp(28px,3.6vw,40px)]">
+          The <span class="accent">CPPA</span> replaces the old quick-look estimate
+        </h2>
+        <p class="mt-4 text-muted text-lg">
+          We don't do quick ladder-glance estimates. Every project starts with the Complimentary
+          Professional Photo Audit — a 200+ point photographic record of your roof, gutters, flashing,
+          vents, and attic. It's the same evidence an adjuster builds. You keep it whether you hire
+          us or not.
+        </p>
+      </div>
+
+      <ul class="grid sm:grid-cols-2 gap-4 max-w-[820px] mx-auto">
+        <li class="flex items-start gap-3 p-4 rounded-2xl bg-white/5 border border-white/10">
+          <span class="text-cyan font-extrabold text-xl">✓</span>
+          <span class="text-cream">200+ point photo audit — every slope, valley, and penetration</span>
+        </li>
+        <li class="flex items-start gap-3 p-4 rounded-2xl bg-white/5 border border-white/10">
+          <span class="text-cyan font-extrabold text-xl">✓</span>
+          <span class="text-cream">Adjuster-grade documentation for a successful claim</span>
+        </li>
+        <li class="flex items-start gap-3 p-4 rounded-2xl bg-white/5 border border-white/10">
+          <span class="text-cyan font-extrabold text-xl">✓</span>
+          <span class="text-cream">Same-day delivery — never miss a storm-damage window</span>
+        </li>
+        <li class="flex items-start gap-3 p-4 rounded-2xl bg-white/5 border border-white/10">
+          <span class="text-cyan font-extrabold text-xl">✓</span>
+          <span class="text-cream">You own the file — share with any insurer or roofer</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ======================== III — THE FRAMEWORK ======================== -->
+  <section id="services" class="py-20">
+    <div class="max-w-wrap mx-auto px-6">
+      <div class="text-center max-w-[720px] mx-auto mb-12">
+        <span class="eyebrow">III — The Framework</span>
+        <h2 class="mt-3 text-white text-[clamp(28px,3.6vw,40px)]">
+          Three moves. <span class="accent">One Pineapple Standard.</span>
+        </h2>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-5">
+        <div class="rounded-3xl bg-gradient-to-b from-white/[0.045] to-white/[0.02] border border-white/10 p-7 hover:-translate-y-1 hover:border-cyan/40 transition">
+          <div class="w-12 h-12 rounded-2xl grid place-items-center text-2xl bg-gold/15 border border-gold/35 mb-4">📸</div>
+          <h3 class="text-white text-xl mb-2">Document</h3>
+          <p class="text-muted text-[15px]">
+            Full CPPA. Drone + on-roof. Every shingle, every seam. You walk away with a
+            portfolio-grade file in 24 hours.
+          </p>
+        </div>
+        <div class="rounded-3xl bg-gradient-to-b from-white/[0.045] to-white/[0.02] border border-white/10 p-7 hover:-translate-y-1 hover:border-cyan/40 transition">
+          <div class="w-12 h-12 rounded-2xl grid place-items-center text-2xl bg-gold/15 border border-gold/35 mb-4">🛡️</div>
+          <h3 class="text-white text-xl mb-2">Defend</h3>
+          <p class="text-muted text-[15px]">
+            We package the documentation, sit with the adjuster, and protect your family's
+            investment through claim, supplement, and final payout.
+          </p>
+        </div>
+        <div class="rounded-3xl bg-gradient-to-b from-white/[0.045] to-white/[0.02] border border-white/10 p-7 hover:-translate-y-1 hover:border-cyan/40 transition">
+          <div class="w-12 h-12 rounded-2xl grid place-items-center text-2xl bg-gold/15 border border-gold/35 mb-4">🏗️</div>
+          <h3 class="text-white text-xl mb-2">Deliver</h3>
+          <p class="text-muted text-[15px]">
+            IKO Dynasty or Cambridge installation, 50-Year Edge protected, magnet-swept,
+            photos-of-record. Crews that respect your property like it's their own.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== IV — EXECUTION PATH ======================== -->
+  <section id="storm" class="py-20 bg-navy-deep">
+    <div class="max-w-wrap mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
+      <div>
+        <span class="eyebrow">IV — The Execution Path</span>
+        <h2 class="mt-3 text-white text-[clamp(28px,3.6vw,40px)]">
+          Storm &amp; Insurance. <span class="accent">Handled end to end.</span>
+        </h2>
+        <p class="mt-5 text-muted text-lg">
+          North Texas storms don't wait. Neither do we. From the first hailstone to the final
+          shingle, the Pineapple Standard runs the claim so you don't have to chase adjusters,
+          contractors, or paperwork.
+        </p>
+        <ol class="mt-7 space-y-4 text-cream">
+          <li class="flex gap-4"><span class="text-cyan font-extrabold">1.</span><span><b>Within 5 minutes</b> of your call, a field lead responds. Speed-to-lead is everything.</span></li>
+          <li class="flex gap-4"><span class="text-cyan font-extrabold">2.</span><span><b>Within 24 hours</b>, the CPPA is on your phone and in your inbox.</span></li>
+          <li class="flex gap-4"><span class="text-cyan font-extrabold">3.</span><span><b>Full Restoration Coverage</b> — out-of-pocket, deductibles, supplements, all walked with you.</span></li>
+          <li class="flex gap-4"><span class="text-cyan font-extrabold">4.</span><span><b>Install in 1–3 days</b> after approval. Magnetic sweep. Photo record. Job done.</span></li>
+        </ol>
+      </div>
+
+      <!-- photo moat: 10px Navy border per design law -->
+      <div class="p-[10px] border-[10px] border-navy rounded-3xl bg-navy-mid shadow-navy-glow">
+        <div class="aspect-[4/3] rounded-2xl bg-gradient-to-br from-navy via-navy-mid to-navy-deep grid place-items-center text-center p-8">
+          <div>
+            <div class="text-6xl mb-4">🌪️</div>
+            <p class="font-display text-2xl font-extrabold text-white">Storm hit Frisco last night?</p>
+            <p class="text-muted mt-2">We were on the roof by sunrise.</p>
+            <a href="tel:9729280788" class="mt-5 inline-block bg-gold text-navy font-extrabold px-6 py-3 rounded-xl shadow-gold-glow">📞 972-928-0788</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== V — DEMO: THE WIN ======================== -->
+  <section id="proof" class="py-20">
+    <div class="max-w-wrap mx-auto px-6">
+      <div class="text-center max-w-[720px] mx-auto mb-12">
+        <span class="eyebrow">V — The Win</span>
+        <h2 class="mt-3 text-white text-[clamp(28px,3.6vw,40px)]">
+          <span class="accent">$24,800</span> approved. Frisco. Last spring.
+        </h2>
+        <p class="mt-4 text-muted text-lg">
+          3,400 sq ft estate, hail damage, denied twice before. CPPA caught what the ladder
+          missed. We re-opened the claim, sat with the adjuster, and the roof was replaced
+          inside two weeks. The owner kept the documentation file — and the deductible credit.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-5">
+        <div class="p-[10px] border-[10px] border-navy rounded-3xl bg-navy-mid">
+          <div class="aspect-[4/3] rounded-2xl bg-gradient-to-br from-navy via-navy-mid to-navy-deep grid place-items-center text-5xl">🏠</div>
+        </div>
+        <div class="p-[10px] border-[10px] border-navy rounded-3xl bg-navy-mid">
+          <div class="aspect-[4/3] rounded-2xl bg-gradient-to-br from-navy via-navy-mid to-navy-deep grid place-items-center text-5xl">📋</div>
+        </div>
+        <div class="p-[10px] border-[10px] border-navy rounded-3xl bg-navy-mid">
+          <div class="aspect-[4/3] rounded-2xl bg-gradient-to-br from-navy via-navy-mid to-navy-deep grid place-items-center text-5xl">✅</div>
+        </div>
+      </div>
+      <p class="text-center text-muted text-sm mt-4">Before · Documentation · After — all photos-of-record on file.</p>
+    </div>
+  </section>
+
+  <!-- ======================== VI — DEMO: HONEST LIMITS ======================== -->
+  <section class="py-20 bg-navy-deep">
+    <div class="max-w-wrap mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
+      <div>
+        <span class="eyebrow">VI — Honest Limits</span>
+        <h2 class="mt-3 text-white text-[clamp(28px,3.6vw,40px)]">
+          We turn down work. <span class="accent">Here's how.</span>
+        </h2>
+        <p class="mt-5 text-muted text-lg">
+          If your project is under our $18,000 floor, we won't take it. If we can't document
+          real damage, we won't file a claim. If your insurer has already closed the window
+          and the appeal path is gone, we'll tell you straight. The Pineapple Standard is
+          protecting your family's investment, not chasing a pay day.
+        </p>
+      </div>
+      <div class="rounded-2xl bg-rust/10 border border-rust/30 p-7">
+        <p class="font-display text-xl font-extrabold text-rust mb-3">When we say no</p>
+        <ul class="space-y-2.5 text-cream text-[15px]">
+          <li>· Sub-$18,000 repairs (we'll refer you to a trusted local)</li>
+          <li>· Pre-existing damage outside any open storm event</li>
+          <li>· "Walk-and-talk" insurance claims without real documentation</li>
+          <li>· Anything we wouldn't put our name on at 5 a.m.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== CTA BAND ======================== -->
+  <section id="cppa" class="py-20">
+    <div class="max-w-wrap mx-auto px-6">
+      <div class="rounded-3xl bg-gradient-to-br from-navy to-navy-deep border border-white/10 px-8 py-12 sm:px-14 sm:py-16 text-center shadow-navy-glow">
+        <span class="eyebrow">Start Here</span>
+        <h2 class="mt-3 text-white text-[clamp(28px,4vw,44px)]">
+          Your roof. <span class="accent">Documented. Defended. Delivered.</span>
+        </h2>
+        <p class="mt-5 text-muted text-lg max-w-[640px] mx-auto">
+          Begin with the Complimentary Professional Photo Audit. No pressure. No sales
+          theatre. Just the same evidence an adjuster builds — in your hands, in 24 hours.
+        </p>
+        <div class="mt-8 flex flex-wrap justify-center gap-4">
+          <a href="tel:9729280788" class="inline-flex items-center gap-2 bg-gold text-navy font-extrabold text-[17px] px-8 py-4 rounded-2xl shadow-gold-glow hover:translate-y-[-2px] transition">
+            📞 972-928-0788
+          </a>
+          <a href="#form" class="inline-flex items-center gap-2 border-2 border-white/25 text-white font-extrabold text-[17px] px-8 py-4 rounded-2xl hover:border-cyan hover:text-cyan transition">
+            📸 Request a CPPA
+          </a>
+        </div>
+        <p class="mt-6 text-[13px] text-muted">IKO Certified · RCAT #03-0637 · 5-Star · Since 2005</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== VII — DATA / SERVICE AREAS ======================== -->
+  <section id="areas" class="py-20 bg-navy-deep">
+    <div class="max-w-wrap mx-auto px-6">
+      <div class="text-center max-w-[720px] mx-auto mb-12">
+        <span class="eyebrow">VII — Service Areas</span>
+        <h2 class="mt-3 text-white text-[clamp(28px,3.6vw,40px)]">
+          10–15 miles from <span class="accent">Frisco HQ</span>
+        </h2>
+        <p class="mt-4 text-muted text-lg">
+          1 Cowboys Way, Ste 270W, Frisco, TX 75034 — and every roof inside the radius
+          we can drive to before a storm rolls out.
+        </p>
+      </div>
+      <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-3 max-w-[860px] mx-auto">
+        <a href="#" class="rounded-2xl border border-white/10 bg-white/5 px-5 py-4 hover:border-cyan/50 transition"><b class="text-white">Frisco</b> <span class="text-muted text-sm">— 75033 · 75034 · 75035</span></a>
+        <a href="#" class="rounded-2xl border border-white/10 bg-white/5 px-5 py-4 hover:border-cyan/50 transition"><b class="text-white">Plano</b> <span class="text-muted text-sm">— 75023 · 75024 · 75025</span></a>
+        <a href="#" class="rounded-2xl border border-white/10 bg-white/5 px-5 py-4 hover:border-cyan/50 transition"><b class="text-white">McKinney</b> <span class="text-muted text-sm">— 75069 · 75070</span></a>
+        <a href="#" class="rounded-2xl border border-white/10 bg-white/5 px-5 py-4 hover:border-cyan/50 transition"><b class="text-white">Prosper</b> <span class="text-muted text-sm">— 75078</span></a>
+        <a href="#" class="rounded-2xl border border-white/10 bg-white/5 px-5 py-4 hover:border-cyan/50 transition"><b class="text-white">Little Elm</b> <span class="text-muted text-sm">— 75068</span></a>
+        <a href="#" class="rounded-2xl border border-white/10 bg-white/5 px-5 py-4 hover:border-cyan/50 transition"><b class="text-white">The Colony</b> <span class="text-muted text-sm">— 75056</span></a>
+        <a href="#" class="rounded-2xl border border-white/10 bg-white/5 px-5 py-4 hover:border-cyan/50 transition"><b class="text-white">Lewisville</b> <span class="text-muted text-sm">— 4400 TX-121</span></a>
+        <a href="#" class="rounded-2xl border border-white/10 bg-white/5 px-5 py-4 hover:border-cyan/50 transition"><b class="text-white">Allen</b> <span class="text-muted text-sm">— 75002 · 75013</span></a>
+        <a href="#" class="rounded-2xl border border-white/10 bg-white/5 px-5 py-4 hover:border-cyan/50 transition"><b class="text-white">Castle Hills</b> <span class="text-muted text-sm">— 75056</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== VIII — BELIEF BREAKERS / FAQ ======================== -->
+  <section id="faq" class="py-20">
+    <div class="max-w-wrap mx-auto px-6">
+      <div class="text-center max-w-[720px] mx-auto mb-12">
+        <span class="eyebrow">VIII — Belief Breakers</span>
+        <h2 class="mt-3 text-white text-[clamp(28px,3.6vw,40px)]">
+          The questions <span class="accent">Frisco asks first.</span>
+        </h2>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-4 max-w-[960px] mx-auto">
+        <details class="group rounded-2xl border border-white/10 bg-white/5 p-6 [&_summary]:cursor-pointer">
+          <summary class="flex justify-between items-center font-display text-lg font-bold text-white">
+            Is the CPPA really complimentary?
+            <span class="text-gold text-2xl group-open:rotate-45 transition">+</span>
+          </summary>
+          <p class="mt-3 text-muted">Yes. The audit is a 200+ point photographic record — we provide it whether you hire us or not. It's the foundation of every successful claim.</p>
+        </details>
+        <details class="group rounded-2xl border border-white/10 bg-white/5 p-6 [&_summary]:cursor-pointer">
+          <summary class="flex justify-between items-center font-display text-lg font-bold text-white">
+            How fast can you get on my roof?
+            <span class="text-gold text-2xl group-open:rotate-45 transition">+</span>
+          </summary>
+          <p class="mt-3 text-muted">Speed-to-lead is 5 minutes from your first call. CPPA scheduled within 24 hours. Storm calls get same-day priority.</p>
+        </details>
+        <details class="group rounded-2xl border border-white/10 bg-white/5 p-6 [&_summary]:cursor-pointer">
+          <summary class="flex justify-between items-center font-display text-lg font-bold text-white">
+            What's the minimum project?
+            <span class="text-gold text-2xl group-open:rotate-45 transition">+</span>
+          </summary>
+          <p class="mt-3 text-muted">$18,000+. Below that, we'll refer you to a vetted local contractor. We don't run small-repair crews.</p>
+        </details>
+        <details class="group rounded-2xl border border-white/10 bg-white/5 p-6 [&_summary]:cursor-pointer">
+          <summary class="flex justify-between items-center font-display text-lg font-bold text-white">
+            What's Full Restoration Coverage?
+            <span class="text-gold text-2xl group-open:rotate-45 transition">+</span>
+          </summary>
+          <p class="mt-3 text-muted">We walk your insurance claim from first call to final payout — supplement filings, adjuster sit-downs, and deductible handling. Protecting your family's investment end to end.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== IX — 30-DAY ROADMAP ======================== -->
+  <section class="py-20 bg-navy-deep">
+    <div class="max-w-wrap mx-auto px-6">
+      <div class="text-center max-w-[720px] mx-auto mb-12">
+        <span class="eyebrow">IX — 30-Day Roadmap</span>
+        <h2 class="mt-3 text-white text-[clamp(28px,3.6vw,40px)]">
+          From first call to <span class="accent">final shingle.</span>
+        </h2>
+      </div>
+      <div class="grid md:grid-cols-4 gap-4">
+        <div class="rounded-2xl border border-white/10 bg-white/5 p-6">
+          <div class="text-cyan font-extrabold text-sm">DAY 1</div>
+          <h3 class="mt-2 text-white font-display text-lg font-bold">Audit</h3>
+          <p class="mt-2 text-muted text-sm">CPPA delivered. Damage map in your hands.</p>
+        </div>
+        <div class="rounded-2xl border border-white/10 bg-white/5 p-6">
+          <div class="text-cyan font-extrabold text-sm">DAY 2–7</div>
+          <h3 class="mt-2 text-white font-display text-lg font-bold">Claim</h3>
+          <p class="mt-2 text-muted text-sm">Filed, documented, adjuster walked the roof with us.</p>
+        </div>
+        <div class="rounded-2xl border border-white/10 bg-white/5 p-6">
+          <div class="text-cyan font-extrabold text-sm">DAY 8–21</div>
+          <h3 class="mt-2 text-white font-display text-lg font-bold">Approve</h3>
+          <p class="mt-2 text-muted text-sm">Scope locked. Materials ordered. IKO Dynasty on the truck.</p>
+        </div>
+        <div class="rounded-2xl border border-white/10 bg-white/5 p-6">
+          <div class="text-cyan font-extrabold text-sm">DAY 22–30</div>
+          <h3 class="mt-2 text-white font-display text-lg font-bold">Install</h3>
+          <p class="mt-2 text-muted text-sm">1–3 day install. Magnetic sweep. Photos-of-record. Job done.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== X — RECAP ======================== -->
+  <section class="py-20">
+    <div class="max-w-wrap mx-auto px-6 text-center max-w-[820px] mx-auto">
+      <span class="eyebrow">X — Recap</span>
+      <h2 class="mt-3 text-white text-[clamp(28px,3.6vw,40px)]">
+        <span class="accent">Document.</span> Defend. Deliver.
+      </h2>
+      <p class="mt-5 text-muted text-lg">
+        Three moves, the Pineapple Standard, and 20+ years of North Texas roofing. We replaced
+        the sales-theatre with a 200+ point photo audit. You keep the file either way.
+      </p>
+    </div>
+  </section>
+
+  <!-- ======================== FINAL CTA + CPPA FORM ======================== -->
+  <section id="form" class="py-20 bg-navy-deep">
+    <div class="max-w-wrap mx-auto px-6">
+      <div class="rounded-3xl bg-gradient-to-br from-navy to-navy-deep border border-white/10 p-8 sm:p-14 shadow-navy-glow">
+        <div class="grid lg:grid-cols-[1fr_1.1fr] gap-10">
+          <div>
+            <span class="eyebrow">Final CTA</span>
+            <h2 class="mt-3 text-white text-[clamp(28px,4vw,42px)]">
+              Start with the <span class="accent">CPPA.</span>
+            </h2>
+            <p class="mt-4 text-muted text-lg">
+              Two minutes to fill out. We respond within five. The audit is on your roof within
+              24 hours, and the documentation file is yours — whether you hire us or not.
+            </p>
+            <div class="mt-7 space-y-3 text-cream">
+              <p>📞 <a href="tel:9729280788" class="font-extrabold text-white hover:text-cyan">972-928-0788</a></p>
+              <p>📍 1 Cowboys Way, Ste 270W, Frisco, TX 75034</p>
+              <p>🛡️ IKO Certified · RCAT #03-0637 · Since 2005</p>
+            </div>
+          </div>
+
+          <form class="space-y-4" onsubmit="event.preventDefault(); alert('DRAFT FORM — replace with WPForms / Elementor Forms + M7 Lead Engine. Do not wire live until Saia GO.');">
+            <div class="grid sm:grid-cols-2 gap-4">
+              <label class="block">
+                <span class="text-sm font-semibold text-cream">Full Name</span>
+                <input type="text" required placeholder="Jane Doe"
+                  class="mt-1.5 w-full rounded-xl bg-navy-deep/70 border border-white/15 px-4 py-3 text-white placeholder-muted focus:border-cyan focus:outline-none focus:ring-2 focus:ring-cyan/30" />
+              </label>
+              <label class="block">
+                <span class="text-sm font-semibold text-cream">Phone</span>
+                <input type="tel" required placeholder="(972) 000-0000"
+                  class="mt-1.5 w-full rounded-xl bg-navy-deep/70 border border-white/15 px-4 py-3 text-white placeholder-muted focus:border-cyan focus:outline-none focus:ring-2 focus:ring-cyan/30" />
+              </label>
+            </div>
+            <label class="block">
+              <span class="text-sm font-semibold text-cream">Email</span>
+              <input type="email" required placeholder="jane@friscohome.com"
+                class="mt-1.5 w-full rounded-xl bg-navy-deep/70 border border-white/15 px-4 py-3 text-white placeholder-muted focus:border-cyan focus:outline-none focus:ring-2 focus:ring-cyan/30" />
+            </label>
+            <label class="block">
+              <span class="text-sm font-semibold text-cream">Property ZIP</span>
+              <input type="text" required placeholder="75034"
+                class="mt-1.5 w-full rounded-xl bg-navy-deep/70 border border-white/15 px-4 py-3 text-white placeholder-muted focus:border-cyan focus:outline-none focus:ring-2 focus:ring-cyan/30" />
+            </label>
+            <label class="block">
+              <span class="text-sm font-semibold text-cream">What happened?</span>
+              <textarea rows="3" placeholder="Storm date, hail, leak, age of roof..."
+                class="mt-1.5 w-full rounded-xl bg-navy-deep/70 border border-white/15 px-4 py-3 text-white placeholder-muted focus:border-cyan focus:outline-none focus:ring-2 focus:ring-cyan/30"></textarea>
+            </label>
+            <button type="submit" class="w-full bg-gold text-navy font-extrabold text-[17px] py-4 rounded-2xl shadow-gold-glow hover:translate-y-[-2px] transition">
+              📸 Request My CPPA
+            </button>
+            <p class="text-[12px] text-muted text-center">Form is a draft. Do not collect real data until Saia confirms lead routing.</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== BOTTOM CREDENTIAL BAR (95px rule) ======================== -->
+  <footer class="bg-navy border-t border-white/10">
+    <div class="max-w-wrap mx-auto px-6 h-[95px] flex flex-col sm:flex-row items-center justify-center sm:justify-between gap-2 text-center sm:text-left">
+      <p class="font-display text-gold font-extrabold text-sm sm:text-base">
+        PINEAPPLE CONTRACTORS · RCAT #03-0637 · IKO CERTIFIED
+      </p>
+      <p class="text-cream/80 text-sm">
+        📞 <a href="tel:9729280788" class="hover:text-cyan font-bold">972-928-0788</a> · Frisco, TX
+      </p>
+    </div>
+    <div class="text-center text-[12px] text-muted py-4 border-t border-white/5">
+      © 2005–2026 Pineapple Contractors LLC · Polynesian-owned · Ko e hala 'o e fononga ko e faka'apa'apa
+    </div>
+  </footer>
+
+</body>
+</html>

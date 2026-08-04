@@ -13,8 +13,9 @@ const CHAT_PROJECT = "kimi-default"; // chat writes here; the Workspace tab brow
 
 // Speed modes → Kimi CLI model aliases (defined in ~/.kimi-code/config.toml).
 // Passed to /api/kimi/chat as `model` → `kimi -p … --model <alias>`.
-type Mode = "quality" | "fast" | "nothink";
+type Mode = "k3" | "quality" | "fast" | "nothink";
 const MODES: { k: Mode; label: string; model: string; hint: string }[] = [
+  { k: "k3",      label: "K3",       model: "kimi-code/k3",                  hint: "Kimi K3 — 2.5T MoE, 1M context. Slow on hard tasks, strongest output" },
   { k: "quality", label: "Quality",  model: "kimi-code/kimi-for-coding",     hint: "K2.7 Code — best output, full reasoning" },
   { k: "fast",    label: "Fast",     model: "kimi-code/highspeed",           hint: "HighSpeed model — ~1.4× faster, still reasons" },
   { k: "nothink", label: "No-think", model: "kimi-code/highspeed-nothink",   hint: "HighSpeed, reasoning channel off — terse, direct answers" },
@@ -42,6 +43,7 @@ export default function KimiView() {
   const [mode, setMode] = useState<Mode>("fast");
   const [streaming, setStreaming] = useState(false);
   const [partial, setPartial] = useState("");
+  const [activity, setActivity] = useState<string | null>(null);
   const [err, setErr] = useState<string | null>(null);
   const ctrlRef = useRef<AbortController | null>(null);
   const scrollRef = useRef<HTMLDivElement>(null);
@@ -49,7 +51,7 @@ export default function KimiView() {
 
   useEffect(() => {
     try { const raw = localStorage.getItem(HISTORY_KEY); if (raw) setMsgs(JSON.parse(raw).slice(-200)); } catch {}
-    try { const m = localStorage.getItem(MODE_KEY); if (m === "quality" || m === "fast" || m === "nothink") setMode(m); } catch {}
+    try { const m = localStorage.getItem(MODE_KEY); if (m === "k3" || m === "quality" || m === "fast" || m === "nothink") setMode(m); } catch {}
     hydrated.current = true;
   }, []);
   useEffect(() => { if (hydrated.current) try { localStorage.setItem(HISTORY_KEY, JSON.stringify(msgs.slice(-200))); } catch {} }, [msgs]);
@@ -83,7 +85,8 @@ export default function KimiView() {
             if (!line.trim()) continue;
             try {
               const j = JSON.parse(line);
-              if (j.t === "d") { acc += j.c; setPartial(acc); }
+              if (j.t === "d") { acc += j.c; setPartial(acc); setActivity(null); }
+              else if (j.t === "s") { setActivity(j.c); }
               else if (j.t === "error") { errMsg = j.m; }
             } catch {}
           }
@@ -93,10 +96,11 @@ export default function KimiView() {
     if (acc.trim()) setMsgs((m) => [...m, { role: "assistant", text: acc.trim() }]);
     if (errMsg && !acc.trim()) setErr(errMsg);
     setPartial("");
+    setActivity(null);
     setStreaming(false);
   }, [input, streaming, msgs, mode]);
 
-  function stop() { ctrlRef.current?.abort(); setStreaming(false); setPartial(""); }
+  function stop() { ctrlRef.current?.abort(); setStreaming(false); setPartial(""); setActivity(null); }
   function clearChat() { if (confirm("Clear Kimi chat history?")) { setMsgs([]); try { localStorage.removeItem(HISTORY_KEY); } catch {} } }
 
   // ── workspace ──
@@ -134,7 +138,7 @@ export default function KimiView() {
         <div className="w-8 h-8 rounded-lg grid place-items-center text-[#06222b] font-bold" style={{ background: `linear-gradient(135deg,#00CCFF,#0066AA)` }}>K</div>
         <div>
           <div className="text-[15px] font-semibold text-[var(--cream)] leading-none">Kimi Code</div>
-          <div className="text-[10.5px] text-[var(--cream-mute)] mt-1">K2.7 Code · OAuth · single-shot chat + workspace</div>
+          <div className="text-[10.5px] text-[var(--cream-mute)] mt-1">K3 + K2.7 Code · OAuth · single-shot chat + workspace</div>
         </div>
         <div className="ml-auto flex gap-1.5">
           {([{ k: "chat", label: "Chat", icon: <MessageSquare size={13} /> }, { k: "workspace", label: "Workspace", icon: <Layers size={13} /> }] as const).map((t) => (
@@ -155,7 +159,7 @@ export default function KimiView() {
               <div className="h-full grid place-items-center text-center">
                 <div>
                   <Sparkles size={24} style={{ color: ACCENT }} className="mx-auto mb-2 opacity-70" />
-                  <div className="text-[13.5px] text-[var(--cream)]">Chat with Kimi K2.7.</div>
+                  <div className="text-[13.5px] text-[var(--cream)]">Chat with Kimi — K3 or K2.7.</div>
                   <div className="text-[11.5px] text-[var(--cream-mute)] mt-1">Every send runs <code className="mono">kimi -p … --output-format stream-json</code>. Files it writes land in your Workspace.</div>
                 </div>
               </div>
@@ -173,7 +177,12 @@ export default function KimiView() {
             {streaming && (
               <div className="flex justify-start">
                 <div className="max-w-[82%] rounded-xl px-3.5 py-2.5 text-[13.5px] leading-relaxed whitespace-pre-wrap" style={{ background: "var(--bg-card)", border: "1px solid var(--line-soft)", color: "var(--cream-soft)" }}>
-                  {partial || <span className="inline-flex items-center gap-2 text-[var(--cream-mute)]"><Loader2 size={13} className="animate-spin" style={{ color: ACCENT }} /> Kimi is thinking…</span>}
+                  {partial || <span className="inline-flex items-center gap-2 text-[var(--cream-mute)]"><Loader2 size={13} className="animate-spin" style={{ color: ACCENT }} /> {activity ? "Kimi is building…" : "Kimi is thinking…"}</span>}
+                  {activity && (
+                    <div className="mt-2 inline-flex items-center gap-2 text-[11px] font-mono px-2 py-1 rounded-md" style={{ background: "rgba(0,204,255,0.07)", border: "1px solid rgba(0,204,255,0.25)", color: ACCENT }}>
+                      <Zap size={11} /> {activity}
+                    </div>
+                  )}
                 </div>
               </div>
             )}

@@ -97,8 +97,10 @@ function extractRaw(raw: string): unknown[] {
 function xLink(url: string): string {
   const u = String(url || "").trim();
   if (/x\.com\/i\/trending\/\d+/i.test(u)) return u.slice(0, 400);
-  if (/(?:x|twitter)\.com\/[A-Za-z0-9_]+\/status\/\d+/i.test(u)) return u.slice(0, 400);
-  if (/^https?:\/\//i.test(u) && !/(?:x|twitter)\.com\/(?:search|[A-Za-z0-9_]+\/?$)/i.test(u)) return u.slice(0, 400);
+  // real tweet ids are long digit runs — rejects hallucinated paths like /status/example or /status/123
+  if (/(?:x|twitter)\.com\/[A-Za-z0-9_]+\/status\/\d{5,25}(?:[/?#]|$)/i.test(u)) return u.slice(0, 400);
+  // news articles only; any OTHER x.com/twitter.com path is a fake permalink, not an article
+  if (/^https?:\/\//i.test(u) && !/(?:x|twitter)\.com\//i.test(u)) return u.slice(0, 400);
   return "https://x.com/explore/tabs/trending";
 }
 
@@ -119,7 +121,7 @@ function normalize(arr: unknown[], raw = ""): Signal[] {
       const handle = String(x.handle || "").replace(/^@/, "").slice(0, 40);
       const headline = String(x.headline || "").slice(0, 120);
       let rawUrl = String(x.url || "").trim();
-      if (!/(?:i\/trending|status)\//i.test(rawUrl) && handle && perma[handle.toLowerCase()]) rawUrl = perma[handle.toLowerCase()];
+      if (!/(?:i\/trending\/\d+|status\/\d{5,25})/i.test(rawUrl) && handle && perma[handle.toLowerCase()]) rawUrl = perma[handle.toLowerCase()];
       return {
         headline,
         why_now: String(x.why_now || "").slice(0, 500),
@@ -197,7 +199,12 @@ async function runSweep(): Promise<void> {
   await writeStatus({ running: true, startedAt, phase: "Reading the live X firehose…" });
   try {
     if (!existsSync(HERMES_WORKSPACE)) { try { await mkdir(HERMES_WORKSPACE, { recursive: true }); } catch {} }
-    const res = await run("hermes", ["-z", scanPrompt(new Date())], { cwd: HERMES_WORKSPACE, timeoutMs: 420_000 });
+    // Pin the sweep to Grok/xAI — the oracle needs xAI's native x_search (live X firehose).
+    // Without this it inherits the profile's active_provider (e.g. nous/openrouter), whose
+    // models have no tool-use endpoint → the browser tools 404 → zero signals → "empty".
+    const RADAR_PROVIDER = process.env.RADAR_PROVIDER || "xai-oauth";
+    const RADAR_MODEL = process.env.RADAR_MODEL || "grok-4";
+    const res = await run("hermes", ["-z", scanPrompt(new Date()), "--provider", RADAR_PROVIDER, "--model", RADAR_MODEL], { cwd: HERMES_WORKSPACE, timeoutMs: 420_000 });
     const raw = res.stdout || "";
     const signals = normalize(extractRaw(raw), raw);
     if (!signals.length) {

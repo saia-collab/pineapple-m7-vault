@@ -682,7 +682,7 @@ function StatusPill({ status, alreadyInstalled }: { status: string; alreadyInsta
 function TransportPill({ transport }: { transport: "stdio" | "http" | "unknown" | string }) {
   const isHttp = transport === "http";
   const Icon = isHttp ? Globe : Terminal;
-  const color = isHttp ? "#00BFFF" : "#fbbf24";
+  const color = isHttp ? "#FBC02D" : "#fbbf24";
   return (
     <span className="text-[9.5px] uppercase tracking-[0.2em] px-1.5 py-0.5 rounded flex items-center gap-1 shrink-0"
           style={{ color, border: `1px solid ${color}40`, background: `${color}10` }}>
@@ -927,9 +927,9 @@ function AddCustomModal({ existingNames, onClose, onComplete }: { existingNames:
               <button onClick={() => setTransport("http")}
                       className="flex-1 px-3 py-2 rounded-md border text-[12px] flex items-center justify-center gap-2 transition"
                       style={{
-                        borderColor: transport === "http" ? "#00BFFF" : "var(--line-soft)",
+                        borderColor: transport === "http" ? "#FBC02D" : "var(--line-soft)",
                         background: transport === "http" ? "rgba(251,192,45,0.1)" : "transparent",
-                        color: transport === "http" ? "#00BFFF" : "var(--cream-mute)",
+                        color: transport === "http" ? "#FBC02D" : "var(--cream-mute)",
                       }}>
                 <Globe size={12} /> http
               </button>

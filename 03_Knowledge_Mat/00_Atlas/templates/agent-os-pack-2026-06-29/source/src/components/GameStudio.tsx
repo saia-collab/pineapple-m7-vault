@@ -24,7 +24,7 @@ function nice(rel: string): string {
 const playUrl = (rel: string) => `/api/freeclaude/preview/${PROJECT}/${rel}`;
 
 // Live thumbnail — mounts its iframe only while in view (same pattern as the
-// Jarvis gallery) so a long shelf of games doesn't pin the CPU.
+// Apollo gallery) so a long shelf of games doesn't pin the CPU.
 function GameThumb({ url }: { url: string }) {
   const ref = useRef<HTMLDivElement>(null);
   const [vis, setVis] = useState(false);

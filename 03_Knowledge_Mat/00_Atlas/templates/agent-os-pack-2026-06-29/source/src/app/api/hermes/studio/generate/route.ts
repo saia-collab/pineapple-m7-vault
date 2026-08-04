@@ -1,10 +1,41 @@
 import { NextResponse } from "next/server";
 import { writeFile, mkdir } from "node:fs/promises";
-import { existsSync } from "node:fs";
+import { existsSync, readFileSync } from "node:fs";
 import path from "node:path";
-import { run } from "@/lib/runner";
+import { execFile } from "node:child_process";
+import { promisify } from "node:util";
 import { studioDirs, minimaxToken, slugify, MINIMAX_BASE, PREVIEW_BUCKET } from "@/lib/hermesStudio";
 import { elevenTtsToFile } from "@/lib/elevenlabs";
+import { hermesHome } from "@/lib/config";
+
+const pexecFile = promisify(execFile);
+// ALL Grok gen (image/video/voice) runs through Hermes' own xAI credentials (Grok OAuth),
+// NOT openclaw. HERMES_HOME points at a profile holding the xai-oauth token; the hermes-agent
+// venv python runs scripts/hermes-xai-media.py, which refreshes + calls xAI's endpoints.
+const HERMES_VENV_PY = path.join(hermesHome(), "hermes-agent", ".venv", "bin", "python");
+const XAI_MEDIA_SCRIPT = path.join(process.cwd(), "scripts", "hermes-xai-media.py");
+// The xai-oauth token lives in the ACTIVE profile's dir (legacy installs used "julian").
+function xaiHome(): string {
+  try {
+    const p = readFileSync(path.join(hermesHome(), "active_profile"), "utf8").trim();
+    if (p && existsSync(path.join(hermesHome(), "profiles", p))) return path.join(hermesHome(), "profiles", p);
+  } catch { /* fall through */ }
+  return path.join(hermesHome(), "profiles", "julian");
+}
+const XAI_HOME = xaiHome();
+
+// Run the Hermes xAI media helper for one kind; returns whether the output file was written.
+async function xaiMedia(kind: "image" | "video" | "voice", prompt: string, outPath: string, voice?: string, timeoutMs = 130_000): Promise<{ ok: boolean; detail: string }> {
+  const args = [XAI_MEDIA_SCRIPT, kind, prompt, outPath];
+  if (kind === "voice" && voice) args.push(voice);
+  try {
+    const { stdout } = await pexecFile(HERMES_VENV_PY, args, { env: { ...process.env, HERMES_HOME: XAI_HOME }, timeout: timeoutMs, maxBuffer: 8 * 1024 * 1024 });
+    return { ok: existsSync(outPath), detail: stdout.slice(-400) };
+  } catch (e) {
+    const err = e as { stdout?: string; stderr?: string; message?: string };
+    return { ok: existsSync(outPath), detail: (err.stdout || err.stderr || err.message || "").slice(-400) };
+  }
+}
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -14,19 +45,10 @@ export const dynamic = "force-dynamic";
 //
 // One Studio, two engines:
 //   • minimax → MiniMax APIs (image-01, Hailuo, speech-02). Video is async → returns { taskId } to poll.
-//   • grok    → `openclaw infer …` (xAI Grok). All synchronous → returns the finished { url }.
+//   • grok    → Hermes' own xAI tools via Grok OAuth (scripts/hermes-xai-media.py). No openclaw.
 // Both save into the SAME Hermes typed dirs (images / videos / audio_cache) so the
 // gallery + Workspace buckets show every generation regardless of engine.
 const XAI_VOICES = new Set(["eve", "ara", "rex", "sal", "leo", "una"]);
-
-function parseOpenclawFile(stdout: string): string | null {
-  const i = stdout.indexOf("{");
-  if (i === -1) return null;
-  try {
-    const j = JSON.parse(stdout.slice(i)) as { outputs?: { path: string }[] };
-    return j.outputs?.[0]?.path ?? null;
-  } catch { return null; }
-}
 
 export async function POST(req: Request) {
   const { kind, prompt, voiceId, provider } = await req.json();
@@ -49,36 +71,32 @@ export async function POST(req: Request) {
   const ts = Date.now();
   const slug = slugify(prompt);
 
-  // ───────────────────────── GROK (via OpenClaw) ─────────────────────────
+  // ───────────────────────── GROK (via Hermes xAI OAuth) ─────────────────────────
   if (eng === "grok") {
     try {
       if (kind === "image") {
         await mkdir(dirs.image, { recursive: true });
         const outPath = path.join(dirs.image, `${ts}-grok-${slug}.jpg`);
-        const out = await run("openclaw", ["infer", "image", "generate", "--model", "xai/grok-imagine-image", "--prompt", prompt, "--output", outPath, "--json", "--aspect-ratio", "16:9"], { timeoutMs: 120_000 });
-        const f = parseOpenclawFile(out.stdout) ?? (existsSync(outPath) ? outPath : null);
-        if (!f) return NextResponse.json({ error: "Grok image failed", detail: (out.stderr || out.stdout).slice(-400) }, { status: 502 });
-        const name = path.basename(f);
+        const res = await xaiMedia("image", prompt, outPath, undefined, 130_000);
+        if (!res.ok) return NextResponse.json({ error: "Grok image failed", detail: res.detail }, { status: 502 });
+        const name = path.basename(outPath);
         return NextResponse.json({ ok: true, kind, provider: eng, name, prompt, url: `/api/hermes/preview/${PREVIEW_BUCKET.image}/${encodeURIComponent(name)}` });
       }
       if (kind === "video") {
         await mkdir(dirs.video, { recursive: true });
         const outPath = path.join(dirs.video, `${ts}-grok-${slug}.mp4`);
-        const out = await run("openclaw", ["infer", "video", "generate", "--model", "xai/grok-imagine-video", "--prompt", prompt, "--output", outPath, "--json"], { timeoutMs: 240_000 });
-        const f = parseOpenclawFile(out.stdout) ?? (existsSync(outPath) ? outPath : null);
-        if (!f) return NextResponse.json({ error: "Grok video failed", detail: (out.stderr || out.stdout).slice(-400) }, { status: 502 });
-        const name = path.basename(f);
-        // synchronous — return the finished video directly (no polling)
+        const res = await xaiMedia("video", prompt, outPath, undefined, 300_000); // xAI video is async (submit + poll)
+        if (!res.ok) return NextResponse.json({ error: "Grok video failed", detail: res.detail }, { status: 502 });
+        const name = path.basename(outPath);
         return NextResponse.json({ ok: true, kind, provider: eng, status: "done", name, prompt, url: `/api/hermes/preview/${PREVIEW_BUCKET.video}/${encodeURIComponent(name)}` });
       }
       if (kind === "voice") {
         const v = typeof voiceId === "string" && XAI_VOICES.has(voiceId) ? voiceId : "eve";
         await mkdir(dirs.voice, { recursive: true });
         const outPath = path.join(dirs.voice, `${ts}-grok-${v}-${slug}.mp3`);
-        const out = await run("openclaw", ["infer", "tts", "convert", "--text", prompt, "--voice", v, "--output", outPath, "--json"], { timeoutMs: 60_000 });
-        const f = parseOpenclawFile(out.stdout) ?? (existsSync(outPath) ? outPath : null);
-        if (!f) return NextResponse.json({ error: "Grok voice failed", detail: (out.stderr || out.stdout).slice(-400) }, { status: 502 });
-        const name = path.basename(f);
+        const res = await xaiMedia("voice", prompt, outPath, v, 90_000);
+        if (!res.ok) return NextResponse.json({ error: "Grok voice failed", detail: res.detail }, { status: 502 });
+        const name = path.basename(outPath);
         return NextResponse.json({ ok: true, kind, provider: eng, name, prompt, url: `/api/hermes/preview/${PREVIEW_BUCKET.voice}/${encodeURIComponent(name)}` });
       }
       return NextResponse.json({ error: "bad kind" }, { status: 400 });
@@ -97,7 +115,7 @@ export async function POST(req: Request) {
       const r = await fetch(`${MINIMAX_BASE}/image_generation`, { method: "POST", headers: H, body: JSON.stringify({ model: "image-01", prompt, aspect_ratio: "16:9", response_format: "url", n: 1 }) });
       const j = await r.json();
       const src = j?.data?.image_urls?.[0];
-      if (!src) return NextResponse.json({ error: "no image returned", detail: j?.base_resp ?? j }, { status: 502 });
+      if (!src) return NextResponse.json({ error: `MiniMax: ${j?.base_resp?.status_msg || "no image returned"} — switch to Grok above, or top up MiniMax.`, detail: j?.base_resp ?? j }, { status: 502 });
       const buf = Buffer.from(await (await fetch(src)).arrayBuffer());
       await mkdir(dirs.image, { recursive: true });
       const name = `${ts}-${slug}.png`;

@@ -36,31 +36,37 @@ Restart the dashboard. (Skip this if you don't need live translation.)
 ## How the dashboard finds them
 It looks for each tool on your computer automatically. If you installed a tool somewhere unusual and the tab can't find it, you can point the dashboard straight at it using a setting (see `config.example.json`) — but for normal installs you won't need to.
 
+## More on the Claude tab
+Besides Chat, the Claude tab has two extra sub-tabs: **Artifacts** (publish any HTML your agent builds to a private shareable link) and **Ultracode** (kick off a multi-agent cloud review of your work). Both optional — use them when you want them.
+
 ## Which should I start with?
 If you're new: just use **Claude** (you probably installed it already from the README) and the **Free Claude Code** / **Hermes** tabs. Add the others later if you start using them.
 
 ## ⭐ Choosing your Claude model (read this — it affects your usage)
 
-The Claude tab (and the SEO engine) come set to **Opus 4.8** (`claude-opus-4-8`) — excellent, reliable on the Claude CLI, and lighter on your plan's tokens. Most people should just leave it.
+The Claude tab (and the SEO engine) now come set to **Claude Opus 5** (`claude-opus-5`, launched 24 July 2026) — Anthropic's newest flagship, the strongest all-round Claude. There's **nothing to set up**: if your Claude CLI/plan has Opus 5, it just works. Most people should leave it.
 
-**Want maximum power? Switch to Claude 5** (`claude-fable-5`, the newest Mythos-class model). It's the strongest model for the hardest jobs — but it uses **more of your plan's tokens** (roughly twice the cost per token, and it "thinks" more). One tiny file change, no code:
+**Prefer something else?** You can pin any Claude model with one tiny file change, no code:
 
 1. Open (or create) the file `~/.agentic-os/config.json`
-2. Add this line inside the curly braces:
+2. Add this line inside the curly braces (swap in whichever model you want):
    ```json
-   "claudeModel": "claude-fable-5"
+   "claudeModel": "claude-opus-5"
    ```
    So the file looks something like:
    ```json
    {
-     "claudeModel": "claude-fable-5"
+     "claudeModel": "claude-opus-4-8"
    }
    ```
-3. Restart the dashboard. Done — every Claude feature now uses Claude 5.
+3. Restart the dashboard. Done — every Claude feature now uses that model.
 
 **Which should you pick?**
-- **Opus 4.8** (`claude-opus-4-8`, the default) → great for everyday work, reliable, lighter on your plan.
-- **Claude 5** (`claude-fable-5`) → hardest jobs, biggest builds, best results — heavier token use. (Note: Claude 5 needs to be available to your Claude CLI/plan; if a Claude feature errors on it, switch back to Opus 4.8.)
+- **Opus 5** (`claude-opus-5`, the default) → newest flagship, best all-round results. Leave it here unless you have a reason not to.
+- **Opus 4.8** (`claude-opus-4-8`) → the previous default; rock-solid and a little lighter on your plan's tokens. A good fallback if Opus 5 isn't on your plan yet.
+- **Claude 5** (`claude-fable-5`, Mythos-class) → a heavier "thinks-more" model for the hardest reasoning; uses more tokens.
+
+> If a Claude feature errors on the model you picked, that model probably isn't enabled on your Claude CLI/plan yet — set `claudeModel` to `claude-opus-4-8` and you're back in business.
 
 You can switch any time by changing that one line. (Power users: the `AGENTIC_OS_CLAUDE_MODEL` environment variable does the same thing.)
 

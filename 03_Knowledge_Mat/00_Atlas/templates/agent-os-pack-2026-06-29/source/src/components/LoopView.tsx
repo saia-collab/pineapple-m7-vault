@@ -25,19 +25,18 @@ function extractHtml(text: string): string | null {
 
 const ACCENT = "#2dd4bf";
 const WORKERS = [
-  { id: "nex-agi/nex-n2-pro:free", label: "N2 ✦ · free (OpenRouter)" },
   { id: "nous:stepfun/step-3.7-flash:free", label: "Step Flash ✦ · free (Nous Portal)" },
   { id: "z-ai/glm-5.2", label: "GLM 5.2 · cheap workhorse" },
   { id: "anthropic/claude-opus-4.8", label: "Claude Opus 4.8 · premium" },
+  { id: "moonshotai/kimi-k3", label: "Kimi K3 · 1M ctx" },
   { id: "moonshotai/kimi-k2.7", label: "Kimi K2.7 · fast" },
 ];
 const JUDGES = [
-  { id: "nex-agi/nex-n2-pro:free", label: "N2 ✦ · free", free: true },
   { id: "local", label: "Local · free, offline", free: true },
   { id: "z-ai/glm-5.2", label: "GLM 5.2 · cheap", free: false },
   { id: "openrouter/fusion", label: "Fusion council · premium (paid)", free: false },
 ];
-const DEFAULT_JUDGE = "nex-agi/nex-n2-pro:free";
+const DEFAULT_JUDGE = "local";
 const CYCLE = ["Check state", "Decide", "Act", "Gather feedback", "Verify / terminate"];
 
 interface Iter { n: number; steps: string[]; detail: string; verdict?: { pass: boolean; score: number; issues: string[]; summary: string }; error?: string }

@@ -4,6 +4,68 @@ The newest changes are at the top. Each entry is what changed for **you** — ne
 
 ---
 
+## 2026-08-03
+- 🦀 **New tab: jcode.** A featherweight open-source **Rust** coding agent (~28MB of RAM, instant start) with a semantic memory graph — and it runs on your **existing Claude subscription**, no new API key. Sessions get animal names and show up in the tab's History panel. Setup: `install/39-JCODE.md`.
+- 🎨 **New tab: Higgsfield.** Generate AI **images and video** with Higgsfield — driven through Hermes via Higgsfield's official MCP server, with every asset auto-saved to the tab's gallery. One-time `hermes mcp login higgsfield` sign-in. Setup: `install/40-HIGGSFIELD.md`.
+- 🔧 **Portability:** the Higgsfield tab uses your **active Hermes profile** (never a hardcoded name); pin one with `HIGGS_PROFILE` if you want.
+
+## 2026-07-31
+- 🐋 **New tab: DeepSeek Coder.** Chat + build with **DeepSeek V4 Flash** (today's public beta) on DeepSeek's **official** API — a very cheap, very fast reasoning coder, with a workspace for the files it writes. One key, 2-minute setup: `install/37-DEEPSEEK-CODER.md`.
+- 🎯 **New SEO sub-tab: Parasite SEO.** One-keyword arbitrage: pick a query you already rank for and get ready platform-native plays — X thread, Instagram Reel, TikTok/YouTube Short — each with a Claude-ready prompt (posts route to the Claude tab, video scripts to the Video Director). Uses your existing Search Console connection, and auto-detects Google's new GSC *platform properties* the moment their API opens. Guide: `install/38-PARASITE-SEO.md`.
+
+## 2026-07-30
+- 👂 **"Hey Hermes" wake word.** Tap the ear at the top of the Hermes tab and just say *"hey hermes"* — hands-free voice, detected **on-device** (openwakeword), so nothing leaves your Mac while it listens. Works with your active Hermes profile. Guide: `install/4-HERMES.md`.
+- 🔀 **Free Claude Code gets a router switch.** Flip between **OmniRoute** (90+ keyless free providers, the default) and **9Router** (free router with the RTK token saver — 20–40% fewer tokens — and your-accounts fallback). The panel tells you exactly what to run if one's down. Guide: `install/5-FREE-CLAUDE-CODE.md`.
+- 🧹 **Talk sub-tab removed** from Hermes. One voice path instead of two: real-time voice is **Hermes-Jarvis** (plus the new wake word). Less to set up, less to break.
+- 🔧 **Works-on-your-Mac fixes:** the wake word, Grok media (Hermes Studio) and Hy3 Coder now read your **active Hermes profile** instead of assuming a specific profile name existed.
+
+## 2026-07-24
+- 🚀 **Claude Opus 5 is here — and it's the new default.** The Claude tab and the SEO engine now use **Claude Opus 5** (`claude-opus-5`), Anthropic's newest flagship (launched today). There's nothing to install — if your Claude CLI/plan has Opus 5, it just works. Want the previous Opus 4.8 or the Mythos-class Claude 5 instead? Change one line in `~/.agentic-os/config.json` — full steps in `install/7-AGENT-CLIS.md`.
+
+## 2026-07-21
+- 🧠 **New brain: Qwen 3.8.** The **GPT 5.6 Code** tab now lets you build with Alibaba's 2.4T flagship **Qwen 3.8** (via the Qoder agent) — GoldieBench #5, tied with Fable 5 — alongside GPT 5.6, GLM-5.2 and Kimi K3. Pick it in the model dropdown; one-time Qoder setup is in `install/27-GLM-CODE.md`. (That guide is also renamed to match the tab's real name, "GPT 5.6 Code", and now covers all four brains.)
+
+## 2026-07-18
+- 🔍 **SEO → Research is fixed + now yours.** The tab pulls live keyword opportunities from **your own** Google Search Console. Two things were wrong before: the research script wasn't shipped ("research script missing"), and the fallback site list was someone else's domains. Now the connect script ships (`scripts/gsc-connect.py`) — do a ~5-min one-time Google authorization and the tab reads *your* verified sites. Full steps: `install/36-SEO-RESEARCH.md`. (Thanks to the member who reported this. 🙏)
+
+## 2026-07-17
+- 🛑 **Clearer start:** a note up top that Agent OS is a **desktop app you run on your own computer** — don't upload the zip into the Claude/ChatGPT website chat (it won't run there, and Claude won't copy a paid product's code). Unzip it and double-click `Start Agent OS.command`.
+- ⚡ **Latest build refreshed.** Same tabs, newest under-the-hood fixes bundled — double-click `Update Agent OS.command` to pull it in (keeps all your settings, keys, and notes).
+
+## 2026-07-16
+- 🧑‍💻 **New tab: opencode.** The open-source `opencode` terminal coding agent (160k★) now has its own tab — with built-in free models, it builds real apps for **$0, no API key**. Install with `curl -fsSL https://opencode.ai/install | bash`. Guide: `install/34-OPENCODE.md`.
+- 🧪 **New tab: App Lab.** A catalog of ready-to-run AI apps (Free Mixture-of-Agents, chat-with-any-webpage, AI travel planner) adapted to run entirely on **free cloud models**. Guide: `install/35-APP-LAB.md`.
+
+## 2026-07-13
+- 🖼️ **Thumbnail Studio now researches + designs for YOU.** Give it a topic and it live-searches what's winning on YouTube right now, then designs **6 distinct thumbnail concepts** (faceless, or with your own photo). Set your channel once with `"youtubeChannel"` in `~/.agentic-os/config.json` for channel-tuned research. Guide: `install/10-THUMBNAIL-STUDIO.md`.
+
+## 2026-07-10
+- 🪟 **Easier to find the Windows guide + roadmap.** Step one is now an OS picker (Mac / Windows / Linux) and the **Windows install guide** + **30-Day Roadmap** are linked right at the top of the README — no more hunting. (A few Windows noobs couldn't find them.)
+
+## 2026-07-09
+- ⚡ **Grok Build now runs on grok-4.5.** xAI's terminal coding agent (signed in on your X Premium+ plan) got the model bump — same tab, stronger builds. Guide: `install/18-GROK-BUILD.md`.
+- 🔒 **Updates no longer touch your keys or config — this was a real bug, now fixed.** All four update paths (the `.command`, the Windows steps, and the AI updater) now explicitly protect `.env`, `.env.local` and `agentic-os.config.json` from being deleted during an update. We also point you to `~/.agentic-os/config.json` (which lives *outside* the app folder and is never touched). Huge thanks to **Chris Martin** for the detailed report. If you keep settings, keep them in `~/.agentic-os/config.json`.
+- 🧹 **Removed the Build Guide tab** to keep the sidebar focused.
+- 💡 **Free Claude Code — hit a daily rate limit (429)?** The guide now explains it: OpenRouter's free tier is 50 requests/day; add $5 of credits for 1,000/day, or switch to the Local model for unlimited free. (Thanks **Karim Traore**.)
+
+## 2026-07-08
+- 🎞️ **New tab: Video Editor.** Edit any video by chatting — upload a clip, say *"cut the dead air, add subtitles"*, get a finished `final.mp4`. Powered by the video-use skill + ffmpeg. Guide: `install/33-VIDEO-EDITOR.md`.
+- 🏢 **New guide: SEO Office.** The **SEO → SEO Office** sub-tab (a local SEO agency OS — 3D office, claude-seo agents) now has setup steps: clone it from GitHub + `pnpm dev`. Guide: `install/32-SEO-OFFICE.md`.
+- 🔌 **New: the "Connect Everything" setup guide** (`SETUP-GUIDE.md`, linked at the top). No more guessing how to link each model/tool/API — it leads with the easy path (paste one sentence to Claude/Hermes and it wires every key for you), then a plain reference table of what each key unlocks + where to get it, plus dead-simple CLI setup (install + log in, nothing to edit).
+- 🔢 **The dashboard now shows its build version.** Look under the "Agentic OS" logo (top-left) — it shows `build <date>`. Now you can tell at a glance whether you're on the latest pack; if it's older than the newest in the AI Profit Boardroom, run `Update Agent OS.command`.
+
+## 2026-07-07
+- ⚡ **New tab: Hy3 Coder.** Fast, cheap one-shot builds powered by **Tencent Hy3** (Hunyuan 3, an open-weights coder) through OpenRouter — describe it, watch it stream a full single-file build, grab the result. A few cents a build. Guide: `install/31-HY3-CODER.md`.
+
+## 2026-07-06
+- 📖 **Documented every tab.** Swept the whole dashboard so nothing's a mystery — the **Local** tab (chat with models on your own Mac) and the **SEO → Transcripts** tool now have proper entries too.
+- 🔭 **New guide: Hermes Astros.** The **Hermes → Hermes Astros** sub-tab is a 24/7 **YouTube** watcher (sibling of The Radar, which watches X): it scans the channels in your niche and hands you trending video ideas with ready titles + SEO keywords. Works with **zero setup** (keyless), or add a YouTube key for richer data. Guide: `install/30-ASTROS.md`.
+- 📊 **New guide: OpenSEO.** The **SEO → OpenSEO** sub-tab (a free, self-hosted Semrush/Ahrefs alternative — keyword research, rank tracking, backlinks, site audits, on your own DataForSEO key, running locally in Docker) now has a proper setup guide: `install/29-OPENSEO.md`. It was already in the dashboard but undocumented; now you can actually set it up.
+
+## 2026-07-05
+- 🧭 **New tab: OmniRoute.** Build with AI for **$0** by routing every message across **90+ free providers** with automatic fallback — no API key, nothing leaves your Mac. Install with `npm install -g omniroute` and go. Guide: `install/28-OMNIROUTE.md`.
+- ✅ **New: Implementation Checklist.** A simple tick-box list to get a fresh install up and running (`IMPLEMENTATION-CHECKLIST.md`, linked at the top of the README) — only four steps to a working dashboard.
+
 ## 2026-07-03
 - 🖼️ **Thumbnail Studio now actually includes its generator.** The doc told you to copy `generate.py` from `extras/thumbnail-generator/`, but that folder was empty — so the tool couldn't run. Fixed: the pack now ships **both** `generate.py` and its `text_overlay.py` helper, and the copy step grabs both. (Thanks **Nova Autonomous** for spotting it.)
 - 🔧 **Hermes no longer breaks on a missing profile.** If a Hermes "profile" was selected or left over that doesn't exist on your machine (e.g. `kimi`), *every* message failed with `Profile 'kimi' does not exist`. Now Agent OS quietly ignores a profile that isn't there and falls back to your default, and a stale selection resets itself — so it just works. (Thanks **Klaki Ai**.) *If you still see it, run `hermes profile list` and `hermes profile use <one-that-exists>`.*

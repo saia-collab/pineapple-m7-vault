@@ -5,12 +5,9 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Mic, MicOff, Hammer, Loader2, RotateCw, ExternalLink, Sparkles, History, Square, X, Play, Zap } from "lucide-react";
 
 const FCC = "#00BFFF";                 // Free Claude Code green
-const N2 = "#7c5cff";                  // N2 violet
-// On-device builds share the gallery project; N2 builds collect in their own "n2"
-// folder so they show up as a dedicated N2 section in the workspace.
+// On-device builds share the gallery project.
 const PROJECT_LOCAL = "free-claude-code";
-const PROJECT_N2 = "n2";
-type Engine = "local" | "n2";
+type Engine = "local";
 
 // ── Web Speech API (no first-class TS types) ──────────────────────────────────
 type SR = {
@@ -42,8 +39,8 @@ function previewUrl(project: string, file: string): string {
 
 export default function SpeakBuild() {
   const [engine, setEngine] = useState<Engine>("local");
-  const project = engine === "n2" ? PROJECT_N2 : PROJECT_LOCAL;
-  const accent = engine === "n2" ? N2 : FCC;
+  const project = PROJECT_LOCAL;
+  const accent = FCC;
 
   const [input, setInput] = useState("");
   const [listening, setListening] = useState(false);
@@ -61,6 +58,16 @@ export default function SpeakBuild() {
   const idRef = useRef(0);
 
   // ── load past builds (server-persisted) + gallery for the active engine/project ──
+  // live name of the on-device model (so the label can never go stale)
+  const [localName, setLocalName] = useState("local model");
+  useEffect(() => {
+    fetch("/api/local/model").then(r => r.json()).then(d => {
+      const raw = String(d?.model || "").replace(/:latest$/, "");
+      const known: Record<string, string> = { "agents-a1": "Agents-A1", "gemma4-mlx": "Gemma 4 MLX", "gemma-fable5": "Gemma-4 Coder", "qwable5-coder": "Qwable 5" };
+      if (raw) setLocalName(known[raw] ?? raw);
+    }).catch(() => { /* keep fallback */ });
+  }, []);
+
   useEffect(() => {
     let alive = true;
     setCurrent(null);            // switching engine → clear the running preview
@@ -99,7 +106,7 @@ export default function SpeakBuild() {
     if (!text || building) return;
     setBuilding(true);
     setLog("");
-    setStatus(engine === "n2" ? "Building it with Nex-N2-Pro…" : "Building it on your Mac…");
+    setStatus("Building it on your Mac…");
 
     const ctrl = new AbortController(); ctrlRef.current = ctrl;
     let acc = "", builtFile: string | null = null, errMsg: string | null = null;
@@ -170,7 +177,7 @@ export default function SpeakBuild() {
         <div className="flex items-center gap-2 mb-1">
           <h2 className="text-[20px] font-semibold tracking-tight text-[var(--fg)]">Agent Factory</h2>
           <span className="text-[10.5px] px-2 py-0.5 rounded-full border" style={{ borderColor: `${accent}55`, color: accent, background: `${accent}14` }}>
-            {engine === "n2" ? "$0 · Nex-N2-Pro · free" : "$0 · runs on your Mac"}
+            {`$0 · ${localName} · runs on your Mac`}
           </span>
         </div>
         <p className="text-[12px] text-[var(--fg-dim)] mb-3">Say it — your agent builds it. It runs on the right →</p>
@@ -178,8 +185,7 @@ export default function SpeakBuild() {
         {/* engine switch */}
         <div className="flex items-center gap-1.5 mb-3 p-1 rounded-xl bg-[var(--bg-mid)] border border-[var(--panel-border)] w-fit">
           {([
-            { k: "local" as Engine, label: "On-device", icon: <Zap size={13} />, c: FCC },
-            { k: "n2" as Engine, label: "N2 ✦ smarter", icon: <Sparkles size={13} />, c: N2 },
+            { k: "local" as Engine, label: `On-device · ${localName}`, icon: <Zap size={13} />, c: FCC },
           ]).map((opt) => (
             <button key={opt.k} onClick={() => !building && setEngine(opt.k)} disabled={building}
               className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-[12px] font-semibold transition disabled:opacity-50"
@@ -223,7 +229,7 @@ export default function SpeakBuild() {
         {(building || log) && (
           <div className="mb-3">
             <div className="flex items-center gap-1.5 text-[10px] uppercase tracking-widest text-[var(--fg-dimmer)] mb-1">
-              {building ? <Loader2 size={11} className="animate-spin" style={{ color: accent }} /> : <Sparkles size={11} style={{ color: accent }} />} live build {engine === "n2" && <span style={{ color: N2 }}>· N2</span>}
+              {building ? <Loader2 size={11} className="animate-spin" style={{ color: accent }} /> : <Sparkles size={11} style={{ color: accent }} />} live build
             </div>
             <div ref={logRef} className="rounded-lg border border-[var(--panel-border)] bg-[rgba(0,0,0,0.4)] p-2.5 text-[11px] font-[var(--font-geist-mono)] text-[var(--fg-dim)] whitespace-pre-wrap overflow-y-auto max-h-[150px] leading-relaxed">
               {log || "starting…"}
@@ -233,7 +239,7 @@ export default function SpeakBuild() {
 
         {/* history */}
         <div className="flex items-center gap-1.5 text-[10px] uppercase tracking-widest text-[var(--fg-dimmer)] mb-1.5 mt-auto pt-2">
-          <History size={11} /> {engine === "n2" ? "built with N2" : "what you've built"} ({builds.length})
+          <History size={11} /> {"what you've built"} ({builds.length})
         </div>
         <div className="flex-1 min-h-0 overflow-y-auto space-y-1.5">
           {builds.length === 0 && <div className="text-[12px] text-[var(--fg-dimmer)] py-3">Nothing yet — say your first idea above.</div>}
@@ -273,7 +279,7 @@ export default function SpeakBuild() {
           ) : (
             <div className="text-center text-[var(--fg-dim)] text-[13px] px-6 max-w-[360px]">
               <Hammer size={26} className="mx-auto mb-2 opacity-50" style={{ color: accent }} />
-              Say or type an idea on the left — it builds here, live, for $0{engine === "n2" ? ", with Nex-N2-Pro" : ""}.
+              Say or type an idea on the left — it builds here, live, for $0.
               <div className="flex items-center justify-center gap-1.5 mt-3 text-[12px] text-[var(--fg-dimmer)]">
                 <Play size={13} style={{ color: accent }} /> or tap a build in the gallery below to play it
               </div>
@@ -286,7 +292,7 @@ export default function SpeakBuild() {
                 className="absolute inset-0 grid place-items-center bg-black/55 backdrop-blur-sm">
                 <div className="flex flex-col items-center gap-2 text-[var(--fg)]">
                   <Loader2 size={28} className="animate-spin" style={{ color: accent }} />
-                  <div className="text-[13px]">{engine === "n2" ? "building it with Nex-N2-Pro (free)…" : "building it with a free model…"}</div>
+                  <div className="text-[13px]">{`building it with local ${localName} (free)…`}</div>
                 </div>
               </motion.div>
             )}
@@ -296,7 +302,7 @@ export default function SpeakBuild() {
         {/* gallery strip */}
         {htmlFiles.length > 0 && (
           <div className="shrink-0 border-t border-[var(--panel-border)] px-3 py-2 flex items-center gap-2 overflow-x-auto">
-            <span className="text-[10px] uppercase tracking-widest text-[var(--fg-dimmer)] shrink-0 pr-1">{engine === "n2" ? "n2 gallery" : "gallery"}</span>
+            <span className="text-[10px] uppercase tracking-widest text-[var(--fg-dimmer)] shrink-0 pr-1">{"gallery"}</span>
             {htmlFiles.map((f) => (
               <button key={f.relPath} onClick={() => { setCurrent(f.relPath); setIframeKey((k) => k + 1); }}
                 className="shrink-0 text-[11px] px-2.5 py-1.5 rounded-lg border font-[var(--font-geist-mono)] transition"

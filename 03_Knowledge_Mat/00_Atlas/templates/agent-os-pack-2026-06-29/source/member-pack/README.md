@@ -1,8 +1,16 @@
 # 🚀 The Agent OS — Start Here
 
-> 📦 **This pack: version `2026-07-03` (built 3 July 2026).** To check you're on the latest, compare this against the newest pack in the AI Profit Boardroom — or just run `Update Agent OS.command`.
+> 🛑 **Don't upload this zip into the Claude / ChatGPT website chat.** Agent OS is a **desktop app you run on your own computer**, not a file for a web chat — uploaded there, Claude won't run it (and won't copy its code). **Unzip it on your computer** and jump to **⚡ Step one** below. *(Want an AI to install it for you? That's `SETUP-GUIDE.md` — you point a terminal agent like Claude Code or Codex at the unzipped folder, never the web chat.)*
+>
+> 📦 **This pack: version `2026-08-03` (built 3 August 2026).** To check you're on the latest, compare this against the newest pack in the AI Profit Boardroom — or just run `Update Agent OS.command`.
 >
 > 📅 **See what changed and when → [`CHANGELOG.md`](CHANGELOG.md)** — a day-by-day list of new features and fixes.
+>
+> 🪟 **On Windows? → [`install/25-WINDOWS-INSTALL.md`](install/25-WINDOWS-INSTALL.md)** is your step-by-step install guide. (The double-click `.command` files are Mac-only — don't use them on Windows. Everything else works the same.)
+>
+> ✅ **First time installing? Start with the [`IMPLEMENTATION-CHECKLIST.md`](IMPLEMENTATION-CHECKLIST.md)** — a tick-box list to get up and running (only the first four steps are required).
+>
+> 🔌 **Struggling to link a model, tool or API? → [`SETUP-GUIDE.md`](SETUP-GUIDE.md)** — the "connect everything" guide. Best bit: paste one sentence to Claude/Hermes and it wires up every key for you.
 >
 > 🗺️ **New here? Follow the [`30-DAY-ROADMAP.md`](30-DAY-ROADMAP.md)** — a simple day-by-day plan from "just installed" to running an AI-first operation. Do one thing a day, skip what you don't need.
 >
@@ -14,15 +22,13 @@ It looks big. It isn't hard.
 
 ---
 
-## ⚡ Step one for everyone: double-click `Start Agent OS.command`
+## ⚡ Step one — start the dashboard (pick your system)
 
-That's it. It checks you have Node (free — it sends you to the download if not), installs itself the first time (a few minutes, once), then opens your dashboard at **http://localhost:3737**.
+- **🍎 Mac:** double-click **`Start Agent OS.command`**. It checks you have Node (free — sends you to the download if not), installs itself once (a few minutes), then opens your dashboard. *(First double-click: if macOS says "unidentified developer," right-click the file → Open → Open. Once only.)*
+- **🪟 Windows:** the `.command` files are **Mac-only** — follow the step-by-step **[`install/25-WINDOWS-INSTALL.md`](install/25-WINDOWS-INSTALL.md)** instead (let an AI do it for you, or 3 PowerShell commands). Everything else works exactly the same.
+- **🐧 Linux:** follow the Linux section in **[`install/1-CORE-DASHBOARD.md`](install/1-CORE-DASHBOARD.md)**.
 
-> 🍎 **First double-click on a Mac:** if macOS says it's from an unidentified developer, **right-click the file → Open → Open**. You only do that once.
-
-> 🪟 **On Windows?** The double-click `.command` files are **Mac-only** — don't worry, Agent OS runs great on Windows. **Start here instead → [`install/25-WINDOWS-INSTALL.md`](install/25-WINDOWS-INSTALL.md)** (an AI sets it up for you, or 3 PowerShell commands). Everything else works the same.
-
-From the second time on, it starts in seconds. Keep the little window open while you use the OS.
+Either way, your dashboard opens at **http://localhost:3737** (use **Chrome**). From the second time on it starts in seconds.
 
 **Wondering what's working and what's not?** Double-click **`Check My Setup.command`** any time — a friendly ✅/⚪️ health check that tells you exactly which guide adds each missing piece.
 
@@ -84,7 +90,20 @@ Open the **`install/`** folder. The files are numbered. Do them in order. Each o
 | 24 | `24-WINDOWS-STATE-AND-MEMORY.md` | Windows: unify Hermes homes + shared Obsidian memory | 🔧 Advanced |
 | 25 | `25-WINDOWS-INSTALL.md` | 🪟 **Windows users start here** — install + run on Windows | ✅ Windows |
 | 26 | `26-OPENMONTAGE.md` | Describe a scene → a cinematic video (OpenRouter + ffmpeg) | Optional |
-| 27 | `27-GLM-CODE.md` | Claude Code's agent on GLM-5.2 (cheaper builds) | Optional |
+| 27 | `27-GLM-CODE.md` | GPT 5.6 Code tab — one builder, 4 brains (GPT 5.6 / GLM / Kimi K3 / Qwen 3.8) | Optional |
+| 28 | `28-OMNIROUTE.md` | Free coding across 90+ providers (auto-fallback) | Optional |
+| 29 | `29-OPENSEO.md` | Self-hosted Semrush/Ahrefs (SEO sub-tab, Docker) | Optional |
+| 30 | `30-ASTROS.md` | Hermes Astros — 24/7 YouTube watcher (sub-tab) | Optional |
+| 31 | `31-HY3-CODER.md` | Cheap fast one-shot builds (Tencent Hy3 via OpenRouter) | Optional |
+| 32 | `32-SEO-OFFICE.md` | Local SEO agency OS (SEO sub-tab, clone + pnpm dev) | 🔧 Advanced |
+| 33 | `33-VIDEO-EDITOR.md` | Edit any video by chatting (upload → describe → final.mp4) | Optional |
+| 34 | `34-OPENCODE.md` | Free terminal coding agent (opencode, built-in free models) | Optional |
+| 35 | `35-APP-LAB.md` | Ready-made free AI apps (MoA, web-chat, travel planner) | Optional |
+| 36 | `36-SEO-RESEARCH.md` | Connect your own Google Search Console → live keyword research | Optional |
+| 37 | `37-DEEPSEEK-CODER.md` | DeepSeek V4 Flash chat + workspace (official API, cheap) | Optional |
+| 38 | `38-PARASITE-SEO.md` | One keyword → platform-native content everywhere (SEO sub-tab) | Optional |
+| 39 | `39-JCODE.md` | Tiny Rust coding agent on your Claude login (no new key) | Optional |
+| 40 | `40-HIGGSFIELD.md` | AI images + video via Hermes (Higgsfield MCP) | Optional |
 | 8 | `8-TROUBLESHOOTING.md` | If anything goes wrong | 🆘 |
 | 9 | `9-PHONE-AGENT.md` | Call your agent on a real phone number | 🔧 Advanced |
 
@@ -127,6 +146,7 @@ Open <http://localhost:3737>. Then read the install files for the optional servi
 | **Pipeline** | Drop an idea → it gets built | None (uses the free build engine) |
 | **Game Studio** | Describe a game → play it | Free engine → `13-GAME-STUDIO.md` |
 | **Video** | HyperFrames render + AI avatars | `12-VIDEO-STUDIO.md` (avatars need a key) |
+| **Video Editor** | Edit any video by chatting → `final.mp4` | video-use skill + ffmpeg → `33-VIDEO-EDITOR.md` |
 | **OpenMontage** | Describe a scene → a cinematic video | OpenRouter + ffmpeg → `26-OPENMONTAGE.md` |
 | **Music** | Text prompt → a real song | Suno key → `14-MUSIC-STUDIO.md` |
 | **Thumbnails** | Better YouTube thumbnails | OpenAI key → `10-THUMBNAIL-STUDIO.md` |
@@ -134,8 +154,17 @@ Open <http://localhost:3737>. Then read the install files for the optional servi
 | **AI Agent Mastermind** | Live group chat — each agent is a *different model* | OpenRouter key (your Hermes key) → `4-HERMES.md` · Free Claude Code agent uses local Ollama |
 | **Paperclip** | Run an AI company w/ org chart | `6-PAPERCLIP.md` |
 | **Hermes** | The do-things agent + Jarvis voice | `4-HERMES.md` + `3-JARVIS-VOICE.md` |
+| **Hermes Cloud** | Run Hermes on the cloud via the Nous portal | Nous account → `4-HERMES.md` |
 | **Free Claude Code** | Code with AI for $0 | `5-FREE-CLAUDE-CODE.md` |
-| **GLM Code** | Claude Code's agent on GLM-5.2 (cheap web builds) | Ollama + claude → `27-GLM-CODE.md` |
+| **Local** | Chat with models running on your own Mac (no cloud, no cost) | Ollama → `2-VOICE-BUILDING.md` |
+| **GPT 5.6 Code** | One build-me-an-app tab, 4 brains: GPT 5.6 (default), GLM-5.2, Kimi K3, Qwen 3.8 | `27-GLM-CODE.md` |
+| **OmniRoute** | Free coding across 90+ providers, auto-fallback | `npm i -g omniroute` → `28-OMNIROUTE.md` |
+| **Hy3 Coder** | Cheap fast one-shot builds (Tencent Hy3) | OpenRouter key → `31-HY3-CODER.md` |
+| **DeepSeek Coder** | DeepSeek V4 Flash chat + workspace (official API) | DeepSeek key → `37-DEEPSEEK-CODER.md` |
+| **jcode** | Featherweight Rust coding agent on your Claude login | Claude login + install → `39-JCODE.md` |
+| **Higgsfield** | AI images + video, generated through Hermes, auto-galleried | Higgsfield account → `40-HIGGSFIELD.md` |
+| **opencode** | Free open-source terminal coding agent (built-in free models) | `curl opencode.ai/install` → `34-OPENCODE.md` |
+| **App Lab** | Ready-made free AI apps (MoA, chat-with-webpage, travel planner) | OpenRouter key + clone repo → `35-APP-LAB.md` |
 | **Claude · OpenClaw · Gemini · Antigravity · Codex** | Each AI tool's own tab | Install the ones you use → `7-AGENT-CLIS.md` |
 | **Kimi Code** | Moonshot's Kimi K2.7 coding agent | `16-KIMI-CODE.md` (install CLI + `kimi login`) |
 | **GLM 5.2 · Fusion · Sakana Fugu** | Extra model brains + councils to chat with | API key → `17-EXTRA-MODELS.md` |
@@ -145,12 +174,31 @@ Open <http://localhost:3737>. Then read the install files for the optional servi
 | **Open Design** | Local-first design studio (prototypes, decks, images) | Advanced → `21-OPEN-DESIGN.md` |
 | **Leads** | Find real prospects + emails for outreach | Optional (free tier) → `22-LEADS.md` |
 | **Radar** | 24/7 AI-news watcher → today's content + hooks | Grok login → `23-RADAR.md` |
+| **Hermes → Astros** | 24/7 YouTube watcher → video ideas + titles + keywords | Works keyless → `30-ASTROS.md` |
 | **SEO** | Generate + publish SEO content | Advanced — needs a coding agent (Claude Code *or* Free Claude Code, `7-AGENT-CLIS.md`) + your own sites |
-| **Build Guide** | An in-app how-to guide | None |
+| **SEO → OpenSEO** | Self-hosted Semrush/Ahrefs (keyword research, ranks, backlinks) | Docker + DataForSEO key → `29-OPENSEO.md` |
+| **SEO → SEO Office** | Local SEO agency OS (3D office, claude-seo agents) | Clone + `pnpm dev` → `32-SEO-OFFICE.md` |
+| **SEO → Research** | Live keyword research from *your own* Search Console (opportunities, CTR leaks) | Connect your GSC → `36-SEO-RESEARCH.md` |
+| **SEO → Parasite SEO** | One winning keyword → platform-native plays for X / IG / TikTok / YouTube | Same GSC connection → `38-PARASITE-SEO.md` |
+| **SEO → Transcripts** | Paste/pick a video transcript → turn it into an SEO article | Part of the SEO tab (`7-AGENT-CLIS.md` for the coding agent) |
 
 > A tab that needs a tool you haven't installed just stays quiet — it never breaks anything. Set up only what you'll use.
 
 ### ✨ New in this version
+- **New tab: jcode** — a featherweight open-source Rust coding agent (~28MB RAM) that runs on your **existing Claude login** — no new key, with a session History panel → `install/39-JCODE.md`.
+- **New tab: Higgsfield** — generate AI **images + video** through Hermes (Higgsfield's official MCP); every asset auto-saves to an in-tab gallery → `install/40-HIGGSFIELD.md`.
+- **New tab: DeepSeek Coder** — chat + build with **DeepSeek V4 Flash** (the 31-July public beta) on DeepSeek's official API; very cheap, very fast reasoning coder → `install/37-DEEPSEEK-CODER.md`.
+- **New SEO sub-tab: Parasite SEO** — pick a query you already rank for and get platform-native plays (X thread, IG Reel, TikTok/YouTube Short) with Claude-ready prompts; auto-detects Google's new GSC platform properties the moment the API opens → `install/38-PARASITE-SEO.md`.
+- **"Hey Hermes" wake word** — tap the ear in the Hermes tab and talk hands-free; detection is on-device (openwakeword), nothing leaves your Mac → `install/4-HERMES.md`.
+- **Free Claude Code router switch** — flip between **OmniRoute** (90+ keyless free providers) and **9Router** (RTK token saver, 20–40% fewer tokens) right in the panel → `install/5-FREE-CLAUDE-CODE.md`.
+- **Talk sub-tab removed** from Hermes — real-time voice lives in **Hermes-Jarvis** and the new wake word; one voice path instead of two.
+- **Claude Opus 5 is the new default** — the Claude tab + SEO engine now run on **Claude Opus 5** (`claude-opus-5`, launched 24 July 2026), Anthropic's newest flagship. Nothing to set up if your Claude plan has it; prefer Opus 4.8 or Claude 5? One line → `install/7-AGENT-CLIS.md`.
+- **New brain: Qwen 3.8** — the **GPT 5.6 Code** tab now offers Alibaba's 2.4T flagship **Qwen 3.8** (via Qoder) alongside GPT 5.6, GLM-5.2 and Kimi K3 — GoldieBench #5, tied with Fable 5. Pick it in the model dropdown → `install/27-GLM-CODE.md`.
+- **SEO → Research now works for YOU** — the Research tab pulls live keyword data from *your own* Google Search Console. The connect script now ships (`scripts/gsc-connect.py`) so you authorize your own sites in ~5 min — no more "research script missing", and no one else's domains → `install/36-SEO-RESEARCH.md`.
+- **New tab: opencode** — the open-source `opencode` terminal coding agent (160k★) in its own tab, with built-in free models so it builds real apps for $0, no key → `install/34-OPENCODE.md`.
+- **New tab: App Lab** — a catalog of ready-to-run AI apps (Mixture-of-Agents, chat-with-any-webpage, travel planner) adapted to free cloud models → `install/35-APP-LAB.md`.
+- **New tab: OmniRoute** — free coding across 90+ providers with auto-fallback, no API key → `install/28-OMNIROUTE.md`.
+- **New: Implementation Checklist** — a tick-box get-running list for fresh installs → `IMPLEMENTATION-CHECKLIST.md`.
 - **New tab: GLM Code** — the real Claude Code agent running on GLM-5.2 (via Ollama Cloud) for much cheaper web-app builds → `install/27-GLM-CODE.md`.
 - **New tab: OpenMontage** — describe a scene → a short cinematic video (Cinematic mode is cheap + fast; Movie mode is premium). Uses your OpenRouter key + ffmpeg → `install/26-OPENMONTAGE.md`.
 - **Hermes Mixture-of-Agents (MoA)** — run several models together and blend their answers for tougher questions.
@@ -182,7 +230,7 @@ Open <http://localhost:3737>. Then read the install files for the optional servi
 - **NotebookLM connects properly for everyone** — fixed a bug where the Notebook tab pointed at one person's folder (`spawn …ENOENT`); it now finds NotebookLM on *your* Mac automatically. Full setup in `install/15-NOTEBOOKLM.md`.
 - **Music Studio + Video Studio** — generate songs (Suno) and videos (HyperFrames + AI avatars), each with its own guide.
 - **One-click updater** — double-click `Update Agent OS.command` to move to the newest version, keeping all your settings.
-- **Claude model choice** — the Claude tab runs on **Opus 4.8** by default (reliable + lighter on tokens). 💡 **Want maximum power?** Switch to **Claude 5** (`claude-fable-5`) with one line — see the ⭐ section in `install/7-AGENT-CLIS.md`.
+- **Claude model choice** — the Claude tab runs on **Claude Opus 5** (`claude-opus-5`) by default, Anthropic's newest flagship. Prefer Opus 4.8 or Claude 5? Change one line — see the ⭐ section in `install/7-AGENT-CLIS.md`.
 - **Thumbnail Studio** — the new gpt-image-2 thumbnail maker (sidebar → Thumbnails). See `install/10-THUMBNAIL-STUDIO.md`.
 - **Jarvis upgrades** — now runs on your connected MiniMax plan (not pay-per-token), reads your whole Obsidian vault to answer "what do you remember…" and "what happened yesterday", and runs silent (no blips).
 - **Build gallery** — every app you've built with the Agent Factory shows as live previews inside the Hermes-Jarvis tab.

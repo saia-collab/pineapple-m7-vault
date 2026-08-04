@@ -1,0 +1,42 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "dashboard",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "C:/Pineapple Contractors M7/03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source", "start"],
+      "port": 3000
+    },
+    {
+      "name": "openseo",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "C:/Users/estim/open-seo", "run", "preview"],
+      "port": 3001
+    },
+    {
+      "name": "m7-engine",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["C:/Pineapple Contractors M7/04_Tech_Lab/server_m7.py"],
+      "port": 51763
+    },
+    {
+      "name": "fcc",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["fcc-server", "--port", "8082"],
+      "port": 8082
+    },
+    {
+      "name": "paperclip",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["paperclipai", "run"],
+      "port": 3100
+    },
+    {
+      "name": "omniroute",
+      "runtimeExecutable": "omniroute",
+      "runtimeArgs": [],
+      "port": 20128,
+      "autoPort": false
+    }
+  ]
+}

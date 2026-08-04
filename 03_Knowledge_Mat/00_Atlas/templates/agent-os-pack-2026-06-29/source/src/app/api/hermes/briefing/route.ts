@@ -1,11 +1,11 @@
 import { NextResponse } from "next/server";
-import { buildBriefing, type BriefingRange } from "@/lib/jarvisBriefing";
+import { buildBriefing, type BriefingRange } from "@/lib/apolloBriefing";
 import { saveBriefing, listBriefings } from "@/lib/briefingLog";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
-// GET ?range=daily|weekly  → build a fresh vault-grounded JARVIS briefing (and
+// GET ?range=daily|weekly  → build a fresh vault-grounded APOLLO briefing (and
 //     persist it to history).
 // GET ?history=1[&limit=N] → list past saved briefings (newest first).
 export async function GET(req: Request) {

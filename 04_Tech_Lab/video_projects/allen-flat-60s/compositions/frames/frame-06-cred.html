@@ -1,0 +1,36 @@
+<template>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=DM+Sans:wght@400;500;700&display=swap');
+#root{position:relative;width:1080px;height:1920px;overflow:hidden;font-family:"DM Sans",system-ui,sans-serif;}
+#frame-06-cred-bg{position:absolute;inset:0;background:#1A365D;}
+.frame-06-cred-wrap{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;align-items:center;padding:0 96px;text-align:center;box-sizing:border-box;}
+.frame-06-cred-serif{font-family:"Libre Caslon Display",Georgia,serif;font-weight:400;line-height:.92;letter-spacing:-.02em;}
+.frame-06-cred-eyebrow{font-family:"DM Sans",sans-serif;font-weight:700;font-size:26px;letter-spacing:.28em;text-transform:uppercase;}
+
+</style>
+<div id="root" data-composition-id="frame-06-cred" data-start="0" data-width="1080" data-height="1920" data-duration="8">
+  <div id="frame-06-cred-bg" class="clip" data-start="0" data-duration="8" data-track-index="0"></div>
+  <div class="frame-06-cred-wrap clip" data-start="0" data-duration="8" data-track-index="1">
+
+    <div class="frame-06-cred-eyebrow" id="f6-eb" style="color:#FBC02D;margin-bottom:56px;">The Pineapple Standard</div>
+    <div id="f6-stack" style="display:flex;flex-direction:column;gap:52px;"><div id="f6-c1" class="f6-cred">
+  <div class="frame-06-cred-serif" style="color:#F7F5EF;font-size:70px;">TPO &middot; PVC &middot; Mod-Bit</div>
+  <div style="color:#00BFFF;font-size:28px;letter-spacing:.06em;margin-top:8px;">Commercial low-slope systems</div></div><div id="f6-c2" class="f6-cred">
+  <div class="frame-06-cred-serif" style="color:#F7F5EF;font-size:70px;">IKO Certified</div>
+  <div style="color:#00BFFF;font-size:28px;letter-spacing:.06em;margin-top:8px;">Documented workmanship</div></div><div id="f6-c3" class="f6-cred">
+  <div class="frame-06-cred-serif" style="color:#F7F5EF;font-size:70px;">RCAT #03-0637</div>
+  <div style="color:#00BFFF;font-size:28px;letter-spacing:.06em;margin-top:8px;">Texas licensed &middot; since 2005</div></div></div>
+
+  </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+<script>
+window.__timelines = window.__timelines || {};
+(function(){
+  const tl = gsap.timeline({paused:true});
+  tl.fromTo("#f6-eb",{opacity:0,y:24},{opacity:1,y:0,duration:.5},0.2);
+  tl.fromTo(".f6-cred",{opacity:0,y:40},{opacity:1,y:0,duration:.6,stagger:1.2,ease:"power3.out"},1.0);
+  window.__timelines["frame-06-cred"] = tl;
+})();
+</script>
+</template>

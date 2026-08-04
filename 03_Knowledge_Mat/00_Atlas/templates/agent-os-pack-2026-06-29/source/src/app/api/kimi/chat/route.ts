@@ -114,11 +114,27 @@ export async function POST(req: Request) {
       const handleLine = (line: string) => {
         const t = line.trim();
         if (!t) return;
-        let evt: { role?: string; content?: unknown; type?: string };
+        let evt: { role?: string; content?: unknown; type?: string; tool_calls?: { function?: { name?: string; arguments?: string } }[] };
         try { evt = JSON.parse(t); } catch { return; } // ignore non-JSON noise
         if (evt.role === "assistant") {
           const text = contentText(evt.content);
           if (text) { emitted = true; send({ t: "d", c: text }); }
+          // surface tool activity so long builds don't look frozen
+          if (Array.isArray(evt.tool_calls)) {
+            for (const tc of evt.tool_calls) {
+              const name = tc?.function?.name ?? "tool";
+              let target = "";
+              try {
+                const args = JSON.parse(tc?.function?.arguments ?? "{}");
+                target = args.path ?? args.file_path ?? args.command ?? args.url ?? "";
+                if (typeof target === "string" && target.length > 60) target = target.slice(0, 57) + "…";
+              } catch {}
+              send({ t: "s", c: target ? `${name} · ${target}` : name });
+            }
+          }
+        } else if (evt.role === "tool") {
+          const text = contentText(evt.content);
+          if (text) send({ t: "s", c: String(text).split("\n")[0].slice(0, 90) });
         }
         // meta / session hints and everything else are ignored for the chat view.
       };

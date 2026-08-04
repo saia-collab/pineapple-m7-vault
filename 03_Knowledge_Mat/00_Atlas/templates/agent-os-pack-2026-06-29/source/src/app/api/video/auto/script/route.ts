@@ -1,6 +1,8 @@
 import { NextResponse } from "next/server";
 import { spawn } from "node:child_process";
-import { CLAUDE_MODEL, config } from "@/lib/config";
+import path from "node:path";
+import { CLAUDE_MODEL, config, hermesHome } from "@/lib/config";
+import { run } from "@/lib/runner";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -90,6 +92,19 @@ async function authorWithOllama(system: string, topic: string): Promise<string |
   } catch { return null; }
 }
 
+// Grok 4.5 via Hermes (Grok OAuth) — the default script author. No claude login needed;
+// it reasons + can research the topic (x_search auto-enables on the xAI creds).
+async function authorWithGrok(system: string, topic: string): Promise<string | null> {
+  try {
+    const prompt = `${system}\n\nTOPIC: ${topic}\n\nOutput ONLY the JSON object, nothing before or after it.`;
+    const res = await run("hermes", ["-p", "grok-4-5", "-z", prompt, "--yolo", "--accept-hooks"], {
+      cwd: path.join(hermesHome(), "profiles", "grok-4-5", "workspace"),
+      timeoutMs: 300_000,
+    });
+    return (res.stdout || "").trim() || null;
+  } catch { return null; }
+}
+
 function extractJson(raw: string): Script | null {
   // Strip fences, then take the outermost {...}.
   const body = raw.replace(/```json/gi, "").replace(/```/g, "");
@@ -128,15 +143,20 @@ export async function POST(req: Request) {
 
   const system = authorSystem(durationSec, sceneCount, tone);
 
-  // Best path: the `claude` CLI (can web-research). If it's unauthenticated or
-  // returns nothing usable, fall back to the local model so we never hard-fail.
+  // Default: Grok 4.5 via Hermes (Grok OAuth) — no login needed, always up. Falls back
+  // to the `claude` CLI (if it's logged in) then the local model, so it never hard-fails.
   let script: Script | null = null;
-  let engine: "claude" | "local" = "claude";
-  let claudeErr = "";
-  if (config.claude) {
+  let engine: "grok" | "claude" | "local" = "grok";
+  let detail = "";
+
+  const g = await authorWithGrok(system, topic);
+  if (g) script = extractJson(g);
+
+  if (!script && config.claude) {
     const { out, err } = await runClaude(system, topic, 480_000);
     script = extractJson(out);
-    claudeErr = (err || out).slice(-300);
+    if (script) engine = "claude";
+    detail = (err || out).slice(-300);
   }
   if (!script) {
     const local = await authorWithOllama(system, topic);
@@ -146,7 +166,7 @@ export async function POST(req: Request) {
   if (!script) {
     return NextResponse.json({
       error: "Could not author script",
-      detail: claudeErr || "no model output (claude CLI and local model both unavailable)",
+      detail: detail || "no model output (Grok, claude CLI and local model all unavailable)",
     }, { status: 502 });
   }
   return NextResponse.json({ ok: true, script, engine });

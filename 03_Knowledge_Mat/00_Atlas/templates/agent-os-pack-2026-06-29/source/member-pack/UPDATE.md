@@ -51,7 +51,7 @@ The dashboard runs fine on Windows — only the double-click installer is Mac-on
 ```powershell
 $APP = "$HOME\Agentic OS\agentic-os"                                  # adjust to your folder
 Copy-Item "$APP" "$APP.bak-$(Get-Date -Format yyyyMMdd_HHmmss)" -Recurse   # 1. back up
-robocopy ".\source" "$APP" /MIR /XD node_modules .next                # 2. new code, keep deps + your data
+robocopy ".\source" "$APP" /MIR /XD node_modules .next .git /XF .env .env.local ".env.*" agentic-os.config.json   # 2. new code — keep deps AND your keys/config
 cd "$APP"; npm install; npm run build; $env:PORT=3737; npm start       # 3. rebuild + run
 ```
 Then open **http://localhost:3737**. (Or just use `UPDATE-WITH-AI.md` above — it does all this for you, safely.)
@@ -65,8 +65,9 @@ If you'd rather do it by hand:
 ```bash
 APP=~/"Agentic OS/agentic-os"                       # adjust if yours is elsewhere
 cp -r "$APP" "$APP.bak-$(date +%Y%m%d_%H%M%S)"      # 1. back up
-rsync -a --delete --exclude node_modules --exclude .next --exclude .git --exclude '.env' \
-  ./source/ "$APP/"                                  # 2. copy new code, keep settings
+rsync -a --delete --exclude node_modules --exclude .next --exclude .git \
+  --exclude '.env' --exclude '.env.*' --exclude 'agentic-os.config.json' \
+  ./source/ "$APP/"                                  # 2. copy new code, keep your keys/config
 cd "$APP" && npm install && npm run build && npm start   # 3. rebuild + run
 ```
 > Customised files in `src/` yourself? Don't blind-copy — ask Claude to show a diff first, then keep your changes.

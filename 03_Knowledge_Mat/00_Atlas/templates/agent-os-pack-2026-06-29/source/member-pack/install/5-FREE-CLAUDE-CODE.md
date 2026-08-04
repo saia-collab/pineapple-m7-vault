@@ -24,7 +24,43 @@ fcc-server
 ```
 MODEL="ollama/gemma2"
 ```
-You can also point it at a free OpenRouter model, e.g. `MODEL="open_router/qwen/qwen3-coder:free"`.
+Or point it at a **free OpenRouter model** instead. Two good, current picks (both free, both do the tool-use a coding agent needs):
+```
+MODEL="open_router/qwen/qwen3-coder:free"        # coder-tuned — best for building
+# or
+MODEL="open_router/google/gemma-4-31b-it:free"   # strong general model, huge 256K context
+```
+
+> ⚠️ **Never use a "stealth" / "alpha" / cloaked model** (names like `owl-alpha`, `sonoma-*`, anything ending `-alpha`). A lab drops those **free for a few weeks** to collect data, then removes them or starts charging — so they suddenly stop working. Always use a **named** `:free` model like the two above.
+
+**Routing the Claude models through OpenRouter?** If you use the advanced `MODEL_OPUS` / `MODEL_SONNET` / `MODEL_HAIKU` lines, point all three at a named free model too:
+```
+MODEL_OPUS="open_router/qwen/qwen3-coder:free"
+MODEL_SONNET="open_router/qwen/qwen3-coder:free"
+MODEL_HAIKU="open_router/qwen/qwen3-coder:free"
+```
+
+> 💡 **Seeing `Upstream provider OPENROUTER returned HTTP 402 … requires more credits`?** Your free model was retired (this is what happened to `owl-alpha` on 30 June 2026). It's not your fault and it's not broken — just swap the line(s) above to a current `:free` model and restart. No paid credits needed.
+>
+## 🔀 The ROUTER switch — OmniRoute ⇄ 9Router (optional)
+
+The Free Claude Code panel has a **router switch** with two free-routing engines — pick whichever is healthy:
+
+- **OmniRoute** *(default)* — keyless pool of 90+ free providers with auto-fallback. Install + run:
+  ```bash
+  npm install -g omniroute && omniroute
+  ```
+  (Serves on `localhost:20128` — same tool as the OmniRoute tab, `28-OMNIROUTE.md`.)
+- **9Router** — a free router with an **RTK token saver** (compresses tool outputs, 20–40% fewer tokens) and your-accounts fallback chains. Install + run:
+  ```bash
+  npm install -g 9router
+  9router -p 20129
+  ```
+  Then open its dashboard at `http://127.0.0.1:20129` and **connect at least one provider** (a free tier is fine) — with zero providers connected it can't answer, and the panel will tell you so.
+
+Both run locally and cost $0. If the one you picked is down, the panel shows exactly what to run — or just flip the switch back.
+
+> 💡 **Seeing `HTTP 429 … Rate limit exceeded: free-models-per-day`?** You've hit OpenRouter's **free daily limit** (50 free-model requests/day for accounts with no credits). It resets each day. Three ways forward: **(1)** add **$5 of credits** to OpenRouter once — it bumps you to **1,000 free requests/day** (you still use the free models, the $5 just raises the limit): <https://openrouter.ai/settings/credits>; **(2)** switch to the **Local** model for *unlimited* free (`MODEL="ollama/gemma2"` — runs on your Mac, no limits); or **(3)** wait for the daily reset. It's a usage limit, not a bug.
 
 ## Try it
 Open **Free Claude Code → Chat & Workspace** and ask it to build something. Anything it writes shows up in the Workspace tab, ready to preview.

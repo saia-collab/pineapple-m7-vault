@@ -1,6 +1,7 @@
 import type { ReactNode } from "react";
 import Sidebar, { MobileNav } from "./Sidebar";
 import TopBar from "./TopBar";
+import OwnerBanner from "./OwnerBanner";
 
 export default function Shell({ children }: { children: ReactNode }) {
   return (
@@ -8,6 +9,7 @@ export default function Shell({ children }: { children: ReactNode }) {
       <Sidebar />
       <main className="flex-1 min-w-0 overflow-y-auto">
         <div className="max-w-[1500px] mx-auto px-6 md:px-10 py-8">
+          <OwnerBanner />
           <TopBar />
           {children}
         </div>

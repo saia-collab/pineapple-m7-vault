@@ -9,6 +9,7 @@ import VoiceButton from "./VoiceButton";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import HermesPet, { usePetState } from "./HermesPet";
+import WakeWordCard from "./WakeWordCard";
 
 // Render an agent reply as formatted markdown (bold, lists, code, links) instead
 // of raw text with visible ** asterisks. User messages stay plain.
@@ -49,6 +50,8 @@ interface Props {
   showAgentSwitcher?: boolean;
   height?: string;
 }
+
+const VOICE_PROFILE = "gpt56";   // GPT-5.6 Terra — ~4s replies for hands-free voice
 
 export default function UnifiedChat({
   defaultAgent = "claude",
@@ -120,12 +123,12 @@ export default function UnifiedChat({
     scrollRef.current?.scrollTo({ top: scrollRef.current.scrollHeight, behavior: "smooth" });
   }, [msgs, partial]);
 
-  async function send() {
-    const prompt = input.trim();
+  async function send(voicePrompt?: string, speakReply = false) {
+    const prompt = (voicePrompt ?? input).trim();
     if (!prompt || streaming) return;
     const userMsg: Msg = { role: "user", text: prompt, ts: Date.now() };
     setMsgs((m) => [...m, userMsg]);
-    setInput("");
+    if (!voicePrompt) setInput("");
     setPartial("");
     setStreaming(true);
     interimRef.current = "";
@@ -141,7 +144,9 @@ export default function UnifiedChat({
       if (agent === "claude") {
         reply = await streamClaude(prompt);
       } else if (agent === "hermes") {
-        reply = await callHermes(prompt);
+        // Voice commands go to the fast profile — a spoken "what time is it" should
+        // answer in seconds, not the 20-70s a heavy agentic profile takes.
+        reply = await callHermes(prompt, speakReply ? VOICE_PROFILE : undefined);
       } else if (agent === "antigravity") {
         reply = await callAntigravity(prompt);
       } else {
@@ -152,6 +157,21 @@ export default function UnifiedChat({
     } finally {
       clearInterval(tick);
     }
+
+    if (speakReply && reply) {
+
+      try {
+
+        const tr = await fetch("/api/hermes/tts", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ text: reply.slice(0, 1200) }) });
+
+        const td = await tr.json();
+
+        if (td.audio) { const a = new Audio(td.audio); a.play().catch(() => {}); }
+
+      } catch { /* tts optional */ }
+
+    }
+
 
     setMsgs((m) => [...m, { role: "assistant", agent, text: reply || "(no output)", ts: Date.now() }]);
     setPartial("");
@@ -200,7 +220,7 @@ export default function UnifiedChat({
     return acc;
   }
 
-  async function callHermes(prompt: string): Promise<string> {
+  async function callHermes(prompt: string, profileOverride?: string): Promise<string> {
     setPartial("");
     const ctrl = new AbortController();
     ctrlRef.current = ctrl;
@@ -211,12 +231,17 @@ export default function UnifiedChat({
     // per call, so without this every message was treated as a brand-new conversation).
     const history = msgs.slice(-24).map((m) => ({ role: m.role, text: m.text }));
     try {
-      const r = await fetch("/api/hermes/chat", {
-        method: "POST",
-        headers: { "content-type": "application/json" },
-        body: JSON.stringify(hermesProfile ? { prompt, profile: hermesProfile, history } : { prompt, history }),
-        signal: ctrl.signal,
+      const body = JSON.stringify((() => { const pf = profileOverride ?? hermesProfile; return pf ? { prompt, profile: pf, history } : { prompt, history }; })());
+      const call = () => fetch("/api/hermes/chat", {
+        method: "POST", headers: { "content-type": "application/json" }, body, signal: ctrl.signal,
       });
+      let r: Response;
+      try { r = await call(); }
+      catch (e) {
+        // transient dev-server reload / network blip — one retry before surfacing
+        if (String(e).includes("Failed to fetch")) { await new Promise((res) => setTimeout(res, 900)); r = await call(); }
+        else throw e;
+      }
       const j = await r.json();
       return j.text ?? "(no response — empty body)";
     } finally {
@@ -295,6 +320,7 @@ export default function UnifiedChat({
   return (
     <div className="panel flex flex-col overflow-hidden relative" style={{ height }}>
       {/* Animated Hermes pet — mirrors the agent's live state (idle / thinking / done / failed) */}
+      {agent === "hermes" && <WakeWordCard onCommand={(cmd) => send(cmd, true)} busy={streaming} />}
       {agent === "hermes" && (
         <div className="hermes-pet-dock">
           <HermesPet state={petState} height={104} />
@@ -574,7 +600,7 @@ export default function UnifiedChat({
             </button>
           ) : (
             <button
-              onClick={send}
+              onClick={() => send()}
               disabled={!input.trim()}
               className="px-3 h-[38px] rounded-lg flex items-center gap-1.5 text-sm transition disabled:opacity-40 disabled:cursor-not-allowed"
               style={{

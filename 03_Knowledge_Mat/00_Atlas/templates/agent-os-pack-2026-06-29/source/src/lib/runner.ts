@@ -32,9 +32,9 @@ function agentEnv(extra: Record<string, string> = {}): NodeJS.ProcessEnv {
     "/bin",
     "/usr/sbin",
     "/sbin",
-    `${process.env.HOME ?? "/Users/juliangoldie"}/.local/bin`,
-    `${process.env.HOME ?? "/Users/juliangoldie"}/local/node/bin`,
-    `${process.env.HOME ?? "/Users/juliangoldie"}/.kimi-code/bin`,
+    `${process.env.HOME ?? "/Users/saia"}/.local/bin`,
+    `${process.env.HOME ?? "/Users/saia"}/local/node/bin`,
+    `${process.env.HOME ?? "/Users/saia"}/.kimi-code/bin`,
   ];
   const existing = (base.PATH ?? "").split(":").filter(Boolean);
   const merged = [...new Set([...existing, ...ensurePath])].join(":");
@@ -42,7 +42,7 @@ function agentEnv(extra: Record<string, string> = {}): NodeJS.ProcessEnv {
     ...base,
     PATH: merged,
     SHELL: base.SHELL || "/bin/zsh",
-    HOME: base.HOME || `/Users/${process.env.USER || "juliangoldie"}`,
+    HOME: base.HOME || `/Users/${process.env.USER || "pineapplem7"}`,
     NO_COLOR: "1",
     FORCE_COLOR: "0",
     ...extra,

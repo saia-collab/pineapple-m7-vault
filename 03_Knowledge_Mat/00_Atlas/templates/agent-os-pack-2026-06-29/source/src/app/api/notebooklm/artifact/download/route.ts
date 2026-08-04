@@ -36,7 +36,7 @@ function mimeFor(p: string): string { return MIME[path.extname(p).toLowerCase()]
 // Sensible default extension per artifact type so the file lands with the right type.
 function extFor(artifact_type: string): string {
   switch (artifact_type) {
-    case "audio":       return ".mp3";
+    case "audio":       return ".m4a"; // NotebookLM delivers AAC in an MP4 container — .mp3 makes nlm refuse the download
     case "video":       return ".mp4";
     case "infographic": return ".png";
     case "slide_deck":  return ".pdf";

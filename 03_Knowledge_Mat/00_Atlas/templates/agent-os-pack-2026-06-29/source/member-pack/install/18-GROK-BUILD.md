@@ -1,6 +1,6 @@
 # 18 · Grok Build — xAI's Coding Agent (Optional)
 
-A tab for **Grok Build** (xAI's `grok-build` terminal coding agent). Chat with it, ask it to build games and apps, and whatever it writes lands in your **Workspace** tab and previews live — just like the other build tabs.
+A tab for **Grok Build** (xAI's `grok-build` terminal coding agent, now running on **grok-4.5**). Chat with it, ask it to build games and apps, and whatever it writes lands in your **Workspace** tab and previews live — just like the other build tabs.
 
 ## ⚠️ Read this first — what it needs
 Grok Build is different from the other AI tabs: it runs the **real Grok CLI signed in on your X account**, not an API key.

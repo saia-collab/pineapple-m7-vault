@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hail Damage in Frisco: A Homeowner's 72-Hour Playbook | Pineapple Blog</title>
+<meta name="description" content="Hail just hit Frisco. Here's exactly what to do in the first 72 hours — what to photograph, how to talk to your insurance company, and how to avoid storm-chasing scams. From the IKO Certified crew at Pineapple Contractors.">
+<!-- M7 PAUSED DRAFT · brand: Navy #1A365D + Gold #FBC02D + Cyan #00BFFF · zero green · CPPA not "free" · IKO Certified (never the banned brand) -->
+<style>
+  :root{
+    --navy:#1A365D; --navy-900:#122744; --gold:#FBC02D; --cyan:#00BFFF;
+    --ink:#0f172a; --slate:#475569; --line:#e6e9ef; --paper:#ffffff; --mist:#f6f8fb;
+    --maxw:1200px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    color:var(--ink);line-height:1.6;background:var(--paper);-webkit-font-smoothing:antialiased}
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 24px}
+  h1,h2,h3{line-height:1.15;letter-spacing:-0.02em;font-weight:800;color:var(--navy)}
+  .eyebrow{font-size:.78rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--cyan)}
+  .btn{display:inline-flex;align-items:center;gap:.5rem;font-weight:700;padding:.85rem 1.5rem;border-radius:8px;
+    font-size:.98rem;transition:transform .12s ease,box-shadow .12s ease;cursor:pointer;border:0}
+  .btn-gold{background:var(--gold);color:var(--navy-900)}
+  .btn-gold:hover{transform:translateY(-1px);box-shadow:0 8px 22px rgba(251,192,45,.35)}
+  .btn-ghost{background:transparent;color:#fff;border:1.5px solid rgba(255,255,255,.5)}
+  .btn-ghost:hover{border-color:var(--cyan);color:var(--cyan)}
+  .btn-navy{background:var(--navy);color:#fff}
+  .btn-navy:hover{transform:translateY(-1px);box-shadow:0 8px 22px rgba(26,54,93,.28)}
+
+  /* top utility bar */
+  .util{background:var(--navy-900);color:#dbe4f0;font-size:.82rem}
+  .util .wrap{display:flex;justify-content:space-between;align-items:center;height:40px;gap:16px;flex-wrap:wrap}
+  .util .dot{color:var(--gold)}
+  .util .social span{margin-left:12px;opacity:.85}
+
+  /* header */
+  header{position:sticky;top:0;z-index:50;background:#fff;border-bottom:1px solid var(--line)}
+  .nav{display:flex;align-items:center;justify-content:space-between;height:76px}
+  .brand{display:flex;align-items:center;gap:12px;font-weight:800;color:var(--navy);font-size:1.15rem;letter-spacing:-.02em}
+  .brand .mark{width:34px;height:34px;border-radius:8px;background:var(--navy);position:relative;flex:0 0 auto}
+  .brand .mark:after{content:"";position:absolute;inset:8px 9px;border-radius:2px;
+    background:linear-gradient(135deg,var(--gold) 0%,var(--gold) 60%,#fff 60%)}
+  .menu{display:flex;gap:26px;font-weight:600;font-size:.95rem;color:var(--slate)}
+  .menu a:hover{color:var(--navy)}
+  .menu a.active{color:var(--navy);position:relative}
+  .menu a.active:after{content:"";position:absolute;left:0;right:0;bottom:-28px;height:2px;background:var(--gold)}
+  .nav .cta{display:flex;align-items:center;gap:16px}
+  .nav .phone{font-weight:800;color:var(--navy);font-size:1rem}
+
+  /* thin-divider trust bar */
+  .trust{border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  .trust .grid{display:grid;grid-template-columns:repeat(4,1fr)}
+  .trust .cell{padding:26px 20px;border-left:1px solid var(--line)}
+  .trust .cell:first-child{border-left:0}
+  .trust .k{font-weight:800;color:var(--navy);font-size:1.05rem}
+  .trust .v{font-size:.9rem;color:var(--slate)}
+
+  /* blog post layout */
+  .postwrap{max-width:780px;margin:0 auto;padding:60px 0 30px}
+  .crumbs{font-size:.85rem;color:var(--slate);margin-bottom:18px}
+  .crumbs a{color:var(--navy);font-weight:600}
+  .crumbs a:hover{color:var(--cyan)}
+  .postwrap h1{font-size:2.6rem;line-height:1.15;margin-bottom:18px}
+  .postwrap .deck{font-size:1.18rem;color:var(--slate);margin-bottom:30px}
+  .postmeta{display:flex;align-items:center;gap:18px;padding:18px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin-bottom:40px;flex-wrap:wrap}
+  .postmeta .author{display:flex;align-items:center;gap:10px}
+  .postmeta .avatar{width:42px;height:42px;border-radius:99px;background:var(--navy);color:var(--gold);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:.95rem}
+  .postmeta .name{font-weight:800;color:var(--navy);font-size:.95rem}
+  .postmeta .role{font-size:.82rem;color:var(--slate)}
+  .postmeta .metaitem{font-size:.85rem;color:var(--slate)}
+  .postmeta .metaitem b{color:var(--navy)}
+
+  .postwrap figure{margin:30px 0;border-radius:14px;overflow:hidden;background:linear-gradient(135deg,var(--navy) 0%,var(--navy-900) 100%);padding:46px;color:#fff}
+  .postwrap figure h3{color:#fff;font-size:1.3rem;margin-bottom:.4rem}
+  .postwrap figure p{color:#cfd9e8;margin:0}
+
+  .postwrap h2{font-size:1.7rem;margin:42px 0 14px}
+  .postwrap h3{font-size:1.2rem;margin:28px 0 10px}
+  .postwrap p{margin-bottom:1.1rem;font-size:1.04rem;color:var(--ink)}
+  .postwrap ul,.postwrap ol{margin:0 0 1.4rem 1.4rem}
+  .postwrap li{margin-bottom:.6rem;font-size:1.02rem;color:var(--ink)}
+  .postwrap li b{color:var(--navy)}
+  .postwrap blockquote{margin:24px 0;padding:18px 22px;border-left:4px solid var(--gold);background:var(--mist);border-radius:0 10px 10px 0;font-style:italic;color:var(--navy);font-size:1.05rem}
+  .postwrap a{color:var(--cyan);font-weight:600}
+  .postwrap a:hover{color:var(--navy);text-decoration:underline}
+
+  /* in-article CTA */
+  .inart{background:var(--navy);color:#fff;border-radius:14px;padding:30px;margin:36px 0;display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap}
+  .inart h3{color:#fff;font-size:1.25rem;margin-bottom:.3rem;max-width:36ch}
+  .inart p{color:#cfd9e8;font-size:.95rem;margin:0}
+  .inart .actions{display:flex;gap:10px;flex-wrap:wrap}
+  .inart .btn-ghost{border-color:rgba(255,255,255,.4)}
+
+  /* checklist */
+  .checklist{background:var(--mist);border:1px solid var(--line);border-radius:14px;padding:28px;margin:30px 0}
+  .checklist h3{font-size:1.15rem;margin-bottom:14px}
+  .checklist .item{display:flex;gap:12px;padding:10px 0;border-top:1px solid var(--line)}
+  .checklist .item:first-of-type{border-top:0}
+  .checklist .item .box{width:22px;height:22px;border:2px solid var(--navy);border-radius:5px;flex:0 0 auto;margin-top:2px}
+  .checklist .item .txt{color:var(--ink);font-size:.98rem}
+  .checklist .item .txt b{color:var(--navy)}
+
+  /* author box */
+  .authorbox{display:flex;gap:20px;background:var(--mist);border:1px solid var(--line);border-radius:14px;padding:28px;margin:48px 0 30px}
+  .authorbox .av{width:64px;height:64px;border-radius:99px;background:var(--navy);color:var(--gold);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:1.2rem;flex:0 0 auto}
+  .authorbox h4{font-size:1.1rem;margin-bottom:.3rem}
+  .authorbox p{color:var(--slate);font-size:.95rem;margin:0}
+
+  /* related posts */
+  .related{background:var(--mist);padding:60px 0;border-top:1px solid var(--line)}
+  .related h2{font-size:1.7rem;margin-bottom:24px}
+  .related .posts{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+  .related .post{background:#fff;border:1px solid var(--line);border-radius:12px;padding:24px}
+  .related .post .cat{color:var(--cyan);font-size:.75rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase;margin-bottom:10px}
+  .related .post h3{font-size:1.05rem;margin-bottom:.6rem;line-height:1.3}
+  .related .post h3 a:hover{color:var(--cyan)}
+  .related .post p{color:var(--slate);font-size:.92rem;margin-bottom:.8rem}
+  .related .post .more{color:var(--navy);font-weight:700;font-size:.88rem}
+
+  /* final CTA */
+  .final{background:var(--gold)}
+  .final .grid{display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap}
+  .final h2{color:var(--navy-900);font-size:2rem;max-width:24ch}
+  .final .actions{display:flex;gap:12px;flex-wrap:wrap}
+
+  /* footer */
+  footer{background:var(--navy-900);color:#b9c6da;font-size:.92rem;padding:52px 0 30px}
+  footer .grid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:36px;margin-bottom:28px}
+  footer h4{color:#fff;font-size:.95rem;margin-bottom:12px;letter-spacing:.04em;text-transform:uppercase}
+  footer a{display:block;padding:4px 0;color:#b9c6da}
+  footer a:hover{color:var(--gold)}
+  footer .legal{border-top:1px solid rgba(255,255,255,.12);padding-top:18px;font-size:.82rem;color:#8ea1bd}
+
+  @media(max-width:900px){
+    .postwrap h1{font-size:2.05rem}
+    .inart{flex-direction:column;align-items:start}
+    .related .posts,.trust .grid,footer .grid{grid-template-columns:1fr}
+    .trust .cell{border-left:0;border-top:1px solid var(--line)}
+    .trust .cell:first-child{border-top:0}
+    .authorbox{flex-direction:column}
+    .menu,.util .social{display:none}
+  }
+</style>
+</head>
+<body>
+
+<!-- utility bar -->
+<div class="util"><div class="wrap">
+  <div>📞 <strong>(972) 928-0788</strong> <span class="dot">·</span> License #03-0637 <span class="dot">·</span> IKO Certified <span class="dot">·</span> ⭐ 5-Star Rated Since 2005</div>
+  <div class="social">Google<span>BBB</span><span>Facebook</span><span>Yelp</span><span>Instagram</span><span>YouTube</span></div>
+</div></div>
+
+<!-- header -->
+<header><div class="wrap nav">
+  <a class="brand" href="index.html"><span class="mark"></span> Pineapple Contractors</a>
+  <nav class="menu">
+    <a href="residential-roofing.html">Roofing</a>
+    <a href="index.html#services">Construction</a>
+    <a href="index.html#services">Restoration</a>
+    <a href="frisco-roofing.html">Service Areas</a>
+    <a href="index.html#why">About</a>
+    <a class="active" href="blog.html">Blog</a>
+  </nav>
+  <div class="cta">
+    <span class="phone">(972) 928-0788</span>
+    <a class="btn btn-gold" href="index.html#cppa">Book Your CPPA →</a>
+  </div>
+</div></header>
+
+<!-- trust bar -->
+<div class="trust"><div class="wrap grid">
+  <div class="cell"><div class="k">Since 2005</div><div class="v">20+ years on DFW homes</div></div>
+  <div class="cell"><div class="k">RCAT #03-0637</div><div class="v">State-licensed contractor</div></div>
+  <div class="cell"><div class="k">IKO Certified</div><div class="v">Manufacturer-certified installs</div></div>
+  <div class="cell"><div class="k">5-Star Local</div><div class="v">400+ DFW reviews</div></div>
+</div></div>
+
+<!-- article -->
+<article class="wrap postwrap">
+  <div class="crumbs"><a href="blog.html">← Back to the blog</a></div>
+  <span class="eyebrow">Storm &amp; Hail · Frisco, TX</span>
+  <h1>Hail Damage in Frisco: What Homeowners Need to Do in the First 72 Hours</h1>
+  <p class="deck">Hail hits Frisco and the rest of Collin County harder than almost anywhere in North Texas. Here's the exact playbook our IKO Certified crew runs on every storm call — what to photograph, what to skip, how to talk to your insurance company, and how to avoid the storm-chasing traps.</p>
+
+  <div class="postmeta">
+    <div class="author">
+      <div class="avatar">SM</div>
+      <div>
+        <div class="name">Saia Moeakiola</div>
+        <div class="role">Co-Owner &amp; Senior Operations Manager · Pineapple Contractors</div>
+      </div>
+    </div>
+    <div class="metaitem"><b>Published</b> Jul 13, 2026</div>
+    <div class="metaitem"><b>Read time</b> 7 min</div>
+  </div>
+
+  <p>If you just heard hail on the roof in Frisco last night — take a breath. Most of the time, the roof held. But the only way to know for sure is to look at it the right way, in the right order, before anything else happens. This is the same 72-hour playbook our team has run on hundreds of DFW homes since 2005, condensed into a single read.</p>
+
+  <h2>The first 60 minutes: stay safe, start the clock</h2>
+  <p>Before you climb a ladder, photograph a shingle, or call anyone — get the timing right. Insurance carriers care a lot about <b>when</b> the damage was reported, and small steps now save big arguments later.</p>
+
+  <div class="checklist">
+    <h3>Hour 1 — Do these in order</h3>
+    <div class="item"><div class="box"></div><div class="txt"><b>Confirm the hail event.</b> Check local radar, news, or the National Weather Service Fort Worth office for an official hail report near your address. Screenshot the timestamp.</div></div>
+    <div class="item"><div class="box"></div><div class="txt"><b>Walk the property from the ground.</b> Look for fallen branches, damaged fence panels, dented gutters, and shattered A/C fins. Photograph everything from the ground before you touch the roof.</div></div>
+    <div class="item"><div class="box"></div><div class="txt"><b>Open a claim file mentally.</b> Even if you don't call your carrier for 48 hours, write down the date, time, and what you observed. Your future self will thank you.</div></div>
+    <div class="item"><div class="box"></div><div class="txt"><b>Check cars in the driveway.</b> Car damage on the hood, roof, or windshield is excellent corroborating evidence. Photograph VIN-visible damage with a timestamp.</div></div>
+  </div>
+
+  <figure>
+    <h3>Heads up: the doorbell is about to ring.</h3>
+    <p>Within 24–48 hours of a Frisco hail event, you'll get knocks from crews that aren't from here. Some are legit. Many aren't. The list below tells you how to tell the difference.</p>
+  </figure>
+
+  <h2>Hours 1–24: what to photograph (and what not to touch)</h2>
+  <p>You do not need to get on the roof. In fact, please don't. The IKO Certified crew at Pineapple will do a Complimentary Professional Photo Audit that produces a full photo set you can hand to your adjuster — at no cost, no obligation. Until then, here's what to capture from the ground and the street.</p>
+
+  <h3>From the ground, photograph:</h3>
+  <ul>
+    <li><b>Soft metals first.</b> Gutter downspouts, metal fascia, window screens, and A/C condenser fins take the clearest "hail signature" — and adjusters love them.</li>
+    <li><b>Shingle mat exposed at the eaves.</b> Look up at the first row of shingles from underneath the eave. If you see black, shiny spots, granules have been knocked loose.</li>
+    <li><b>Skylights, vents, and pipe boots.</b> Any cracked sealant, dented flashing, or bruised boot is a clean, photographic piece of evidence.</li>
+    <li><b>The yard.</b> A close-up of hail stones on a ruler, in the same shot, is one of the strongest pieces of evidence in a claim.</li>
+  </ul>
+
+  <h3>What to skip:</h3>
+  <ul>
+    <li>Don't pressure-wash anything. Don't sweep granules off the driveway. Don't let anyone "test" the roof with a hammer.</li>
+    <li>Don't sign anything from a contractor who showed up uninvited. The "AOB" (Assignment of Benefits) trap is real, and it can hand control of your claim to someone else.</li>
+    <li>Don't pay a deposit. A legitimate local roofer does not need money to inspect your roof.</li>
+  </ul>
+
+  <div class="inart">
+    <div>
+      <h3>Want the audit done for you — properly, locally, and at no cost?</h3>
+      <p>Our crew is IKO Certified and based right here in Frisco. We'll document every piece of damage and meet your adjuster on site.</p>
+    </div>
+    <div class="actions">
+      <a class="btn btn-gold" href="index.html#cppa">Book My CPPA →</a>
+      <a class="btn btn-ghost" href="tel:9729280788">📞 (972) 928-0788</a>
+    </div>
+  </div>
+
+  <h2>Hour 24–48: calling your insurance company</h2>
+  <p>This is where most Frisco homeowners lose ground — not because the damage isn't real, but because the call goes sideways. Three rules keep you on the front foot.</p>
+
+  <h3>1. Call, but don't commit</h3>
+  <p>Open the claim, give the date of loss, give the address, and confirm the policy is in force. Don't accept a first settlement number on that call. Don't agree to a "cash-out for cosmetic damage" buyout. Don't accept an estimate you haven't seen. Just open the file.</p>
+
+  <h3>2. Use the words "functional damage," not "cosmetic"</h3>
+  <p>Texas insurance policies distinguish between cosmetic hail dings and damage that affects the life of the shingle. Granule loss, exposed mat, bruised shingles, and cracked flashing are all functional. If your adjuster calls it cosmetic and you're on a roof over 8 years old, push back — your policy almost certainly covers functional damage.</p>
+
+  <h3>3. Request your own copy of the adjuster's report</h3>
+  <p>You're entitled to it. Ask for the Xactimate estimate, the photo set, and the damage notes — in writing. If the scope feels light, that's the moment a Pineapple Photo Audit pays for itself ten times over.</p>
+
+  <blockquote>"The biggest mistake we see in Frisco hail claims isn't the storm. It's the homeowner accepting the first adjuster scope without a second set of trained eyes on the roof."</blockquote>
+
+  <h2>Hour 48–72: choosing the right local crew</h2>
+  <p>If your adjuster confirmed damage and the scope is on its way, you have a window of about a day to pick the right roofer. Here's the filter we suggest to every family member we work with.</p>
+
+  <h3>The 5-question local-credibility test</h3>
+  <ol>
+    <li><b>Where is your office, and how long have you been there?</b> A real Frisco roofer gives you a Frisco address. RCAT #03-0637 is on the website, the truck, and the contract.</li>
+    <li><b>Are you IKO Certified?</b> Manufacturer certification isn't marketing — it's what unlocks the 50-year product warranty on your new system.</li>
+    <li><b>Who is on the roof?</b> W-2 employees or day labor? You want the same crew, not a rotating cast pulled from a parking lot.</li>
+    <li><b>Will you meet my adjuster on site?</b> If the answer is no, find another roofer. Period.</li>
+    <li><b>What's the workmanship warranty in writing?</b> Pineapple's is in your contract. If a competitor won't put it in writing, that <i>is</i> the answer.</li>
+  </ol>
+
+  <h2>What storm-chasing crews cost Frisco homeowners every year</h2>
+  <p>It's not just the bait-and-switch. It's the unpermitted work that fails inspection at resale. It's the out-of-state warranty that's worthless when the company has moved on to the next tornado alley. It's the AOB that gives a stranger control of your insurance money. The Pineapple Standard is the opposite of all of that — local, certified, and accountable to the same number that's been on the same building since 2005.</p>
+
+  <p>We've roofed in Frisco through the 2016 hailstorm, the 2019 hail events, the 2021 freeze, and every storm since. When the next one hits, the playbook is the same: stay safe, document from the ground, open the claim carefully, and hire a local IKO Certified crew that will still be here next year.</p>
+
+  <h2>Your next 10 minutes</h2>
+  <p>If hail hit your home in the last 72 hours and you haven't had a roof looked at by a professional yet, the smartest next step is right here: a Complimentary Professional Photo Audit from Pineapple Contractors. No cost. No pressure. Just a clear, documented read on what your roof actually needs. Call <strong>972-928-0788</strong> to start yours today.</p>
+
+  <div class="checklist">
+    <h3>Quick action list</h3>
+    <div class="item"><div class="box"></div><div class="txt">Call <b>(972) 928-0788</b> or book a CPPA online — same-day or next-day appointments in Frisco during storm season.</div></div>
+    <div class="item"><div class="box"></div><div class="txt">Save your hail photos, your weather report screenshot, and your policy number in one folder — we use them during the audit.</div></div>
+    <div class="item"><div class="box"></div><div class="txt">Don't sign anything from an uninvited contractor. Don't pay a deposit. Don't accept a first scope you haven't seen in writing.</div></div>
+    <div class="item"><div class="box"></div><div class="txt">Forward this guide to a Frisco neighbor — the more aligned homeowners are, the harder it is for storm-chasers to win.</div></div>
+  </div>
+
+  <div class="inart" style="display:block">
+    <h3>Hail just hit Frisco. Let's take a look — on us.</h3>
+    <p>Complimentary Professional Photo Audit from your local, IKO Certified, RCAT-licensed crew. Real answers, no pressure, real warranty.</p>
+    <form onsubmit="return false;" style="display:flex;gap:8px;flex-wrap:wrap;margin-top:18px">
+      <input type="text" placeholder="Name" style="flex:1;min-width:140px;padding:.7rem .9rem;border:0;border-radius:8px;font-size:.95rem">
+      <input type="tel" placeholder="Phone" style="flex:1;min-width:140px;padding:.7rem .9rem;border:0;border-radius:8px;font-size:.95rem">
+      <button class="btn btn-gold" type="submit">Start My CPPA →</button>
+    </form>
+    <div style="font-size:.78rem;color:#cfd9e8;margin-top:12px"><span style="color:var(--gold);font-weight:700">⏸ Form paused (Outbox Shield) — lead capture is paused until reviewed &amp; wired.</span></div>
+  </div>
+
+  <div class="authorbox">
+    <div class="av">SM</div>
+    <div>
+      <h4>Saia Moeakiola</h4>
+      <p>Co-Owner &amp; Senior Operations Manager at Pineapple Contractors. Saia has run Frisco-area storm and insurance-claim operations for the Moeakiola family since 2005. RCAT #03-0637 · IKO Certified · (972) 928-0788.</p>
+    </div>
+  </div>
+</article>
+
+<!-- related posts -->
+<section class="related"><div class="wrap">
+  <h2>Keep reading</h2>
+  <div class="posts">
+    <article class="post">
+      <div class="cat">Insurance</div>
+      <h3><a href="#">How North Texas Insurance Claims Actually Work (From the Adjuster's Side)</a></h3>
+      <p>A practical look at the claim timeline, what's covered, what's not, and how to make sure your adjuster sees every piece of damage.</p>
+      <a class="more" href="#">Read more →</a>
+    </article>
+    <article class="post">
+      <div class="cat">Storm &amp; Hail</div>
+      <h3><a href="#">Grapevine Roofs After a Storm: What Insurance Adjusters Look For</a></h3>
+      <p>Wind vs. hail vs. age — how adjusters distinguish the three on a Tarrant County roof, and how to document damage the right way.</p>
+      <a class="more" href="#">Read more →</a>
+    </article>
+    <article class="post">
+      <div class="cat">Insurance</div>
+      <h3><a href="#">Why Your Insurance Company Denied Your Roof Claim (and What to Do Next)</a></h3>
+      <p>The five most common denial reasons we see across DFW — and the documentation that flips each one.</p>
+      <a class="more" href="#">Read more →</a>
+    </article>
+  </div>
+</div></section>
+
+<!-- final CTA -->
+<div class="final"><section style="padding:52px 0"><div class="wrap grid">
+  <h2>Frisco homeowner? Let's get on your roof this week.</h2>
+  <div class="actions">
+    <a class="btn btn-navy" href="tel:9729280788">📞 (972) 928-0788</a>
+    <a class="btn btn-navy" href="index.html#cppa" style="background:var(--navy-900)">Book My CPPA →</a>
+  </div>
+</div></section></div>
+
+<!-- footer -->
+<footer><div class="wrap">
+  <div class="grid">
+    <div>
+      <div class="brand" style="color:#fff;margin-bottom:12px"><span class="mark"></span> Pineapple Contractors</div>
+      <p style="max-width:34ch">IKO Certified roofing &amp; construction across Dallas–Fort Worth since 2005. RCAT License #03-0637.</p>
+    </div>
+    <div><h4>Services</h4><a href="residential-roofing.html">Residential Roofing</a><a href="index.html#services">Commercial Roofing</a><a href="index.html#services">Restoration</a><a href="index.html#services">Construction</a><a href="index.html#services">Insurance Claims</a></div>
+    <div><h4>Company</h4><a href="index.html#why">About</a><a href="frisco-roofing.html">Service Areas</a><a href="blog.html">Blog</a><a href="index.html#why">Reviews</a><a href="index.html#cppa">Contact</a></div>
+  </div>
+  <div class="legal">© Pineapple Contractors · RCAT #03-0637 · IKO Certified · 5-Star Rated · Since 2005 · (972) 928-0788
+    <br><span style="color:var(--gold)">⏸ PAUSED DRAFT — lead form inactive (Outbox Shield) until reviewed &amp; wired.</span></div>
+</div></footer>
+
+</body>
+</html>

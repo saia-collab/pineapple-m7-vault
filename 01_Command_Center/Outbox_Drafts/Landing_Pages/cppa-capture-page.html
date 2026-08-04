@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pineapple Roofing — Book Your Complimentary Professional Photo Audit</title>
+<meta name="description" content="Hail damage is usually invisible from the ground. We document every hit so your insurance claim holds. IKO Certified · RCAT #03-0637 · (972) 928-0788.">
+<!-- Fonts (loads when deployed; falls back to system fonts offline) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#1A365D; --navy-deep:#122845; --gold:#FBC02D; --cyan:#00BFFF;
+    --paper:#F7F5EF; --ink:#12233b; --muted:#5b6b80; --line:rgba(26,54,93,.14);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{font-family:'Inter',-apple-system,Segoe UI,Roboto,sans-serif;color:var(--ink);background:var(--paper);line-height:1.55;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:1060px;margin:0 auto;padding:0 24px}
+  h1,h2,h3{font-family:'Fraunces',Georgia,'Times New Roman',serif;font-weight:600;line-height:1.08;letter-spacing:-.01em}
+  a{color:inherit}
+  .accent{color:var(--gold)}
+
+  /* Sticky call bar */
+  .callbar{position:sticky;top:0;z-index:20;background:var(--navy-deep);color:#fff;border-bottom:1px solid rgba(255,255,255,.08)}
+  .callbar .wrap{display:flex;align-items:center;justify-content:space-between;padding:10px 24px;font-size:14px}
+  .callbar strong{font-weight:600;letter-spacing:.02em}
+  .callbar .lic{color:#aebfd6;font-size:12.5px}
+  .call-btn{display:inline-flex;align-items:center;gap:8px;background:var(--gold);color:var(--navy-deep);font-weight:600;text-decoration:none;padding:8px 16px;border-radius:999px;font-size:14px}
+
+  /* Hero */
+  .hero{background:linear-gradient(180deg,var(--navy) 0%,var(--navy-deep) 100%);color:#fff;position:relative;overflow:hidden}
+  .hero:after{content:"";position:absolute;inset:0;background-image:linear-gradient(135deg,rgba(0,191,255,.06) 25%,transparent 25%,transparent 50%,rgba(0,191,255,.06) 50%,rgba(0,191,255,.06) 75%,transparent 75%);background-size:56px 56px;opacity:.5;pointer-events:none}
+  .hero .wrap{position:relative;z-index:2;padding:78px 24px 70px;max-width:820px}
+  .eyebrow{display:inline-block;font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);border:1px solid rgba(251,192,45,.4);padding:6px 14px;border-radius:999px;margin-bottom:26px}
+  .hero h1{font-size:clamp(2.3rem,5.4vw,4rem);color:#fff}
+  .hero h1 em{font-style:normal;color:var(--gold)}
+  .hero p.lede{font-size:clamp(1.05rem,2.2vw,1.35rem);color:#d7e0ee;margin-top:22px;max-width:640px}
+  .cta-row{display:flex;flex-wrap:wrap;gap:14px;margin-top:34px}
+  .btn-primary{background:var(--gold);color:var(--navy-deep);font-weight:600;text-decoration:none;padding:15px 28px;border-radius:10px;font-size:1.02rem;transition:transform .15s ease}
+  .btn-primary:hover{transform:translateY(-2px)}
+  .btn-ghost{color:#fff;text-decoration:none;padding:15px 24px;border:1px solid rgba(255,255,255,.28);border-radius:10px;font-size:1.02rem}
+  .hero .fine{margin-top:20px;font-size:13.5px;color:#9fb2cc}
+
+  /* Mechanism */
+  .mech{padding:70px 0}
+  .mech h2{font-size:clamp(1.7rem,3.4vw,2.5rem);max-width:720px}
+  .mech .lines{margin-top:26px;max-width:640px;font-size:1.08rem;color:var(--ink)}
+  .mech .lines p{padding:13px 0;border-bottom:1px solid var(--line)}
+  .mech .lines p:last-child{border-bottom:0}
+  .mech .lines b{color:var(--navy)}
+
+  /* Value stack */
+  .stack{background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:64px 0}
+  .stack h2{font-size:clamp(1.5rem,3vw,2.1rem);margin-bottom:8px}
+  .stack .sub{color:var(--muted);margin-bottom:30px}
+  .stack ul{list-style:none;max-width:720px}
+  .stack li{display:flex;gap:16px;align-items:flex-start;padding:16px 0;border-bottom:1px solid var(--line);font-size:1.05rem}
+  .stack li:last-child{border-bottom:0}
+  .tick{flex:0 0 auto;width:22px;height:22px;border-radius:50%;background:var(--navy);color:var(--gold);display:grid;place-items:center;font-size:12px;font-weight:700;margin-top:2px}
+
+  /* Trust */
+  .trust{padding:40px 0}
+  .trust .row{display:flex;flex-wrap:wrap;gap:14px 40px;align-items:center;justify-content:center;text-align:center;color:var(--navy);font-weight:600;letter-spacing:.02em}
+  .trust .dot{color:var(--cyan)}
+
+  /* Form */
+  .capture{background:var(--navy);color:#fff;padding:64px 0}
+  .capture .grid{display:grid;grid-template-columns:1.1fr 1fr;gap:44px;align-items:center}
+  .capture h2{font-size:clamp(1.7rem,3.4vw,2.4rem);color:#fff}
+  .capture h2 em{font-style:normal;color:var(--gold)}
+  .capture p{color:#cdd8ea;margin-top:16px;max-width:440px}
+  .capture .assure{margin-top:20px;font-size:14px;color:#9fb2cc}
+  form{background:var(--paper);color:var(--ink);border-radius:14px;padding:26px}
+  form h3{font-size:1.25rem;margin-bottom:6px}
+  form .sm{color:var(--muted);font-size:14px;margin-bottom:18px}
+  label{display:block;font-size:13px;font-weight:600;color:var(--navy);margin:14px 0 6px}
+  input{width:100%;padding:13px 14px;border:1px solid var(--line);border-radius:9px;font-size:1rem;font-family:inherit;background:#fff}
+  input:focus{outline:2px solid var(--gold);border-color:transparent}
+  .submit{width:100%;margin-top:22px;background:var(--gold);color:var(--navy-deep);font-weight:700;border:0;padding:15px;border-radius:10px;font-size:1.05rem;cursor:pointer}
+  .submit:hover{filter:brightness(1.03)}
+
+  footer{background:var(--navy-deep);color:#9fb2cc;padding:40px 0;text-align:center;font-size:14px}
+  footer .ph{color:#fff;font-weight:600;font-size:1.05rem}
+  footer .seal{font-family:'Fraunces',serif;color:#cdd8ea;margin-top:14px;font-style:italic}
+
+  @media(max-width:760px){
+    .capture .grid{grid-template-columns:1fr;gap:28px}
+    .callbar .lic{display:none}
+  }
+</style>
+</head>
+<body>
+
+  <div class="callbar"><div class="wrap">
+    <span><strong>Pineapple Roofing</strong> &nbsp;<span class="lic">RCAT #03-0637 · IKO Certified · Since 2005</span></span>
+    <a class="call-btn" href="tel:19729280788">Call (972) 928-0788</a>
+  </div></div>
+
+  <header class="hero"><div class="wrap">
+    <span class="eyebrow">North Texas Storm &amp; Hail Specialists</span>
+    <h1>Your insurance will pay for a new roof after hail — <em>if you prove the damage in time.</em></h1>
+    <p class="lede">Most homeowners miss it, because hail damage is invisible from the ground. We climb up, document every hit, and hand you a report your adjuster can't wave off.</p>
+    <div class="cta-row">
+      <a class="btn-primary" href="#book">Book my Complimentary Photo Audit</a>
+      <a class="btn-ghost" href="tel:19729280788">or call (972) 928-0788</a>
+    </div>
+    <p class="fine">IKO Certified · RCAT License #03-0637 · 20 years in Frisco &amp; DFW · 5-star rated</p>
+  </div></header>
+
+  <section class="mech"><div class="wrap">
+    <h2>The damage you can't see is the damage that costs you.</h2>
+    <div class="lines">
+      <p>Hail cracks the protective layer of your shingles. From the driveway, the roof still looks fine.</p>
+      <p>By the time a stain shows on your ceiling, the water has already spread — and your <b>claim window may be closed.</b></p>
+      <p>So we do the hard part: we photograph every impact and build the <b>documented evidence your insurance needs</b> to approve the claim.</p>
+    </div>
+  </div></section>
+
+  <section class="stack"><div class="wrap">
+    <h2>What your Complimentary Professional Photo Audit includes</h2>
+    <p class="sub">No cost. No obligation. Even if the answer is "your roof is fine for now."</p>
+    <ul>
+      <li><span class="tick">✓</span><span><b>Full photo documentation</b> of your roof — every slope, every impact, dated and organized.</span></li>
+      <li><span class="tick">✓</span><span><b>A written scope</b> in plain English: what's urgent, what can wait, and why.</span></li>
+      <li><span class="tick">✓</span><span><b>Insurance-claim guidance</b> from a team that meets adjusters on-site every week.</span></li>
+      <li><span class="tick">✓</span><span><b>An honest answer</b> — we'll tell you if you don't need a new roof yet.</span></li>
+    </ul>
+  </div></section>
+
+  <section class="trust"><div class="wrap"><div class="row">
+    <span>RCAT License #03-0637</span><span class="dot">•</span>
+    <span>IKO Certified Expert</span><span class="dot">•</span>
+    <span>Family-Owned Since 2005</span><span class="dot">•</span>
+    <span>5-Star Rated · 400+ DFW Homes</span>
+  </div></div></section>
+
+  <section class="capture" id="book"><div class="wrap"><div class="grid">
+    <div>
+      <h2>Book your <em>Complimentary Professional Photo Audit.</em></h2>
+      <p>Tell us where, and we'll schedule your documented roof audit. Storm-area homeowners are booked first.</p>
+      <p class="assure">We respond fast — most requests get a call back within minutes during storm season.</p>
+    </div>
+    <!-- ⚠️ CONNECT THIS FORM: set action= to your Formspree/CRM endpoint, or wire to your WordPress form.
+         Until then it does nothing. Do NOT collect real leads until it's connected. -->
+    <form action="#" method="post" onsubmit="return false;">
+      <h3>Start with photos, not pressure.</h3>
+      <p class="sm">2 minutes. A real person calls you back.</p>
+      <label for="name">Full name</label>
+      <input id="name" name="name" type="text" placeholder="Your name" required>
+      <label for="phone">Phone</label>
+      <input id="phone" name="phone" type="tel" placeholder="(972) 000-0000" required>
+      <label for="zip">Property ZIP code</label>
+      <input id="zip" name="zip" type="text" inputmode="numeric" placeholder="75034" required>
+      <button class="submit" type="submit">Book my Photo Audit →</button>
+    </form>
+  </div></div></section>
+
+  <footer><div class="wrap">
+    <div class="ph">(972) 928-0788</div>
+    <div>Pineapple Roofing · IKO Certified · RCAT License #03-0637 · Frisco &amp; Lewisville, TX</div>
+    <div class="seal">Ko e hala 'o e fononga ko e faka'apa'apa.</div>
+  </div></footer>
+
+</body>
+</html>
+<!-- M7-FIREWALL-EXEMPT: landing-page -->

@@ -66,8 +66,14 @@ export async function POST(req: Request) {
   // earlier setup) must NOT hard-fail every message with "Profile 'kimi' does not exist".
   // Only pass --profile when that profile actually exists; otherwise fall back to Hermes'
   // default active profile so the chat still works.
-  const profileArgs = profile && existsSync(path.join(hermesHome(), "profiles", profile))
-    ? ["--profile", profile]
+  // v0.19 REALITY CHECK (2026-07-31): the HERMES_PROFILE env var is IGNORED by Hermes —
+  // `HERMES_PROFILE=x hermes status` silently reports the ACTIVE profile's model, so every
+  // profile pill was cosmetic and answers came from `julian` (kimi-k3). Only the `-p` FLAG
+  // selects a profile. -p scopes auth per-profile, so each profile's auth.json now carries
+  // the Portal OAuth block (propagated from julian) — verified `hermes -p hermes-cloud status`
+  // shows Nous Portal ✓ logged in.
+  const profileArgs: string[] = profile && existsSync(path.join(hermesHome(), "profiles", profile))
+    ? ["-p", profile]
     : [];
   // Pack the recent conversation in so follow-ups keep context (no more amnesia).
   const fullPrompt = buildPromptWithHistory(history, prompt);

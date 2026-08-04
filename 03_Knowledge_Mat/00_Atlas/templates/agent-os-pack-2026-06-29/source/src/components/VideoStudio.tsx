@@ -5,7 +5,7 @@ import {
   Film, Sparkles, Layers, Loader2, Send, Play, Download, ExternalLink,
   Wand2, User, FolderOpen, RefreshCw, Search, Radio, Clock, X as XIcon,
   CheckCircle2, AlertCircle, Code2, FileJson, FileText, Image as ImageIcon,
-  Eye, Clapperboard,
+  Eye, Clapperboard, Activity,
 } from "lucide-react";
 import VideoDirector from "./VideoDirector";
 
@@ -228,6 +228,17 @@ function CreateTab() {
         </div>
         {error && <div className="text-[11px] text-[var(--plum)] mt-2" title={error}>{error.slice(0, 220)}</div>}
 
+        {/* Quick-start: the new keyframes / inspect-motion capability */}
+        <div className="mt-3 rounded-md border p-2.5 text-[10.5px] leading-relaxed"
+          style={{ borderColor: "var(--line-soft)", background: "rgba(124,255,203,0.045)", color: "var(--cream-mute)" }}>
+          <div className="flex items-center gap-1.5 font-medium mb-1" style={{ color: ACCENT }}>
+            <Activity size={11} /> New · the agent can see its own motion
+          </div>
+          Render a project, open it, and hit <b style={{ color: "var(--cream)" }}>Inspect motion</b>. You get the animation
+          timeline + an <b style={{ color: "var(--cream)" }}>onion-skin</b> of the motion path — so janky, robotic motion
+          is obvious and the keyframes get fixed, then re-rendered. Powered by HyperFrames <span className="mono">keyframes</span>.
+        </div>
+
         <div className="mt-auto pt-3 border-t" style={{ borderColor: "var(--line-soft)" }}>
           <div className="flex items-center justify-between mb-2">
             <div className="text-[10px] uppercase tracking-widest" style={{ color: "var(--cream-mute)" }}>Projects · {projects.length}</div>
@@ -268,7 +279,30 @@ function CreateTab() {
   );
 }
 
+type KFTween = { id: string; target: string; method?: string; start?: number; end?: number; duration?: number; shape?: string; path?: unknown };
+type KFResult = { tweenCount: number; selector: string | null; shot: { url: string; selector: string } | null; motion: { compositions?: { composition?: string; tweens?: KFTween[] }[] }; warnings: string[]; error?: string };
+
 function ProjectView({ project, onReRender, busy }: { project: HFProject; onReRender: () => void; busy: boolean }) {
+  const [insp, setInsp] = useState<KFResult | null>(null);
+  const [inspBusy, setInspBusy] = useState(false);
+  const [inspErr, setInspErr] = useState<string | null>(null);
+
+  // "See its own motion": ask hyperframes for the timeline + an onion-shot.
+  async function inspectMotion() {
+    setInspBusy(true); setInspErr(null);
+    try {
+      const r: KFResult = await fetch("/api/video/hyperframes/keyframes", {
+        method: "POST", headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ slug: project.slug, shot: true }),
+      }).then((x) => x.json());
+      if (r.error) setInspErr(r.error);
+      else setInsp(r);
+    } catch (e) { setInspErr(String(e)); }
+    finally { setInspBusy(false); }
+  }
+
+  const tweens: KFTween[] = insp?.motion?.compositions?.flatMap((c) => c.tweens ?? []) ?? [];
+
   return (
     <div className="flex-1 min-h-0 flex flex-col gap-3">
       {project.lastRender ? (
@@ -284,11 +318,49 @@ function ProjectView({ project, onReRender, busy }: { project: HFProject; onReRe
             style={{ borderColor: ACCENT, color: ACCENT, background: `${ACCENT}10`, opacity: busy ? 0.5 : 1 }}>
             {busy ? "…" : "Render again"}
           </button>
+          <button onClick={inspectMotion} disabled={inspBusy}
+            className="px-3 py-1 rounded-md border transition flex items-center gap-1"
+            style={{ borderColor: "var(--line-soft)", color: "var(--cream)", background: "rgba(255,255,255,0.03)", opacity: inspBusy ? 0.5 : 1 }}
+            title="Let the agent see its own motion — timeline + onion-skin diagnostic">
+            <Activity size={11} /> {inspBusy ? "Inspecting…" : "Inspect motion"}
+          </button>
           {project.lastRender && (
             <a href={project.lastRender.url} download className="hover:text-[var(--cream)] flex items-center gap-1"><Download size={11} /> Download</a>
           )}
         </div>
       </div>
+
+      {inspErr && <div className="text-[11px] text-[var(--plum)]" title={inspErr}>Inspect failed: {inspErr.slice(0, 200)}</div>}
+
+      {insp && (
+        <div className="rounded-md border p-3 space-y-3" style={{ borderColor: "var(--line-soft)", background: "rgba(0,0,0,0.25)" }}>
+          <div className="flex items-center gap-2 text-[10px] uppercase tracking-widest" style={{ color: ACCENT }}>
+            <Activity size={11} /> Motion timeline · {insp.tweenCount} tweens
+            {insp.selector && <span className="mono lowercase tracking-normal text-[var(--cream-mute)]">focus: {insp.selector}</span>}
+          </div>
+          {insp.shot && (
+            <div>
+              <div className="text-[10px] text-[var(--cream-mute)] mb-1">Onion-shot — {insp.shot.selector} ghosted across the timeline (agent&apos;s-eye view of the motion path):</div>
+              <img src={insp.shot.url} alt="onion-skin motion diagnostic" className="w-full rounded-md bg-black/40" />
+            </div>
+          )}
+          {insp.warnings?.length > 0 && (
+            <div className="text-[10.5px] text-[var(--cream-mute)] italic">{insp.warnings.join(" ")}</div>
+          )}
+          <div className="max-h-[200px] overflow-y-auto scroll space-y-1">
+            {tweens.slice(0, 60).map((t, i) => (
+              <div key={t.id + i} className="flex items-center gap-2 text-[10.5px] mono" style={{ color: "var(--cream-mute)" }}>
+                <span className="truncate flex-1 text-[var(--cream)]">{t.target || t.id}</span>
+                <span>{t.method}</span>
+                <span>{(t.start ?? 0).toFixed(1)}s→{(t.end ?? 0).toFixed(1)}s</span>
+                <span className="px-1 rounded" style={{ background: (t.path != null || (t.shape && t.shape !== "flat")) ? `${ACCENT}22` : "rgba(255,255,255,0.05)", color: (t.path != null || (t.shape && t.shape !== "flat")) ? ACCENT : "var(--cream-mute)" }}>
+                  {t.path != null ? "path" : t.shape ?? "flat"}
+                </span>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
     </div>
   );
 }

@@ -102,14 +102,17 @@ which hermes     # → paste into "hermes"
 
 For your Obsidian vault, just point it at the folder you open in Obsidian.
 
-### Environment variables (alternative)
+### Where settings live (and survive updates)
 
-If you'd rather not edit a JSON file, use a `.env.local`:
+Put your settings in **`~/.agentic-os/config.json`** — it lives **outside** the app folder, so an update never touches it. Set your vault path there:
 
 ```bash
-cp .env.example .env.local
-# Edit .env.local with your paths
+# create it once (safe — outside the app folder)
+mkdir -p ~/.agentic-os
+printf '{\n  "vaultRoot": "/full/path/to/your/Obsidian vault"\n}\n' > ~/.agentic-os/config.json
 ```
+
+> ⚠️ **Don't keep keys or config in a `.env` / `.env.local` inside the app folder as your only copy.** The updater now preserves them if they're there, but `~/.agentic-os/config.json` is the update-proof home — use it.
 
 ---
 

@@ -60,7 +60,7 @@ function classify(from: string, subject: string): InboxMsg["kind"] {
 }
 
 async function himalayaConfigured(): Promise<boolean> {
-  const passFile = path.join(HOME, ".config", "himalaya", "goldie.pass");
+  const passFile = path.join(HOME, ".config", "himalaya", "pineapple.pass");
   return existsSync(path.join(HOME, ".config", "himalaya", "config.toml")) && existsSync(passFile);
 }
 

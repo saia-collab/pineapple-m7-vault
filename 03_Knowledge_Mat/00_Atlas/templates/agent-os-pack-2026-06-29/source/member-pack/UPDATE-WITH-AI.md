@@ -47,13 +47,15 @@ Extract the zip to a temp folder. The new app code is at `<temp>/agent-os/source
 Swap the new `source/` over the app folder, **keeping `node_modules` + `.next`**. Tell the user this overwrites the app code (their data is untouched), then run:
 - **macOS / Linux:**
   ```bash
-  rsync -a --delete --exclude node_modules --exclude .next "<temp>/agent-os/source/" "<app>/"
+  rsync -a --delete --exclude node_modules --exclude .next \
+    --exclude '.env' --exclude '.env.*' --exclude 'agentic-os.config.json' --exclude '.git' \
+    "<temp>/agent-os/source/" "<app>/"
   ```
 - **Windows (PowerShell):**
   ```powershell
-  robocopy "<temp>\agent-os\source" "<app>" /MIR /XD node_modules .next
+  robocopy "<temp>\agent-os\source" "<app>" /MIR /XD node_modules .next .git /XF .env .env.local ".env.*" agentic-os.config.json
   ```
-  *(`/MIR` mirrors and removes app files no longer in the new version — the Windows equivalent of `--delete`; `/XD` leaves `node_modules` + `.next` alone. The Step-2 backup is your safety net.)*
+  *(`/MIR` mirrors and removes app files no longer in the new version — the Windows equivalent of `--delete`. **`/XF` + `/XD` are ESSENTIAL: they stop the mirror deleting the user's `.env` / `.env.local` / `agentic-os.config.json` if any live inside the app folder.** The Step-2 backup is your safety net.)*
 
 > If the user kept custom edits in `src/`, don't blind-overwrite — show them a diff first and merge their changes.
 

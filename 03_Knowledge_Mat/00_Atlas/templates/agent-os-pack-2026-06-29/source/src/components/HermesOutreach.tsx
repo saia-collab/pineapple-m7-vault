@@ -11,7 +11,7 @@ import type { Lead, Campaign, OutreachStats } from "@/lib/outreach";
 // The mailbox every send goes out from (shown in the preview's To/From + opt-out).
 // NOTE: keep this a client-safe local copy — never value-import from @/lib/outreach
 // (it pulls node fs/path into the browser bundle). Mirrors appendOptOut() in the lib.
-const SEND_FROM = "hermes@goldie.agency";
+const SEND_FROM = "hermes@pineapplecontractors.com";
 function appendOptOutPreview(body: string, from: string): string {
   return body.replace(/\s+$/, "") +
     `\n\n—\nNot interested? Just reply STOP and I won't email you again.` +
@@ -117,7 +117,7 @@ export default function HermesOutreach() {
         <div className="grid place-items-center w-9 h-9 rounded-xl shrink-0" style={{ background: `${GOLD}22`, color: GOLD, boxShadow: `0 0 26px -8px ${GOLD}` }}><Mail size={17} /></div>
         <div className="mr-auto">
           <div className="text-[15px] font-semibold tracking-tight" style={{ color: "var(--fg)" }}>Email Outreach</div>
-          <div className="text-[11.5px] text-[var(--fg-dimmer)]">Find · enrich · validate · send — through hermes@goldie.agency</div>
+          <div className="text-[11.5px] text-[var(--fg-dimmer)]">Find · enrich · validate · send — through hermes@pineapplecontractors.com</div>
         </div>
         {s.meta.paused && (
           <button onClick={() => act({ action: "set_paused", paused: false }, "resume")} className="flex items-center gap-1.5 px-3 py-1.5 rounded-full border text-[12px] font-medium" style={{ borderColor: `${RUST}66`, color: RUST, background: `${RUST}14` }}>
@@ -539,7 +539,7 @@ function InboxView() {
       <div className="panel p-3 text-[11.5px] text-[var(--fg-dim)] flex items-center gap-2 flex-wrap">
         <Inbox size={14} style={{ color: GOLD }} />
         Reading via <strong style={{ color: "var(--fg)" }}>{data?.source === "himalaya" ? "Himalaya (IMAP)" : "gmail_cli (service account)"}</strong>.
-        {!data?.himalayaActive && <span className="text-[var(--fg-dimmer)] inline-flex items-center gap-1"><CornerDownRight size={11} />add <code style={{ color: GOLD_SOFT }}>~/.config/himalaya/goldie.pass</code> to switch reads to Himalaya.</span>}
+        {!data?.himalayaActive && <span className="text-[var(--fg-dimmer)] inline-flex items-center gap-1"><CornerDownRight size={11} />add <code style={{ color: GOLD_SOFT }}>~/.config/himalaya/pineapple.pass</code> to switch reads to Himalaya.</span>}
       </div>
       <div className="grid md:grid-cols-2 gap-3">
         <Section title="Replies" color={EMERALD} items={data?.replies || []} />
@@ -745,7 +745,7 @@ function SettingsView({ flash, onChanged }: { flash: (m: string) => void; onChan
           <div className="text-[11px] uppercase tracking-widest mb-1" style={{ color: GOLD }}>Backends</div>
           <StatusRow ok={d.gmail.ready} label={<span className="flex items-center gap-1">Gmail send · <EmailText value={d.gmail.mailbox} /></span>} hint={d.gmail.ready ? "connected" : "sa-key missing"} />
           <StatusRow ok={d.hunter.configured} label="Hunter.io (find · verify · size)" hint={d.hunter.configured ? "key set" : "no key"} />
-          <StatusRow ok={d.himalaya.ready} label="Himalaya inbox read" hint={d.himalaya.ready ? "active" : "add goldie.pass"} />
+          <StatusRow ok={d.himalaya.ready} label="Himalaya inbox read" hint={d.himalaya.ready ? "active" : "add pineapple.pass"} />
           <StatusRow ok={d.firecrawl.configured} label="Firecrawl enrichment" hint={d.firecrawl.configured ? "key set" : "no key"} />
         </div>
       </div>

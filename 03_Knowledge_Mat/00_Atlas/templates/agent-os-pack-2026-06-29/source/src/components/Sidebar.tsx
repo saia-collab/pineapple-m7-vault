@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { motion } from "framer-motion";
-import { LayoutGrid, Brain, Sparkles as SparklesIcon, TrendingUp, Columns3, NotebookText, Film, Building2, Workflow, MessagesSquare, Image as ImageIcon, Gamepad2, Music2, Network, Clapperboard, Repeat, Cpu, LayoutDashboard, Palette, GripVertical, Eye, EyeOff, SlidersHorizontal, Check, SquareTerminal } from "lucide-react";
+import { LayoutGrid, Brain, TrendingUp, Columns3, NotebookText, Film, Building2, Workflow, MessagesSquare, Image as ImageIcon, Gamepad2, Music2, Network, Clapperboard, Repeat, Cpu, LayoutDashboard, Palette, GripVertical, Eye, EyeOff, SlidersHorizontal, Check, SquareTerminal, Route, Scissors, FlaskConical, Wand2 } from "lucide-react";
 import { useState, useEffect, type ReactNode } from "react";
 import AgentAvatar from "./AgentAvatar";
 
@@ -29,31 +29,38 @@ const NAV: NavItem[] = [
   { href: "/codex",       label: "Codex",       icon: <AgentAvatar agent="codex" size={22} />,       accent: "#00BFFF", dim: "rgba(0,191,255,0.16)" },
   { href: "/kimi",        label: "Kimi Code",   icon: <AgentAvatar agent="kimi" size={22} />,        accent: "#00CCFF", dim: "rgba(0,204,255,0.16)" },
   { href: "/glm",         label: "GLM 5.2",     icon: <AgentAvatar agent="glm" size={22} />,         accent: "#34E5B0", dim: "rgba(52,229,176,0.16)" },
-  { href: "/glm-code",    label: "GLM Code",    icon: <SquareTerminal size={18} />,                  accent: "#34E5B0", dim: "rgba(52,229,176,0.16)" },
+  { href: "/glm-code",    label: "GPT 5.6 Code", icon: <SquareTerminal size={18} />,                 accent: "#00BFFF", dim: "rgba(0,191,255,0.16)" },
+  { href: "/jcode",       label: "jcode",       icon: <SquareTerminal size={18} />,                  accent: "#f5a623", dim: "rgba(245,166,35,0.16)" },
   { href: "/grok",        label: "Grok Build",  icon: <AgentAvatar agent="grok" size={22} />,        accent: "#cdd3f7", dim: "rgba(205,211,247,0.16)" },
   { href: "/freeclaude",  label: "Free Claude Code", icon: <AgentAvatar agent="fcc" size={22} />,    accent: "#00BFFF", dim: "rgba(0,191,255,0.16)" },
+  { href: "/omniroute",   label: "Free AI Coder",   icon: <Route size={18} />,                            accent: "#2dd4bf", dim: "rgba(45,212,191,0.16)" },
+  { href: "/hy3-coder",   label: "Hy3 Coder",   icon: <Cpu size={18} />,                              accent: "#3b82f6", dim: "rgba(59,130,246,0.16)" },
+  { href: "/deepseek-coder", label: "DeepSeek Coder", icon: <Cpu size={18} />,                       accent: "#4d6bfe", dim: "rgba(77,107,254,0.16)" },
+  { href: "/higgsfield", label: "Higgsfield", icon: <Wand2 size={18} />,                             accent: "#c084fc", dim: "rgba(192,132,252,0.16)" },
+  { href: "/opencode",    label: "opencode",    icon: <SquareTerminal size={18} />,                   accent: "#38bdf8", dim: "rgba(56,189,248,0.16)" },
   { href: "/fusion",      label: "Fusion",      icon: <Network size={18} />,                         accent: "#d4a574", dim: "rgba(212,165,116,0.16)" },
   { href: "/sakana",      label: "Sakana Fugu", icon: <Network size={18} />,                         accent: "#ff5f9e", dim: "rgba(255,95,158,0.16)" },
-  { href: "/local",       label: "Local",       icon: <Cpu size={18} />,                             accent: "#5eead4", dim: "rgba(0,191,255,0.16)" },
+  { href: "/local",       label: "Local",       icon: <Cpu size={18} />,                             accent: "#5eead4", dim: "rgba(94,234,212,0.16)" },
   { href: "/agent-kanban", label: "Agent Kanban", icon: <LayoutDashboard size={18} />,                accent: "#7dd3fc", dim: "rgba(125,211,252,0.16)" },
   // Personal
   { href: "/loop",     label: "Loop",     icon: <Repeat size={16} />,   accent: "#2dd4bf", dim: "rgba(45,212,191,0.16)" },
-  { href: "/seo",      label: "SEO",      icon: <TrendingUp size={16} />, accent: "#00BFFF", dim: "rgba(251,192,45,0.16)" },
+  { href: "/seo",      label: "SEO",      icon: <TrendingUp size={16} />, accent: "#FBC02D", dim: "rgba(251,192,45,0.16)" },
   { href: "/opendesign", label: "Open Design", icon: <Palette size={16} />, accent: "#e879f9", dim: "rgba(232,121,249,0.16)" },
   { href: "/video",    label: "Video",    icon: <Film size={16} />,      accent: "#ef4444", dim: "rgba(239,68,68,0.16)" },
   { href: "/openmontage", label: "OpenMontage", icon: <Clapperboard size={16} />, accent: "#f0a868", dim: "rgba(240,168,104,0.16)" },
+  { href: "/video-use", label: "Video Editor", icon: <Scissors size={16} />, accent: "#f59e0b", dim: "rgba(245,158,11,0.16)" },
   { href: "/music",    label: "Music",    icon: <Music2 size={16} />,    accent: "#c084fc", dim: "rgba(192,132,252,0.16)" },
   { href: "/games",    label: "Game Studio", icon: <Gamepad2 size={16} />, accent: "#39ff8e", dim: "rgba(57,255,142,0.16)" },
+  { href: "/apps",     label: "App Lab",  icon: <FlaskConical size={16} />, accent: "#FBC02D", dim: "rgba(251,192,45,0.16)" },
   { href: "/thumbnails", label: "Thumbnails", icon: <ImageIcon size={16} />, accent: "#fb7185", dim: "rgba(251,113,133,0.16)" },
   { href: "/notebook", label: "Notebook", icon: <NotebookText size={16} />, accent: "#fde047", dim: "rgba(253,224,71,0.16)" },
   { href: "/kanban",   label: "Kanban",   icon: <Columns3 size={16} />,  accent: "#14b8a6", dim: "rgba(20,184,166,0.16)" },
   { href: "/memory",   label: "Memory",   icon: <Brain size={16} />,     accent: "#22d3ee", dim: "rgba(34,211,238,0.16)" },
-  { href: "/guide",    label: "Build Guide", icon: <SparklesIcon size={16} />, accent: "#ec4899", dim: "rgba(236,72,153,0.16)" },
 ];
 
 const DEFAULT_ORDER = NAV.map((n) => n.href);
 const BY_HREF: Record<string, NavItem> = Object.fromEntries(NAV.map((n) => [n.href, n]));
-const AGENT_ROUTES = new Set(["/claude", "/openclaw", "/hermes", "/antigravity", "/codex", "/kimi", "/glm", "/grok", "/freeclaude", "/fusion", "/sakana", "/local"]);
+const AGENT_ROUTES = new Set(["/claude", "/openclaw", "/hermes", "/antigravity", "/codex", "/kimi", "/glm", "/grok", "/freeclaude", "/omniroute", "/hy3-coder", "/deepseek-coder", "/higgsfield", "/fusion", "/sakana", "/local"]);
 const LS_ORDER = "agentos.sidebar.order";
 const LS_HIDDEN = "agentos.sidebar.hidden";
 
@@ -76,6 +83,8 @@ export default function Sidebar() {
   const [customize, setCustomize] = useState(false);
   const [dragHref, setDragHref] = useState<string | null>(null);
   const [overHref, setOverHref] = useState<string | null>(null);
+  const [version, setVersion] = useState("");
+  useEffect(() => { fetch("/api/version").then((r) => r.json()).then((j) => setVersion(j.version || "")).catch(() => {}); }, []);
 
   // load saved prefs (client only)
   useEffect(() => {
@@ -123,6 +132,12 @@ export default function Sidebar() {
         <div className="text-xl tracking-tight" style={{ fontFamily: "'Bricolage Grotesque', sans-serif", fontWeight: 500, color: "var(--cream)" }}>
           Agentic <span className="hand text-[1.3em] ml-1">OS</span>
         </div>
+        {version && (
+          <div className="text-[10px] mt-1 tracking-wider" style={{ color: "var(--cream-mute)", fontFamily: "'Manrope', sans-serif" }}
+               title="Pack build — compare against the newest in the the Pineapple Standard">
+            build {version}
+          </div>
+        )}
       </Link>
 
       <div className="flex-1 min-h-0 overflow-y-auto sidebar-scroll">
@@ -254,7 +269,7 @@ export function MobileNav() {
   const pathname = usePathname();
   const items = NAV.filter((_, i) => i !== 5 && i !== 6); // hide goals/journal/memory on mobile bar for space
   return (
-    <nav className="md:hidden fixed bottom-3 left-1/2 -translate-x-1/2 z-40 panel panel-hot px-2 py-1.5 flex gap-1">
+    <nav className="md:hidden !fixed bottom-3 left-1/2 -translate-x-1/2 z-40 panel panel-hot px-2 py-1.5 flex gap-1">
       {items.map((item) => {
         const active = item.href === "/" ? pathname === "/" : pathname.startsWith(item.href);
         return (

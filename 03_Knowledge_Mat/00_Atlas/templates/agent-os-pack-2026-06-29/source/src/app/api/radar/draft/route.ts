@@ -68,12 +68,17 @@ export async function POST(req: Request) {
     "- Do NOT run any web/X search. Output ONLY the tweet text, nothing before or after.",
   ].filter(Boolean).join("\n");
 
-  const res = await run("hermes", ["-z", prompt], { cwd: HERMES_WORKSPACE, timeoutMs: 150_000 });
-
-  const text = (res.stdout || "").trim();
-  if (!text) {
-    const se = (res.stderr || "").trim();
-    return Response.json({ ok: false, error: se.slice(-260) || "Hermes returned nothing." }, { status: 502 });
+  // Reliable content writer (the `content-writer` profile = GLM-5.2), retried up to 3x.
+  // The default profile is a slow reasoning model that intermittently returns nothing on
+  // longer calls — that's the "drafting didn't work" failure. A reliable profile + retry fixes it.
+  let text = "", lastErr = "";
+  for (let attempt = 0; attempt < 3 && !text; attempt++) {
+    try {
+      const res = await run("hermes", ["-p", "content-writer", "-z", prompt], { cwd: HERMES_WORKSPACE, timeoutMs: 150_000 });
+      text = (res.stdout || "").trim();
+      if (!text) lastErr = (res.stderr || "").trim().slice(-260) || "the writer returned nothing";
+    } catch (e) { lastErr = String((e as Error)?.message || e).slice(-260); }
   }
+  if (!text) return Response.json({ ok: false, error: lastErr || "The writer returned nothing — try again." }, { status: 502 });
   return Response.json({ ok: true, draft: formatTweet(text) });
 }

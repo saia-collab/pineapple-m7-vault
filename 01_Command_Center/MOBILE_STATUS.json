@@ -1,0 +1,164 @@
+{
+  "generated": "2026-07-22T16:46",
+  "outbox_shield": "PAUSED",
+  "last_sync": "2026-06-24T09:14:30.642883",
+  "outbox_drafts_pending": 15,
+  "outbox_drafts": [
+    {
+      "name": "competitor_gap_frisco.md",
+      "modified": "2026-07-22 16:45"
+    },
+    {
+      "name": "M7_LIVE_DEMO_CARD.md",
+      "modified": "2026-07-22 14:08"
+    },
+    {
+      "name": "M7_30DAY_EXECUTION_CARD.md",
+      "modified": "2026-07-22 13:59"
+    },
+    {
+      "name": "desktop.ini",
+      "modified": "2026-07-22 12:47"
+    },
+    {
+      "name": "M7_SEO_RUN_NOW.md",
+      "modified": "2026-07-21 21:15"
+    },
+    {
+      "name": "2026-07-20_Pineapple_30Day_Content_Calendar.md",
+      "modified": "2026-07-20 15:40"
+    },
+    {
+      "name": "2026-07-20_Pineapple_CLOSER_Sales_System.md",
+      "modified": "2026-07-20 15:39"
+    },
+    {
+      "name": "2026-07-20_Pineapple_100M_Lead_System.md",
+      "modified": "2026-07-20 15:36"
+    },
+    {
+      "name": "2026-07-20_Pineapple_GrandSlam_Offer.md",
+      "modified": "2026-07-20 15:33"
+    },
+    {
+      "name": "M7_DRIVE_REORG_COWORK_BRIEF.md",
+      "modified": "2026-07-20 15:11"
+    },
+    {
+      "name": "M7_SITE_CONSOLIDATION_COWORK_BRIEF.md",
+      "modified": "2026-07-20 14:33"
+    },
+    {
+      "name": "M7_BULLSEYE_ASSESSMENT_VALIDATION.md",
+      "modified": "2026-07-20 14:24"
+    },
+    {
+      "name": "2026-07-17_Outbox_ReelCaptions_WhyPineapple_PropertyManagers.md",
+      "modified": "2026-07-17 20:33"
+    },
+    {
+      "name": "CODEX_KICKOFF_JSONLD.md",
+      "modified": "2026-07-17 14:39"
+    },
+    {
+      "name": "2026-07-14_Outbox_Phase1_IntentMap_LocalPM7.md",
+      "modified": "2026-07-14 21:04"
+    }
+  ],
+  "scoring": {
+    "leads": [
+      {
+        "lead_id": "L-001",
+        "score": 75,
+        "avatar": "founders_circle",
+        "avatar_label": "The Founder's Circle",
+        "rejected": false,
+        "reject_reason": "",
+        "dispatch": false,
+        "breakdown": {
+          "frisco_zip": 25,
+          "luxury_estate_700k": 20,
+          "storm_mention": 20,
+          "enclave_bonus": 10
+        },
+        "notes": [
+          "Estimated value $42,000 qualifies (>= $18,000)."
+        ]
+      },
+      {
+        "lead_id": "L-002",
+        "score": 90,
+        "avatar": "founders_circle",
+        "avatar_label": "The Founder's Circle",
+        "rejected": false,
+        "reject_reason": "",
+        "dispatch": true,
+        "breakdown": {
+          "frisco_zip": 25,
+          "property_manager": 30,
+          "storm_mention": 20,
+          "commercial": 15
+        },
+        "notes": [
+          "Score 90 >= 80: same-day dispatch alert -> Saia.",
+          "Estimated value $88,000 qualifies (>= $18,000)."
+        ]
+      },
+      {
+        "lead_id": "L-003",
+        "score": 0,
+        "avatar": "",
+        "avatar_label": "",
+        "rejected": true,
+        "reject_reason": "Below $18,000 baseline (est $9,500)",
+        "dispatch": false,
+        "breakdown": {},
+        "notes": []
+      }
+    ],
+    "campaign": {
+      "campaign": "The Pineapple Standard \u2014 Professional Photo Audit",
+      "budget_weekly": 250,
+      "evaluated": 3,
+      "to_pause": [
+        "LF_Deadline_01"
+      ],
+      "to_scale": [
+        "CS_Heritage_04"
+      ],
+      "results": [
+        {
+          "name": "LF_Deadline_01",
+          "avatar": "local_fan",
+          "ctr": 0.6,
+          "cpl": 70.0,
+          "stabilized": true,
+          "action": "PAUSE",
+          "reason": "CTR 0.60% < 1.0% after stabilization (1% Kill Rule).",
+          "delivery_state": "PAUSED"
+        },
+        {
+          "name": "CS_Heritage_04",
+          "avatar": "culture_seeker",
+          "ctr": 1.9,
+          "cpl": 38.0,
+          "stabilized": true,
+          "action": "SCALE",
+          "reason": "CTR 1.90% > 1.5% and CPL $38 < $50 (+15%).",
+          "delivery_state": "PAUSED"
+        },
+        {
+          "name": "FC_Portfolio_09",
+          "avatar": "founders_circle",
+          "ctr": 1.2,
+          "cpl": 120.0,
+          "stabilized": false,
+          "action": "HOLD",
+          "reason": "Within stabilization window \u2014 monitoring.",
+          "delivery_state": "PAUSED"
+        }
+      ],
+      "note": "All delivery states hardcoded PAUSED (Outbox Shield). Human authorization required to activate."
+    }
+  }
+}

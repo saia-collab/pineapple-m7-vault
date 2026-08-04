@@ -5,10 +5,11 @@
 //   2. whatever model is currently loaded/warm (ollama ps) — the common case
 //   3. FALLBACK_MODEL (nothing warm, no override)
 export const OLLAMA = "http://127.0.0.1:11434";
-// Default local model when nothing is warm: Qwythos-9B (Qwen3.5-9B base, Claude-Mythos/Fable
-// style, abliterated, 1M ctx) — a 9B Q4 (~5.6GB) that loads light on Apple Silicon and frees
-// when idle (keep_alive). Still follows whatever you've pinned warm, so it never forces a swap.
-export const FALLBACK_MODEL = "richardyoung/qwythos-9b-abliterated:latest";
+// Default local model when nothing is warm: Google Gemma 4 12B (official, latest release —
+// MTP drafters for ~3x faster inference, 256K context, multimodal). A 12B Q4 (~7.6GB) that
+// runs 100% offline on Apple Silicon and frees when idle (keep_alive). Still follows whatever
+// you've pinned warm via `ollama run`, so it never forces a swap.
+export const FALLBACK_MODEL = "gemma4:12b";
 
 // OPTIONAL OpenAI-compatible backend (e.g. an MLX server via `mlx_lm.server`).
 // Some models (Qwen3.6 / qwen35 arch) can't run in Ollama/llama.cpp yet — MLX can.

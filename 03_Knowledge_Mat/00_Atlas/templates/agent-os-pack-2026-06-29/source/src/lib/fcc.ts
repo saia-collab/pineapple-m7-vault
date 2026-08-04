@@ -17,6 +17,10 @@ import { readFile, writeFile, mkdir } from "node:fs/promises";
 import { existsSync } from "node:fs";
 import path from "node:path";
 import os from "node:os";
+import { omnirouteClaudeEnv, probeOmniRoute, OMNIROUTE_FREE_MODEL } from "@/lib/omniroute";
+import { router9ClaudeEnv, probeRouter9, router9ProviderCount, ROUTER9_MODEL,
+         type FreeRouter } from "@/lib/router9";
+import { readFileSync as _readFileSync } from "node:fs";
 
 const HOME = os.homedir();
 const STATE_DIR = path.join(HOME, ".agentic-os");
@@ -29,32 +33,53 @@ export const FCC_TOKEN = "freecc";
 
 export interface FccState {
   enabled: boolean;     // user opt-in (persisted)
-  reachable: boolean;   // /health probe result
-  model: string | null; // active model from ~/.fcc/.env (e.g. "open_router/openrouter/owl-alpha")
-  provider: string | null; // friendly provider name parsed from model
+  reachable: boolean;   // is the ACTIVE router up?
+  model: string | null; // model the active router will use
+  provider: string | null; // friendly name of the active router
+  router: FreeRouter;   // which free router is selected
+  routers: {            // both backends, so the UI can offer the switch
+    omniroute: { reachable: boolean; model: string };
+    router9: { reachable: boolean; model: string; providers: number | null };
+  };
 }
 
-async function readState(): Promise<{ enabled: boolean }> {
+async function readState(): Promise<{ enabled: boolean; router: FreeRouter }> {
   try {
     const txt = await readFile(STATE_FILE, "utf8");
     const j = JSON.parse(txt);
-    return { enabled: j.enabled !== false };
-  } catch { return { enabled: true }; } // default ON
+    return { enabled: j.enabled !== false, router: j.router === "9router" ? "9router" : "omniroute" };
+  } catch { return { enabled: true, router: "omniroute" }; } // default ON, OmniRoute
+}
+
+/** Persist which free router Free Claude Code should drive. */
+export async function setRouter(router: FreeRouter): Promise<void> {
+  if (!existsSync(STATE_DIR)) await mkdir(STATE_DIR, { recursive: true });
+  let cur: Record<string, unknown> = {};
+  try { cur = JSON.parse(await readFile(STATE_FILE, "utf8")); } catch { /* fresh */ }
+  await writeFile(STATE_FILE, JSON.stringify({ ...cur, router }, null, 2));
+}
+
+/** Which router is active right now (sync — used by the spawn env). */
+export function activeRouterSync(): FreeRouter {
+  try {
+    const j = JSON.parse(_readFileSync(STATE_FILE, "utf8")) as { router?: string };
+    return j.router === "9router" ? "9router" : "omniroute";
+  } catch { return "omniroute"; }
 }
 
 export async function setEnabled(enabled: boolean): Promise<void> {
   if (!existsSync(STATE_DIR)) await mkdir(STATE_DIR, { recursive: true });
-  await writeFile(STATE_FILE, JSON.stringify({ enabled }, null, 2));
+  let cur: Record<string, unknown> = {};
+  try { cur = JSON.parse(await readFile(STATE_FILE, "utf8")); } catch { /* fresh */ }
+  await writeFile(STATE_FILE, JSON.stringify({ ...cur, enabled }, null, 2));
 }
 
+// Free Claude Code now runs on OmniRoute (the fcc-server on :8082 is retired —
+// its `fcc` binary isn't even installed). "Reachable" = the OmniRoute gateway
+// is up on :20128.
 export async function probeReachable(): Promise<boolean> {
-  try {
-    const ctl = new AbortController();
-    const tid = setTimeout(() => ctl.abort(), 1500);
-    const r = await fetch(`${FCC_BASE}/health`, { signal: ctl.signal });
-    clearTimeout(tid);
-    return r.ok;
-  } catch { return false; }
+  const { router } = await readState();
+  return router === "9router" ? probeRouter9() : probeOmniRoute();
 }
 
 async function readActiveModel(): Promise<string | null> {
@@ -91,11 +116,25 @@ function providerNameFromModel(model: string | null): string | null {
 }
 
 export async function getState(): Promise<FccState> {
-  const [{ enabled }, reachable, model] = await Promise.all([
-    readState(), probeReachable(), readActiveModel(),
+  const [{ enabled, router }, orUp, r9Up, r9Providers] = await Promise.all([
+    readState(), probeOmniRoute(), probeRouter9(), router9ProviderCount(),
   ]);
-  return { enabled, reachable, model, provider: providerNameFromModel(model) };
+  const is9 = router === "9router";
+  return {
+    enabled,
+    reachable: is9 ? r9Up : orUp,
+    model: is9 ? ROUTER9_MODEL : OMNIROUTE_FREE_MODEL,
+    provider: is9 ? "9Router · RTK token saver" : "OmniRoute · free pool",
+    router,
+    routers: {
+      omniroute: { reachable: orUp, model: OMNIROUTE_FREE_MODEL },
+      router9: { reachable: r9Up, model: ROUTER9_MODEL, providers: r9Providers },
+    },
+  };
 }
+// kept for reference; the old fcc-server model discovery is retired.
+void readActiveModel;
+void providerNameFromModel;
 
 // Env vars the Free Claude Code agent ALWAYS uses — these point the claude
 // CLI at our local fcc-server, which routes to whatever upstream is configured
@@ -105,11 +144,9 @@ export async function getState(): Promise<FccState> {
 // our proxy token instead of the OAuth credentials saved by `claude login`.
 // Without this, OAuth wins and fcc-server returns 401.
 export function fccSpawnEnv(): Record<string, string> {
-  return {
-    ANTHROPIC_BASE_URL: FCC_BASE,
-    ANTHROPIC_API_KEY: FCC_TOKEN,
-    ANTHROPIC_AUTH_TOKEN: FCC_TOKEN,
-    CLAUDE_CODE_ENABLE_GATEWAY_MODEL_DISCOVERY: "1",
-    CLAUDE_CODE_AUTO_COMPACT_WINDOW: "190000",
-  };
+  // Free Claude Code now points the `claude` CLI at the OmniRoute gateway, which
+  // routes to 90+ free providers with auto-fallback. (Was the fcc-server on
+  // :8082 — retired; its binary isn't installed.)
+  const base = activeRouterSync() === "9router" ? router9ClaudeEnv() : omnirouteClaudeEnv();
+  return { ...base, CLAUDE_CODE_AUTO_COMPACT_WINDOW: "190000" };
 }

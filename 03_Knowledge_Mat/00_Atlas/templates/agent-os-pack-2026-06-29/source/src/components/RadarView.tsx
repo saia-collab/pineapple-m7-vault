@@ -8,7 +8,7 @@ import dynamic from "next/dynamic";
 const RadarOrb = dynamic(() => import("./RadarOrb"), { ssr: false });
 
 // THE RADAR — a 24/7 oracle that reads the live X firehose via the Grok Build CLI and
-// tells you what's breaking RIGHT NOW + what to post about today. Jarvis arc-reactor HUD.
+// tells you what's breaking RIGHT NOW + what to post about today. Apollo arc-reactor HUD.
 
 interface Signal {
   headline: string; why_now: string; angle: string; format: string;
@@ -18,7 +18,7 @@ interface Signal {
 interface DayEntry { day: string; scannedAt: string | null; count: number; signals: Signal[]; }
 
 const CAT_COLOR: Record<string, string> = {
-  Models: "#22d3ee", Agents: "#00BFFF", Tools: "#a78bfa", SEO: "#00BFFF", Drama: "#fb7185", Money: "#fbbf24",
+  Models: "#22d3ee", Agents: "#00BFFF", Tools: "#a78bfa", SEO: "#FBC02D", Drama: "#fb7185", Money: "#fbbf24",
 };
 const catColor = (c: string) => CAT_COLOR[c] || "#22d3ee";
 
@@ -55,7 +55,7 @@ export default function RadarView() {
   const [drafts, setDrafts] = useState<Record<string, string>>({});
   const [drafting, setDrafting] = useState<string | null>(null);
   const [publishing, setPublishing] = useState<string | null>(null);
-  const [pubResult, setPubResult] = useState<Record<string, { phase?: string; results?: { site: string; url: string; editUrl: string; title: string }[]; indexed?: boolean; error?: string }>>({});
+  const [pubResult, setPubResult] = useState<Record<string, { phase?: string; results?: { site: string; url: string; editUrl: string; title: string }[]; failed?: { site: string; error: string }[]; indexed?: boolean; error?: string }>>({});
   const [copied, setCopied] = useState<string | null>(null);
   const [oracleImg, setOracleImg] = useState<string | null>(null);
   const [view, setView] = useState<"signals" | "published">("signals");
@@ -174,9 +174,9 @@ export default function RadarView() {
         if (Date.now() > deadline) { setPubResult((m) => ({ ...m, [key]: { error: "Took too long — check WordPress." } })); setPublishing(null); return; }
         try {
           const st = await (await fetch("/api/radar/publish", { cache: "no-store" })).json();
-          if (st.running) { setPubResult((m) => ({ ...m, [key]: { phase: st.phase || "Working…", results: st.results } })); setTimeout(poll, 3500); return; }
-          if ((!st.results || !st.results.length) && st.error) { setPubResult((m) => ({ ...m, [key]: { error: st.error } })); setPublishing(null); return; }
-          setPubResult((m) => ({ ...m, [key]: { results: st.results || [], indexed: st.indexed, error: st.error } })); setPublishing(null); loadPublished();
+          if (st.running) { setPubResult((m) => ({ ...m, [key]: { phase: st.phase || "Working…", results: st.results, failed: st.failed } })); setTimeout(poll, 3500); return; }
+          if ((!st.results || !st.results.length) && st.error) { setPubResult((m) => ({ ...m, [key]: { error: st.error, failed: st.failed } })); setPublishing(null); return; }
+          setPubResult((m) => ({ ...m, [key]: { results: st.results || [], failed: st.failed, indexed: st.indexed, error: st.error } })); setPublishing(null); loadPublished();
         } catch { setTimeout(poll, 5000); }
       };
       setTimeout(poll, 4000);
@@ -517,10 +517,19 @@ export default function RadarView() {
                             <a href={rr.editUrl} target="_blank" rel="noopener noreferrer">Edit <ArrowUpRight size={11} /></a>
                           </div>
                         ))}
+                        {pubResult[key].failed?.map((ff) => (
+                          <div className="pdrow" key={ff.site} style={{ opacity: .85 }}>
+                            <span className="pdsite">{ff.site}</span>
+                            <span className="pub-err" style={{ margin: 0 }}>⚠ {ff.error}</span>
+                          </div>
+                        ))}
                         {pubResult[key].error && <div className="pub-err" style={{ marginTop: 8 }}>⚠ {pubResult[key].error}</div>}
                       </div>
                     ) : (
-                      <div className="pub-err">⚠ {pubResult[key].error || "Publishing failed."}</div>
+                      <div className="pub-err">
+                        ⚠ {pubResult[key].error || "Publishing failed."}
+                        {pubResult[key].failed?.map((ff) => (<div key={ff.site} style={{ marginTop: 4 }}>{ff.site}: {ff.error}</div>))}
+                      </div>
                     )}
                   </div>
                 )}

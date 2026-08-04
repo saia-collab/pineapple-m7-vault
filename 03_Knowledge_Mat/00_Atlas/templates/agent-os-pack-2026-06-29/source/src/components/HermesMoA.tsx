@@ -15,12 +15,12 @@ interface Build { name: string; title: string; bytes: number; mtime: number; }
 interface Run { at: number; prompt: string; totalSecs: number; aggregator: string; final: string; references: { model: string; secs: number }[]; }
 
 const EXAMPLES = [
-  "Design a referral loop for a $59/mo community that already has 3,600 members.",
+  "Design a referral loop for a $59/mo community that already has 4,000 members.",
   "Write a tight Python function to find the median of two sorted arrays in O(log(m+n)).",
   "What's the strongest counter-argument to 'the best model wins'? Steel-man it in 4 points.",
 ];
 
-// The MoA builds that went onto GoldieBench (panel built them, aggregator merged the best).
+// The MoA builds that went onto M7 Bench (panel built them, aggregator merged the best).
 const BENCH_BUILDS = [
   { slug: "arcade", label: "Neon Breakout", cat: "Game" },
   { slug: "fireworks", label: "Fireworks", cat: "Visual" },
@@ -282,24 +282,24 @@ export default function HermesMoA() {
           )}
         </div>
 
-        {/* GoldieBench strip */}
+        {/* M7 Bench strip */}
         <div className="rounded-2xl border p-4 mt-6" style={{ borderColor: "var(--border)", background: "var(--panel)" }}>
           <div className="flex items-center gap-2 mb-2">
             <Trophy size={15} style={{ color: GOLD }} />
-            <span className="text-sm font-medium">On GoldieBench</span>
+            <span className="text-sm font-medium">On M7 Bench</span>
             <span className="text-[11px]" style={{ color: "var(--fg-dimmer)" }}>
               the panel built these — aggregator merged the best of each
             </span>
           </div>
           <div className="flex flex-wrap gap-2">
             {BENCH_BUILDS.map((b) => (
-              <a key={b.slug} href={`https://goldiebench.com/compare/${b.slug}-moa.html`} target="_blank" rel="noreferrer"
+              <a key={b.slug} href={`https://pineapplecontractors.com/compare/${b.slug}-moa.html`} target="_blank" rel="noreferrer"
                 className="inline-flex items-center gap-1.5 text-xs px-2.5 py-1.5 rounded-lg border hover:opacity-80 transition-opacity"
                 style={{ borderColor: "var(--border)", color: "var(--fg-dim)" }}>
                 <span style={{ color: PLUM }}>{b.cat}</span> {b.label} <ExternalLink size={11} style={{ color: "var(--fg-dimmer)" }} />
               </a>
             ))}
-            <a href="https://goldiebench.com" target="_blank" rel="noreferrer"
+            <a href="https://pineapplecontractors.com" target="_blank" rel="noreferrer"
               className="inline-flex items-center gap-1.5 text-xs px-2.5 py-1.5 rounded-lg border hover:opacity-80 transition-opacity"
               style={{ borderColor: GOLD, color: GOLD }}>
               View the leaderboard <ExternalLink size={11} />

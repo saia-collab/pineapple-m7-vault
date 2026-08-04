@@ -40,7 +40,7 @@ export default function MemoryGalaxy({ onOpenNote }: Props) {
   const wrapRef = useRef<HTMLDivElement>(null);
   const animRef = useRef<number | null>(null);
 
-  const camRef = useRef({ yaw: 0.4, pitch: -0.42, distance: 1000, targetDistance: 1000, autoRotate: true });
+  const camRef = useRef({ yaw: 0.4, pitch: -0.42, distance: 1500, targetDistance: 1500, autoRotate: true });
   const dragRef = useRef<{ kind: "rotate" | "node" | null; node?: GNode; sx: number; sy: number; origYaw: number; origPitch: number; movedPx: number }>({ kind: null, sx: 0, sy: 0, origYaw: 0, origPitch: 0, movedPx: 0 });
   const hoverRef = useRef<GNode | null>(null);
   const onOpenNoteRef = useRef(onOpenNote);
@@ -120,7 +120,17 @@ export default function MemoryGalaxy({ onOpenNote }: Props) {
     }
     for (const n of nodes) { n.vx = 0; n.vy = 0; n.vz = 0; }
     const hubIds = new Set([...nodes].sort((a, b) => b.degree - a.degree).slice(0, 12).map((n) => n.id));
-    return { nodes, links, hubIds };
+    // Dust plane — 3 soft motes per star, scattered along the disc. Invisible up close,
+    // fades in as you zoom out so the far view reads as glowing spiral arms, not sparse dots.
+    const dust: { x: number; y: number; z: number; c: [number, number, number]; a: number }[] = [];
+    for (const n of nodes) {
+      const [cr, cg, cb] = rgbFor(n.group);
+      for (let k = 0; k < 3; k++) {
+        const g1 = (rand() + rand() + rand() - 1.5) * 40, g2 = (rand() + rand() + rand() - 1.5) * 14, g3 = (rand() + rand() + rand() - 1.5) * 40;
+        dust.push({ x: n.x + g1, y: n.y + g2, z: n.z + g3, c: [cr, cg, cb], a: 0.05 + rand() * 0.09 });
+      }
+    }
+    return { nodes, links, hubIds, dust };
   }, [raw]);
 
   useEffect(() => {
@@ -165,9 +175,19 @@ export default function MemoryGalaxy({ onOpenNote }: Props) {
         const g = ctx.createRadialGradient(cx, cy, 0, cx, cy, rr); g.addColorStop(0, col); g.addColorStop(1, "transparent");
         ctx.fillStyle = g; ctx.beginPath(); ctx.arc(cx, cy, rr, 0, Math.PI * 2); ctx.fill();
       };
-      neb(w * 0.22, h * 0.30, Math.max(w, h) * 0.40, "rgba(124,58,237,0.10)");
-      neb(w * 0.80, h * 0.62, Math.max(w, h) * 0.36, "rgba(34,211,238,0.07)");
-      neb(w * 0.55, h * 0.85, Math.max(w, h) * 0.34, "rgba(212,165,116,0.06)");
+      const drift = Math.sin(time * 0.05) * w * 0.02;
+      neb(w * 0.22 + drift, h * 0.30, Math.max(w, h) * 0.40, "rgba(124,58,237,0.12)");
+      neb(w * 0.80 - drift, h * 0.62, Math.max(w, h) * 0.36, "rgba(34,211,238,0.08)");
+      neb(w * 0.55, h * 0.85, Math.max(w, h) * 0.34, "rgba(212,165,116,0.07)");
+      neb(w * 0.68 + drift, h * 0.18, Math.max(w, h) * 0.26, "rgba(251,113,133,0.05)");
+      neb(w * 0.10, h * 0.75 - drift, Math.max(w, h) * 0.24, "rgba(0,191,255,0.045)");
+      // faint milky band across the sky
+      ctx.save();
+      ctx.translate(w / 2, h / 2); ctx.rotate(-0.32);
+      const band = ctx.createLinearGradient(0, -h * 0.16, 0, h * 0.16);
+      band.addColorStop(0, "transparent"); band.addColorStop(0.5, "rgba(200,190,255,0.05)"); band.addColorStop(1, "transparent");
+      ctx.fillStyle = band; ctx.fillRect(-w, -h * 0.16, w * 2, h * 0.32);
+      ctx.restore();
       // starfield (twinkle)
       for (const s of starfield) {
         const tw = 0.55 + 0.45 * Math.sin(time * 1.5 + s.tw);
@@ -177,22 +197,43 @@ export default function MemoryGalaxy({ onOpenNote }: Props) {
       }
       ctx.globalAlpha = 1;
 
-      // constellation links (additive, faint)
-      ctx.lineWidth = 0.7;
+      // far-zoom factor: 0 up close → 1 fully zoomed out. Drives the cinematic LOD.
+      const far = Math.max(0, Math.min(1, (camRef.current.distance - 700) / 1600));
+
+      // dust plane — spiral-arm glow that only exists at a distance
+      if (far > 0.05) {
+        for (const d of sim.dust) {
+          const p = project(d.x, d.y, d.z);
+          if (!p) continue;
+          const r = Math.max(0.6, 2.2 * p.depthScale * (1 + far));
+          ctx.fillStyle = `rgba(${d.c[0]},${d.c[1]},${d.c[2]},${d.a * far})`;
+          ctx.beginPath(); ctx.arc(p.sx, p.sy, r, 0, Math.PI * 2); ctx.fill();
+        }
+      }
+
+      // constellation links — gently curved arcs, not straight wire; recede as you zoom out
+      ctx.lineWidth = 0.8;
+      const linkFade = 1 - far * 0.5;
       for (const l of sim.links) {
         const a = project(l.source.x, l.source.y, l.source.z), b = project(l.target.x, l.target.y, l.target.z);
         if (!a || !b) continue;
         const rec = Math.max(l.source.rec, l.target.rec);
-        ctx.strokeStyle = `rgba(150,170,230,${0.05 + rec * 0.18})`;
-        ctx.beginPath(); ctx.moveTo(a.sx, a.sy); ctx.lineTo(b.sx, b.sy); ctx.stroke();
+        const mx = (a.sx + b.sx) / 2, my = (a.sy + b.sy) / 2;
+        const dx = b.sx - a.sx, dy = b.sy - a.sy, len = Math.hypot(dx, dy) || 1;
+        const bow = Math.min(18, len * 0.10);
+        ctx.strokeStyle = `rgba(158,178,238,${(0.06 + rec * 0.2) * linkFade})`;
+        ctx.beginPath(); ctx.moveTo(a.sx, a.sy);
+        ctx.quadraticCurveTo(mx - (dy / len) * bow, my + (dx / len) * bow, b.sx, b.sy);
+        ctx.stroke();
       }
 
-      // galactic core glow
+      // galactic core glow — tracks the projected galaxy size instead of a fixed screen blob
       const coreP = project(0, 0, 0);
       if (coreP) {
-        const cr2 = Math.min(w, h) * 0.30;
+        const cr2 = Math.min(Math.min(w, h) * 0.45, 520 * coreP.depthScale + Math.min(w, h) * 0.06);
+        const coreA = 0.10 + far * 0.10;
         const cg2 = ctx.createRadialGradient(coreP.sx, coreP.sy, 0, coreP.sx, coreP.sy, cr2);
-        cg2.addColorStop(0, "rgba(222,205,255,0.10)"); cg2.addColorStop(0.5, "rgba(150,110,235,0.05)"); cg2.addColorStop(1, "transparent");
+        cg2.addColorStop(0, `rgba(232,215,255,${coreA})`); cg2.addColorStop(0.35, `rgba(170,125,245,${coreA * 0.55})`); cg2.addColorStop(1, "transparent");
         ctx.fillStyle = cg2; ctx.beginPath(); ctx.arc(coreP.sx, coreP.sy, cr2, 0, Math.PI * 2); ctx.fill();
       }
 
@@ -210,9 +251,9 @@ export default function MemoryGalaxy({ onOpenNote }: Props) {
         const [cr, cg, cb] = rgbFor(n.group);
         // recent stars shift toward white-hot
         const wr = Math.round(cr + (255 - cr) * n.rec), wg = Math.round(cg + (255 - cg) * n.rec), wb = Math.round(cb + (255 - cb) * n.rec);
-        const haloR = r * (2.4 + n.rec * 3.2);
+        const haloR = r * (2.4 + n.rec * 3.2) * (1 + far * 1.6);
         const halo = ctx.createRadialGradient(p.sx, p.sy, 0, p.sx, p.sy, haloR);
-        halo.addColorStop(0, `rgba(${wr},${wg},${wb},${(0.07 + n.rec * 0.4) * twinkle})`);
+        halo.addColorStop(0, `rgba(${wr},${wg},${wb},${(0.07 + far * 0.09 + n.rec * 0.4) * twinkle})`);
         halo.addColorStop(1, "transparent");
         ctx.fillStyle = halo; ctx.beginPath(); ctx.arc(p.sx, p.sy, haloR, 0, Math.PI * 2); ctx.fill();
         // bright core — only recent stars burn white-hot; the bulk stays soft
@@ -220,6 +261,17 @@ export default function MemoryGalaxy({ onOpenNote }: Props) {
         ctx.beginPath(); ctx.arc(p.sx, p.sy, r, 0, Math.PI * 2); ctx.fill();
         ctx.fillStyle = `rgba(255,255,255,${(0.32 + n.rec * 0.6) * twinkle})`;
         ctx.beginPath(); ctx.arc(p.sx, p.sy, r * 0.4, 0, Math.PI * 2); ctx.fill();
+        // diffraction spikes on the hottest recent stars once you pull back — telescope-photo feel
+        if (far > 0.25 && n.rec > 0.7) {
+          const L = r * (5 + far * 5), sa = (0.10 + 0.16 * far) * twinkle * n.rec;
+          const spike = (dx: number, dy: number) => {
+            const g = ctx.createLinearGradient(p.sx - dx * L, p.sy - dy * L, p.sx + dx * L, p.sy + dy * L);
+            g.addColorStop(0, "transparent"); g.addColorStop(0.5, `rgba(255,255,255,${sa})`); g.addColorStop(1, "transparent");
+            ctx.strokeStyle = g; ctx.lineWidth = Math.max(0.6, r * 0.22);
+            ctx.beginPath(); ctx.moveTo(p.sx - dx * L, p.sy - dy * L); ctx.lineTo(p.sx + dx * L, p.sy + dy * L); ctx.stroke();
+          };
+          spike(1, 0); spike(0, 1);
+        }
       }
 
       // labels — top hubs only, with overlap avoidance (no more text mosaic)
@@ -230,17 +282,28 @@ export default function MemoryGalaxy({ onOpenNote }: Props) {
       for (const p of labelCandidates) {
         const fs = Math.min(13, Math.max(10, 12 * p.ds));
         if (fs < 9) continue;
-        if (placed.some((q) => Math.abs(q.x - p.sx) < 80 && Math.abs(q.y - p.sy) < 15)) continue;
+        if (placed.some((q) => Math.abs(q.x - p.sx) < 90 && Math.abs(q.y - p.sy) < 18)) continue;
         const r = Math.min((2.2 + Math.sqrt(p.n.degree) * 1.3) * p.ds, 9) * (1 + p.n.rec * 0.9);
         ctx.font = `${fs}px var(--font-geist-sans, system-ui)`;
-        ctx.lineWidth = 2.5; ctx.strokeStyle = "rgba(0,0,0,0.8)"; ctx.fillStyle = "rgba(232,236,250,0.9)";
-        ctx.strokeText(p.n.title, p.sx, p.sy + r + 4); ctx.fillText(p.n.title, p.sx, p.sy + r + 4);
+        const tw = ctx.measureText(p.n.title).width;
+        const lx = p.sx, ly = p.sy + r + 5;
+        // glass chip behind the label
+        ctx.fillStyle = "rgba(10,6,18,0.62)";
+        ctx.strokeStyle = "rgba(212,165,116,0.28)"; ctx.lineWidth = 1;
+        ctx.beginPath(); ctx.roundRect(lx - tw / 2 - 8, ly - 2, tw + 16, fs + 8, 7); ctx.fill(); ctx.stroke();
+        ctx.fillStyle = "rgba(238,240,252,0.92)";
+        ctx.fillText(p.n.title, lx, ly + 2);
         placed.push({ x: p.sx, y: p.sy });
       }
 
       // hover ring
       const hov = hoverRef.current;
       if (hov) { const p = project(hov.x, hov.y, hov.z); if (p) { const r = (4 + Math.sqrt(hov.degree) * 2) * p.depthScale; ctx.strokeStyle = "#fff"; ctx.lineWidth = 1.5; ctx.beginPath(); ctx.arc(p.sx, p.sy, r + 5, 0, Math.PI * 2); ctx.stroke(); } }
+
+      // cinematic vignette — deepens with distance so the far view feels composed, not empty
+      const vig = ctx.createRadialGradient(w / 2, h / 2, Math.min(w, h) * 0.45, w / 2, h / 2, Math.max(w, h) * 0.75);
+      vig.addColorStop(0, "transparent"); vig.addColorStop(1, `rgba(2,1,6,${0.28 + far * 0.22})`);
+      ctx.fillStyle = vig; ctx.fillRect(0, 0, w, h);
       ctx.restore();
     };
 

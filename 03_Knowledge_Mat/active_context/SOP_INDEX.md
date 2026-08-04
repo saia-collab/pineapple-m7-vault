@@ -1,0 +1,1813 @@
+---
+STATUS: PAUSED
+type: master_sop_playbook_index
+author: JR. Moeakiola
+indexed_files: 1785
+scope: 01_Command_Center/**/*.md and 03_Knowledge_Mat/**/*.md
+---
+
+# M7 SOP & Playbook Master Index
+
+**STATUS: PAUSED**
+
+**Trust signals:** RCAT #03-0637 · IKO Certified · 5-Star · Since 2005 · 972-928-0788
+
+## SEO
+
+- `01_Command_Center/GSC_BROTHER_HANDOFF.md` — Guidance and reference for 🤝 Google Search Console Setup — Quick Handoff.
+- `01_Command_Center/GSC_SETUP.md` — Guidance and reference for 🔌 Google Search Console (GSC) — Setup Card.
+- `01_Command_Center/M7_GROWTH_ENGINE.md` — Guidance and reference for M7 GROWTH ENGINE — SEO/AEO · LEADS · BRANDING.
+- `01_Command_Center/M7_SEO_FULL_SEND.md` — Guidance and reference for 🚀 M7 — SEO FULL SEND.
+- `01_Command_Center/M7_SEO_LSA_SOP.md` — Guidance and reference for 📈 M7 SEO + LSA — The Weekly Ranking Loop.
+- `01_Command_Center/M7_SEO_PIPELINE_FULL_LOOP.md` — Guidance and reference for 🔄 M7 SEO Pipeline — The Full Loop.
+- `01_Command_Center/M7_SEO_TRACKER.md` — Guidance and reference for 📈 M7 SEO TRACKER — what we're ranking for, and how we watch it (CPPA).
+- `01_Command_Center/M7_WEBSITE_SEO_FIXLIST.md` — Guidance and reference for WEBSITE + GOOGLE SEO — FIX LIST.
+- `01_Command_Center/M7_WEBSITE_STRATEGY.md` — Guidance and reference for 🏛️ CEO/VP DIRECTIVE — Website & SEO Consolidation.
+- `01_Command_Center/Outbox_Drafts/2026-06-22_Outbox_FAQSchema_3Pages_Frisco.md` — Guidance and reference for FAQ-Schema Pages — AEO/GEO Content for Frisco Storm Restoration.
+- `01_Command_Center/Outbox_Drafts/2026-07-14_Outbox_SOP-SEO-LOCAL-PM7.md` — Guidance and reference for SOP-SEO-LOCAL-PM7 — "Near Me" Domination Pipeline.
+- `01_Command_Center/Outbox_Drafts/GSC_BROTHER_HANDOFF.md` — Reference for GSC BROTHER HANDOFF.
+- `01_Command_Center/Outbox_Drafts/M7_SEO_RUN_NOW.md` — Guidance and reference for 🚀 SEO RUN NOW — the striking-distance attack (paste these).
+- `01_Command_Center/Outbox_Drafts/schema/ALL_12_PAGES_JSONLD.md` — Guidance and reference for 🧩 JSON-LD for all 12 live pages.
+- `01_Command_Center/Outbox_Drafts/SEO/2026-07-22_Outbox_SEO_01_keyword-map.md` — Guidance and reference for Keyword Map: Pineapple Roofing (2026-07-22).
+- `01_Command_Center/Outbox_Drafts/SEO/2026-07-22_Outbox_SEO_02_technical-audit.md` — Guidance and reference for Technical Audit: Pineapple Roofing (2026-07-22).
+- `01_Command_Center/Outbox_Drafts/SEO/2026-07-22_Outbox_SEO_03_performance-snapshot.md` — Guidance and reference for Performance Snapshot: Pineapple Roofing (2026-07-22).
+- `01_Command_Center/Outbox_Drafts/SEO/2026-07-22_Outbox_SEO_04_geo-audit.md` — Guidance and reference for AI Search / GEO Audit: Pineapple Roofing (2026-07-22).
+- `01_Command_Center/Outbox_Drafts/SEO/2026-07-22_Outbox_SEO_B_30-60-90-Plan.md` — Guidance and reference for 🗓️ Pineapple Roofing — 30 / 60 / 90 Day SEO Gameplan.
+- `01_Command_Center/Outbox_Drafts/seo_pipeline_week1_2/Goldie_Week1-2_Pack.md` — Guidance and reference for 🏆 Goldie Pipeline — Week 1 & 2.
+- `01_Command_Center/Outbox_Drafts/SEO_Posts/2026-07-05_SEO_CityPage_Allen.md` — Guidance and reference for Roof Replacement in Allen, TX — Complimentary Professional Photo Audit (CPPA).
+- `01_Command_Center/Outbox_Drafts/SEO_Posts/2026-07-05_SEO_CityPage_CastleHills.md` — Guidance and reference for Roofing Contractor in Castle Hills, TX — Complimentary Professional Photo Audit (CPPA).
+- `01_Command_Center/Outbox_Drafts/SEO_Posts/2026-07-05_SEO_CityPage_Frisco.md` — Guidance and reference for Roof Replacement in Frisco, TX — Complimentary Professional Photo Audit (CPPA).
+- `01_Command_Center/Outbox_Drafts/SEO_Posts/2026-07-05_SEO_CityPage_Lewisville.md` — Guidance and reference for Storm Damage Roof Repair in Lewisville, TX — Complimentary Professional Photo Audit (CPPA).
+- `01_Command_Center/Outbox_Drafts/SEO_Posts/2026-07-05_SEO_CityPage_LittleElm.md` — Guidance and reference for Storm Damage Roof Repair in Little Elm, TX — Complimentary Professional Photo Audit (CPPA).
+- `01_Command_Center/Outbox_Drafts/SEO_Posts/2026-07-05_SEO_CityPage_McKinney.md` — Guidance and reference for Roofing Contractor in McKinney, TX — Complimentary Professional Photo Audit (CPPA).
+- `01_Command_Center/Outbox_Drafts/SEO_Posts/2026-07-05_SEO_CityPage_Plano.md` — Guidance and reference for Hail Damage Roof Inspection in Plano, TX — Complimentary Professional Photo Audit (CPPA).
+- `01_Command_Center/Outbox_Drafts/SEO_Posts/2026-07-05_SEO_CityPage_Prosper.md` — Guidance and reference for Roof Replacement in Prosper, TX — Complimentary Professional Photo Audit (CPPA).
+- `01_Command_Center/Outbox_Drafts/SEO_Posts/2026-07-05_SEO_CityPage_TheColony.md` — Guidance and reference for Roof Repair in The Colony, TX — Complimentary Professional Photo Audit (CPPA).
+- `01_Command_Center/Outbox_Drafts/SEO_Posts/2026-07-05_SEO_Topic_FriscoHailDamage.md` — Guidance and reference for Hail Damage Roof in Frisco, TX — What To Do & How To Document It (CPPA).
+- `01_Command_Center/Outbox_Drafts/SEO_Posts/2026-07-05_SEO_ZIP_75033.md` — Guidance and reference for Roof Replacement in 75033 (West Frisco, TX) — Complimentary Professional Photo Audit (CPPA).
+- `01_Command_Center/Outbox_Drafts/SEO_Posts/2026-07-05_SEO_ZIP_75034.md` — Guidance and reference for Roof Replacement in 75034 (Frisco, TX) — Complimentary Professional Photo Audit (CPPA).
+- `01_Command_Center/Outbox_Drafts/SEO_Posts/2026-07-05_SEO_ZIP_75035.md` — Guidance and reference for Roof Replacement in 75035 (East Frisco, TX) — Complimentary Professional Photo Audit (CPPA).
+- `01_Command_Center/Outbox_Drafts/SEO_Posts/2026-07-06_SEO_Post1_HailDamageRoofRepairFrisco.md` — Hail damage roof repair in Frisco TX starts with documentation. Pineapple Contractors — IKO Certified, RCAT 03-0637 — book a CPPA at 972-928-0788.
+- `01_Command_Center/Outbox_Drafts/SEO_Posts/2026-07-06_SEO_Post2_IKOCertifiedRoofReplacementFrisco.md` — IKO Certified roof replacement in Frisco TX upgrades the manufacturer warranty from material to system. Pineapple Contractors — RCAT 03-0637 — 972-928-0788.
+- `01_Command_Center/Outbox_Drafts/SEO_Posts/2026-07-06_SEO_Post3_StormDamageRoofInspectionFrisco.md` — Storm damage roof inspection in Frisco TX for commercial and multi-unit owners. Pineapple Contractors — IKO Certified, RCAT 03-0637 — 972-928-0788.
+- `01_Command_Center/Outbox_Drafts/SEO_Posts/2026-07-06_SEO_Post4_WaterDamageRestorationFrisco.md` — Water damage restoration in Frisco TX — emergency mitigation, structural drying, and mold prevention. Pineapple Restorations — RCAT 03-0637 — 972-928-0788.
+- `01_Command_Center/Outbox_Drafts/SEO_Posts/2026-07-06_SEO_Post5_MoldRemediationFrisco.md` — Mold remediation in Frisco TX — IICRC S520 containment, HEPA filtration, antimicrobial treatment. Pineapple Restorations — RCAT 03-0637 — 972-928-0788.
+- `01_Command_Center/Outbox_Drafts/SEO_Posts/blog-metal-vs-shingle-roofing-texas.md` — Guidance and reference for Cost.
+- `01_Command_Center/Outbox_Drafts/SEO_Posts/blog-signs-you-need-roof-replacement-dfw.md` — Guidance and reference for 1. Your roof is 15–20+ years old.
+- `01_Command_Center/Outbox_Drafts/SEO_Posts/blog-storm-damage-roof-inspection-frisco.md` — Guidance and reference for First, stay off the roof.
+- `01_Command_Center/Outbox_Drafts/SEO_Posts/grapevine-roofing-company.md` — Guidance and reference for Grapevine Roofing Company | IKO Certified · Since 2005 · Pineapple Contractors.
+- `01_Command_Center/Outbox_Drafts/SEO_Posts/hail-damage-roof-repair-frisco-tx.md` — Hail damage roof repair in Frisco TX starts with documentation. Book a Complimentary Professional Photo Audit — IKO Certified, RCAT 03-0637, since 2005.
+- `01_Command_Center/Outbox_Drafts/SEO_Posts/iko-certified-roofer-frisco-tx.md` — Looking for an IKO certified roofer in Frisco TX? RCAT 03-0637, 5-Star rated, family-owned since 2005. Book a Complimentary Professional Photo Audit.
+- `01_Command_Center/Outbox_Drafts/SEO_Posts/storm-relief-program-frisco-tx.md` — Hit by a North Texas storm? Pineapple Contractors offers priority Complimentary Professional Photo Audits for Frisco families. RCAT 03-0637, since 2005.
+- `01_Command_Center/Outbox_Drafts/SEO_Posts/water-damage-restoration-frisco-tx.md` — Water damage restoration in Frisco TX is a race against mold. Rapid-response mitigation, full-scope documentation, RCAT 03-0637, since 2005. Call 972-928-0788.
+- `01_Command_Center/Outbox_Drafts/Teaching_Modules/01_SEO_Playbook_Family_Training.md` — Guidance and reference for 🏆 SEO PLAYBOOK — Family Training.
+- `01_Command_Center/Outbox_Drafts/Teaching_Modules/04_CodeX_Technical_SEO_Family_Training.md` — Guidance and reference for 💻 CODEX TECHNICAL SEO — Family Training.
+- `01_Command_Center/WORDPRESS_CHEATSHEET_FOR_BROTHER.md` — Guidance and reference for 🍍 pineappleroofingllc.com — What Was Done (Cheat Sheet).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/member-pack/install/29-OPENSEO.md` — Guidance and reference for 29 · OpenSEO — Your Own Semrush/Ahrefs (Optional).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/member-pack/install/32-SEO-OFFICE.md` — Guidance and reference for 32 · SEO Office — a Local SEO Agency OS (Optional, Advanced).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/member-pack/install/36-SEO-RESEARCH.md` — Guidance and reference for 36 · SEO → Research — Connect Your Own Search Console (Optional).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/ajv/README.md` — Guidance and reference for Ajv JSON schema validator.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/json-schema-traverse/README.md` — Guidance and reference for json-schema-traverse.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/json-schema-typed/LICENSE.md` — Reference for LICENSE.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/json-schema-typed/README.md` — Guidance and reference for JSON Schema Typed.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/04-functions/generate-metadata.md` — Learn how to add Metadata to your Next.js application for improved search engine optimization (SEO) and web shareability.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/zod-to-json-schema/changelog.md` — Guidance and reference for Changelog.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/zod-to-json-schema/contributing.md` — Guidance and reference for Contributing.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/zod-to-json-schema/README.md` — Guidance and reference for Zod to Json Schema.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/SEO-SETUP.md` — Guidance and reference for 🚀 SEO Content Pipeline Setup.
+- `03_Knowledge_Mat/00_Atlas/templates/seo-pack/blog-post.md` — Write 5 unique SEO-optimised blog posts and deploy to all 5 of your websites. Optimised for CTR, conversions, and multi-video engagement.
+- `03_Knowledge_Mat/00_Atlas/templates/seo-pack/README.md` — Guidance and reference for SEO Content Pipeline Pack — AIPB Edition.
+- `03_Knowledge_Mat/corey_marketing_skills/CONTRIBUTING.md` — When to use this skill. Include trigger phrases and keywords that help agents identify relevant tasks.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/ai-seo/references/citations-vs-recommendations.md` — Guidance and reference for Citations vs. Recommendations: The AI Visibility Ladder.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/ai-seo/references/content-patterns.md` — Guidance and reference for AEO and GEO Content Patterns.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/ai-seo/references/content-types.md` — Guidance and reference for AI SEO by Content Type.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/ai-seo/references/okf.md` — The official MCP servers, why they did not connect, and the fix.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/ai-seo/references/platform-ranking-factors.md` — Guidance and reference for How Each AI Platform Picks Sources.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/ai-seo/SKILL.md` — Guidance and reference for AI SEO.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/programmatic-seo/references/playbooks.md` — Guidance and reference for The 12 Programmatic SEO Playbooks.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/programmatic-seo/SKILL.md` — Guidance and reference for Programmatic SEO.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/schema/references/schema-examples.md` — Guidance and reference for Schema Markup Examples.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/schema/SKILL.md` — Guidance and reference for Schema Markup.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/seo-audit/references/ai-writing-detection.md` — Guidance and reference for AI Writing Detection.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/seo-audit/references/international-seo.md` — Guidance and reference for International SEO: Evidence & Sources.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/seo-audit/SKILL.md` — Guidance and reference for SEO Audit.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/dataforseo.md` — Guidance and reference for DataForSEO.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/google-search-console.md` — Guidance and reference for Google Search Console.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/keywords-everywhere.md` — Guidance and reference for Keywords Everywhere.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/wordpress.md` — Guidance and reference for WordPress.
+- `03_Knowledge_Mat/SEO_Playbook/__MACOSX/seo-team/._CLAUDE.md` — Reference for . CLAUDE.
+- `03_Knowledge_Mat/SEO_Playbook/__MACOSX/seo-team/._README.md` — Reference for . README.
+- `03_Knowledge_Mat/SEO_Playbook/__MACOSX/seo-team/.claude/agents/._ai-search-geo-specialist.md` — Reference for . ai search geo specialist.
+- `03_Knowledge_Mat/SEO_Playbook/__MACOSX/seo-team/.claude/agents/._analytics-reporting-manager.md` — Reference for . analytics reporting manager.
+- `03_Knowledge_Mat/SEO_Playbook/__MACOSX/seo-team/.claude/agents/._blog-content-writer.md` — Reference for . blog content writer.
+- `03_Knowledge_Mat/SEO_Playbook/__MACOSX/seo-team/.claude/agents/._client-report-builder.md` — Reference for . client report builder.
+- `03_Knowledge_Mat/SEO_Playbook/__MACOSX/seo-team/.claude/agents/._keyword-research-manager.md` — Reference for . keyword research manager.
+- `03_Knowledge_Mat/SEO_Playbook/__MACOSX/seo-team/.claude/agents/._local-seo-manager.md` — Reference for . local seo manager.
+- `03_Knowledge_Mat/SEO_Playbook/__MACOSX/seo-team/.claude/agents/._on-page-copywriter.md` — Reference for . on page copywriter.
+- `03_Knowledge_Mat/SEO_Playbook/__MACOSX/seo-team/.claude/agents/._technical-auditor.md` — Reference for . technical auditor.
+- `03_Knowledge_Mat/SEO_Playbook/__MACOSX/seo-team/.claude/skills/seo-intake/._SKILL.md` — Reference for . SKILL.
+- `03_Knowledge_Mat/SEO_Playbook/__MACOSX/seo-team/.claude/skills/seo-team/._SKILL.md` — Reference for . SKILL.
+- `03_Knowledge_Mat/SEO_Playbook/__MACOSX/seo-team/context/._brand-voice.md` — Reference for . brand voice.
+- `03_Knowledge_Mat/SEO_Playbook/__MACOSX/seo-team/context/._client.md` — Reference for . client.
+- `03_Knowledge_Mat/SEO_Playbook/COREY_SKILLS_PM7_INDEX.md` — Guidance and reference for 🧠 Corey Haines Skills → PM7 (How We Use Them).
+- `03_Knowledge_Mat/SEO_Playbook/Goldie_Ranking_Stack_SOP.md` — Guidance and reference for 01\ Command\ Center | Playbook: Goldie Ranking Stack.
+- `03_Knowledge_Mat/SEO_Playbook/seo-team/.claude/agents/ai-search-geo-specialist.md` — Guidance and reference for Inputs.
+- `03_Knowledge_Mat/SEO_Playbook/seo-team/.claude/agents/analytics-reporting-manager.md` — Guidance and reference for Inputs.
+- `03_Knowledge_Mat/SEO_Playbook/seo-team/.claude/agents/blog-content-writer.md` — Guidance and reference for Inputs (all required, if one is missing, stop and say which).
+- `03_Knowledge_Mat/SEO_Playbook/seo-team/.claude/agents/client-report-builder.md` — Guidance and reference for Inputs.
+- `03_Knowledge_Mat/SEO_Playbook/seo-team/.claude/agents/keyword-research-manager.md` — Guidance and reference for Inputs.
+- `03_Knowledge_Mat/SEO_Playbook/seo-team/.claude/agents/local-seo-manager.md` — Guidance and reference for Inputs.
+- `03_Knowledge_Mat/SEO_Playbook/seo-team/.claude/agents/on-page-copywriter.md` — Guidance and reference for Inputs (all required, if one is missing, stop and say which).
+- `03_Knowledge_Mat/SEO_Playbook/seo-team/.claude/agents/technical-auditor.md` — Crawls the client site and finds the technical problems blocking rankings, indexability, metadata, schema, speed, internal linking. Wave 1 role; the On-Page Copywriter consumes its findings.
+- `03_Knowledge_Mat/SEO_Playbook/seo-team/.claude/skills/seo-intake/SKILL.md` — Guidance and reference for SEO Intake / Client Onboarding Specialist.
+- `03_Knowledge_Mat/SEO_Playbook/seo-team/.claude/skills/seo-team/SKILL.md` — Guidance and reference for SEO Team Coordinator.
+- `03_Knowledge_Mat/SEO_Playbook/seo-team/CLAUDE.md` — Guidance and reference for SEO Team: Team Charter.
+- `03_Knowledge_Mat/SEO_Playbook/seo-team/context/brand-voice.md` — Guidance and reference for Brand Voice — Pineapple Roofing (PM7).
+- `03_Knowledge_Mat/SEO_Playbook/seo-team/context/client.md` — Guidance and reference for Client Context — Pineapple Roofing (PM7).
+- `03_Knowledge_Mat/SEO_Playbook/seo-team/README.md` — Guidance and reference for SEO Team for Claude Code.
+- `03_Knowledge_Mat/SEO_Playbook/website-builder-prompt-pack/DATAFORSEO-SETUP.md` — Guidance and reference for Required DataForSEO MCP setup.
+- `03_Knowledge_Mat/SEO_Playbook/website-builder-prompt-pack/HOW-TO-USE.md` — Guidance and reference for How to use the universal SEO website prompts.
+- `03_Knowledge_Mat/SEO_Playbook/website-builder-prompt-pack/PROJECT-INPUTS.md` — Guidance and reference for Project inputs.
+- `03_Knowledge_Mat/SEO_Playbook/website-builder-prompt-pack/PROMPTS.md` — Guidance and reference for Universal SEO website copy-and-paste prompt system.
+- `03_Knowledge_Mat/SEO_Playbook/website-builder-prompt-pack/README.md` — Guidance and reference for Universal SEO website builder prompt pack.
+- `03_Knowledge_Mat/SEO_Playbook/website-builder-prompt-pack/START-HERE.md` — Guidance and reference for Start here.
+
+## Brand & Content
+
+- `01_Command_Center/Brand_DNA/BRAND_KIT.md` — Guidance and reference for Pineapple Roofing Corporate Brand Kit.
+- `01_Command_Center/Brand_DNA/BRAND_KIT_RESTORATIONS.md` — Guidance and reference for Pineapple Restorations Brand Kit.
+- `01_Command_Center/Brand_DNA/TATAFU_BRAND.md` — Guidance and reference for TATAFU PERSONAL BRAND OPERATING MAT (TATAFU BRAND.md).
+- `01_Command_Center/GROUNDING.md` — Guidance and reference for GROUNDING — THE PINEAPPLE CONTRACTORS M7 BRAND CONSTITUTION.
+- `01_Command_Center/M7_CONTENT_FACTORY.md` — Guidance and reference for M7 CONTENT FACTORY — TURN MEDIA INTO LEADS.
+- `01_Command_Center/M7_HORMOZI_PLAYBOOK.md` — Guidance and reference for 💰 M7 Hormozi Playbook — 11 Frameworks.
+- `01_Command_Center/M7_INTEGRATED_CAMPAIGN.md` — Guidance and reference for M7 INTEGRATED CAMPAIGN — ONE ENGINE, THREE CHANNELS.
+- `01_Command_Center/M7_JARVIS_VOICE.md` — Guidance and reference for 🎙️ Jarvis Voice — The CPPA Configuration.
+- `01_Command_Center/M7_LOCAL_MODEL_PLAYBOOK.md` — Guidance and reference for 🧠 M7 LOCAL MODEL & WORKLOAD-TIER PLAYBOOK.
+- `01_Command_Center/M7_MARKETING_AUDIT.md` — Guidance and reference for M7 MARKETING AUDIT — PINEAPPLE CONTRACTORS (ROOFING).
+- `01_Command_Center/M7_MARKETING_EXECUTION_KIT.md` — Guidance and reference for 🍍 M7 MARKETING EXECUTION KIT — open the whole engine from here.
+- `01_Command_Center/M7_MARKETING_SOP.md` — Guidance and reference for 📈 M7 Marketing SOP (Framework-Aligned).
+- `01_Command_Center/M7_SOCIAL_DRIVE_TO_BLOTATO_SOP.md` — Guidance and reference for 🔁 The Social Machine — Drive → Caption → Blotato → Post.
+- `01_Command_Center/Outbox_Drafts/2026-06-18_Campaign_Storm_Launch.md` — Guidance and reference for CAMPAIGN — STORM LAUNCH (1-3-12) · PAUSED.
+- `01_Command_Center/Outbox_Drafts/2026-06-22_Outbox_Week1_SocialCaptions_8Posts.md` — Guidance and reference for Week 1 Social Captions — Authority / Proof / Heritage.
+- `01_Command_Center/Outbox_Drafts/2026-06-30_WEEK1_CONTENT_PACKAGE.md` — Week 1 Authority Campaign — complete social media content package ready for Saia review and publish.
+- `01_Command_Center/Outbox_Drafts/2026-07-20_Pineapple_30Day_Content_Calendar.md` — Guidance and reference for 📅 PINEAPPLE 30-DAY CONTENT CALENDAR (4 posts/week).
+- `01_Command_Center/Outbox_Drafts/2026-07-20_Pineapple_GrandSlam_Offer.md` — Guidance and reference for 🏆 PINEAPPLE GRAND SLAM OFFER (roofing / storm restoration).
+- `01_Command_Center/Outbox_Drafts/30_Day_Gameplan.md` — Guidance and reference for 30-DAY MARKETING GAMEPLAN — PINEAPPLE CONTRACTORS (ROOFING).
+- `01_Command_Center/Outbox_Drafts/Campaigns/2026-07-06_Campaign_1-3-12_Meta_Brief.md` — Guidance and reference for 1-3-12 META OFFENSIVE — Campaign Brief (Pineapple Roofing / CPPA).
+- `01_Command_Center/Outbox_Drafts/CODEX_KICKOFF_JSONLD.md` — Guidance and reference for ▶️ BLOCK 1 — paste first (brand seed, do this once per session).
+- `01_Command_Center/Outbox_Drafts/Content/2026-07-06_Week_Content_Package.md` — Guidance and reference for Weekly Branded Content — Week of 2026-07-06 (Pineapple Roofing).
+- `01_Command_Center/Outbox_Drafts/Content/GBP_Description_750char.md` — Guidance and reference for 📍 Google Business Profile — Business Description (paste-ready).
+- `01_Command_Center/Outbox_Drafts/Content/GBP_Posts_and_Reviews_Batch1.md` — Guidance and reference for 📍 Google Business Profile — 5 Posts (post 1–2 per week).
+- `01_Command_Center/Outbox_Drafts/Content/GBP_Posts_Batch2.md` — Guidance and reference for 📍 GBP Posts — Batch 2.
+- `01_Command_Center/Outbox_Drafts/Content/Social_CaptionPack_Week_AllPlatforms.md` — Guidance and reference for 📱 Weekly Social Pack — Ready for Blotato.
+- `01_Command_Center/Outbox_Drafts/Content/Social_Content_Batch1.md` — Guidance and reference for 📱 Social Content — Batch 1.
+- `01_Command_Center/Outbox_Drafts/Content/Social_Content_Batch2.md` — Guidance and reference for 📱 Social Content — Batch 2 (amplify the new pages).
+- `01_Command_Center/Outbox_Drafts/Content/Social_Hormozi_CaptionPack.md` — Guidance and reference for 🍍 Hormozi-Format Caption Pack (brother's rebuild).
+- `01_Command_Center/Outbox_Drafts/Teaching_Modules/02_Brand_Content_Family_Training.md` — Guidance and reference for 🎨 BRAND & CONTENT — Family Training.
+- `01_Command_Center/Outbox_Drafts/Website_Pages/press.md` — Guidance and reference for In the Community, On the Record.
+- `03_Knowledge_Mat/00_Atlas/M7_HORMOZI_FRAMEWORKS.md` — Guidance and reference for 💰 M7 × HORMOZI — the 8 money frameworks (pre-filled for Pineapple).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/install/3-JARVIS-VOICE.md` — Guidance and reference for 3 · Jarvis — the Talking Voice (Recommended).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/member-pack/install/3-JARVIS-VOICE.md` — Guidance and reference for 3 · Jarvis — the Talking Voice (Recommended).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/content-disposition/README.md` — Guidance and reference for content-disposition.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/content-type/HISTORY.md` — Reference for HISTORY.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/content-type/README.md` — Guidance and reference for content-type.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/express-rate-limit/license.md` — Reference for license.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/express-rate-limit/readme.md` — Guidance and reference for Usage.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/express/Readme.md` — Guidance and reference for Table of contents.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/framer-motion/README.md` — Guidance and reference for Table of Contents.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/mdast-util-mdx-expression/readme.md` — Guidance and reference for mdast-util-mdx-expression.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/01-getting-started/06-fetching-data.md` — Learn how to fetch data and stream content that depends on data.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/02-guides/content-security-policy.md` — Learn how to set a Content Security Policy (CSP) for your Next.js application.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/02-guides/how-revalidation-works.md` — A deep dive into how Next.js revalidates cached content, including the tag system, cache consistency, and multi-instance coordination.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/02-guides/instant-navigation.md` — Learn how to structure your app to prefetch and prerender more content, providing instant page loads and client navigations.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/02-guides/internationalization.md` — Add support for multiple languages with internationalized routing and localized content.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/02-guides/json-ld.md` — Learn how to add JSON-LD to your Next.js application to describe your content to search engines and AI.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/02-guides/public-static-pages.md` — Learn how to build public, "static" pages that share data across users, such as landing pages, list pages (products, blogs, etc.), marketing and news sites.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/02-guides/testing/cypress.md` — Learn how to set up Cypress with Next.js for End-to-End (E2E) and Component Testing.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/02-guides/testing/index.md` — Learn how to set up Next.js with four commonly used testing tools — Cypress, Playwright, Vitest, and Jest.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/02-guides/view-transitions.md` — Learn how to use view transitions to communicate meaning during navigation, loading, and content changes in a Next.js app.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/05-config/01-next-config-js/compress.md` — Next.js provides gzip compression to compress rendered content and static files, it only works with the server target. Learn more about it here.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/05-config/01-next-config-js/turbopackIgnoreIssue.md` — Suppress specific Turbopack errors and warnings from the CLI output and error overlay.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/02-guides/content-security-policy.md` — Learn how to set a Content Security Policy (CSP) for your Next.js application.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/02-guides/testing/cypress.md` — Learn how to set up Next.js with Cypress for End-to-End (E2E) and Component Testing.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/02-guides/testing/index.md` — Learn how to set up Next.js with three commonly used testing tools — Cypress, Playwright, Vitest, and Jest.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/04-config/01-next-config-js/compress.md` — Next.js provides gzip compression to compress rendered content and static files, it only works with the server target. Learn more about it here.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/three/examples/jsm/libs/basis/README.md` — Guidance and reference for Basis Universal GPU Texture Compression.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/three/examples/jsm/libs/draco/README.md` — Guidance and reference for Draco 3D Data Compression.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/type-is/node_modules/content-type/README.md` — Guidance and reference for content-type.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/vfile/readme.md` — Guidance and reference for Contents.
+- `03_Knowledge_Mat/00_Atlas/templates/Fable_Mindset_public/Fable_Mindset_public.md` — Guidance and reference for The Fable Mindset.
+- `03_Knowledge_Mat/00_Atlas/templates/five-skills-pack/leadmagnet.md` — Research a trending topic, build a high-quality lead magnet for your niche, generate 3 LinkedIn post variations, and export to Notion or a styled PDF.
+- `03_Knowledge_Mat/00_Atlas/templates/five-skills-pack_182720/leadmagnet.md` — Research a trending topic, build a high-quality lead magnet for your niche, generate 3 LinkedIn post variations, and export to Notion or a styled PDF.
+- `03_Knowledge_Mat/00_Atlas/templates/PROMPTS/PROMPTS.md` — Guidance and reference for Fable Mindset, copy-paste prompts.
+- `03_Knowledge_Mat/00_Atlas/templates/The_Fable_Mindset_Playbook/Fable_Mindset_public.md` — Guidance and reference for The Fable Mindset.
+- `03_Knowledge_Mat/00_Atlas/templates/The_Fable_Mindset_Playbook/PROMPTS (1).md` — Guidance and reference for Fable Mindset, copy-paste prompts.
+- `03_Knowledge_Mat/00_Atlas/templates/The_Fable_Mindset_Playbook/PROMPTS.md` — Guidance and reference for Fable Mindset, copy-paste prompts.
+- `03_Knowledge_Mat/active_context/product_marketing.md` — Guidance and reference for 🏛️ SYSTEM ARCHITECTURE & BRAND PROPULSION.
+- `03_Knowledge_Mat/corey_marketing_skills/.github/PULL_REQUEST_TEMPLATE/documentation.md` — Guidance and reference for Documentation.
+- `03_Knowledge_Mat/corey_marketing_skills/.github/PULL_REQUEST_TEMPLATE/new-skill.md` — Guidance and reference for New Skill.
+- `03_Knowledge_Mat/corey_marketing_skills/.github/PULL_REQUEST_TEMPLATE/skill-update.md` — Guidance and reference for Skill Update.
+- `03_Knowledge_Mat/corey_marketing_skills/AGENTS.md` — What this skill does and when to use it. Include trigger phrases.
+- `03_Knowledge_Mat/corey_marketing_skills/CLAUDE.md` — Reference for CLAUDE.
+- `03_Knowledge_Mat/corey_marketing_skills/README.md` — Guidance and reference for Marketing Skills for AI Agents.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/ab-testing/references/sample-size-guide.md` — Guidance and reference for Sample Size Guide.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/ab-testing/references/test-templates.md` — Guidance and reference for A/B Test Templates Reference.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/ab-testing/SKILL.md` — Guidance and reference for A/B Test Setup.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/ad-creative/references/creative-review-page.md` — Guidance and reference for The Creative Review Page.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/ad-creative/references/creative-roadmap.md` — Guidance and reference for The Creative Strategy Loop.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/ad-creative/references/generative-tools.md` — Guidance and reference for Generative AI Tools for Ad Creative.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/ad-creative/references/hook-system.md` — Guidance and reference for The Hook System.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/ad-creative/references/platform-specs.md` — Guidance and reference for Platform Specs Reference.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/ad-creative/references/static-ad-templates.md` — Guidance and reference for Static Ad Template Library.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/ad-creative/SKILL.md` — Guidance and reference for Ad Creative.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/ads/references/abm-playbook.md` — Guidance and reference for ABM Playbook (Paid).
+- `03_Knowledge_Mat/corey_marketing_skills/skills/ads/references/ad-copy-templates.md` — Guidance and reference for Ad Copy Templates Reference.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/ads/references/audience-targeting.md` — Guidance and reference for Audience Targeting Reference.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/ads/references/b2b-paid-playbook.md` — Guidance and reference for B2B Paid Playbook.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/ads/references/conversion-tracking.md` — Guidance and reference for Conversion Tracking Setup.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/ads/references/google-search-playbook.md` — Guidance and reference for Google Search Playbook (B2B).
+- `03_Knowledge_Mat/corey_marketing_skills/skills/ads/references/linkedin-b2b-playbook.md` — Guidance and reference for LinkedIn B2B Playbook.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/ads/references/meta-decision-system.md` — Guidance and reference for Meta Decision System (B2B).
+- `03_Knowledge_Mat/corey_marketing_skills/skills/ads/references/platform-setup-checklists.md` — Guidance and reference for Platform Setup Checklists.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/ads/references/rsa-output-spec.md` — Guidance and reference for Google RSA Output Spec.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/ads/SKILL.md` — Guidance and reference for Paid Ads.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/analytics/references/event-library.md` — Guidance and reference for Event Library Reference.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/analytics/references/ga4-implementation.md` — Guidance and reference for GA4 Implementation Reference.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/analytics/references/gtm-implementation.md` — Guidance and reference for Google Tag Manager Implementation Reference.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/analytics/SKILL.md` — Guidance and reference for Analytics Tracking.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/aso/references/apple-specs.md` — Guidance and reference for Apple App Store — Official Specs & Guidelines.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/aso/references/benchmarks.md` — Guidance and reference for ASO Benchmarks & Conversion Data.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/aso/references/google-play-specs.md` — Guidance and reference for Google Play Store — Official Specs & Guidelines.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/aso/references/report-template.md` — Guidance and reference for ASO Audit Report Template.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/aso/references/scoring-criteria.md` — Guidance and reference for ASO Scoring Criteria.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/aso/SKILL.md` — Guidance and reference for ASO Audit.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/churn-prevention/references/cancel-flow-patterns.md` — Guidance and reference for Cancel Flow Patterns.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/churn-prevention/references/dunning-playbook.md` — Guidance and reference for Dunning Playbook.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/churn-prevention/SKILL.md` — Guidance and reference for Churn Prevention.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/co-marketing/SKILL.md` — Guidance and reference for Before Starting.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/cold-email/references/benchmarks.md` — Guidance and reference for Benchmarks, Data & Expert Methods.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/cold-email/references/follow-up-sequences.md` — Guidance and reference for Follow-Up Sequences.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/cold-email/references/frameworks.md` — Guidance and reference for Cold Email Copywriting Frameworks.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/cold-email/references/personalization.md` — Guidance and reference for Personalization at Scale.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/cold-email/references/subject-lines.md` — Guidance and reference for Subject Line Optimization.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/cold-email/SKILL.md` — Guidance and reference for Cold Email Writing.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/community-marketing/SKILL.md` — Guidance and reference for Community Marketing.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/competitor-profiling/references/templates.md` — Guidance and reference for Profile Templates.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/competitor-profiling/references/tool-reference.md` — Guidance and reference for MCP Tool Reference for Competitor Profiling.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/competitor-profiling/SKILL.md` — Guidance and reference for Competitor Profiling.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/competitors/references/content-architecture.md` — Guidance and reference for Content Architecture for Competitor Pages.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/competitors/references/templates.md` — Guidance and reference for Section Templates for Competitor Pages.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/competitors/SKILL.md` — Guidance and reference for Competitor & Alternative Pages.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/content-strategy/references/headless-cms.md` — Guidance and reference for Headless CMS Guide.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/content-strategy/SKILL.md` — Guidance and reference for Content Strategy.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/copy-editing/references/checklist.md` — Guidance and reference for Copy Editing Checklist.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/copy-editing/references/content-refresh.md` — Guidance and reference for Content Refresh Editing.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/copy-editing/references/plain-english-alternatives.md` — Guidance and reference for Plain English Alternatives.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/copy-editing/SKILL.md` — Guidance and reference for Copy Editing.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/copywriting/references/copy-frameworks.md` — Guidance and reference for Copy Frameworks Reference.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/copywriting/references/natural-transitions.md` — Guidance and reference for Natural Transitions.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/copywriting/SKILL.md` — Guidance and reference for Copywriting.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/cro/references/experiments.md` — Guidance and reference for Page CRO Experiment Ideas.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/cro/references/form.md` — Guidance and reference for Form CRO.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/cro/SKILL.md` — Guidance and reference for Conversion Rate Optimization (CRO).
+- `03_Knowledge_Mat/corey_marketing_skills/skills/customer-research/references/source-guides.md` — Guidance and reference for Customer Research — Source Guides.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/customer-research/SKILL.md` — Guidance and reference for Customer Research.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/directory-submissions/references/directory-list.md` — Guidance and reference for Directory List — Full Reference.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/directory-submissions/references/positioning-variations.md` — Guidance and reference for Positioning Variations Library.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/directory-submissions/SKILL.md` — Guidance and reference for Directory Submissions.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/emails/references/copy-guidelines.md` — Guidance and reference for Email Copy Guidelines.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/emails/references/email-types.md` — Guidance and reference for Email Types Reference.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/emails/references/sequence-templates.md` — Guidance and reference for Email Sequence Templates.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/emails/SKILL.md` — Guidance and reference for Email Sequence Design.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/CPPA-tools/references/tool-types.md` — Guidance and reference for CPPA Tool Types Reference.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/CPPA-tools/SKILL.md` — Guidance and reference for CPPA Tool Strategy (Engineering as Marketing).
+- `03_Knowledge_Mat/corey_marketing_skills/skills/launch/SKILL.md` — Guidance and reference for Launch Strategy.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/lead-magnets/references/benchmarks.md` — Guidance and reference for Lead Magnet Benchmarks.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/lead-magnets/references/format-guide.md` — Guidance and reference for Lead Magnet Format Guide.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/lead-magnets/SKILL.md` — Guidance and reference for Lead Magnets.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/marketing-council/references/advisor-template.md` — Guidance and reference for Custom Advisor Template.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/marketing-council/references/advisors/alex-hormozi.md` — Guidance and reference for Alex Hormozi.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/marketing-council/references/advisors/ann-handley.md` — Guidance and reference for Ann Handley.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/marketing-council/references/advisors/april-dunford.md` — Guidance and reference for April Dunford.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/marketing-council/references/advisors/byron-sharp.md` — Guidance and reference for Byron Sharp.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/marketing-council/references/advisors/claude-hopkins.md` — Guidance and reference for Claude Hopkins (1866–1932).
+- `03_Knowledge_Mat/corey_marketing_skills/skills/marketing-council/references/advisors/david-ogilvy.md` — Guidance and reference for David Ogilvy (1911–1999).
+- `03_Knowledge_Mat/corey_marketing_skills/skills/marketing-council/references/advisors/eugene-schwartz.md` — Guidance and reference for Eugene Schwartz (1927–1995).
+- `03_Knowledge_Mat/corey_marketing_skills/skills/marketing-council/references/advisors/gary-halbert.md` — Guidance and reference for Gary Halbert (1938–2007).
+- `03_Knowledge_Mat/corey_marketing_skills/skills/marketing-council/references/advisors/gary-vaynerchuk.md` — Guidance and reference for Gary Vaynerchuk.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/marketing-council/references/advisors/rory-sutherland.md` — Guidance and reference for Rory Sutherland.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/marketing-council/references/advisors/russell-brunson.md` — Guidance and reference for Russell Brunson (b. 1980).
+- `03_Knowledge_Mat/corey_marketing_skills/skills/marketing-council/references/advisors/seth-godin.md` — Guidance and reference for Seth Godin.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/marketing-council/SKILL.md` — Guidance and reference for Marketing Council.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/marketing-ideas/references/ideas-by-category.md` — Guidance and reference for The 139 Marketing Ideas.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/marketing-ideas/SKILL.md` — Guidance and reference for Marketing Ideas for SaaS.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/marketing-loops/references/loop-catalog.md` — Guidance and reference for Marketing Loop Catalog.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/marketing-loops/references/loop-guardrails.md` — Guidance and reference for Loop Guardrails & Compliance.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/marketing-loops/references/loop-orchestration.md` — Guidance and reference for Loop Orchestration & Rollout.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/marketing-loops/references/loop-state.md` — Guidance and reference for Loop State & Run Logging.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/marketing-loops/references/loop-template.md` — Guidance and reference for Loop Template.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/marketing-loops/SKILL.md` — Guidance and reference for Marketing Loops.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/marketing-plan/references/aarrr-framework.md` — Guidance and reference for AARRR Framework — Primer for Plan Sequencing.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/marketing-plan/references/budget-planning.md` — Guidance and reference for Budget Planning — Scientific Methods for Setting the Marketing Budget.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/marketing-plan/references/client-types.md` — Guidance and reference for Client Types — Variations by Business Model.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/marketing-plan/references/current-state-rubric.md` — Guidance and reference for Current State Rubric — 17-Section Scoring Lens.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/marketing-plan/references/example-quietude.md` — Guidance and reference for Example — Quietude Marketing Plan v1.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/marketing-plan/references/funding-stage-unlocks.md` — Guidance and reference for Funding-Stage Capability Unlocks.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/marketing-plan/references/growth-patterns.md` — Guidance and reference for Growth Patterns — The Real Shape of SaaS Growth.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/marketing-plan/references/idea-cross-reference.md` — Guidance and reference for Idea Cross-Reference — 139 Marketing Ideas Mapped to AARRR.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/marketing-plan/references/measurement-framework.md` — Guidance and reference for Measurement Framework — KPIs, North Stars, Cadence.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/marketing-plan/references/methodology.md` — Guidance and reference for Methodology — How a Marketing Plan Gets Made.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/marketing-plan/references/ops-stack-mapping.md` — Guidance and reference for Marketing Operations Stack — Skills + MCPs per AARRR Stage.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/marketing-plan/references/plan-template.md` — Guidance and reference for Plan Template — The 13-Section Structure.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/marketing-plan/references/team-and-agency-model.md` — Guidance and reference for Team and Agency Model — Hire for Strategy, Outsource Execution.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/marketing-plan/SKILL.md` — Guidance and reference for Marketing Plan.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/marketing-psychology/SKILL.md` — Guidance and reference for Marketing Psychology & Mental Models.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/offers/references/bonus-stacking.md` — Guidance and reference for Bonus Stacking.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/offers/references/examples.md` — Guidance and reference for Worked Examples — Before/After Offers.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/offers/references/guarantee-design.md` — Guidance and reference for Guarantee Design.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/offers/references/offer-anatomy.md` — Guidance and reference for Offer Anatomy.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/offers/references/offer-formats.md` — Guidance and reference for Offer Formats by Business Type.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/offers/references/scarcity-urgency.md` — Guidance and reference for Scarcity & Urgency.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/offers/references/value-equation.md` — Guidance and reference for The Value Equation.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/offers/SKILL.md` — Guidance and reference for Offer Design.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/onboarding/references/experiments.md` — Guidance and reference for Onboarding Experiment Ideas.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/onboarding/SKILL.md` — Guidance and reference for Onboarding CRO.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/paywalls/references/experiments.md` — Guidance and reference for Paywall Experiment Ideas.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/paywalls/SKILL.md` — Guidance and reference for Paywall and Upgrade Screen CRO.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/popups/SKILL.md` — Guidance and reference for Popup CRO.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/pricing/references/research-methods.md` — Guidance and reference for Pricing Research Methods.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/pricing/references/tier-structure.md` — Guidance and reference for Tier Structure and Packaging.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/pricing/SKILL.md` — Guidance and reference for Pricing Strategy.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/product-marketing/SKILL.md` — Guidance and reference for Product Marketing Context.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/prospecting/references/b2b-prospecting.md` — Guidance and reference for B2B Prospecting Reference.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/prospecting/references/compliance.md` — Guidance and reference for Prospecting Compliance Reference.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/prospecting/references/data-sources.md` — Guidance and reference for Prospecting Data Sources.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/prospecting/references/demand-signals.md` — Guidance and reference for Demand-Signal Discovery (Find Your First Customers).
+- `03_Knowledge_Mat/corey_marketing_skills/skills/prospecting/references/local-prospecting.md` — Guidance and reference for Local SMB Prospecting Reference.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/prospecting/references/saas-prospecting.md` — Guidance and reference for SaaS Prospecting Reference.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/prospecting/SKILL.md` — Guidance and reference for Prospecting.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/public-relations/references/journalist-pitching.md` — Guidance and reference for Journalist Pitching — Proactive PR Workflow.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/public-relations/references/media-outlets.md` — Guidance and reference for Media Outlets — Where to Pitch.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/public-relations/references/newsjacking.md` — Guidance and reference for Newsjacking — Reactive PR Workflow.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/public-relations/references/press-platforms.md` — Guidance and reference for Press Request Platforms — Inbound PR.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/public-relations/SKILL.md` — Guidance and reference for Public Relations & Earned Media.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/referrals/references/affiliate-programs.md` — Guidance and reference for Affiliate Program Design.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/referrals/references/program-examples.md` — Guidance and reference for Referral Program Examples.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/referrals/SKILL.md` — Guidance and reference for Referral & Affiliate Programs.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/revops/references/automation-playbooks.md` — Guidance and reference for Automation Playbooks.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/revops/references/lifecycle-definitions.md` — Guidance and reference for Lifecycle Stage Definitions.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/revops/references/routing-rules.md` — Guidance and reference for Lead Routing Rules.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/revops/references/scoring-models.md` — Guidance and reference for Lead Scoring Models.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/revops/SKILL.md` — Guidance and reference for RevOps.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/sales-enablement/references/deck-frameworks.md` — Guidance and reference for Sales Deck Frameworks.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/sales-enablement/references/demo-scripts.md` — Guidance and reference for Demo Script Templates.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/sales-enablement/references/objection-library.md` — Guidance and reference for Objection Library.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/sales-enablement/references/one-pager-templates.md` — Guidance and reference for One-Pager Templates.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/sales-enablement/SKILL.md` — Guidance and reference for Sales Enablement.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/signup/SKILL.md` — Guidance and reference for Signup Flow CRO.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/site-architecture/references/mermaid-templates.md` — Guidance and reference for Mermaid Diagram Templates.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/site-architecture/references/navigation-patterns.md` — Guidance and reference for Navigation Patterns.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/site-architecture/references/site-type-templates.md` — Guidance and reference for Site Type Templates.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/site-architecture/SKILL.md` — Guidance and reference for Site Architecture.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/sms/references/compliance.md` — Guidance and reference for SMS Compliance Reference.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/sms/references/platforms.md` — Guidance and reference for SMS Platform Reference.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/sms/references/sequence-templates.md` — Guidance and reference for SMS Sequence Templates.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/sms/SKILL.md` — Guidance and reference for SMS Marketing.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/social/references/carousel-frameworks.md` — Guidance and reference for Carousel Frameworks.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/social/references/listening-sources-template.md` — Guidance and reference for Listening Sources — Template.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/social/references/listening.md` — Guidance and reference for Social Listening & Engagement Triage.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/social/references/platform-limits.md` — Guidance and reference for Platform Limits Reference.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/social/references/platforms.md` — Guidance and reference for Platform-Specific Strategy Guide.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/social/references/post-templates.md` — Guidance and reference for Post Format Templates.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/social/references/reverse-engineering.md` — Guidance and reference for Reverse Engineering Viral Content.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/social/SKILL.md` — Guidance and reference for Social Content.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/clis/README.md` — Guidance and reference for Marketing CLIs.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/composio/marketing-tools.md` — Guidance and reference for Composio Marketing Tools.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/composio/README.md` — Guidance and reference for Composio Quick Start.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/activecampaign.md` — Guidance and reference for ActiveCampaign.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/adobe-analytics.md` — Guidance and reference for Adobe Analytics.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/ahrefs.md` — Guidance and reference for Ahrefs.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/airops.md` — Guidance and reference for AirOps.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/amplitude.md` — Guidance and reference for Amplitude.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/apollo.md` — Guidance and reference for Apollo.io.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/attentive.md` — Guidance and reference for Attentive.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/audiencetap.md` — Guidance and reference for AudienceTap.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/beehiiv.md` — Guidance and reference for Beehiiv.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/brevo.md` — Guidance and reference for Brevo.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/browserbase.md` — Guidance and reference for Browserbase.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/buffer.md` — Guidance and reference for Buffer.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/calendly.md` — Guidance and reference for Calendly.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/clay.md` — Guidance and reference for Clay.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/clearbit.md` — Guidance and reference for Clearbit (HubSpot Breeze Intelligence).
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/close.md` — Guidance and reference for Close.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/cogny.md` — Guidance and reference for Cogny.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/composio.md` — Guidance and reference for Composio.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/contentful.md` — Guidance and reference for Contentful.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/coupler.md` — Guidance and reference for Coupler.io.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/crossbeam.md` — Guidance and reference for Crossbeam.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/customer-io.md` — Guidance and reference for Customer.io.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/demio.md` — Guidance and reference for Demio.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/dub-co.md` — Guidance and reference for Dub.co.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/exa.md` — Guidance and reference for Exa.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/firecrawl.md` — Guidance and reference for Firecrawl.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/firehose.md` — Guidance and reference for Firehose.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/g2.md` — Guidance and reference for G2.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/ga4.md` — Guidance and reference for Google Analytics 4 (GA4).
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/github.md` — Guidance and reference for GitHub.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/gong.md` — Guidance and reference for Gong.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/google-ads.md` — Guidance and reference for Google Ads.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/heygen.md` — Guidance and reference for HeyGen.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/hotjar.md` — Guidance and reference for Hotjar.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/hubspot.md` — Guidance and reference for HubSpot.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/hunter.md` — Guidance and reference for Hunter.io.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/hyperframes.md` — Guidance and reference for Hyperframes.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/instantly.md` — Guidance and reference for Instantly.ai.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/intercom.md` — Guidance and reference for Intercom.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/introw.md` — Guidance and reference for Introw PRM.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/kit.md` — Guidance and reference for Kit (formerly ConvertKit).
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/klaviyo.md` — Guidance and reference for Klaviyo.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/lemlist.md` — Guidance and reference for Lemlist.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/linkedin-ads.md` — Guidance and reference for LinkedIn Ads.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/livestorm.md` — Guidance and reference for Livestorm.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/mailchimp.md` — Guidance and reference for Mailchimp.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/mention-me.md` — Guidance and reference for Mention Me.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/meta-ads.md` — Guidance and reference for Meta Ads (Facebook/Instagram).
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/mixpanel.md` — Guidance and reference for Mixpanel.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/nitrosend.md` — Guidance and reference for Nitrosend.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/onesignal.md` — Guidance and reference for OneSignal.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/optimizely.md` — Guidance and reference for Optimizely.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/outreach.md` — Guidance and reference for Outreach.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/paddle.md` — Guidance and reference for Paddle.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/partnerstack.md` — Guidance and reference for PartnerStack.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/pendo.md` — Guidance and reference for Pendo.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/plausible.md` — Guidance and reference for Plausible Analytics.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/plivo.md` — Guidance and reference for Plivo.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/posthog.md` — Guidance and reference for PostHog.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/postmark.md` — Guidance and reference for Postmark.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/postscript.md` — Guidance and reference for Postscript.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/rankparse.md` — Guidance and reference for RankParse.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/rb2b.md` — Guidance and reference for RB2B.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/resend.md` — Guidance and reference for Resend.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/rewardful.md` — Guidance and reference for Rewardful.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/salesforce.md` — Guidance and reference for Salesforce.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/sanity.md` — Guidance and reference for Sanity.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/savvycal.md` — Guidance and reference for SavvyCal.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/segment.md` — Guidance and reference for Segment.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/semrush.md` — Guidance and reference for SEMrush.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/sendgrid.md` — Guidance and reference for SendGrid.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/sequenzy.md` — Guidance and reference for Sequenzy.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/shopify.md` — Guidance and reference for Shopify.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/similarweb.md` — Guidance and reference for Similarweb.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/snov.md` — Guidance and reference for Snov.io.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/sparktoro.md` — Guidance and reference for SparkToro.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/strapi.md` — Guidance and reference for Strapi.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/stripe.md` — Guidance and reference for Stripe.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/supermetrics.md` — Guidance and reference for Supermetrics.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/tiktok-ads.md` — Guidance and reference for TikTok Ads.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/tolt.md` — Guidance and reference for Tolt.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/truelist.md` — Guidance and reference for Truelist.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/trustpilot.md` — Guidance and reference for Trustpilot.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/twilio.md` — Guidance and reference for Twilio.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/typeform.md` — Guidance and reference for Typeform.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/webflow.md` — Guidance and reference for Webflow.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/wistia.md` — Guidance and reference for Wistia.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/zapier.md` — Guidance and reference for Zapier.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/integrations/zoominfo.md` — Guidance and reference for ZoomInfo.
+- `03_Knowledge_Mat/corey_marketing_skills/tools/REGISTRY.md` — Guidance and reference for Marketing Tools Registry.
+- `03_Knowledge_Mat/corey_marketing_skills/VERSIONS.md` — Guidance and reference for Marketing Skills Versions.
+- `03_Knowledge_Mat/GROUNDING.md` — Guidance and reference for GROUNDING — THE PINEAPPLE CONTRACTORS M7 BRAND CONSTITUTION.
+
+## Operations
+
+- `01_Command_Center/ANTIGRAVITY_OS.md` — Guidance and reference for SYSTEM CONSTRAINTS & MASTER EXECUTION MANDATE: ANTIGRAVITY OS.
+- `01_Command_Center/claw.md` — Guidance and reference for Master AI Operating Manual & Directory Guardrail.
+- `01_Command_Center/CONTEXT.md` — Guidance and reference for CONTEXT — 01 Command Center — Strategic Brain.
+- `01_Command_Center/FINISH_LINE.md` — Guidance and reference for M7 — THE FINISH LINE (stop building, start shipping).
+- `01_Command_Center/GBP_OPTIMIZATION_CHECKLIST.md` — Guidance and reference for 📍 GBP Optimization Checklist — Make the CPPA Leads Multiply.
+- `01_Command_Center/M7_AD_ARCHITECT.md` — Guidance and reference for 🍍 M7 Ad Architect — PM7-Compliant.
+- `01_Command_Center/M7_CAVEMAN_MODE.md` — Guidance and reference for 🪓 M7 CAVEMAN MODE — spend fewer tokens, keep the work.
+- `01_Command_Center/M7_CHATGPT_HANDOFF.md` — Guidance and reference for 🤝 M7 — HAND THESE TO CHATGPT / FABLE (copy-paste, done for you).
+- `01_Command_Center/M7_CLOUD_DEPLOYMENT_CHEATSHEET.md` — Guidance and reference for ☁️ M7 CLOUD DEPLOYMENT — COPY-PASTE CHEAT SHEET.
+- `01_Command_Center/M7_COST_SMART_EXECUTION.md` — Guidance and reference for 💸 M7 — COST-SMART EXECUTION (CPPA stack first · Fable only for the hero).
+- `01_Command_Center/M7_EXECUTION_CADENCE_AND_ROUTING.md` — Guidance and reference for 🎛️ M7 Operating System — Cadence + Routing.
+- `01_Command_Center/M7_EXECUTION_TODO.md` — Guidance and reference for ✅ M7 Execution To-Do (Your Runbook).
+- `01_Command_Center/M7_GoLive_Checklist.md` — Guidance and reference for 🚦 M7 — GO-LIVE CHECKLIST (migrate without losing Google).
+- `01_Command_Center/M7_HOW_WE_MAKE_MONEY.md` — Guidance and reference for 💰 M7 — HOW PINEAPPLE ACTUALLY MAKES MONEY.
+- `01_Command_Center/M7_LEAD_ENGINE.md` — Guidance and reference for M7 LEAD ENGINE — PINEAPPLE CONTRACTORS (ROOFING).
+- `01_Command_Center/M7_LEAD_ENGINE_GBP_LSA_FOR_BROTHER.md` — Guidance and reference for 🍍 The Pineapple Lead Engine — what to fix to get the phone ringing.
+- `01_Command_Center/M7_MASTER_RUNBOOK.md` — Guidance and reference for ▶️ M7 MASTER RUNBOOK — DO THIS IN ORDER.
+- `01_Command_Center/M7_MASTER_SOP.md` — Guidance and reference for 🛰️ PINEAPPLE M7 — MASTER SOP (read this, run anything).
+- `01_Command_Center/M7_MISSION_CONTROL_OPERATORS_MANUAL.md` — Guidance and reference for 🎛️ M7 Mission Control — Operator's Manual.
+- `01_Command_Center/M7_MOBILE_ACCESS.md` — Guidance and reference for M7 — WORK FROM YOUR PHONE (mobile + desktop, one playbook).
+- `01_Command_Center/M7_MOBILE_MASTER.md` — Guidance and reference for 🍍 PINEAPPLE CONTRACTORS M7 — MOBILE MASTER.
+- `01_Command_Center/M7_ONBOARDING_CHEATSHEET.md` — Guidance and reference for 🍍 M7 Mission Control — Onboarding Cheat Sheet.
+- `01_Command_Center/M7_OPERATING_RHYTHM.md` — Guidance and reference for M7 — YOUR OPERATING RHYTHM (ADHD-friendly).
+- `01_Command_Center/M7_PROOF_OF_WORK.md` — Guidance and reference for 🧾 PROOF OF THE PUDDING — verified live on pineappleroofingllc.com.
+- `01_Command_Center/M7_QUICK_CARD.md` — Guidance and reference for 🍍 M7 QUICK CARD — Plan · Push · Play · Profit.
+- `01_Command_Center/M7_SHOW_YOUR_BROTHER.md` — Guidance and reference for 🍍 What We Built — In Plain English.
+- `01_Command_Center/M7_SITE_MIGRATION_MASTER_PLAN.md` — Guidance and reference for 🏗️ M7 — SITE MIGRATION MASTER PLAN.
+- `01_Command_Center/M7_SKILLS_CATALOG.md` — Guidance and reference for ⚡ M7 SKILLS & TOOLS CATALOG — fire any kit with one command.
+- `01_Command_Center/M7_SOP_UPDATE_2026-07-13.md` — Guidance and reference for 🍍 M7 SOP UPDATE — 2026-07-13.
+- `01_Command_Center/M7_SPEED_TO_LEAD_SOP.md` — Guidance and reference for ⚡ M7 Speed-to-Lead + AI Voice Pre-Qualification.
+- `01_Command_Center/M7_STORM_RESPONSE_PLAYBOOK.md` — Guidance and reference for ⛈️ The Storm Response Playbook (D2D × Digital).
+- `01_Command_Center/M7_STUDY_GUIDE.md` — Guidance and reference for 🍍 PINEAPPLE CONTRACTORS M7 — BIG STUDY GUIDE.
+- `01_Command_Center/M7_THIS_MONTH.md` — Guidance and reference for 🍍 M7 — THIS MONTH (July 2026): what to build, who builds it.
+- `01_Command_Center/M7_WEBSITE_CLONE_PLAN.md` — Guidance and reference for 🏗️ In-House Clone of pineapplecontractors.com.
+- `01_Command_Center/memory/progress.md` — Reference for progress.
+- `01_Command_Center/Outbox_Drafts/2026-06-22_Outbox_Research_FriscoStorm_30Day_Brief.md` — Guidance and reference for Frisco Storm & Hail — 30-Day Research Brief.
+- `01_Command_Center/Outbox_Drafts/2026-06-22_Outbox_ReviewRequest_3DayNudge_DavidThompson.md` — Guidance and reference for REVIEW REQUEST — 3-DAY NUDGE (Placeholder: David Thompson).
+- `01_Command_Center/Outbox_Drafts/2026-06-22_Outbox_ReviewRequest_SameDay_ElenaRodriguez.md` — Guidance and reference for REVIEW REQUEST — SAME-DAY (Placeholder: Elena Rodriguez).
+- `01_Command_Center/Outbox_Drafts/2026-06-22_Outbox_ReviewRequest_SameDay_MarcusChen.md` — Guidance and reference for REVIEW REQUEST — SAME-DAY (Placeholder: Marcus Chen).
+- `01_Command_Center/Outbox_Drafts/2026-06-29_MASTER_PLAYBOOK_PATCH_v2.1.md` — Consolidated MASTER PLAYBOOK patch — new frameworks from tatafu master playbook.md not yet in.
+- `01_Command_Center/Outbox_Drafts/2026-07-14_Outbox_Phase1_IntentMap_LocalPM7.md` — Guidance and reference for Phase 1 — Local Intent Map (5 ZIPs + 2 Enclaves).
+- `01_Command_Center/Outbox_Drafts/2026-07-20_Pineapple_100M_Lead_System.md` — Guidance and reference for 🎯 PINEAPPLE $100M LEAD SYSTEM — explained simple.
+- `01_Command_Center/Outbox_Drafts/2026-07-20_Pineapple_CLOSER_Sales_System.md` — Guidance and reference for 🤝 PINEAPPLE SALES SYSTEM — close without being pushy.
+- `01_Command_Center/Outbox_Drafts/_README.md` — <one-sentence intent statement.
+- `01_Command_Center/Outbox_Drafts/M7_BULLSEYE_ASSESSMENT_VALIDATION.md` — Guidance and reference for 🎯 VP VERDICT ON THE BULLSEYE ASSESSMENT.
+- `01_Command_Center/Outbox_Drafts/M7_DRIVE_REORG_COWORK_BRIEF.md` — Guidance and reference for 🗂️ COWORK BRIEF — Reorganize the Pineapple Media Drive.
+- `01_Command_Center/Outbox_Drafts/M7_SITE_CONSOLIDATION_COWORK_BRIEF.md` — Guidance and reference for 🎯 COWORK BRIEF — Consolidate Pineapple's Two Websites.
+- `01_Command_Center/Outbox_Drafts/Reviews/2026-07-06_Review_Request_Texts.md` — Guidance and reference for Review-Request Texts — Dynamic Review Velocity (Pineapple Roofing).
+- `01_Command_Center/Outbox_Drafts/Teaching_Modules/03_Ops_SOP_Family_Training.md` — Guidance and reference for 🏙️ OPS & SOP — Family Training.
+- `01_Command_Center/Outbox_Drafts/Website_Clone/00_Home.md` — Guidance and reference for 🏠 HOME PAGE — Elementor build sheet.
+- `01_Command_Center/Outbox_Drafts/Website_Pages/about.md` — Guidance and reference for Roofing & Construction, Made Sweeter.
+- `01_Command_Center/Outbox_Drafts/Website_Pages/commercial-hail-damage-portfolio-frisco-tx.md` — Guidance and reference for Commercial Hail Damage Portfolio Roofing Frisco TX — IKO Certified (RCAT 03-0637).
+- `01_Command_Center/Outbox_Drafts/Website_Pages/contact.md` — Guidance and reference for Let's Take a Look — On Us.
+- `01_Command_Center/Outbox_Drafts/Website_Pages/financing.md` — Guidance and reference for A New Roof Shouldn't Mean a Financial Gut-Punch.
+- `01_Command_Center/Outbox_Drafts/Website_Pages/flat-roofing-allen-tx.md` — Guidance and reference for Flat Roofing in Allen, TX — Commercial & Low-Slope (RCAT 03-0637).
+- `01_Command_Center/Outbox_Drafts/Website_Pages/hail-damage-roof-repair-frisco-tx.md` — Guidance and reference for Hail Damage Roof Repair Frisco TX — IKO Certified (RCAT 03-0637).
+- `01_Command_Center/Outbox_Drafts/Website_Pages/insurance-claims.md` — Guidance and reference for We Handle Your Roof Insurance Claim With You.
+- `01_Command_Center/Outbox_Drafts/Website_Pages/restoration-services.md` — Guidance and reference for Bringing Your Space Back to Life.
+- `01_Command_Center/Outbox_Drafts/Website_Pages/reviews.md` — Guidance and reference for 5-Star Rated by 400+ North Texas Homeowners.
+- `01_Command_Center/Outbox_Drafts/Website_Pages/roof-shingle-repair-grand-prairie-tx.md` — Guidance and reference for Roof Shingle Repair in Grand Prairie, TX — IKO Certified (RCAT 03-0637).
+- `01_Command_Center/Outbox_Drafts/Website_Pages/roofer-newman-village-frisco-tx.md` — Guidance and reference for Roofer in Newman Village, Frisco TX — IKO Certified (RCAT 03-0637).
+- `01_Command_Center/Outbox_Drafts/Website_Pages/roofer-starwood-frisco-tx.md` — Guidance and reference for Roofer in Starwood, Frisco TX — IKO Certified (RCAT 03-0637).
+- `01_Command_Center/Outbox_Drafts/Website_Pages/roofers-melissa-tx.md` — Guidance and reference for Roofers in Melissa, TX — IKO Certified (RCAT 03-0637).
+- `01_Command_Center/Outbox_Drafts/Website_Pages/roofing-companies-denton-tx.md` — Guidance and reference for Roofing Companies in Denton, TX — IKO Certified (RCAT 03-0637).
+- `01_Command_Center/Outbox_Drafts/Website_Pages/roofing-company-grapevine-tx.md` — Guidance and reference for Roofing Company in Grapevine, TX — IKO Certified (RCAT 03-0637).
+- `01_Command_Center/Outbox_Drafts/Website_Pages/roofing-euless-tx.md` — Guidance and reference for Roofing in Euless, TX — IKO Certified (RCAT 03-0637).
+- `01_Command_Center/Outbox_Drafts/Website_Pages/roofing-lewisville-tx.md` — Guidance and reference for Roofing in Lewisville, TX — IKO Certified (RCAT 03-0637).
+- `01_Command_Center/Outbox_Drafts/Website_Pages/roofing-mckinney-tx.md` — Guidance and reference for Roofing in McKinney, TX — IKO Certified (RCAT 03-0637).
+- `01_Command_Center/Outbox_Drafts/Website_Pages/roofing-storm-restoration-frisco-tx.md` — Guidance and reference for Storm Damage Roof Repair Frisco TX — IKO Certified (RCAT 03-0637).
+- `01_Command_Center/Outbox_Drafts/Website_Pages/service-areas.md` — Guidance and reference for Serving Dallas–Fort Worth.
+- `01_Command_Center/PARALLEL_EXECUTION_PLAN.md` — Guidance and reference for M7 — MAX-OUT PARALLEL EXECUTION PLAN.
+- `01_Command_Center/SOP_DAILY_LAUNCH.md` — Guidance and reference for 🍍 Daily Launch SOP — Pineapple M7 Command Center.
+- `01_Command_Center/SPEND_CONTROL.md` — Guidance and reference for M7 — AD SPEND CONTROL & DOUBLE-DOWN POLICY.
+- `01_Command_Center/tasks/TOMORROW_2026-06-29.md` — Guidance and reference for Tomorrow's Build List — 2026-06-29.
+- `01_Command_Center/tatafu.md` — Guidance and reference for Pineapple Contractors M7 — Master Constitution v2.0 (June 2026).
+- `03_Knowledge_Mat/00_Atlas/2026-06-25_KB__smoke_test_estimator.md` — Guidance and reference for Storm Damage Estimator Manual (Frisco / North Texas) p. 1.
+- `03_Knowledge_Mat/00_Atlas/2026-06-29_KB_2026-06-17_ANTIGRAVITY_OS_5Layer_SOURCE.md` — Guidance and reference for SYSTEM CONSTRAINTS & MASTER EXECUTION MANDATE: ANTIGRAVITY OS.
+- `03_Knowledge_Mat/00_Atlas/2026-06-29_KB_2026-06-18_Playbook_Consolidated_v1_SOURCE.md` — Reference for KB 2026 06 18 Playbook Consolidated v1 SOURCE.
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-18_KB_2026-06-17_ANTIGRAVITY_OS_5Layer_SOURCE.md` — Guidance and reference for SYSTEM CONSTRAINTS & MASTER EXECUTION MANDATE: ANTIGRAVITY OS.
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-19_KB_2026-06-17_ANTIGRAVITY_OS_5Layer_SOURCE.md` — Guidance and reference for SYSTEM CONSTRAINTS & MASTER EXECUTION MANDATE: ANTIGRAVITY OS.
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-19_KB_2026-06-18_Playbook_Consolidated_v1_SOURCE.md` — Reference for KB 2026 06 18 Playbook Consolidated v1 SOURCE.
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-21_KB_2026-06-17_ANTIGRAVITY_OS_5Layer_SOURCE.md` — Guidance and reference for SYSTEM CONSTRAINTS & MASTER EXECUTION MANDATE: ANTIGRAVITY OS.
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-21_KB_2026-06-18_Playbook_Consolidated_v1_SOURCE.md` — Reference for KB 2026 06 18 Playbook Consolidated v1 SOURCE.
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-22_KB_2026-06-17_ANTIGRAVITY_OS_5Layer_SOURCE.md` — Guidance and reference for SYSTEM CONSTRAINTS & MASTER EXECUTION MANDATE: ANTIGRAVITY OS.
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-22_KB_2026-06-18_Playbook_Consolidated_v1_SOURCE.md` — Reference for KB 2026 06 18 Playbook Consolidated v1 SOURCE.
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-23_KB_2026-06-17_ANTIGRAVITY_OS_5Layer_SOURCE.md` — Guidance and reference for SYSTEM CONSTRAINTS & MASTER EXECUTION MANDATE: ANTIGRAVITY OS.
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-23_KB_2026-06-18_Playbook_Consolidated_v1_SOURCE.md` — Reference for KB 2026 06 18 Playbook Consolidated v1 SOURCE.
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-24_KB_2026-06-17_ANTIGRAVITY_OS_5Layer_SOURCE.md` — Guidance and reference for SYSTEM CONSTRAINTS & MASTER EXECUTION MANDATE: ANTIGRAVITY OS.
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-24_KB_2026-06-18_Playbook_Consolidated_v1_SOURCE.md` — Reference for KB 2026 06 18 Playbook Consolidated v1 SOURCE.
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-25_KB_2026-06-17_ANTIGRAVITY_OS_5Layer_SOURCE.md` — Guidance and reference for SYSTEM CONSTRAINTS & MASTER EXECUTION MANDATE: ANTIGRAVITY OS.
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-25_KB_2026-06-18_Playbook_Consolidated_v1_SOURCE.md` — Reference for KB 2026 06 18 Playbook Consolidated v1 SOURCE.
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-27_KB_2026-06-17_ANTIGRAVITY_OS_5Layer_SOURCE.md` — Guidance and reference for SYSTEM CONSTRAINTS & MASTER EXECUTION MANDATE: ANTIGRAVITY OS.
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-27_KB_2026-06-18_Playbook_Consolidated_v1_SOURCE.md` — Reference for KB 2026 06 18 Playbook Consolidated v1 SOURCE.
+- `03_Knowledge_Mat/00_Atlas/CATALOG.md` — Guidance and reference for M7 CATALOG — Skills & Templates.
+- `03_Knowledge_Mat/00_Atlas/INDEX.md` — Guidance and reference for 00 Atlas INDEX — CANONICAL (reconciled 2026-07-03).
+- `03_Knowledge_Mat/00_Atlas/templates/DATASET/DATASET.md` — Guidance and reference for The Open Fable 5 Dataset, and How to Compare It Against Your Own Opus 4.8.
+- `03_Knowledge_Mat/00_Atlas/templates/download/download.md` — Guidance and reference for M7 UNIFIED ENGINE.md.
+- `03_Knowledge_Mat/00_Atlas/templates/Enterprise_OS_Blueprint_Kit/BLUEPRINT.md` — Guidance and reference for BLUEPRINT.md.
+- `03_Knowledge_Mat/00_Atlas/templates/Enterprise_OS_Blueprint_Kit/CHECKLIST.md` — Guidance and reference for BUILD CHECKLIST.
+- `03_Knowledge_Mat/00_Atlas/templates/Enterprise_OS_Blueprint_Kit/COMMANDS.md` — Guidance and reference for COMMANDS.
+- `03_Knowledge_Mat/00_Atlas/templates/Enterprise_OS_Blueprint_Kit/examples/northgate-law/COST_SPEC.md` — Guidance and reference for COST SPEC (worked example: Northgate Law).
+- `03_Knowledge_Mat/00_Atlas/templates/Enterprise_OS_Blueprint_Kit/examples/README.md` — Guidance and reference for Worked Examples.
+- `03_Knowledge_Mat/00_Atlas/templates/Enterprise_OS_Blueprint_Kit/examples/riverside-clinic/COST_SPEC.md` — Guidance and reference for COST SPEC (worked example: Riverside Health).
+- `03_Knowledge_Mat/00_Atlas/templates/Enterprise_OS_Blueprint_Kit/examples/solo-consultant/COST_SPEC.md` — Guidance and reference for COST SPEC (worked example: Maya Chen Advisory).
+- `03_Knowledge_Mat/00_Atlas/templates/Enterprise_OS_Blueprint_Kit/FAQ.md` — Guidance and reference for FAQ.
+- `03_Knowledge_Mat/00_Atlas/templates/Enterprise_OS_Blueprint_Kit/FIRST_SESSION.md` — Guidance and reference for YOUR FIRST 90 MINUTES.
+- `03_Knowledge_Mat/00_Atlas/templates/Enterprise_OS_Blueprint_Kit/GLOSSARY.md` — Guidance and reference for GLOSSARY.
+- `03_Knowledge_Mat/00_Atlas/templates/Enterprise_OS_Blueprint_Kit/QUICKSTART.md` — Guidance and reference for QUICKSTART.
+- `03_Knowledge_Mat/00_Atlas/templates/Enterprise_OS_Blueprint_Kit/README.md` — Guidance and reference for The Enterprise OS Blueprint Kit.
+- `03_Knowledge_Mat/00_Atlas/templates/Enterprise_OS_Blueprint_Kit/specs/BUILD_PLAN.md` — Guidance and reference for BUILD PLAN.
+- `03_Knowledge_Mat/00_Atlas/templates/Enterprise_OS_Blueprint_Kit/specs/COST_SPEC.md` — Guidance and reference for COST SPEC.
+- `03_Knowledge_Mat/00_Atlas/templates/Enterprise_OS_Blueprint_Kit/specs/READINESS.md` — Guidance and reference for READINESS.
+- `03_Knowledge_Mat/00_Atlas/templates/Enterprise_OS_Blueprint_Kit/specs/README.md` — Guidance and reference for Starter Specs.
+- `03_Knowledge_Mat/00_Atlas/templates/Enterprise_OS_Blueprint_Kit/specs/SECURITY_SPEC.md` — Guidance and reference for SECURITY SPEC.
+- `03_Knowledge_Mat/00_Atlas/templates/Enterprise_OS_Blueprint_Kit/TROUBLESHOOTING.md` — Guidance and reference for TROUBLESHOOTING.
+- `03_Knowledge_Mat/00_Atlas/templates/Enterprise_OS_Blueprint_Kit_182719/BLUEPRINT.md` — Guidance and reference for BLUEPRINT.md.
+- `03_Knowledge_Mat/00_Atlas/templates/Enterprise_OS_Blueprint_Kit_182719/CHECKLIST.md` — Guidance and reference for BUILD CHECKLIST.
+- `03_Knowledge_Mat/00_Atlas/templates/Enterprise_OS_Blueprint_Kit_182719/COMMANDS.md` — Guidance and reference for COMMANDS.
+- `03_Knowledge_Mat/00_Atlas/templates/Enterprise_OS_Blueprint_Kit_182719/examples/northgate-law/COST_SPEC.md` — Guidance and reference for COST SPEC (worked example: Northgate Law).
+- `03_Knowledge_Mat/00_Atlas/templates/Enterprise_OS_Blueprint_Kit_182719/examples/README.md` — Guidance and reference for Worked Examples.
+- `03_Knowledge_Mat/00_Atlas/templates/Enterprise_OS_Blueprint_Kit_182719/examples/riverside-clinic/COST_SPEC.md` — Guidance and reference for COST SPEC (worked example: Riverside Health).
+- `03_Knowledge_Mat/00_Atlas/templates/Enterprise_OS_Blueprint_Kit_182719/examples/solo-consultant/COST_SPEC.md` — Guidance and reference for COST SPEC (worked example: Maya Chen Advisory).
+- `03_Knowledge_Mat/00_Atlas/templates/Enterprise_OS_Blueprint_Kit_182719/FAQ.md` — Guidance and reference for FAQ.
+- `03_Knowledge_Mat/00_Atlas/templates/Enterprise_OS_Blueprint_Kit_182719/FIRST_SESSION.md` — Guidance and reference for YOUR FIRST 90 MINUTES.
+- `03_Knowledge_Mat/00_Atlas/templates/Enterprise_OS_Blueprint_Kit_182719/GLOSSARY.md` — Guidance and reference for GLOSSARY.
+- `03_Knowledge_Mat/00_Atlas/templates/Enterprise_OS_Blueprint_Kit_182719/QUICKSTART.md` — Guidance and reference for QUICKSTART.
+- `03_Knowledge_Mat/00_Atlas/templates/Enterprise_OS_Blueprint_Kit_182719/README.md` — Guidance and reference for The Enterprise OS Blueprint Kit.
+- `03_Knowledge_Mat/00_Atlas/templates/Enterprise_OS_Blueprint_Kit_182719/specs/BUILD_PLAN.md` — Guidance and reference for BUILD PLAN.
+- `03_Knowledge_Mat/00_Atlas/templates/Enterprise_OS_Blueprint_Kit_182719/specs/COST_SPEC.md` — Guidance and reference for COST SPEC.
+- `03_Knowledge_Mat/00_Atlas/templates/Enterprise_OS_Blueprint_Kit_182719/specs/READINESS.md` — Guidance and reference for READINESS.
+- `03_Knowledge_Mat/00_Atlas/templates/Enterprise_OS_Blueprint_Kit_182719/specs/README.md` — Guidance and reference for Starter Specs.
+- `03_Knowledge_Mat/00_Atlas/templates/Enterprise_OS_Blueprint_Kit_182719/specs/SECURITY_SPEC.md` — Guidance and reference for SECURITY SPEC.
+- `03_Knowledge_Mat/00_Atlas/templates/Enterprise_OS_Blueprint_Kit_182719/TROUBLESHOOTING.md` — Guidance and reference for TROUBLESHOOTING.
+- `03_Knowledge_Mat/00_Atlas/templates/five-skills-pack/linkedin-post.md` — Write a LinkedIn post in your voice from any thought, story, lesson, or conversation.
+- `03_Knowledge_Mat/00_Atlas/templates/five-skills-pack/README.md` — Guidance and reference for Five Skills Pack.
+- `03_Knowledge_Mat/00_Atlas/templates/five-skills-pack_182720/linkedin-post.md` — Write a LinkedIn post in your voice from any thought, story, lesson, or conversation.
+- `03_Knowledge_Mat/00_Atlas/templates/five-skills-pack_182720/README.md` — Guidance and reference for Five Skills Pack.
+- `03_Knowledge_Mat/00_Atlas/templates/pi-harness-pack/README.md` — Guidance and reference for PI Harness Pack.
+- `03_Knowledge_Mat/00_Atlas/templates/pi-harness-pack_1/README.md` — Guidance and reference for PI Harness Pack.
+- `03_Knowledge_Mat/00_Atlas/templates/The_Fable_Mindset_Playbook/DATASET.md` — Guidance and reference for The Open Fable 5 Dataset, and How to Compare It Against Your Own Opus 4.8.
+- `03_Knowledge_Mat/00_Atlas/templates/Vibe_Coding_Starter_Pack/SYSTEM INSTRUCTIONS FOR MANUS.md` — Multi‑page personality test that outputs an archetype name, a 40‑word summary, and 3–5 matching AI tools.
+- `03_Knowledge_Mat/active_context/goldie_dfw_footprint.md` — Guidance and reference for 03 Knowledge Mat | Source Grounding Mat: DFW Regional Footprint.
+- `03_Knowledge_Mat/active_context/instant_design_department.md` — Guidance and reference for 03 Knowledge Mat | System Skill: Instant Design Department Framework.
+- `03_Knowledge_Mat/active_context/ops_sync_latest.md` — Guidance and reference for 🍍 M7 OPS SYNC — 2026-07-21 · END-OF-DAY HARVEST.
+- `03_Knowledge_Mat/active_context/README.md` — Guidance and reference for active context — the LIVE BRAIN.
+- `03_Knowledge_Mat/AI News/2026-07-06.md` — Guidance and reference for AI News — Monday, 6 July 2026.
+- `03_Knowledge_Mat/CONTEXT.md` — Guidance and reference for CONTEXT — 03 Knowledge Mat — Neural Substrate (RAG).
+- `03_Knowledge_Mat/Daily_Logs/2026-06-15.md` — Reference for this vault document.
+- `03_Knowledge_Mat/Daily_Logs/2026-06-16.md` — Reference for this vault document.
+- `03_Knowledge_Mat/Daily_Logs/2026-06-22.md` — Reference for this vault document.
+- `03_Knowledge_Mat/DAILY_LOOP.md` — The 3-minute daily ritual so messy notes and forgotten updates stop happening. ADHD-proof: same 3 checkpoints, every day.
+- `03_Knowledge_Mat/index.md` — Master index for the 03 Knowledge Mat vault — links to canonical knowledge, SOPs, and activity records (Karpathy LLM Wiki root).
+- `03_Knowledge_Mat/knowledge-base/wiki/index.md` — Reference for index.
+- `03_Knowledge_Mat/knowledge-base/wiki/log.md` — Guidance and reference for Log.
+- `03_Knowledge_Mat/knowledge-base/wiki/processed.md` — Guidance and reference for Knowledge Base — Processed Ledger.
+- `03_Knowledge_Mat/M7_MASTER_PLAYBOOK.md` — Guidance and reference for 🍍 PINEAPPLE CONTRACTORS M7: CONSOLIDATED MASTER OPERATING PLAYBOOK.
+- `03_Knowledge_Mat/MEMORY.md` — Guidance and reference for M7 VAULT — SYSTEM MEMORY (session load).
+- `03_Knowledge_Mat/Pineapple Contractor M7/Welcome.md` — Reference for Welcome.
+- `03_Knowledge_Mat/raw/2026-06-17_ANTIGRAVITY_OS_5Layer_SOURCE.md` — Guidance and reference for SYSTEM CONSTRAINTS & MASTER EXECUTION MANDATE: ANTIGRAVITY OS.
+- `03_Knowledge_Mat/raw/2026-06-18_Playbook_Consolidated_v1_SOURCE.md` — Reference for Playbook Consolidated v1 SOURCE.
+- `03_Knowledge_Mat/task.md` — Reference for task.
+
+## Media
+
+- `01_Command_Center/M7_DESIGN_SKILL.md` — Guidance and reference for 🎨 M7 DESIGN SKILL — the C.R.A.F.T. Engine, on-brand (zero off-palette hue).
+- `01_Command_Center/M7_MEDIA_DRIVE_LIVE_MAP.md` — Guidance and reference for 📦 PINEAPPLE MEDIA HUB — Live Folders (created 2026-07-14).
+- `01_Command_Center/M7_MEDIA_HUB_CONSOLIDATION_SOP.md` — Guidance and reference for 📦 M7 — CONSOLIDATE ALL MEDIA → PINEAPPLE MEDIA HUB (move-only, dedupe report).
+- `01_Command_Center/M7_MEDIA_VAULT_ORGANIZATION.md` — Guidance and reference for 📦 39GB Media — Organize Once, Post Forever.
+- `01_Command_Center/Outbox_Drafts/2026-07-17_Outbox_ReelCaptions_WhyPineapple_PropertyManagers.md` — Guidance and reference for 📣 2 REELS — DIRECT-RESPONSE COPY + FUNNEL (Hormozi / Cory Haines style).
+- `01_Command_Center/Outbox_Drafts/20260604_125234_video_roofing_DRAFT.md` — Generate policy-compliant Google Flow video brief for the roofing campaign targeting Frisco, TX.
+- `01_Command_Center/Outbox_Drafts/20260604_125300_video_roofing_DRAFT.md` — Generate policy-compliant Google Flow video brief for the roofing campaign targeting Frisco, TX.
+- `01_Command_Center/Outbox_Drafts/Content/2026-07-13_Outbox_IG_Reels_Pack01_FriscoRoofing.md` — Guidance and reference for 🍍 PAUSED — Instagram Reels Captions Pack 01 (Pineapple Roofing · Frisco).
+- `01_Command_Center/Outbox_Drafts/Content/FIRST_REEL_QUICKSTART.md` — Guidance and reference for 🎬 Your First Reel — Two Ways, Both Foolproof.
+- `01_Command_Center/Outbox_Drafts/Content/Reel_Repurpose_Plan.md` — Guidance and reference for 🎬 Repurpose Plan — turn 2 clips into a week of content.
+- `01_Command_Center/Outbox_Drafts/Scripts/2026-07-06_Scripts_Video_Call_SMS.md` — Guidance and reference for Video Scripts (50/5/3) + CARPARK Call Scripts + Lead Bridge SMS.
+- `01_Command_Center/SOP_ How To Use Higgsfield Supercom.md` — Guidance and reference for Playbook M7: Hermes AI Super Agent Command Deck & Omnichannel Automation Workflow.
+- `01_Command_Center/YouTube Video Analysis & Playbook Update.md` — Guidance and reference for Strategic Blueprint of the Business Pineapple Roofing Agentic OS: The Local-First Automation and Sovereign Execution Playbook.
+- `03_Knowledge_Mat/00_Atlas/2026-06-19_SOP_Video_Factory_Pipeline.md` — Guidance and reference for SOP: AI Agent OS — Video Factory Pipeline (Google Flow + Claude Code).
+- `03_Knowledge_Mat/00_Atlas/2026-06-19_SOP_YouTube_Analysis_Framework.md` — Guidance and reference for SOP: YouTube Video Analysis Framework — 8-Prompt Extraction Engine.
+- `03_Knowledge_Mat/00_Atlas/2026-06-29_KB_2026-06-18_SOP_Agent_OS_Rank1_Video_Factory_SOURCE.md` — Guidance and reference for Goal.
+- `03_Knowledge_Mat/00_Atlas/2026-06-29_KB_2026-06-18_SOP_Video_Markdown_SOURCE.md` — Guidance and reference for 1\. System Philosophy & Architecture.
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-19_KB_2026-06-18_SOP_Agent_OS_Rank1_Video_Factory_SOURCE.md` — Guidance and reference for Goal.
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-19_KB_2026-06-18_SOP_Video_Markdown_SOURCE.md` — Guidance and reference for 1\. System Philosophy & Architecture.
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-21_KB_2026-06-18_SOP_Agent_OS_Rank1_Video_Factory_SOURCE.md` — Guidance and reference for Goal.
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-21_KB_2026-06-18_SOP_Video_Markdown_SOURCE.md` — Guidance and reference for 1\. System Philosophy & Architecture.
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-22_KB_2026-06-18_SOP_Agent_OS_Rank1_Video_Factory_SOURCE.md` — Guidance and reference for Goal.
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-22_KB_2026-06-18_SOP_Video_Markdown_SOURCE.md` — Guidance and reference for 1\. System Philosophy & Architecture.
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-23_KB_2026-06-18_SOP_Agent_OS_Rank1_Video_Factory_SOURCE.md` — Guidance and reference for Goal.
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-23_KB_2026-06-18_SOP_Video_Markdown_SOURCE.md` — Guidance and reference for 1\. System Philosophy & Architecture.
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-24_KB_2026-06-18_SOP_Agent_OS_Rank1_Video_Factory_SOURCE.md` — Guidance and reference for Goal.
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-24_KB_2026-06-18_SOP_Video_Markdown_SOURCE.md` — Guidance and reference for 1\. System Philosophy & Architecture.
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-25_KB_2026-06-18_SOP_Agent_OS_Rank1_Video_Factory_SOURCE.md` — Guidance and reference for Goal.
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-25_KB_2026-06-18_SOP_Video_Markdown_SOURCE.md` — Guidance and reference for 1\. System Philosophy & Architecture.
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-27_KB_2026-06-18_SOP_Agent_OS_Rank1_Video_Factory_SOURCE.md` — Guidance and reference for Goal.
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-27_KB_2026-06-18_SOP_Video_Markdown_SOURCE.md` — Guidance and reference for 1\. System Philosophy & Architecture.
+- `03_Knowledge_Mat/00_Atlas/M7_DESIGN_BENCHMARK_NEAL_AND_SITE_FIX.md` — Guidance and reference for 🎯 M7 DESIGN BENCHMARK — copy Neal's STRUCTURE, keep OUR brand law.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/install/10-THUMBNAIL-STUDIO.md` — Guidance and reference for 10 · Thumbnail Studio · optional.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/install/12-VIDEO-STUDIO.md` — Guidance and reference for 12 · Video Studio (Optional).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/install/14-MUSIC-STUDIO.md` — Guidance and reference for 14 · Music Studio (Optional).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/install/26-OPENMONTAGE.md` — Guidance and reference for 26 · OpenMontage — Describe a Scene → a Cinematic Video (Optional).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/member-pack/install/10-THUMBNAIL-STUDIO.md` — Guidance and reference for 10 · Thumbnail Studio · optional.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/member-pack/install/12-VIDEO-STUDIO.md` — Guidance and reference for 12 · Video Studio (Optional).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/member-pack/install/14-MUSIC-STUDIO.md` — Guidance and reference for 14 · Music Studio (Optional).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/member-pack/install/26-OPENMONTAGE.md` — Guidance and reference for 26 · OpenMontage — Describe a Scene → a Cinematic Video (Optional).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/member-pack/install/33-VIDEO-EDITOR.md` — Guidance and reference for 33 · Video Editor — Edit Any Video by Chatting (Optional).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/01-getting-started/12-images.md` — Learn how to optimize images in Next.js.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/01-getting-started/14-metadata-and-og-images.md` — Learn how to add metadata to your pages and create dynamic OG images.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/02-guides/self-hosting.md` — Learn how to self-host your Next.js application on a Node.js server, Docker image, or static HTML files (static exports).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/02-guides/videos.md` — Recommendations and best practices for optimizing videos in your Next.js application.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/02-components/image.md` — Optimize Images in your Next.js Application using the built-in next/image Component.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/03-file-conventions/01-metadata/opengraph-image.md` — API Reference for the Open Graph Image and Twitter Image file conventions.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/03-file-conventions/public-folder.md` — Next.js allows you to serve static files, like images, in the public directory. You can learn how it works here.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/04-functions/generate-image-metadata.md` — Learn how to generate multiple images in a single Metadata API special file.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/04-functions/image-response.md` — API Reference for the ImageResponse constructor.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/05-config/01-next-config-js/images.md` — Custom configuration for the next/image loader.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/01-getting-started/04-images.md` — Optimize your images with the built-in next/image component.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/02-guides/self-hosting.md` — Learn how to self-host your Next.js application on a Node.js server, Docker image, or static HTML files (static exports).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/01-components/image-legacy.md` — Backwards compatible Image Optimization with the Legacy Image component.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/01-components/image.md` — Optimize Images in your Next.js Application using the built-in next/image Component.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/02-file-conventions/public-folder.md` — Next.js allows you to serve static files, like images, in the public directory. You can learn how it works here.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/04-config/01-next-config-js/images.md` — Custom configuration for the next/image loader.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/safer-buffer/Readme.md` — Guidance and reference for safer-buffer ! travis travis-image travis-url ! npm npm-image npm-url ! javascript style guide standard-image standard-url ! Security Responsible Disclosure secuirty-image secuirty-url.
+- `03_Knowledge_Mat/00_Atlas/templates/Banana_Squad_-_Image_Agent_Team/gemini-3-image-api-guide.md` — Guidance and reference for Gemini 3 Pro Image API Guide (Nano Banana Pro).
+- `03_Knowledge_Mat/00_Atlas/templates/Banana_Squad_-_Image_Agent_Team/paperbanana.md` — Guidance and reference for PaperBanana: Automating Academic.
+- `03_Knowledge_Mat/00_Atlas/templates/Banana_Squad_-_Image_Agent_Team/spawn-team-prompt.md` — Guidance and reference for Banana Squad — Agent Team Spawn Prompt.
+- `03_Knowledge_Mat/00_Atlas/templates/Claude_Code_Agentic_Architect/__Act as an expert Agentic Workflow Architect-Prompt from Video.md` — Reference for Act as an expert Agentic Workflow Architect Prompt from Video.
+- `03_Knowledge_Mat/00_Atlas/templates/five-skills-pack/content-writer.md` — Turn raw thoughts, bullets, or ideas into high-energy social content or short-form scripts in your house voice. Use for LinkedIn posts, Tweets, Threads, Skool posts, or video scripts.
+- `03_Knowledge_Mat/00_Atlas/templates/five-skills-pack_182720/content-writer.md` — Turn raw thoughts, bullets, or ideas into high-energy social content or short-form scripts in your house voice. Use for LinkedIn posts, Tweets, Threads, Skool posts, or video scripts.
+- `03_Knowledge_Mat/00_Atlas/templates/Prompt_Suite_Factory/_Prompt in Video_.md` — Reference for Prompt in Video.
+- `03_Knowledge_Mat/00_Atlas/templates/Sora_Studio_Builder/# 🎬 Master Prompt_ Build Sora Studio - OpenAI Video API Web Interface.md` — Reference for 🎬 Master Prompt Build Sora Studio OpenAI Video API Web Interface.
+- `03_Knowledge_Mat/00_Atlas/templates/Sora_Studio_Builder/openai-video-api-guide.md` — Guidance and reference for OpenAI Video API (Sora) - Developer Guide.
+- `03_Knowledge_Mat/00_Atlas/templates/Swiss_Knife_Superapp_Claude_Code/gemini_api_documentation_december_2025.md` — Guidance and reference for Google Gemini API Documentation: Video Understanding, Image Generation & Real-time Voice.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/ad-creative/references/imessage-video-ads.md` — Guidance and reference for iOS-Native Reveal Video Ads (iMessage, ChatGPT, Apple Notes, AirDrop).
+- `03_Knowledge_Mat/corey_marketing_skills/skills/ad-creative/references/motion-video-ads.md` — Guidance and reference for Motion-Style Video Ads (Faceless, Fully Generated).
+- `03_Knowledge_Mat/corey_marketing_skills/skills/image/references/ai-image-prompting.md` — Guidance and reference for AI Image Prompting Guide.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/image/SKILL.md` — Guidance and reference for Image.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/social/references/short-form-video.md` — Guidance and reference for Short-Form Video: Hooks, Scripts & Strategy.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/video/references/ai-video-prompting.md` — Guidance and reference for AI Video Prompting Guide.
+- `03_Knowledge_Mat/corey_marketing_skills/skills/video/SKILL.md` — Guidance and reference for Video.
+- `03_Knowledge_Mat/Markdown_-----SOP_ Build An AI Agent Operating System (Rank #1 on Google via Claude Code + Google Flow Video Factory)Goal.md` — Reference for Markdown SOP Build An AI Agent Operating System (Rank 1 on Google via Claude Code + Google Flow Video Factory)Goal.
+- `03_Knowledge_Mat/raw/2026-06-18_SOP_Agent_OS_Rank1_Video_Factory_SOURCE.md` — Guidance and reference for Goal.
+- `03_Knowledge_Mat/raw/2026-06-18_SOP_Video_Markdown_SOURCE.md` — Guidance and reference for 1\. System Philosophy & Architecture.
+- `03_Knowledge_Mat/SOP_ Build An AI Agent Operating System (Rank #1 on Google via Claude Code + Google Flow Video Factory).md` — Guidance and reference for Goal.
+
+## Agents/Tech
+
+- `01_Command_Center/AGENT_INIT_INSTRUCTION.md` — Guidance and reference for Agent Initialization Instruction.
+- `01_Command_Center/AGENTS.md` — Guidance and reference for PINEAPPLE BUSINESS BRAIN (AGENTS.md).
+- `01_Command_Center/AI Agent Project Playbook Generation (1).md` — Guidance and reference for M7 COMMAND CENTER: CLAUDE PROJECT PLAYBOOK.
+- `01_Command_Center/AI Agent Project Playbook Generation.md` — Reference for AI Agent Project Playbook Generation.
+- `01_Command_Center/AI-Driven Kanban Workflow SOP Hermes -Omnichannel .md` — Guidance and reference for Playbook M7: Self-Driving Kanban Board Workflow (Hermes AI).
+- `01_Command_Center/AI-Driven Kanban Workflow SOP.md` — Guidance and reference for Playbook M7: Self-Driving Kanban Board Workflow (Hermes AI).
+- `01_Command_Center/AI_INGESTION_TARGET.md` — Guidance and reference for AI AGENT EXECUTION TARGET: COMMAND CENTER INGESTION.
+- `01_Command_Center/ARCHITECTURE_MCP_MAP.md` — Guidance and reference for M7 — IMMUTABLE DIRECTORY ARCHITECTURE & MCP HOOKS.
+- `01_Command_Center/CLAUDE.md` — Guidance and reference for 🍍 PINEAPPLE CONTRACTORS M7 CORE CONSTITUTION.
+- `01_Command_Center/CLAUDE_CODE_PROMPT.md` — Guidance and reference for HOW TO DRIVE THE M7 OS WITH CLAUDE CODE.
+- `01_Command_Center/COMMAND CENTER AND DASHBOARD SOP_.md` — Guidance and reference for Playbook M7: Hermes AI Super Agent Command Deck & Omnichannel Automation Workflow.
+- `01_Command_Center/CROSS_AGENT_PROTOCOL.md` — Guidance and reference for M7 — CROSS-AGENT FRONTIER COMMUNICATION PROTOCOL.
+- `01_Command_Center/dashboard.md` — Guidance and reference for 🏛️ M7 EMPIRE OPERATIONAL DASHBOARD.
+- `01_Command_Center/EXECUTE_EVERYTHING_CLAUDE_CODE.md` — Guidance and reference for EXECUTE EVERYTHING — CLAUDE CODE MASTER RUNBOOK.
+- `01_Command_Center/Hermes, Obsidian, and Claude Workflow.md` — Guidance and reference for Hermes + Obsidian AI Knowledge Base Workflow.
+- `01_Command_Center/HERMES_LSP_HANDOFF.md` — Guidance and reference for 🤝 Hermes Handoff — Write the Location Service Pages.
+- `01_Command_Center/knowledge-base/raw/pages/tatafu_master_playbook.md` — Guidance and reference for Pineapple Roofing & Restoration Agentic OS Playbook & SOP Core.
+- `01_Command_Center/M7_AGENT_CONFIG_STATUS.md` — Live agent configuration status — what's wired, what's broken, how to fix each.
+- `01_Command_Center/M7_AGENT_FALLBACK_CHAIN.md` — Guidance and reference for 🔁 M7 Agent Routing (updated 2026-07-17).
+- `01_Command_Center/M7_Agent_Kanban.md` — Guidance and reference for 💡 Idea Input.
+- `01_Command_Center/M7_AGENT_LOOPS.md` — Guidance and reference for 🔁 M7 AGENT LOOPS — WHAT RUNS WITHOUT YOU PROMPTING.
+- `01_Command_Center/M7_AGENT_OS_SETUP_AUDIT.md` — Full audit of every Agent OS install guide vs. actual Pineapple M7 config — verified, not assumed.
+- `01_Command_Center/M7_BEDTIME_SOP.md` — End-of-night ritual — prime Hermes Goal Mode + the command center to work safely overnight and be ready to execute tomorrow.
+- `01_Command_Center/M7_EXECUTE.md` — Guidance and reference for 🍍 M7 EXECUTE — AGENT, READ THIS AND DO IT.
+- `01_Command_Center/M7_EXECUTION_CHEATSHEET.md` — Guidance and reference for M7 AGENTIC OS — EXECUTION CHEAT SHEET.
+- `01_Command_Center/M7_HERMES_CHEATSHEET.md` — Guidance and reference for 🍍 M7 HERMES CHEAT SHEET.
+- `01_Command_Center/M7_HERMES_DAY1_CARD.md` — Guidance and reference for 🍍 HERMES — DAY-ONE CARD.
+- `01_Command_Center/M7_HERMES_EXECUTION_CHEATSHEET.md` — Guidance and reference for ⚕️ HERMES CHEAT SHEET — what to run, where.
+- `01_Command_Center/M7_HERMES_START_HERE.md` — Guidance and reference for 🍍 HERMES — START HERE (you're new, this is everything).
+- `01_Command_Center/M7_MASTER_SOP_Command_Deck.md` — Guidance and reference for 🛰️ PLAYBOOK M7 — HERMES AI SUPER AGENT COMMAND DECK & OMNICHANNEL AUTOMATION WORKFLOW.
+- `01_Command_Center/M7_NOTEBOOK_HUBS_CONFIG.md` — Guidance and reference for 🗂️ M7 Notebook Hubs — Paste-Ready.
+- `01_Command_Center/M7_PROJECT_BRIEF.md` — Guidance and reference for 🍍 PINEAPPLE CONTRACTORS M7 — PROJECT BRIEF (single source of truth for Claude Cowork).
+- `01_Command_Center/M7_PROMPTS_AND_GEMS.md` — Guidance and reference for 🧠 M7 Prompts & Gemini Gems.
+- `01_Command_Center/M7_TASK_QUEUE.md` — Guidance and reference for 🗂️ M7 TASK QUEUE — paste a task here, an agent runs it (no human error).
+- `01_Command_Center/M7_WHILE_HERMES_WORKS.md` — Guidance and reference for ⏳ WHILE HERMES WORKS — 3 phone tasks (no computer needed).
+- `01_Command_Center/Master SOP_ Building the 6-Agent Hermes Student Companion & Mission Control Dashboard.md` — Reference for Master SOP Building the 6 Agent Hermes Student Companion & Mission Control Dashboard.
+- `01_Command_Center/MASTER_PLAYBOOK.md` — Guidance and reference for PINEAPPLE CONTRACTORS M7 — AGENTIC OS MASTER PLAYBOOK.
+- `01_Command_Center/Outbox_Drafts/2026-06-29_SESSION_COMPLETION_REPORT.md` — Session completion report — all 2026-06-29 M7 Architect + Dashboard tasks executed.
+- `01_Command_Center/Outbox_Drafts/Landing_Pages/COWORK_BRIEF_capture_page.md` — Guidance and reference for 🎯 Brief for Claude Cowork — upgrade the capture page.
+- `01_Command_Center/Outbox_Drafts/Website_Pages/construction-services.md` — Guidance and reference for More Than Roofing — Full Construction & Remodeling.
+- `01_Command_Center/Pineapple M7 AI Dashboard Build & Integration SOP.md` — Guidance and reference for Standard Operating Procedure: Hermes AI Mission Control Deployment & Extension.
+- `01_Command_Center/SOP_ How To Use And Maintain An Agent Operating System.md` — Guidance and reference for SOP: How To Use And Maintain An Agent Operating System.
+- `01_Command_Center/START_HERE.md` — Guidance and reference for START HERE — Run the M7 OS Agentic Dashboard Command Center.
+- `01_Command_Center/SYSTEM_RULES.md` — Guidance and reference for PINEAPPLE M7 - AGENTIC CONSTITUTION.
+- `01_Command_Center/tasks/AGENTS.md` — Guidance and reference for AGENTS.md — Google AI Studio Orchestration Profiles.
+- `01_Command_Center/THE_ONLY_PROMPT.md` — Guidance and reference for 🍍 THE ONLY PROMPT YOU NEED.
+- `03_Knowledge_Mat/00_Atlas/2026-06-17_SOP_Agent_Tooling_Environments.md` — Guidance and reference for SOP — M7 AGENT TOOLING & EXECUTION ENVIRONMENTS.
+- `03_Knowledge_Mat/00_Atlas/2026-06-17_SOP_AI_Knowledge_Architecture.md` — Guidance and reference for SOP — M7 AI KNOWLEDGE ARCHITECTURE.
+- `03_Knowledge_Mat/00_Atlas/2026-06-18_SOP_Paperclip_Hermes_Empire.md` — Guidance and reference for SOP — PAPERCLIP + HERMES + LOCAL MEMORY BRIDGE.
+- `03_Knowledge_Mat/00_Atlas/2026-06-19_SOP_Local_Memory_Bridge.md` — Guidance and reference for SOP: Local Memory & Execution Bridge (Claude Code + Obsidian).
+- `03_Knowledge_Mat/00_Atlas/2026-06-19_SOP_Master_OS_Blueprint.md` — Guidance and reference for SOP: Ultimate Agentic OS Master Blueprint.
+- `03_Knowledge_Mat/00_Atlas/2026-06-19_SOP_Obsidian_Interactive_OS.md` — Guidance and reference for SOP: Obsidian as Interactive AI Operating System.
+- `03_Knowledge_Mat/00_Atlas/2026-06-29_KB_2026-06-17_Master_Execution_Spec_SOURCE.md` — Guidance and reference for M7 AGENTIC OS — MASTER EXECUTION & SYNCHRONIZATION SPECIFICATION (SOURCE).
+- `03_Knowledge_Mat/00_Atlas/2026-06-29_KB_2026-06-17_Playbook_Claude_Project_Master_SOURCE.md` — Guidance and reference for M7 COMMAND CENTER: CLAUDE PROJECT PLAYBOOK.
+- `03_Knowledge_Mat/00_Atlas/2026-06-29_KB_2026-06-17_SOP_Gemini_NotebookLM_SOURCE.md` — Guidance and reference for SOP: How To Use Gemini Gems + NotebookLM To Build Accurate AI Business Systems.
+- `03_Knowledge_Mat/00_Atlas/2026-06-29_KB_2026-06-17_YouTube_Analysis_A_SOURCE.md` — Guidance and reference for Strategic Blueprint of the Business Pineapple Roofing Agentic OS: The Local-First Automation and Sovereign Execution Playbook.
+- `03_Knowledge_Mat/00_Atlas/2026-06-29_KB_2026-06-18_Master_SOP_SOURCE.md` — Guidance and reference for SOP: The Ultimate Agentic OS Master Blueprint (Claude Code \+ Hermes \+ Jarvis \+ Obsidian \+ Paperclip \+ WhatsApp \+ Google Gemini & NotebookLM Suite).
+- `03_Knowledge_Mat/00_Atlas/2026-06-29_KB_2026-06-18_SOP_Local_Memory_Bridge_SOURCE.md` — Guidance and reference for SOP: M7 Agentic OS \- Local Memory & Execution Bridge.
+- `03_Knowledge_Mat/00_Atlas/2026-06-29_KB_2026-06-18_SOP_Paperclip_Hermes_Empire_SOURCE.md` — Guidance and reference for Pineapple Contractors M7 Playbook: AI Automation Core.
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-18_KB_2026-06-17_Master_Execution_Spec_SOURCE.md` — Guidance and reference for M7 AGENTIC OS — MASTER EXECUTION & SYNCHRONIZATION SPECIFICATION (SOURCE).
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-18_KB_2026-06-17_Playbook_Claude_Project_Master_SOURCE.md` — Guidance and reference for M7 COMMAND CENTER: CLAUDE PROJECT PLAYBOOK.
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-18_KB_2026-06-17_SOP_Gemini_NotebookLM_SOURCE.md` — Guidance and reference for SOP: How To Use Gemini Gems + NotebookLM To Build Accurate AI Business Systems.
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-18_KB_2026-06-17_YouTube_Analysis_A_SOURCE.md` — Guidance and reference for Strategic Blueprint of the Business Pineapple Roofing Agentic OS: The Local-First Automation and Sovereign Execution Playbook.
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-19_KB_2026-06-17_Master_Execution_Spec_SOURCE.md` — Guidance and reference for M7 AGENTIC OS — MASTER EXECUTION & SYNCHRONIZATION SPECIFICATION (SOURCE).
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-19_KB_2026-06-17_Playbook_Claude_Project_Master_SOURCE.md` — Guidance and reference for M7 COMMAND CENTER: CLAUDE PROJECT PLAYBOOK.
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-19_KB_2026-06-17_SOP_Gemini_NotebookLM_SOURCE.md` — Guidance and reference for SOP: How To Use Gemini Gems + NotebookLM To Build Accurate AI Business Systems.
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-19_KB_2026-06-17_YouTube_Analysis_A_SOURCE.md` — Guidance and reference for Strategic Blueprint of the Business Pineapple Roofing Agentic OS: The Local-First Automation and Sovereign Execution Playbook.
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-19_KB_2026-06-18_Master_SOP_SOURCE.md` — Guidance and reference for SOP: The Ultimate Agentic OS Master Blueprint (Claude Code \+ Hermes \+ Jarvis \+ Obsidian \+ Paperclip \+ WhatsApp \+ Google Gemini & NotebookLM Suite).
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-19_KB_2026-06-18_SOP_Local_Memory_Bridge_SOURCE.md` — Guidance and reference for SOP: M7 Agentic OS \- Local Memory & Execution Bridge.
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-19_KB_2026-06-18_SOP_Paperclip_Hermes_Empire_SOURCE.md` — Guidance and reference for Pineapple Contractors M7 Playbook: AI Automation Core.
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-21_KB_2026-06-17_Master_Execution_Spec_SOURCE.md` — Guidance and reference for M7 AGENTIC OS — MASTER EXECUTION & SYNCHRONIZATION SPECIFICATION (SOURCE).
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-21_KB_2026-06-17_Playbook_Claude_Project_Master_SOURCE.md` — Guidance and reference for M7 COMMAND CENTER: CLAUDE PROJECT PLAYBOOK.
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-21_KB_2026-06-17_SOP_Gemini_NotebookLM_SOURCE.md` — Guidance and reference for SOP: How To Use Gemini Gems + NotebookLM To Build Accurate AI Business Systems.
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-21_KB_2026-06-17_YouTube_Analysis_A_SOURCE.md` — Guidance and reference for Strategic Blueprint of the Business Pineapple Roofing Agentic OS: The Local-First Automation and Sovereign Execution Playbook.
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-21_KB_2026-06-18_Master_SOP_SOURCE.md` — Guidance and reference for SOP: The Ultimate Agentic OS Master Blueprint (Claude Code \+ Hermes \+ Jarvis \+ Obsidian \+ Paperclip \+ WhatsApp \+ Google Gemini & NotebookLM Suite).
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-21_KB_2026-06-18_SOP_Local_Memory_Bridge_SOURCE.md` — Guidance and reference for SOP: M7 Agentic OS \- Local Memory & Execution Bridge.
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-21_KB_2026-06-18_SOP_Paperclip_Hermes_Empire_SOURCE.md` — Guidance and reference for Pineapple Contractors M7 Playbook: AI Automation Core.
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-22_KB_2026-06-17_Master_Execution_Spec_SOURCE.md` — Guidance and reference for M7 AGENTIC OS — MASTER EXECUTION & SYNCHRONIZATION SPECIFICATION (SOURCE).
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-22_KB_2026-06-17_Playbook_Claude_Project_Master_SOURCE.md` — Guidance and reference for M7 COMMAND CENTER: CLAUDE PROJECT PLAYBOOK.
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-22_KB_2026-06-17_SOP_Gemini_NotebookLM_SOURCE.md` — Guidance and reference for SOP: How To Use Gemini Gems + NotebookLM To Build Accurate AI Business Systems.
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-22_KB_2026-06-17_YouTube_Analysis_A_SOURCE.md` — Guidance and reference for Strategic Blueprint of the Business Pineapple Roofing Agentic OS: The Local-First Automation and Sovereign Execution Playbook.
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-22_KB_2026-06-18_Master_SOP_SOURCE.md` — Guidance and reference for SOP: The Ultimate Agentic OS Master Blueprint (Claude Code \+ Hermes \+ Jarvis \+ Obsidian \+ Paperclip \+ WhatsApp \+ Google Gemini & NotebookLM Suite).
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-22_KB_2026-06-18_SOP_Local_Memory_Bridge_SOURCE.md` — Guidance and reference for SOP: M7 Agentic OS \- Local Memory & Execution Bridge.
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-22_KB_2026-06-18_SOP_Paperclip_Hermes_Empire_SOURCE.md` — Guidance and reference for Pineapple Contractors M7 Playbook: AI Automation Core.
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-23_KB_2026-06-17_Master_Execution_Spec_SOURCE.md` — Guidance and reference for M7 AGENTIC OS — MASTER EXECUTION & SYNCHRONIZATION SPECIFICATION (SOURCE).
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-23_KB_2026-06-17_Playbook_Claude_Project_Master_SOURCE.md` — Guidance and reference for M7 COMMAND CENTER: CLAUDE PROJECT PLAYBOOK.
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-23_KB_2026-06-17_SOP_Gemini_NotebookLM_SOURCE.md` — Guidance and reference for SOP: How To Use Gemini Gems + NotebookLM To Build Accurate AI Business Systems.
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-23_KB_2026-06-17_YouTube_Analysis_A_SOURCE.md` — Guidance and reference for Strategic Blueprint of the Business Pineapple Roofing Agentic OS: The Local-First Automation and Sovereign Execution Playbook.
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-23_KB_2026-06-18_Master_SOP_SOURCE.md` — Guidance and reference for SOP: The Ultimate Agentic OS Master Blueprint (Claude Code \+ Hermes \+ Jarvis \+ Obsidian \+ Paperclip \+ WhatsApp \+ Google Gemini & NotebookLM Suite).
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-23_KB_2026-06-18_SOP_Local_Memory_Bridge_SOURCE.md` — Guidance and reference for SOP: M7 Agentic OS \- Local Memory & Execution Bridge.
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-23_KB_2026-06-18_SOP_Paperclip_Hermes_Empire_SOURCE.md` — Guidance and reference for Pineapple Contractors M7 Playbook: AI Automation Core.
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-24_KB_2026-06-17_Master_Execution_Spec_SOURCE.md` — Guidance and reference for M7 AGENTIC OS — MASTER EXECUTION & SYNCHRONIZATION SPECIFICATION (SOURCE).
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-24_KB_2026-06-17_Playbook_Claude_Project_Master_SOURCE.md` — Guidance and reference for M7 COMMAND CENTER: CLAUDE PROJECT PLAYBOOK.
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-24_KB_2026-06-17_SOP_Gemini_NotebookLM_SOURCE.md` — Guidance and reference for SOP: How To Use Gemini Gems + NotebookLM To Build Accurate AI Business Systems.
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-24_KB_2026-06-17_YouTube_Analysis_A_SOURCE.md` — Guidance and reference for Strategic Blueprint of the Business Pineapple Roofing Agentic OS: The Local-First Automation and Sovereign Execution Playbook.
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-24_KB_2026-06-18_Master_SOP_SOURCE.md` — Guidance and reference for SOP: The Ultimate Agentic OS Master Blueprint (Claude Code \+ Hermes \+ Jarvis \+ Obsidian \+ Paperclip \+ WhatsApp \+ Google Gemini & NotebookLM Suite).
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-24_KB_2026-06-18_SOP_Local_Memory_Bridge_SOURCE.md` — Guidance and reference for SOP: M7 Agentic OS \- Local Memory & Execution Bridge.
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-24_KB_2026-06-18_SOP_Paperclip_Hermes_Empire_SOURCE.md` — Guidance and reference for Pineapple Contractors M7 Playbook: AI Automation Core.
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-25_KB_2026-06-17_Master_Execution_Spec_SOURCE.md` — Guidance and reference for M7 AGENTIC OS — MASTER EXECUTION & SYNCHRONIZATION SPECIFICATION (SOURCE).
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-25_KB_2026-06-17_Playbook_Claude_Project_Master_SOURCE.md` — Guidance and reference for M7 COMMAND CENTER: CLAUDE PROJECT PLAYBOOK.
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-25_KB_2026-06-17_SOP_Gemini_NotebookLM_SOURCE.md` — Guidance and reference for SOP: How To Use Gemini Gems + NotebookLM To Build Accurate AI Business Systems.
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-25_KB_2026-06-17_YouTube_Analysis_A_SOURCE.md` — Guidance and reference for Strategic Blueprint of the Business Pineapple Roofing Agentic OS: The Local-First Automation and Sovereign Execution Playbook.
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-25_KB_2026-06-18_Master_SOP_SOURCE.md` — Guidance and reference for SOP: The Ultimate Agentic OS Master Blueprint (Claude Code \+ Hermes \+ Jarvis \+ Obsidian \+ Paperclip \+ WhatsApp \+ Google Gemini & NotebookLM Suite).
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-25_KB_2026-06-18_SOP_Local_Memory_Bridge_SOURCE.md` — Guidance and reference for SOP: M7 Agentic OS \- Local Memory & Execution Bridge.
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-25_KB_2026-06-18_SOP_Paperclip_Hermes_Empire_SOURCE.md` — Guidance and reference for Pineapple Contractors M7 Playbook: AI Automation Core.
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-27_KB_2026-06-17_Master_Execution_Spec_SOURCE.md` — Guidance and reference for M7 AGENTIC OS — MASTER EXECUTION & SYNCHRONIZATION SPECIFICATION (SOURCE).
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-27_KB_2026-06-17_Playbook_Claude_Project_Master_SOURCE.md` — Guidance and reference for M7 COMMAND CENTER: CLAUDE PROJECT PLAYBOOK.
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-27_KB_2026-06-17_SOP_Gemini_NotebookLM_SOURCE.md` — Guidance and reference for SOP: How To Use Gemini Gems + NotebookLM To Build Accurate AI Business Systems.
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-27_KB_2026-06-17_YouTube_Analysis_A_SOURCE.md` — Guidance and reference for Strategic Blueprint of the Business Pineapple Roofing Agentic OS: The Local-First Automation and Sovereign Execution Playbook.
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-27_KB_2026-06-18_Master_SOP_SOURCE.md` — Guidance and reference for SOP: The Ultimate Agentic OS Master Blueprint (Claude Code \+ Hermes \+ Jarvis \+ Obsidian \+ Paperclip \+ WhatsApp \+ Google Gemini & NotebookLM Suite).
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-27_KB_2026-06-18_SOP_Local_Memory_Bridge_SOURCE.md` — Guidance and reference for SOP: M7 Agentic OS \- Local Memory & Execution Bridge.
+- `03_Knowledge_Mat/00_Atlas/_Archive_2026-07-02/2026-06-27_KB_2026-06-18_SOP_Paperclip_Hermes_Empire_SOURCE.md` — Guidance and reference for Pineapple Contractors M7 Playbook: AI Automation Core.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/30-DAY-ROADMAP.md` — Guidance and reference for 🗺️ Your 30-Day Agent OS Roadmap.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/CHANGELOG.md` — Guidance and reference for 📅 Agent OS — What's New, by Day.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/DISCLAIMER.md` — Guidance and reference for ⚖️ Disclaimer & Use-at-Your-Own-Risk Notice.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/install/0-HOW-IT-ALL-WORKS.md` — Guidance and reference for 0 · How It All Works (read this first — 5 min).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/install/1-CORE-DASHBOARD.md` — Guidance and reference for 1 · The Core Dashboard (Required).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/install/11-MEMORY-OBSIDIAN.md` — Guidance and reference for 11 · The Memory Galaxy + Your Obsidian Vault (Recommended).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/install/13-GAME-STUDIO.md` — Guidance and reference for 13 · Game Studio (Optional — Complimentary, fun).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/install/15-NOTEBOOKLM.md` — Guidance and reference for 15 · NotebookLM — the Notebook Tab (Optional).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/install/16-KIMI-CODE.md` — Guidance and reference for 16 · Kimi Code (Optional — another coding agent).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/install/17-EXTRA-MODELS.md` — Guidance and reference for 17 · Extra AI Models — GLM 5.2, Fusion & Sakana Fugu (Optional).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/install/18-GROK-BUILD.md` — Guidance and reference for 18 · Grok Build — xAI's Coding Agent (Optional).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/install/19-LOOP-ENGINEERING.md` — Guidance and reference for 19 · Loop Engineering (Optional, Advanced).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/install/2-VOICE-BUILDING.md` — Guidance and reference for 2 · Voice Building — the Agent Factory (Recommended).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/install/20-AGENT-KANBAN.md` — Guidance and reference for 20 · Agent Kanban (Optional — Complimentary, 100% local).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/install/21-OPEN-DESIGN.md` — Guidance and reference for 21 · Open Design (🔧 Advanced — optional).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/install/22-LEADS.md` — Guidance and reference for 22 · Leads — Find People to Reach Out To (Optional).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/install/23-RADAR.md` — Guidance and reference for 23 · Radar — Your 24/7 AI-News Watcher (Optional).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/install/24-WINDOWS-STATE-AND-MEMORY.md` — Guidance and reference for 24 · Windows: One Hermes Home + Shared Memory (Advanced).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/install/25-WINDOWS-INSTALL.md` — Guidance and reference for 25 · Install Agent OS on Windows (Start Here for Windows).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/install/4-HERMES.md` — Guidance and reference for 4 · Hermes — the Agent That Does Things (Optional).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/install/5-CPPA-CLAUDE-CODE.md` — Guidance and reference for 5 · Complimentary Claude Code — $0 AI Coding (Optional, Advanced).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/install/6-PAPERCLIP.md` — Guidance and reference for 6 · Paperclip — Run an AI Company (Optional).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/install/7-AGENT-CLIS.md` — Guidance and reference for 7 · The Agent Tabs (Optional — Pick What You Use).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/install/8-TROUBLESHOOTING.md` — Guidance and reference for 8 · Troubleshooting — When Something Won't Cooperate.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/install/9-PHONE-AGENT.md` — Guidance and reference for 9 · Phone Agent — Call Your Agent (Advanced · Optional).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/README.md` — Guidance and reference for 🚀 The Agent OS — Start Here.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/SETUP-WITH-AI.md` — Guidance and reference for SETUP-WITH-AI — Agent Setup Playbook.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/.next/node_modules/sharp-20c6a5da84e2135f/README.md` — Guidance and reference for sharp.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/AGENT-FACTORY.md` — Guidance and reference for The Agent Factory — speak it, your agent builds it (for $0).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/AGENTS.md` — Guidance and reference for This is NOT the Next.js you know.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/BUILD-YOUR-OWN.md` — Guidance and reference for 🚀 Build Your Own Agentic OS.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/CLAUDE.md` — Reference for CLAUDE.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/member-pack/30-DAY-ROADMAP.md` — Guidance and reference for 🗺️ Your 30-Day Agent OS Roadmap.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/member-pack/CHANGELOG.md` — Guidance and reference for 📅 Agent OS — What's New, by Day.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/member-pack/DISCLAIMER.md` — Guidance and reference for ⚖️ Disclaimer & Use-at-Your-Own-Risk Notice.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/member-pack/IMPLEMENTATION-CHECKLIST.md` — Guidance and reference for ✅ Implementation Checklist — New Install.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/member-pack/install/0-HOW-IT-ALL-WORKS.md` — Guidance and reference for 0 · How It All Works (read this first — 5 min).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/member-pack/install/1-CORE-DASHBOARD.md` — Guidance and reference for 1 · The Core Dashboard (Required).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/member-pack/install/11-MEMORY-OBSIDIAN.md` — Guidance and reference for 11 · The Memory Galaxy + Your Obsidian Vault (Recommended).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/member-pack/install/13-GAME-STUDIO.md` — Guidance and reference for 13 · Game Studio (Optional — CPPA, fun).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/member-pack/install/15-NOTEBOOKLM.md` — Guidance and reference for 15 · NotebookLM — the Notebook Tab (Optional).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/member-pack/install/16-KIMI-CODE.md` — Guidance and reference for 16 · Kimi Code (Optional — another coding agent).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/member-pack/install/17-EXTRA-MODELS.md` — Guidance and reference for 17 · Extra AI Models — GLM 5.2, Fusion & Sakana Fugu (Optional).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/member-pack/install/18-GROK-BUILD.md` — Guidance and reference for 18 · Grok Build — xAI's Coding Agent (Optional).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/member-pack/install/19-LOOP-ENGINEERING.md` — Guidance and reference for 19 · Loop Engineering (Optional, Advanced).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/member-pack/install/2-VOICE-BUILDING.md` — Guidance and reference for 2 · Voice Building — the Agent Factory (Recommended).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/member-pack/install/20-AGENT-KANBAN.md` — Guidance and reference for 20 · Agent Kanban (Optional — CPPA, 100% local).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/member-pack/install/21-OPEN-DESIGN.md` — Guidance and reference for 21 · Open Design (🔧 Advanced — optional).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/member-pack/install/22-LEADS.md` — Guidance and reference for 22 · Leads — Find People to Reach Out To (Optional).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/member-pack/install/23-RADAR.md` — Guidance and reference for 23 · Radar — Your 24/7 AI-News Watcher (Optional).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/member-pack/install/24-WINDOWS-STATE-AND-MEMORY.md` — Guidance and reference for 24 · Windows: One Hermes Home + Shared Memory (Advanced).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/member-pack/install/25-WINDOWS-INSTALL.md` — Guidance and reference for 25 · Install Agent OS on Windows (Start Here for Windows).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/member-pack/install/27-GLM-CODE.md` — Guidance and reference for 27 · GPT 5.6 Code — One Tab, Four Coding Brains (Optional).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/member-pack/install/28-OMNIROUTE.md` — Guidance and reference for 28 · OmniRoute — CPPA Coding Across 90+ Providers (Optional).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/member-pack/install/30-ASTROS.md` — Guidance and reference for 30 · Hermes Astros — Your 24/7 YouTube Watcher (Optional).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/member-pack/install/31-HY3-CODER.md` — Guidance and reference for 31 · Hy3 Coder — value-engineered, Fast One-Shot Builds (Optional).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/member-pack/install/34-OPENCODE.md` — Guidance and reference for 34 · opencode — CPPA Terminal Coding Agent (Optional).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/member-pack/install/35-APP-LAB.md` — Guidance and reference for 35 · App Lab — Ready-Made AI Apps, CPPA (Optional).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/member-pack/install/4-HERMES.md` — Guidance and reference for 4 · Hermes — the Agent That Does Things (Optional).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/member-pack/install/5-CPPA-CLAUDE-CODE.md` — Guidance and reference for 5 · CPPA Claude Code — $0 AI Coding (Optional, Advanced).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/member-pack/install/6-PAPERCLIP.md` — Guidance and reference for 6 · Paperclip — Run an AI Company (Optional).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/member-pack/install/7-AGENT-CLIS.md` — Guidance and reference for 7 · The Agent Tabs (Optional — Pick What You Use).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/member-pack/install/8-TROUBLESHOOTING.md` — Guidance and reference for 8 · Troubleshooting — When Something Won't Cooperate.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/member-pack/install/9-PHONE-AGENT.md` — Guidance and reference for 9 · Phone Agent — Call Your Agent (Advanced · Optional).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/member-pack/README.md` — Guidance and reference for 🚀 The Agent OS — Start Here.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/member-pack/SETUP-GUIDE.md` — Guidance and reference for 🔌 Connect Everything — the Setup Guide.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/member-pack/SETUP-WITH-AI.md` — Guidance and reference for SETUP-WITH-AI — Agent Setup Playbook.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/member-pack/UPDATE-WITH-AI.md` — Guidance and reference for UPDATE-WITH-AI — Safe Agent OS Updater (for Codex / Claude / Cursor, any OS).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/member-pack/UPDATE.md` — Guidance and reference for Updating Your Agent OS — the easy way.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/3d-force-graph/README.md` — Guidance and reference for Examples.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/@alloc/quick-lru/readme.md` — Guidance and reference for quick-lru ! Build Status (https://travis-ci.org/sindresorhus/quick-lru.svg?branch=master) (https://travis-ci.org/sindresorhus/quick-lru) ! Coverage Status (https://coveralls.io/repos/github/sindresorhus/quick-lru/badge.svg?branch=master) (https://coveralls.io/github/sindresorhus/quick-lru?branch=master).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/@babel/runtime/README.md` — Guidance and reference for @babel/runtime.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/@dimforge/rapier3d-compat/README.md` — Reference for README.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/@emnapi/runtime/README.md` — Reference for README.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/@hono/node-server/README.md` — Guidance and reference for Node.js Adapter for Hono.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/@img/colour/LICENSE.md` — Guidance and reference for Licensing.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/@img/colour/README.md` — Guidance and reference for @img/colour.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/@img/sharp-win32-x64/README.md` — Guidance and reference for @img/sharp-win32-x64.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/@jridgewell/gen-mapping/README.md` — Guidance and reference for @jridgewell/gen-mapping.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/@jridgewell/remapping/README.md` — Guidance and reference for @jridgewell/remapping.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/@jridgewell/resolve-uri/README.md` — Guidance and reference for @jridgewell/resolve-uri.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/@jridgewell/sourcemap-codec/README.md` — Guidance and reference for @jridgewell/sourcemap-codec.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/@jridgewell/trace-mapping/README.md` — Guidance and reference for @jridgewell/trace-mapping.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/@modelcontextprotocol/sdk/README.md` — Guidance and reference for MCP TypeScript SDK ! NPM Version (https://img.shields.io/npm/v/%40modelcontextprotocol%2Fsdk) (https://www.npmjs.com/package/@modelcontextprotocol/sdk) ! MIT licensed (https://img.shields.io/npm/l/%40modelcontextprotocol%2Fsdk) (https://github.com/modelcontextprotocol/typescript-sdk/blob/main/LICENSE).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/@next/env/README.md` — Guidance and reference for @next/env.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/@next/swc-win32-x64-msvc/README.md` — Guidance and reference for @next/swc-win32-x64-msvc.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/@radix-ui/primitive/README.md` — Guidance and reference for primitive.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/@radix-ui/react-compose-refs/README.md` — Guidance and reference for react-compose-refs.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/@radix-ui/react-context/README.md` — Guidance and reference for react-context.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/@radix-ui/react-dialog/node_modules/@radix-ui/react-primitive/README.md` — Guidance and reference for react-primitive.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/@radix-ui/react-dialog/README.md` — Guidance and reference for react-dialog.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/@radix-ui/react-dismissable-layer/node_modules/@radix-ui/react-primitive/README.md` — Guidance and reference for react-primitive.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/@radix-ui/react-dismissable-layer/README.md` — Guidance and reference for react-dismissable-layer.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/@radix-ui/react-focus-guards/README.md` — Guidance and reference for react-focus-guards.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/@radix-ui/react-focus-scope/node_modules/@radix-ui/react-primitive/README.md` — Guidance and reference for react-primitive.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/@radix-ui/react-focus-scope/README.md` — Guidance and reference for react-focus-scope.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/@radix-ui/react-id/README.md` — Guidance and reference for react-id.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/@radix-ui/react-portal/node_modules/@radix-ui/react-primitive/README.md` — Guidance and reference for react-primitive.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/@radix-ui/react-portal/README.md` — Guidance and reference for react-portal.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/@radix-ui/react-presence/README.md` — Guidance and reference for react-presence.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/@radix-ui/react-primitive/node_modules/@radix-ui/react-slot/README.md` — Guidance and reference for react-slot.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/@radix-ui/react-primitive/README.md` — Guidance and reference for react-primitive.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/@radix-ui/react-slot/README.md` — Guidance and reference for react-slot.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/@radix-ui/react-use-callback-ref/README.md` — Guidance and reference for react-use-callback-ref.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/@radix-ui/react-use-controllable-state/README.md` — Guidance and reference for react-use-controllable-state.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/@radix-ui/react-use-effect-event/README.md` — Guidance and reference for react-use-is-hydrated.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/@radix-ui/react-use-escape-keydown/README.md` — Guidance and reference for react-use-escape-keydown.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/@radix-ui/react-use-layout-effect/README.md` — Guidance and reference for react-use-layout-effect.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/@tailwindcss/node/README.md` — Guidance and reference for Documentation.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/@tailwindcss/oxide-win32-x64-msvc/README.md` — Guidance and reference for @tailwindcss/oxide-win32-x64-msvc.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/@tailwindcss/postcss/README.md` — Guidance and reference for Documentation.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/@tweenjs/tween.js/README.md` — Guidance and reference for tween.js.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/@types/debug/README.md` — Guidance and reference for Installation.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/@types/estree-jsx/README.md` — Guidance and reference for Installation.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/@types/estree/README.md` — Guidance and reference for Installation.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/@types/hast/README.md` — Guidance and reference for Installation.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/@types/js-yaml/README.md` — Guidance and reference for Installation.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/@types/mdast/README.md` — Guidance and reference for Installation.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/@types/ms/README.md` — Guidance and reference for Installation.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/@types/node/README.md` — Guidance and reference for Installation.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/@types/react-dom/README.md` — Guidance and reference for Installation.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/@types/react/README.md` — Guidance and reference for Installation.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/@types/stats.js/README.md` — Guidance and reference for Installation.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/@types/three/node_modules/@tweenjs/tween.js/README.md` — Guidance and reference for tween.js.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/@types/three/README.md` — Guidance and reference for Installation.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/@types/unist/README.md` — Guidance and reference for Installation.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/@types/webxr/README.md` — Guidance and reference for Installation.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/@ungap/structured-clone/README.md` — Guidance and reference for structuredClone polyfill.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/accepts/HISTORY.md` — Reference for HISTORY.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/accepts/README.md` — Guidance and reference for accepts.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/accessor-fn/README.md` — Guidance and reference for Quick start.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/ajv-formats/README.md` — Guidance and reference for ajv-formats.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/argparse/CHANGELOG.md` — Guidance and reference for Changelog.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/argparse/README.md` — Argparse example.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/aria-hidden/README.md` — Guidance and reference for aria-hidden.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/bail/readme.md` — Guidance and reference for bail.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/baseline-browser-mapping/README.md` — Guidance and reference for baseline-browser-mapping (https://github.com/web-platform-dx/web-features/packages/baseline-browser-mapping).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/body-parser/README.md` — Guidance and reference for body-parser.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/bytes/History.md` — Reference for History.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/bytes/Readme.md` — Guidance and reference for Bytes utility.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/call-bind-apply-helpers/CHANGELOG.md` — Guidance and reference for Changelog.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/call-bind-apply-helpers/README.md` — Guidance and reference for call-bind-apply-helpers <sup ! Version Badge npm-version-svg package-url </sup.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/call-bound/CHANGELOG.md` — Guidance and reference for Changelog.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/call-bound/README.md` — Guidance and reference for call-bound <sup ! Version Badge npm-version-svg package-url </sup.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/caniuse-lite/README.md` — Guidance and reference for caniuse-lite.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/ccount/readme.md` — Guidance and reference for ccount.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/character-entities-html4/readme.md` — Guidance and reference for character-entities-html4.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/character-entities-legacy/readme.md` — Guidance and reference for character-entities-legacy.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/character-entities/readme.md` — Guidance and reference for character-entities.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/character-reference-invalid/readme.md` — Guidance and reference for character-reference-invalid.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/cmdk/LICENSE.md` — Reference for LICENSE.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/cmdk/README.md` — Guidance and reference for ⌘K ! cmdk minzip package size (https://img.shields.io/bundlephobia/minzip/cmdk) (https://www.npmjs.com/package/cmdk?activeTab=code) ! cmdk package version (https://img.shields.io/npm/v/cmdk.svg?colorB=off-palette hue) (https://www.npmjs.com/package/cmdk).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/comma-separated-tokens/readme.md` — Guidance and reference for comma-separated-tokens.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/cookie-signature/History.md` — Reference for History.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/cookie-signature/Readme.md` — Guidance and reference for cookie-signature.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/cookie/README.md` — Guidance and reference for cookie.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/cookie/SECURITY.md` — Guidance and reference for Security Policies and Procedures.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/cors/README.md` — Guidance and reference for cors.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/cross-spawn/README.md` — Guidance and reference for cross-spawn.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/csstype/README.md` — Guidance and reference for CSSType.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/d3-array/README.md` — Guidance and reference for d3-array.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/d3-binarytree/README.md` — Guidance and reference for Installing.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/d3-color/README.md` — Guidance and reference for d3-color.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/d3-dispatch/README.md` — Guidance and reference for d3-dispatch.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/d3-force-3d/README.md` — Guidance and reference for Installing.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/d3-format/README.md` — Guidance and reference for d3-format.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/d3-interpolate/README.md` — Guidance and reference for d3-interpolate.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/d3-octree/README.md` — Guidance and reference for Installing.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/d3-quadtree/README.md` — Guidance and reference for d3-quadtree.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/d3-scale-chromatic/README.md` — Guidance and reference for d3-scale-chromatic.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/d3-scale/README.md` — Guidance and reference for d3-scale.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/d3-selection/README.md` — Guidance and reference for d3-selection.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/d3-time-format/README.md` — Guidance and reference for d3-time-format.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/d3-time/README.md` — Guidance and reference for d3-time.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/d3-timer/README.md` — Guidance and reference for d3-timer.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/data-bind-mapper/README.md` — Guidance and reference for Quick start.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/debug/README.md` — Guidance and reference for debug.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/decode-named-character-reference/readme.md` — Guidance and reference for decode-named-character-reference.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/depd/History.md` — Reference for History.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/depd/Readme.md` — Guidance and reference for depd.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/dequal/readme.md` — Guidance and reference for dequal ! CI (https://github.com/lukeed/dequal/workflows/CI/badge.svg) (https://github.com/lukeed/dequal/actions).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/detect-libc/README.md` — Guidance and reference for detect-libc.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/detect-node-es/Readme.md` — Guidance and reference for detect-node.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/devlop/readme.md` — Guidance and reference for devlop.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/dunder-proto/CHANGELOG.md` — Guidance and reference for Changelog.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/dunder-proto/README.md` — Guidance and reference for dunder-proto <sup ! Version Badge npm-version-svg package-url </sup.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/ee-first/README.md` — Guidance and reference for EE First.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/encodeurl/README.md` — Guidance and reference for Encode URL.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/enhanced-resolve/README.md` — Guidance and reference for enhanced-resolve.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/es-define-property/CHANGELOG.md` — Guidance and reference for Changelog.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/es-define-property/README.md` — Guidance and reference for es-define-property <sup ! Version Badge npm-version-svg package-url </sup.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/es-errors/CHANGELOG.md` — Guidance and reference for Changelog.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/es-errors/README.md` — Guidance and reference for es-errors <sup ! Version Badge npm-version-svg package-url </sup.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/es-object-atoms/CHANGELOG.md` — Guidance and reference for Changelog.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/es-object-atoms/README.md` — Guidance and reference for es-object-atoms <sup ! Version Badge npm-version-svg package-url </sup.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/escape-html/Readme.md` — Guidance and reference for escape-html.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/escape-string-regexp/readme.md` — Guidance and reference for escape-string-regexp.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/estree-util-is-identifier-name/readme.md` — Guidance and reference for estree-util-is-identifier-name.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/etag/HISTORY.md` — Reference for HISTORY.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/etag/README.md` — Guidance and reference for etag.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/eventsource-parser/README.md` — Guidance and reference for eventsource-parser.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/eventsource/README.md` — Guidance and reference for eventsource.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/extend/CHANGELOG.md` — Reference for CHANGELOG.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/extend/README.md` — Guidance and reference for extend() for Node.js <sup ! Version Badge npm-version-png npm-url </sup.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/fast-deep-equal/README.md` — Guidance and reference for fast-deep-equal.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/fast-uri/README.md` — Guidance and reference for fast-uri.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/fflate/CHANGELOG.md` — Guidance and reference for 0.8.3.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/fflate/README.md` — Guidance and reference for fflate.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/finalhandler/HISTORY.md` — Reference for HISTORY.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/finalhandler/README.md` — Guidance and reference for finalhandler.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/float-tooltip/README.md` — Guidance and reference for Quick start.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/forwarded/HISTORY.md` — Reference for HISTORY.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/forwarded/README.md` — Guidance and reference for forwarded.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/framer-motion/client/README.md` — Reference for README.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/framer-motion/dom/README.md` — Reference for README.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/framer-motion/LICENSE.md` — Reference for LICENSE.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/fresh/HISTORY.md` — Reference for HISTORY.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/fresh/README.md` — Guidance and reference for fresh.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/function-bind/.github/SECURITY.md` — Guidance and reference for Security.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/function-bind/CHANGELOG.md` — Guidance and reference for Changelog.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/function-bind/README.md` — Guidance and reference for function-bind <sup ! Version Badge npm-version-svg package-url </sup.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/get-intrinsic/CHANGELOG.md` — Guidance and reference for Changelog.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/get-intrinsic/README.md` — Guidance and reference for get-intrinsic <sup ! Version Badge npm-version-svg package-url </sup.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/get-nonce/CHANGELOG.md` — Guidance and reference for 1.0.0 (2020-04-16).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/get-nonce/README.md` — Guidance and reference for get-nonce.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/get-proto/CHANGELOG.md` — Guidance and reference for Changelog.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/get-proto/README.md` — Guidance and reference for get-proto <sup ! Version Badge npm-version-svg package-url </sup.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/gopd/CHANGELOG.md` — Guidance and reference for Changelog.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/gopd/README.md` — Guidance and reference for gopd <sup ! Version Badge npm-version-svg package-url </sup.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/graceful-fs/README.md` — Guidance and reference for graceful-fs.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/has-symbols/CHANGELOG.md` — Guidance and reference for Changelog.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/has-symbols/README.md` — Guidance and reference for has-symbols <sup ! Version Badge 2 1 </sup.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/hasown/CHANGELOG.md` — Guidance and reference for Changelog.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/hasown/README.md` — Guidance and reference for hasown <sup ! Version Badge npm-version-svg package-url </sup.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/hast-util-is-element/readme.md` — Guidance and reference for hast-util-is-element.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/hast-util-to-jsx-runtime/readme.md` — Guidance and reference for hast-util-to-jsx-runtime.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/hast-util-to-text/readme.md` — Guidance and reference for hast-util-to-text.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/hast-util-whitespace/readme.md` — Guidance and reference for hast-util-whitespace.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/highlight.js/CHANGES.md` — Guidance and reference for Version 11.11.1.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/highlight.js/README.md` — Guidance and reference for Highlight.js.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/highlight.js/SECURITY.md` — Guidance and reference for Security Policy.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/highlight.js/SUPPORTED_LANGUAGES.md` — Guidance and reference for Supported Languages.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/highlight.js/VERSION_10_UPGRADE.md` — Guidance and reference for Upgrading to Version 10.0.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/highlight.js/VERSION_11_UPGRADE.md` — Guidance and reference for Upgrading to Highlight.js v11.0.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/hono/README.md` — Guidance and reference for Quick Start.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/html-url-attributes/readme.md` — Guidance and reference for html-url-attributes.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/http-errors/HISTORY.md` — Reference for HISTORY.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/http-errors/README.md` — Guidance and reference for http-errors.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/iconv-lite/README.md` — Guidance and reference for iconv-lite: Pure JS character encoding conversion.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/inherits/README.md` — Guidance and reference for usage.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/inline-style-parser/README.md` — Guidance and reference for inline-style-parser.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/internmap/README.md` — Guidance and reference for InternMap.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/ip-address/README.md` — Guidance and reference for ip-address.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/ipaddr.js/README.md` — Guidance and reference for ipaddr.js — an IPv6 and IPv4 address manipulation library ! Build Status (https://travis-ci.org/whitequark/ipaddr.js.svg) (https://travis-ci.org/whitequark/ipaddr.js).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/is-alphabetical/readme.md` — Guidance and reference for is-alphabetical.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/is-alphanumerical/readme.md` — Guidance and reference for is-alphanumerical.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/is-decimal/readme.md` — Guidance and reference for is-decimal.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/is-hexadecimal/readme.md` — Guidance and reference for is-hexadecimal.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/is-plain-obj/readme.md` — Guidance and reference for is-plain-obj.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/is-promise/readme.md` — Guidance and reference for is-promise.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/isexe/README.md` — Guidance and reference for isexe.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/jerrypick/README.md` — Guidance and reference for Quick start.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/jiti/README.md` — Guidance and reference for jiti.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/jose/LICENSE.md` — Reference for LICENSE.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/jose/README.md` — Guidance and reference for jose.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/js-tokens/CHANGELOG.md` — Reference for CHANGELOG.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/js-tokens/README.md` — Reference for README.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/js-yaml/README.md` — Reference for README.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/kapsule/README.md` — Guidance and reference for Quick start.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/lightningcss-win32-x64-msvc/README.md` — Reference for README.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/lightningcss/README.md` — Guidance and reference for ⚡️ Lightning CSS.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/lodash-es/README.md` — Guidance and reference for lodash-es v4.18.1.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/longest-streak/readme.md` — Guidance and reference for longest-streak.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/loose-envify/README.md` — Guidance and reference for loose-envify.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/lowlight/readme.md` — Guidance and reference for lowlight.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/lucide-react/README.md` — Guidance and reference for Lucide React.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/magic-string/README.md` — Guidance and reference for magic-string.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/markdown-table/readme.md` — Guidance and reference for markdown-table.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/math-intrinsics/CHANGELOG.md` — Guidance and reference for Changelog.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/math-intrinsics/README.md` — Guidance and reference for math-intrinsics <sup ! Version Badge npm-version-svg package-url </sup.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/mdast-util-find-and-replace/readme.md` — Guidance and reference for mdast-util-find-and-replace.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/mdast-util-from-markdown/readme.md` — Guidance and reference for mdast-util-from-markdown.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/mdast-util-gfm-autolink-literal/readme.md` — Guidance and reference for mdast-util-gfm-autolink-literal.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/mdast-util-gfm-footnote/readme.md` — Guidance and reference for mdast-util-gfm-footnote.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/mdast-util-gfm-strikethrough/readme.md` — Guidance and reference for mdast-util-gfm-strikethrough.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/mdast-util-gfm-table/readme.md` — Guidance and reference for mdast-util-gfm-table.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/mdast-util-gfm-task-list-item/readme.md` — Guidance and reference for mdast-util-gfm-task-list-item.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/mdast-util-gfm/readme.md` — Guidance and reference for mdast-util-gfm.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/mdast-util-mdx-jsx/readme.md` — Guidance and reference for mdast-util-mdx-jsx.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/mdast-util-mdxjs-esm/readme.md` — Guidance and reference for mdast-util-mdxjs-esm.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/mdast-util-phrasing/readme.md` — Guidance and reference for mdast-util-phrasing.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/mdast-util-to-hast/readme.md` — Guidance and reference for mdast-util-to-hast.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/mdast-util-to-markdown/readme.md` — Guidance and reference for mdast-util-to-markdown.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/mdast-util-to-string/readme.md` — Guidance and reference for mdast-util-to-string.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/media-typer/HISTORY.md` — Reference for HISTORY.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/media-typer/README.md` — Guidance and reference for media-typer.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/merge-descriptors/readme.md` — Guidance and reference for merge-descriptors.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/meshoptimizer/LICENSE.md` — Reference for LICENSE.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/meshoptimizer/README.md` — Guidance and reference for meshoptimizer.js.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/micromark-core-commonmark/readme.md` — Guidance and reference for micromark-core-commonmark.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/micromark-extension-gfm-autolink-literal/readme.md` — Guidance and reference for micromark-extension-gfm-autolink-literal.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/micromark-extension-gfm-footnote/readme.md` — Guidance and reference for micromark-extension-gfm-footnote.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/micromark-extension-gfm-strikethrough/readme.md` — Guidance and reference for micromark-extension-gfm-strikethrough.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/micromark-extension-gfm-table/readme.md` — Guidance and reference for micromark-extension-gfm-table.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/micromark-extension-gfm-tagfilter/readme.md` — Guidance and reference for micromark-extension-gfm-tagfilter.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/micromark-extension-gfm-task-list-item/readme.md` — Guidance and reference for micromark-extension-gfm-task-list-item.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/micromark-extension-gfm/readme.md` — Guidance and reference for micromark-extension-gfm.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/micromark-factory-destination/readme.md` — Guidance and reference for micromark-factory-destination.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/micromark-factory-label/readme.md` — Guidance and reference for micromark-factory-label.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/micromark-factory-space/readme.md` — Guidance and reference for micromark-factory-space.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/micromark-factory-title/readme.md` — Guidance and reference for micromark-factory-title.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/micromark-factory-whitespace/readme.md` — Guidance and reference for micromark-factory-whitespace.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/micromark-util-character/readme.md` — Guidance and reference for micromark-util-character.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/micromark-util-chunked/readme.md` — Guidance and reference for micromark-util-chunked.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/micromark-util-classify-character/readme.md` — Guidance and reference for micromark-util-classify-character.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/micromark-util-combine-extensions/readme.md` — Guidance and reference for micromark-util-combine-extensions.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/micromark-util-decode-numeric-character-reference/readme.md` — Guidance and reference for micromark-util-decode-numeric-character-reference.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/micromark-util-decode-string/readme.md` — Guidance and reference for micromark-util-decode-string.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/micromark-util-encode/readme.md` — Guidance and reference for micromark-util-encode.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/micromark-util-html-tag-name/readme.md` — Guidance and reference for micromark-util-html-tag-name.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/micromark-util-normalize-identifier/readme.md` — Guidance and reference for micromark-util-normalize-identifier.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/micromark-util-resolve-all/readme.md` — Guidance and reference for micromark-util-resolve-all.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/micromark-util-sanitize-uri/readme.md` — Guidance and reference for micromark-util-sanitize-uri.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/micromark-util-subtokenize/readme.md` — Guidance and reference for micromark-util-subtokenize.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/micromark-util-symbol/readme.md` — Guidance and reference for micromark-util-symbol.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/micromark-util-types/readme.md` — Guidance and reference for micromark-util-types.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/micromark/readme.md` — Guidance and reference for micromark.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/mime-db/HISTORY.md` — Reference for HISTORY.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/mime-db/README.md` — Guidance and reference for mime-db.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/mime-types/HISTORY.md` — Reference for HISTORY.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/mime-types/README.md` — Guidance and reference for mime-types.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/motion-dom/LICENSE.md` — Reference for LICENSE.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/motion-utils/LICENSE.md` — Reference for LICENSE.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/ms/license.md` — Reference for license.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/ms/readme.md` — Guidance and reference for ms.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/nanoid/README.md` — Guidance and reference for Nano ID.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/negotiator/HISTORY.md` — Reference for HISTORY.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/negotiator/README.md` — Guidance and reference for negotiator.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/compiled/@babel/runtime/README.md` — Guidance and reference for @babel/runtime.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/compiled/react-is/README.md` — Guidance and reference for react-is.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/compiled/react-refresh/README.md` — Guidance and reference for react-refresh.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/compiled/regenerator-runtime/README.md` — Guidance and reference for regenerator-runtime.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/01-getting-started/01-installation.md` — Learn how to create a new Next.js application with the create-next-app CLI, and set up TypeScript, ESLint, and Module Path Aliases.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/01-getting-started/02-project-structure.md` — Learn the folder and file conventions in Next.js, and how to organize your project.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/01-getting-started/03-layouts-and-pages.md` — Learn how to create your first pages and layouts, and link between them with the Link component.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/01-getting-started/04-linking-and-navigating.md` — Learn how the built-in navigation optimizations work, including prefetching, prerendering, and client-side navigation, and how to optimize navigation for dynamic routes and slow networks.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/01-getting-started/05-server-and-client-components.md` — Learn how you can use React Server and Client Components to render parts of your application on the server or the client.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/01-getting-started/07-mutating-data.md` — Learn how to mutate data using Server Functions and Server Actions in Next.js.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/01-getting-started/08-caching.md` — Learn how to cache data and UI in Next.js.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/01-getting-started/09-revalidating.md` — Learn how to revalidate cached data using time-based and on-demand strategies.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/01-getting-started/10-error-handling.md` — Learn how to display expected errors and handle uncaught exceptions.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/01-getting-started/11-css.md` — Learn about the different ways to add CSS to your application, including Tailwind CSS, CSS Modules, Global CSS, and more.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/01-getting-started/13-fonts.md` — Learn how to optimize fonts in Next.js.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/01-getting-started/15-route-handlers.md` — Learn how to use Route Handlers.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/01-getting-started/16-proxy.md` — Learn how to use Proxy.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/01-getting-started/17-deploying.md` — Learn how to deploy your Next.js application.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/01-getting-started/18-upgrading.md` — Learn how to upgrade your Next.js application to the latest version or canary.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/01-getting-started/index.md` — Learn how to create full-stack web applications with the Next.js App Router.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/02-guides/ai-agents.md` — Learn how to configure your Next.js project so AI coding agents use up-to-date documentation instead of outdated training data.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/02-guides/analytics.md` — Measure and track page performance using Next.js Speed Insights.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/02-guides/authentication.md` — Learn how to implement authentication in your Next.js application.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/02-guides/backend-for-frontend.md` — Learn how to use Next.js as a backend framework.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/02-guides/caching-without-cache-components.md` — Learn how to cache and revalidate data using fetch options, unstable cache, and route segment configs for projects not using Cache Components.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/02-guides/cdn-caching.md` — Learn how CDN caching works with Next.js, including what works today, cache variability, and the direction toward pathname-based cache keying.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/02-guides/ci-build-caching.md` — Learn how to configure CI to cache Next.js builds.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/02-guides/css-in-js.md` — Use CSS-in-JS libraries with Next.js.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/02-guides/custom-server.md` — Start a Next.js app programmatically using a custom server.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/02-guides/data-security.md` — Learn the built-in data security features in Next.js and learn best practices for protecting your application's data.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/02-guides/debugging.md` — Learn how to debug your Next.js application with VS Code, Chrome DevTools, or Firefox DevTools.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/02-guides/deploying-to-platforms.md` — Understand which Next.js features require specific platform capabilities and how to choose the right deployment target.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/02-guides/draft-mode.md` — Next.js has draft mode to toggle between static and dynamic pages. You can learn how it works with App Router here.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/02-guides/environment-variables.md` — Learn to add and access environment variables in your Next.js application.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/02-guides/forms.md` — Learn how to create forms in Next.js with React Server Actions.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/02-guides/incremental-static-regeneration.md` — Learn how to create or update static pages at runtime with Incremental Static Regeneration.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/02-guides/index.md` — Learn how to implement common patterns and real-world use cases using Next.js.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/02-guides/instrumentation.md` — Learn how to use instrumentation to run code at server startup in your Next.js app.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/02-guides/lazy-loading.md` — Lazy load imported libraries and React Components to improve your application's loading performance.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/02-guides/local-development.md` — Learn how to optimize your local development environment with Next.js.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/02-guides/mcp.md` — Learn how to use Next.js MCP support to allow coding agents access to your application state.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/02-guides/mdx.md` — Learn how to configure MDX and use it in your Next.js apps.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/02-guides/memory-usage.md` — Optimize memory used by your application in development and production.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/02-guides/migrating-to-cache-components.md` — Learn how to migrate from route segment configs to Cache Components in Next.js.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/02-guides/migrating/app-router-migration.md` — Learn how to upgrade your existing Next.js application from the Pages Router to the App Router.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/02-guides/migrating/from-create-react-app.md` — Learn how to migrate your existing React application from Create React App to Next.js.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/02-guides/migrating/from-vite.md` — Learn how to migrate your existing React application from Vite to Next.js.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/02-guides/migrating/index.md` — Learn how to migrate from popular frameworks to Next.js.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/02-guides/multi-tenant.md` — Learn how to build multi-tenant apps with the App Router.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/02-guides/multi-zones.md` — Learn how to build micro-frontends using Next.js Multi-Zones to deploy multiple Next.js apps under a single domain.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/02-guides/open-telemetry.md` — Learn how to instrument your Next.js app with OpenTelemetry.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/02-guides/package-bundling.md` — Learn how to analyze and optimize your application's server and client bundles with the Next.js Bundle Analyzer for Turbopack, and the @next/bundle-analyzer plugin for Webpack.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/02-guides/ppr-platform-guide.md` — A guide for platform engineers on implementing PPR support, from basic origin rendering to optimized CDN integration.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/02-guides/prefetching.md` — Learn how to configure prefetching in Next.js.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/02-guides/preserving-ui-state.md` — Learn how to control which UI state is preserved and which resets when navigating between pages.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/02-guides/production-checklist.md` — Recommendations to ensure the best performance and user experience before taking your Next.js application to production.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/02-guides/progressive-web-apps.md` — Learn how to build a Progressive Web Application (PWA) with Next.js.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/02-guides/redirecting.md` — Learn the different ways to handle redirects in Next.js.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/02-guides/rendering-philosophy.md` — Learn how Next.js treats static and dynamic rendering as a spectrum at the component level, and what this means for deployment.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/02-guides/sass.md` — Style your Next.js application using Sass.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/02-guides/scripts.md` — Optimize 3rd party scripts with the built-in Script component.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/02-guides/single-page-applications.md` — Next.js fully supports building Single-Page Applications (SPAs).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/02-guides/static-exports.md` — Next.js enables starting as a static site or Single-Page Application (SPA), then later optionally upgrading to use features that require a server.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/02-guides/streaming.md` — Learn how streaming works in Next.js and how to use it to progressively render UI as data becomes available.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/02-guides/tailwind-v3-css.md` — Style your Next.js Application using Tailwind CSS v3 for broader browser support.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/02-guides/testing/jest.md` — Learn how to set up Jest with Next.js for Unit Testing and Snapshot Testing.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/02-guides/testing/playwright.md` — Learn how to set up Playwright with Next.js for End-to-End (E2E) Testing.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/02-guides/testing/vitest.md` — Learn how to set up Vitest with Next.js for Unit Testing.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/02-guides/third-party-libraries.md` — Optimize the performance of third-party libraries in your application with the @next/third-parties package.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/02-guides/upgrading/codemods.md` — Use codemods to upgrade your Next.js codebase when new features are released.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/02-guides/upgrading/index.md` — Learn how to upgrade to the latest versions of Next.js.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/02-guides/upgrading/version-14.md` — Upgrade your Next.js Application from Version 13 to 14.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/02-guides/upgrading/version-15.md` — Upgrade your Next.js Application from Version 14 to 15.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/02-guides/upgrading/version-16.md` — Upgrade your Next.js Application from Version 15 to 16.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/01-directives/index.md` — Directives are used to modify the behavior of your Next.js application.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/01-directives/use-cache-private.md` — Learn how to use the "use cache: private" directive to cache functions that access runtime request APIs.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/01-directives/use-cache-remote.md` — Learn how to use the "use cache: remote" directive for persistent, shared caching using remote cache handlers.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/01-directives/use-cache.md` — Learn how to use the "use cache" directive to cache data in your Next.js application.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/01-directives/use-client.md` — Learn how to use the use client directive to render a component on the client.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/01-directives/use-server.md` — Learn how to use the use server directive to execute code on the server.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/02-components/font.md` — Optimizing loading web fonts with the built-in next/font loaders.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/02-components/form.md` — Learn how to use the <Form component to handle form submissions and search params updates with client-side navigation.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/02-components/index.md` — API Reference for Next.js built-in components.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/02-components/link.md` — Enable fast client-side navigation with the built-in next/link component.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/02-components/script.md` — Optimize third-party scripts in your Next.js application using the built-in next/script Component.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/03-file-conventions/01-metadata/app-icons.md` — API Reference for the Favicon, Icon and Apple Icon file conventions.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/03-file-conventions/01-metadata/index.md` — API documentation for the metadata file conventions.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/03-file-conventions/01-metadata/manifest.md` — API Reference for manifest.json file.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/03-file-conventions/01-metadata/robots.md` — API Reference for robots.txt file.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/03-file-conventions/01-metadata/sitemap.md` — API Reference for the sitemap.xml file.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/03-file-conventions/02-route-segment-config/dynamicParams.md` — API reference for the dynamicParams route segment config option.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/03-file-conventions/02-route-segment-config/index.md` — Learn about how to configure options for Next.js route segments.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/03-file-conventions/02-route-segment-config/instant.md` — API reference for the instant route segment config.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/03-file-conventions/02-route-segment-config/maxDuration.md` — API reference for the maxDuration route segment config option.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/03-file-conventions/02-route-segment-config/preferredRegion.md` — API reference for the preferredRegion route segment config option.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/03-file-conventions/02-route-segment-config/runtime.md` — API reference for the runtime route segment config option.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/03-file-conventions/default.md` — API Reference for the default.js file.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/03-file-conventions/dynamic-routes.md` — Dynamic Route Segments can be used to programmatically generate route segments from dynamic data.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/03-file-conventions/error.md` — API reference for the error.js special file.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/03-file-conventions/forbidden.md` — API reference for the forbidden.js special file.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/03-file-conventions/index.md` — API Reference for Next.js file-system conventions.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/03-file-conventions/instrumentation-client.md` — Learn how to add client-side instrumentation to track and monitor your Next.js application's frontend performance.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/03-file-conventions/instrumentation.md` — API reference for the instrumentation.js file.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/03-file-conventions/intercepting-routes.md` — Use intercepting routes to load a new route within the current layout while masking the browser URL, useful for advanced routing patterns such as modals.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/03-file-conventions/layout.md` — API reference for the layout.js file.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/03-file-conventions/loading.md` — API reference for the loading.js file.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/03-file-conventions/mdx-components.md` — API reference for the mdx-components.js file.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/03-file-conventions/not-found.md` — API reference for the not-found.js file.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/03-file-conventions/page.md` — API reference for the page.js file.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/03-file-conventions/parallel-routes.md` — Simultaneously render one or more pages in the same view that can be navigated independently. A pattern for highly dynamic applications.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/03-file-conventions/proxy.md` — API reference for the proxy.js file.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/03-file-conventions/route-groups.md` — Route Groups can be used to partition your Next.js application into different sections.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/03-file-conventions/route.md` — API reference for the route.js special file.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/03-file-conventions/src-folder.md` — Save pages under the src folder as an alternative to the root pages directory.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/03-file-conventions/template.md` — API Reference for the template.js file.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/03-file-conventions/unauthorized.md` — API reference for the unauthorized.js special file.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/04-functions/after.md` — API Reference for the after function.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/04-functions/cacheLife.md` — Learn how to use the cacheLife function to set the cache expiration time for a cached function or component.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/04-functions/cacheTag.md` — Learn how to use the cacheTag function to manage cache invalidation in your Next.js application.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/04-functions/catchError.md` — API Reference for the unstable catchError function.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/04-functions/connection.md` — API Reference for the connection function.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/04-functions/cookies.md` — API Reference for the cookies function.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/04-functions/draft-mode.md` — API Reference for the draftMode function.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/04-functions/fetch.md` — API reference for the extended fetch function.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/04-functions/forbidden.md` — API Reference for the forbidden function.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/04-functions/generate-sitemaps.md` — Learn how to use the generateSiteMaps function to create multiple sitemaps for your application.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/04-functions/generate-static-params.md` — API reference for the generateStaticParams function.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/04-functions/generate-viewport.md` — API Reference for the generateViewport function.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/04-functions/headers.md` — API reference for the headers function.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/04-functions/index.md` — API Reference for Next.js Functions and Hooks.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/04-functions/next-request.md` — API Reference for NextRequest.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/04-functions/next-response.md` — API Reference for NextResponse.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/04-functions/not-found.md` — API Reference for the notFound function.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/04-functions/permanentRedirect.md` — API Reference for the permanentRedirect function.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/04-functions/redirect.md` — API Reference for the redirect function.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/04-functions/refresh.md` — API Reference for the refresh function.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/04-functions/revalidatePath.md` — API Reference for the revalidatePath function.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/04-functions/revalidateTag.md` — API Reference for the revalidateTag function.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/04-functions/unauthorized.md` — API Reference for the unauthorized function.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/04-functions/unstable_cache.md` — API Reference for the unstable cache function.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/04-functions/unstable_noStore.md` — API Reference for the unstable noStore function.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/04-functions/unstable_rethrow.md` — API Reference for the unstable rethrow function.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/04-functions/updateTag.md` — API Reference for the updateTag function.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/04-functions/use-link-status.md` — API Reference for the useLinkStatus hook.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/04-functions/use-params.md` — API Reference for the useParams hook.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/04-functions/use-pathname.md` — API Reference for the usePathname hook.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/04-functions/use-report-web-vitals.md` — API Reference for the useReportWebVitals function.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/04-functions/use-router.md` — API reference for the useRouter hook.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/04-functions/use-search-params.md` — API Reference for the useSearchParams hook.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/04-functions/use-selected-layout-segment.md` — API Reference for the useSelectedLayoutSegment hook.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/04-functions/use-selected-layout-segments.md` — API Reference for the useSelectedLayoutSegments hook.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/04-functions/userAgent.md` — The userAgent helper extends the Web Request API with additional properties and methods to interact with the user agent object from the request.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/05-config/01-next-config-js/adapterPath.md` — Configure a custom adapter for Next.js to hook into the build process.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/05-config/01-next-config-js/allowedDevOrigins.md` — Use allowedDevOrigins to configure additional origins that can request the dev server.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/05-config/01-next-config-js/appDir.md` — Enable the App Router to use layouts, streaming, and more.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/05-config/01-next-config-js/assetPrefix.md` — Learn how to use the assetPrefix config option to configure your CDN.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/05-config/01-next-config-js/authInterrupts.md` — Learn how to enable the experimental authInterrupts configuration option to use forbidden and unauthorized .
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/05-config/01-next-config-js/basePath.md` — Use basePath to deploy a Next.js application under a sub-path of a domain.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/05-config/01-next-config-js/cacheComponents.md` — Learn how to enable the cacheComponents flag in Next.js.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/05-config/01-next-config-js/cacheHandlers.md` — Configure custom cache handlers for use cache directives in Next.js.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/05-config/01-next-config-js/cacheLife.md` — Learn how to set up cacheLife configurations in Next.js.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/05-config/01-next-config-js/crossOrigin.md` — Use the crossOrigin option to add a crossOrigin tag on the script tags generated by next/script .
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/05-config/01-next-config-js/cssChunking.md` — Use the cssChunking option to control how CSS files are chunked in your Next.js application.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/05-config/01-next-config-js/deploymentId.md` — Configure a deployment identifier used for version skew protection and cache busting.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/05-config/01-next-config-js/devIndicators.md` — Configuration options for the on-screen indicator that gives context about the current route you're viewing during development.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/05-config/01-next-config-js/distDir.md` — Set a custom build directory to use instead of the default .next directory.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/05-config/01-next-config-js/env.md` — Learn to add and access environment variables in your Next.js application at build time.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/05-config/01-next-config-js/expireTime.md` — Customize stale-while-revalidate expire time for ISR enabled pages.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/05-config/01-next-config-js/exportPathMap.md` — Customize the pages that will be exported as HTML files when using next export .
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/05-config/01-next-config-js/generateBuildId.md` — Configure the build id, which is used to identify the current build in which your application is being served.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/05-config/01-next-config-js/generateEtags.md` — Next.js will generate etags for every page by default. Learn more about how to disable etag generation here.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/05-config/01-next-config-js/headers.md` — Add custom HTTP headers to your Next.js app.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/05-config/01-next-config-js/htmlLimitedBots.md` — Specify a list of user agents that should receive blocking metadata.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/05-config/01-next-config-js/httpAgentOptions.md` — Next.js will automatically use HTTP Keep-Alive by default. Learn more about how to disable HTTP Keep-Alive here.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/05-config/01-next-config-js/incrementalCacheHandlerPath.md` — Configure the Next.js cache used for storing and revalidating data to use any external service like Redis, Memcached, or others.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/05-config/01-next-config-js/index.md` — Learn how to configure your application with next.config.js.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/05-config/01-next-config-js/inlineCss.md` — Enable inline CSS support.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/05-config/01-next-config-js/logging.md` — Configure logging behavior in the terminal when running Next.js in development mode, including fetch logging, incoming requests, and forwarding browser console logs to the terminal.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/05-config/01-next-config-js/mdxRs.md` — Use the new Rust compiler to compile MDX files in the App Router.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/05-config/01-next-config-js/onDemandEntries.md` — Configure how Next.js will dispose and keep in memory pages created in development.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/05-config/01-next-config-js/optimizePackageImports.md` — API Reference for optimizePackageImports Next.js Config Option.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/05-config/01-next-config-js/output.md` — Next.js automatically traces which files are needed by each page to allow for easy deployment of your application. Learn how it works here.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/05-config/01-next-config-js/pageExtensions.md` — Extend the default page extensions used by Next.js when resolving pages in the Pages Router.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/05-config/01-next-config-js/poweredByHeader.md` — Next.js will add the x-powered-by header by default. Learn to opt-out of it here.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/05-config/01-next-config-js/productionBrowserSourceMaps.md` — Enables browser source map generation during the production build.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/05-config/01-next-config-js/proxyClientMaxBodySize.md` — Configure the maximum request body size when using proxy.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/05-config/01-next-config-js/reactCompiler.md` — Enable the React Compiler to automatically optimize component rendering.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/05-config/01-next-config-js/reactMaxHeadersLength.md` — The maximum length of the headers that are emitted by React and added to the response.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/05-config/01-next-config-js/reactStrictMode.md` — The complete Next.js runtime is now Strict Mode-compliant, learn how to opt-in.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/05-config/01-next-config-js/redirects.md` — Add redirects to your Next.js app.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/05-config/01-next-config-js/rewrites.md` — Add rewrites to your Next.js app.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/05-config/01-next-config-js/sassOptions.md` — Configure Sass options.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/05-config/01-next-config-js/serverActions.md` — Configure Server Actions behavior in your Next.js application.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/05-config/01-next-config-js/serverComponentsHmrCache.md` — Configure whether fetch responses in Server Components are cached across HMR refresh requests.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/05-config/01-next-config-js/serverExternalPackages.md` — Opt-out specific dependencies from the Server Components bundling and use native Node.js require .
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/05-config/01-next-config-js/staleTimes.md` — Learn how to override the invalidation time of the client cache.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/05-config/01-next-config-js/staticGeneration.md` — Learn how to configure static generation in your Next.js application.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/05-config/01-next-config-js/taint.md` — Enable tainting Objects and Values.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/05-config/01-next-config-js/trailingSlash.md` — Configure Next.js pages to resolve with or without a trailing slash.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/05-config/01-next-config-js/transpilePackages.md` — Automatically transpile and bundle dependencies from local packages (like monorepos) or from external dependencies ( node modules ).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/05-config/01-next-config-js/turbopack.md` — Configure Next.js with Turbopack-specific options.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/05-config/01-next-config-js/turbopackFileSystemCache.md` — Learn how to enable FileSystem Caching for Turbopack builds.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/05-config/01-next-config-js/typedRoutes.md` — Enable support for statically typed links.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/05-config/01-next-config-js/typescript.md` — Configure how Next.js handles TypeScript errors during production builds and specify a custom tsconfig file.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/05-config/01-next-config-js/urlImports.md` — Configure Next.js to allow importing modules from external URLs.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/05-config/01-next-config-js/useLightningcss.md` — Enable experimental support for Lightning CSS.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/05-config/01-next-config-js/viewTransition.md` — Enable ViewTransition API from React in App Router.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/05-config/01-next-config-js/webpack.md` — Learn how to customize the webpack config used by Next.js.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/05-config/01-next-config-js/webVitalsAttribution.md` — Learn how to use the webVitalsAttribution option to pinpoint the source of Web Vitals issues.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/05-config/02-typescript.md` — Next.js provides a TypeScript-first development experience for building your React application.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/05-config/03-eslint.md` — Learn how to use and configure the ESLint plugin to catch common issues and problems in a Next.js application.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/05-config/index.md` — Learn how to configure Next.js applications.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/06-cli/create-next-app.md` — Create Next.js apps using one command with the create-next-app CLI.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/06-cli/index.md` — API Reference for the Next.js Command Line Interface (CLI) tools.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/06-cli/next.md` — Learn how to run and build your application with the Next.js CLI.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/07-adapters/01-configuration.md` — Configure adapterPath or NEXT ADAPTER PATH to use a custom deployment adapter.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/07-adapters/02-creating-an-adapter.md` — Create an adapter module that implements the NextAdapter interface.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/07-adapters/03-api-reference.md` — Reference for modifyConfig and onBuildComplete in the NextAdapter interface.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/07-adapters/04-testing-adapters.md` — Validate adapters with the Next.js compatibility test harness and custom lifecycle scripts.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/07-adapters/05-routing-with-next-routing.md` — Use @next/routing to apply Next.js route matching behavior in adapters.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/07-adapters/06-implementing-ppr-in-an-adapter.md` — Implement Partial Prerendering support in an adapter using fallback output and cache hooks.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/07-adapters/07-runtime-integration.md` — Understand how build-time adapters and runtime cache interfaces work together.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/07-adapters/08-invoking-entrypoints.md` — Invoke Node.js and Edge build entrypoints with adapter runtime context.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/07-adapters/09-output-types.md` — Reference for all build output types exposed to adapters.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/07-adapters/10-routing-information.md` — Reference for routing phases and route fields exposed in onBuildComplete .
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/07-adapters/11-use-cases.md` — Common patterns and examples for deployment adapter implementations.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/07-adapters/index.md` — Build deployment adapters for Next.js platforms and infrastructure.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/07-edge.md` — API Reference for the Edge Runtime.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/08-turbopack.md` — Turbopack is an incremental bundler optimized for JavaScript and TypeScript, written in Rust, and built into Next.js.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/03-api-reference/index.md` — Next.js API Reference for the App Router.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/04-glossary.md` — A glossary of common terms used in Next.js.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/01-app/index.md` — The App Router is a file-system based router that uses React's latest features such as Server Components, Suspense, Server Functions, and more.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/01-getting-started/01-installation.md` — How to create a new Next.js application with create-next-app . Set up TypeScript, ESLint,and configure your next.config.js file.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/01-getting-started/02-project-structure.md` — Learn about the folder and file conventions in a Next.js project, and how to organize your project.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/01-getting-started/05-fonts.md` — Learn how to use fonts in Next.js.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/01-getting-started/06-css.md` — Learn about the different ways to add CSS to your application, including CSS Modules, Global CSS, Tailwind CSS, and more.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/01-getting-started/11-deploying.md` — Learn how to deploy your Next.js application.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/01-getting-started/index.md` — Learn how to create full-stack web applications with Next.js with the Pages Router.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/02-guides/analytics.md` — Measure and track page performance using Next.js.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/02-guides/authentication.md` — Learn how to implement authentication in Next.js, covering best practices, securing routes, authorization techniques, and session management.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/02-guides/babel.md` — Extend the babel preset added by Next.js with your own configs.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/02-guides/ci-build-caching.md` — Learn how to configure CI to cache Next.js builds.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/02-guides/css-in-js.md` — Use CSS-in-JS libraries with Next.js.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/02-guides/custom-server.md` — Start a Next.js app programmatically using a custom server.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/02-guides/debugging.md` — Learn how to debug your Next.js application with VS Code or Chrome DevTools.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/02-guides/draft-mode.md` — Next.js has draft mode to toggle between static and dynamic pages. You can learn how it works with Pages Router.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/02-guides/environment-variables.md` — Learn to add and access environment variables in your Next.js application.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/02-guides/forms.md` — Learn how to handle form submissions and data mutations with Next.js.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/02-guides/incremental-static-regeneration.md` — Learn how to create or update static pages at runtime with Incremental Static Regeneration.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/02-guides/index.md` — Learn how to implement common UI patterns and use cases using Next.js.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/02-guides/instrumentation.md` — Learn how to use instrumentation to run code at server startup in your Next.js app.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/02-guides/internationalization.md` — Next.js has built-in support for internationalized routing and language detection. Learn more here.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/02-guides/lazy-loading.md` — Lazy load imported libraries and React Components to improve your application's overall loading performance.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/02-guides/mdx.md` — Learn how to configure MDX to write JSX in your markdown files.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/02-guides/migrating/app-router-migration.md` — Learn how to upgrade your existing Next.js application from the Pages Router to the App Router.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/02-guides/migrating/from-create-react-app.md` — Learn how to migrate your existing React application from Create React App to Next.js.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/02-guides/migrating/from-vite.md` — Learn how to migrate your existing React application from Vite to Next.js.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/02-guides/migrating/index.md` — Learn how to migrate from popular frameworks to Next.js.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/02-guides/multi-zones.md` — Learn how to build micro-frontends using Next.js Multi-Zones to deploy multiple Next.js apps under a single domain.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/02-guides/open-telemetry.md` — Learn how to instrument your Next.js app with OpenTelemetry.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/02-guides/package-bundling.md` — Learn how to optimize your application's server and client bundles.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/02-guides/post-css.md` — Extend the PostCSS config and plugins added by Next.js with your own.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/02-guides/preview-mode.md` — Next.js has the preview mode for statically generated pages. You can learn how it works here.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/02-guides/production-checklist.md` — Recommendations to ensure the best performance and user experience before taking your Next.js application to production.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/02-guides/redirecting.md` — Learn the different ways to handle redirects in Next.js.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/02-guides/sass.md` — Learn how to use Sass in your Next.js application.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/02-guides/scripts.md` — Optimize 3rd party scripts with the built-in Script component.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/02-guides/static-exports.md` — Next.js enables starting as a static site or Single-Page Application (SPA), then later optionally upgrading to use features that require a server.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/02-guides/tailwind-v3-css.md` — Style your Next.js Application using Tailwind CSS.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/02-guides/testing/jest.md` — Learn how to set up Next.js with Jest for Unit Testing.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/02-guides/testing/playwright.md` — Learn how to set up Next.js with Playwright for End-to-End (E2E) and Integration testing.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/02-guides/testing/vitest.md` — Learn how to set up Next.js with Vitest and React Testing Library - two popular unit testing libraries.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/02-guides/third-party-libraries.md` — Optimize the performance of third-party libraries in your application with the @next/third-parties package.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/02-guides/upgrading/codemods.md` — Use codemods to upgrade your Next.js codebase when new features are released.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/02-guides/upgrading/index.md` — Learn how to upgrade to the latest versions of Next.js.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/02-guides/upgrading/version-10.md` — Upgrade your Next.js Application from Version 9 to Version 10.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/02-guides/upgrading/version-11.md` — Upgrade your Next.js Application from Version 10 to Version 11.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/02-guides/upgrading/version-12.md` — Upgrade your Next.js Application from Version 11 to Version 12.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/02-guides/upgrading/version-13.md` — Upgrade your Next.js Application from Version 12 to 13.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/02-guides/upgrading/version-14.md` — Upgrade your Next.js Application from Version 13 to 14.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/02-guides/upgrading/version-9.md` — Upgrade your Next.js Application from Version 8 to Version 9.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/03-building-your-application/01-routing/01-pages-and-layouts.md` — Create your first page and shared layout with the Pages Router.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/03-building-your-application/01-routing/02-dynamic-routes.md` — Dynamic Routes are pages that allow you to add custom params to your URLs. Start creating Dynamic Routes and learn more here.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/03-building-your-application/01-routing/03-linking-and-navigating.md` — Learn how navigation works in Next.js, and how to use the Link Component and useRouter hook.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/03-building-your-application/01-routing/05-custom-app.md` — Control page initialization and add a layout that persists for all pages by overriding the default App component used by Next.js.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/03-building-your-application/01-routing/06-custom-document.md` — Extend the default document markup added by Next.js.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/03-building-your-application/01-routing/07-api-routes.md` — Next.js supports API Routes, which allow you to build your API without leaving your Next.js app. Learn how it works here.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/03-building-your-application/01-routing/08-custom-error.md` — Override and extend the built-in Error page to handle custom errors.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/03-building-your-application/01-routing/index.md` — Learn the fundamentals of routing for front-end applications with the Pages Router.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/03-building-your-application/02-rendering/01-server-side-rendering.md` — Use Server-side Rendering to render pages on each request.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/03-building-your-application/02-rendering/02-static-site-generation.md` — Use Static Site Generation (SSG) to prerender pages at build time.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/03-building-your-application/02-rendering/04-automatic-static-optimization.md` — Next.js automatically optimizes your app to be static HTML whenever possible. Learn how it works here.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/03-building-your-application/02-rendering/05-client-side-rendering.md` — Learn how to implement client-side rendering in the Pages Router.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/03-building-your-application/02-rendering/index.md` — Learn the fundamentals of rendering in React and Next.js.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/03-building-your-application/03-data-fetching/01-get-static-props.md` — Fetch data and generate static pages with getStaticProps . Learn more about this API for data fetching in Next.js.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/03-building-your-application/03-data-fetching/02-get-static-paths.md` — Fetch data and generate static pages with getStaticPaths . Learn more about this API for data fetching in Next.js.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/03-building-your-application/03-data-fetching/03-forms-and-mutations.md` — Learn how to handle form submissions and data mutations with Next.js.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/03-building-your-application/03-data-fetching/03-get-server-side-props.md` — Fetch data on each request with getServerSideProps .
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/03-building-your-application/03-data-fetching/05-client-side.md` — Learn about client-side data fetching, and how to use SWR, a data fetching React Hook library that handles caching, revalidation, focus tracking, refetching on interval and more.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/03-building-your-application/03-data-fetching/index.md` — Next.js allows you to fetch data in multiple ways, with prerendering, server-side rendering or static-site generation, and incremental static regeneration. Learn how to manage your application data in Next.js.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/03-building-your-application/06-configuring/12-error-handling.md` — Handle errors in your Next.js app.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/03-building-your-application/06-configuring/index.md` — Learn how to configure your Next.js application.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/03-building-your-application/index.md` — Learn how to use Next.js features to build your application.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/01-components/font.md` — API Reference for the Font Module.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/01-components/form.md` — Learn how to use the <Form component to handle form submissions and search params updates with client-side navigation.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/01-components/head.md` — Add custom elements to the head of your page with the built-in Head component.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/01-components/index.md` — API Reference for Next.js built-in components in the Pages Router.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/01-components/link.md` — API reference for the <Link component.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/01-components/script.md` — Optimize third-party scripts in your Next.js application using the built-in next/script Component.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/02-file-conventions/index.md` — API Reference for Next.js file-system conventions.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/02-file-conventions/instrumentation.md` — API reference for the instrumentation.js file.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/02-file-conventions/proxy.md` — Learn how to use Proxy to run code before a request is completed.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/02-file-conventions/src-folder.md` — Save pages under the src folder as an alternative to the root pages directory.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/03-functions/get-initial-props.md` — Fetch dynamic data on the server for your React component with getInitialProps.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/03-functions/get-server-side-props.md` — API reference for getServerSideProps . Learn how to fetch data on each request with Next.js.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/03-functions/get-static-paths.md` — API reference for getStaticPaths . Learn how to fetch data and generate static pages with getStaticPaths .
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/03-functions/get-static-props.md` — API reference for getStaticProps . Learn how to use getStaticProps to generate static pages with Next.js.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/03-functions/index.md` — API Reference for Functions and Hooks in Pages Router.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/03-functions/next-request.md` — API Reference for NextRequest.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/03-functions/next-response.md` — API Reference for NextResponse.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/03-functions/use-params.md` — API Reference for the useParams hook in the Pages Router.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/03-functions/use-report-web-vitals.md` — useReportWebVitals.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/03-functions/use-router.md` — Learn more about the API of the Next.js Router, and access the router instance in your page with the useRouter hook.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/03-functions/use-search-params.md` — API Reference for the useSearchParams hook in the Pages Router.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/03-functions/userAgent.md` — The userAgent helper extends the Web Request API with additional properties and methods to interact with the user agent object from the request.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/04-config/01-next-config-js/adapterPath.md` — Configure a custom adapter for Next.js to hook into the build process.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/04-config/01-next-config-js/allowedDevOrigins.md` — Use allowedDevOrigins to configure additional origins that can request the dev server.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/04-config/01-next-config-js/assetPrefix.md` — Learn how to use the assetPrefix config option to configure your CDN.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/04-config/01-next-config-js/basePath.md` — Use basePath to deploy a Next.js application under a sub-path of a domain.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/04-config/01-next-config-js/bundlePagesRouterDependencies.md` — Enable automatic dependency bundling for Pages Router.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/04-config/01-next-config-js/crossOrigin.md` — Use the crossOrigin option to add a crossOrigin tag on the script tags generated by next/script and next/head .
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/04-config/01-next-config-js/deploymentId.md` — Configure a deployment identifier used for version skew protection and cache busting.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/04-config/01-next-config-js/devIndicators.md` — Optimized pages include an indicator to let you know if it's being statically optimized. You can opt-out of it here.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/04-config/01-next-config-js/distDir.md` — Set a custom build directory to use instead of the default .next directory.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/04-config/01-next-config-js/env.md` — Learn to add and access environment variables in your Next.js application at build time.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/04-config/01-next-config-js/exportPathMap.md` — Customize the pages that will be exported as HTML files when using next export .
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/04-config/01-next-config-js/generateBuildId.md` — Configure the build id, which is used to identify the current build in which your application is being served.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/04-config/01-next-config-js/generateEtags.md` — Next.js will generate etags for every page by default. Learn more about how to disable etag generation here.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/04-config/01-next-config-js/headers.md` — Add custom HTTP headers to your Next.js app.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/04-config/01-next-config-js/httpAgentOptions.md` — Next.js will automatically use HTTP Keep-Alive by default. Learn more about how to disable HTTP Keep-Alive here.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/04-config/01-next-config-js/index.md` — Learn about the options available in next.config.js for the Pages Router.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/04-config/01-next-config-js/logging.md` — Configure logging behavior in the terminal when running Next.js in development mode.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/04-config/01-next-config-js/onDemandEntries.md` — Configure how Next.js will dispose and keep in memory pages created in development.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/04-config/01-next-config-js/optimizePackageImports.md` — API Reference for optimizePackageImports Next.js Config Option.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/04-config/01-next-config-js/output.md` — Next.js automatically traces which files are needed by each page to allow for easy deployment of your application. Learn how it works here.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/04-config/01-next-config-js/pageExtensions.md` — Extend the default page extensions used by Next.js when resolving pages in the Pages Router.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/04-config/01-next-config-js/poweredByHeader.md` — Next.js will add the x-powered-by header by default. Learn to opt-out of it here.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/04-config/01-next-config-js/productionBrowserSourceMaps.md` — Enables browser source map generation during the production build.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/04-config/01-next-config-js/proxyClientMaxBodySize.md` — Configure the maximum request body size when using proxy.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/04-config/01-next-config-js/reactStrictMode.md` — The complete Next.js runtime is now Strict Mode-compliant, learn how to opt-in.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/04-config/01-next-config-js/redirects.md` — Add redirects to your Next.js app.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/04-config/01-next-config-js/rewrites.md` — Add rewrites to your Next.js app.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/04-config/01-next-config-js/serverExternalPackages.md` — Opt-out specific dependencies from the dependency bundling enabled by bundlePagesRouterDependencies .
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/04-config/01-next-config-js/trailingSlash.md` — Configure Next.js pages to resolve with or without a trailing slash.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/04-config/01-next-config-js/transpilePackages.md` — Automatically transpile and bundle dependencies from local packages (like monorepos) or from external dependencies ( node modules ).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/04-config/01-next-config-js/turbopack.md` — Configure Next.js with Turbopack-specific options.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/04-config/01-next-config-js/typescript.md` — Next.js reports TypeScript errors by default. Learn to opt-out of this behavior here.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/04-config/01-next-config-js/urlImports.md` — Configure Next.js to allow importing modules from external URLs.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/04-config/01-next-config-js/useLightningcss.md` — Enable experimental support for Lightning CSS.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/04-config/01-next-config-js/webpack.md` — Learn how to customize the webpack config used by Next.js.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/04-config/01-next-config-js/webVitalsAttribution.md` — Learn how to use the webVitalsAttribution option to pinpoint the source of Web Vitals issues.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/04-config/01-typescript.md` — Next.js provides a TypeScript-first development experience for building your React application.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/04-config/02-eslint.md` — Next.js reports ESLint errors and warnings during builds by default. Learn how to opt-out of this behavior here.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/04-config/index.md` — Learn how to configure your Next.js application.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/05-cli/create-next-app.md` — Create Next.js apps using one command with the create-next-app CLI.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/05-cli/index.md` — API Reference for the Next.js Command Line Interface (CLI) tools.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/05-cli/next.md` — Learn how to run and build your application with the Next.js CLI.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/06-adapters/01-configuration.md` — Configure adapterPath or NEXT ADAPTER PATH to use a custom deployment adapter.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/06-adapters/02-creating-an-adapter.md` — Create an adapter module that implements the NextAdapter interface.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/06-adapters/03-api-reference.md` — Reference for modifyConfig and onBuildComplete in the NextAdapter interface.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/06-adapters/04-testing-adapters.md` — Validate adapters with the Next.js compatibility test harness and custom lifecycle scripts.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/06-adapters/05-routing-with-next-routing.md` — Use @next/routing to apply Next.js route matching behavior in adapters.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/06-adapters/06-implementing-ppr-in-an-adapter.md` — Implement Partial Prerendering support in an adapter using fallback output and cache hooks.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/06-adapters/07-runtime-integration.md` — Understand how build-time adapters and runtime cache interfaces work together.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/06-adapters/08-invoking-entrypoints.md` — Invoke Node.js and Edge build entrypoints with adapter runtime context.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/06-adapters/09-output-types.md` — Reference for all build output types exposed to adapters.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/06-adapters/10-routing-information.md` — Reference for routing phases and route fields exposed in onBuildComplete .
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/06-adapters/11-use-cases.md` — Common patterns and examples for deployment adapter implementations.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/06-adapters/index.md` — Build deployment adapters for Next.js platforms and infrastructure.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/06-edge.md` — API Reference for the Edge Runtime.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/08-turbopack.md` — Turbopack is an incremental bundler optimized for JavaScript and TypeScript, written in Rust, and built into Next.js.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/04-api-reference/index.md` — Next.js API Reference for the Pages Router.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/02-pages/index.md` — Before Next.js 13, the Pages Router was the main way to create routes in Next.js with an intuitive file-system router.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/03-architecture/accessibility.md` — The built-in accessibility features of Next.js.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/03-architecture/fast-refresh.md` — Fast Refresh is a hot module reloading experience that gives you instantaneous feedback on edits made to your React components.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/03-architecture/index.md` — How Next.js Works.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/03-architecture/nextjs-compiler.md` — Next.js Compiler, written in Rust, which transforms and minifies your Next.js application.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/03-architecture/supported-browsers.md` — Browser support and which JavaScript features are supported by Next.js.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/04-community/01-contribution-guide.md` — Learn how to contribute to Next.js Documentation.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/04-community/02-rspack.md` — Use the next-rspack plugin to bundle your Next.js with Rspack.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/04-community/index.md` — Get involved in the Next.js community.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/dist/docs/index.md` — Welcome to the Next.js Documentation.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/license.md` — Reference for license.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/node_modules/postcss/README.md` — Guidance and reference for PostCSS.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/next/README.md` — Guidance and reference for Getting Started.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/ngraph.events/README.md` — Reference for README.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/ngraph.forcelayout/Changelog.md` — Guidance and reference for v3.0.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/ngraph.forcelayout/demo/README.md` — Guidance and reference for ngraph.forcelayout demo.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/ngraph.forcelayout/perf/experimental/README.md` — Reference for README.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/ngraph.forcelayout/README.md` — Guidance and reference for ngraph.forcelayout.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/ngraph.graph/CHANGELOG.md` — Guidance and reference for v20.0.0.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/ngraph.graph/README.md` — Guidance and reference for Creating a graph.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/ngraph.merge/README.md` — Guidance and reference for ngraph.merge.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/ngraph.random/README.md` — Guidance and reference for distributions.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/object-assign/readme.md` — Guidance and reference for object-assign ! Build Status (https://travis-ci.org/sindresorhus/object-assign.svg?branch=master) (https://travis-ci.org/sindresorhus/object-assign).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/object-inspect/CHANGELOG.md` — Guidance and reference for Changelog.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/on-finished/HISTORY.md` — Reference for HISTORY.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/on-finished/README.md` — Guidance and reference for on-finished.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/once/README.md` — Guidance and reference for once.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/parse-entities/node_modules/@types/unist/README.md` — Guidance and reference for Installation.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/parse-entities/readme.md` — Guidance and reference for parse-entities.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/parseurl/HISTORY.md` — Reference for HISTORY.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/parseurl/README.md` — Guidance and reference for parseurl.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/path-key/readme.md` — Guidance and reference for path-key ! Build Status (https://travis-ci.org/sindresorhus/path-key.svg?branch=master) (https://travis-ci.org/sindresorhus/path-key).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/path-to-regexp/Readme.md` — Guidance and reference for Path-to-RegExp.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/picocolors/README.md` — Guidance and reference for picocolors.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/pkce-challenge/CHANGELOG.md` — Guidance and reference for Changelog.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/pkce-challenge/README.md` — Guidance and reference for pkce-challenge.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/polished/LICENSE.md` — Reference for LICENSE.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/polished/README.md` — Guidance and reference for or if you're using yarn.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/postcss/README.md` — Guidance and reference for PostCSS.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/preact/README.md` — Guidance and reference for Getting Started.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/prop-types/README.md` — Guidance and reference for prop-types ! Build Status (https://travis-ci.com/facebook/prop-types.svg?branch=main) (https://travis-ci.org/facebook/prop-types).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/property-information/readme.md` — Guidance and reference for property-information.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/proxy-addr/HISTORY.md` — Reference for HISTORY.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/proxy-addr/README.md` — Guidance and reference for proxy-addr.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/qs/.github/SECURITY.md` — Guidance and reference for Security.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/qs/.github/THREAT_MODEL.md` — Guidance and reference for Threat Model for qs (querystring parsing library).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/qs/CHANGELOG.md` — Guidance and reference for 6.15.2.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/qs/LICENSE.md` — Reference for LICENSE.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/qs/README.md` — Guidance and reference for qs <sup ! Version Badge npm-version-svg package-url </sup.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/range-parser/HISTORY.md` — Reference for HISTORY.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/range-parser/README.md` — Guidance and reference for range-parser.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/raw-body/README.md` — Guidance and reference for raw-body.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/react-dom/README.md` — Guidance and reference for react-dom.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/react-is/README.md` — Guidance and reference for react-is.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/react-kapsule/README.md` — Guidance and reference for Quick start.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/react-markdown/readme.md` — Guidance and reference for react-markdown.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/react-remove-scroll-bar/README.md` — Guidance and reference for Usage.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/react-remove-scroll/README.md` — Guidance and reference for Usage.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/react-style-singleton/README.md` — Guidance and reference for API.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/react/README.md` — Guidance and reference for react.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/rehype-highlight/readme.md` — Guidance and reference for rehype-highlight.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/remark-gfm/readme.md` — Guidance and reference for remark-gfm.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/remark-parse/readme.md` — Guidance and reference for remark-parse.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/remark-rehype/readme.md` — Guidance and reference for remark-rehype.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/remark-stringify/readme.md` — Guidance and reference for remark-stringify.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/require-from-string/readme.md` — Guidance and reference for require-from-string ! Build Status (https://travis-ci.org/floatdrop/require-from-string.svg?branch=master) (https://travis-ci.org/floatdrop/require-from-string).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/router/HISTORY.md` — Reference for HISTORY.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/router/README.md` — Guidance and reference for router.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/safer-buffer/Porting-Buffer.md` — Guidance and reference for Porting to the Buffer.from/Buffer.alloc API.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/scheduler/README.md` — Guidance and reference for scheduler.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/semver/README.md` — Guidance and reference for Install.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/send/README.md` — Guidance and reference for send.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/serve-static/README.md` — Guidance and reference for serve-static.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/setprototypeof/README.md` — Guidance and reference for Polyfill for Object.setPrototypeOf.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/sharp/README.md` — Guidance and reference for sharp.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/shebang-command/readme.md` — Guidance and reference for shebang-command ! Build Status (https://travis-ci.org/kevva/shebang-command.svg?branch=master) (https://travis-ci.org/kevva/shebang-command).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/shebang-regex/readme.md` — Guidance and reference for shebang-regex ! Build Status (https://travis-ci.org/sindresorhus/shebang-regex.svg?branch=master) (https://travis-ci.org/sindresorhus/shebang-regex).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/side-channel-list/CHANGELOG.md` — Guidance and reference for Changelog.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/side-channel-list/README.md` — Guidance and reference for side-channel-list <sup ! Version Badge npm-version-svg package-url </sup.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/side-channel-map/CHANGELOG.md` — Guidance and reference for Changelog.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/side-channel-map/README.md` — Guidance and reference for side-channel-map <sup ! Version Badge npm-version-svg package-url </sup.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/side-channel-weakmap/CHANGELOG.md` — Guidance and reference for Changelog.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/side-channel-weakmap/README.md` — Guidance and reference for side-channel-weakmap <sup ! Version Badge npm-version-svg package-url </sup.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/side-channel/CHANGELOG.md` — Guidance and reference for Changelog.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/side-channel/README.md` — Guidance and reference for side-channel <sup ! Version Badge npm-version-svg package-url </sup.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/source-map-js/README.md` — Guidance and reference for Source Map JS.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/space-separated-tokens/readme.md` — Guidance and reference for space-separated-tokens.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/statuses/HISTORY.md` — Reference for HISTORY.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/statuses/README.md` — Guidance and reference for statuses.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/stringify-entities/readme.md` — Guidance and reference for stringify-entities.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/style-to-js/README.md` — Guidance and reference for style-to-js.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/style-to-object/README.md` — Guidance and reference for style-to-object.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/styled-jsx/license.md` — Reference for license.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/styled-jsx/readme.md` — Guidance and reference for styled-jsx.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/tailwindcss/README.md` — Guidance and reference for Documentation.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/tapable/README.md` — Guidance and reference for Tapable.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/three-forcegraph/README.md` — Guidance and reference for ❤️ Support This Project.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/three-render-objects/README.md` — Guidance and reference for Quick start.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/three-spritetext/README.md` — Guidance and reference for Quick start.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/three/examples/fonts/README.md` — Guidance and reference for MgOpen typefaces.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/three/examples/fonts/ttf/README.md` — Guidance and reference for Kenney Fonts.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/three/README.md` — Guidance and reference for three.js.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/three/src/nodes/materialx/DISCLAIMER.md` — Guidance and reference for MaterialX.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/tinycolor2/README.md` — Guidance and reference for TinyColor.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/toidentifier/HISTORY.md` — Reference for HISTORY.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/toidentifier/README.md` — Guidance and reference for toidentifier.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/trim-lines/readme.md` — Guidance and reference for trim-lines.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/trough/readme.md` — Guidance and reference for trough.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/tslib/README.md` — Guidance and reference for tslib.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/tslib/SECURITY.md` — Guidance and reference for Security.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/type-is/HISTORY.md` — Reference for HISTORY.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/type-is/README.md` — Guidance and reference for type-is.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/typescript/README.md` — Guidance and reference for TypeScript.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/typescript/SECURITY.md` — Guidance and reference for Security.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/undici-types/README.md` — Guidance and reference for undici-types.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/unified/readme.md` — Guidance and reference for ! unified logo site.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/unist-util-find-after/readme.md` — Guidance and reference for unist-util-find-after.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/unist-util-is/readme.md` — Guidance and reference for unist-util-is.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/unist-util-position/readme.md` — Guidance and reference for unist-util-position.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/unist-util-stringify-position/readme.md` — Guidance and reference for unist-util-stringify-position.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/unist-util-visit-parents/readme.md` — Guidance and reference for unist-util-visit-parents.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/unist-util-visit/readme.md` — Guidance and reference for unist-util-visit.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/unpipe/HISTORY.md` — Reference for HISTORY.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/unpipe/README.md` — Guidance and reference for unpipe.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/use-callback-ref/README.md` — Guidance and reference for API.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/use-sidecar/README.md` — Guidance and reference for Terminology.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/vary/HISTORY.md` — Reference for HISTORY.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/vary/README.md` — Guidance and reference for vary.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/vfile-message/readme.md` — Guidance and reference for vfile-message.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/which/CHANGELOG.md` — Guidance and reference for Changes.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/which/README.md` — Guidance and reference for which.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/wrappy/README.md` — Guidance and reference for wrappy.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/zod/README.md` — Guidance and reference for What is Zod?.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/node_modules/zwitch/readme.md` — Guidance and reference for zwitch.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/NOTEBOOK-SETUP.md` — Guidance and reference for 📔 Add NotebookLM to Your Agentic OS.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/source/README.md` — Guidance and reference for 🦞 Agentic OS.
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/UPDATE-WITH-AI.md` — Guidance and reference for UPDATE-WITH-AI — Safe Agent OS Updater (for Codex / Claude / Cursor, any OS).
+- `03_Knowledge_Mat/00_Atlas/templates/agent-os-pack-2026-06-29/UPDATE.md` — Guidance and reference for Updating Your Agent OS — the easy way.
+- `03_Knowledge_Mat/00_Atlas/templates/Claude_Agent_Teams_Guide_Skill/BUILD-PROMPT.md` — Guidance and reference for Build an Agent Surveillance Dashboard for Claude Code.
+- `03_Knowledge_Mat/00_Atlas/templates/Claude_Code_Agentic_Architect/README (1).md` — Guidance and reference for Agentic Design Patterns Documentation.
+- `03_Knowledge_Mat/00_Atlas/templates/Claude_Code_just_got_10X_Better_Codex_Gemini/three-brain-SKILL.md` — Guidance and reference for Three-Brain Auto-Router.
+- `03_Knowledge_Mat/00_Atlas/templates/Claude_Code_MCP_Starter_Kit/lazycalculator.md` — Guidance and reference for Lazy Calculator MCP Server - One-Shot Build Guide.
+- `03_Knowledge_Mat/00_Atlas/templates/Claude_Code_MCP_Starter_Kit/mcp-complete-implementation-guide.md` — Guidance and reference for The Complete MCP Implementation Guide: Building Production-Ready Model Context Protocol Servers.
+- `03_Knowledge_Mat/00_Atlas/templates/Claude_Code_MCP_Starter_Kit/mcps-101.md` — Guidance and reference for Model Context Protocol.
+- `03_Knowledge_Mat/00_Atlas/templates/Claude_Code_Setup_Assets/lazycalculator.md` — Guidance and reference for Lazy Calculator MCP Server - One-Shot Build Guide.
+- `03_Knowledge_Mat/00_Atlas/templates/Claude_Code_Setup_Assets/mcp-complete-implementation-guide.md` — Guidance and reference for The Complete MCP Implementation Guide: Building Production-Ready Model Context Protocol Servers.
+- `03_Knowledge_Mat/00_Atlas/templates/Claude_Code_Setup_Assets/mcps-101.md` — Guidance and reference for Model Context Protocol.
+- `03_Knowledge_Mat/00_Atlas/templates/Claude_Code_Setup_Assets_142257/lazycalculator.md` — Guidance and reference for Lazy Calculator MCP Server - One-Shot Build Guide.
+- `03_Knowledge_Mat/00_Atlas/templates/Claude_Code_Setup_Assets_142257/mcp-complete-implementation-guide.md` — Guidance and reference for The Complete MCP Implementation Guide: Building Production-Ready Model Context Protocol Servers.
+- `03_Knowledge_Mat/00_Atlas/templates/Claude_Code_Setup_Assets_142257/mcps-101.md` — Guidance and reference for Model Context Protocol.
+- `03_Knowledge_Mat/00_Atlas/templates/Claude_Code_Terminals_Playbook/plan_template.md` — Guidance and reference for Project Plan Template.
+- `03_Knowledge_Mat/00_Atlas/templates/Claude_Code_Terminals_Playbook/session_prompts.md` — Guidance and reference for Session Prompts for Parallel Terminals.
+- `03_Knowledge_Mat/00_Atlas/templates/ClaudeClaw_-_Mega_Prompt_Visual_Guide/REBUILD_PROMPT.md` — Guidance and reference for ClaudeClaw — Rebuild Mega Prompt.
+- `03_Knowledge_Mat/00_Atlas/templates/ClaudeClaw_Mission_Control_Kit/5_STEP_JOURNEY.md` — Guidance and reference for From Chaos to Hive Mind: The 5-Step Journey.
+- `03_Knowledge_Mat/00_Atlas/templates/ClaudeClaw_Mission_Control_Kit/CLAUDECLAW_ASSESSMENT_PROMPT_V3.md` — Guidance and reference for Hive Mind v3 — Assessment Prompt.
+- `03_Knowledge_Mat/00_Atlas/templates/ClaudeClaw_Mission_Control_Kit/CLAUDECLAW_V3_BLUEPRINT.md` — Guidance and reference for Hive Mind Blueprint.
+- `03_Knowledge_Mat/00_Atlas/templates/ClaudeClaw_Mission_Control_Kit/DISCLAIMER.md` — Guidance and reference for DISCLAIMER.
+- `03_Knowledge_Mat/00_Atlas/templates/ClaudeClaw_Mission_Control_Kit/POWER_PACKS_V3.md` — Guidance and reference for Power Packs v3.
+- `03_Knowledge_Mat/00_Atlas/templates/ClaudeClaw_Mission_Control_Kit/README (1).md` — Guidance and reference for ClaudeClaw Mission Control Kit 🧠.
+- `03_Knowledge_Mat/00_Atlas/templates/ClaudeClaw_Mission_Control_Kit/REBUILD_PROMPT_V3.md` — Guidance and reference for ClaudeClaw v3 — Rebuild Mega Prompt.
+- `03_Knowledge_Mat/00_Atlas/templates/ClaudeClaw_Mission_Control_Kit/terminal_prompts.md` — Guidance and reference for Terminal Prompts.
+- `03_Knowledge_Mat/00_Atlas/templates/ClaudeClaw_OS_Blueprint_Kit/CLAUDECLAW_ASSESSMENT_PROMPT.md` — Guidance and reference for ClaudeClaw Assessment Prompt.
+- `03_Knowledge_Mat/00_Atlas/templates/ClaudeClaw_OS_Blueprint_Kit/POWER_PACKS.md` — Guidance and reference for ClaudeClaw OS - Power Packs.
+- `03_Knowledge_Mat/00_Atlas/templates/ClaudeClaw_OS_Blueprint_Kit/POWER_PACKS_GUIDE.md` — Guidance and reference for ClaudeClaw OS - Power Packs Guide.
+- `03_Knowledge_Mat/00_Atlas/templates/ClaudeClaw_OS_Blueprint_Kit/REBUILD_PROMPT_V2.md` — Guidance and reference for ClaudeClaw OS - Rebuild Mega Prompt.
+- `03_Knowledge_Mat/00_Atlas/templates/Comprehensive_DeepSeek_Cheat_Sheet_Prompting_Guide/Custom GPT Prompt.md` — Reference for Custom GPT Prompt.
+- `03_Knowledge_Mat/00_Atlas/templates/Comprehensive_DeepSeek_Cheat_Sheet_Prompting_Guide/DeepSeek R1 Promp Cheat Sheet 🐋.md` — Guidance and reference for Best Practices.
+- `03_Knowledge_Mat/00_Atlas/templates/Enterprise_OS_Blueprint_Kit/examples/northgate-law/ARCHITECTURE_SPEC.md` — Guidance and reference for ARCHITECTURE SPEC (worked example: Northgate Law).
+- `03_Knowledge_Mat/00_Atlas/templates/Enterprise_OS_Blueprint_Kit/examples/northgate-law/SYSTEM_SPEC.md` — Guidance and reference for SYSTEM SPEC (worked example: Northgate Law).
+- `03_Knowledge_Mat/00_Atlas/templates/Enterprise_OS_Blueprint_Kit/examples/riverside-clinic/ARCHITECTURE_SPEC.md` — Guidance and reference for ARCHITECTURE SPEC (worked example: Riverside Health).
+- `03_Knowledge_Mat/00_Atlas/templates/Enterprise_OS_Blueprint_Kit/examples/riverside-clinic/SYSTEM_SPEC.md` — Guidance and reference for SYSTEM SPEC (worked example: Riverside Health).
+- `03_Knowledge_Mat/00_Atlas/templates/Enterprise_OS_Blueprint_Kit/examples/solo-consultant/ARCHITECTURE_SPEC.md` — Guidance and reference for ARCHITECTURE SPEC (worked example: Maya Chen Advisory).
+- `03_Knowledge_Mat/00_Atlas/templates/Enterprise_OS_Blueprint_Kit/examples/solo-consultant/SYSTEM_SPEC.md` — Guidance and reference for SYSTEM SPEC (worked example: Maya Chen Advisory).
+- `03_Knowledge_Mat/00_Atlas/templates/Enterprise_OS_Blueprint_Kit/specs/AGENT_SPEC.md` — Guidance and reference for AGENT SPEC.
+- `03_Knowledge_Mat/00_Atlas/templates/Enterprise_OS_Blueprint_Kit/specs/ARCHITECTURE_SPEC.md` — Guidance and reference for ARCHITECTURE SPEC.
+- `03_Knowledge_Mat/00_Atlas/templates/Enterprise_OS_Blueprint_Kit/specs/SETUP.md` — Guidance and reference for SETUP.
+- `03_Knowledge_Mat/00_Atlas/templates/Enterprise_OS_Blueprint_Kit/specs/SYSTEM_SPEC.md` — Guidance and reference for SYSTEM SPEC.
+- `03_Knowledge_Mat/00_Atlas/templates/Enterprise_OS_Blueprint_Kit_182719/examples/northgate-law/ARCHITECTURE_SPEC.md` — Guidance and reference for ARCHITECTURE SPEC (worked example: Northgate Law).
+- `03_Knowledge_Mat/00_Atlas/templates/Enterprise_OS_Blueprint_Kit_182719/examples/northgate-law/SYSTEM_SPEC.md` — Guidance and reference for SYSTEM SPEC (worked example: Northgate Law).
+- `03_Knowledge_Mat/00_Atlas/templates/Enterprise_OS_Blueprint_Kit_182719/examples/riverside-clinic/ARCHITECTURE_SPEC.md` — Guidance and reference for ARCHITECTURE SPEC (worked example: Riverside Health).
+- `03_Knowledge_Mat/00_Atlas/templates/Enterprise_OS_Blueprint_Kit_182719/examples/riverside-clinic/SYSTEM_SPEC.md` — Guidance and reference for SYSTEM SPEC (worked example: Riverside Health).
+- `03_Knowledge_Mat/00_Atlas/templates/Enterprise_OS_Blueprint_Kit_182719/examples/solo-consultant/ARCHITECTURE_SPEC.md` — Guidance and reference for ARCHITECTURE SPEC (worked example: Maya Chen Advisory).
+- `03_Knowledge_Mat/00_Atlas/templates/Enterprise_OS_Blueprint_Kit_182719/examples/solo-consultant/SYSTEM_SPEC.md` — Guidance and reference for SYSTEM SPEC (worked example: Maya Chen Advisory).
+- `03_Knowledge_Mat/00_Atlas/templates/Enterprise_OS_Blueprint_Kit_182719/specs/AGENT_SPEC.md` — Guidance and reference for AGENT SPEC.
+- `03_Knowledge_Mat/00_Atlas/templates/Enterprise_OS_Blueprint_Kit_182719/specs/ARCHITECTURE_SPEC.md` — Guidance and reference for ARCHITECTURE SPEC.
+- `03_Knowledge_Mat/00_Atlas/templates/Enterprise_OS_Blueprint_Kit_182719/specs/SETUP.md` — Guidance and reference for SETUP.
+- `03_Knowledge_Mat/00_Atlas/templates/Enterprise_OS_Blueprint_Kit_182719/specs/SYSTEM_SPEC.md` — Guidance and reference for SYSTEM SPEC.
+- `03_Knowledge_Mat/00_Atlas/templates/five-skills-pack/reddit-trends.md` — Find what your target audience is actually talking about on Reddit right now — no API keys required.
+- `03_Knowledge_Mat/00_Atlas/templates/five-skills-pack/skill-creator.md` — Guide for creating effective skills. Create or update skills that extend the agent capabilities.
+- `03_Knowledge_Mat/00_Atlas/templates/five-skills-pack_182720/reddit-trends.md` — Find what your target audience is actually talking about on Reddit right now — no API keys required.
+- `03_Knowledge_Mat/00_Atlas/templates/five-skills-pack_182720/skill-creator.md` — Guide for creating effective skills. Create or update skills that extend the agent capabilities.
+- `03_Knowledge_Mat/00_Atlas/templates/Gemini_File_Search_API_Kit/MEGA_PROMPT.md` — Guidance and reference for MEGA PROMPT: Complete Gemini RAG File Search Application.
+- `03_Knowledge_Mat/00_Atlas/templates/hermes-student-companion-all-prompts/hermes-student-companion-all-prompts.md` — Guidance and reference for Build a Hermes AI Student Companion & Mission Control Dashboard.
+- `03_Knowledge_Mat/00_Atlas/templates/lazycalculator/lazycalculator.md` — Guidance and reference for Lazy Calculator MCP Server - One-Shot Build Guide.
+- `03_Knowledge_Mat/00_Atlas/templates/mcp-complete-implementation-guide/mcp-complete-implementation-guide.md` — Guidance and reference for The Complete MCP Implementation Guide: Building Production-Ready Model Context Protocol Servers.
+- `03_Knowledge_Mat/00_Atlas/templates/MCP_Workflow_Power_Bundle/Level 1 - Claude Desktop + Remote Server Setup.md` — Reference for Level 1 Claude Desktop + Remote Server Setup.
+- `03_Knowledge_Mat/00_Atlas/templates/mcps-101/mcps-101.md` — Guidance and reference for Model Context Protocol.
+- `03_Knowledge_Mat/00_Atlas/templates/NotebookLMSkill_-_Community_1/NotebookLMSkill - Community (1).md` — Guidance and reference for NotebookLM Automation.
+- `03_Knowledge_Mat/00_Atlas/templates/OpenAI_Zero-to-Hero_Guides_Slides_43_Sample_Prompts/o1 Meta-Prompt.md` — Guidance and reference for o1 Meta-Prompt.
+- `03_Knowledge_Mat/00_Atlas/templates/pi-harness-pack/PI + OpenRouter Local Auth Setup.md` — Guidance and reference for PI + OpenRouter Local Auth Setup.
+- `03_Knowledge_Mat/00_Atlas/templates/pi-harness-pack/PI Harness Architecture for EMAI.md` — Guidance and reference for PI Harness Architecture for EMAI.
+- `03_Knowledge_Mat/00_Atlas/templates/pi-harness-pack/PI-Agent-Starter.md` — Guidance and reference for 0) Install Pi.
+- `03_Knowledge_Mat/00_Atlas/templates/pi-harness-pack_1/PI + OpenRouter Local Auth Setup.md` — Guidance and reference for PI + OpenRouter Local Auth Setup.
+- `03_Knowledge_Mat/00_Atlas/templates/pi-harness-pack_1/PI Harness Architecture for EMAI.md` — Guidance and reference for PI Harness Architecture for EMAI.
+- `03_Knowledge_Mat/00_Atlas/templates/pi-harness-pack_1/PI-Agent-Starter.md` — Guidance and reference for 0) Install Pi.
+- `03_Knowledge_Mat/00_Atlas/templates/PRD__Vision_Document__and_Implementation_Guides/01_VISION_DOCUMENT.md` — Guidance and reference for NotebookLM Reimagined: Vision Document.
+- `03_Knowledge_Mat/00_Atlas/templates/PRD__Vision_Document__and_Implementation_Guides/02_PROJECT_SPECIFICATION.md` — Guidance and reference for NotebookLM Reimagined: Complete Project Specification.
+- `03_Knowledge_Mat/00_Atlas/templates/PRD__Vision_Document__and_Implementation_Guides/03_IMPLEMENTATION_GUIDE.md` — Guidance and reference for NotebookLM Reimagined: Implementation Guide.
+- `03_Knowledge_Mat/00_Atlas/templates/promptify_v1/README.md` — Guidance and reference for Prompt-ify Chrome Extension (v1.0).
+- `03_Knowledge_Mat/00_Atlas/templates/Second_Brain_Starter_Kit_-_Obsidian_Claude_Code/vault-setup-SKILL.md` — Interactive Obsidian vault configurator. Asks the user to describe themselves in Complimentary text, then builds a personalized vault structure, CLAUDE.md, and slash commands directly in the current directory.
+- `03_Knowledge_Mat/00_Atlas/templates/The_Council_Skill_for_Claude_Code/README (1).md` — Guidance and reference for Council Skill — Setup Guide.
+- `03_Knowledge_Mat/00_Atlas/templates/The_Skill_Audit_Prompt/optimize_skill_prompt.md` — Reference for optimize skill prompt.
+- `03_Knowledge_Mat/00_Atlas/templates/vault-setup-SKILL/vault-setup-SKILL.md` — Interactive Obsidian vault configurator. Asks the user to describe themselves in Complimentary text, then builds a personalized vault structure, CLAUDE.md, and slash commands directly in the current directory.
+- `03_Knowledge_Mat/AGENT_READ_ME_FIRST.md` — Non-negotiable agent anchor — read this FIRST before any generation in the M7 workspace.
+- `03_Knowledge_Mat/Agentic OS/Apollo/2026-07-06.md` — Guidance and reference for Apollo — 2026-07-06.
+- `03_Knowledge_Mat/Agentic OS/Apollo/2026-07-07.md` — Guidance and reference for Apollo — 2026-07-07.
+- `03_Knowledge_Mat/Agentic OS/Apollo/2026-07-08.md` — Guidance and reference for Apollo — 2026-07-08.
+- `03_Knowledge_Mat/Agentic OS/Apollo/2026-07-11.md` — Guidance and reference for Apollo — 2026-07-11.
+- `03_Knowledge_Mat/Agentic OS/Apollo/2026-07-13.md` — Guidance and reference for Apollo — 2026-07-13.
+- `03_Knowledge_Mat/Agentic OS/Apollo/2026-07-14.md` — Guidance and reference for Apollo — 2026-07-14.
+- `03_Knowledge_Mat/Agentic OS/Apollo/2026-07-15.md` — Guidance and reference for Apollo — 2026-07-15.
+- `03_Knowledge_Mat/Agentic OS/Apollo/2026-07-17.md` — Guidance and reference for Apollo — 2026-07-17.
+- `03_Knowledge_Mat/Agentic OS/Apollo/2026-07-22.md` — Guidance and reference for Apollo — 2026-07-22.
+- `03_Knowledge_Mat/Agentic OS/GLM Code Log.md` — Guidance and reference for 2026-07-05.
+- `03_Knowledge_Mat/Agentic OS/Jarvis/2026-07-03.md` — Guidance and reference for Jarvis — 2026-07-03.
+- `03_Knowledge_Mat/Agentic OS/Jarvis/2026-07-04.md` — Guidance and reference for Jarvis — 2026-07-04.
+- `03_Knowledge_Mat/Agentic OS/Jarvis/2026-07-05.md` — Guidance and reference for Jarvis — 2026-07-05.
+- `03_Knowledge_Mat/Agentic OS/Jarvis/2026-07-06.md` — Guidance and reference for Jarvis — 2026-07-06.
+- `03_Knowledge_Mat/Agentic OS/Memories/2026-07-03.md` — Guidance and reference for 🧠 Agentic OS Memory — 2026-07-03.
+- `03_Knowledge_Mat/Agentic OS/Memories/2026-07-04.md` — Guidance and reference for 🧠 Agentic OS Memory — 2026-07-04.
+- `03_Knowledge_Mat/Agentic OS/Memories/2026-07-13.md` — Guidance and reference for 🧠 Agentic OS Memory — 2026-07-13.
+- `03_Knowledge_Mat/Agentic OS/Memories/2026-07-15.md` — Guidance and reference for 🧠 Agentic OS Memory — 2026-07-15.
+- `03_Knowledge_Mat/Agentic OS/Memories/2026-07-22.md` — Guidance and reference for 🧠 Agentic OS Memory — 2026-07-22.
+- `03_Knowledge_Mat/Agentic OS/Pipeline/items/build-a-landing-page-for-my-www-pineappleroofing.md` — Guidance and reference for Idea.
+- `03_Knowledge_Mat/Building AI Systems with Gemini & NotebookLM.md` — Guidance and reference for SOP: How To Use Gemini Gems + NotebookLM To Build Accurate AI Business Systems.
+- `03_Knowledge_Mat/Claude CLI, Playbooks, Dashboard Integration.md` — Guidance and reference for STANDARD OPERATING PROCEDURE (SOP).
+- `03_Knowledge_Mat/CLAUDE.md` — Guidance and reference for CLAUDE.md — Pineapple M7 Agentic Operating Manual.
+- `03_Knowledge_Mat/COMMAND_CENTER_OS.md` — THE single router for the whole Pineapple M7 system. One front door. Every tab, agent, and SELF tab reads its workflow from here. Copy-paste ready.
+- `03_Knowledge_Mat/Consolidating NotebookLM Sources to PDF.md` — Guidance and reference for Step 1: Generate the Master Extraction Prompt.
+- `03_Knowledge_Mat/Here is the complete SOP formatted and ready to be integrated into your Pineapple Playbook_.md` — Guidance and reference for 🍍 SOP: How to Build an “Agent Operating System” (AI Workflow Control Center).
+- `03_Knowledge_Mat/HERMES_PLAYBOOK.md` — Guidance and reference for 🍍 HERMES OPERATIONAL PLAYBOOK — M7 (agent grounding digest).
+- `03_Knowledge_Mat/HOW_TO_BUILD_THIS_SYSTEM_WITH_CLAUDE.md` — Beginner-friendly guide to build the whole Pineapple M7 Agentic OS system using Claude, in plain language.
+- `03_Knowledge_Mat/log.md` — Append-only changelog of agent workspace-remediation and compliance activity (Karpathy pattern).
+- `03_Knowledge_Mat/MASTER_REPORT.md` — Guidance and reference for Pineapple M7: Master State & Architecture Report.
+- `03_Knowledge_Mat/NOTEBOOKLM_INDEX.md` — Guidance and reference for 📓 NotebookLM Master Index.
+- `03_Knowledge_Mat/raw/2026-06-17_Master_Execution_Spec_SOURCE.md` — Guidance and reference for M7 AGENTIC OS — MASTER EXECUTION & SYNCHRONIZATION SPECIFICATION (SOURCE).
+- `03_Knowledge_Mat/raw/2026-06-17_Playbook_Claude_Project_Master_SOURCE.md` — Guidance and reference for M7 COMMAND CENTER: CLAUDE PROJECT PLAYBOOK.
+- `03_Knowledge_Mat/raw/2026-06-17_SOP_Gemini_NotebookLM_SOURCE.md` — Guidance and reference for SOP: How To Use Gemini Gems + NotebookLM To Build Accurate AI Business Systems.
+- `03_Knowledge_Mat/raw/2026-06-17_YouTube_Analysis_A_SOURCE.md` — Guidance and reference for Strategic Blueprint of the Business Pineapple Roofing Agentic OS: The Local-First Automation and Sovereign Execution Playbook.
+- `03_Knowledge_Mat/raw/2026-06-17_YouTube_Analysis_B_SOURCE.md` — Guidance and reference for Strategic Blueprint of the Business Pineapple Roofing Agentic OS: The Local-First Automation and Sovereign Execution Playbook.
+- `03_Knowledge_Mat/raw/2026-06-18_Master_SOP_SOURCE.md` — Guidance and reference for SOP: The Ultimate Agentic OS Master Blueprint (Claude Code \+ Hermes \+ Jarvis \+ Obsidian \+ Paperclip \+ WhatsApp \+ Google Gemini & NotebookLM Suite).
+- `03_Knowledge_Mat/raw/2026-06-18_SOP_Local_Memory_Bridge_SOURCE.md` — Guidance and reference for SOP: M7 Agentic OS \- Local Memory & Execution Bridge.
+- `03_Knowledge_Mat/raw/2026-06-18_SOP_Paperclip_Hermes_Empire_SOURCE.md` — Guidance and reference for Pineapple Contractors M7 Playbook: AI Automation Core.
+- `03_Knowledge_Mat/SHARED_MEMORY.md` — Guidance and reference for M7 SHARED MEMORY — UNIVERSAL AGENT FEED.

@@ -10,7 +10,7 @@ export const dynamic = "force-dynamic";
 
 // POST /api/hermes/tts  { text, voiceId?, provider? }  → { audio: dataURI } | { error }
 // Speaks arbitrary text. provider:
-//   "openai" (default for Jarvis) — gpt-4o-mini-tts, steered to a refined English butler.
+//   "openai" (default for Apollo) — gpt-4o-mini-tts, steered to a refined English butler.
 //   "elevenlabs"                  — Flash v2.5.
 //   "minimax"                     — speech-02-turbo (legacy fallback).
 // Keys read SERVER-SIDE — never from the client, never logged.
@@ -25,7 +25,7 @@ function openaiKey(): string | null {
 }
 
 const BUTLER_INSTRUCTIONS =
-  "Speak as JARVIS — a refined, composed English butler. Crisp Received Pronunciation (BBC English), " +
+  "Speak as APOLLO — a refined, composed English butler. Crisp Received Pronunciation (BBC English), " +
   "calm and unflappable, warm but precise, with a touch of dry wit. Measured, natural pace; never rushed, never robotic.";
 
 // OpenAI TTS — gpt-4o-mini-tts lets us steer accent + character via `instructions`.
@@ -37,7 +37,7 @@ async function openaiTts(text: string, voiceId: string): Promise<NextResponse> {
   const r = await fetch("https://api.openai.com/v1/audio/speech", {
     method: "POST",
     headers: { Authorization: `Bearer ${key}`, "Content-Type": "application/json" },
-    body: JSON.stringify({ model: "gpt-4o-mini-tts", voice, input: text.slice(0, 2000), instructions: BUTLER_INSTRUCTIONS, response_format: "mp3" }),
+    body: JSON.stringify({ model: "gpt-4o-mini-tts-2025-12-15", voice, input: text.slice(0, 2000), instructions: BUTLER_INSTRUCTIONS, response_format: "mp3" }),
   });
   if (!r.ok) {
     const detail = await r.text().catch(() => "");

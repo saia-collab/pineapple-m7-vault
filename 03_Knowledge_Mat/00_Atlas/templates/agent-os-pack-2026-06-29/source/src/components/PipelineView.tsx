@@ -20,7 +20,7 @@ const COLS: { key: Stage; n: string; label: string; blurb: string; icon: React.R
   { key: "inbox",    n: "01", label: "Capture",        blurb: "Raw input — no structure",        icon: <Inbox size={14} />,       accent: "#22d3ee" },
   { key: "review",   n: "03", label: "Human Gate",     blurb: "The one checkpoint",              icon: <ShieldCheck size={14} />, accent: "#fbbf24" },
   { key: "building", n: "04", label: "Execute",        blurb: "PM + subagents build it",         icon: <Cpu size={14} />,         accent: "#00BFFF" },
-  { key: "shipped",  n: "05", label: "Shipped & Filed", blurb: "Done",                            icon: <CheckCircle2 size={14} />, accent: "#00BFFF" },
+  { key: "shipped",  n: "05", label: "Shipped & Filed", blurb: "Done",                            icon: <CheckCircle2 size={14} />, accent: "#FBC02D" },
 ];
 
 // Obsidian-style knowledge-graph backdrop — drifting nodes, proximity links, and
@@ -352,7 +352,7 @@ function Card({ it, busy, onOpen, onShape, onDecide, onBuild, onStop, onPin, onD
           <button onClick={(e) => { e.stopPropagation(); onBuild(); }} className="mt-2.5 w-full inline-flex items-center justify-center gap-1.5 px-2 py-1.5 rounded-lg text-[11.5px] font-semibold" style={{ background: "rgba(0,191,255,0.14)", color: "#00BFFF", border: "1px solid rgba(0,191,255,0.4)" }}><Cpu size={12} /> Build the deliverable</button>
         )}
         {it.stage === "shipped" && it.buildFile && (
-          <button onClick={(e) => { e.stopPropagation(); onOpen(); }} className="mt-2.5 w-full inline-flex items-center justify-center gap-1.5 px-2 py-1.5 rounded-lg text-[11.5px] font-semibold" style={{ background: "rgba(251,192,45,0.14)", color: "#00BFFF", border: "1px solid rgba(251,192,45,0.4)" }}><Play size={11} /> View what was built</button>
+          <button onClick={(e) => { e.stopPropagation(); onOpen(); }} className="mt-2.5 w-full inline-flex items-center justify-center gap-1.5 px-2 py-1.5 rounded-lg text-[11.5px] font-semibold" style={{ background: "rgba(251,192,45,0.14)", color: "#FBC02D", border: "1px solid rgba(251,192,45,0.4)" }}><Play size={11} /> View what was built</button>
         )}
       </>)}
     </motion.div>
@@ -382,7 +382,7 @@ function Drawer({ it, busy, onClose, onShape, onDecide, onBuild, onStop, onDelet
         {it.buildFile && (
           <div className="mb-5 rounded-xl border overflow-hidden" style={{ borderColor: "rgba(251,192,45,0.4)" }}>
             <div className="flex items-center justify-between px-3 py-2 border-b" style={{ borderColor: "rgba(251,192,45,0.25)", background: "rgba(251,192,45,0.06)" }}>
-              <span className="text-[11px] font-mono flex items-center gap-1.5" style={{ color: "#00BFFF" }}><Play size={11} /> What the agents built</span>
+              <span className="text-[11px] font-mono flex items-center gap-1.5" style={{ color: "#FBC02D" }}><Play size={11} /> What the agents built</span>
               <a href={buildPreviewUrl(it.buildFile)} target="_blank" rel="noopener noreferrer" className="text-[var(--fg-dim)] hover:text-[var(--fg)]" title="Open full-screen"><ExternalLink size={13} /></a>
             </div>
             <iframe key={it.buildFile} src={buildPreviewUrl(it.buildFile)} title="deliverable" className="w-full border-0 bg-black" style={{ height: 300 }} sandbox="allow-scripts allow-pointer-lock allow-same-origin" />

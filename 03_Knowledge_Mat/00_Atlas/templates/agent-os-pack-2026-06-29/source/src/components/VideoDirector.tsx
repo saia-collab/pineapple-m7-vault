@@ -52,6 +52,14 @@ export default function VideoDirector() {
   // persistence
   useEffect(() => { try { const raw = localStorage.getItem(RUN_KEY); if (raw) setRun(JSON.parse(raw)); } catch {} hydrated.current = true; }, []);
   useEffect(() => { if (hydrated.current) try { localStorage.setItem(RUN_KEY, JSON.stringify(run)); } catch {} }, [run]);
+  // deep-link prefill: /video?topic=… (used by Hermes Astros handoffs) — runs after
+  // hydration so the incoming topic wins over the persisted run's topic.
+  useEffect(() => {
+    try {
+      const t = new URLSearchParams(window.location.search).get("topic");
+      if (t && t.trim()) setRun((r) => ({ ...r, topic: t.trim().slice(0, 2000) }));
+    } catch { /* no-op */ }
+  }, []);
 
   // worked example pointer (a real video the Director built end-to-end)
   useEffect(() => { fetch("/api/video/auto/example").then((r) => r.json()).then((j) => { if (j.ok && j.example?.finalUrl) setExample(j.example); }).catch(() => {}); }, []);
@@ -194,8 +202,9 @@ export default function VideoDirector() {
     sc.scenes.forEach((scene, i) => genBroll(i, scene.broll_prompt));
   }
 
-  function genBroll(i: number, prompt: string, provider?: DirectorRun["engine"]) {
+  function genBroll(i: number, prompt: string, provider?: DirectorRun["engine"], triedOther = false) {
     const eng = provider ?? run.engine;
+    const other: DirectorRun["engine"] = eng === "minimax" ? "grok" : "minimax";
     setRun((r) => ({ ...r, broll: { ...r.broll, [i]: { status: "processing" } } }));
     fetch("/api/hermes/studio/generate", {
       method: "POST", headers: { "content-type": "application/json" },
@@ -203,10 +212,10 @@ export default function VideoDirector() {
     }).then((r) => r.json()).then((j) => {
       if (j.ok && j.status === "done" && j.url) setRun((r) => ({ ...r, broll: { ...r.broll, [i]: { status: "done", url: j.url } } }));
       else if (j.ok && j.taskId) setRun((r) => ({ ...r, broll: { ...r.broll, [i]: { status: "processing", taskId: j.taskId, slug: j.slug } } }));
-      // Grok needs OpenClaw on the server PATH (often missing) → auto-fall back to MiniMax so b-roll never dead-ends.
-      else if (eng !== "minimax") genBroll(i, prompt, "minimax");
-      else setRun((r) => ({ ...r, broll: { ...r.broll, [i]: { status: "failed", err: j.error || "broll failed" } } }));
-    }).catch((e) => { if (eng !== "minimax") genBroll(i, prompt, "minimax"); else setRun((r) => ({ ...r, broll: { ...r.broll, [i]: { status: "failed", err: String(e) } } })); });
+      // Either engine can be down (MiniMax out of credits → status 2056; Grok/xAI hiccup) → try the OTHER once so b-roll never dead-ends.
+      else if (!triedOther) genBroll(i, prompt, other, true);
+      else setRun((r) => ({ ...r, broll: { ...r.broll, [i]: { status: "failed", err: j.error || j.detail?.status_msg || "broll failed" } } }));
+    }).catch((e) => { if (!triedOther) genBroll(i, prompt, other, true); else setRun((r) => ({ ...r, broll: { ...r.broll, [i]: { status: "failed", err: String(e) } } })); });
   }
 
   async function assembleAndRender() {
@@ -406,7 +415,7 @@ function ScriptStage({ run, setRun, busy, onBack, onRegen, onGo }: {
         <div className="flex items-center justify-between">
           <div className="action-tag" style={{ color: ACCENT }}>Research notes</div>
           {run.scriptEngine && (
-            <span className="text-[9.5px] uppercase tracking-widest px-1.5 py-0.5 rounded" style={{ background: run.scriptEngine === "claude" ? `${ACCENT}18` : "rgba(0,191,255,0.14)", color: run.scriptEngine === "claude" ? ACCENT : "#5eead4" }}>
+            <span className="text-[9.5px] uppercase tracking-widest px-1.5 py-0.5 rounded" style={{ background: run.scriptEngine === "claude" ? `${ACCENT}18` : "rgba(94,234,212,0.14)", color: run.scriptEngine === "claude" ? ACCENT : "#5eead4" }}>
               {run.scriptEngine === "claude" ? "researched · claude" : "drafted · local"}
             </span>
           )}

@@ -104,8 +104,8 @@ export default function GrokView() {
       <div className="flex items-center gap-3 mb-3 shrink-0">
         <div className="w-8 h-8 rounded-lg grid place-items-center text-[#15101a] font-bold text-[12px]" style={{ background: "linear-gradient(135deg,#eef0fb,#9ea2c4)" }}>Gb</div>
         <div>
-          <div className="text-[15px] font-semibold text-[var(--cream)] leading-none">Grok Build</div>
-          <div className="text-[10.5px] text-[var(--cream-mute)] mt-1">xAI · grok-build-0.1 · real CLI on X Premium+ · chat + workspace</div>
+          <div className="text-[15px] font-semibold text-[var(--cream)] leading-none">Grok 4.5</div>
+          <div className="text-[10.5px] text-[var(--cream-mute)] mt-1">xAI · grok-4.5 · Grok Build CLI on X Premium+ · chat + workspace</div>
         </div>
         <div className="ml-auto flex gap-1.5">
           {([{ k: "chat", label: "Chat", icon: <MessageSquare size={13} /> }, { k: "workspace", label: "Workspace", icon: <Layers size={13} /> }] as const).map((t) => (

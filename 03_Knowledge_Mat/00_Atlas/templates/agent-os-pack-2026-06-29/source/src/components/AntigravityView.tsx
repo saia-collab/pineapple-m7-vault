@@ -110,7 +110,26 @@ export default function AntigravityView() {
         })}
       </div>
 
-      {tab === "chat" && <UnifiedChat defaultAgent="antigravity" showAgentSwitcher={false} />}
+      {tab === "chat" && (
+        <>
+          {/* Agent Teams (May 2026, agy ≥1.1) — /teamwork-preview spawns a coordinated
+              subagent team (plan → build → verify, in parallel). Preview step answers in
+              chat within a minute; full team RUNS are long — fire them in a project
+              folder so results land in Workspace files even if the chat times out. */}
+          <div className="flex items-center gap-2.5 rounded-lg border px-3 py-2 text-[11.5px]"
+            style={{ borderColor: "rgba(124,58,237,0.45)", background: "rgba(124,58,237,0.08)", color: "var(--fg-dim)" }}>
+            <span className="font-bold uppercase tracking-widest text-[9.5px]" style={{ color: accent }}>New · Agent Teams</span>
+            <span className="flex-1 truncate">Type <code style={{ color: accent }}>/teamwork-preview</code> to draft a specialist subagent team for your task, then tell it to proceed.</span>
+            <button
+              onClick={() => navigator.clipboard?.writeText("Run /teamwork-preview for this task, then proceed with spawning the team without waiting for confirmation. TASK: ")}
+              className="shrink-0 rounded-md border px-2 py-1 text-[10px] uppercase tracking-widest hover:opacity-80"
+              style={{ borderColor: "rgba(124,58,237,0.5)", color: accent }}>
+              Copy starter
+            </button>
+          </div>
+          <UnifiedChat defaultAgent="antigravity" showAgentSwitcher={false} />
+        </>
+      )}
 
       {tab === "workspace" && (
         <div className="grid grid-cols-1 lg:grid-cols-[300px_minmax(0,1fr)] gap-5">
@@ -148,7 +167,7 @@ export default function AntigravityView() {
                         {p.kind === "scratch" ? p.name : p.name.slice(0, 8) + "…"}
                       </div>
                       <span className="text-[9px] uppercase tracking-widest shrink-0"
-                        style={{ color: p.kind === "scratch" ? "#00BFFF" : "#94a3b8" }}>
+                        style={{ color: p.kind === "scratch" ? "#FBC02D" : "#94a3b8" }}>
                         {p.kind}
                       </span>
                     </div>
@@ -180,7 +199,7 @@ export default function AntigravityView() {
                     </button>
                   </div>
                   <div className="text-[10.5px] text-[var(--fg-dimmer)] font-[var(--font-geist-mono)] break-all">
-                    {selected.root.replace("/Users/juliangoldie", "~")}
+                    {selected.root.replace("/Users/saia", "~")}
                   </div>
                 </div>
 

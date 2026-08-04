@@ -18,11 +18,11 @@ export async function GET() {
   const hkey = await getHunterKey();
   const hsource = await hunterKeySource();
   const gmailReady = existsSync(path.join(HOME, ".gmail-mcp", "sa-key.json")) && existsSync(GMAIL_PY);
-  const himalayaReady = existsSync(path.join(HOME, ".config", "himalaya", "goldie.pass"));
+  const himalayaReady = existsSync(path.join(HOME, ".config", "himalaya", "pineapple.pass"));
   return NextResponse.json({
     firecrawl: { configured: Boolean(fkey), masked: maskKey(fkey), source },
     hunter: { configured: Boolean(hkey), masked: maskKey(hkey), source: hsource },
-    gmail: { ready: gmailReady, mailbox: "hermes@goldie.agency" },
+    gmail: { ready: gmailReady, mailbox: "hermes@pineapplecontractors.com" },
     himalaya: { ready: himalayaReady },
     dailyCap: state.meta.dailyCap,
     paused: Boolean(state.meta.paused),

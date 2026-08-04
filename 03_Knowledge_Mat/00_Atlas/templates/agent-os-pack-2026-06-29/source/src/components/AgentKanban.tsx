@@ -6,7 +6,7 @@ import { WifiOff, Sparkles, Send, Loader2, Trash2, ExternalLink, Compass, Hammer
 
 const LSK = "agentic-os/agent-kanban/v1";
 // Hermes cloud SEO mode publishes to one of your configured live funnel sites.
-const SEO_SITE = { id: "aimoneylab", name: "aimoneylabjuliangoldie.com", url: "https://aimoneylabjuliangoldie.com" };
+const SEO_SITE = { id: "aimoneylab", name: "pineapplecontractors.com", url: "https://pineapplecontractors.com" };
 
 type Stage = "queued" | "building" | "reviewing" | "done" | "rejected";
 interface Card { id: string; title: string; brief: string; stage: Stage; bytes?: number; note?: string; liveUrl?: string; slug?: string }
@@ -44,11 +44,31 @@ export default function AgentKanban() {
   const [deployUrl, setDeployUrl] = useState<string | null>(null);
   const hydrated = useRef(false);
 
+  // Board state is SERVER-side (~/.agentic-os/agent-kanban/board.json) so a board
+  // assembled anywhere shows up in every browser. localStorage stays as an offline
+  // fallback / instant paint, but the server copy wins when it has cards.
   useEffect(() => {
-    try { const r = localStorage.getItem(LSK); if (r) { const d = JSON.parse(r); setCards(d.cards ?? []); setGoal(d.goal ?? ""); setModel(d.model ?? null); } } catch {}
-    hydrated.current = true;
+    let cancelled = false;
+    (async () => {
+      try { const r = localStorage.getItem(LSK); if (r) { const d = JSON.parse(r); setCards(d.cards ?? []); setGoal(d.goal ?? ""); setModel(d.model ?? null); } } catch {}
+      try {
+        const j = await fetch("/api/agent-kanban/state", { cache: "no-store" }).then((x) => x.json());
+        if (!cancelled && j?.board?.cards?.length) {
+          setCards(j.board.cards); setGoal(j.board.goal ?? ""); setModel(j.board.model ?? null);
+        }
+      } catch { /* offline — localStorage copy stands */ }
+      if (!cancelled) hydrated.current = true;
+    })();
+    return () => { cancelled = true; };
   }, []);
-  useEffect(() => { if (hydrated.current) try { localStorage.setItem(LSK, JSON.stringify({ cards, goal, model })); } catch {} }, [cards, goal, model]);
+  useEffect(() => {
+    if (!hydrated.current) return;
+    try { localStorage.setItem(LSK, JSON.stringify({ cards, goal, model })); } catch {}
+    const t = setTimeout(() => {
+      fetch("/api/agent-kanban/state", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ cards, goal, model }) }).catch(() => {});
+    }, 400); // debounce — the board mutates fast while the team runs
+    return () => clearTimeout(t);
+  }, [cards, goal, model]);
 
   const loadWorkspace = useCallback(async () => {
     try { const r = await fetch("/api/agent-kanban/workspace", { cache: "no-store" }); const j = await r.json(); setWs(j.builds ?? []); } catch {}

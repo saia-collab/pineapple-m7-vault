@@ -1,0 +1,25 @@
+# Place at: 04_Tech_Lab/hermes_skills/mobile_snapshot_loop.yaml
+# Ko e hala 'o e fononga ko e faka'apa'apa.
+
+skill: mobile_snapshot_loop
+description: >
+  Writes a phone-readable status snapshot (MOBILE_STATUS.md + .json) to
+  01_Command_Center/ so Saia can check Outbox Shield state, pending
+  approvals, and telemetry from his phone via the Drive-synced vault.
+
+trigger:
+  type: interval
+  every_minutes: 30
+
+job:
+  - run: python 04_Tech_Lab/Scripts/m7_mobile_snapshot.py
+
+landing_spot: 01_Command_Center/MOBILE_STATUS.md
+
+outbox_shield: exempt   # read-only status file, not ad/web/social output
+
+notes: >
+  This file lives inside the Drive-synced vault root, so Google Drive's
+  own desktop sync client pushes it to the cloud automatically — no API
+  call or auth needed. From your phone: open it in the Google Drive app,
+  or ask Claude mobile to search Drive for "MOBILE_STATUS".

@@ -38,7 +38,7 @@ interface WpConfig { default: string; indexceptional: { email: string; key: stri
 interface PubResult { site: string; url: string; editUrl: string; title: string }
 interface PubStatus {
   running: boolean; phase?: string; headline?: string; sites?: string[]; status?: string;
-  results?: PubResult[]; indexed?: boolean; error?: string; startedAt?: string; endedAt?: string;
+  results?: PubResult[]; failed?: { site: string; error: string }[]; indexed?: boolean; error?: string; startedAt?: string; endedAt?: string;
 }
 
 async function readPub(): Promise<PubStatus> {
@@ -193,28 +193,47 @@ async function runPublish(sig: { headline: string; why_now: string; angle: strin
     const embed = tweetEmbed(sig.url);
 
     const profile = cfg.profile || {};
+    const failed: { site: string; error: string }[] = [];
     for (let i = 0; i < hosts.length; i++) {
       const host = hosts[i];
       const site = cfg.sites[host];
       if (!site) continue;
-      await writePub({ running: true, headline: sig.headline, sites: hosts, status, phase: `Writing for ${host}…`, results, startedAt });
-      const res = await run("hermes", ["-z", genPrompt(sig, ANGLES[i % ANGLES.length], profile)], { cwd: HERMES_WORKSPACE, timeoutMs: 300_000 });
-      const article = parseArticle(res.stdout || "");
-      if (!article) throw new Error(`The writer came back malformed for ${host} — try again.`);
-      const html = withCrossLinks(withTweet(article.html, embed), host, hosts, slug);
+      try {
+        await writePub({ running: true, headline: sig.headline, sites: hosts, status, phase: `Writing for ${host}…`, results, failed, startedAt });
+        // Reliable writer (the `content-writer` profile = GLM-5.2), retried up to 3x. The default
+        // profile is a slow reasoning model that intermittently returns malformed output on long
+        // article writes — that's the "publish didn't work" failure. Reliable profile + retry fixes it.
+        let article: { title: string; meta: string; html: string } | null = null;
+        let writerErr = "";
+        for (let attempt = 0; attempt < 3 && !article; attempt++) {
+          try {
+            const res = await run("hermes", ["-p", "content-writer", "-z", genPrompt(sig, ANGLES[i % ANGLES.length], profile)], { cwd: HERMES_WORKSPACE, timeoutMs: 300_000 });
+            article = parseArticle(res.stdout || "");
+            if (!article) writerErr = "the writer came back malformed";
+          } catch (e) { writerErr = String((e as Error)?.message || e); }
+        }
+        if (!article) throw new Error(`writer failed — ${writerErr}`);
+        const html = withCrossLinks(withTweet(article.html, embed), host, hosts, slug);
 
-      await writePub({ running: true, headline: sig.headline, sites: hosts, status, phase: `Publishing to ${host}…`, results, startedAt });
-      const pub = await wpPublish(site, host, { ...article, html, slug }, status);
-      results.push({ site: host, url: pub.url, editUrl: pub.editUrl, title: article.title });
-      await writePub({ running: true, headline: sig.headline, sites: hosts, status, phase: `Published to ${host}`, results, startedAt });
+        await writePub({ running: true, headline: sig.headline, sites: hosts, status, phase: `Publishing to ${host}…`, results, failed, startedAt });
+        const pub = await wpPublish(site, host, { ...article, html, slug }, status);
+        results.push({ site: host, url: pub.url, editUrl: pub.editUrl, title: article.title });
+        await writePub({ running: true, headline: sig.headline, sites: hosts, status, phase: `Published to ${host}`, results, failed, startedAt });
+      } catch (e) {
+        // One site failing must NOT kill the others — record it and carry on.
+        failed.push({ site: host, error: String((e as Error)?.message || e) });
+        await writePub({ running: true, headline: sig.headline, sites: hosts, status, phase: `${host} failed — continuing`, results, failed, startedAt });
+      }
     }
+    if (!results.length) throw new Error(failed.map((f) => `${f.site}: ${f.error}`).join(" · ") || "nothing published");
 
     let indexed = false;
     if (status === "publish" && results.length) {
-      await writePub({ running: true, headline: sig.headline, sites: hosts, status, phase: "Submitting for indexing…", results, startedAt });
+      await writePub({ running: true, headline: sig.headline, sites: hosts, status, phase: "Submitting for indexing…", results, failed, startedAt });
       indexed = await indexSubmit(cfg, results.map((r) => r.url));
     }
-    await writePub({ running: false, headline: sig.headline, sites: hosts, status, phase: "Done", results, indexed, startedAt, endedAt: new Date().toISOString() });
+    const donePhase = failed.length ? `Done — ${results.length} published, ${failed.length} failed` : "Done";
+    await writePub({ running: false, headline: sig.headline, sites: hosts, status, phase: donePhase, results, failed, indexed, startedAt, endedAt: new Date().toISOString() });
     if (results.length) await appendPublished({ at: new Date().toISOString(), headline: sig.headline, status, indexed, results });
   } catch (e) {
     await writePub({ running: false, headline: sig.headline, sites: hosts, status, results, error: String((e as Error)?.message || e), startedAt, endedAt: new Date().toISOString() });

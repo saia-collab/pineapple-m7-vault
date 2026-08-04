@@ -1,0 +1,34 @@
+<template>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=DM+Sans:wght@400;500;700&display=swap');
+#root{position:relative;width:1080px;height:1920px;overflow:hidden;font-family:"DM Sans",system-ui,sans-serif;}
+#frame-07-cta-bg{position:absolute;inset:0;background:#FBC02D;}
+.frame-07-cta-wrap{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;align-items:center;padding:0 96px;text-align:center;box-sizing:border-box;}
+.frame-07-cta-serif{font-family:"Libre Caslon Display",Georgia,serif;font-weight:400;line-height:.92;letter-spacing:-.02em;}
+.frame-07-cta-eyebrow{font-family:"DM Sans",sans-serif;font-weight:700;font-size:26px;letter-spacing:.28em;text-transform:uppercase;}
+
+</style>
+<div id="root" data-composition-id="frame-07-cta" data-start="0" data-width="1080" data-height="1920" data-duration="5">
+  <div id="frame-07-cta-bg" class="clip" data-start="0" data-duration="5" data-track-index="0"></div>
+  <div class="frame-07-cta-wrap clip" data-start="0" data-duration="5" data-track-index="1">
+
+    <div class="frame-07-cta-serif" id="f7-h" style="color:#1A365D;font-size:118px;">Proof before<br>opinions.</div>
+    <div id="f7-phone" style="color:#1A365D;font-family:'DM Sans';font-weight:700;font-size:88px;letter-spacing:.02em;margin-top:48px;">(972) 928-0788</div>
+    <div id="f7-sub" class="frame-07-cta-eyebrow" style="color:#1A365D;opacity:.72;margin-top:26px;">Complimentary Professional Photo Audit</div>
+
+  </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+<script>
+window.__timelines = window.__timelines || {};
+(function(){
+  const tl = gsap.timeline({paused:true});
+  tl.fromTo("#f7-h",{opacity:0,y:50},{opacity:1,y:0,duration:.7,ease:"power4.out"},0.2);
+  tl.fromTo("#f7-phone",{opacity:0,y:34},{opacity:1,y:0,duration:.6,ease:"power3.out"},1.4);
+  tl.fromTo("#f7-sub",{opacity:0},{opacity:.72,duration:.5},2.3);
+  tl.fromTo("#f7-phone",{scale:1},{scale:1.06,duration:.28,ease:"power1.inOut"},3.1);
+  tl.fromTo("#f7-phone",{scale:1.06},{scale:1,duration:.28,ease:"power1.inOut"},3.4);
+  window.__timelines["frame-07-cta"] = tl;
+})();
+</script>
+</template>

@@ -3,16 +3,16 @@
 // per (day, range): re-running the same day/range REPLACES the prior entry so
 // the history stays clean rather than filling with near-duplicates.
 //
-//   ~/.agentic-os/jarvis-briefings.jsonl
+//   ~/.agentic-os/apollo-briefings.jsonl
 
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { existsSync } from "node:fs";
 import path from "node:path";
 import os from "node:os";
-import type { Briefing } from "./jarvisBriefing";
+import type { Briefing } from "./apolloBriefing";
 
 const STATE_DIR = path.join(os.homedir(), ".agentic-os");
-const FILE = path.join(STATE_DIR, "jarvis-briefings.jsonl");
+const FILE = path.join(STATE_DIR, "apollo-briefings.jsonl");
 const MAX = 200;
 
 export interface SavedBriefing extends Briefing { id: string }

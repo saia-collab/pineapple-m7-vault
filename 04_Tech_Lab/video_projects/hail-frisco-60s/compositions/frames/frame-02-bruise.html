@@ -1,0 +1,39 @@
+<template>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=DM+Sans:wght@400;500;700&display=swap');
+#root{position:relative;width:1080px;height:1920px;overflow:hidden;font-family:"DM Sans",system-ui,sans-serif;}
+#frame-02-bruise-bg{position:absolute;inset:0;background:#1A365D;}
+.frame-02-bruise-wrap{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;align-items:center;padding:0 96px;text-align:center;box-sizing:border-box;}
+.frame-02-bruise-serif{font-family:"Libre Caslon Display",Georgia,serif;font-weight:400;line-height:.92;letter-spacing:-.02em;}
+.frame-02-bruise-eyebrow{font-family:"DM Sans",sans-serif;font-weight:700;font-size:26px;letter-spacing:.28em;text-transform:uppercase;}
+
+</style>
+<div id="root" data-composition-id="frame-02-bruise" data-start="0" data-width="1080" data-height="1920" data-duration="9">
+  <div id="frame-02-bruise-bg" class="clip" data-start="0" data-duration="9" data-track-index="0"></div>
+  <div class="frame-02-bruise-wrap clip" data-start="0" data-duration="9" data-track-index="1">
+
+    <div class="frame-02-bruise-eyebrow" id="f2-eb" style="color:#00BFFF;margin-bottom:40px;">Mat Fracture</div>
+    <div class="frame-02-bruise-serif" id="f2-h1" style="color:#F7F5EF;font-size:120px;">Hail doesn't<br>break a shingle.</div>
+    <div class="frame-02-bruise-serif" id="f2-h2" style="color:#FBC02D;font-size:132px;font-style:italic;margin-top:28px;">It bruises it.</div>
+    <div id="f2-bar" style="width:520px;height:70px;background:rgba(247,245,239,.14);border-radius:8px;margin-top:64px;position:relative;overflow:hidden;">
+      <div id="f2-crack" style="position:absolute;top:50%;left:6%;width:88%;height:3px;background:#00BFFF;transform-origin:left center;"></div>
+    </div>
+    <div id="f2-sub" style="color:rgba(247,245,239,.7);font-size:30px;margin-top:34px;max-width:640px;">Fracturing the layer that actually keeps water out.</div>
+
+  </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+<script>
+window.__timelines = window.__timelines || {};
+(function(){
+  const tl = gsap.timeline({paused:true});
+  tl.fromTo("#f2-eb",{opacity:0,y:24},{opacity:1,y:0,duration:.5},0.2);
+  tl.fromTo("#f2-h1",{opacity:0,y:44},{opacity:1,y:0,duration:.6,ease:"power3.out"},0.9);
+  tl.fromTo("#f2-h2",{opacity:0,y:34},{opacity:1,y:0,duration:.6,ease:"power3.out"},2.6);
+  tl.fromTo("#f2-bar",{opacity:0,scale:.9},{opacity:1,scale:1,duration:.6,ease:"power2.out"},4.2);
+  tl.fromTo("#f2-crack",{scaleX:0},{scaleX:1,duration:1.1,ease:"power2.inOut"},4.9);
+  tl.fromTo("#f2-sub",{opacity:0,y:24},{opacity:1,y:0,duration:.6},6.3);
+  window.__timelines["frame-02-bruise"] = tl;
+})();
+</script>
+</template>

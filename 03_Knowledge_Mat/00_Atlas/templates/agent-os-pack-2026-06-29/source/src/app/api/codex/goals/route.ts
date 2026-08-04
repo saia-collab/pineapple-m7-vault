@@ -3,6 +3,7 @@ import { spawn } from "node:child_process";
 import { createWriteStream } from "node:fs";
 import { config } from "@/lib/config";
 import { codexApprovalArgs } from "@/lib/codexWorkspace";
+import { omnirouteCodexArgs, omnirouteCodexEnv, nativeCodexArgs, nativeCodexEnv, withSteer } from "@/lib/omniroute";
 import {
   listGoals, createGoal, updateGoal, deleteGoal, stopGoal, getGoal, readGoalLog,
 } from "@/lib/codexGoals";
@@ -39,6 +40,11 @@ export async function POST(req: Request) {
   const cwd = typeof body.cwd === "string" && body.cwd ? body.cwd : undefined;
   if (!prompt.trim()) return NextResponse.json({ error: "prompt required" }, { status: 400 });
 
+  // "gpt56" → native OpenAI Codex on the ChatGPT OAuth login; default → OmniRoute.
+  const engine = body.engine === "gpt56" ? "gpt56" : "omniroute";
+  const engineArgs = engine === "gpt56" ? nativeCodexArgs() : omnirouteCodexArgs();
+  const engineEnv = engine === "gpt56" ? nativeCodexEnv() : omnirouteCodexEnv();
+
   const goal = await createGoal(title, prompt, cwd);
 
   // Launch Codex in the background, non-interactively. The old `--full-auto` alias
@@ -51,11 +57,13 @@ export async function POST(req: Request) {
     "--json",
     "--skip-git-repo-check",
     ...codexApprovalArgs(body.approvalMode),
-    goal.prompt,
+    ...engineArgs,   // OmniRoute free pool, or native gpt-5.6 on the ChatGPT OAuth login
+    withSteer(goal.prompt),
   ], {
     cwd: goal.cwd,
     env: {
       ...process.env,
+      ...engineEnv,
       PATH: process.env.PATH ?? "/usr/local/bin:/opt/homebrew/bin:/usr/bin:/bin",
       HOME: process.env.HOME ?? "",
       SHELL: process.env.SHELL ?? "/bin/zsh",

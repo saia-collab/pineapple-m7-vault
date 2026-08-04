@@ -95,7 +95,7 @@ export default function OpenClawStudio() {
           <div>
             <div className="text-[10px] uppercase tracking-widest" style={{ color: ACCENT }}>OpenClaw · Studio</div>
             <div className="text-[15px] font-medium text-[var(--cream)]">
-              Grok 4.3 creative cockpit
+              Grok 4.5 creative cockpit
             </div>
           </div>
           <div className="ml-auto flex items-center gap-1.5 text-[10px] uppercase tracking-widest" style={{ color: "var(--cream-mute)" }}>

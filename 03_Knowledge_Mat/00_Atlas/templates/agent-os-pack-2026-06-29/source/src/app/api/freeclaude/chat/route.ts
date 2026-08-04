@@ -1,5 +1,6 @@
 import { spawnStream } from "@/lib/runner";
 import { fccSpawnEnv, probeReachable } from "@/lib/fcc";
+import { withSteer } from "@/lib/omniroute";
 import { ensureProject, FCC_SCRATCH_ROOT } from "@/lib/freeClaudeWorkspace";
 import path from "node:path";
 
@@ -72,7 +73,7 @@ export async function POST(req: Request) {
       JSON.stringify({
         type: "error",
         message:
-          "fcc-server is not running on :8082. Start it from your terminal with `fcc-server`, then try again.",
+          "OmniRoute isn't running on :20128. Open the OmniRoute tab (or run `omniroute`), then try again.",
       }) + "\n",
       {
         status: 503,
@@ -86,13 +87,16 @@ export async function POST(req: Request) {
   // CLI uses the user's `claude login` credentials and fcc-server returns 401.
   // Side effect: skips hooks/LSP/plugins/CLAUDE.md discovery — acceptable for
   // a chat-style panel since we're not running Claude-Code-as-coding-agent here.
-  const child = spawnStream("fcc", [
+  // Spawn the real `claude` CLI (the `fcc` wrapper isn't installed) pointed at
+  // OmniRoute via fccSpawnEnv(). withSteer() stops the free reasoning models
+  // looping so they actually answer + write files.
+  const child = spawnStream("claude", [
     "--bare",
     "-p",
     "--output-format=stream-json",
     "--include-partial-messages",
     "--verbose",
-    fullPrompt,
+    withSteer(fullPrompt),
   ], { cwd, extraEnv: fccSpawnEnv() });
 
   const encoder = new TextEncoder();

@@ -15,6 +15,12 @@
   "userName": "You",
   "_username_note": "Your display name, shown in the Agent Room etc. Defaults to \"You\" so a fresh install is never personalised to someone else. Set it to your first name if you like. (Also settable via AGENTIC_OS_USER_NAME.)",
 
+  "youtubeChannel": "",
+  "_youtube_note": "Your own YouTube channel URL — the Thumbnail Studio uses it to research what wins on YOUR channel. Leave blank to keep research topic-only.",
+
+  "seoSites": [],
+  "_seosites_note": "Optional hint for the SEO → Research site dropdown before you connect. After you run scripts/gsc-connect.py the list comes from your OWN verified Search Console properties. See install/36-SEO-RESEARCH.md.",
+
   "_voice_note": "To change the Hermes/Jarvis voice: connect your ElevenLabs key, then set AGENTIC_OS_TTS_VOICE=<your voice id> (env or ~/.hermes/profiles/main/.env), or pick a voice in Video → Director. See install/3-JARVIS-VOICE.md.",
 
   "openclawAgent": "main",

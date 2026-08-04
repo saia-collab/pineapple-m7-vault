@@ -11,7 +11,15 @@ import Panel from "./Panel";
 type Tab = "chat" | "workspace";
 
 interface Msg { role: "user" | "assistant" | "system"; text: string; }
-interface FccStatus { enabled: boolean; reachable: boolean; model: string | null; provider: string | null; }
+type FreeRouter = "omniroute" | "9router";
+interface FccStatus {
+  enabled: boolean; reachable: boolean; model: string | null; provider: string | null;
+  router?: FreeRouter;
+  routers?: {
+    omniroute: { reachable: boolean; model: string };
+    router9: { reachable: boolean; model: string; providers: number | null };
+  };
+}
 interface FccProject { name: string; root: string; mtime: number; fileCount: number; }
 type FccFileKind = "text" | "image" | "video" | "audio" | "pdf" | "binary";
 interface FccFile { name: string; relPath: string; bytes: number; mtime: number; kind: FccFileKind; }
@@ -49,6 +57,17 @@ export default function FreeClaudePanel() {
   const [partial, setPartial] = useState("");
   const [elapsed, setElapsed] = useState(0);
   const [fcc, setFcc] = useState<FccStatus | null>(null);
+  const [switching, setSwitching] = useState(false);
+  // Flip Free Claude Code between the two free routers. Persists server-side in
+  // ~/.agentic-os/fcc.json, so the next `claude` spawn picks it up automatically.
+  const switchRouter = async (router: FreeRouter) => {
+    setSwitching(true);
+    try {
+      const r = await fetch("/api/fcc", { method: "POST", headers: { "content-type": "application/json" },
+        body: JSON.stringify({ router }) });
+      if (r.ok) setFcc(await r.json());
+    } finally { setSwitching(false); }
+  };
   const ctrlRef = useRef<AbortController | null>(null);
   const scrollRef = useRef<HTMLDivElement>(null);
 
@@ -126,26 +145,43 @@ export default function FreeClaudePanel() {
     const t = setInterval(refreshProjects, 4000);
     return () => clearInterval(t);
   }, [tab]);
+  // Open the workspace ON a showcase, not on an empty pane: auto-select the
+  // most recent project (its gallery auto-previews via selectProject).
+  useEffect(() => {
+    if (tab !== "workspace" || selected || projects.length === 0) return;
+    void selectProject(projects[0]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [tab, projects, selected]);
 
   async function selectProject(p: FccProject) {
     setSelected(p); setOpen(null);
     try {
       const r = await fetch(`/api/freeclaude/workspace?project=${encodeURIComponent(p.name)}`, { cache: "no-store" });
       const j = await r.json();
-      setFiles(j.files ?? []);
+      const list: FccFile[] = j.files ?? [];
+      setFiles(list);
+      // Workspace = showcase: land on the visuals, never on a file list.
+      // The lib pins a root index.html (the gallery) first, so this opens it.
+      const first = list.find((f) => /\.html?$/.test(f.relPath)) ?? list.find((f) => f.kind === "image" || f.kind === "video");
+      if (first) void openFileIn(p, first);
     } catch { setFiles([]); }
   }
-  async function loadFile(f: FccFile) {
-    if (!selected) return;
+  // loadFile variant that doesn't depend on `selected` state having settled.
+  async function openFileIn(p: FccProject, f: FccFile) {
+    setHtmlMode("preview");
     if (f.kind !== "text") {
       setOpen({ path: f.relPath, content: "", bytes: f.bytes, truncated: false, kind: f.kind });
       return;
     }
     try {
-      const r = await fetch(`/api/freeclaude/workspace/file?project=${encodeURIComponent(selected.name)}&path=${encodeURIComponent(f.relPath)}`, { cache: "no-store" });
+      const r = await fetch(`/api/freeclaude/workspace/file?project=${encodeURIComponent(p.name)}&path=${encodeURIComponent(f.relPath)}`, { cache: "no-store" });
       const j = await r.json();
       if (j.content !== undefined) setOpen({ path: f.relPath, content: j.content, bytes: j.bytes, truncated: j.truncated, kind: "text" });
     } catch {}
+  }
+  async function loadFile(f: FccFile) {
+    if (!selected) return;
+    await openFileIn(selected, f);
   }
   function rawUrl(relPath: string): string {
     if (!selected) return "";
@@ -326,12 +362,43 @@ export default function FreeClaudePanel() {
                     className="text-[var(--fg-dim)] text-sm leading-relaxed">
                     <p className="text-base text-[var(--fg)]">Free Claude Code</p>
                     <p className="mt-2">
-                      Same Claude Code CLI — every request routed through the local
-                      <code className="mx-1 text-[var(--fg)]">fcc-server</code> proxy to a free
-                      or cheap upstream. Currently routed to{" "}
+                      Same Claude Code CLI — every request routed through a local free
+                      gateway. Currently on{" "}
                       <span className="text-cyan-300 font-medium">{modelShort}</span>
-                      {fcc?.provider && <> on <span className="text-cyan-300">{fcc.provider}</span></>}.
+                      {fcc?.provider && <> via <span className="text-cyan-300">{fcc.provider}</span></>}.
                     </p>
+                    {/* ── free-router switch: OmniRoute ⇄ 9Router ── */}
+                    <div className="mt-3 flex items-center gap-2 flex-wrap">
+                      <span className="text-[10px] uppercase tracking-wider text-[var(--fg-dimmer)]">Router</span>
+                      {([
+                        { id: "omniroute" as FreeRouter, label: "OmniRoute", sub: "90+ free providers" },
+                        { id: "9router" as FreeRouter, label: "9Router", sub: "RTK token saver" },
+                      ]).map((r) => {
+                        const active = (fcc?.router ?? "omniroute") === r.id;
+                        const st = r.id === "9router" ? fcc?.routers?.router9 : fcc?.routers?.omniroute;
+                        const up = st?.reachable;
+                        return (
+                          <button key={r.id} disabled={switching} onClick={() => switchRouter(r.id)}
+                            className={`px-2.5 py-1 rounded-lg border text-[11px] transition ${
+                              active ? "border-cyan-400/60 bg-cyan-400/10 text-cyan-200"
+                                     : "border-[var(--panel-border)] text-[var(--fg-dim)] hover:border-cyan-400/40"}`}
+                            title={`${r.sub}${up ? "" : " — gateway offline"}`}>
+                            <span className={`inline-block w-1.5 h-1.5 rounded-full mr-1.5 align-middle ${up ? "bg-cyan-400" : "bg-amber-400"}`} />
+                            {r.label}
+                          </button>
+                        );
+                      })}
+                    </div>
+                    {fcc?.router === "9router" && fcc?.routers?.router9?.providers === 0 && (
+                      <div className="mt-3 rounded-lg border border-amber-500/30 bg-amber-500/10 px-3 py-2 text-amber-200">
+                        <div className="text-xs font-medium flex items-center gap-1.5"><ExternalLink size={12} /> 9Router has no providers connected</div>
+                        <div className="text-[11px] mt-1 text-amber-200/80">
+                          It&apos;s running, but it routes through accounts you connect. Open{" "}
+                          <a className="underline" href="http://127.0.0.1:20129" target="_blank" rel="noopener">the 9Router dashboard</a>{" "}
+                          → add one provider (a free tier is fine) → come back. Until then, use OmniRoute.
+                        </div>
+                      </div>
+                    )}
                     <ul className="mt-3 text-xs text-[var(--fg-dimmer)] space-y-1">
                       <li>• Working directory: <code className="text-[var(--fg-dim)]">~/freeclaude-scratch/{activeProject}/</code></li>
                       <li>• Anything claude writes lands there → preview it in the <strong>Workspace</strong> tab</li>
@@ -341,9 +408,12 @@ export default function FreeClaudePanel() {
                     </ul>
                     {!reachable && (
                       <div className="mt-4 rounded-lg border border-amber-500/30 bg-amber-500/10 px-3 py-2 text-amber-200">
-                        <div className="text-xs font-medium flex items-center gap-1.5"><ExternalLink size={12} /> fcc-server isn&apos;t running</div>
+                        <div className="text-xs font-medium flex items-center gap-1.5"><ExternalLink size={12} />
+                          {fcc?.router === "9router" ? "9Router isn't running" : "OmniRoute isn't running"}</div>
                         <div className="text-[11px] mt-1 text-amber-200/80">
-                          Start it from a terminal with <code>fcc-server</code>, then come back.
+                          {fcc?.router === "9router"
+                            ? <>Run <code>9router -p 20129</code>, then come back — or switch to OmniRoute above.</>
+                            : <>Open the <strong>OmniRoute</strong> tab (or run <code>omniroute</code>), then come back.</>}
                         </div>
                       </div>
                     )}
@@ -389,7 +459,7 @@ export default function FreeClaudePanel() {
                   if (e.key === "Escape" && streaming) stop();
                 }}
                 rows={2}
-                placeholder={reachable ? `Ask via ${modelShort}…  (⌘+Enter to send)` : "fcc-server offline — start it with `fcc-server` first"}
+                placeholder={reachable ? `Ask via ${modelShort} (free, OmniRoute)…  (⌘+Enter to send)` : "OmniRoute offline — open the OmniRoute tab first"}
                 className="flex-1 bg-transparent outline-none resize-none px-3 py-2 text-sm text-[var(--fg)] placeholder:text-[var(--fg-dimmer)]"
               />
               {streaming ? (
@@ -493,7 +563,9 @@ export default function FreeClaudePanel() {
                       <div className="text-[10.5px] text-[var(--cream-mute)] mono truncate">{selected.root}</div>
                     </div>
                   </div>
-                  <div className="flex-1 min-h-0 overflow-y-auto scroll p-2 space-y-0.5">
+                  {/* Showcase-first layout: the preview (order-2) dominates; the
+                      file strip (order-3) is a compact tray under it. */}
+                  <div className="order-3 shrink-0 max-h-[136px] overflow-y-auto scroll p-2 space-y-0.5 border-t" style={{ borderColor: "var(--line-soft)" }}>
                     {files.length === 0 && (
                       <div className="text-[11px] text-[var(--cream-mute)] italic p-3">
                         Empty project. Pick this as active and ask claude to write something here.
@@ -501,10 +573,15 @@ export default function FreeClaudePanel() {
                     )}
                     {files.map((f) => (
                       <button key={f.relPath} onClick={() => loadFile(f)}
-                        className="w-full flex items-center justify-between px-3 py-2 rounded-md text-left transition hover:bg-[rgba(255,255,255,0.02)]"
+                        className="w-full flex items-center justify-between px-3 py-1.5 rounded-md text-left transition hover:bg-[rgba(255,255,255,0.02)]"
                         style={{ background: open?.path === f.relPath ? `${ACCENT}10` : "transparent" }}>
                         <div className="flex items-center gap-2 min-w-0">
-                          <FileText size={11} style={{ color: ACCENT }} />
+                          {f.kind === "image" ? (
+                            // eslint-disable-next-line @next/next/no-img-element
+                            <img src={rawUrl(f.relPath)} alt="" className="w-7 h-5 object-cover rounded-sm shrink-0" style={{ border: `1px solid ${ACCENT}40` }} />
+                          ) : (
+                            <FileText size={11} style={{ color: ACCENT }} />
+                          )}
                           <span className="text-[12px] mono truncate" style={{ color: "var(--cream)" }}>{f.relPath}</span>
                           <span className="text-[10px] uppercase tracking-widest ml-1" style={{ color: "var(--cream-mute)" }}>{f.kind}</span>
                         </div>
@@ -517,7 +594,7 @@ export default function FreeClaudePanel() {
                   <AnimatePresence>
                     {open && (
                       <motion.div initial={{ opacity: 0, y: 4 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0 }}
-                        className="border-t" style={{ borderColor: `${ACCENT}30` }}>
+                        className="order-2 flex-1 min-h-0 flex flex-col overflow-hidden border-t" style={{ borderColor: `${ACCENT}30` }}>
                         <div className="flex items-center justify-between px-3 py-2 border-b"
                           style={{ borderColor: `${ACCENT}30`, background: `${ACCENT}0c` }}>
                           <div className="flex items-center gap-1.5 text-[11px] mono truncate" style={{ color: ACCENT }}>
@@ -567,7 +644,7 @@ export default function FreeClaudePanel() {
                         {open.kind === "text" && (() => {
                           const isHtml = /\.html?$/.test(open.path);
                           if (isHtml && htmlMode === "preview") {
-                            return <iframe src={rawUrl(open.path)} title={open.path} className="w-full h-[540px] bg-white" sandbox="allow-scripts allow-forms allow-popups allow-modals" />;
+                            return <iframe src={rawUrl(open.path)} title={open.path} className="w-full flex-1 min-h-[440px] bg-white" sandbox="allow-scripts allow-forms allow-popups allow-modals" />;
                           }
                           return (
                             <pre className="scroll p-3 text-[12px] leading-relaxed text-[var(--cream)] whitespace-pre-wrap font-[var(--font-geist-mono)] max-h-[460px] overflow-auto">

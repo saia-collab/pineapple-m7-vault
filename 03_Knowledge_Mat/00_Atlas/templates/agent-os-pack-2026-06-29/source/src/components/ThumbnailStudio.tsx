@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Upload, Wand2, Download, X, Loader2, History, Clock } from "lucide-react";
+import { Upload, Wand2, Download, X, Loader2, History, Clock, Sparkles } from "lucide-react";
 
 const ACCENT = "#ef4444";
 
@@ -25,6 +25,12 @@ export default function ThumbnailStudio() {
   const [drag, setDrag] = useState(false);
   const [elapsed, setElapsed] = useState(0);          // live seconds while generating
   const [lastTime, setLastTime] = useState<number | null>(null); // final time of last run
+  // ── Research → 6 concepts section ──
+  const [rTopic, setRTopic] = useState("");
+  const [rBusy, setRBusy] = useState(false);
+  const [rItems, setRItems] = useState<{ image: string; concept: { headline: string; why: string } }[]>([]);
+  const [rErr, setRErr] = useState<string | null>(null);
+  const [rFace, setRFace] = useState(false); // false = faceless (default), true = use your photo
   const fileRef = useRef<HTMLInputElement>(null);
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
@@ -69,8 +75,67 @@ export default function ThumbnailStudio() {
     }
   }
 
+  async function research() {
+    if (rBusy || !rTopic.trim()) return;
+    setRBusy(true); setRErr(null); setRItems([]);
+    try {
+      const r = await fetch("/api/thumbnails/research", {
+        method: "POST", headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ topic: rTopic.trim(), faceless: !rFace }),
+      });
+      const j = await r.json();
+      if (j.error) setRErr(j.error);
+      else { setRItems(j.items || []); loadHistory(); }
+    } catch (e) { setRErr(String(e)); }
+    finally { setRBusy(false); }
+  }
+
   return (
     <div className="space-y-5">
+      {/* ── Research → 6 unique thumbnails ── */}
+      <div className="panel p-4 space-y-3">
+        <div>
+          <div className="text-[13.5px] font-semibold flex items-center gap-2" style={{ color: "var(--fg)" }}><Sparkles size={15} style={{ color: ACCENT }} /> Research 6 thumbnails from what works</div>
+          <div className="text-[11.5px] mt-0.5" style={{ color: "var(--fg-dim)" }}>Grok live-searches what wins on <b>your channel</b> + top competitors for your topic, maps <b>6 unique</b> concepts onto your proven templates — synthesised, never copied. <b>Faceless</b> or use <b>your photo</b> (different look every thumbnail).</div>
+        </div>
+        <div className="flex flex-wrap gap-2">
+          <input value={rTopic} onChange={(e) => setRTopic(e.target.value)} onKeyDown={(e) => { if (e.key === "Enter") research(); }}
+            placeholder="Your video topic…  e.g. Grok 4.5 for AI agents"
+            className="flex-1 min-w-[220px] px-3 py-2 rounded-md text-[13px] outline-none"
+            style={{ background: "rgba(255,255,255,0.03)", border: "1px solid var(--line-soft)", color: "var(--fg)" }} />
+          <div className="inline-flex rounded-md overflow-hidden shrink-0" style={{ border: "1px solid var(--line-soft)" }}>
+            {[["Faceless", false], ["My face", true]].map(([label, val]) => (
+              <button key={String(val)} type="button" onClick={() => setRFace(val as boolean)}
+                className="px-3 py-2 text-[12px] font-semibold transition"
+                style={rFace === val ? { background: ACCENT, color: "#fff" } : { background: "transparent", color: "var(--fg-dim)" }}>
+                {label}
+              </button>
+            ))}
+          </div>
+          <button onClick={research} disabled={rBusy || !rTopic.trim()}
+            className="px-4 py-2 rounded-md text-[13px] font-semibold inline-flex items-center gap-2 disabled:opacity-60"
+            style={{ background: ACCENT, color: "#fff" }}>
+            {rBusy ? <><Loader2 size={14} className="animate-spin" /> Researching…</> : <><Sparkles size={14} /> Generate 6</>}
+          </button>
+        </div>
+        {rErr && <div className="text-[12px]" style={{ color: "#f0a0a0" }}>⚠ {rErr}</div>}
+        {rBusy && <div className="text-[12px]" style={{ color: "var(--fg-dim)" }}>Studying your channel + competitors, then rendering 6 originals… ~1–2 min.</div>}
+        {rItems.length > 0 && (
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+            {rItems.map((it, i) => (
+              <div key={i} className="rounded-lg overflow-hidden border" style={{ borderColor: "var(--line-soft)" }}>
+                <img src={it.image} alt={it.concept.headline} className="w-full aspect-video object-cover cursor-zoom-in" onClick={() => setEnlarged(it.image)} />
+                <div className="p-2 space-y-0.5">
+                  <div className="text-[12px] font-semibold truncate" style={{ color: "var(--fg)" }}>{it.concept.headline}</div>
+                  <div className="text-[10.5px] leading-tight" style={{ color: "var(--fg-dim)" }}>{it.concept.why}</div>
+                  <a href={it.image} download={`thumbnail-${i + 1}.png`} className="inline-flex items-center gap-1 text-[11px] pt-0.5" style={{ color: ACCENT }}><Download size={11} /> Download</a>
+                </div>
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
+
       <div className="grid grid-cols-1 lg:grid-cols-[380px_1fr] gap-5 items-start">
         {/* ── Input ── */}
         <div className="panel p-4 space-y-3.5">

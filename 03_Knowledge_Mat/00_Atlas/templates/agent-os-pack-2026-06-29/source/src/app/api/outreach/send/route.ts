@@ -11,7 +11,7 @@ export const dynamic = "force-dynamic";
 export const maxDuration = 300;
 
 // The mailbox every send goes out from (and where opt-out replies land).
-const FROM = "hermes@goldie.agency";
+const FROM = "hermes@pineapplecontractors.com";
 
 // POST { campaignId, mode?: "send"|"draft", step?: number, limit?: number, includeRisky?: boolean }
 // Sends (or drafts) the next batch for a campaign through gmail_cli.py.

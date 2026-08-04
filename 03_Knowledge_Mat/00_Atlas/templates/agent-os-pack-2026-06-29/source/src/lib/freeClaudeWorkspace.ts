@@ -41,6 +41,19 @@ function fileKind(name: string): FccFileKind {
   return "binary";
 }
 const SKIP_DIRS = new Set([".git", "node_modules", ".venv", "__pycache__", ".next", "dist", "build"]);
+// The workspace is a SHOWCASE — visual deliverables only.
+// Tool droppings (.claude-flow daemon logs, session json) kept resurfacing
+// at the top of the file list because they're always the newest files — so the
+// browser now skips every dot-dir/dot-file and every non-visual extension.
+// Files stay on disk; they just never pollute the panel again.
+const SHOWCASE_EXTS = new Set([".html", ".htm", ...IMAGE_EXTS, ...VIDEO_EXTS, ...AUDIO_EXTS, ".pdf"]);
+function isShowcaseFile(name: string): boolean {
+  if (name.startsWith(".")) return false;
+  return SHOWCASE_EXTS.has(path.extname(name).toLowerCase());
+}
+function isHiddenEntry(name: string): boolean {
+  return name.startsWith(".") || SKIP_DIRS.has(name);
+}
 
 async function safeStat(p: string) {
   try { return await stat(p); } catch { return null; }
@@ -52,9 +65,9 @@ async function countFiles(dir: string, depth = 4): Promise<number> {
   try {
     const items = await readdir(dir, { withFileTypes: true });
     for (const it of items) {
-      if (SKIP_DIRS.has(it.name)) continue;
+      if (isHiddenEntry(it.name)) continue;
       const full = path.join(dir, it.name);
-      if (it.isFile()) n++;
+      if (it.isFile()) { if (isShowcaseFile(it.name)) n++; }
       else if (it.isDirectory()) n += await countFiles(full, depth - 1);
     }
   } catch { /* ignore */ }
@@ -79,7 +92,7 @@ export async function listProjects(): Promise<FccProject[]> {
   try {
     const items = await readdir(FCC_SCRATCH_ROOT, { withFileTypes: true });
     for (const it of items) {
-      if (!it.isDirectory()) continue;
+      if (!it.isDirectory() || isHiddenEntry(it.name)) continue;
       const full = path.join(FCC_SCRATCH_ROOT, it.name);
       const st = await safeStat(full);
       if (!st) continue;
@@ -105,11 +118,12 @@ export async function listProjectFiles(project: string, maxFiles = 100): Promise
     catch { return; }
     for (const it of items) {
       if (out.length >= maxFiles) break;
-      if (SKIP_DIRS.has(it.name)) continue;
+      if (isHiddenEntry(it.name)) continue;
       const full = path.join(dir, it.name);
       if (it.isDirectory()) {
         await walk(full, depth + 1);
       } else if (it.isFile()) {
+        if (!isShowcaseFile(it.name)) continue; // showcase only — logs/config/source never surface
         const st = await safeStat(full);
         if (!st) continue;
         const kind = fileKind(it.name);
@@ -125,7 +139,14 @@ export async function listProjectFiles(project: string, maxFiles = 100): Promise
     }
   }
   await walk(projectRoot, 0);
-  out.sort((a, b) => b.mtime - a.mtime);
+  // A root index.html is the project's gallery — pin it first so the preview
+  // opens on the showcase, then newest work.
+  out.sort((a, b) => {
+    const ai = a.relPath === "index.html" ? 1 : 0;
+    const bi = b.relPath === "index.html" ? 1 : 0;
+    if (ai !== bi) return bi - ai;
+    return b.mtime - a.mtime;
+  });
   return { root: projectRoot, files: out };
 }
 

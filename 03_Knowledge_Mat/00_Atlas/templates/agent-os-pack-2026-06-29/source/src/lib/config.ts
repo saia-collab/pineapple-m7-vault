@@ -40,6 +40,15 @@ export interface AgenticConfig {
   // "userName" in ~/.agentic-os/config.json (or AGENTIC_OS_USER_NAME) to use your name.
   userName: string;
 
+  // The member's own YouTube channel URL (for the Thumbnail Studio research). Blank by
+  // default → research stays topic-only. Set "youtubeChannel" in ~/.agentic-os/config.json.
+  youtubeChannel: string;
+
+  // Optional pre-connect hint for the SEO → Research tab's site dropdown. After the
+  // member connects their GSC (scripts/gsc-connect.py) the list comes from their own
+  // verified properties; this is just a fallback. Never hardcode anyone's domains.
+  seoSites: string[];
+
   // Per-agent log directories (for the Activity Stream tile)
   openclawLogs: string;
   hermesLogs: string;
@@ -185,6 +194,8 @@ export const config: AgenticConfig = {
   vaultRoot: defaultVault(),
 
   userName: process.env.AGENTIC_OS_USER_NAME ?? fileCfg.userName ?? "You",
+  youtubeChannel: process.env.AGENTIC_OS_YT_CHANNEL ?? fileCfg.youtubeChannel ?? "",
+  seoSites: Array.isArray(fileCfg.seoSites) ? fileCfg.seoSites : [],
 
   openclawLogs:
     process.env.AGENTIC_OS_OPENCLAW_LOGS
@@ -213,8 +224,8 @@ export function isAgentInstalled(agent: "claude" | "openclaw" | "hermes" | "anti
 // The Claude model the dashboard pins for the real `claude` CLI (Claude agent
 // chat + SEO generation). Single source of truth so a model bump is a one-line
 // change. Override with AGENTIC_OS_CLAUDE_MODEL if you want a different one.
-// `claude-opus-4-8` = Claude Opus 4.8 (verified to resolve on the claude CLI).
+// `claude-opus-5` = Claude Opus 5 (launched 2026-07-24; resolves on the claude CLI + API).
 export const CLAUDE_MODEL: string =
   process.env.AGENTIC_OS_CLAUDE_MODEL
   ?? (fileCfg as { claudeModel?: string }).claudeModel
-  ?? "claude-opus-4-8";
+  ?? "claude-opus-5";

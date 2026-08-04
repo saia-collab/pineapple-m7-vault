@@ -161,7 +161,7 @@ const STYLE: Record<AgentKey, {
     accent: "#cdd3f7",
     bg: "rgba(205,211,247,0.18)",
     gradient: "linear-gradient(135deg, #20222e 0%, #4a4e63 55%, #c9cde8 100%)",
-    label: "Grok Build",
+    label: "Grok 4.5",
     glyph: (s) => (
       <svg width={s * 0.58} height={s * 0.58} viewBox="0 0 24 24" fill="none">
         <path d="M6.5 5 L17.5 19 M17.5 5 L6.5 19" stroke="white" strokeWidth="2.2" strokeLinecap="round" opacity="0.96" />

@@ -99,14 +99,14 @@ SEO STRUCTURE:
 - Aim for 1,600–2,200 words of real sentences.
 
 CTAs — include these naturally (2-4 total), as real recommendations tied to what the reader just learned:
-- Lead with the FREE option: AI Money Lab (free AI + SEO community + 1,000 AI agents) → https://www.skool.com/ai-seo-with-julian-goldie-1553/about
-- Then upsell: AI Profit Boardroom ($59/mo, step-by-step tutorials + weekly coaching, named #1 AI community by FatRank) → https://www.skool.com/ai-profit-lab-7462/about
-- All URLs must be real markdown links [text](url).
+- Lead with the Complimentary Professional Photo Audit (CPPA) → https://pineapplecontractors.com
+- Reinforce trust: IKO Certified, RCAT Licensed #03-0637, family-owned & minority-owned, serving North Texas since 2005. Call 972-928-0788.
+- All URLs must be real markdown links [text](url). NEVER use the word "free" — always "Complimentary Professional Photo Audit (CPPA)". NEVER use green; brand is Navy #1A365D + Gold #FBC02D + Cyan #00BFFF.
 
 Use a styled callout box for the main CTA like:
-> **🔥 Want the exact setup?**
-> Inside [AI Money Lab](https://www.skool.com/ai-seo-with-julian-goldie-1553/about) I walk through this step by step — free, with 1,000+ AI agents and a community building real automations.
-> **[→ Get free access here](https://www.skool.com/ai-seo-with-julian-goldie-1553/about)**
+> **📋 Ready for a Complimentary Professional Photo Audit (CPPA)?**
+> Pineapple Contractors documents your roof with a full photo report — no pressure, no cost to you. IKO Certified · RCAT #03-0637 · North Texas since 2005.
+> **[→ Book your CPPA here](https://pineapplecontractors.com)**
 
 Now write the full article.`;
 }

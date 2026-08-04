@@ -1,0 +1,59 @@
+# ============================================================
+#  Pineapple Contractors M7 — Hermes Dashboard Theme
+#  Royal Navy #1A365D · Pineapple Gold #FBC02D · Status Cyan #00BFFF · ZERO green.
+#
+#  This is the VAULT MASTER copy (single source of truth).
+#  Hermes loads user themes from  %LOCALAPPDATA%\hermes\dashboard-themes\*.yaml
+#  — that dir is USER data, so this theme SURVIVES `hermes update` (no vendor
+#  files touched, no web rebuild needed).
+#
+#  Install / re-install after a Hermes update:
+#    copy this file → %LOCALAPPDATA%\hermes\dashboard-themes\m7.yaml
+#    hermes config set dashboard.theme m7
+#    hermes dashboard --stop ; hermes dashboard --no-open --port 9119 --skip-build
+# ============================================================
+name: m7
+label: "Pineapple M7"
+description: "Royal Navy + Pineapple Gold + Status Cyan — zero green (The Pineapple Standard)"
+
+palette:
+  background: "#0a1a33"          # deep royal navy canvas
+  midground: "#fbc02d"           # Pineapple Gold accent field
+  foreground:
+    hex: "#ffffff"
+    alpha: 0
+  warmGlow: "rgba(251, 192, 45, 0.30)"   # gold glow
+  noiseOpacity: 0.7
+
+typography:
+  fontSans: '"Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif'
+  fontMono: '"JetBrains Mono", ui-monospace, "Cascadia Mono", Consolas, monospace'
+  fontUrl: "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap"
+  letterSpacing: "-0.005em"
+
+layout:
+  radius: "0.5rem"
+  density: "comfortable"
+
+# Semantic colors — this is where M7 brand law is enforced.
+# NOTE: success is mapped to CYAN (not green) to honor the zero-green rule.
+colorOverrides:
+  primary: "#fbc02d"             # gold — primary buttons / CTAs
+  primaryForeground: "#1a365d"   # navy text on gold
+  secondary: "#1a365d"           # royal navy
+  secondaryForeground: "#ffffff"
+  accent: "#00bfff"              # status cyan
+  accentForeground: "#04122a"
+  card: "#12244a"                # navy panel
+  cardForeground: "#eaf2ff"
+  popover: "#12244a"
+  popoverForeground: "#eaf2ff"
+  muted: "#1a2f52"
+  mutedForeground: "#9db4d8"
+  border: "#1a365d"              # navy borders (the Navy Photo Moat signal)
+  input: "#12244a"
+  ring: "#00bfff"                # cyan focus ring
+  success: "#00bfff"             # CYAN, not green — enforces zero-green
+  warning: "#fbc02d"             # gold
+  destructive: "#e5484d"         # red (permitted; never green)
+  destructiveForeground: "#ffffff"

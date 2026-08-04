@@ -8,7 +8,7 @@ export const maxDuration = 300;
 
 // Sakana Fugu Ultra — multi-agent panel API. OpenAI-compatible endpoint.
 // Direct competitor to OpenRouter Fusion: same panel idea, ~4× cheaper per call
-// on goldiebench. Streams deltas in the agent-view envelope:
+// on the leaderboard. Streams deltas in the agent-view envelope:
 //   {"t":"d","c":"chunk"} · {"t":"done"} · {"t":"error","m":"…"}
 const ENDPOINT = "https://api.sakana.ai/v1/chat/completions";
 const MODEL = "fugu-ultra-20260615";

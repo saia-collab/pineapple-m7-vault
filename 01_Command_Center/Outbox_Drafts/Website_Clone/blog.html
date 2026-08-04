@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pineapple Blog | Roofing, Storm &amp; Restoration Insights for DFW | Pineapple Contractors</title>
+<meta name="description" content="Practical roofing, storm restoration and insurance-claim insights from the IKO Certified team at Pineapple Contractors. North Texas homeowners, this is for you.">
+<!-- M7 PAUSED DRAFT · brand: Navy #1A365D + Gold #FBC02D + Cyan #00BFFF · zero green · CPPA not "free" · IKO Certified (never the banned brand) -->
+<style>
+  :root{
+    --navy:#1A365D; --navy-900:#122744; --gold:#FBC02D; --cyan:#00BFFF;
+    --ink:#0f172a; --slate:#475569; --line:#e6e9ef; --paper:#ffffff; --mist:#f6f8fb;
+    --maxw:1200px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    color:var(--ink);line-height:1.6;background:var(--paper);-webkit-font-smoothing:antialiased}
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 24px}
+  h1,h2,h3{line-height:1.15;letter-spacing:-0.02em;font-weight:800;color:var(--navy)}
+  .eyebrow{font-size:.78rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--cyan)}
+  .btn{display:inline-flex;align-items:center;gap:.5rem;font-weight:700;padding:.85rem 1.5rem;border-radius:8px;
+    font-size:.98rem;transition:transform .12s ease,box-shadow .12s ease;cursor:pointer;border:0}
+  .btn-gold{background:var(--gold);color:var(--navy-900)}
+  .btn-gold:hover{transform:translateY(-1px);box-shadow:0 8px 22px rgba(251,192,45,.35)}
+  .btn-ghost{background:transparent;color:#fff;border:1.5px solid rgba(255,255,255,.5)}
+  .btn-ghost:hover{border-color:var(--cyan);color:var(--cyan)}
+  .btn-navy{background:var(--navy);color:#fff}
+  .btn-navy:hover{transform:translateY(-1px);box-shadow:0 8px 22px rgba(26,54,93,.28)}
+
+  /* top utility bar */
+  .util{background:var(--navy-900);color:#dbe4f0;font-size:.82rem}
+  .util .wrap{display:flex;justify-content:space-between;align-items:center;height:40px;gap:16px;flex-wrap:wrap}
+  .util .dot{color:var(--gold)}
+  .util .social span{margin-left:12px;opacity:.85}
+
+  /* header */
+  header{position:sticky;top:0;z-index:50;background:#fff;border-bottom:1px solid var(--line)}
+  .nav{display:flex;align-items:center;justify-content:space-between;height:76px}
+  .brand{display:flex;align-items:center;gap:12px;font-weight:800;color:var(--navy);font-size:1.15rem;letter-spacing:-.02em}
+  .brand .mark{width:34px;height:34px;border-radius:8px;background:var(--navy);position:relative;flex:0 0 auto}
+  .brand .mark:after{content:"";position:absolute;inset:8px 9px;border-radius:2px;
+    background:linear-gradient(135deg,var(--gold) 0%,var(--gold) 60%,#fff 60%)}
+  .menu{display:flex;gap:26px;font-weight:600;font-size:.95rem;color:var(--slate)}
+  .menu a:hover{color:var(--navy)}
+  .menu a.active{color:var(--navy);position:relative}
+  .menu a.active:after{content:"";position:absolute;left:0;right:0;bottom:-28px;height:2px;background:var(--gold)}
+  .nav .cta{display:flex;align-items:center;gap:16px}
+  .nav .phone{font-weight:800;color:var(--navy);font-size:1rem}
+
+  /* page hero (lighter) */
+  .pagehero{background:
+      linear-gradient(180deg,rgba(18,39,68,.92),rgba(18,39,68,.95)),
+      url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10"><rect width="10" height="10" fill="%231A365D"/></svg>');
+    color:#fff;padding:64px 0 56px}
+  .pagehero h1{color:#fff;font-size:2.6rem;max-width:24ch;margin:.5rem 0 .8rem}
+  .pagehero h1 .accent{color:var(--gold)}
+  .pagehero p{color:#cfd9e8;max-width:60ch;font-size:1.05rem}
+
+  /* thin-divider trust bar */
+  .trust{border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  .trust .grid{display:grid;grid-template-columns:repeat(4,1fr)}
+  .trust .cell{padding:26px 20px;border-left:1px solid var(--line)}
+  .trust .cell:first-child{border-left:0}
+  .trust .k{font-weight:800;color:var(--navy);font-size:1.05rem}
+  .trust .v{font-size:.9rem;color:var(--slate)}
+
+  section{padding:78px 0}
+  .sec-head{max-width:60ch;margin-bottom:38px}
+  .sec-head h2{font-size:2.15rem;margin-top:.4rem}
+  .sec-head p{color:var(--slate);margin-top:.6rem;font-size:1.05rem}
+
+  /* blog index */
+  .blogbar{display:flex;justify-content:space-between;align-items:end;flex-wrap:wrap;gap:18px;margin-bottom:36px}
+  .blogbar h2{font-size:2.15rem}
+  .blogfilters{display:flex;gap:10px;flex-wrap:wrap}
+  .blogfilters .pill{border:1px solid var(--line);border-radius:99px;padding:.45rem 1rem;font-weight:600;color:var(--navy);font-size:.88rem;background:#fff}
+  .blogfilters .pill.on{background:var(--navy);color:#fff;border-color:var(--navy)}
+  .blogfilters .pill:hover{border-color:var(--gold)}
+
+  .posts{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
+  .post{background:#fff;border:1px solid var(--line);border-radius:14px;overflow:hidden;display:flex;flex-direction:column;transition:transform .15s ease,box-shadow .15s ease}
+  .post:hover{transform:translateY(-2px);box-shadow:0 18px 40px rgba(8,20,40,.08)}
+  .post .thumb{height:200px;background:linear-gradient(135deg,var(--navy) 0%,var(--navy-900) 100%);position:relative;display:flex;align-items:flex-end;padding:18px}
+  .post .thumb.tag1{background:linear-gradient(135deg,var(--navy) 0%,#234070 100%)}
+  .post .thumb.tag2{background:linear-gradient(135deg,var(--navy-900) 0%,#1a4470 100%)}
+  .post .thumb.tag3{background:linear-gradient(135deg,#1d3a64 0%,var(--navy-900) 100%)}
+  .post .thumb .cat{background:var(--gold);color:var(--navy-900);font-size:.72rem;font-weight:800;padding:5px 11px;border-radius:99px;letter-spacing:.06em;text-transform:uppercase}
+  .post .body{padding:24px;flex:1;display:flex;flex-direction:column}
+  .post .meta{font-size:.82rem;color:var(--slate);margin-bottom:8px;display:flex;gap:10px;align-items:center}
+  .post .meta .dot{color:var(--line)}
+  .post h3{font-size:1.18rem;margin-bottom:.6rem}
+  .post h3 a:hover{color:var(--cyan)}
+  .post p.excerpt{color:var(--slate);font-size:.95rem;margin-bottom:1rem;flex:1}
+  .post .more{color:var(--navy);font-weight:700;font-size:.9rem}
+  .post .more:hover{color:var(--cyan)}
+
+  /* featured (large first) */
+  .featured{display:grid;grid-template-columns:1.2fr .8fr;gap:0;background:#fff;border:1px solid var(--line);border-radius:14px;overflow:hidden;margin-bottom:28px}
+  .featured .img{background:linear-gradient(135deg,var(--navy) 0%,var(--navy-900) 100%);min-height:340px;position:relative;display:flex;align-items:flex-end;padding:26px}
+  .featured .img .cat{background:var(--gold);color:var(--navy-900);font-size:.78rem;font-weight:800;padding:6px 14px;border-radius:99px;letter-spacing:.06em;text-transform:uppercase}
+  .featured .body{padding:36px;display:flex;flex-direction:column;justify-content:center}
+  .featured .meta{font-size:.85rem;color:var(--slate);margin-bottom:10px;display:flex;gap:10px;align-items:center}
+  .featured .meta .dot{color:var(--line)}
+  .featured h3{font-size:1.7rem;margin-bottom:.7rem;line-height:1.2}
+  .featured p{color:var(--slate);margin-bottom:1.2rem;font-size:1.02rem}
+  .featured .more{color:var(--navy);font-weight:800;font-size:.95rem}
+  .featured .more:hover{color:var(--cyan)}
+
+  /* newsletter */
+  .news{background:var(--navy);color:#fff;text-align:center;padding:56px 0}
+  .news h2{color:#fff;font-size:1.9rem;max-width:30ch;margin:0 auto .5rem}
+  .news p{color:#cfd9e8;margin-bottom:1.4rem;max-width:54ch;margin-left:auto;margin-right:auto}
+  .news form{display:flex;gap:8px;max-width:440px;margin:0 auto;flex-wrap:wrap;justify-content:center}
+  .news input{flex:1;min-width:220px;padding:.85rem 1rem;border:0;border-radius:8px;font-size:.98rem;background:#fff;color:var(--ink)}
+  .news .fine{font-size:.78rem;color:#9fb1cc;margin-top:14px}
+
+  /* final CTA */
+  .final{background:var(--gold)}
+  .final .grid{display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap}
+  .final h2{color:var(--navy-900);font-size:2rem;max-width:24ch}
+  .final .actions{display:flex;gap:12px;flex-wrap:wrap}
+
+  /* footer */
+  footer{background:var(--navy-900);color:#b9c6da;font-size:.92rem;padding:52px 0 30px}
+  footer .grid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:36px;margin-bottom:28px}
+  footer h4{color:#fff;font-size:.95rem;margin-bottom:12px;letter-spacing:.04em;text-transform:uppercase}
+  footer a{display:block;padding:4px 0;color:#b9c6da}
+  footer a:hover{color:var(--gold)}
+  footer .legal{border-top:1px solid rgba(255,255,255,.12);padding-top:18px;font-size:.82rem;color:#8ea1bd}
+
+  @media(max-width:900px){
+    .pagehero h1{font-size:2.1rem}
+    .blogbar{flex-direction:column;align-items:start}
+    .posts,.featured,.trust .grid,footer .grid{grid-template-columns:1fr}
+    .trust .cell{border-left:0;border-top:1px solid var(--line)}
+    .trust .cell:first-child{border-top:0}
+    .menu,.util .social{display:none}
+  }
+</style>
+</head>
+<body>
+
+<!-- utility bar -->
+<div class="util"><div class="wrap">
+  <div>📞 <strong>(972) 928-0788</strong> <span class="dot">·</span> License #03-0637 <span class="dot">·</span> IKO Certified <span class="dot">·</span> ⭐ 5-Star Rated Since 2005</div>
+  <div class="social">Google<span>BBB</span><span>Facebook</span><span>Yelp</span><span>Instagram</span><span>YouTube</span></div>
+</div></div>
+
+<!-- header -->
+<header><div class="wrap nav">
+  <a class="brand" href="index.html"><span class="mark"></span> Pineapple Contractors</a>
+  <nav class="menu">
+    <a href="residential-roofing.html">Roofing</a>
+    <a href="index.html#services">Construction</a>
+    <a href="index.html#services">Restoration</a>
+    <a href="frisco-roofing.html">Service Areas</a>
+    <a href="index.html#why">About</a>
+    <a class="active" href="blog.html">Blog</a>
+  </nav>
+  <div class="cta">
+    <span class="phone">(972) 928-0788</span>
+    <a class="btn btn-gold" href="index.html#cppa">Book Your CPPA →</a>
+  </div>
+</div></header>
+
+<!-- page hero -->
+<div class="pagehero"><div class="wrap">
+  <span class="eyebrow">Pineapple Blog</span>
+  <h1>Roofing &amp; restoration, <span class="accent">explained for North Texas.</span></h1>
+  <p>Plain-English insights from the IKO Certified crew at Pineapple Contractors — covering storm damage, insurance claims, materials, and what to do when your roof starts talking back. Every post is written to The Pineapple Standard, and every recommendation starts with a no-cost Complimentary Professional Photo Audit (CPPA).</p>
+  <div class="chips" style="margin-top:1.4rem">
+    <span class="chip"><span class="i">📞</span> <b>972-928-0788</b></span>
+    <span class="chip"><span class="i">✔</span> <b>IKO</b> Certified</span>
+    <span class="chip"><span class="i">§</span> <b>RCAT</b> #03-0637</span>
+    <span class="chip"><span class="i">★</span> <b>5-Star</b> since 2005</span>
+  </div>
+</div></div>
+
+<!-- trust bar -->
+<div class="trust"><div class="wrap grid">
+  <div class="cell"><div class="k">Since 2005</div><div class="v">20+ years on DFW homes</div></div>
+  <div class="cell"><div class="k">RCAT #03-0637</div><div class="v">State-licensed contractor</div></div>
+  <div class="cell"><div class="k">IKO Certified</div><div class="v">Manufacturer-certified installs</div></div>
+  <div class="cell"><div class="k">5-Star Local</div><div class="v">400+ DFW reviews</div></div>
+</div></div>
+
+<!-- blog index -->
+<section><div class="wrap">
+  <div class="blogbar">
+    <h2>Latest from the field</h2>
+    <div class="blogfilters">
+      <span class="pill on">All</span>
+      <span class="pill">Storm &amp; Hail</span>
+      <span class="pill">Insurance</span>
+      <span class="pill">Materials</span>
+      <span class="pill">Maintenance</span>
+      <span class="pill">Restoration</span>
+    </div>
+  </div>
+
+  <!-- Featured / latest post -->
+  <a class="featured" href="blog-hail-damage-frisco.html">
+    <div class="img"><span class="cat">Storm &amp; Hail</span></div>
+    <div class="body">
+      <div class="meta">Jul 13, 2026 <span class="dot">·</span> 7 min read <span class="dot">·</span> Pineapple Crew</div>
+      <h3>Hail Damage in Frisco: What Homeowners Need to Do in the First 72 Hours</h3>
+      <p>The exact playbook our crew runs on every Frisco hail call — what to photograph, what to skip, how to talk to your insurance company, and how to avoid the storm-chasing traps.</p>
+      <span class="more">Read the full guide →</span>
+    </div>
+  </a>
+
+  <div class="posts">
+    <article class="post">
+      <div class="thumb tag1"><span class="cat">Insurance</span></div>
+      <div class="body">
+        <div class="meta">Jun 28, 2026 <span class="dot">·</span> 5 min read <span class="dot">·</span> Saia Moeakiola</div>
+        <h3><a href="#">How North Texas Insurance Claims Actually Work (From the Adjuster's Side)</a></h3>
+        <p class="excerpt">A practical look at the claim timeline, what's covered, what's not, and how to make sure your adjuster sees every piece of damage.</p>
+        <a class="more" href="#">Read more →</a>
+      </div>
+    </article>
+
+    <article class="post">
+      <div class="thumb tag2"><span class="cat">Materials</span></div>
+      <div class="body">
+        <div class="meta">Jun 14, 2026 <span class="dot">·</span> 6 min read <span class="dot">·</span> Pineapple Crew</div>
+        <h3><a href="#">IKO Architectural vs. Designer Shingles: Which Is Right for Your DFW Home?</a></h3>
+        <p class="excerpt">A side-by-side breakdown of weight, warranty, cost, and curb appeal — so you can pick the right system without the sales pitch.</p>
+        <a class="more" href="#">Read more →</a>
+      </div>
+    </article>
+
+    <article class="post">
+      <div class="thumb tag3"><span class="cat">Storm &amp; Hail</span></div>
+      <div class="body">
+        <div class="meta">May 30, 2026 <span class="dot">·</span> 4 min read <span class="dot">·</span> Pineapple Crew</div>
+        <h3><a href="#">Grapevine Roofs After a Storm: What Insurance Adjusters Look For</a></h3>
+        <p class="excerpt">Wind vs. hail vs. age — how adjusters distinguish the three on a Tarrant County roof, and how to document damage the right way.</p>
+        <a class="more" href="#">Read more →</a>
+      </div>
+    </article>
+
+    <article class="post">
+      <div class="thumb tag2"><span class="cat">Maintenance</span></div>
+      <div class="body">
+        <div class="meta">May 18, 2026 <span class="dot">·</span> 4 min read <span class="dot">·</span> Pineapple Crew</div>
+        <h3><a href="#">The 7-Point North Texas Roof Check You Can Do From the Ground</a></h3>
+        <p class="excerpt">No ladder, no risk. Seven visual cues from your driveway that tell you whether your roof needs a real inspection this year.</p>
+        <a class="more" href="#">Read more →</a>
+      </div>
+    </article>
+
+    <article class="post">
+      <div class="thumb tag1"><span class="cat">Restoration</span></div>
+      <div class="body">
+        <div class="meta">May 04, 2026 <span class="dot">·</span> 5 min read <span class="dot">·</span> Pineapple Crew</div>
+        <h3><a href="#">Water Damage in the First 24 Hours: What to Save, What to Toss</a></h3>
+        <p class="excerpt">The decision tree our restoration team walks every homeowner through — and the mistakes that cost thousands to fix later.</p>
+        <a class="more" href="#">Read more →</a>
+      </div>
+    </article>
+
+    <article class="post">
+      <div class="thumb tag3"><span class="cat">Insurance</span></div>
+      <div class="body">
+        <div class="meta">Apr 22, 2026 <span class="dot">·</span> 4 min read <span class="dot">·</span> Pineapple Crew</div>
+        <h3><a href="#">Why Your Insurance Company Denied Your Roof Claim (and What to Do Next)</a></h3>
+        <p class="excerpt">The five most common denial reasons we see across DFW — and the documentation that flips each one.</p>
+        <a class="more" href="#">Read more →</a>
+      </div>
+    </article>
+  </div>
+</div></section>
+
+<!-- newsletter -->
+<div class="news"><div class="wrap">
+  <span class="eyebrow" style="color:var(--gold)">Get the next post first</span>
+  <h2 style="margin-top:6px">Roofing insights for North Texas homeowners.</h2>
+  <p>One short email when we publish — no spam, no sales pitch, just the kind of post you'd send to a friend.</p>
+  <form onsubmit="return false;">
+    <input type="email" placeholder="you@email.com" aria-label="Email address">
+    <button class="btn btn-gold" type="submit">Subscribe →</button>
+  </form>
+  <div class="fine">⏸ PAUSED DRAFT — newsletter lead capture is paused (Outbox Shield) until reviewed &amp; wired.</div>
+</div></div>
+
+<!-- final CTA -->
+<div class="final"><section style="padding:52px 0"><div class="wrap grid">
+  <h2>Reading is good. A real audit is better.</h2>
+  <div class="actions">
+    <a class="btn btn-navy" href="tel:9729280788">📞 (972) 928-0788</a>
+    <a class="btn btn-navy" href="index.html#cppa" style="background:var(--navy-900)">Book My CPPA →</a>
+  </div>
+</div></section></div>
+
+<!-- footer -->
+<footer><div class="wrap">
+  <div class="grid">
+    <div>
+      <div class="brand" style="color:#fff;margin-bottom:12px"><span class="mark"></span> Pineapple Contractors</div>
+      <p style="max-width:34ch">IKO Certified roofing &amp; construction across Dallas–Fort Worth since 2005. RCAT License #03-0637.</p>
+    </div>
+    <div><h4>Services</h4><a href="residential-roofing.html">Residential Roofing</a><a href="index.html#services">Commercial Roofing</a><a href="index.html#services">Restoration</a><a href="index.html#services">Construction</a><a href="index.html#services">Insurance Claims</a></div>
+    <div><h4>Company</h4><a href="index.html#why">About</a><a href="frisco-roofing.html">Service Areas</a><a href="blog.html">Blog</a><a href="index.html#why">Reviews</a><a href="index.html#cppa">Contact</a></div>
+  </div>
+  <div class="legal">© Pineapple Contractors · RCAT #03-0637 · IKO Certified · 5-Star Rated · Since 2005 · (972) 928-0788
+    <br><span style="color:var(--gold)">⏸ PAUSED DRAFT — lead form inactive (Outbox Shield) until reviewed &amp; wired.</span></div>
+</div></footer>
+
+</body>
+</html>

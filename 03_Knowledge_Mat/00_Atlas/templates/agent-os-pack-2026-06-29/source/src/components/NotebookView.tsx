@@ -10,7 +10,7 @@ import {
 } from "lucide-react";
 import VoiceButton from "./VoiceButton";
 
-type Tab = "library" | "shortvideo" | "research" | "chat" | "studio" | "assets";
+type Tab = "library" | "shorts" | "podcasts" | "infographics" | "decks" | "reports" | "studio" | "assets" | "research" | "chat";
 type ResearchSource = { title?: string; url?: string; source?: string; link?: string; type?: string; snippet?: string; description?: string; summary?: string; [k: string]: unknown };
 type ResearchPhase = "idle" | "starting" | "running" | "done" | "error";
 // The 9 artifact types the new MCP actually supports (matches studio_create + download_artifact).
@@ -145,11 +145,11 @@ export default function NotebookView() {
       if (raw) { const { nb, id } = JSON.parse(raw); if (nb && id) { setSvBusy(true); setSvStatus("⏳ Picking your short back up…"); pollShort(nb, id); } }
     } catch {}
   }, [pollShort]);
-  // Whenever a notebook is picked on the Short Video tab, list its shorts.
-  useEffect(() => { if (tab === "shortvideo" && activeId) loadRecent(activeId); }, [tab, activeId, loadRecent]);
+  // Whenever a notebook is picked on the Shorts tab, list its shorts.
+  useEffect(() => { if (tab === "shorts" && activeId) loadRecent(activeId); }, [tab, activeId, loadRecent]);
   // While any short is still rendering, quietly refresh the list every 30s.
   useEffect(() => {
-    if (tab !== "shortvideo" || !activeId) return;
+    if (tab !== "shorts" || !activeId) return;
     const rendering = svRecent.some((v) => v.status !== "completed" && !/fail/i.test(v.status));
     if (!rendering) return;
     const iv = setInterval(() => loadRecent(activeId), 30000);
@@ -187,8 +187,11 @@ export default function NotebookView() {
   useEffect(() => () => { if (rPollRef.current) clearInterval(rPollRef.current); }, []);
   useEffect(() => {
     const sp = new URLSearchParams(window.location.search);
-    const t = sp.get("tab");
-    if (t && ["library", "shortvideo", "research", "chat", "studio", "assets"].includes(t)) setTab(t as Tab);
+    let t = sp.get("tab");
+    // legacy tab names from old links
+    if (t === "shortvideo") t = "shorts";
+    if (t === "more") t = "studio"; // brief interim name
+    if (t && ["library", "shorts", "podcasts", "infographics", "decks", "reports", "studio", "assets", "research", "chat"].includes(t)) setTab(t as Tab);
     const nb = sp.get("nb"); if (nb) setActiveId(nb);
   }, []);
 
@@ -287,7 +290,7 @@ export default function NotebookView() {
     setThinking(false);
   }
 
-  async function createArtifact() {
+  async function createTyped(artifactType: ArtifactType) {
     if (!activeId || studioBusy) return;
     setStudioBusy(true); setErr(null);
     try {
@@ -296,7 +299,7 @@ export default function NotebookView() {
         headers: { "content-type": "application/json" },
         body: JSON.stringify({
           notebook_id: activeId,
-          artifact_type: studioType,
+          artifact_type: artifactType,
           custom_prompt: studioPrompt.trim() || undefined,
         }),
       });
@@ -407,13 +410,182 @@ export default function NotebookView() {
   }
 
   const tabs: { key: Tab; label: string; icon: React.ReactNode }[] = [
-    { key: "library",  label: "Library",  icon: <Library size={14} /> },
-    { key: "shortvideo", label: "Short Video", icon: <VideoIcon size={14} /> },
-    { key: "research", label: "Research", icon: <Telescope size={14} /> },
-    { key: "chat",     label: "Chat",     icon: <MessageSquare size={14} /> },
-    { key: "studio",   label: "Studio",   icon: <Sparkles size={14} /> },
-    { key: "assets",   label: "Assets",   icon: <Download size={14} /> },
+    { key: "library",      label: "Library",      icon: <Library size={14} /> },
+    { key: "shorts",       label: "Shorts",       icon: <VideoIcon size={14} /> },
+    { key: "podcasts",     label: "Podcasts",     icon: <Headphones size={14} /> },
+    { key: "infographics", label: "Infographics", icon: <ImageIcon size={14} /> },
+    { key: "decks",        label: "Decks",        icon: <Layers size={14} /> },
+    { key: "reports",      label: "Reports",      icon: <FileText size={14} /> },
+    { key: "studio",       label: "Studio",       icon: <Sparkles size={14} /> },
+    { key: "assets",       label: "Assets",       icon: <Download size={14} /> },
+    { key: "research",     label: "Research",     icon: <Telescope size={14} /> },
+    { key: "chat",         label: "Chat",         icon: <MessageSquare size={14} /> },
   ];
+
+  // ---- Per-type sections (Podcasts / Infographics / Decks / Reports / More) ----
+  // Each content type gets its own tab: a generator wired to that type + a visual
+  // gallery of everything saved locally + the live artifacts still in NotebookLM.
+  type SectionCfg = {
+    key: Tab; title: string; blurb: string; hint: string;
+    artTypes: ArtifactType[]; fixedType?: ArtifactType; colour: string;
+    savedMatch: (a: SavedAsset) => boolean;
+    galleryCols: string;
+    showGallery?: boolean;
+  };
+  const SECTIONS: SectionCfg[] = [
+    { key: "podcasts", title: "Podcast Generator", colour: "#22d3ee",
+      blurb: "Two AI hosts talk through the notebook's sources — a ready-to-publish audio episode.",
+      hint: "Audio renders in 2–10 min on Google's side, then Pull it into the gallery.",
+      artTypes: ["audio"], fixedType: "audio",
+      savedMatch: (a) => a.kind === "audio", galleryCols: "grid-cols-1 md:grid-cols-2" },
+    { key: "infographics", title: "Infographic Generator", colour: "#ec4899",
+      blurb: "One shareable image that boils the whole notebook down — great for X, LinkedIn and blog posts.",
+      hint: "Renders in ~1–3 min, then Pull it into the gallery.",
+      artTypes: ["infographic"], fixedType: "infographic",
+      savedMatch: (a) => a.kind === "image", galleryCols: "grid-cols-1 md:grid-cols-2" },
+    { key: "decks", title: "Slide Deck Generator", colour: "#fde047",
+      blurb: "A full presentation built from the sources — pull it as a PDF and present or repurpose.",
+      hint: "Renders in ~1–3 min, then Pull it into the gallery.",
+      artTypes: ["slide_deck"], fixedType: "slide_deck",
+      savedMatch: (a) => a.kind === "pdf" || a.kind === "html", galleryCols: "grid-cols-1 md:grid-cols-2" },
+    { key: "reports", title: "Report Generator", colour: "#fb7185",
+      blurb: "A written strategic brief — the notebook's sources turned into a structured document.",
+      hint: "Renders in under a minute, then Pull it into the gallery.",
+      artTypes: ["report"], fixedType: "report",
+      savedMatch: (a) => /\.(md|txt|docx?)$/i.test(a.name), galleryCols: "grid-cols-1 md:grid-cols-2" },
+    { key: "studio", title: "Studio — generate anything", colour: "#00BFFF",
+      blurb: "Every format NotebookLM can make, one click each — audio, video, infographics, decks, reports, mind maps, flashcards, quizzes, data tables.",
+      hint: "Audio 2–10 min · video 5–15 min · decks/images 1–3 min · the rest 30 s–2 min.",
+      artTypes: ["audio", "video", "infographic", "slide_deck", "report", "mind_map", "flashcards", "quiz", "data_table"],
+      savedMatch: () => false, galleryCols: "grid-cols-1 md:grid-cols-2", showGallery: false },
+  ];
+
+  function renderTypeSection(cfg: SectionCfg) {
+    const liveArts = artifacts.filter((a) => cfg.artTypes.includes(a.type as ArtifactType));
+    const saved = savedAssets.filter(cfg.savedMatch);
+    const genType = cfg.fixedType ?? studioType;
+    const typeMeta = ARTIFACT_TYPES.find((t) => t.value === genType);
+    return (
+      <div className="space-y-4">
+        {/* Generator */}
+        <div className="panel p-4">
+          <div className="flex items-center gap-2 mb-2">
+            <span style={{ color: cfg.colour }}>{typeMeta?.icon ?? <Sparkles size={16} />}</span>
+            <div>
+              <div className="text-[14px] font-medium text-[var(--fg)]">{cfg.title}</div>
+              <div className="text-[12px] text-[var(--fg-dim)]">{cfg.blurb}</div>
+            </div>
+          </div>
+          {!activeNotebook ? (
+            <div className="text-[12.5px] text-[var(--fg-dim)]">Pick a notebook in Library first — generation feeds on its sources.</div>
+          ) : (
+            <>
+              {!cfg.fixedType && (
+                <div className="flex gap-1.5 flex-wrap mb-2">
+                  {ARTIFACT_TYPES.filter((t) => cfg.artTypes.includes(t.value)).map((t) => {
+                    const active = studioType === t.value;
+                    return (
+                      <button key={t.value} onClick={() => setStudioType(t.value)}
+                        className="flex items-center gap-1.5 px-2 py-1.5 rounded-md text-[11.5px] border transition"
+                        style={{ background: active ? `${t.colour}22` : "transparent", borderColor: active ? t.colour : "var(--panel-border)", color: active ? "var(--fg)" : "var(--fg-dim)" }}>
+                        {t.icon}{t.label}
+                      </button>
+                    );
+                  })}
+                </div>
+              )}
+              <div className="flex items-end gap-2">
+                <input value={studioPrompt} onChange={(e) => setStudioPrompt(e.target.value)}
+                  placeholder={`Optional focus (e.g. "beginner-friendly", "just the comparisons")… feeds on ${notebookLabel(activeNotebook)}`}
+                  className="flex-1 bg-[rgba(0,0,0,0.25)] border border-[var(--panel-border)] rounded-lg px-3 h-[38px] text-sm outline-none focus:border-[var(--panel-border-hot)] text-[var(--fg)]" />
+                <button onClick={() => createTyped(genType)} disabled={studioBusy}
+                  className="px-4 h-[38px] rounded-lg flex items-center gap-1.5 text-sm transition disabled:opacity-40"
+                  style={{ background: `${cfg.colour}22`, border: `1px solid ${cfg.colour}66`, color: cfg.colour }}>
+                  {studioBusy ? <RefreshCw size={14} className="animate-spin" /> : <Sparkles size={14} />}
+                  {studioBusy ? "Generating…" : "Generate"}
+                </button>
+              </div>
+              <div className="mt-2 text-[10px] uppercase tracking-widest text-[var(--fg-dimmer)]">{cfg.hint}</div>
+            </>
+          )}
+        </div>
+
+        {/* Rendering / ready in NotebookLM */}
+        {activeNotebook && liveArts.length > 0 && (
+          <div>
+            <div className="flex items-center justify-between mb-2">
+              <div className="text-[10px] uppercase tracking-widest text-[var(--fg-dimmer)] flex items-center gap-1.5">
+                <Sparkles size={11} /> In {notebookLabel(activeNotebook)} ({liveArts.length})
+              </div>
+              <button onClick={() => refreshArtifacts(activeId!)} className="text-[10px] uppercase tracking-widest text-[var(--fg-dimmer)] hover:text-[var(--fg-dim)]">
+                <RefreshCw size={10} className="inline mr-1" />Refresh
+              </button>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+              {liveArts.map((a) => {
+                const ready = a.status === "ready" || a.status === "complete" || a.status === "completed";
+                const ntblmUrl = a.audio_url || a.video_url || a.infographic_url || a.slide_deck_url;
+                return (
+                  <div key={a.artifact_id} className="panel p-3">
+                    <div className="flex items-center justify-between gap-2 mb-2">
+                      <span className="text-[12px] font-medium truncate">{a.title || a.type}</span>
+                      <span className="text-[9px] uppercase tracking-widest px-1.5 py-0.5 rounded-full shrink-0"
+                        style={{ background: ready ? "rgba(134,239,172,0.12)" : `${cfg.colour}14`, color: ready ? "#86efac" : cfg.colour }}>
+                        {ready ? "ready" : (a.status || "rendering")}
+                      </span>
+                    </div>
+                    <div className="flex items-center gap-1.5">
+                      <button onClick={() => downloadArtifact(a)} disabled={busy === `dl-${a.artifact_id}` || !ready}
+                        className="px-2 py-1 rounded-md text-[11px] border flex items-center gap-1 transition disabled:opacity-40"
+                        style={{ background: `${cfg.colour}14`, borderColor: `${cfg.colour}55`, color: cfg.colour }}>
+                        {busy === `dl-${a.artifact_id}` ? <RefreshCw size={10} className="animate-spin" /> : <Download size={10} />} Pull to gallery
+                      </button>
+                      {ntblmUrl && (
+                        <a href={ntblmUrl} target="_blank" rel="noopener noreferrer"
+                          className="px-2 py-1 rounded-md text-[11px] border border-[var(--panel-border)] text-[var(--fg-dim)] hover:text-[var(--fg)] flex items-center gap-1 transition">
+                          <ExternalLink size={10} /> View
+                        </a>
+                      )}
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        )}
+
+        {/* Gallery of everything saved locally */}
+        {cfg.showGallery !== false && (
+        <div>
+          <div className="text-[10px] uppercase tracking-widest text-[var(--fg-dimmer)] flex items-center gap-1.5 mb-2">
+            <Library size={11} /> Gallery · everything saved ({saved.length})
+          </div>
+          {saved.length === 0 ? (
+            <div className="panel p-6 text-center text-[var(--fg-dim)] text-sm">Nothing here yet — generate one above, then hit <strong>Pull to gallery</strong> when it&apos;s ready.</div>
+          ) : (
+            <div className={`grid ${cfg.galleryCols} gap-3`}>
+              {saved.map((a) => (
+                <div key={a.path} className="panel p-3">
+                  <div className="flex items-center justify-between gap-2 mb-2">
+                    <div className="min-w-0">
+                      <div className="text-[12.5px] font-medium text-[var(--fg)] truncate">{a.name.replace(/[-_]/g, " ").replace(/\.\w+$/, "")}</div>
+                      <div className="text-[10px] text-[var(--fg-dimmer)] font-[var(--font-geist-mono)] truncate">{a.notebook} · {(a.bytes / 1024 / 1024).toFixed(1)}MB</div>
+                    </div>
+                    <a href={`/api/notebooklm/artifact/download?path=${encodeURIComponent(a.path)}`} download={a.name}
+                      className="text-[var(--fg-dim)] hover:text-[var(--fg)] flex items-center gap-1 text-[10px] uppercase tracking-widest shrink-0">
+                      <Download size={11} /> Save
+                    </a>
+                  </div>
+                  <AssetPreview asset={a} />
+                </div>
+              ))}
+            </div>
+          )}
+        </div>
+        )}
+      </div>
+    );
+  }
 
   return (
     <div className="space-y-5">
@@ -505,7 +677,7 @@ export default function NotebookView() {
         </div>
       )}
 
-      {tab === "shortvideo" && (
+      {tab === "shorts" && (
         <div className="space-y-4">
           <div className="panel p-5 space-y-4">
             <div className="flex items-center gap-2">
@@ -563,6 +735,65 @@ export default function NotebookView() {
                   {v.status === "completed"
                     ? <button onClick={() => playRecent(v.id)} className="text-[11px] px-2.5 py-1 rounded-lg shrink-0 flex items-center gap-1" style={{ background: `${ACCENT}22`, border: `1px solid ${ACCENT}55`, color: ACCENT }}>▶ Play</button>
                     : <Loader2 size={13} className="animate-spin shrink-0" style={{ color: "#fde047" }} />}
+                </div>
+              ))}
+            </div>
+          )}
+
+          {/* Video gallery — every video pulled into the vault (shorts + explainers) */}
+          <div>
+            <div className="text-[10px] uppercase tracking-widest text-[var(--fg-dimmer)] flex items-center gap-1.5 mb-2">
+              <Library size={11} /> Gallery · every video saved ({savedAssets.filter((a) => a.kind === "video").length})
+            </div>
+            {savedAssets.filter((a) => a.kind === "video").length === 0 ? (
+              <div className="panel p-6 text-center text-[var(--fg-dim)] text-sm">No videos saved yet — generate a short above, or Pull a video from a notebook.</div>
+            ) : (
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                {savedAssets.filter((a) => a.kind === "video").map((a) => (
+                  <div key={a.path} className="panel p-3">
+                    <div className="flex items-center justify-between gap-2 mb-2">
+                      <div className="min-w-0">
+                        <div className="text-[12.5px] font-medium text-[var(--fg)] truncate">{a.name.replace(/[-_]/g, " ").replace(/\.\w+$/, "")}</div>
+                        <div className="text-[10px] text-[var(--fg-dimmer)] font-[var(--font-geist-mono)] truncate">{a.notebook} · {(a.bytes / 1024 / 1024).toFixed(1)}MB</div>
+                      </div>
+                      <a href={`/api/notebooklm/artifact/download?path=${encodeURIComponent(a.path)}`} download={a.name}
+                        className="text-[var(--fg-dim)] hover:text-[var(--fg)] flex items-center gap-1 text-[10px] uppercase tracking-widest shrink-0">
+                        <Download size={11} /> Save
+                      </a>
+                    </div>
+                    <AssetPreview asset={a} />
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
+        </div>
+      )}
+
+      {SECTIONS.map((cfg) => tab === cfg.key ? <div key={cfg.key}>{renderTypeSection(cfg)}</div> : null)}
+
+      {tab === "assets" && (
+        <div className="space-y-3">
+          <div className="text-[10px] uppercase tracking-widest text-[var(--fg-dimmer)] flex items-center gap-1.5">
+            <Download size={11} /> Everything downloaded from NotebookLM ({savedAssets.length}) · stored in <code>Agentic OS/Notebooks/_assets/</code>
+          </div>
+          {savedAssets.length === 0 ? (
+            <div className="panel p-6 text-center text-[var(--fg-dim)] text-sm">Nothing downloaded yet. Open any format tab and click <strong>Pull to gallery</strong> on a ready artifact.</div>
+          ) : (
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+              {savedAssets.map((a) => (
+                <div key={a.path} className="panel p-3">
+                  <div className="flex items-center justify-between gap-2 mb-2">
+                    <div className="min-w-0">
+                      <div className="text-[12.5px] font-medium text-[var(--fg)] truncate">{a.name.replace(/[-_]/g, " ").replace(/\.\w+$/, "")}</div>
+                      <div className="text-[10px] text-[var(--fg-dimmer)] font-[var(--font-geist-mono)] truncate">{a.notebook} · {(a.bytes / 1024 / 1024).toFixed(1)}MB · {new Date(a.mtime).toLocaleString("en-GB", { hour12: false })}</div>
+                    </div>
+                    <a href={`/api/notebooklm/artifact/download?path=${encodeURIComponent(a.path)}`} download={a.name}
+                      className="text-[var(--fg-dim)] hover:text-[var(--fg)] flex items-center gap-1 text-[10px] uppercase tracking-widest shrink-0">
+                      <Download size={11} /> Save
+                    </a>
+                  </div>
+                  <AssetPreview asset={a} />
                 </div>
               ))}
             </div>
@@ -727,135 +958,6 @@ export default function NotebookView() {
         </div>
       )}
 
-      {tab === "studio" && (
-        <div className="space-y-5">
-          {!activeNotebook ? (
-            <div className="panel p-6 text-center text-[var(--fg-dim)] text-sm">Pick a notebook from the Library tab first.</div>
-          ) : (
-            <>
-              {/* Create artifact */}
-              <div className="panel p-4">
-                <div className="flex items-center gap-2 mb-3">
-                  <Sparkles size={16} style={{ color: ACCENT }} />
-                  <h3 className="text-sm font-medium">Generate from <span className="text-[var(--fg-dim)] font-normal">{notebookLabel(activeNotebook)}</span></h3>
-                </div>
-                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-1.5 mb-3">
-                  {ARTIFACT_TYPES.map((t) => {
-                    const active = studioType === t.value;
-                    return (
-                      <button key={t.value} onClick={() => setStudioType(t.value)}
-                        className="flex items-center gap-1.5 px-2 py-1.5 rounded-md text-[11.5px] border transition truncate"
-                        style={{
-                          background: active ? `${t.colour}22` : "transparent",
-                          borderColor: active ? t.colour : "var(--panel-border)",
-                          color: active ? "var(--fg)" : "var(--fg-dim)",
-                        }}>
-                        {t.icon}<span className="truncate">{t.label}</span>
-                      </button>
-                    );
-                  })}
-                </div>
-                <div className="flex items-end gap-2">
-                  <input value={studioPrompt} onChange={(e) => setStudioPrompt(e.target.value)}
-                    placeholder="Optional focus prompt (e.g. 'beginner-friendly', 'just the comparison angle')…"
-                    className="flex-1 bg-[rgba(0,0,0,0.25)] border border-[var(--panel-border)] rounded-lg px-3 h-[38px] text-sm outline-none focus:border-[var(--panel-border-hot)] text-[var(--fg)]" />
-                  <button onClick={createArtifact} disabled={studioBusy}
-                    className="px-4 h-[38px] rounded-lg flex items-center gap-1.5 text-sm transition disabled:opacity-40"
-                    style={{ background: `${ACCENT}22`, border: `1px solid ${ACCENT}66`, color: ACCENT }}>
-                    {studioBusy ? <RefreshCw size={14} className="animate-spin" /> : <Sparkles size={14} />}
-                    {studioBusy ? "Generating…" : "Generate"}
-                  </button>
-                </div>
-                <div className="mt-2 text-[10px] uppercase tracking-widest text-[var(--fg-dimmer)]">
-                  Audio: 2–10 min · Video: 5–15 min · Slide deck: 1–3 min · Others: 30 s–2 min · Returns immediately, generation continues in NotebookLM.
-                </div>
-              </div>
-
-              {/* Existing artifacts in this notebook */}
-              <div>
-                <div className="flex items-center justify-between mb-2">
-                  <div className="text-[10px] uppercase tracking-widest text-[var(--fg-dimmer)] flex items-center gap-1.5">
-                    <Library size={11} /> Artifacts in {notebookLabel(activeNotebook)} ({artifacts.length})
-                  </div>
-                  <button onClick={() => refreshArtifacts(activeId!)} className="text-[10px] uppercase tracking-widest text-[var(--fg-dimmer)] hover:text-[var(--fg-dim)]">
-                    <RefreshCw size={10} className="inline mr-1" />Refresh
-                  </button>
-                </div>
-                {artifacts.length === 0 ? (
-                  <div className="panel p-6 text-center text-[var(--fg-dim)] text-sm">No artifacts yet. Generate one above, or NotebookLM-side ones will appear after refresh.</div>
-                ) : (
-                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
-                    {artifacts.map((a) => {
-                      const meta = ARTIFACT_TYPES.find((t) => t.value === a.type) ?? { value: a.type as ArtifactType, label: a.type || "artifact", icon: <FileText size={14} />, colour: ACCENT };
-                      const ready = a.status === "ready" || a.status === "complete" || a.status === "completed";
-                      const ntblmUrl = a.audio_url || a.video_url || a.infographic_url || a.slide_deck_url;
-                      return (
-                        <div key={a.artifact_id} className="panel p-3">
-                          <div className="flex items-center justify-between gap-2 mb-2">
-                            <div className="flex items-center gap-1.5 min-w-0">
-                              <span style={{ color: meta.colour }}>{meta.icon}</span>
-                              <span className="text-[12px] font-medium truncate">{a.title || meta.label}</span>
-                            </div>
-                            <span className="text-[9px] uppercase tracking-widest px-1.5 py-0.5 rounded-full shrink-0"
-                              style={{ background: ready ? "rgba(134,239,172,0.12)" : `${meta.colour}14`, color: ready ? "#86efac" : meta.colour }}>
-                              {a.status || "—"}
-                            </span>
-                          </div>
-                          <div className="text-[10px] uppercase tracking-widest text-[var(--fg-dimmer)] font-[var(--font-geist-mono)] truncate mb-2">{a.artifact_id.slice(0, 18)}…</div>
-                          <div className="flex items-center gap-1.5">
-                            <button onClick={() => downloadArtifact(a)} disabled={busy === `dl-${a.artifact_id}` || !ready}
-                              className="px-2 py-1 rounded-md text-[11px] border flex items-center gap-1 transition disabled:opacity-40"
-                              style={{ background: `${meta.colour}14`, borderColor: `${meta.colour}55`, color: meta.colour }}>
-                              {busy === `dl-${a.artifact_id}` ? <RefreshCw size={10} className="animate-spin" /> : <Download size={10} />} Pull
-                            </button>
-                            {ntblmUrl && (
-                              <a href={ntblmUrl} target="_blank" rel="noopener noreferrer"
-                                className="px-2 py-1 rounded-md text-[11px] border border-[var(--panel-border)] text-[var(--fg-dim)] hover:text-[var(--fg)] flex items-center gap-1 transition">
-                                <ExternalLink size={10} /> View
-                              </a>
-                            )}
-                          </div>
-                        </div>
-                      );
-                    })}
-                  </div>
-                )}
-              </div>
-            </>
-          )}
-        </div>
-      )}
-
-      {tab === "assets" && (
-        <div className="space-y-3">
-          <div className="text-[10px] uppercase tracking-widest text-[var(--fg-dimmer)] flex items-center gap-1.5">
-            <Download size={11} /> Downloaded from NotebookLM ({savedAssets.length}) · stored in <code>Agentic OS/Notebooks/_assets/</code>
-          </div>
-          {savedAssets.length === 0 ? (
-            <div className="panel p-6 text-center text-[var(--fg-dim)] text-sm">Nothing downloaded yet. Go to a notebook&apos;s Studio tab and click <strong>Pull</strong> on any artifact.</div>
-          ) : (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
-              {savedAssets.map((a) => (
-                <div key={a.path} className="panel p-3">
-                  <div className="flex items-center justify-between gap-2 mb-2">
-                    <div className="min-w-0">
-                      <div className="text-[12.5px] font-medium text-[var(--fg)] truncate">{a.notebook}</div>
-                      <div className="text-[10px] text-[var(--fg-dimmer)] font-[var(--font-geist-mono)] truncate">
-                        {a.name} · {(a.bytes / 1024 / 1024).toFixed(1)}MB · {new Date(a.mtime).toLocaleString("en-GB", { hour12: false })}
-                      </div>
-                    </div>
-                    <a href={`/api/notebooklm/artifact/download?path=${encodeURIComponent(a.path)}`} download={a.name}
-                      className="text-[var(--fg-dim)] hover:text-[var(--fg)] flex items-center gap-1 text-[10px] uppercase tracking-widest">
-                      <Download size={11} /> Save
-                    </a>
-                  </div>
-                  <AssetPreview asset={a} />
-                </div>
-              ))}
-            </div>
-          )}
-        </div>
-      )}
     </div>
   );
 }

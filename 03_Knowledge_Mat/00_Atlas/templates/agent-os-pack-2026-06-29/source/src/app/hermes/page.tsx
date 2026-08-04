@@ -1,24 +1,24 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { Cpu, MessageSquare, Terminal, Layers, Target, Plug, Sparkles, History, AudioLines, LayoutDashboard, Mic, Radar, Mail, Boxes} from "lucide-react";
+import { Cpu, MessageSquare, Terminal, Layers, Target, Plug, Sparkles, History, LayoutDashboard, Mic, Radar, Mail, Boxes} from "lucide-react";
 import AgentRoom from "@/components/AgentRoom";
 import HermesOutreach from "@/components/HermesOutreach";
 import HermesMoA from "@/components/HermesMoA";
 import RadarView from "@/components/RadarView";
+import AstrosView from "@/components/AstrosView";
 import UnifiedChat from "@/components/UnifiedChat";
 import HermesWorkspace from "@/components/HermesWorkspace";
 import HermesGoals from "@/components/HermesGoals";
 import HermesMCPCatalog from "@/components/HermesMCPCatalog";
 import HermesStudio from "@/components/HermesStudio";
-import MiniMaxVoiceAgent from "@/components/MiniMaxVoiceAgent";
 import HermesManage from "@/components/HermesManage";
 // Phone tab intentionally NOT mounted in the dashboard — the phone agent runs
 // standalone (see ~/.agentic-os/phone-go-live.sh). Component kept on disk.
 // import HermesPhone from "@/components/HermesPhone";
-import JarvisView from "@/components/JarvisView";
+import ApolloView from "@/components/ApolloView";
 
-type HermesTab = "chat" | "radar" | "talk" | "jarvis" | "studio" | "sessions" | "goals" | "workspace" | "mcps" | "manage" | "control" | "outreach" | "moa";
+type HermesTab = "chat" | "radar" | "astros" | "apollo" | "studio" | "sessions" | "goals" | "workspace" | "mcps" | "manage" | "control" | "outreach" | "moa";
 interface HmVitals { ok: boolean; model: string; provider: string; }
 
 
@@ -28,8 +28,9 @@ export default function HermesRoute() {
 
   // Deep-link: /hermes?tab=manage opens that sub-tab directly.
   useEffect(() => {
-    const t = new URLSearchParams(window.location.search).get("tab") as HermesTab | null;
-    const valid: HermesTab[] = ["chat", "radar", "talk", "jarvis", "studio", "sessions", "goals", "workspace", "mcps", "manage", "control", "outreach", "moa"];
+    let t = new URLSearchParams(window.location.search).get("tab") as HermesTab | null;
+    if ((t as string) === "jarvis") t = "apollo"; // legacy links: ?tab=jarvis → Apollo
+    const valid: HermesTab[] = ["chat", "radar", "astros", "apollo", "studio", "sessions", "goals", "workspace", "mcps", "manage", "control", "outreach", "moa"];
     if (t && valid.includes(t)) setTab(t);
   }, []);
 
@@ -49,12 +50,12 @@ export default function HermesRoute() {
 
   return (
     <div className="space-y-5">
-      <div className="flex items-center gap-2">
+      <div className="flex flex-wrap items-center gap-2">
         {([
           { key: "chat",      label: "Chat",         icon: <MessageSquare size={14} /> },
-          { key: "talk",      label: "Talk",         icon: <AudioLines size={14} /> },
-          { key: "jarvis",    label: "Hermes-Jarvis", icon: <Mic size={14} /> },
+          { key: "apollo",    label: "Apollo", icon: <Mic size={14} /> },
           { key: "radar",     label: "Hermes Oracle", icon: <Radar size={14} /> },
+          { key: "astros",    label: "Hermes Astros", icon: <Sparkles size={14} /> },
           { key: "studio",    label: "Studio",       icon: <Sparkles size={14} /> },
           { key: "sessions",  label: "Sessions",     icon: <History size={14} /> },
           { key: "outreach",  label: "Outreach",     icon: <Mail size={14} /> },
@@ -87,10 +88,10 @@ export default function HermesRoute() {
         <UnifiedChat defaultAgent="hermes" showAgentSwitcher={false} />
       ) : tab === "radar" ? (
         <RadarView />
-      ) : tab === "talk" ? (
-        <MiniMaxVoiceAgent accent="#60a5fa" />
-      ) : tab === "jarvis" ? (
-        <JarvisView />
+      ) : tab === "astros" ? (
+        <AstrosView />
+      ) : tab === "apollo" ? (
+        <ApolloView />
       ) : tab === "studio" ? (
         <HermesStudio />
       ) : tab === "goals" ? (

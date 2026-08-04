@@ -1,0 +1,43 @@
+{
+  "system_metadata": {
+    "asset_name": "M7 Enterprise Global Blueprint",
+    "owner": "Pineapple Contractors M7",
+    "last_updated": "2026-07-17"
+  },
+  "brand_identity": {
+    "corporate_holding": "M7 Enterprise",
+    "active_brand_roofing": "Pineapple Roofing",
+    "sister_brand_restoration": "Pineapple Restoration",
+    "flagship_domain": "https://pineappleroofingllc.com",
+    "established": "2005",
+    "speed_to_lead_mandate_minutes": 5,
+    "primary_line": "(972) 928-0788",
+    "rcat_license": "License #03-0637",
+    "hub_certification": "#1861616404400",
+    "manufacturer_status": "IKO Certified Expert Shingle Installer",
+    "hq": "1 Cowboys Way, Suite 270W, Frisco, TX 75034",
+    "branch": "4400 Highway 121, Suite 300, Lewisville, TX 75056"
+  },
+  "visual_theme_lock": {
+    "header_hex": "#1A365D",
+    "action_link_hex": "#FBC02D",
+    "accent_cyan_hex": "#00BFFF",
+    "blacklisted_colors": ["green", "#00FF00", "#008000"]
+  },
+  "lexicon": {
+    "banned_terms": ["free", "cheap", "bargain", "discount", "warrior", "toa", "six brothers", "consultation", "GAF"],
+    "mandatory_replacements": {
+      "free_inspection": "Complimentary Professional Photo Audit (CPPA)",
+      "free_quote": "Complimentary Professional Photo Audit (CPPA)",
+      "zero_down": "Full Restoration Coverage",
+      "GAF": "IKO Certified"
+    }
+  },
+  "geo_footprint": ["Frisco (75033, 75034, 75035)", "Plano", "McKinney", "Allen", "Denton", "Grapevine", "Euless", "Lewisville (75056, 75067)", "Colleyville (76034)"],
+  "outbox_shield": {
+    "status": "ACTIVE",
+    "default_state": "PAUSED_PENDING_HUMAN_REVIEW",
+    "target_directory": "01_Command_Center/Outbox_Drafts/"
+  },
+  "system_signature": "Ko e hala 'o e fononga ko e faka'apa'apa."
+}

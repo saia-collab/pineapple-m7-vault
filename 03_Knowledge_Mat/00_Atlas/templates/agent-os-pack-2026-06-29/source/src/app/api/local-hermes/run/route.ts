@@ -37,7 +37,7 @@ export async function POST(req: Request) {
 
   const out = await run(
     "hermes",
-    ["--profile", "local", "-z", prompt, "--yolo", "--accept-hooks"],
+    ["-p", "local", "-z", prompt, "--yolo", "--accept-hooks"],
     { timeoutMs: TIMEOUT_MS, cwd: WORKSPACE },
   );
 

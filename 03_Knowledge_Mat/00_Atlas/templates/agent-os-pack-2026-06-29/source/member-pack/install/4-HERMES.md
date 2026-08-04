@@ -5,7 +5,7 @@ Hermes is an AI **agent** — not just a chatbot. It can do multi-step jobs: sea
 This is the biggest tab in the whole OS — it has **ten sections inside it**. This guide covers every one, so nothing is a mystery.
 
 ## What you get
-The full **Hermes** tab: Chat, Talk, Hermes-Jarvis (the voice), Studio, Sessions, Workspace, MCPs, Manage, Control Room, and Goal Mode. You can say "research X and write me a summary" and it actually does it.
+The full **Hermes** tab: Chat, Hermes-Jarvis (the voice), Studio, Sessions, Workspace, MCPs, Manage, Control Room, and Goal Mode. You can say "research X and write me a summary" and it actually does it.
 
 ## What you need
 1. **Python 3.10 or newer** (Hermes runs on it). Check with `python3 --version`. If you need it: https://www.python.org/downloads.
@@ -38,7 +38,7 @@ Open the **Hermes** tab. Across the top you'll see a row of pill buttons. Here's
 
 **💬 Chat** — talk to Hermes like any AI chat. The difference: it can actually DO things (files, web, commands), not just answer.
 
-**🎙️ Talk** — real-time voice conversation. You speak, it speaks back. Different from Jarvis: this is plain conversation; Jarvis is the full assistant.
+> 🆕 **"Hey Hermes" wake word** — tap the ear icon at the top of the Hermes tab for hands-free voice: say *"hey hermes"* and talk. Detection runs **on-device** (openwakeword) — nothing leaves your Mac while it listens. It uses your active Hermes profile's `wake_word:` settings; if the toggle says it can't arm, update Hermes (`hermes --version`) and try again.
 
 **🤖 Hermes-Jarvis** — the star of the show. The Iron-Man-style voice assistant. It has its own guide: **`3-JARVIS-VOICE.md`**. Highlights: build apps by voice, ask "what happened yesterday" (it reads your real Obsidian memory), "show me everything I've built" (gallery opens), and a gallery of your creations at the bottom of the tab.
 

@@ -63,7 +63,7 @@ export interface RoomAgent {
 
 // Each agent is authentically itself — verified working model IDs.
 export const ROOM_AGENTS: RoomAgent[] = [
-  { id: "claude", name: "Claude", color: "#d97757", provider: "openrouter", model: "anthropic/claude-opus-4.8",
+  { id: "claude", name: "Claude", color: "#d97757", provider: "openrouter", model: "anthropic/claude-opus-5",
     persona: "You are Claude — thoughtful, careful, balanced. You weigh trade-offs, bring nuance, and give a calm, precise take. You gently flag risks others miss." },
   { id: "hermes", name: "Hermes", color: "#60a5fa", provider: "openrouter", model: "nousresearch/hermes-4-70b",
     persona: "You are Hermes — direct, action-oriented, a little unfiltered. You cut straight to the practical next step and call out fluff. You like momentum." },
@@ -134,7 +134,7 @@ function hermesDefaultModel(): string {
     const m = cfg.match(/^\s*default:\s*([^\s#]+)/m);
     if (m) return m[1].trim();
   } catch {}
-  return "anthropic/claude-opus-4.8";
+  return "anthropic/claude-opus-5";
 }
 function localModel(): string {
   try {

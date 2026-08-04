@@ -149,7 +149,7 @@ export default function SakanaView() {
         <div className="w-8 h-8 rounded-lg grid place-items-center text-[#1a130a] font-bold" style={{ background: "linear-gradient(135deg,#e6c69a,#a87f54)" }}><Network size={16} /></div>
         <div>
           <div className="text-[15px] font-semibold text-[var(--cream)] leading-none">Sakana Fugu Ultra</div>
-          <div className="text-[10.5px] text-[var(--cream-mute)] mt-1">Sakana AI · multi-agent panel · vendor-agnostic ensemble · #1 on goldiebench</div>
+          <div className="text-[10.5px] text-[var(--cream-mute)] mt-1">Sakana AI · multi-agent panel · vendor-agnostic ensemble · #1 on the leaderboard</div>
         </div>
         <div className="ml-auto flex gap-1.5">
           {([{ k: "chat", label: "Boardroom", icon: <MessageSquare size={13} /> }, { k: "workspace", label: "Workspace", icon: <Layers size={13} /> }] as const).map((t) => (

@@ -35,7 +35,8 @@ interface Goal {
 interface CdxProject { name: string; root: string; mtime: number; fileCount: number; }
 type CdxFileKind = "text" | "image" | "video" | "audio" | "pdf" | "binary";
 interface CdxFile { name: string; relPath: string; bytes: number; mtime: number; kind: CdxFileKind; }
-interface Msg { role: "user" | "assistant" | "system"; text: string; }
+interface Msg { role: "user" | "assistant" | "system"; text: string; files?: { name: string; relPath: string; kind: CdxFileKind }[]; }
+interface ChatSession { id: string; title: string; count: number; when: string; }
 
 // ── Session detail types (returned from /api/codex/session) ──
 interface SessionTurn { role: "user" | "assistant" | "reasoning"; text: string; ts?: number; }
@@ -98,10 +99,22 @@ export default function CodexView() {
   const [partial, setPartial] = useState("");
   const [elapsed, setElapsed] = useState(0);
   const ctrlRef = useRef<AbortController | null>(null);
+  // Disk-backed conversation history (survives refresh + restarts)
+  const sidRef = useRef<string>("");
+  const [chatSessions, setChatSessions] = useState<ChatSession[]>([]);
+  const [historyOpen, setHistoryOpen] = useState(false);
+  // Inline preview of files a turn just built: message-index → open relPath
+  const [inlinePreview, setInlinePreview] = useState<Record<number, string | null>>({});
 
   // How Codex handles approvals. It runs headlessly (`codex exec`), so it can't
   // show a terminal popup — pick the policy up front. Persisted across sessions.
   const [approvalMode, setApprovalMode] = useState<"auto" | "readonly" | "yolo">("auto");
+  // hy3 = tencent/hy3:free via OpenRouter (free window) — DEFAULT while the window is open.
+  const [engine, setEngine] = useState<"omniroute" | "hy3" | "gpt56">("gpt56");
+  useEffect(() => {
+    try { const v = localStorage.getItem("agentic-os/codex/engine"); if (v === "omniroute" || v === "hy3" || v === "gpt56") setEngine(v); } catch {}
+  }, []);
+  const changeEngine = (v: "omniroute" | "hy3" | "gpt56") => { setEngine(v); try { localStorage.setItem("agentic-os/codex/engine", v); } catch {} };
   useEffect(() => {
     try { const v = window.localStorage.getItem("codex-approval-mode"); if (v === "auto" || v === "readonly" || v === "yolo") setApprovalMode(v); } catch {}
   }, []);
@@ -154,12 +167,47 @@ export default function CodexView() {
     try {
       const raw = window.localStorage.getItem(STORAGE_KEY);
       if (raw) setMsgs(JSON.parse(raw).slice(-200));
+      sidRef.current = window.localStorage.getItem(STORAGE_KEY + "/sid") || `c-${Date.now()}`;
+      window.localStorage.setItem(STORAGE_KEY + "/sid", sidRef.current);
     } catch {}
+    refreshChatSessions();
   }, []);
   useEffect(() => {
     if (typeof window === "undefined") return;
     try { window.localStorage.setItem(STORAGE_KEY, JSON.stringify(msgs.slice(-200))); } catch {}
+    // Persist the conversation to disk too (debounced) so history survives anything.
+    if (!msgs.length) return;
+    const title = (msgs.find((m) => m.role === "user")?.text || "Chat").slice(0, 60);
+    const t = setTimeout(() => {
+      fetch("/api/codex/chats", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ id: sidRef.current, title, messages: msgs }) })
+        .then(refreshChatSessions).catch(() => {});
+    }, 900);
+    return () => clearTimeout(t);
   }, [msgs]);
+
+  async function refreshChatSessions() {
+    try {
+      const r = await fetch("/api/codex/chats", { cache: "no-store" });
+      const j = await r.json();
+      setChatSessions(Array.isArray(j.sessions) ? j.sessions : []);
+    } catch {}
+  }
+  async function loadChatSession(id: string) {
+    try {
+      const r = await fetch(`/api/codex/chats?id=${encodeURIComponent(id)}`, { cache: "no-store" });
+      const j = await r.json();
+      if (Array.isArray(j.messages)) {
+        setMsgs(j.messages); sidRef.current = id; setHistoryOpen(false); setInlinePreview({});
+        try { window.localStorage.setItem(STORAGE_KEY + "/sid", id); } catch {}
+      }
+    } catch {}
+  }
+  function newChat() {
+    if (streaming) return;
+    setMsgs([]); setPartial(""); setInlinePreview({}); setHistoryOpen(false);
+    sidRef.current = `c-${Date.now()}`;
+    try { window.localStorage.setItem(STORAGE_KEY + "/sid", sidRef.current); window.localStorage.removeItem(STORAGE_KEY); } catch {}
+  }
 
   useEffect(() => {
     scrollRef.current?.scrollTo({ top: scrollRef.current.scrollHeight, behavior: "smooth" });
@@ -233,6 +281,15 @@ export default function CodexView() {
     }
   }, [tab]);
 
+  // Fetch the active project's file list (for before/after diffing around a turn).
+  async function projectFiles(): Promise<CdxFile[]> {
+    try {
+      const r = await fetch(`/api/codex/workspace?project=${encodeURIComponent(activeProject)}`, { cache: "no-store" });
+      const j = await r.json();
+      return Array.isArray(j.files) ? j.files : [];
+    } catch { return []; }
+  }
+
   // ─── Chat: send ───
   async function sendChat() {
     const prompt = input.trim();
@@ -242,6 +299,8 @@ export default function CodexView() {
     setInput("");
     setPartial("");
     setStreaming(true);
+    // Snapshot files BEFORE the turn so we can show what Codex just built.
+    const before = new Map((await projectFiles()).map((f) => [f.relPath, f.mtime]));
 
     const ctrl = new AbortController();
     ctrlRef.current = ctrl;
@@ -252,7 +311,7 @@ export default function CodexView() {
       const r = await fetch("/api/codex/chat", {
         method: "POST",
         headers: { "content-type": "application/json" },
-        body: JSON.stringify({ prompt, history, project: activeProject, approvalMode }),
+        body: JSON.stringify({ prompt, history, project: activeProject, approvalMode, engine }),
         signal: ctrl.signal,
       });
       if (!r.body) throw new Error("no body");
@@ -297,7 +356,15 @@ export default function CodexView() {
       }
     } catch (e) { acc += `\n\n[error: ${String(e)}]`; }
 
-    setMsgs((m) => [...m, { role: "assistant", text: acc || "(no output)" }]);
+    // Diff files AFTER the turn — anything new or touched is what Codex built.
+    const after = await projectFiles();
+    const built = after.filter((f) => !before.has(f.relPath) || (before.get(f.relPath) ?? 0) < f.mtime)
+      .map((f) => ({ name: f.name, relPath: f.relPath, kind: f.kind }));
+    const msgIndex = history.length + 1; // index this assistant msg will land at
+    setMsgs((m) => [...m, { role: "assistant", text: acc || "(no output)", files: built.length ? built : undefined }]);
+    // Auto-open the inline preview for the first previewable HTML build.
+    const firstHtml = built.find((f) => /\.html?$/i.test(f.name));
+    if (firstHtml) setInlinePreview((p) => ({ ...p, [msgIndex]: firstHtml.relPath }));
     setPartial(""); setStreaming(false);
     // Refresh project list — Codex may have written files into the active project
     refreshProjects();
@@ -318,7 +385,7 @@ export default function CodexView() {
     await fetch("/api/codex/goals", {
       method: "POST",
       headers: { "content-type": "application/json" },
-      body: JSON.stringify({ title, prompt, approvalMode }),
+      body: JSON.stringify({ title, prompt, approvalMode, engine }),
     });
     refreshGoals();
   }
@@ -445,22 +512,50 @@ export default function CodexView() {
               <div className="flex items-center gap-2">
                 <span className="action-tag" style={{ color: ACCENT }}>Codex · Direct</span>
                 <span className="pill" style={{ color: ACCENT, borderColor: `${ACCENT}30`, background: `${ACCENT}0c` }}>codex exec --json</span>
+                <span className="pill" style={{ color: engine === "gpt56" ? "#cdd3f7" : engine === "hy3" ? "#9dffd8" : "var(--cream-dim)", borderColor: engine === "gpt56" ? "rgba(205,211,247,.5)" : engine === "hy3" ? "rgba(0,191,255,.5)" : "var(--line-soft)", background: "rgba(255,255,255,0.02)" }}>{engine === "gpt56" ? "via OpenAI · gpt-5.6-sol · your ChatGPT OAuth" : engine === "hy3" ? "via OpenRouter · tencent/hy3:free · 295B · free" : "via OmniRoute · oc/big-pickle · free"}</span>
               </div>
-              {msgs.length > 0 && !streaming && (
-                <button onClick={clearChat} className="text-[11px] flex items-center gap-1 px-2 py-1 rounded-md hover:bg-[rgba(255,255,255,0.04)]" style={{ color: "var(--cream-mute)" }}>
-                  <Trash2 size={11} /> clear
+              <div className="flex items-center gap-1 relative">
+                <button onClick={() => { setHistoryOpen((o) => !o); refreshChatSessions(); }}
+                  className="text-[11px] flex items-center gap-1 px-2 py-1 rounded-md border hover:bg-[rgba(255,255,255,0.04)]"
+                  style={{ color: historyOpen ? ACCENT : "var(--cream-mute)", borderColor: historyOpen ? `${ACCENT}44` : "var(--line-soft)" }}>
+                  History{chatSessions.length ? ` · ${chatSessions.length}` : ""}
                 </button>
-              )}
+                <button onClick={newChat} disabled={streaming}
+                  className="text-[11px] flex items-center gap-1 px-2 py-1 rounded-md border hover:bg-[rgba(255,255,255,0.04)]"
+                  style={{ color: "var(--cream-mute)", borderColor: "var(--line-soft)" }}>
+                  + New
+                </button>
+                {msgs.length > 0 && !streaming && (
+                  <button onClick={clearChat} className="text-[11px] flex items-center gap-1 px-2 py-1 rounded-md hover:bg-[rgba(255,255,255,0.04)]" style={{ color: "var(--cream-mute)" }}>
+                    <Trash2 size={11} /> clear
+                  </button>
+                )}
+                {historyOpen && (
+                  <div className="absolute right-0 top-8 z-30 w-[320px] max-h-[300px] overflow-y-auto scroll rounded-xl border shadow-2xl"
+                    style={{ background: "var(--bg-elev, #201a28)", borderColor: "var(--line-soft)" }}>
+                    {chatSessions.length === 0 && <div className="px-3 py-3 text-[11.5px] text-[var(--cream-mute)]">No saved conversations yet — chats auto-save here.</div>}
+                    {chatSessions.map((s) => (
+                      <button key={s.id} onClick={() => loadChatSession(s.id)}
+                        className="w-full text-left px-3 py-2 border-b hover:bg-[rgba(255,255,255,0.04)] flex items-center gap-2"
+                        style={{ borderColor: "rgba(255,255,255,0.05)" }}>
+                        <span className="flex-1 truncate text-[12px] text-[var(--cream)]">{s.title}</span>
+                        <span className="text-[10px] mono text-[var(--cream-mute)] shrink-0">{s.count} msg</span>
+                        {s.id === sidRef.current && <span className="w-1.5 h-1.5 rounded-full shrink-0" style={{ background: ACCENT }} />}
+                      </button>
+                    ))}
+                  </div>
+                )}
+              </div>
             </div>
             <div ref={scrollRef} className="scroll flex-1 min-h-0 overflow-y-auto p-4 space-y-3">
               <AnimatePresence initial={false}>
                 {msgs.length === 0 && !streaming && (
                   <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="text-[var(--cream-soft)] text-sm leading-relaxed">
                     <p className="text-base text-[var(--cream)]">Codex — single-shot chat.</p>
-                    <p className="mt-2">Every send runs <code className="mono text-[var(--cream)]">codex exec --json</code> against your default Codex profile.</p>
+                    <p className="mt-2">Every send runs <code className="mono text-[var(--cream)]">codex exec --json</code> on <strong>{engine === "gpt56" ? "GPT 5.6 (Sol) — OpenAI's frontier Codex on your ChatGPT login (OAuth, no API key)" : engine === "hy3" ? "HY3 — Tencent\u2019s 295B agentic model, free on OpenRouter" : "OmniRoute — 90+ free providers"}</strong>, nothing metered.</p>
                     <ul className="mt-3 text-xs text-[var(--cream-mute)] space-y-1">
                       <li>• Multi-turn memory: prior conversation packed into each new prompt</li>
-                      <li>• Same auth + model as your terminal codex</li>
+                      <li>• Free: HY3 295B via OpenRouter (default, free window) or the OmniRoute gateway — switch in the dropdown below</li>
                       <li>• For long-running work, switch to <strong>Goal Mode</strong></li>
                       <li>• Esc to abort an in-flight call</li>
                     </ul>
@@ -473,8 +568,44 @@ export default function CodexView() {
                         ? "bg-[rgba(0,191,255,0.06)] border-[rgba(0,191,255,0.22)] text-[var(--cream)]"
                         : "bg-[rgba(255,255,255,0.02)] border-[rgba(255,255,255,0.06)] text-[var(--cream)]"
                     }`}>
-                    <div className="text-[10px] tracking-widest uppercase mb-1 opacity-60">{m.role === "user" ? "you" : "codex"}</div>
+                    <div className="text-[10px] tracking-widest uppercase mb-1 opacity-60 flex items-center gap-2">
+                      {m.role === "user" ? "you" : "codex"}
+                      {m.role === "assistant" && <span className="normal-case tracking-normal text-cyan-400/70">{engine === "gpt56" ? "via GPT 5.6 (Sol) · OAuth" : engine === "hy3" ? "via HY3 295B · free" : "via OmniRoute · free"}</span>}
+                    </div>
                     <div className="whitespace-pre-wrap font-[var(--font-geist-mono)]">{m.text}</div>
+                    {m.role === "assistant" && m.files && m.files.length > 0 && (
+                      <div className="mt-3 pt-3 border-t" style={{ borderColor: "rgba(255,255,255,0.07)" }}>
+                        <div className="text-[10px] tracking-widest uppercase opacity-60 mb-1.5">built this turn — click to preview</div>
+                        <div className="flex flex-wrap gap-1.5">
+                          {m.files.map((f) => {
+                            const url = `/api/codex/preview/${encodeURIComponent(activeProject)}/${f.relPath.split("/").map(encodeURIComponent).join("/")}`;
+                            const isHtml = /\.html?$/i.test(f.name);
+                            return (
+                              <span key={f.relPath} className="inline-flex items-center gap-1">
+                                {isHtml && (
+                                  <button onClick={() => setInlinePreview((p) => ({ ...p, [i]: p[i] === f.relPath ? null : f.relPath }))}
+                                    className="text-[11px] px-2 py-1 rounded-md border font-medium"
+                                    style={{ borderColor: `${ACCENT}44`, color: ACCENT, background: inlinePreview[i] === f.relPath ? `${ACCENT}14` : "transparent" }}>
+                                    ▶ {f.name}
+                                  </button>
+                                )}
+                                <a href={url} target="_blank" rel="noopener"
+                                  className="text-[11px] px-2 py-1 rounded-md border hover:bg-[rgba(255,255,255,0.05)]"
+                                  style={{ borderColor: "var(--line-soft)", color: "var(--cream-soft)" }}>
+                                  {isHtml ? "open ↗" : `${f.name} ↗`}
+                                </a>
+                              </span>
+                            );
+                          })}
+                        </div>
+                        {inlinePreview[i] && (
+                          <iframe title={`preview-${i}`}
+                            src={`/api/codex/preview/${encodeURIComponent(activeProject)}/${inlinePreview[i]!.split("/").map(encodeURIComponent).join("/")}`}
+                            className="mt-2 w-full rounded-lg border" style={{ height: 340, background: "#0b0b12", borderColor: "var(--line-soft)" }}
+                            sandbox="allow-scripts allow-same-origin" />
+                        )}
+                      </div>
+                    )}
                   </motion.div>
                 ))}
                 {streaming && (
@@ -502,6 +633,14 @@ export default function CodexView() {
                 <option value="auto">✅ Auto-approve</option>
                 <option value="readonly">👀 Ask (read-only)</option>
                 <option value="yolo">🚀 YOLO</option>
+              </select>
+              <select value={engine} onChange={(e) => changeEngine(e.target.value as "omniroute" | "hy3" | "gpt56")}
+                title="Which brain drives Codex. OmniRoute = the local free gateway (90+ providers). HY3 = Tencent's 295B agentic model, free on OpenRouter. GPT 5.6 = the real OpenAI Codex on your ChatGPT login (OAuth, no API key) — needs a plan with gpt-5.6 Codex access."
+                className="self-stretch bg-transparent border rounded-lg px-2 text-xs text-[var(--cream-mute)] outline-none cursor-pointer"
+                style={{ borderColor: "var(--line-soft)" }}>
+                <option value="omniroute">🕸 OmniRoute free</option>
+                <option value="hy3">🐉 HY3 295B (free)</option>
+                <option value="gpt56">⚡ GPT 5.6 (OpenAI · OAuth)</option>
               </select>
               <textarea value={input} onChange={(e) => setInput(e.target.value)}
                 onKeyDown={(e) => {

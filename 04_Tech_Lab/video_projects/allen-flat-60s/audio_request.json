@@ -1,0 +1,38 @@
+{
+  "provider": "auto",
+  "speed": 1,
+  "lines": [
+    {
+      "id": "01",
+      "text": "Your roof looks fine. Your insurance company might disagree."
+    },
+    {
+      "id": "02",
+      "text": "Hail doesn't always break a shingle. It bruises it — fracturing the layer that actually keeps water out."
+    },
+    {
+      "id": "03",
+      "text": "From the driveway, you'd never see it. So we go up. Drone and ground, slope by slope, every impact photographed."
+    },
+    {
+      "id": "04",
+      "text": "Then we build the file — hail, wind, flashing, and the dents on your gutters that prove the storm date."
+    },
+    {
+      "id": "05",
+      "text": "You keep that file. Even if you never hire us. Because evidence beats opinions."
+    },
+    {
+      "id": "06",
+      "text": "IKO Certified. RCAT License oh three, oh six three seven. Family-owned in North Texas since 2005."
+    },
+    {
+      "id": "07",
+      "text": "Book your Complimentary Professional Photo Audit. Nine seven two. Nine two eight. Oh seven eight eight."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  },
+  "voice": "am_michael"
+}

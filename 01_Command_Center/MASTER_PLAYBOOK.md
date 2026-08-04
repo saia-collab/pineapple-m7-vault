@@ -378,6 +378,45 @@ Naming: `IDEA_YYYY-MM-DD_Category_Topic.md`
 
 ---
 
+## 🔄 PERMANENT MEMORY SYNC — Engineering Cycles (Cowork logs Claude Code's manifests)
+> Closed loop: Cowork designs the SOP → Claude Code builds + drops `m7_execution_manifest.md` → Cowork logs
+> it here so the codebase and the Playbook never drift. Newest at top.
+
+**2026-07-05 — Project brief + pack update + free Hermes stack.**
+Claude Code created `01_Command_Center/M7_PROJECT_BRIEF.md` — the single Cowork-ingestion file (elevator
+summary + one-click launch + 4-Fala + agents + named frameworks + build status + the 5 canonical files).
+Agent OS updated to pack **2026-07-05**; dashboard **de-personalized** (all Julian Goldie branding removed,
+durable). Master Playbook grounded into all **7 Hermes profiles** + canonical digest `HERMES_PLAYBOOK.md`.
+Hermes free stack = Groq brain + browser voice (the pack's "Apollo" tab is opt-in OpenAI voice; free re-apply
+pending Saia GO). One-command re-sync: `04_Tech_Lab/sync_hermes_m7.ps1`. Pending Saia: GLM Code free Ollama
+account; re-apply free voice to Apollo; OpenAI funding optional. ⚠️ GCP still NOT provisioned — LOCAL only.
+
+**2026-07-04 — Core rules config + Python engine wiring.**
+Deployed `m7_core_rules.config` (root) = the machine-readable rulebook every agent obeys (memory paths,
+engine/port map, brand palette zero-green, CPPA/IKO lexicon, Outbox Shield DEC-005, 4-Fala, trust signals).
+Wired `LAUNCH_ALL.bat` to boot the live Python engine `04_Tech_Lab/server_m7.py` (**:51763**, verified HTTP
+200 — the memory/Kanban/Outbox/firewall API that `SHARED_MEMORY.md` `feed_url` points to), with a :51763
+port-purge guard. Canonical port map: dashboard :3000 · command-center :3737 · engine :51763 · Paperclip
+:3100 · FCC :8082 · Ollama :11434.
+
+**2026-07-04 (late 07-03) — Jarvis port-fix + Hermes profiles + 4-Fala.**
+Fixed Jarvis (a stray Express `04_Tech_Lab/server.js` squatting on :3000) → one server per port. Hermes now
+has 7 M7-grounded profiles (`julian` retired); backups moved inside the vault (`04_Tech_Lab/_agentos_backups`).
+
+**2026-07-03 — Full Agent OS setup audit + M7 theme rebrand + one-button updater.**
+27 install guides verified (`M7_AGENT_OS_SETUP_AUDIT.md`); 112+ green hexes/classes swept → cyan/gold (zero
+green in served build); `UPDATE_AGENT_OS.bat` preserves M7 customizations on every update. Keys valid
+(OpenAI, Groq, Google, Firecrawl, Hunter, OpenRouter). Router (`COMMAND_CENTER_OS.md`) + `DAILY_LOOP.md` +
+`M7_BEDTIME_SOP.md` added.
+
+**4-Rules compliance for these cycles:** (1) Outbox Shield — infrastructure only, no outbound content, Outbox
+untouched (and the rule is now codified in the config). (2) Folder Restructure — none broken; 4-Fala intact,
+artifacts kept in-vault. (3) Brand Lexicon — no customer UI text generated; config holds the CPPA/IKO ban
+definitions. (4) No-Green/Palette — Navy #1A365D + Gold #FBC02D enforced; 0 green in served assets.
+⚠️ **Google Cloud NOT provisioned — all verification is LOCAL.**
+
+---
+
 Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

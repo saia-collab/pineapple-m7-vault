@@ -7,6 +7,7 @@ import { Brain, Target, BookOpen, ArrowUpRight } from "lucide-react";
 import AgentPortal from "./AgentPortal";
 import AgentAvatar from "./AgentAvatar";
 import Vitals from "./Vitals";
+import TodoPanel from "./TodoPanel";
 import TokenUsage from "./TokenUsage";
 import ActivityStream from "./ActivityStream";
 import { usePollWhileVisible } from "@/lib/usePollWhileVisible";
@@ -40,6 +41,21 @@ export default function Overview() {
   return (
     <div className="space-y-10">
       <Vitals />
+
+      <div className="divider">
+        <span className="rule" />
+        <span className="ornament">✦</span>
+        <span className="rule" />
+      </div>
+
+      <section>
+        <div className="eyebrow mb-5">
+          <span className="num">I·b.</span>
+          <span className="line" />
+          <span className="label">Today · tick it off</span>
+        </div>
+        <TodoPanel />
+      </section>
 
       <div className="divider">
         <span className="rule" />
@@ -134,7 +150,7 @@ export default function Overview() {
             title="Journal"
             tagline="Daily entries, voice or text, one file per day."
             icon={<BookOpen size={20} />}
-            accent="#00BFFF"
+            accent="#FBC02D"
             stat="Daily files in vault"
           />
           <SelfCard

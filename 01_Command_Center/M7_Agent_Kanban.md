@@ -34,6 +34,7 @@ color_status: "#00BFFF"
 - [ ] Daily review-request texts (post-firewall, awaiting Saia) #Hermes
 - [ ] Week 1 social captions — 8 posts (3 Authority / 3 Proof / 2 Heritage), with Tongan proverb anchors each — staged at `01_Command_Center/Outbox_Drafts/2026-06-22_Outbox_Week1_SocialCaptions_8Posts.md` #Hermes
 - [ ] FAQ-schema pages — 3 pages (storm restoration, hail-damage claim, property manager) with JSON-LD FAQPage schema — staged at `01_Command_Center/Outbox_Drafts/2026-06-22_Outbox_FAQSchema_3Pages_Frisco.md` #ClaudeCode
+- [ ] **SEO Wave-1 research bundle** (Pineapple Roofing · 4 drafts) — keyword map, technical audit, performance snapshot, GEO/AEO audit — staged at `01_Command_Center/Outbox_Drafts/SEO/2026-07-22_Outbox_SEO_0{1..4}_*.md` — public-data only, DataForSEO numbers are placeholders, brand-law clean, awaits Saia GO on DataForSEO + Indexceptional wire #Hermes
 
 
 ## 🛠️ Implementation

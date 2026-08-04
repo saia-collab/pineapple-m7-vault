@@ -32,6 +32,7 @@ You do **not** need to edit any paths. The dashboard auto-detects `notebooklm-mc
 ## Try it
 1. Open **Notebook** → you'll see your notebooks (or create one at notebooklm.google.com — they sync in).
 2. Pick a notebook, add a source, and ask it a question — or generate an audio overview.
+3. Use the **Short Video** sub-tab to turn a notebook into a vertical short-form video overview (great for Shorts/Reels/TikTok); the **Assets** sub-tab collects everything it generates.
 
 ## If it won't connect
 - Run **`nlm doctor`** in a terminal — it checks your install and login and tells you exactly what's wrong.
