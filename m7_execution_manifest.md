@@ -530,3 +530,12 @@ Fired the entire M7_TASK_QUEUE while Saia set up DataForSEO. All PAUSED in Outbo
   send social profile URLs for footer bar. OpenRouter key -> ~/.hermes/profiles/<active>/.env.
 - **4-Rules:** Outbox Shield intact (all outputs PAUSED, nothing published live). No folder
   restructure. Brand lexicon clean. Zero green. LOCAL only — no live web change made.
+
+## 2026-08-04 — Website revert to human-approved default (live site)
+- Root cause found: 2026-07-24 migration retitled 4 of the brothers pages (7567 Home, 9522 Roof Repair, 9524 Gutter Installation, 9528 Storm Damage Repair) with AI copy; WP nav inherits page titles, so the Services dropdown displayed AI slop.
+- Safety backup taken BEFORE revert: 02_Workspaces/_SITE_BACKUPS/BACKUP_2026-08-04_1144_PRE-REVERT.json (59 pages, 3 posts, 3.7MB).
+- Restored 10 human page titles (4 brothers pages + 6 nav-linked pages I created).
+- Unpublished to DRAFT (saved, not deleted): 16 pages (9624, 9627, 9632, 9662-9684, 9710) + 3 raw-markdown blog posts (9621-9623).
+- KEPT PUBLISHED: 9625/9626/9628/9629/9630/9631/9651 — wired into nav menu 18; drafting them would 404 the menu. Titles cleaned instead.
+- Verified live: header 2 / footer 1 / nav 6; zero AI titles remaining; all 12 nav links resolve 200.
+- Standing rule adopted: git commit + push after EVERY session (GitHub = shared memory between local and cloud Claude sessions).
