@@ -539,3 +539,13 @@ Fired the entire M7_TASK_QUEUE while Saia set up DataForSEO. All PAUSED in Outbo
 - KEPT PUBLISHED: 9625/9626/9628/9629/9630/9631/9651 — wired into nav menu 18; drafting them would 404 the menu. Titles cleaned instead.
 - Verified live: header 2 / footer 1 / nav 6; zero AI titles remaining; all 12 nav links resolve 200.
 - Standing rule adopted: git commit + push after EVERY session (GitHub = shared memory between local and cloud Claude sessions).
+
+## 2026-08-04b — Financing / Contact / Insurance Claims page repair (live)
+- Same elementor_canvas bug as the homepage found on 3 nav pages: 9625 Insurance Claims, 9626 Financing, 9629 Contact rendered with NO header/footer (raw text on white). Set all three to elementor_header_footer.
+- 9629 Contact had 3 placeholder artifacts visible to customers: "(Lead form displays here — Service · Name · Phone · Address.)" and "*(verify)*" on the HQ address. Removed.
+- 9626 Financing rebuilt to match pineapplecontractors.com/financing: real GreenSky prequalify CTA -> https://www.greensky.com/prequal/gs/contact-verification?merchant=81104803&channel=External-Button-Prequal (merchant 81104803, verified 200), proper <ul> lists, lender disclosure, CPPA framing.
+- 9629 Contact rebuilt: click-to-call, hours, HQ, RCAT #03-0637 + IKO, service-area list, CPPA CTA.
+- BRAND NOTE: GreenSky own branding is green. Did NOT reproduce their green banner. Used Navy #1A365D / Gold #FBC02D Pineapple buttons linking out to GreenSky hosted flow -> zero green preserved on our side. Verified 0 green on all 3 pages.
+- Lead form NOT embedded: site forms are Elementor widgets, no shortcode available via REST. Needs 2 clicks in Elementor or a WPForms shortcode ID.
+- OPEN: confirm HQ address (1 Cowboys Way Ste 270W Frisco TX 75034) is the correct public address.
+- Verified live: header 2 / footer 1 / nav 6 on all three; 0 placeholders; 0 green.
