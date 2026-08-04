@@ -549,3 +549,12 @@ Fired the entire M7_TASK_QUEUE while Saia set up DataForSEO. All PAUSED in Outbo
 - Lead form NOT embedded: site forms are Elementor widgets, no shortcode available via REST. Needs 2 clicks in Elementor or a WPForms shortcode ID.
 - OPEN: confirm HQ address (1 Cowboys Way Ste 270W Frisco TX 75034) is the correct public address.
 - Verified live: header 2 / footer 1 / nav 6 on all three; 0 placeholders; 0 green.
+
+## 2026-08-04c — Financing mirrored to contractors.com + Contact nav repointed
+- "Stacey-stryker" identified = the WordPress AUTHOR account that built the original site (visible in Pages list Author column). "Go back to what Stacey-stryker created" = the revert already performed in 2026-08-04a.
+- FINANCING 9626 rebuilt to mirror pineapplecontractors.com/financing: official GreenSky merchantkit banner (https://www.greensky.com/merchantkit/images/finance_buttons/prequal/prequalify-multi-offer-330.jpg?v=3.0.612) hyperlinked to merchant 81104803 prequalify flow; residential terms ($65k) + commercial terms ($100k); 3-step how-it-works; lender disclosure.
+- consumer_flyer_81104803.pdf (2.1MB, 21pp) uploaded from G:\My Drive to WP media id=9827 -> /wp-content/uploads/2026/08/consumer_flyer_81104803.pdf; embedded as inline <object> viewer + download button.
+- GREEN EXEMPTION (approved by Saia 2026-08-04): GreenSky brand banner is green. It is the lenders own trademarked hosted asset. All Pineapple-owned styling on the page stays Navy/Gold. Documented inline in the page HTML.
+- CONTACT: nav item 9648 repointed from page:9629 to custom anchor /#contact, matching the existing pattern (Process=/#process, About Us=/#about, Reviews=/#reviews). Page 9629 retired to draft.
+- ADDRESS DISCREPANCY FOUND: the sites own contact section shows 4400 State Hwy 121 #300, Lewisville, TX 75056 + support@pineappleroofingllc.com. Vault 01_Command_Center/CLAUDE.md claims HQ = 1 Cowboys Way Ste 270W Frisco TX 75034. These conflict. CLAUDE.md is human-owned (its own change control) so NOT edited by agent — Saia to reconcile. NAP consistency matters for the local SEO strategy.
+- Verified live: financing header 2/footer 1/nav 6, banner 200 image/jpeg, PDF 200 2101295 bytes, prequalify link present; Contact nav renders href="/#contact".
