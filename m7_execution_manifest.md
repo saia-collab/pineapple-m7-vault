@@ -558,3 +558,13 @@ Fired the entire M7_TASK_QUEUE while Saia set up DataForSEO. All PAUSED in Outbo
 - CONTACT: nav item 9648 repointed from page:9629 to custom anchor /#contact, matching the existing pattern (Process=/#process, About Us=/#about, Reviews=/#reviews). Page 9629 retired to draft.
 - ADDRESS DISCREPANCY FOUND: the sites own contact section shows 4400 State Hwy 121 #300, Lewisville, TX 75056 + support@pineappleroofingllc.com. Vault 01_Command_Center/CLAUDE.md claims HQ = 1 Cowboys Way Ste 270W Frisco TX 75034. These conflict. CLAUDE.md is human-owned (its own change control) so NOT edited by agent — Saia to reconcile. NAP consistency matters for the local SEO strategy.
 - Verified live: financing header 2/footer 1/nav 6, banner 200 image/jpeg, PDF 200 2101295 bytes, prequalify link present; Contact nav renders href="/#contact".
+
+## 2026-08-04d — Ship-today skills for Saia (no DataForSEO needed)
+- Verified WP still connected as Saia (administrator, publish_pages=True) via app password. The "not connected" NotebookLM banner in Claude Desktop is a DIFFERENT connector (claude.ai WordPress.com OAuth) — not the one this session uses.
+- Verified DataForSEO NOT wired in this repo — every Nico/Julian/Goldie SOP that landed in Downloads today is BLOCKED on DFS creds. Parked all of them until Saia confirms account.
+- NotebookLM auth expired ("nlm login" required). Parked pending user action.
+- 3 SEO zips in Downloads not extracted; left them for user decision (also blocked on DFS).
+- Installed 2 zero-setup skills Saia can run TODAY without brand markdown or DFS:
+  - 03_Knowledge_Mat/active_context/skills/gbp_review_responder.md (from Nico prompt, M7 brand law folded in)
+  - 03_Knowledge_Mat/active_context/skills/blog_to_gbp.md (from Julian prompt, 1400-char cap)
+- Priority guidance to user: speed-to-lead (5-min callback) > any SEO trick; do review responder daily; batch blog→GBP weekly.
