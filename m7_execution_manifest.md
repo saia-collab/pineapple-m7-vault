@@ -587,3 +587,12 @@ Fired the entire M7_TASK_QUEUE while Saia set up DataForSEO. All PAUSED in Outbo
 - Desktop deliverable written: PINEAPPLE_AGENT_OS_STATUS.txt (PASS).
 - Model per-chat switching: through the one OpenRouter key, /model <id> switches Claude/GLM/Kimi/GPT/DeepSeek per task (paid ones need credits; free default works now).
 - NOTE: 04_Tech_Lab/Pineapple_Agent_OS, _agentos_backups, logs added to .gitignore (build is huge; never commit node_modules).
+
+## 2026-08-05b — CORRECTION after reading official SETUP-WITH-AI.md + SETUP-GUIDE.md
+- User (rightly) flagged I improvised instead of reading the pack setup docs. Read newest SETUP-WITH-AI.md + SETUP-GUIDE.md (payload/source/member-pack, dated 2026-08-05). My repair MATCHES them: dashboard on :3737, and doc Rule 7 says "Hermes/Jarvis -> an OpenRouter model" (what I set). No feature rebuilt (Rule 7a honored).
+- KEY CORRECTION: auth.json shows Codex IS logged in (+ minimax-oauth active; credential_pool: openrouter, openai-codex, anthropic, ollama-cloud, opencode-zen, minimax-oauth). Tested gpt-5.6-sol via openai-codex -> "CODEX IS ONLINE". So the intended Pineapple brain WORKS on the ChatGPT plan; my free-OpenRouter default was an unnecessary workaround.
+- Set Hermes back to intended: primary provider=openai-codex model=gpt-5.6-sol; added fallback_providers -> nvidia/nemotron-3-ultra-550b-a55b:free via openrouter (auto-failover on Codex 429). Validated: hermes fallback list exit 0. Final default-path test: hermes replied "Online - GPT-5.6 Sol."
+- Agent-tab CLIs installed: Claude, Codex, Antigravity (agy), Gemini. NOT installed: Kimi, GLM/opencode, Grok, Qwen (each needs user login to activate its Studio tab).
+- Provider keys present (from Hermes status screenshot): OpenRouter, OpenAI, Gemini, DeepSeek, NVIDIA NIM, Z.AI/GLM, ElevenLabs. Not set: xAI/Grok, Anthropic (not needed - Claude tab uses `claude login`).
+- Updated Desktop PINEAPPLE_AGENT_OS_STATUS.txt model section to reflect Codex primary + free fallback.
+- Everything else from 2026-08-05a stands: :3737 healthy, SEO safety tests pass, launchers point to canonical START/UPDATE, old June :3000 retired.
