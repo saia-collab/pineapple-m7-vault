@@ -53,3 +53,8 @@ desktop.ini
 # --- keep everything else: playbooks, scripts, dashboards, SOPs ---
 .wp_secrets.env
 04_Tech_Lab/scripts/.wp_secrets.env
+
+# Agent OS local build (huge - never commit node_modules/.next)
+04_Tech_Lab/Pineapple_Agent_OS/
+04_Tech_Lab/_agentos_backups/
+04_Tech_Lab/logs/

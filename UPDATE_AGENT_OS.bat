@@ -1,13 +1,5 @@
 @echo off
-title Pineapple M7 - Safe Agent OS Update
-echo ============================================================
-echo   Backs up, applies the newest pack, preserves your M7
-echo   customizations, rebuilds, restarts, verifies :3000.
-echo   (Drop the new agent-os-pack .zip in Downloads first.)
-echo ============================================================
-echo.
+title Pineapple Agent OS Updater
+powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -File "C:\Pineapple Contractors M7\04_Tech_Lab\Pineapple_Agent_OS\UPDATE-PINEAPPLE-AGENT-OS.ps1"
 pause
-powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp004_Tech_Lab\update_agent_os.ps1"
-echo.
-echo Done. Hard-refresh http://localhost:3000
-pause
+
