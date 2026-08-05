@@ -596,3 +596,11 @@ Fired the entire M7_TASK_QUEUE while Saia set up DataForSEO. All PAUSED in Outbo
 - Provider keys present (from Hermes status screenshot): OpenRouter, OpenAI, Gemini, DeepSeek, NVIDIA NIM, Z.AI/GLM, ElevenLabs. Not set: xAI/Grok, Anthropic (not needed - Claude tab uses `claude login`).
 - Updated Desktop PINEAPPLE_AGENT_OS_STATUS.txt model section to reflect Codex primary + free fallback.
 - Everything else from 2026-08-05a stands: :3737 healthy, SEO safety tests pass, launchers point to canonical START/UPDATE, old June :3000 retired.
+
+## 2026-08-05c — Agent tabs + Hermes chat profiles (per user: "all of them + profile connecting with Hermes and chat")
+- Read install docs first (16-KIMI, 34-OPENCODE, 27-GLM-CODE, 18-GROK-BUILD) per "stop skipping setup".
+- INSTALLED: opencode v1.18.14 (free coder, works out of box) + qodercli (Qwen 3.8 brain). Created Windows wrapper C:\Usersstim\.localin\qoder-qwen.cmd -> qodercli -m Qwen3.8-Max-Preview. Registered qoder + opencode paths in .agentic-os/config.json.
+- USER-ONLY remaining (logins/subs I cannot do): qodercli login (Qwen), Kimi = download from kimi.com + kimi login, Grok = needs X Premium+ then grok login. Claude tab = claude login.
+- Hermes profiles: main/seo/content/marketing/roofing/restoration/leads all inherit the working gpt-5.6-sol via Codex (no broken overrides) — so every Pineapple chat works now.
+- Wrote 01_Command_Center/M7_HERMES_AGENT_CHATS.md: the two ways to chat per-agent (Studio tabs vs Hermes /model + profile bar), free vs paid brains, exact /model commands.
+- Already-working agent tabs: Codex, Claude, Gemini, Antigravity, opencode. Free per-chat brain switching in Hermes via /model (gpt-5.6-sol, nemotron:free, deepseek:free). Paid (Claude/GLM/Kimi) need OpenRouter credits.
