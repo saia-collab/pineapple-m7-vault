@@ -613,3 +613,9 @@ Fired the entire M7_TASK_QUEUE while Saia set up DataForSEO. All PAUSED in Outbo
 - Installed Kimi Code CLI (~/.kimi-code/bin) via official installer — user runs `kimi login`. opencode + qodercli already installed prior.
 - 08-06 pack update: safe app-only updater (builds candidate, overlays Pineapple SEO safety routes, swaps only if build passes, keeps rollback, does NOT run hermes update so profiles/config preserved). First run SAFE-STOPPED (08-06 dropped the config/ dir) leaving 08-05 live; patched overlay to create parent dirs + made skill.md non-fatal; re-running. 08-06 adds Muse Code + jcode tabs.
 - LOGIN-GATED handoffs documented in M7_HERMES_AGENT_CHATS.md: nlm login (NotebookLM), kimi login, qodercli login, hermes -p main mcp login higgsfield, hermes auth add minimax-oauth, hermes portal (nous), grok (SuperGrok), claude login.
+
+## 2026-08-06b — 08-06 pack update COMPLETE (with swap-lock recovery)
+- 08-06 build compiled clean (BUILD_ID jKgL95A...). First swap attempts safe-stopped (config/ dir dropped in 08-06 -> fixed overlay to mkdir parents; then npm stderr warning tripped ErrorActionPreference=Stop -> fixed to Continue + check LASTEXITCODE).
+- Final swap half-completed: current->previous-0806 moved, but candidate->current blocked because the script's CWD was still inside candidate (lock). Site briefly down. RECOVERED from a clean CWD: moved 08-06 candidate -> current, restarted via START script.
+- LIVE on 08-06: / /hermes /seo = 200, deploy 403, generate 400, Muse Code + jcode tabs present, 25 profiles intact, previous-0806 (08-05) kept as rollback.
+- LESSON for future updater: Set-Location out of candidate before Move-Item (CWD locks the dir on Windows).
