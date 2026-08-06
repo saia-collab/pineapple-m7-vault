@@ -1,52 +1,65 @@
 ---
-title: M7 Hermes — Agent Chats & Model Switching (how to go from one brain to another)
+title: M7 Hermes — Agent Chats, Profiles & What Still Needs Your Login
 type: reference
 status: active
-date: 2026-08-05
+date: 2026-08-06
 ---
 
-# 🧠 M7 HERMES — AGENT CHATS & MODEL SWITCHING
+# 🧠 M7 HERMES — AGENT CHATS & PROFILES
 
-Your Local Studio has **two ways** to "chat with a different AI agent." Don't mix them up.
+## Your Hermes profiles (the chat "personas", each with its own brain)
+Pick one in the **profile bar** at the top of the Hermes → Chat tab.
 
-## 1) The Studio TABS (each is its own agent app)
-Each tab lights up when its CLI is installed + you're logged in.
-
-| Tab | Status (2026-08-05) | To activate |
+| Profile | Brain (model) | Works now? |
 |---|---|---|
-| **Codex** (gpt-5.6-sol) | ✅ working | already logged in |
-| **Claude** | ✅ installed | `claude login` (uses your Claude plan) |
-| **Gemini** | ✅ installed | already on PATH |
-| **Antigravity** | ✅ installed | already on PATH |
-| **opencode** (free coder) | ✅ installed today | nothing — free out of the box |
-| **GPT 5.6 Code → Qwen 3.8** | ⚙️ CLI installed today | run `qodercli login` once (browser) |
-| **Kimi Code** | ⬜ not installed | download from kimi.com, then `kimi login` |
-| **Grok Build** | ⬜ not installed | needs X Premium+ subscription, then `grok login --device-auth` |
+| `main` / `default` | gpt-5.6-sol (Codex) | ✅ free |
+| `gpt56` | gpt-5.6-sol (Codex) | ✅ free |
+| `north-mini` | cohere/north-mini-code:free | ✅ free |
+| `omniroute` | nemotron-3-ultra (1M ctx) free | ✅ free |
+| `jarvis` | gpt-5.6-sol (Codex) | ✅ free |
+| `game-dev` | gpt-5.6-sol (Codex) | ✅ free |
+| `seo-lead` | gpt-5.6-sol (Codex) | ✅ free |
+| `blank-state` | gpt-5.6-sol (Codex) | ✅ free |
+| `notebook-obsidian` | gpt-5.6-sol (Codex) | ✅ free (reads vault; NotebookLM needs `nlm login`) |
+| `seo` `content` `marketing` `roofing` `restoration` `leads` | gpt-5.6-sol (Codex) | ✅ free (Pineapple business personas) |
+| `glm-5-2` | z-ai/glm-5.2 | ⚠️ needs OpenRouter credits |
+| `kimi-k2-7` | moonshotai/kimi-k2-0905 | ⚠️ needs OpenRouter credits |
+| `qwen-3-7` | qwen/qwen-plus | ⚠️ needs OpenRouter credits |
+| `hy3` | tencent/hy3 | ⚠️ needs OpenRouter credits |
+| `hermes-cloud` | Nous Portal | ⚠️ run `hermes portal` to log in |
+| `local` | minimax-m3 (Ollama) | ⚠️ needs Ollama running |
+| `ollama-glm-512` | glm-5.2 (Ollama Cloud) | ⚠️ needs OLLAMA_API_KEY |
+| `grok-build` | Grok (X plan) | ⚠️ needs SuperGrok + `grok login` |
+| `fusion` `sakana-fugu` | model councils | specialist |
 
-## 2) Hermes CHAT (one chat, switch the brain + persona)
-Hermes is ONE agent whose **brain** and **persona (profile)** you switch inside the chat.
+**`julian` was removed** — it was a leftover from the pack's creator (Julian Goldie), not yours.
 
-### Switch the PERSONA (profile bar at top of Hermes chat)
-Your profiles, each already wired to the working Codex brain:
-`main` · `seo` · `content` · `marketing` · `roofing` · `restoration` · `leads` · `research` · plus specialist ones (`fusion`, `sakana-fugu`, `grok-build`, `julian`).
-Click one to load that persona's instructions. All Pineapple work → use the matching profile.
-
-### Switch the BRAIN (type in the chat box)
+## Switch the BRAIN mid-chat (type in the box)
 ```
-/model gpt-5.6-sol                              ← default, FREE (your ChatGPT plan via Codex)
-/model nvidia/nemotron-3-ultra-550b-a55b:free   ← FREE, 1M memory (also the auto-fallback)
-/model deepseek/deepseek-chat-v3:free           ← FREE (if you want DeepSeek's style)
-```
-Paid brains (need OpenRouter credits at https://openrouter.ai/settings/credits):
-```
-/model anthropic/claude-sonnet-4.5              ← Claude (paid)
-/model z-ai/glm-4.6                             ← GLM (paid)
-/model moonshotai/kimi-k2                       ← Kimi (paid)
+/model gpt-5.6-sol                               ← free (Codex)
+/model cohere/north-mini-code:free               ← free
+/model nvidia/nemotron-3-ultra-550b-a55b:free    ← free, 1M memory
+/model anthropic/claude-sonnet-4.5               ← paid (needs OpenRouter credits)
 ```
 
-## The setup, in one line
-- **Default brain:** gpt-5.6-sol via Codex (free on your ChatGPT plan) — auto-falls back to a free model if Codex rate-limits.
-- **Everything Pineapple** runs through a Hermes profile → lands PAUSED in `01_Command_Center/Outbox_Drafts/` → you approve.
-- **Free today, zero new spend.** Claude/GLM/Kimi quality is one `/model` command away once you add OpenRouter credits.
+---
+
+# 🔌 WHAT STILL NEEDS *YOUR* LOGIN (I can't sign in as you)
+
+Everything below is built and wired — it just needs you to authenticate once. Do these in a normal terminal (or ask me and I'll run the command so a browser opens for you to approve).
+
+| Feature | Command you run | What it unlocks |
+|---|---|---|
+| **NotebookLM** (Notebook tab) | `nlm login` | your NotebookLM notebooks + the notebook-obsidian chat's NotebookLM half |
+| **Kimi Code** tab | `kimi login` (CLI already installed) | the Kimi coding tab |
+| **Qwen 3.8** (GPT 5.6 Code tab) | `qodercli login` | the Qwen brain |
+| **Higgsfield** (image/video) | `hermes -p main mcp login higgsfield` | AI image/video generation |
+| **MiniMax** (Hermes Studio) | `hermes auth add minimax-oauth` | Studio image/video/voice |
+| **Nous Portal** (`hermes-cloud`) | `hermes portal` | Nous cloud models |
+| **Grok Build** | upgrade to SuperGrok, then `grok login --device-auth` | the Grok tab (needs paid X Premium+) |
+| **Claude tab** | `claude login` | the Claude tab (uses your Claude plan) |
+
+## The one paid upgrade (optional)
+Add credits at https://openrouter.ai/settings/credits → unlocks the `glm-5-2`, `kimi-k2-7`, `qwen-3-7`, `hy3` profiles and Claude. Everything else is already free.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

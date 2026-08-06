@@ -604,3 +604,12 @@ Fired the entire M7_TASK_QUEUE while Saia set up DataForSEO. All PAUSED in Outbo
 - Hermes profiles: main/seo/content/marketing/roofing/restoration/leads all inherit the working gpt-5.6-sol via Codex (no broken overrides) — so every Pineapple chat works now.
 - Wrote 01_Command_Center/M7_HERMES_AGENT_CHATS.md: the two ways to chat per-agent (Studio tabs vs Hermes /model + profile bar), free vs paid brains, exact /model commands.
 - Already-working agent tabs: Codex, Claude, Gemini, Antigravity, opencode. Free per-chat brain switching in Hermes via /model (gpt-5.6-sol, nemotron:free, deepseek:free). Paid (Claude/GLM/Kimi) need OpenRouter credits.
+
+## 2026-08-06 — Named per-model Hermes profiles + notebook-obsidian chat + 08-06 update
+- Created model-named Hermes profiles (user's list): gpt56, kimi-k2-7, glm-5-2, qwen-3-7, hy3, north-mini, omniroute, hermes-cloud, jarvis, local, ollama-glm-512, blank-state, game-dev, seo-lead — each wired to its model/provider. Kept Pineapple business profiles (seo/content/marketing/roofing/restoration/leads/main) + specialists (fusion/sakana-fugu/grok-build). 25 profiles total.
+- DELETED "julian" profile (leftover from pack creator Julian Goldie — answers user's "why is this showing up").
+- Live-free profiles (Codex gpt-5.6-sol or free OpenRouter): gpt56, north-mini, omniroute, jarvis, game-dev, seo-lead, blank-state, notebook-obsidian, + all Pineapple ones. Paid (need OpenRouter credits): glm-5-2, kimi-k2-7, qwen-3-7, hy3. Login-gated: hermes-cloud (hermes portal), local/ollama-glm-512 (Ollama), grok-build (SuperGrok).
+- Created notebook-obsidian profile: reads M7 vault (vaultRoot connected, .obsidian present) for extraction; NotebookLM half needs `nlm login`.
+- Installed Kimi Code CLI (~/.kimi-code/bin) via official installer — user runs `kimi login`. opencode + qodercli already installed prior.
+- 08-06 pack update: safe app-only updater (builds candidate, overlays Pineapple SEO safety routes, swaps only if build passes, keeps rollback, does NOT run hermes update so profiles/config preserved). First run SAFE-STOPPED (08-06 dropped the config/ dir) leaving 08-05 live; patched overlay to create parent dirs + made skill.md non-fatal; re-running. 08-06 adds Muse Code + jcode tabs.
+- LOGIN-GATED handoffs documented in M7_HERMES_AGENT_CHATS.md: nlm login (NotebookLM), kimi login, qodercli login, hermes -p main mcp login higgsfield, hermes auth add minimax-oauth, hermes portal (nous), grok (SuperGrok), claude login.
