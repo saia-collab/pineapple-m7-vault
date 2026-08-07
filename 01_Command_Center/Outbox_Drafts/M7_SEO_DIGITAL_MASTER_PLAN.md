@@ -65,8 +65,44 @@ Files show both **Frisco (1 Cowboys Way Ste 270W, 75034)** and **Lewisville (440
 - ❌ Migrating domains before GSC is connected + a 301 map is tested.
 - ❌ Running any "fully autonomous, zero-pause" directive. The Shield is what protects you.
 
-## ✅ THE ONE-LINE STRATEGY
-**Keep the ranking site (contractors.com), connect GSC, dominate GBP + reviews + speed-to-lead, and push striking-distance pages to page 1 — one keyword a week. That's the whole engine. Everything else is optional.**
+## 🔄 CORRECTION (2026-08-06 PM) — the agency is being FIRED
+New context from Saia: **Scorpion (runs contractors.com) failed to deliver and is being canceled.** That changes the domain call. Since you're leaving them regardless, the job is to **move the SEO value to your in-house `roofingllc.com` BEFORE canceling — not keep contractors.com forever.**
+
+**⛔ THE #1 RISK — sequence this exactly or you lose everything:**
+1. **Build roofingllc.com up first** (city pages + blogs + storm pages).
+2. **Set 301 redirects** contractors.com → roofingllc.com (the map already exists: `M7_Redirect_Map.csv`).
+3. **Verify in GSC** that rankings move over (4–8 weeks).
+4. **ONLY THEN cancel Scorpion.** If you cancel first, contractors.com goes dark and **97 ranking pages + 141 keywords + the domain authority vanish with no redirect to catch them.** Never cancel first.
+> Your GBP (430 reviews, 5.0★) is separate from the website — it survives the switch. Just update the GBP website URL to roofingllc.com when you flip.
+
+## 📋 THE BULLSEYE AUDIT — verified data (use it, it's free intel)
+| Finding | Number | What it means |
+|---|---|---|
+| **87% branded traffic** | 396 of 455 visits/mo | People find you by *name* (word-of-mouth). Only **59/mo** are NEW customers. **This is the problem to fix.** |
+| Page-1 keywords | 8 of 141 | Big footprint, almost none on page 1 → striking-distance play |
+| **Storm-damage pages** | **0** | Your superpower is uncaptured — build these (huge, easy win) |
+| **Site speed** | **47/100, CLS 0.812** | contractors.com is slow + janky. **A fast new WordPress can beat it** — a reason to migrate, done right |
+| Reviews | **430 · 5.0★** | Elite trust asset. Put review schema + a "wall of love" on the new site |
+| Google Ads | **0 ever run** | Untapped channel (LSA first, then Meta) |
+| Existing content | 97 city pages · 79 blogs | Migrate + rewrite these to brand law (they still say "free"/"GAF") |
+
+**The fix for the 87%-branded problem = attack NON-BRANDED local keywords** (roofer grapevine, gutter installation lewisville) + build the 0 storm pages. That's how you get found by people who don't know your name yet.
+
+## 📹 THE 39GB MEDIA ENGINE (reels · photos · testimonials → every platform)
+You have 39GB of field media + client testimonials — that's a year of content sitting idle. The repurpose loop:
+```
+39GB media  →  Video Editor / OpenMontage (cut 8–15s vertical clips, Navy/Gold overlay, RCAT #03-0637 end card)
+            →  Higgsfield (polish / thumbnails)  →  Hermes (writes captions, Hormozi 50/5/3, brand-safe)
+            →  Blotato (schedule 12 months out, drag to Today to publish)  →  FB · IG · TikTok · YouTube · LinkedIn · GBP
+```
+- **Testimonials** → the highest-converting content. One per completed job → Reel + GBP post + a review-schema block on the city page.
+- **Before/after** → carousels + the "wall of love."
+- **Drone/job footage** → Authority pillar (40%).
+- **Cadence:** 3–4 posts/week/platform, 70% value / 20% proof / 10% offer. Everything lands PAUSED in Blotato — you approve the batch.
+> I + Hermes handle: clip selection, captions, brand-check, scheduling. **You** approve. This is the next doc I build if you say go.
+
+## ✅ THE ONE-LINE STRATEGY (corrected)
+**Build roofingllc.com into the fast, review-rich, storm-page-heavy flagship, 301 the old agency site into it, then fire Scorpion — while the 39GB media becomes your always-on social engine. Get found by people who DON'T know your name yet.**
 
 Ko e hala 'o e fononga ko e faka'apa'apa.
 
