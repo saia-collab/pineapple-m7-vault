@@ -643,3 +643,10 @@ Fired the entire M7_TASK_QUEUE while Saia set up DataForSEO. All PAUSED in Outbo
 - CLONES: open-design (nexu-io/open-design) + seo-office (AgriciDaniel/seo-os) cloned; installed pnpm; kicked off pnpm install for both (background). SEO Office runs pnpm dev -> :3000 tab; Open Design needs bridge scripts (Mac-oriented) — Windows start TBD.
 - Restarted fcc-server :8082 + Paperclip after the tree-kill.
 - FULL SWEEP (all green): pages / /hermes /seo /notebook /memory = 200; Hermes gpt-5.6-sol via codex, 25 profiles; CLIs installed = claude/codex/kimi/qodercli/opencode/agy/gemini/nlm/notebooklm-mcp (grok needs SuperGrok); config vaultRoot=M7 user=Siosaia/Frisco qoder+opencode set; junction ->M7; brand theme navy/gold/cyan shipped.
+
+## 2026-08-06f — Open Design live + folder dry-run + mobile SOP + cowork + playground
+- Open Design STARTED on :7456 (dev mode; --prod needed a build it didn't ship). SEO Office live on :3000. Both cloned-tab issues resolved — every startable tab now up.
+- FOLDER DRY-RUN written (PAUSED): 01_Command_Center/Outbox_Drafts/M7_FOLDER_CLEANUP_DRYRUN.md. Buckets: KEEP (4-Fala + Agentic OS), ARCHIVE (~30MB old packs/zips/empty launchers -> _Archive/2026-08-06), TIDY loose root .md -> 03_Knowledge_Mat, REVIEW (knowledge-base/legacy_backup/Omi/_Inbox_Cleanup/Scheduled/Projects). Includes a Hermes-goal prompt to execute it. NOTHING moved.
+- MASTER SOP updated: added PART 7 — ONE SYSTEM, THREE SCREENS (mobile MOBILE_STATUS.md via Drive sync + M7_DAILY_SYNC.bat + 30-min snapshot; desktop Studio :3737; local vault+scripts; GitHub = shared memory).
+- NEW: M7_STUDIO_PLAYGROUND_AND_COWORK.md — example paste-in prompts for every tab (opencode/Codex/Muse/SEO Research/Parasite/SEO Office/Kanban/Higgsfield/Video/Thumbnails/Notebook/Memory/Fusion/Loop/App Lab/Hermes profiles) + a Cowork handoff prompt to generate Master SOP v3 and push to GitHub.
+- All brand_firewall --check = OK.

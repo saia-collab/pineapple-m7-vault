@@ -139,6 +139,25 @@ Do not publish, send, or spend.
 - [ ] OpenRouter credits (only if you want Claude/GLM/Kimi quality; free models work now)
 - [ ] Logins: `nlm login` (NotebookLM), DataForSEO key (OpenSEO), optional Kimi/Qwen/Grok
 
+---
+
+## PART 7 — ONE SYSTEM, THREE SCREENS (mobile · desktop · local computer)
+The vault `C:\Pineapple Contractors M7` is the single brain. GitHub is the shared memory between machines and chats.
+
+| Screen | What runs there | Your job |
+|---|---|---|
+| **🖥️ Desktop (Local Studio)** | Full Studio at :3737 — every tab, Hermes, SEO engine, media. All execution here. | Drive the build; approve the Outbox |
+| **💻 Local computer (vault + scripts)** | `04_Tech_Lab/scripts/` (brand_firewall, daily sync), Hermes home, the git repo. OS/Hermes write memory to `Agentic OS/`. | Run **LAUNCH_ALL.bat** each morning |
+| **📱 Mobile (phone oversight)** | `01_Command_Center/MOBILE_STATUS.md` + `.json` — phone-readable snapshot of Outbox Shield state, what's waiting for GO, telemetry. Synced to your phone via Google Drive. | Open MOBILE_STATUS in the Drive app (or ask Claude-mobile to "search Drive for MOBILE_STATUS"); GO/NO-GO from your phone |
+
+### Auto-sync loop (hands-free)
+- **`CLAUDE MOBILE/M7_DAILY_SYNC.bat`** runs: intake → brand firewall → index → telemetry → mobile snapshot → git snapshot. Outbox Shield stays on.
+- **`CLAUDE MOBILE/REGISTER_MOBILE_SNAPSHOT.bat`** (double-click once) runs the snapshot every 30 min → keeps MOBILE_STATUS fresh on your phone.
+- Flow: agents draft on desktop → your phone shows what needs GO → you approve → desktop executes → git pushes → every screen is current.
+
+### The rule that ties it together
+**GitHub is the shared memory.** Every session ends with `git push`. So the desktop Studio, this Claude chat, a Cowork cloud agent, and your phone all read the same vault. No screen is ever stale.
+
 Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->
