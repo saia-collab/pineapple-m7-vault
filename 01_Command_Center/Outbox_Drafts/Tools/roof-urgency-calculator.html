@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Roof Replacement Urgency Calculator | Pineapple Roofing</title>
+<style>
+  :root{
+    --navy:#1A365D; --navy-deep:#0d1826; --gold:#FBC02D; --cyan:#00BFFF;
+    --alert:#E53935; --amber:#F59E0B; --ink:#EAF2FB; --ink-dim:#9DB2CC;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{
+    font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+    background:linear-gradient(165deg,var(--navy-deep),var(--navy));
+    color:var(--ink); min-height:100vh; padding:24px 16px;
+    display:flex; align-items:flex-start; justify-content:center;
+  }
+  .card{
+    width:100%; max-width:640px; background:rgba(13,24,38,.72);
+    border:1px solid rgba(251,192,45,.28); border-radius:18px;
+    padding:28px 26px 22px; box-shadow:0 20px 60px rgba(0,0,0,.45);
+  }
+  .brandrow{display:flex;align-items:center;gap:10px;margin-bottom:6px}
+  .pin{width:30px;height:30px;border-radius:8px;background:var(--gold);
+    color:var(--navy);display:grid;place-items:center;font-size:18px;font-weight:800}
+  .brand{font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-dim)}
+  h1{color:var(--gold);font-size:25px;line-height:1.15;margin:12px 0 4px;font-weight:800}
+  .sub{color:var(--ink-dim);font-size:13.5px;margin-bottom:20px}
+  label{display:block;font-size:13px;font-weight:600;color:var(--ink);margin:16px 0 7px}
+  .val{color:var(--gold);font-weight:700}
+  input[type=range]{width:100%;height:7px;border-radius:6px;-webkit-appearance:none;
+    background:linear-gradient(90deg,var(--cyan),var(--gold));outline:none}
+  input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:22px;height:22px;
+    border-radius:50%;background:var(--gold);border:3px solid var(--navy-deep);cursor:pointer}
+  select{width:100%;padding:11px 12px;border-radius:10px;background:#0f1e30;
+    color:var(--ink);border:1px solid rgba(157,178,204,.35);font-size:14px;cursor:pointer}
+  select:focus{border-color:var(--gold);outline:none}
+  .result{margin-top:22px;border-radius:14px;padding:20px;text-align:center;
+    background:#0f1e30;border:1px solid rgba(157,178,204,.25);transition:.3s}
+  .status{font-size:21px;font-weight:800;margin-bottom:4px}
+  .remain{font-size:13.5px;color:var(--ink-dim)}
+  .bar{height:12px;border-radius:8px;background:#0a1420;margin:16px 0 4px;overflow:hidden}
+  .fill{height:100%;width:0;border-radius:8px;transition:width .4s,background .4s}
+  .scale{display:flex;justify-content:space-between;font-size:10.5px;color:var(--ink-dim)}
+  .cta{display:block;width:100%;margin-top:22px;padding:16px;border:none;border-radius:12px;
+    background:var(--gold);color:var(--navy);font-size:15.5px;font-weight:800;text-align:center;
+    text-decoration:none;cursor:pointer;transition:.2s}
+  .cta:hover{background:#ffd034;transform:translateY(-1px)}
+  .cta small{display:block;font-weight:600;font-size:11.5px;opacity:.8;margin-top:2px}
+  .trust{margin-top:18px;padding-top:14px;border-top:1px solid rgba(157,178,204,.2);
+    font-size:11px;color:var(--ink-dim);text-align:center;line-height:1.9}
+  .trust b{color:var(--cyan)}
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="brandrow"><span class="pin">🍍</span><span class="brand">Pineapple Roofing</span></div>
+    <h1>Roof Replacement Urgency Calculator</h1>
+    <p class="sub">Answer three questions to see how much life your roof has left — and whether it's time for a professional look.</p>
+
+    <label>Roof Age — <span class="val" id="ageVal">15</span> years</label>
+    <input type="range" id="age" min="0" max="30" value="15">
+
+    <label>Roof Material</label>
+    <select id="material">
+      <option value="20">Asphalt Shingle (≈20 yr life)</option>
+      <option value="30" selected>Architectural Shingle (≈30 yr life)</option>
+      <option value="50">Metal (≈50 yr life)</option>
+      <option value="50">Tile / Slate (≈50 yr life)</option>
+      <option value="25">Wood Shake (≈25 yr life)</option>
+    </select>
+
+    <label>Climate Exposure (DFW hail & heat)</label>
+    <select id="climate">
+      <option value="1.0">Low — sheltered, mild</option>
+      <option value="1.15" selected>Moderate — typical North Texas</option>
+      <option value="1.3">High — full sun, wind</option>
+      <option value="1.5">Severe — hail country / recent storms</option>
+    </select>
+
+    <label>Maintenance Level</label>
+    <select id="maint">
+      <option value="0.9">Excellent — inspected & maintained</option>
+      <option value="1.0" selected>Average</option>
+      <option value="1.2">Poor — no upkeep</option>
+    </select>
+
+    <div class="result" id="result">
+      <div class="status" id="status">—</div>
+      <div class="remain" id="remain"></div>
+      <div class="bar"><div class="fill" id="fill"></div></div>
+      <div class="scale"><span>Healthy</span><span>Monitor</span><span>Plan</span><span>Immediate</span></div>
+    </div>
+
+    <a class="cta" id="cta" href="tel:9729280788">
+      Claim Your Complimentary 15-Point Roof Vulnerability Audit
+      <small>Tap to call (972) 928-0788 · No obligation</small>
+    </a>
+
+    <div class="trust">
+      <b>RCAT License #03-0637</b> · IKO Certified · 5-Star Rated · Roofing DFW Since 2005<br>
+      Pineapple Roofing · (972) 928-0788
+    </div>
+  </div>
+
+<script>
+  const age=document.getElementById('age'), ageVal=document.getElementById('ageVal'),
+        material=document.getElementById('material'), climate=document.getElementById('climate'),
+        maint=document.getElementById('maint'), status=document.getElementById('status'),
+        remain=document.getElementById('remain'), fill=document.getElementById('fill');
+
+  // Palette: ZERO green. Cyan (healthy) -> Gold (monitor) -> Amber (plan) -> Red (immediate).
+  function calc(){
+    const a=+age.value, life=+material.value, clim=+climate.value, mnt=+maint.value;
+    ageVal.textContent=a;
+    // effective wear: age aged up by climate + maintenance, measured against material life
+    const wear=Math.min((a*clim*mnt)/life,1.35);
+    const pct=Math.min(Math.round(wear*100),100);
+    const yearsLeft=Math.max(Math.round(life - a*clim*mnt),0);
+
+    let label,color;
+    if(wear<0.55){label='Healthy';color='var(--cyan)';}
+    else if(wear<0.8){label='Monitor Yearly';color='var(--gold)';}
+    else if(wear<1.0){label='Plan Replacement';color='var(--amber)';}
+    else {label='Immediate Attention';color='var(--alert)';}
+
+    status.textContent=label; status.style.color=color;
+    fill.style.width=pct+'%'; fill.style.background=color;
+    remain.textContent = yearsLeft>0
+      ? `Estimated remaining roof life: about ${yearsLeft} year${yearsLeft===1?'':'s'}`
+      : `Your roof is at or past its expected service life`;
+  }
+  [age,material,climate,maint].forEach(el=>el.addEventListener('input',calc));
+  calc();
+</script>
+</body>
+</html>
