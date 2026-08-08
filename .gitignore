@@ -58,3 +58,6 @@ desktop.ini
 04_Tech_Lab/Pineapple_Agent_OS/
 04_Tech_Lab/_agentos_backups/
 04_Tech_Lab/logs/
+
+# third-party skill/plugin reference library (clone-only)
+04_Tech_Lab/playbook_resources/
