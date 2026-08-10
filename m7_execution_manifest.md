@@ -672,3 +672,7 @@ Fired the entire M7_TASK_QUEUE while Saia set up DataForSEO. All PAUSED in Outbo
 - Build test PASSED (npm ci + next build, 52 pages). Final swap had been blocked by a file lock on current/ (running OS + IDE); completed the swap manually after stopping the port-3737 server.
 - Result: current = build 2026-08-10; rollback kept at previous-0810. Verified /api/version=2026-08-10, :3737 live, Hermes online. ~/.agentic-os, ~/.hermes, ~/.fcc, vault all preserved.
 - Added M7_FREE_CLAUDE_CODE_CHEATSHEET.md (FCC study guide).
+
+## 2026-08-10 (pm) - Free Claude Code fixed + Master Knowledge Mat scrubbed (Claude Code)
+- FCC was down: fcc-server (:8082) + OmniRoute (:20128) not running. Started both; verified end-to-end (proxy -> free model nvidia/nemotron-3-super answered). Wired OmniRoute auto-start into START-PINEAPPLE-AGENT-OS.ps1 (next to the existing fcc-server block) so it persists.
+- Scrubbed the NotebookLM "PM7 Agentic OS Master Knowledge Mat" into M7 branding: dropped the legacy raw-prompt header (Warrior/six-brothers/Pineapple-Mana-Global/GAF), kept the M7-compliant v7.0 body (1425 lines). Saved to 03_Knowledge_Mat/PM7_MASTER_KNOWLEDGE_MAT.md, brand-firewall OK.
