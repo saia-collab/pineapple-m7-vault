@@ -688,3 +688,8 @@ Fired the entire M7_TASK_QUEUE while Saia set up DataForSEO. All PAUSED in Outbo
 - #1 /watch skill live; watched+scrubbed 2 Julian Goldie videos (24/7 Traffic Engine + Graph Engineering) -> 03_Knowledge_Mat/raw/watched/.
 - #4 UTF-8: 03_Knowledge_Mat scanned, clean (no mojibake).
 - Cheat sheet: 01_Command_Center/M7_UPGRADE_CHEATSHEET_2026-08-10.md. Did NOT run brand_firewall --fix across the vault (would corrupt rule-definition docs).
+
+## 2026-08-10 (pm4) - Finished #1/#2/#3: skills wired, guides fetched, videos watched (Claude Code)
+- #1 skill-forge INSTALLED (~/.claude/skills + agents, live). claude-seo: kept as plugin (its skills call bin/claude-seo) -> RUN_SEO_SECONDBRAIN.bat launcher loads claude-seo + claude-obsidian via --plugin-dir (safe, no config hand-edit). Did NOT hand-edit ~/.claude/config.json (risk).
+- #2 fetched + scrubbed 5 agentos.guide guides (five-site-flywheel, agent-assembly-line, train-once-engine, ai-movie-machine, prime-agent) -> 03_Knowledge_Mat/00_Atlas/2026-08-10_agentos-guides-5-latest-CLAUDE.md.
+- #3 /watch'd 4 more community videos (Agent OS Q&A + Claude-Obsidian 2.0 x2 + 11-skills) -> 03_Knowledge_Mat/raw/watched/. Key action surfaced: set claude-obsidian MODE=PARA.
