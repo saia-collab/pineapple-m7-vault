@@ -681,3 +681,10 @@ Fired the entire M7_TASK_QUEUE while Saia set up DataForSEO. All PAUSED in Outbo
 - Cloned claude-obsidian (AgriciDaniel), claude-watch (taoufik), claude-video (brad) to 04_Tech_Lab/vendor/ (gitignored, review-before-run).
 - Made the video skill runnable: installed yt-dlp (ffmpeg already present), registered claude-watch as ~/.claude/skills/watch, set WATCH_VAULT_DIR -> 03_Knowledge_Mat. Usable next Claude Code session via /watch <url>.
 - Verified all recommended AgriciDaniel repos exist (claude-seo, claude-cybersecurity, skill-forge, wp-mcp-ultimate). Did NOT run the pasted "one-click" directive's brand_firewall --fix (would corrupt governance docs that list banned words as rules) — use --check instead.
+
+## 2026-08-10 (pm3) - Second Brain + video skill + SEO-repo scan (Claude Code)
+- #3 claude-obsidian: cloned to vendor, CLAUDE_OBSIDIAN_VAULT->03_Knowledge_Mat, created inbox/raw/sources ingest folders. Usable via `claude --plugin-dir`.
+- #2 scanned+cloned 4 AgriciDaniel repos: claude-seo (MUST), wp-mcp-ultimate (HIGH, WP-side), skill-forge (HIGH), claude-cybersecurity (MEDIUM). Cloned to vendor (gitignored), not yet wired as active skills.
+- #1 /watch skill live; watched+scrubbed 2 Julian Goldie videos (24/7 Traffic Engine + Graph Engineering) -> 03_Knowledge_Mat/raw/watched/.
+- #4 UTF-8: 03_Knowledge_Mat scanned, clean (no mojibake).
+- Cheat sheet: 01_Command_Center/M7_UPGRADE_CHEATSHEET_2026-08-10.md. Did NOT run brand_firewall --fix across the vault (would corrupt rule-definition docs).
