@@ -676,3 +676,8 @@ Fired the entire M7_TASK_QUEUE while Saia set up DataForSEO. All PAUSED in Outbo
 ## 2026-08-10 (pm) - Free Claude Code fixed + Master Knowledge Mat scrubbed (Claude Code)
 - FCC was down: fcc-server (:8082) + OmniRoute (:20128) not running. Started both; verified end-to-end (proxy -> free model nvidia/nemotron-3-super answered). Wired OmniRoute auto-start into START-PINEAPPLE-AGENT-OS.ps1 (next to the existing fcc-server block) so it persists.
 - Scrubbed the NotebookLM "PM7 Agentic OS Master Knowledge Mat" into M7 branding: dropped the legacy raw-prompt header (Warrior/six-brothers/Pineapple-Mana-Global/GAF), kept the M7-compliant v7.0 body (1425 lines). Saved to 03_Knowledge_Mat/PM7_MASTER_KNOWLEDGE_MAT.md, brand-firewall OK.
+
+## 2026-08-10 (pm2) - Video skill installed + repos scanned (Claude Code)
+- Cloned claude-obsidian (AgriciDaniel), claude-watch (taoufik), claude-video (brad) to 04_Tech_Lab/vendor/ (gitignored, review-before-run).
+- Made the video skill runnable: installed yt-dlp (ffmpeg already present), registered claude-watch as ~/.claude/skills/watch, set WATCH_VAULT_DIR -> 03_Knowledge_Mat. Usable next Claude Code session via /watch <url>.
+- Verified all recommended AgriciDaniel repos exist (claude-seo, claude-cybersecurity, skill-forge, wp-mcp-ultimate). Did NOT run the pasted "one-click" directive's brand_firewall --fix (would corrupt governance docs that list banned words as rules) — use --check instead.

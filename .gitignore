@@ -61,3 +61,9 @@ desktop.ini
 
 # third-party skill/plugin reference library (clone-only)
 04_Tech_Lab/playbook_resources/
+
+# third-party skill clones (review before running)
+04_Tech_Lab/vendor/claude-obsidian/
+04_Tech_Lab/vendor/claude-watch/
+04_Tech_Lab/vendor/claude-video/
+04_Tech_Lab/vendor/claude-seo/
