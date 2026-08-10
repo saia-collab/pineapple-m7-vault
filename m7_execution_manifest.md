@@ -666,3 +666,9 @@ Fired the entire M7_TASK_QUEUE while Saia set up DataForSEO. All PAUSED in Outbo
 - FIX: rewrote config.json as UTF-8 WITHOUT BOM (first bytes now 123,13,10 = clean). Also set user env AGENTIC_OS_HERMES_BIN as belt-and-suspenders. Restarted OS. Verified: /api/hermes = {ok:true}, /api/hermes/profiles = 200 lists profiles. Hermes now ONLINE in the OS (reload tab).
 - CLARIFIED for user: (1) Desktop LAUNCH_ALL.bat is THE launcher; 04_Tech_Lab/Pineapple_Agent_OS holds current(app)+pineapple-safety+START/UPDATE.ps1 that the .bat calls (never run .ps1 directly). (2) 04_Tech_Lab/hermes_profiles (*.SOUL.md, Jul 4) + hermes_skills (*.yaml) are SOURCE files, NOT live; the 26 LIVE profiles are in %LOCALAPPDATA%/hermes/profiles and ARE implemented. (3) The .zip files in 04_Tech_Lab/scripts are redundant zipped copies of the .ps1 next to them, NOT launchers. (4) Shared memory = the Obsidian vault (Memory tab) + 03_Knowledge_Mat/SHARED_MEMORY.md + Agentic OS/Memories/.
 - OUTBOX INVENTORY: 152 files of completed work awaiting review/publish (Hormozi kit, CPPA capture page, 26 SEO_Posts, 22 Website_Pages, review requests, 30-day calendar, etc.).
+
+## 2026-08-10 - Agent OS updated to build 2026-08-10 (Claude Code)
+- Fixed UPDATE-PINEAPPLE-AGENT-OS.ps1: added Copy-Safe (creates missing dest dirs / skips dropped files). The 8/10 pack dropped its config/ folder, which crashed the old updater's safety step.
+- Build test PASSED (npm ci + next build, 52 pages). Final swap had been blocked by a file lock on current/ (running OS + IDE); completed the swap manually after stopping the port-3737 server.
+- Result: current = build 2026-08-10; rollback kept at previous-0810. Verified /api/version=2026-08-10, :3737 live, Hermes online. ~/.agentic-os, ~/.hermes, ~/.fcc, vault all preserved.
+- Added M7_FREE_CLAUDE_CODE_CHEATSHEET.md (FCC study guide).
