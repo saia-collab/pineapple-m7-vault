@@ -19,4 +19,4 @@
 ## CONTENT GOVERNANCE RULES
 - **Anti-Slop Language Ban**: Permanently block the word "Complimentary" in consumer-facing copy. Use "Complimentary Professional Photo Audit" instead.
 - **Visual Law Compliance**: All personal content that references branded layouts must honor the active standards in `01_Command_Center/design.md` including 180px top banner, 42px hook font, 860px wrap envelope, and 95px bottom credential bar.
-- **Proverb Anchor**: Seal authority posts with: *Ko e hala 'o e fononga ko e faka'apa'apa* (The path of the journey is respect).
+- **Voice Anchor**: Seal authority posts with the brand voice — "Roofing Made Sweeter" + "The Pineapple Standard." (Tongan proverb anchor decommissioned 2026-08-11.)

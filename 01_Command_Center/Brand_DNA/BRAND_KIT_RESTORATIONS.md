@@ -24,9 +24,9 @@ At Pineapple Restorations, we believe every space tells a story. When life inter
 - All visual assets for this business line must use the **Pineapple Restorations** logo and identity.
 - Pineapple Restorations content must never be cross-pollinated with Pineapple Roofing promotions.
 
-## Mana Anchor Rule (Mandatory)
-- Every output must include one Tongan proverb to preserve brand soul and cultural identity.
-- Default proverb anchor: Si'i pe kae ha'u.
+## Brand Voice Rule (Mandatory)
+- Brand voice anchor: "Roofing Made Sweeter" + "The Pineapple Standard."
+- Do NOT append Tongan proverbs — the proverb mandate is decommissioned (2026-08-11).
 
 ## Contact Information
 - **Phone:** 972-928-0788
@@ -49,5 +49,5 @@ At Pineapple Restorations, we believe every space tells a story. When life inter
 	- Complimentary Professional Audit
 	- Full Restoration Coverage
 	- IKO Certified
-- Verify one Tongan proverb anchor is included before deployment (default: Si'i pe kae ha'u).
+- Verify brand voice is on-tone: "Roofing Made Sweeter" + "The Pineapple Standard" (no Tongan proverbs — decommissioned).
 - **Deployment Blocker Rule:** Do not deploy any asset until every checklist item above is confirmed.

@@ -55,5 +55,5 @@
 	- Complimentary Professional Audit
 	- Full Restoration Coverage
 	- IKO Certified
-- Verify one Tongan proverb anchor is included before deployment (default: Si'i pe kae ha'u).
+- Verify the brand voice is on-tone: slogan "Roofing Made Sweeter" + "The Pineapple Standard" (do NOT append Tongan proverbs — decommissioned 2026-08-11).
 - **Deployment Blocker Rule:** Do not deploy any asset until every checklist item above is confirmed.
