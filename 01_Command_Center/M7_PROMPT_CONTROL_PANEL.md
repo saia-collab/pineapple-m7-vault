@@ -211,6 +211,8 @@ push to GitHub so my cloud chats have it. Stage anything customer-facing PAUSED 
 
 > ⚡ **Even faster (skip the export):** your NotebookLM is wired to Claude Code directly. Just say *"Pull the latest notes from my '[notebook name]' notebook, scrub, file, and push."* I fetch them myself.
 
+> 🤖 **Now a one-command skill:** type **`/notebook-ingest "<notebook name>"`** in Claude Code (or the SEO Second Brain window) — the installed skill runs the whole loop by itself: pull → add only *new* notes → scrub → structure → index → commit + push. Lives in `.claude/skills/notebook-ingest/` (shared memory).
+
 > ⚠️ **Why NotebookLM still shows the old proverb:** it keeps its OWN copies of your sources, so my vault scrub doesn't reach it. It'll stop once you re-load the scrubbed files as sources — or just ignore that line; **I strip it when I ingest.**
 
 > 📚 **Your ingested NotebookLM prompts live here:** `03_Knowledge_Mat/Resources/_NOTEBOOKLM_TOP_PROMPTS.md` (the 24 best) + each folder's own `_PROMPTS_LIBRARY.md`. Map of all 63 notes: `Resources/_NOTEBOOKLM_MAP_OF_CONTENT.md`. Summary: `Resources/_NOTEBOOKLM_INGEST_2026-08-11.md`.
