@@ -30,7 +30,7 @@ Instead of opening all of your posts one by one to manually re-assign them, your
     *   `news` or `press-releases` \\(\rightarrow\\) **`News & Updates`**
     *   *Fallback (if no match is found)* \\(\rightarrow\\) **`The Pineapple Standard`**
 2.  **Scans and Bulk-Updates Your Posts:** It scans your database, reads the legacy tags of your imported posts, maps them to the correct new parent categories, and updates your site's metadata. 
-3.  **Applies Your Brand Law Lexicon:** If any post contains "free inspection" in its category title or tags, the mapper automatically sanitizes the metadata to read **CPPA (Complimentary Professional Photo Audit)**, keeping your brand 100% compliant.
+3.  **Applies Your Brand Law Lexicon:** If any post contains "Complimentary Professional Photo Audit (CPPA)" in its category title or tags, the mapper automatically sanitizes the metadata to read **CPPA (Complimentary Professional Photo Audit)**, keeping your brand 100% compliant.
 
 ---
 

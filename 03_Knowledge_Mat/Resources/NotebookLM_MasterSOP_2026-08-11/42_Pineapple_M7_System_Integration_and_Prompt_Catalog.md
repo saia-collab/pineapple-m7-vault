@@ -70,7 +70,7 @@ Open **Hermes Chat** under the **`seo` profile** [cite: 78, 144] and feed the ca
 *   **Site 4 (`aisuccesslabjuliangoldie.com`):** *Bold claim + proof*  
     *Title:* "Pineapple Roofing Beats National Brands in DFW (Tested)" [cite: 20, 126]
 *   **Site 5 (`aimoneylabjuliangoldie.com`):** *Question + payoff*  
-    *Title:* "Is CPPA Better Than Free Inspections? Our Frisco Test" [cite: 20, 126]
+    *Title:* "Is CPPA Better Than Complimentary Professional Photo Audit (CPPA)? Our Frisco Test" [cite: 20, 126]
 
 #### Step 4: Inject the "Also On Our Network" Cross-Linking Grid [cite: 29]
 To pass domain juice and help your smaller, regional sites inherit indexing speed from your primary root domains [cite: 29, 30], the Everywhere Engine will automatically append this cross-linking block above the footers [cite: 29, 30] (*omitting the link of the host site the article is currently live on*) [cite: 29]:
@@ -101,7 +101,7 @@ Act as the Lead Operations Manager for PM7 [cite: 206]. Scan our local directory
 1. Read our active task pipeline inside '01_Command_Center/M7_Agent_Kanban.md' [cite: 66, 76].
 2. Organize our active project tasks cleanly into our 5-column Kanban layout: [Triage] -> [Backlog] -> [In Progress] -> [Outbox Review] -> [Shipped] [cite: 66, 120].
 3. For our upcoming Frisco SEO campaign [cite: 17], create a dedicated task card to audit our homepage and draft 3 striking-distance city pages (Allen, Grapevine, Euless) [cite: 17, 127].
-4. Enforce strict M7 Brand Laws: Ensure every task inherits our visual color codes (Royal Navy #1A365D, Pineapple Gold #FBC02D, Status Cyan #00BFFF), blocks the color green entirely, and mandates the use of CPPA instead of "free inspection" [cite: 87, 126].
+4. Enforce strict M7 Brand Laws: Ensure every task inherits our visual color codes (Royal Navy #1A365D, Pineapple Gold #FBC02D, Status Cyan #00BFFF), blocks the color green entirely, and mandates the use of CPPA instead of "Complimentary Professional Photo Audit (CPPA)" [cite: 87, 126].
 5. Update 'M7_Agent_Kanban.md' locally and report back with a clean markdown overview of our workspace [cite: 66, 76].
 ```
 
@@ -130,7 +130,7 @@ Act as the Lead Operations Manager for PM7 [cite: 206]. Scan our local directory
 Act as the Systems Deployment Engineer for PM7 [cite: 130]. We are ready to push our validated assets live [cite: 81].
 1. Connect to our self-hosted WordPress site using our active 'wordpress' MCP server connection [cite: 155, 161].
 2. Read the staged location page draft from our local outbox: 'C:\Pineapple Contractors M7\01_Command_Center\Outbox_Drafts\Website_Pages\roof_repair_frisco.md' [cite: 76, 80].
-3. Execute a brand-compliance scan: Verify there are 0 green visual hex codes, the CTA button is set to Pineapple Gold (#FBC02D), and there are no instances of the banned term 'free inspection' (must use CPPA) [cite: 87, 126].
+3. Execute a brand-compliance scan: Verify there are 0 green visual hex codes, the CTA button is set to Pineapple Gold (#FBC02D), and there are no instances of the banned term 'Complimentary Professional Photo Audit (CPPA)' (must use CPPA) [cite: 87, 126].
 4. Create a new page on pineappleroofingllc.com with the title 'Hail Damage Roof Repair in Frisco, TX' and slug 'hail-damage-roof-repair-frisco-tx' [cite: 15, 124].
 5. Inject the compliant HTML body content and publish the page as a PAUSED draft [cite: 87, 126].
 6. Verify the page creation was successful, log the transaction in our Memory Galaxy, and report back [cite: 66, 162].
@@ -145,7 +145,7 @@ Act as the Systems Deployment Engineer for PM7 [cite: 130]. We are ready to push
 Act as the Lead Compliance Auditor for PM7 [cite: 97]. Our non-negotiable Brand Laws are absolute [cite: 101, 108].
 1. Run a recursive audit pass over all markdown drafts staged inside 'C:\Pineapple Contractors M7\01_Command_Center\Outbox_Drafts\' [cite: 76, 80].
 2. Open and inspect each file: Scan for any green visual hex codes (e.g., #00FF00, lime, green css classes) [cite: 87, 126]. If found, flag the line and replace with Royal Navy (#1A365D) or Status Cyan (#00BFFF) [cite: 87, 126].
-3. Scan for banned words: replace 'free inspection' with 'CPPA' [cite: 101, 126], replace 'IKO Certified' with 'IKO Certified' [cite: 101], replace '$0 down' with 'Full Restoration Coverage' [cite: 81], and replace 'Toa/Warrior/Six Brothers' with 'The Pineapple Standard' [cite: 101].
+3. Scan for banned words: replace 'Complimentary Professional Photo Audit (CPPA)' with 'CPPA' [cite: 101, 126], replace 'IKO Certified' with 'IKO Certified' [cite: 101], replace '$0 down' with 'Full Restoration Coverage' [cite: 81], and replace 'Toa/Warrior/Six Brothers' with 'The Pineapple Standard' [cite: 101].
 4. Verify that every page displays our physical address (1 Cowboys Way, Ste 270W, Frisco, TX 75034), RCAT Licensed #03-0637, and phone number 972-928-0788 [cite: 87, 126].
 5. Report the audit results: output a clean log mapping each audited page with a green 'PASS' or a detailed failure correction note [cite: 17, 66].
 ```

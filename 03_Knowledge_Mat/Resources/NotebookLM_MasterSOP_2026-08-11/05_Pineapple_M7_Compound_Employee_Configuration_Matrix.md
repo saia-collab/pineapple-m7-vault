@@ -50,7 +50,7 @@ Every output you generate must pass these non-negotiable compliance rules:
 1. **The Outbox Shield (DEC-005):** You have 0% permission to post, publish, send, or spend money. All your work must be written to `01_Command_Center/Outbox_Drafts/` in a strictly PAUSED state awaiting Saia's "GO" [cite: 13, 54, 181].
 2. **Strict Color Palette:** You are forbidden from using the color green (including hex #00FF00, named styles, or Tailwind green classes) [cite: 54]. Exclusively style assets in Royal Navy (#1A365D), Pineapple Gold (#FBC02D), and Status Cyan (#00BFFF) [cite: 54].
 3. **Lexicon Firewall (Prohibited Terms):**
-   * Replace "free inspection" or "free quote" with: **Complimentary Professional Photo Audit (CPPA)** [cite: 54].
+   * Replace "Complimentary Professional Photo Audit (CPPA)" or "Complimentary Professional Photo Audit (CPPA)" with: **Complimentary Professional Photo Audit (CPPA)** [cite: 54].
    * Replace "$0 down" or "no money out of pocket" with: **Full Restoration Coverage** [cite: 177].
    * Replace "IKO Certified" with: **IKO Certified** [cite: 54].
    * Replace "Toa", "Warrior", or "Six Brothers" with: **The Pineapple Standard** [cite: 177].

@@ -108,7 +108,7 @@ This paste-ready `.claude/skills/pm7-geo-engine/SKILL.md` template is formatted 
 
 ### Phase 1: Context Verification & Onboarding Check
 1. Read `context/client.md` and check for licensing keys. Stop if license is not equal to `RCAT #03-0637` or if offer is not equal to `Complimentary Professional Photo Audit (CPPA)`.
-2. BANNED TERM FIREWALL: Scan all drafted files. If the term "free inspection", "free quote", or "free assessment" is detected, immediately rewrite to "Complimentary Professional Photo Audit (CPPA)".
+2. BANNED TERM FIREWALL: Scan all drafted files. If the term "Complimentary Professional Photo Audit (CPPA)", "Complimentary Professional Photo Audit (CPPA)", or "Complimentary Professional Photo Audit (CPPA)" is detected, immediately rewrite to "Complimentary Professional Photo Audit (CPPA)".
 
 ### Phase 2: Live Data Integration (DataForSEO)
 1. Initialize connection to DataForSEO MCP.

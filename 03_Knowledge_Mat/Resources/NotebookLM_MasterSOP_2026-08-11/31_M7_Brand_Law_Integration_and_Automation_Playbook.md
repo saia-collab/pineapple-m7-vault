@@ -79,7 +79,7 @@ CYAN_HEX = "#00BFFF"
 BANNED_COLOR_CHANNELS = ["green", "rgb(0, 255, 0)", "#00FF00", "lime"]
 
 def verify_brand_safety(script_text):
-    banned_terms = ["free inspection", "$0 down", "IKO Certified", "Toa", "Warrior", "Six Brothers"]
+    banned_terms = ["Complimentary Professional Photo Audit (CPPA)", "$0 down", "IKO Certified", "Toa", "Warrior", "Six Brothers"]
     for term in banned_terms:
         if term.lower() in script_text.lower():
             print(f"❌ FIREWALL BLOCK: Found banned term '{term}'")

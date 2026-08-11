@@ -29,7 +29,7 @@ Your puppy sits on the floor right outside your toy playroom (which is your `Out
 ``` [cite: 80]
 
 If you drop a new page into the folder, your puppy instantly sniffs it [cite: 80]. 
-*   If it smells a **banned word** (like *"free inspection"*) [cite: 80], or sees a **yucky green color** [cite: 80], it barks loudly at you: **"RUFF! RUFF! Change that word to CPPA! Keep green out of our Royal Navy `#1A365D` and Pineapple Gold `#FBC02D` playground!"** [cite: 80]
+*   If it smells a **banned word** (like *"Complimentary Professional Photo Audit (CPPA)"*) [cite: 80], or sees a **yucky green color** [cite: 80], it barks loudly at you: **"RUFF! RUFF! Change that word to CPPA! Keep green out of our Royal Navy `#1A365D` and Pineapple Gold `#FBC02D` playground!"** [cite: 80]
 *   But if it smells proper trust credentials (your **Polynesian heritage, family-operated since 2005, RCAT License #03-0637, and phone 972-928-0788**), it wags its tail, lets the file pass, and keeps it safe and ready [cite: 18, 80, 126, 256]. 
 
 It does this in a split second, every single time you press save, so you never have to worry about making a brand mistake! [cite: 80]
@@ -76,7 +76,7 @@ This is your automated **Idea Factory** 5-column Kanban board configuration desi
 *   **[Card-09] 5-Site Flywheel Cluster:** Build 5 unique, highly punched (Hormozi-style) articles based on your \$571K case study [cite: 24, 25, 469].
 
 #### Column 4: Quality Check & Firewall Review (The Guardian) [cite: 41, 80]
-*   **[Card-10] Brand Watchdog Scan:** Run `brand_firewall.py --check` over all staged files. Guarantee **0% green colors** and zero instances of *"free inspection"* (enforce CPPA) [cite: 4, 80, 126].
+*   **[Card-10] Brand Watchdog Scan:** Run `brand_firewall.py --check` over all staged files. Guarantee **0% green colors** and zero instances of *"Complimentary Professional Photo Audit (CPPA)"* (enforce CPPA) [cite: 4, 80, 126].
 *   **[Card-11] Local Schema Validation:** Inject complete `LocalBusiness` and `FAQPage` JSON-LD schemas explicitly referencing your RCAT License **#03-0637** and IKO Certified status [cite: 18, 126, 256].
 
 #### Column 5: Live, Published & Indexed [cite: 41]

@@ -45,7 +45,7 @@ The system is built on **Andrej Karpathy's "hot index and wiki" approach** to st
 Because the entire brain is stored in a clean local folder (`C:\Pineapple Contractors M7\03_Knowledge_Mat`) [18, 19], your AI agents can read and write directly to it via the **Model Context Protocol (MCP)** [20, 21]:
 
 *   **Eliminating the Search Gap:** When you prompt Hermes or Claude Code to draft a new landing page [22, 23], they don't look up generic web templates [24]. They run a semantic search over your vault, crawl your **\$571,000 gross margin plumbing case study** [25, 26], and write highly citable, fact-dense pages with your real RCAT License `#03-0637` and IKO Certified credentials already hardcoded [15, 27].
-*   **The Self-Improving Quality Loop:** If an auditor agent flags a style leak during a run (such as finding the color green or the banned word "free inspection") [15, 28], it writes the correction directly to your `SHARED_MEMORY.md` [29, 30]. The next time *any* model in your swarm wakes up, it reads that updated index, remembers the correction, and applies it instantly [31, 32].
+*   **The Self-Improving Quality Loop:** If an auditor agent flags a style leak during a run (such as finding the color green or the banned word "Complimentary Professional Photo Audit (CPPA)") [15, 28], it writes the correction directly to your `SHARED_MEMORY.md` [29, 30]. The next time *any* model in your swarm wakes up, it reads that updated index, remembers the correction, and applies it instantly [31, 32].
 *   **Zero-Coding Execution:** By connecting **Claude Code** to the vault via the Obsidian MCP, you can type single-line terminal commands [33]:
     ```bash
     claude -p "C:\Pineapple Contractors M7\04_Tech_Lab\vendor\claude-obsidian"

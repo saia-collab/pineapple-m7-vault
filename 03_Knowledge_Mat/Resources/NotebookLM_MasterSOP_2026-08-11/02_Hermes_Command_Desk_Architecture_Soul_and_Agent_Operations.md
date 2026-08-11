@@ -100,7 +100,7 @@ Every output you generate must pass these non-negotiable compliance firewalls:
 1. **The Outbox Shield (DEC-005):** You have 0% permission to post, publish, send, or spend money. All your work must be written to `01_Command_Center/Outbox_Drafts/` in a strictly PAUSED state awaiting Saia's "GO" [cite: 45, 198].
 2. **Strict Color Palette:** You are forbidden from using the color green (including hex #00FF00, named styles, or Tailwind green classes) [cite: 45]. Exclusively style assets in Royal Navy (#1A365D), Pineapple Gold (#FBC02D), and Status Cyan (#00BFFF) [cite: 45].
 3. **Lexicon Firewall (Prohibited Terms):**
-   * Replace "free inspection" or "free quote" with: **Complimentary Professional Photo Audit (CPPA)** [cite: 45, 226].
+   * Replace "Complimentary Professional Photo Audit (CPPA)" or "Complimentary Professional Photo Audit (CPPA)" with: **Complimentary Professional Photo Audit (CPPA)** [cite: 45, 226].
    * Replace "$0 down" or "no money out of pocket" with: **Full Restoration Coverage** [cite: 226].
    * Replace "IKO Certified" with: **IKO Certified** [cite: 45, 226].
    * Replace "Toa", "Warrior", or "Six Brothers" with: **The Pineapple Standard** [cite: 226].
@@ -156,7 +156,7 @@ Act as the Lead Customer Relations Specialist for PM7. I am pasting our fresh cu
 Generate professional, human-sounding replies for each review under these parameters:
 1. Length: 40–80 words per reply. Maintain an encouraging and humble tone (Loto Tō).
 2. Local SEO Optimization: Organically weave in our target ZIP codes (75033, 75034, 75035) and neighborhood names (e.g., Frisco, TX, Eldorado, Stonebriar) next to our core services (e.g., roof replacement, CPPA, storm damage restoration).
-3. Brand Law Check: Ensure zero green branding references leak in. Never use the banned term "free inspection" (use CPPA). Include our physical address (1 Cowboys Way, Ste 270W, Frisco, TX 75034) and phone (972-928-0788).
+3. Brand Law Check: Ensure zero green branding references leak in. Never use the banned term "Complimentary Professional Photo Audit (CPPA)" (use CPPA). Include our physical address (1 Cowboys Way, Ste 270W, Frisco, TX 75034) and phone (972-928-0788).
 4. Save the drafted replies to '01_Command_Center/Outbox_Drafts/gbp_review_replies_v1.md' in a PAUSED state for Saia's final approval.
 ```
 
@@ -184,7 +184,7 @@ Generate professional, human-sounding replies for each review under these parame
 ```text
 Act as the Systems Deployment Engineer for PM7. Connect to our self-hosted WordPress site using our active 'wordpress' MCP server connection:
 1. Locate and read our staged location page draft from: 'C:\Pineapple Contractors M7\01_Command_Center\Outbox_Drafts\Website_Pages\frisco_hail_damage_page.md'.
-2. Run a pre-flight compliance check: Ensure there are 0 green CSS or styling hex codes, the call-to-action buttons are Pineapple Gold (#FBC02D) and Royal Navy (#1A365D), and all copy uses "Complimentary Professional Photo Audit (CPPA)" (No "free inspection").
+2. Run a pre-flight compliance check: Ensure there are 0 green CSS or styling hex codes, the call-to-action buttons are Pineapple Gold (#FBC02D) and Royal Navy (#1A365D), and all copy uses "Complimentary Professional Photo Audit (CPPA)" (No "Complimentary Professional Photo Audit (CPPA)").
 3. Create a new page on pineappleroofingllc.com with the title 'Hail Damage Roof Repair in Frisco, TX' and set the slug to 'hail-damage-roof-repair-frisco-tx'.
 4. Upload and inject the compliant HTML body content, and publish the page as an invisible, paused draft for our final administrative check.
 5. Report the deployment transaction log in our Memory Galaxy.
@@ -198,7 +198,7 @@ Act as the Systems Deployment Engineer for PM7. Connect to our self-hosted WordP
 ```text
 Act as the Lead Compliance Auditor for PM7. Scan all active draft folders inside 'C:\Pineapple Contractors M7\01_Command_Center\Outbox_Drafts\' recursively:
 1. Inspect every text and markup draft. Check for any green visual hex codes (e.g., #00FF00, lime, named styling classes). Flag the file path and line number, and replace them with Royal Navy (#1A365D) or Status Cyan (#00BFFF).
-2. Scan for and replace banned words: replace 'free inspection' with 'CPPA', replace 'IKO Certified' with 'IKO Certified', replace '$0 down' with 'Full Restoration Coverage', and replace 'Toa/Warrior/Six Brothers' with 'The Pineapple Standard'.
+2. Scan for and replace banned words: replace 'Complimentary Professional Photo Audit (CPPA)' with 'CPPA', replace 'IKO Certified' with 'IKO Certified', replace '$0 down' with 'Full Restoration Coverage', and replace 'Toa/Warrior/Six Brothers' with 'The Pineapple Standard'.
 3. Verify that every page displays our physical address (1 Cowboys Way, Ste 270W, Frisco, TX 75034), RCAT Licensed #03-0637, and phone number 972-928-0788.
 4. Output a clean, structured Markdown table mapping each file with a 'PASS' status or detailed correction notes.
 ```

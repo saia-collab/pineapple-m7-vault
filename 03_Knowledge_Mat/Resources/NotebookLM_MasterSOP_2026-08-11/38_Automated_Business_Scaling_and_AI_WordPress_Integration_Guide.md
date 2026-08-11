@@ -147,7 +147,7 @@ APPROVED_CYAN = "#00BFFF"
 
 def run_compliance_firewall(text_content):
     # Enforce strict terminology boundaries (No Free/IKO Certified/Warrior)
-    banned_lexicon = ["free inspection", "free estimate", "$0 down", "IKO Certified", "Toa", "Warrior", "Six Brothers"]
+    banned_lexicon = ["Complimentary Professional Photo Audit (CPPA)", "Complimentary Professional Photo Audit (CPPA)", "$0 down", "IKO Certified", "Toa", "Warrior", "Six Brothers"]
     for word in banned_lexicon:
         if word.lower() in text_content.lower():
             print(f"❌ COMPLIANCE FAIL: Illegal term '{word}' found. Process Blocked.")

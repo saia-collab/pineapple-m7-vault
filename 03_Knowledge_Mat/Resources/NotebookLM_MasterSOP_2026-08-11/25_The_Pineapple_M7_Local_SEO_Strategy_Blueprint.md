@@ -25,7 +25,7 @@ The single biggest missed opportunity in your current footprint is a Name, Addre
 #### The Action Plan:
 1. **Flip the Home Title & H1:** Immediately update your homepage H1 and Title tag to target **Frisco, TX** [cite: 24, 40].
 2. **Inject the Brand Core (First 200 Words):** Homeowners and AI crawlers check the top of your page for immediate credibility signals [cite: 35]. Place a "quotable-fact" block near the top containing your physical address (**1 Cowboys Way, Ste 270W, Frisco, TX 75034**), your phone number (**972-928-0788**), your license (**RCAT Licensed #03-0637**), and your **IKO Certified** credential [cite: 35, 120, 202].
-3. **Deploy the Lexicon Firewall:** Sweep your site to replace the banned term "free inspection" with **CPPA (Complimentary Professional Photo Audit)** [cite: 21, 246, 247] and replace "IKO Certified" with **IKO Certified** [cite: 38, 222].
+3. **Deploy the Lexicon Firewall:** Sweep your site to replace the banned term "Complimentary Professional Photo Audit (CPPA)" with **CPPA (Complimentary Professional Photo Audit)** [cite: 21, 246, 247] and replace "IKO Certified" with **IKO Certified** [cite: 38, 222].
 
 ---
 

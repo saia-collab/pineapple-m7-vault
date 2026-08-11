@@ -35,7 +35,7 @@ With your old site's HTML blocks stored locally under `02_Workspaces/2026-07-23_
 # Execute local to remote clone via Claude Code terminal
 claude -p "C:\Pineapple Contractors M7\04_Tech_Lab\vendor\claude-obsidian"
 ``` [cite: 253]
-> **Prompt:** *"Read our staged Elementor blocks inside our local migration folder [cite: 236]. Connect to our WordPress site using the `wordpress` MCP tool [cite: 353]. For all 33 pages (13 services, 13 cities), create matching draft pages on pineappleroofingllc.com [cite: 183, 236]. Apply our IKO Certified and RCAT #03-0637 trust signals to each page [cite: 126, 179]. Replace every instance of 'free inspection' with 'Complimentary Professional Photo Audit (CPPA)' [cite: 126, 179]. Stage all pages as PAUSED drafts—do not publish live yet [cite: 126, 258]."*
+> **Prompt:** *"Read our staged Elementor blocks inside our local migration folder [cite: 236]. Connect to our WordPress site using the `wordpress` MCP tool [cite: 353]. For all 33 pages (13 services, 13 cities), create matching draft pages on pineappleroofingllc.com [cite: 183, 236]. Apply our IKO Certified and RCAT #03-0637 trust signals to each page [cite: 126, 179]. Replace every instance of 'Complimentary Professional Photo Audit (CPPA)' with 'Complimentary Professional Photo Audit (CPPA)' [cite: 126, 179]. Stage all pages as PAUSED drafts—do not publish live yet [cite: 126, 258]."*
 
 ---
 

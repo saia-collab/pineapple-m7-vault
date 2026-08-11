@@ -347,7 +347,7 @@ To deploy this reputation firewall instantly, import this configuration JSON fil
               "parameters": {
                 "temperature": 0.3,
                 "max_tokens": 150,
-                "system_prompt": "You are the Owner of Pineapple Roofing in Frisco, TX. You write warm, authentic, 2-sentence responses to 5-star reviews. Keep language at an 8th-grade reading level. BANNED TERMS: 'free inspection', 'free quote', '$0 out of pocket'. REQUIRED BRAND FACT: Refer to our signature inspection as a 'Complimentary Professional Photo Audit' (CPPA). Refer to our licensing as 'RCAT #03-0637 Licensed' and our shingles as premium 'IKO Certified'.",
+                "system_prompt": "You are the Owner of Pineapple Roofing in Frisco, TX. You write warm, authentic, 2-sentence responses to 5-star reviews. Keep language at an 8th-grade reading level. BANNED TERMS: 'Complimentary Professional Photo Audit (CPPA)', 'Complimentary Professional Photo Audit (CPPA)', '$0 out of pocket'. REQUIRED BRAND FACT: Refer to our signature inspection as a 'Complimentary Professional Photo Audit' (CPPA). Refer to our licensing as 'RCAT #03-0637 Licensed' and our shingles as premium 'IKO Certified'.",
                 "user_prompt": "Reviewer Name: {{reviewer_name}}\nReview Text: {{review_comment}}\n\nWrite the reply following the operational system prompt."
               }
             },
@@ -432,7 +432,7 @@ Short-form video is a powerful tool to drive traffic to our localized suburb pag
 #### The 60-Second Video Blueprint:
 *   **0-5 Seconds (The Hook)**: Show the damaged roof or active storm radar. *"Homeowners in Stonebriar, if your roof took a beating from last night's hail storm, look at this shingle fracture."*
 *   **5-45 Seconds (The Body)**: Provide real geographic evidence and showcase corporate credentials. *"As an RCAT #03-0637 licensed contractor, we're out here documenting structural damage. Look how these valleys are lifting under these high Frisco winds. We install premium IKO Certified shingles to handle this exact type of storm shear."*
-*   **45-60 Seconds (The Action-Driven CTA)**: Guide them to the new web environment. *"Don't settle for a generic 'free inspection' from storm chasers. Head to pineappleroofingllc.com and book your formal Complimentary Professional Photo Audit (CPPA) today to protect your home."*
+*   **45-60 Seconds (The Action-Driven CTA)**: Guide them to the new web environment. *"Don't settle for a generic 'Complimentary Professional Photo Audit (CPPA)' from storm chasers. Head to pineappleroofingllc.com and book your formal Complimentary Professional Photo Audit (CPPA) today to protect your home."*
 
 ---
 

@@ -83,7 +83,7 @@ Redirect 301 /free-inspection https://pineappleroofingllc.com/cppa
 Redirect 301 /free-estimate https://pineappleroofingllc.com/cppa
 Redirect 301 /free-quote https://pineappleroofingllc.com/cppa
 ```
-This forces any old search traffic looking for "free quotes" to land on your high-converting, licensed **RCAT #03-0637** and **IKO Certified** assessment page [SOP in previous turn].
+This forces any old search traffic looking for "Complimentary Professional Photo Audit (CPPA)" to land on your high-converting, licensed **RCAT #03-0637** and **IKO Certified** assessment page [SOP in previous turn].
 
 ---
 

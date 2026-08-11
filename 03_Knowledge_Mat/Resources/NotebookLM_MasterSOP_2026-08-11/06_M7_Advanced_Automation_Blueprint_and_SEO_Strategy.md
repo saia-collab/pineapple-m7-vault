@@ -31,7 +31,7 @@ The published **`learn-trigger.py`** script has been staged in your workspace. W
 
 ### How the Ingestion Bridge Operates:
 1. **Drop & Detect:** Whenever you drop a raw PDF guide, a Julian Goldie Skool screenshot, or a text file of a new AI model's documentation into your hot folder, the python script immediately detects the file [cite: 196, 270].
-2. **Brand Law Firewall Scan:** The script intercepts the document and runs a backend subprocess check against your local **`brand_firewall.py`** [cite: 280, 311]. If it detects green color tokens or banned lexicon terms (such as "free inspection"), it halts the loop and quarantines the file to protect your system from style contamination [cite: 280, 361].
+2. **Brand Law Firewall Scan:** The script intercepts the document and runs a backend subprocess check against your local **`brand_firewall.py`** [cite: 280, 311]. If it detects green color tokens or banned lexicon terms (such as "Complimentary Professional Photo Audit (CPPA)"), it halts the loop and quarantines the file to protect your system from style contamination [cite: 280, 361].
 3. **Hermes Autonomous Learning:** If the file passes the compliance check, the script triggers the Hermes `/learn` CLI command natively [cite: 196, 271, 337]. Hermes reads the guide, processes the steps, and outputs a custom, ready-to-use skill card directly into your local database:  
    📁 `C:\Pineapple Contractors M7\04_Tech_Lab\skills_inbox\` [cite: 196, 197, 281, 337]
 

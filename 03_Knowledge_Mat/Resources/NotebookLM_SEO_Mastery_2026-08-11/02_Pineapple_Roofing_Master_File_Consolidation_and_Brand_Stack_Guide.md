@@ -46,7 +46,7 @@ Your task is to merge and clean this text into a single, cohesive, markdown-form
 
 Follow these strict structural rules:
 1. Use clear, hierarchal markdown headers (e.g., "# Pineapple Roofing Master OS", "## SECTION 1: Local SEO Tasks") to keep the sections completely distinct so AI search crawlers can navigate it easily.
-2. Maintain our strict Brand Firewall: Cleanse any lazy terms like "free inspection", "free estimate", or "free quote" and replace them with "Complimentary Professional Property Assessment" (CPPA).
+2. Maintain our strict Brand Firewall: Cleanse any lazy terms like "Complimentary Professional Photo Audit (CPPA)", "Complimentary Professional Photo Audit (CPPA)", or "Complimentary Professional Photo Audit (CPPA)" and replace them with "Complimentary Professional Property Assessment" (CPPA).
 3. Do NOT summarize or remove raw metrics, license numbers (RCAT #03-0637), or specific shingle certifications (IKO Certified).
 4. Strip out conversational preambles, intros, and repetitive fluff between the merged sections.
 

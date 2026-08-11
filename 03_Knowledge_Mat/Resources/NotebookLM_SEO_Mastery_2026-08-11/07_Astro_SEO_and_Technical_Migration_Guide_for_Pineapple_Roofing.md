@@ -53,7 +53,7 @@ import FriscoSuburbTemplate from '../components/FriscoSuburbTemplate.astro';
   />
 </Layout>
 ```
-This instantly generates a responsive page using your approved Navy (`#1A365D`) and Gold (`#FBC02D`) colors, featuring your hard-coded **RCAT #03-0637** license and **IKO Certified** credentials, while steering homeowners to book our high-converting **Complimentary Professional Property Assessment (CPPA)** rather than a generic "free estimate."
+This instantly generates a responsive page using your approved Navy (`#1A365D`) and Gold (`#FBC02D`) colors, featuring your hard-coded **RCAT #03-0637** license and **IKO Certified** credentials, while steering homeowners to book our high-converting **Complimentary Professional Property Assessment (CPPA)** rather than a generic "Complimentary Professional Photo Audit (CPPA)."
 
 ---
 

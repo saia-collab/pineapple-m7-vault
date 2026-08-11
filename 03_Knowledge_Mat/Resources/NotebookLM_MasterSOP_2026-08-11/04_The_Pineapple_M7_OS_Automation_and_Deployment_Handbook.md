@@ -86,7 +86,7 @@ Copy and paste this exact prompt structure into **Claude Code** or your **AI Age
 *   **Set a Hard Cap:** AI has unlimited stamina and will grade its own work recursively forever [cite: 54, 67]. Always set a hard limit (e.g., `/loop max 10 rounds`) so you can step in as the final human gatekeeper [cite: 62, 67].
 *   **Enforce the M7 Brand Law:** Add these strict criteria to the prompt so the auditor agent instantly flags violations [cite: 940]:
     *   **Palette:** Headings must be **Royal Navy (`#1A365D`)** and calls-to-action **Pineapple Gold (`#FBC02D`)** [cite: 940]. Strictly **NO GREEN** colors allowed [cite: 940].
-    *   **Lexicon:** Force the regex compliance check to replace banned terms: never say "free inspection" (use **CPPA**), never say "\$0 down" (use **Full Restoration Coverage**), and never say "IKO Certified" (use **IKO Certified**) [cite: 874].
+    *   **Lexicon:** Force the regex compliance check to replace banned terms: never say "Complimentary Professional Photo Audit (CPPA)" (use **CPPA**), never say "\$0 down" (use **Full Restoration Coverage**), and never say "IKO Certified" (use **IKO Certified**) [cite: 874].
     *   **Staging:** Ensure all code outputs land **PAUSED** inside `01_Command_Center/Outbox_Drafts/` [cite: 126, 884].
 
 ---

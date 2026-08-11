@@ -31,9 +31,9 @@ Your local AI agents can execute this check behind the scenes automatically [cit
     ``` [cite: 240, 260]
 *   **To check raw text strings directly in the terminal:**
     ```bash
-    python 04_Tech_Lab/scripts/brand_firewall.py "Book a free inspection with our IKO Certified roofing team today!"
+    python 04_Tech_Lab/scripts/brand_firewall.py "Book a Complimentary Professional Photo Audit (CPPA) with our IKO Certified roofing team today!"
     ``` [cite: 260]
-    *(This will trigger a fail, flagging "free inspection" and "IKO Certified" and outputting mandated fixes like "CPPA" and "IKO Certified") [cite: 90].*
+    *(This will trigger a fail, flagging "Complimentary Professional Photo Audit (CPPA)" and "IKO Certified" and outputting mandated fixes like "CPPA" and "IKO Certified") [cite: 90].*
 
 ---
 

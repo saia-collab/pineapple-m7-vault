@@ -110,7 +110,7 @@ Organize your swarm into these four distinct sub-agents [cite: 42]:
 1. "Adam" (Keyword Research Specialist): Conduct deep-tissue research for localized Frisco search intents (e.g., "Frisco hail damage roof repair", "roof replacement Frisco TX", "flat roofing Allen TX") [cite: 12, 47]. Find keyword gaps in average Google positions 5–20 [cite: 131, 169].
 2. "Judy" (On-Page & Technical Auditor): Verify optimal schema structures (LocalBusiness & FAQPage mapping Frisco areaServed ZIPs) and enforce strict direct-answer SEO structures (answering questions in the first 40 words) [cite: 47, 133].
 3. "K" (Competitive Intelligence Officer): Scrape local DFW competitors, identify gaps, and extract their customer conversion hooks [cite: 48, 59].
-4. "Ricardo" (M7 Brand Compliance Auditor): Enforce our non-negotiable Brand Laws. Verify Royal Navy (#1A365D) and Pineapple Gold (#FBC02D) color palette choices, block the color green entirely, and replace banned words: replace "free inspection" with "CPPA" and "IKO Certified" with "IKO Certified" [cite: 4, 48].
+4. "Ricardo" (M7 Brand Compliance Auditor): Enforce our non-negotiable Brand Laws. Verify Royal Navy (#1A365D) and Pineapple Gold (#FBC02D) color palette choices, block the color green entirely, and replace banned words: replace "Complimentary Professional Photo Audit (CPPA)" with "CPPA" and "IKO Certified" with "IKO Certified" [cite: 4, 48].
 
 Coordinate this swarm. Deliver a complete keyword cluster matrix, competitive gap outline, and 3 localized service page templates ready to be staged PAUSED in our Outbox_Drafts folder [cite: 4, 120].
 ```
@@ -218,7 +218,7 @@ Paste this exact command block into your local **Claude Code** or **Hermes Termi
 Act as the Lead QA Systems Architect for PM7 [cite: 186]. Initialize the system-wide update and sync:
 1. Scan all loose markdown SOPs at root and move them cleanly to 03_Knowledge_Mat/00_Atlas/ [cite: 101].
 2. Read 01_Command_Center/GROUNDING.md and ensure our visual guidelines (Royal Navy #1A365D, Pineapple Gold #FBC02D, and 0% GREEN) are locked across all configurations [cite: 4, 111].
-3. Run 04_Tech_Lab/scripts/brand_firewall.py --check over our new SEO files [cite: 111]. Ensure all references to "free inspection" are replaced with "Complimentary Professional Photo Audit (CPPA)" [cite: 4, 119].
+3. Run 04_Tech_Lab/scripts/brand_firewall.py --check over our new SEO files [cite: 111]. Ensure all references to "Complimentary Professional Photo Audit (CPPA)" are replaced with "Complimentary Professional Photo Audit (CPPA)" [cite: 4, 119].
 4. Append our daily operating rhythms to 03_Knowledge_Mat/SHARED_MEMORY.md to ensure persistent, unified context across all active profile sessions [cite: 111, 198].
 ``` [cite: 190, 209]
 

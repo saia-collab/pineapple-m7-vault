@@ -63,7 +63,7 @@ Here is exactly how to map out the parent-child silos for **Pineapple Roofing**:
     *   `.../frisco-roofing-services/stonebriar/` (Optimized for Stonebriar’s open wind shear zones and golf-course neighborhood HOA shingle guidelines).
     *   `.../frisco-roofing-services/newman-village/` (Optimized for Newman Village’s expansive black clay soils shifting rafters, requiring custom attic ventilation checks).
 
-By physically splitting these pages, you ensure that when a homeowner searches for "IKO shingles in Newman Village," Google serves up your hyper-niche child page [7, 8]. This page naturally guides the client to schedule our high-converting **Complimentary Professional Photo Audit (CPPA)**, rather than a cheap, generic free estimate.
+By physically splitting these pages, you ensure that when a homeowner searches for "IKO shingles in Newman Village," Google serves up your hyper-niche child page [7, 8]. This page naturally guides the client to schedule our high-converting **Complimentary Professional Photo Audit (CPPA)**, rather than a cheap, generic Complimentary Professional Photo Audit (CPPA).
 
 ---
 

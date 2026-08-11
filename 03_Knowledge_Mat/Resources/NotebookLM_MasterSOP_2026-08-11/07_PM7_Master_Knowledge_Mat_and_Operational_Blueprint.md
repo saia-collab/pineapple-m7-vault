@@ -287,7 +287,7 @@ This set of written instructions is executed by writing models (Claude or Hermes
 3.  **Deploy Case Study:** Inject a real-world case study or before-and-after breakdown near the top of the body copy [95, 96].
 4.  **Enforce Headings:** Structure headings logically (H1/H2/H3) with natural striking-distance keywords [12, 96].
 5.  **Inject Brand Core:** Integrate verified corporate data: RCAT Licensed `#03-0637`, Polynesian-owned, North Texas since 2005 [2, 3, 12].
-6.  **Apply Regex Lexicon Filters:** Ensure zero banned terms leak into draft copy (e.g., replace "free inspection" with CPPA) [3, 19].
+6.  **Apply Regex Lexicon Filters:** Ensure zero banned terms leak into draft copy (e.g., replace "Complimentary Professional Photo Audit (CPPA)" with CPPA) [3, 19].
 7.  **Format Constraints:** Enforce single-sentence-per-line spacing (improves indexing readability and AI citation pull) [97, 98].
 8.  **Character Limits:** Restrict page titles to under 60 characters to prevent SERP truncation [94, 96].
 9.  **Embed Structured Schema:** Generate and validate complete LocalBusiness and FAQPage JSON-LD schema blocks [94, 99].
@@ -446,4 +446,4 @@ Apply new system features, upgrade Hermes models, or clean temporary cache files
 ---
 
 📂 **Next Step Suggestion:** 
-We can execute an automated brand compliance audit across your newly generated file folders to ensure zero green hexes or legacy "free inspection" references leaked into your active staging areas. Would you like me to run this check?
+We can execute an automated brand compliance audit across your newly generated file folders to ensure zero green hexes or legacy "Complimentary Professional Photo Audit (CPPA)" references leaked into your active staging areas. Would you like me to run this check?
