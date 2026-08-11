@@ -190,6 +190,31 @@ have the same memory. Then give me a 3-line summary of what changed.
 
 ---
 
+## 🔁 NOTEBOOKLM / GEMINI → SHARED MEMORY LOOP (your non-tech extraction workflow)
+
+**The mental model — 3 jobs, that's all:**
+- **NotebookLM / Gemini = the researcher.** Reads 100s of sources, writes SOPs, drafts, schemas, calculators. It does **NOT** save to your vault or reach your cloud chats — it's a separate island.
+- **Claude Code = the executor + memory.** Files those extractions into your vault, brand-scrubs them, pushes to **GitHub** (your ONLY shared memory between local + cloud).
+- **You = export + approve.** Two clicks and one sentence.
+
+**The loop (repeat per notebook):**
+1. **Export** — In NotebookLM, hit **Batch export** (top bar) → save the files into ONE folder: **`03_Knowledge_Mat/inbox/from_notebooklm/`**. *(Your only manual step: export + drop.)*
+2. **Paste the magic sentence** into Claude Code:
+```
+Ingest everything new in 03_Knowledge_Mat/inbox/from_notebooklm/. Brand-scrub it
+(no free/GAF/green/Tongan proverbs → CPPA, IKO Certified, Roofing Made Sweeter),
+file it into the vault (PARA), give me a 5-line summary of what's new, then commit and
+push to GitHub so my cloud chats have it. Stage anything customer-facing PAUSED in Outbox.
+```
+   → I do the filing, the scrub, the config, and the push. Now it's **shared memory** and grounded.
+3. **Approve** — anything that ships (pages, JSON-LD, the CPPA calculator) lands **PAUSED** in `Outbox_Drafts/`. You say **GO**, then it gets published/configured.
+
+> ⚡ **Even faster (skip the export):** your NotebookLM is wired to Claude Code directly. Just say *"Pull the latest notes from my '[notebook name]' notebook, scrub, file, and push."* I fetch them myself.
+
+> ⚠️ **Why NotebookLM still shows the old proverb:** it keeps its OWN copies of your sources, so my vault scrub doesn't reach it. It'll stop once you re-load the scrubbed files as sources — or just ignore that line; **I strip it when I ingest.**
+
+---
+
 ## 🎨 THE BRAND LOCK (baked into every prompt above — FYI, you don't type it)
 - **Never:** "free" · "cheap" · GAF · green · warrior/toa/six-brothers · Tongan proverbs
 - **Always:** CPPA (Complimentary Professional Photo Audit) · IKO Certified · "Roofing Made Sweeter" · The Pineapple Standard
