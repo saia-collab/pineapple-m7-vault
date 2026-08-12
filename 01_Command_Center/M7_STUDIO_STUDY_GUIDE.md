@@ -38,6 +38,9 @@ Act as my Lead Operations Manager for Pineapple Roofing. Run morning triage:
 
 ## 🛰️ HERMES DECODED (the one you've been avoiding)
 
+> 🎬 **Never opened Hermes? Start here → [HERMES 101 walkthrough](M7_HERMES_101_WALKTHROUGH.md)** — 6 short episodes, ONE action each. Do one per sitting.
+
+
 **What Hermes actually is:** not a chatbot — a **"Compound Employee."** Three parts: the **Brain** (swappable AI models), the **Cockpit** (the dashboard), and the **Memory Vault** (your markdown files). It *remembers your business* because it reads your vault every turn.
 
 **The key idea — Profiles + soul.md:** each Hermes **profile** is a separate employee with its own `soul.md` (its personality + your brand law, read at the start of every turn). That's why the roofing profile never writes restoration copy. Profiles live in `%LOCALAPPDATA%\hermes\profiles\<name>\`.

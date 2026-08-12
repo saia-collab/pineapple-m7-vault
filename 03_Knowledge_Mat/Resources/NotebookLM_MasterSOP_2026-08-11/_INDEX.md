@@ -47,5 +47,42 @@ Scrubbed: proverbs removed, GAF->IKO, free-offer->CPPA. CODE -> _code_DRAFTS/ (d
 | 41_Real-Time_Webhook_Integration_and_Outbox_Watcher_Configuration.md | SOP |
 | 42_Pineapple_M7_System_Integration_and_Prompt_Catalog.md | SOP |
 | 43_Pineapple_M7_Automation_and_Regional_Marketing_Strategy_Blueprint.md | SOP |
+| 44_M7_Automation_Guide_Drone_Video_and_SEO_Loop_Setup.md | SOP |
+| 45_Pineapple_M7_Automation_and_AI_Coding_Workflow_Guide.md | SOP |
+| 46_M7_Automation_Pipeline_and_Brand_Compliance_Deployment_Guide.md | SOP |
+| 47_The_M7_Autonomous_SEO_Dashboard_and_Automation_Guide.md | SOP |
+| 48_M7_Automation_Upgrade_and_Brand_Compliance_Manual.md | SOP |
+| 49_Pineapple_M7_Automated_WordPress_Deployment_and_Interactive_Scroll_Eng.md | SOP |
+| 50_Building_Strategic_Comparison_Pages_with_Claude-SEO.md | SOP |
+| 51_Goldie_Search_Gravity_Stack_Automation_Blueprint.md | SOP |
+| 52_Digital_Avatar_Cloning_and_Automated_Video_Production_Blueprint.md | SOP |
+| 53_Pineapple_M7_Bulk_Pre-Flight_Compliance_Sweep_Guide.md | SOP |
+| 54_The_M7_Graph_Architecture_Velocity_via_Parallel_Agent_Assembly.md | SOP |
+| 55_The_Pineapple_Standard_Brand_Firewall_Engine_Protocol.md | SOP |
+| 56_Pineapple_Enterprise_Digital_Domain_Strategy_and_Migration_Map.md | SOP |
+| 57_Sitemap_Validator_and_Unified_Core_Systems_Technical_Guide.md | SOP |
+| 58_Graph_Engineering_The_Multi-Agent_Assembly_Line.md | SOP |
+| 59_The_Pineapple_Standard_Brand_Firewall_Deployment_Guide.md | SOP |
+| 60_The_M7_Second_Brain_and_Infinite_Context_Engine.md | SOP |
+| 61_The_Pineapple_M7_Autonomous_SEO_Dashboard_and_Loop_Guide.md | SOP |
+| 62_The_Hormozi_Matrix_and_CARPARK_Sales_Blueprint.md | SOP |
+| 63_The_Everywhere_Engine_AI_SEO_Automation_Strategy.md | SOP |
+| 64_The_Pineapple_Standard_Integrated_DFW_Automation_Suite_v7.md | SOP |
+| 65_Frisco_City_Hub_SEO_and_Browser_Use_Engine_Integration.md | SOP |
+| 66_M7_Hermes_Profile_and_Skill_Enhancement_Package.md | SOP |
+| 67_M7_Agent_OS_Automated_AI_Video_Production_Blueprint.md | SOP |
+| 68_The_M7_Agent_OS_Digital_Content_Factory.md | SOP |
+| 69_M7_Hermes_Profile_Routing_and_Agent_OS_Architecture.md | SOP |
+| 70_The_Everywhere_Engine_DFW_Roofing_SEO_and_AEO_Strategy.md | SOP |
+| 71_The_Pineapple_Agent_OS_Command_Centers_and_Lead_Drills.md | SOP |
+| 72_The_Pineapple_Standard_Commercial_Handshake_and_DFW_Flywheel_Suite.md | SOP |
+| 73_Sitemap_Validator_and_Technical_Deployment_Guide.md | SOP |
+| 74_The_M7_Agent_OS_AI_Coding_Tool_Engine.md | SOP |
+| 75_M7_Automation_Upgrade_and_Brand_Compliance_Protocol.md | SOP |
+| 76_M7_Integrated_Automation_Suite_and_Lead_Scoring_Orchestrator.md | SOP |
+| 77_Frisco_Roofing_Domination_Multi-Channel_Growth_and_Operations_Manual.md | SOP |
+| 78_Pineapple_M7_Automated_Lead_Scoring_System_Configuration.md | SOP |
+| 79_Pineapple_M7_Understand_Anything_Plugin_Setup_SOP.md | SOP |
+| 80_Automating_Social_Content_with_the_Loop_Command_and_Slicer.md | SOP |
 
-**Last run:** +0 new, 43 skipped (already ingested), 0 code, 0 flagged for brand review.
+**Last run:** +37 new, 43 skipped (already ingested), 0 code, 28 flagged for brand review.

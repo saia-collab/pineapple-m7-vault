@@ -1,8 +1,10 @@
-# 🗺️ NotebookLM Ingest — Map of Content (2026-08-11)
+# 🗺️ NotebookLM Ingest — Map of Content (updated 2026-08-11)
 
-Queryable index of all 63 ingested notes. Any agent: *"read this MOC and answer from these notes."*
+Queryable index of all ingested notes across 3 notebooks. Any agent: *"read this MOC and answer from these notes."*
+**126 notes total.**
 
-## PM7 SEO Mastery
+
+## PM7 SEO Mastery (20 notes)
 - [[01_AI-Driven_Digital_Marketing_for_Frisco_Roofing_Professionals]] — AI-Driven Digital Marketing for Frisco Roofing Professionals
 - [[02_Pineapple_Roofing_Master_File_Consolidation_and_Brand_Stack_Guide]] — Pineapple Roofing Master File Consolidation and Brand Stack Guide
 - [[03_The_Autonomous_SEO_Command_Center]] — The Autonomous SEO Command Center
@@ -24,7 +26,7 @@ Queryable index of all 63 ingested notes. Any agent: *"read this MOC and answer 
 - [[19_Pineapple_Roofing_Local_SEO_and_AI_Automation_Guide]] — Pineapple Roofing Local SEO and AI Automation Guide
 - [[20_Local_MCP_Integration_and_Strategic_Roofing_SEO_Roadmap]] — Local MCP Integration and Strategic Roofing SEO Roadmap
 
-## Master SOP 8/26
+## Master SOP 8/26 (80 notes)
 - [[01_Pineapple_M7_Outbox_Automation_and_Marketing_Repurposing_Guide]] — Pineapple M7 Outbox Automation and Marketing Repurposing Guide
 - [[02_Hermes_Command_Desk_Architecture_Soul_and_Agent_Operations]] — Hermes Command Desk Architecture Soul and Agent Operations
 - [[03_Google_Business_Profile_Audit_and_WordPress_Migration_Blueprint]] — Google Business Profile Audit and WordPress Migration Blueprint
@@ -68,3 +70,68 @@ Queryable index of all 63 ingested notes. Any agent: *"read this MOC and answer 
 - [[41_Real-Time_Webhook_Integration_and_Outbox_Watcher_Configuration]] — Real-Time Webhook Integration and Outbox Watcher Configuration
 - [[42_Pineapple_M7_System_Integration_and_Prompt_Catalog]] — Pineapple M7 System Integration and Prompt Catalog
 - [[43_Pineapple_M7_Automation_and_Regional_Marketing_Strategy_Blueprint]] — Pineapple M7 Automation and Regional Marketing Strategy Blueprint
+- [[44_M7_Automation_Guide_Drone_Video_and_SEO_Loop_Setup]] — M7 Automation Guide Drone Video and SEO Loop Setup
+- [[45_Pineapple_M7_Automation_and_AI_Coding_Workflow_Guide]] — Pineapple M7 Automation and AI Coding Workflow Guide
+- [[46_M7_Automation_Pipeline_and_Brand_Compliance_Deployment_Guide]] — M7 Automation Pipeline and Brand Compliance Deployment Guide
+- [[47_The_M7_Autonomous_SEO_Dashboard_and_Automation_Guide]] — The M7 Autonomous SEO Dashboard and Automation Guide
+- [[48_M7_Automation_Upgrade_and_Brand_Compliance_Manual]] — M7 Automation Upgrade and Brand Compliance Manual
+- [[49_Pineapple_M7_Automated_WordPress_Deployment_and_Interactive_Scroll_Eng]] — Pineapple M7 Automated WordPress Deployment and Interactive Scroll Eng
+- [[50_Building_Strategic_Comparison_Pages_with_Claude-SEO]] — Building Strategic Comparison Pages with Claude-SEO
+- [[51_Goldie_Search_Gravity_Stack_Automation_Blueprint]] — Goldie Search Gravity Stack Automation Blueprint
+- [[52_Digital_Avatar_Cloning_and_Automated_Video_Production_Blueprint]] — Digital Avatar Cloning and Automated Video Production Blueprint
+- [[53_Pineapple_M7_Bulk_Pre-Flight_Compliance_Sweep_Guide]] — Pineapple M7 Bulk Pre-Flight Compliance Sweep Guide
+- [[54_The_M7_Graph_Architecture_Velocity_via_Parallel_Agent_Assembly]] — The M7 Graph Architecture Velocity via Parallel Agent Assembly
+- [[55_The_Pineapple_Standard_Brand_Firewall_Engine_Protocol]] — The Pineapple Standard Brand Firewall Engine Protocol
+- [[56_Pineapple_Enterprise_Digital_Domain_Strategy_and_Migration_Map]] — Pineapple Enterprise Digital Domain Strategy and Migration Map
+- [[57_Sitemap_Validator_and_Unified_Core_Systems_Technical_Guide]] — Sitemap Validator and Unified Core Systems Technical Guide
+- [[58_Graph_Engineering_The_Multi-Agent_Assembly_Line]] — Graph Engineering The Multi-Agent Assembly Line
+- [[59_The_Pineapple_Standard_Brand_Firewall_Deployment_Guide]] — The Pineapple Standard Brand Firewall Deployment Guide
+- [[60_The_M7_Second_Brain_and_Infinite_Context_Engine]] — The M7 Second Brain and Infinite Context Engine
+- [[61_The_Pineapple_M7_Autonomous_SEO_Dashboard_and_Loop_Guide]] — The Pineapple M7 Autonomous SEO Dashboard and Loop Guide
+- [[62_The_Hormozi_Matrix_and_CARPARK_Sales_Blueprint]] — The Hormozi Matrix and CARPARK Sales Blueprint
+- [[63_The_Everywhere_Engine_AI_SEO_Automation_Strategy]] — The Everywhere Engine AI SEO Automation Strategy
+- [[64_The_Pineapple_Standard_Integrated_DFW_Automation_Suite_v7]] — The Pineapple Standard Integrated DFW Automation Suite v7
+- [[65_Frisco_City_Hub_SEO_and_Browser_Use_Engine_Integration]] — Frisco City Hub SEO and Browser Use Engine Integration
+- [[66_M7_Hermes_Profile_and_Skill_Enhancement_Package]] — M7 Hermes Profile and Skill Enhancement Package
+- [[67_M7_Agent_OS_Automated_AI_Video_Production_Blueprint]] — M7 Agent OS Automated AI Video Production Blueprint
+- [[68_The_M7_Agent_OS_Digital_Content_Factory]] — The M7 Agent OS Digital Content Factory
+- [[69_M7_Hermes_Profile_Routing_and_Agent_OS_Architecture]] — M7 Hermes Profile Routing and Agent OS Architecture
+- [[70_The_Everywhere_Engine_DFW_Roofing_SEO_and_AEO_Strategy]] — The Everywhere Engine DFW Roofing SEO and AEO Strategy
+- [[71_The_Pineapple_Agent_OS_Command_Centers_and_Lead_Drills]] — The Pineapple Agent OS Command Centers and Lead Drills
+- [[72_The_Pineapple_Standard_Commercial_Handshake_and_DFW_Flywheel_Suite]] — The Pineapple Standard Commercial Handshake and DFW Flywheel Suite
+- [[73_Sitemap_Validator_and_Technical_Deployment_Guide]] — Sitemap Validator and Technical Deployment Guide
+- [[74_The_M7_Agent_OS_AI_Coding_Tool_Engine]] — The M7 Agent OS AI Coding Tool Engine
+- [[75_M7_Automation_Upgrade_and_Brand_Compliance_Protocol]] — M7 Automation Upgrade and Brand Compliance Protocol
+- [[76_M7_Integrated_Automation_Suite_and_Lead_Scoring_Orchestrator]] — M7 Integrated Automation Suite and Lead Scoring Orchestrator
+- [[77_Frisco_Roofing_Domination_Multi-Channel_Growth_and_Operations_Manual]] — Frisco Roofing Domination Multi-Channel Growth and Operations Manual
+- [[78_Pineapple_M7_Automated_Lead_Scoring_System_Configuration]] — Pineapple M7 Automated Lead Scoring System Configuration
+- [[79_Pineapple_M7_Understand_Anything_Plugin_Setup_SOP]] — Pineapple M7 Understand Anything Plugin Setup SOP
+- [[80_Automating_Social_Content_with_the_Loop_Command_and_Slicer]] — Automating Social Content with the Loop Command and Slicer
+
+## PM7 Ops & SOP (Mission Control) (26 notes)
+- [[01_The_Gauntlet_Loop_Operational_Protocol]] — The Gauntlet Loop Operational Protocol
+- [[02_The_M7_Agent_OS_Three-Lane_Division_of_Labor]] — The M7 Agent OS Three-Lane Division of Labor
+- [[03_The_Seven-Day_Digital_Growth_and_SEO_Execution_Protocol]] — The Seven-Day Digital Growth and SEO Execution Protocol
+- [[04_The_Visual_Hierarchy_of_Social_Proof]] — The Visual Hierarchy of Social Proof
+- [[05_High-Conversion_Landing_Page_and_AI_Search_Strategy_Handbook]] — High-Conversion Landing Page and AI Search Strategy Handbook
+- [[06_Automating_Julian_Goldie_SEO_Strategies_with_Hermes_Agent_Skills]] — Automating Julian Goldie SEO Strategies with Hermes Agent Skills
+- [[07_The_Seven-Day_Multi-Modal_SEO_and_Marketing_Velocity_Routine]] — The Seven-Day Multi-Modal SEO and Marketing Velocity Routine
+- [[08_Automated_OMI_Vault_Listener_and_Campaign_Trigger_Workflow]] — Automated OMI Vault Listener and Campaign Trigger Workflow
+- [[09_Goldie_Infinite_Knowledge_Engine_Loop_Operational_Guide]] — Goldie Infinite Knowledge Engine Loop Operational Guide
+- [[10_Higgsfield_and_Gauntlet_Loop_Automated_Content_Engine]] — Higgsfield and Gauntlet Loop Automated Content Engine
+- [[11_The_Seven-Day_Copy-First_Marketing_Architecture]] — The Seven-Day Copy-First Marketing Architecture
+- [[12_Higgsfield_MCP_Unifying_Media_Generation_and_Dynamic_Web_Design]] — Higgsfield MCP Unifying Media Generation and Dynamic Web Design
+- [[13_The_Grok_Multi-Modal_Content_Lifecycle_Roadmap]] — The Grok Multi-Modal Content Lifecycle Roadmap
+- [[14_Omnipresence_Engine_Five-Site_Networks_and_Premium_Landing_Page_Design]] — Omnipresence Engine Five-Site Networks and Premium Landing Page Design
+- [[15_The_Pineapple_Standard_Storm_Response_Canvassing_and_Token_Optimizatio]] — The Pineapple Standard Storm Response Canvassing and Token Optimizatio
+- [[16_Claude_Agent_OS_Architecture_and_Workflow_Design]] — Claude Agent OS Architecture and Workflow Design
+- [[17_The_Learn_Anything_Engine_Building_Permanent_AI_Skills]] — The Learn Anything Engine Building Permanent AI Skills
+- [[18_Hermes_OS_Voice_Control_and_Autonomous_Agent_Workflows]] — Hermes OS Voice Control and Autonomous Agent Workflows
+- [[19_The_Solo_Entrepreneur_Weekly_Operations_Protocol]] — The Solo Entrepreneur Weekly Operations Protocol
+- [[20_Optimizing_AI_Search_Citations_and_Vault_Listener_Automation]] — Optimizing AI Search Citations and Vault Listener Automation
+- [[21_Weekly_SEO_and_Content_Marketing_Operations_Protocol]] — Weekly SEO and Content Marketing Operations Protocol
+- [[22_The_So_That_Principle_Engineering_High-Converting_Headlines]] — The So That Principle Engineering High-Converting Headlines
+- [[23_The_Seven-Day_Automated_Orchestration_Protocol]] — The Seven-Day Automated Orchestration Protocol
+- [[24_Hermes_Agent_OS_OMI_Lead_Extraction_and_Publishing_SOP]] — Hermes Agent OS OMI Lead Extraction and Publishing SOP
+- [[25_The_Weekly_Content_Automation_and_SEO_Protocol]] — The Weekly Content Automation and SEO Protocol
+- [[26_The_M7_Agent_OS_Operational_Framework]] — The M7 Agent OS Operational Framework
