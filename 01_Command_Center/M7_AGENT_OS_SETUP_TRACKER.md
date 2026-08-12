@@ -12,6 +12,8 @@ note: Live checklist of EVERY tab, tool, and key. ✅ done · 🔧 installing ·
 ## ✅ VERIFIED 2026-08-12
 - **Installs complete:** jcode v0.75.3 (`~\AppData\Local\jcode\bin`), App Lab (`~\Developer\awesome-llm-apps`), Open Design (`~\open-design`), opencode.
 - **6 core keys TESTED against their provider = all VALID (HTTP 200):** OpenRouter · OpenAI · Groq · ElevenLabs · Gemini · Firecrawl. (Not just present — actually authenticated.)
+- **3 more keys verified:** HeyGen ✅ (video avatars) · Hunter ✅ (leads) · z.ai/GLM ✅. **Suno ⚠️ pending** — `SUNO_API_KEY` empty; get it from **musicapi.org** (Google sign-in), then paste. **OmniRoute key** goes in its **dashboard → Providers** (localhost:20128), NOT a config file. Free coding runs on Ollama, so OmniRoute is optional.
+- **Installing:** prime-agent (primeintellect) + repos pi/rtk/caveman/ponytail/OmniRoute → `~/agent-tools/`.
 - **Free coding:** Ollama (`qwen2.5-coder`) proven answering. Studio + OmniRoute + fcc online.
 - **Remaining:** paste HeyGen/Suno/z.ai/Hunter into `~\.hermes\.env`, then verify those + wire OmniRoute providers.
 
