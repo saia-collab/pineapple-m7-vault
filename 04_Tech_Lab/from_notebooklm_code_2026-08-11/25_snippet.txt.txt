@@ -1,0 +1,45 @@
+{
+  "envelope_version": "v1.2.0",
+  "security_clearance": "DEC-005_OUTBOX_SHIELD",
+  "routing": {
+    "sender_agent": "m7_gsc_scout_agent",
+    "recipient_agent": "m7_hormozi_writer_agent",
+    "next_action_node": "m7_brand_compliance_firewall",
+    "timestamp_gmt": "2026-08-11T16:17:00Z"
+  },
+  "brand_soul_constraints": {
+    "brand_name": "Pineapple Roofing",
+    "family_authority": "Polynesian-Owned since 2005 (JR & Saia Moeakiola)",
+    "rcat_license": "#03-0637",
+    "contact_phone": "972-928-0788",
+    "physical_hq": "1 Cowboys Way, Ste 270W, Frisco, TX 75034",
+    "color_palette": {
+      "primary": "#1A365D",
+      "secondary": "#FBC02D",
+      "accent": "#00BFFF",
+      "prohibited_colors": ["green", "#00FF00", "emerald"]
+    },
+    "banned_lexicon": [
+      "Complimentary Professional Photo Audit (CPPA)",
+      "Complimentary Professional Photo Audit (CPPA)",
+      "$0 down",
+      "no money out of pocket",
+      "IKO Certified"
+    ]
+  },
+  "payload": {
+    "target_city": "Frisco",
+    "target_zips": ["75033", "75034", "75035"],
+    "focus_keyword": "hail damage roof repair frisco tx",
+    "case_study_metrics": {
+      "gross_revenue": 571000,
+      "jobs_completed": 595,
+      "timeframe_months": 9
+    },
+    "raw_input_data": "Insert raw search queries or customer transcript notes here..."
+  },
+  "audit_trail": {
+    "firewall_scanned": false,
+    "firewall_pass_status": "PENDING"
+  }
+}

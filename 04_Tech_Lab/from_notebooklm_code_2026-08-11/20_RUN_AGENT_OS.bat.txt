@@ -1,0 +1,62 @@
+@echo off
+:: PINEAPPLE M7 — AGENT OS FOLDER CLEANUP & TIDY AUTOMATION
+:: Target Root: C:\Pineapple Contractors M7\
+
+echo ===================================================
+echo 🍍 PINEAPPLE M7 — FOLDER TIDY AUTOMATION ACTIVE
+echo ===================================================
+
+cd "C:\Pineapple Contractors M7" 2>nul
+if %errorlevel% neq 0 (
+    echo [ERROR] Root directory C:\Pineapple Contractors M7 not found!
+    echo Please make sure this script is located or run inside your vault root.
+    pause
+    exit /b
+)
+
+:: 1. Create _Archive folder if it doesn't exist
+if not exist "_Archive" (
+    echo Creating _Archive directory...
+    mkdir "_Archive"
+)
+
+:: 2. Move old zip installation packs to _Archive
+echo Archiving obsolete zip archives...
+move /y "agent-os-pack-2026-07-03.zip" "_Archive\" >nul 2>&1
+move /y "agent-os-pack-2026-07-05.zip" "_Archive\" >nul 2>&1
+move /y "mobbin-sample-pack-100.zip" "_Archive\" >nul 2>&1
+move /y "seo-pack.zip" "_Archive\" >nul 2>&1
+move /y "CLAUDE MOBILE.zip" "_Archive\" >nul 2>&1
+move /y "AM_STARTUP.zip" "_Archive\" >nul 2>&1
+move /y "AM_STARTUP (2).zip" "_Archive\" >nul 2>&1
+move /y "LAUNCH_CLAUDE_CODE.zip" "_Archive\" >nul 2>&1
+move /y "M7_CLEANUP.zip" "_Archive\" >nul 2>&1
+move /y "M7_DOCTOR.zip" "_Archive\" >nul 2>&1
+move /y "ORGANIZE_MEDIA.zip" "_Archive\" >nul 2>&1
+
+:: 3. Move empty/broken root launchers and shortcuts to _Archive
+echo Archiving broken legacy launchers...
+move /y "RUN_AGENT_OS.bat" "_Archive\" >nul 2>&1
+move /y "RUN_AGENT_OS.bat - Shortcut.lnk" "_Archive\" >nul 2>&1
+move /y "START_LOCAL_STUDIO.bat" "_Archive\" >nul 2>&1
+move /y "START_PAPERCLIP.bat" "_Archive\" >nul 2>&1
+move /y "UPDATE_AGENT_OS.bat" "_Archive\" >nul 2>&1
+
+:: 4. Move loose markdown SOPs and reference files to the Atlas directory
+echo Tidying loose Markdown reference documents to the Atlas...
+if not exist "03_Knowledge_Mat\00_Atlas" mkdir "03_Knowledge_Mat\00_Atlas"
+
+move /y "How to Dominate _Near Me_ Searches PM7.md" "03_Knowledge_Mat\00_Atlas\" >nul 2>&1
+move /y "HERMES AGENTIC SOP_ _Near Me_ Domination Pipeline.md" "03_Knowledge_Mat\00_Atlas\" >nul 2>&1
+move /y "EXCTRACT 23rd May_ Hermes Agent SEO SOP AND THE.md" "03_Knowledge_Mat\00_Atlas\" >nul 2>&1
+move /y "Accessing and Editing WordPress Website.md" "03_Knowledge_Mat\00_Atlas\" >nul 2>&1
+move /y "ElevenLabs_ Spoken Voice Output Choice.md" "03_Knowledge_Mat\00_Atlas\" >nul 2>&1
+move /y "Understand Anything_ Turn Any Codebase Into an Interactive Knowledge Graph.md" "03_Knowledge_Mat\00_Atlas\" >nul 2>&1
+move /y "USER.md" "03_Knowledge_Mat\00_Atlas\" >nul 2>&1
+move /y "LAUNCHERS_README.md" "03_Knowledge_Mat\00_Atlas\" >nul 2>&1
+
+echo ===================================================
+echo ✅ FOLDER CLEANUP & TIDY COMPLETE!
+echo No active system files or core folders were modified.
+echo Broken root files archived; loose guides moved to Atlas.
+echo ===================================================

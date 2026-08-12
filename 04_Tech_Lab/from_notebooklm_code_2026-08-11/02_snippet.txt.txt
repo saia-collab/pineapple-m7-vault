@@ -1,0 +1,8 @@
+Act as a hyper-local North Texas geographic researcher. I need you to find at least three highly specific, factual characteristics for the neighborhood of [Insert Suburb Name] in Frisco, Texas. 
+
+Provide:
+1. Specific local geological details (such as expansive clay soils that shift foundations and put mechanical stress on attic roof framing).
+2. Local subdivision aesthetic codes, wind zones, or HOA covenants that dictate roof styles.
+3. Neighborhood landmarks, parks, or boundaries to prove physical geographic presence.
+
+Write a 150-word introductory copy block for our roofing page using these facts.

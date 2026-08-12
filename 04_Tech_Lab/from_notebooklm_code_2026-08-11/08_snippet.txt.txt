@@ -1,0 +1,8 @@
+Act as the Lead Operations Manager for PM7. Let's run our morning system triage:
+1. Scan our local directory 'C:\Pineapple Contractors M7' and read '01_Command_Center/M7_Agent_Kanban.md'.
+2. Review our active tasks and update the board columns: [Triage] -> [Backlog] -> [In Progress] -> [Outbox Review] -> [Shipped].
+3. For our current Frisco campaign, ensure we have cards assigned to:
+   - Scraping competitor GBP map-pack positions.
+   - Auditing our homepage for Dallas vs. Frisco NAP consistency.
+   - Drafting 2 new storm-damage blog posts.
+4. Enforce our strict Brand Law rules: Check that every task is tagged with its active agent, and verify that the Outbox Shield DEC-005 is active (all outputs paused).

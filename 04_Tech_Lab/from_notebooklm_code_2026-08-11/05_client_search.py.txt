@@ -1,0 +1,19 @@
+# client_search.py
+import sys
+import json
+
+def find_subdivision_clients(subdivision_name):
+    try:
+        with open("clients.json", "r") as f:
+            clients = json.load(f)
+        matches = [c for c in clients if c["subdivision"].lower() == subdivision_name.lower()]
+        return matches
+    except Exception as e:
+        return {"error": str(e)}
+
+if __name__ == "__main__":
+    if len(sys.argv) > 1:
+        query_subdivision = sys.argv[1]
+        print(json.dumps(find_subdivision_clients(query_subdivision), indent=2))
+    else:
+        print(json.dumps({"error": "Please provide a subdivision name (e.g., Stonebriar)"}))

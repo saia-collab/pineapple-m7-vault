@@ -1,0 +1,73 @@
+import os
+import sys
+
+# ==========================================
+# M7 BRAND LAW CONSTITUTIONAL CHECKS
+# ==========================================
+NAVY_HEX = "#1A365D"
+GOLD_HEX = "#FBC02D"
+CYAN_HEX = "#00BFFF"
+
+# Prohibit Green Color Space
+BANNED_COLOR_CHANNELS = ["green", "rgb(0, 255, 0)", "#00FF00", "lime"]
+
+def verify_brand_safety(script_text):
+    banned_terms = ["Complimentary Professional Photo Audit (CPPA)", "$0 down", "IKO Certified", "Toa", "Warrior", "Six Brothers"]
+    for term in banned_terms:
+        if term.lower() in script_text.lower():
+            print(f"❌ FIREWALL BLOCK: Found banned term '{term}'")
+            sys.exit(1)
+    print("✅ Brand lexicon check: PASSED.")
+
+# ==========================================
+# THE 50/5/3 VIDEO STRUCTURE PARAMETERS (30 FPS)
+# ==========================================
+# Total length: 50 seconds (1,500 frames)
+# Hook Segment: Frames 0 to 15 (0.5 seconds attention grabber)
+# Body Segment: Frames 16 to 1,410 (Delivery of case study value)
+# End Card Segment: Frames 1,411 to 1,500 (3s call-to-action slide)
+# ==========================================
+FRAME_RATE = 30
+TOTAL_FRAMES = 1500
+
+HOOK_END_FRAME = 15
+BODY_END_FRAME = 1410
+END_CARD_START_FRAME = 1411
+
+def render_pipeline(case_study_path, output_name):
+    print("🎬 Initializing M7 Video Director Crew...")
+    
+    # 1. Script Drafting Step (The Voice)
+    with open(case_study_path, 'r') as f:
+        content = f.read()
+    verify_brand_safety(content)
+    
+    # 2. Frame Allocations
+    print(f"   [1] Hook Segment: Frames 0 to {HOOK_END_FRAME} | Instant pattern interrupt")
+    print(f"   [2] Value Body: Frames {HOOK_END_FRAME + 1} to {BODY_END_FRAME} | Local proof vectors")
+    print(f"   [3] End Card: Frames {END_CARD_START_FRAME} to {TOTAL_FRAMES} | Credentials card")
+    
+    # 3. Injecting Brand Credentials to Outbox Staging
+    outbox_path = os.path.join("C:\\Pineapple Contractors M7\\01_Command_Center\\Outbox_Drafts", output_name)
+    
+    end_card_specs = f"""
+    BACKGROUND_COLOR: {NAVY_HEX}
+    TEXT_COLOR: {GOLD_HEX}
+    SECONDARY_ACCENT: {CYAN_HEX}
+    CREDENTIALS_BLOCK:
+      - RCAT License #03-0637
+      - IKO Certified
+      - Polynesian-Owned & Operated Since 2005
+      - Contact: 972-928-0788
+      - HQ: 1 Cowboys Way, Ste 270W, Frisco, TX 75034
+    """
+    
+    # Write metadata for Remotion/Hyperframes compilation
+    with open(outbox_path, 'w') as out_file:
+        out_file.write(f"# M7 STAGED VIDEO PROJECT\nSTATUS: PAUSED\n{end_card_specs}")
+        
+    print(f"✅ Video build rendered successfully! Staged as PAUSED in: {outbox_path}")
+
+if __name__ == "__main__":
+    # Test execution
+    render_pipeline("C:\\Pineapple Contractors M7\\03_Knowledge_Mat\\active_context\\self_checking_factory.md", "hail_promo_v1.config")

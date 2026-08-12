@@ -1,0 +1,5 @@
+Act as the Lead QA Systems Engineer for PM7. Perform an In-Place Update and directory synchronization on our local workspace root C:\Pineapple Contractors M7. 
+    1. Read 01_Command_Center/MASTER_PLAYBOOK.md and 01_Command_Center/GROUNDING.md to load our core visual and lexicon rules.
+    2. Scan 03_Knowledge_Mat/00_Atlas/ for any recently distilled markdown files. Re-generate 00_Atlas/SOP_INDEX.md with dated pointer logs for every active SOP.
+    3. Run a recursive brand audit across 01_Command_Center/Outbox_Drafts/. Verify that every staged file has 0 green styling, contains our RCAT #03-0637 license and 972-928-0788 phone number, and completely avoids banned terms.
+    4. Execute M7_CLEANUP.bat to flush any bloated temporary browser or session cache folders while fully preserving our local .env credentials and custom Hermes profiles.

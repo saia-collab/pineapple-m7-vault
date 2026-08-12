@@ -1,0 +1,5 @@
+Act as the Lead QA Systems Architect for PM7 [cite: 186]. Initialize the system-wide update and sync:
+1. Scan all loose markdown SOPs at root and move them cleanly to 03_Knowledge_Mat/00_Atlas/ [cite: 101].
+2. Read 01_Command_Center/GROUNDING.md and ensure our visual guidelines (Royal Navy #1A365D, Pineapple Gold #FBC02D, and 0% GREEN) are locked across all configurations [cite: 4, 111].
+3. Run 04_Tech_Lab/scripts/brand_firewall.py --check over our new SEO files [cite: 111]. Ensure all references to "free inspection" are replaced with "Complimentary Professional Photo Audit (CPPA)" [cite: 4, 119].
+4. Append our daily operating rhythms to 03_Knowledge_Mat/SHARED_MEMORY.md to ensure persistent, unified context across all active profile sessions [cite: 111, 198].

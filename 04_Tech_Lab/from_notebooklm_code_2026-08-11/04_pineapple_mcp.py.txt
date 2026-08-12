@@ -1,0 +1,41 @@
+# pineapple_mcp.py
+import sys
+import json
+
+# Define our private local brand and local storm data
+LOCAL_ROOFING_DB = {
+    "license": "RCAT #03-0637 Licensed",
+    "shingle_standard": "IKO Certified Roofing Contractor",
+    "primary_offer": "Complimentary Professional Property Assessment (CPPA)",
+    "subdivisions": {
+        "75034": {
+            "name": "Stonebriar",
+            "risk_profile": "High wind shear off open golf course fairways. Shingle lifting common.",
+            "hoa_style": "IKO Dynasty Slate-Look Architectural Shingles recommended."
+        },
+        "75033": {
+            "name": "Newman Village",
+            "risk_profile": "Expansive black clay soils shift house slabs, placing mechanical stress on attic rafters.",
+            "hoa_style": "IKO Armourshake or custom premium ventilation checks required."
+        }
+    }
+}
+
+def get_local_data(zip_code):
+    data = LOCAL_ROOFING_DB["subdivisions"].get(zip_code, {"name": "Frisco", "risk_profile": "General North Texas hail and wind.", "hoa_style": "IKO Certified Shingles"})
+    return {
+        "license": LOCAL_ROOFING_DB["license"],
+        "shingle_standard": LOCAL_ROOFING_DB["shingle_standard"],
+        "primary_offer": LOCAL_ROOFING_DB["primary_offer"],
+        "subdivision": data["name"],
+        "local_risk": data["risk_profile"],
+        "hoa_requirements": data["hoa_style"]
+    }
+
+if __name__ == "__main__":
+    # A simple CLI handshake to pass data to Claude Code when invoked
+    if len(sys.argv) > 1:
+        target_zip = sys.argv[4]
+        print(json.dumps(get_local_data(target_zip)))
+    else:
+        print(json.dumps({"error": "Please provide a Frisco ZIP Code (75033 or 75034)"}))

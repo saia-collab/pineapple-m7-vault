@@ -1,0 +1,12 @@
+---
+import Layout from '../layouts/Layout.astro';
+import FriscoSuburbTemplate from '../components/FriscoSuburbTemplate.astro';
+---
+
+<Layout title="Stonebriar Storm Damage Roof Repair">
+  <FriscoSuburbTemplate 
+    suburbName="Stonebriar" 
+    targetKeyword="Storm Damage Roof Repair" 
+    localZipCode="75034" 
+  />
+</Layout>

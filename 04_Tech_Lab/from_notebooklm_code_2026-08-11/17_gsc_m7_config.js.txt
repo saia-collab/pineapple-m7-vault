@@ -1,0 +1,68 @@
+@echo off
+:: PINEAPPLE M7 SYSTEM DIAGNOSTICS & CONNECTION CHECK
+:: Operational Palette: Royal Navy (#1A365D) | Pineapple Gold (#FBC02D)
+TITLE M7 Agentic OS — Connection & Port Health Doctor
+echo =====================================================================
+echo 🍍 INITIALIZING M7 AGENTIC OS DIAGNOSTICS...
+echo =====================================================================
+
+:: Check 4-Fala Directory Topography
+echo [1/4] Scanning Local Vault Topography...
+if not exist "01_Command_Center" (echo ❌ ERROR: 01_Command_Center missing! && goto FAIL)
+if not exist "02_Media_Vault" (echo ❌ ERROR: 02_Media_Vault missing! && goto FAIL)
+if not exist "03_Knowledge_Mat" (echo ❌ ERROR: 03_Knowledge_Mat missing! && goto FAIL)
+if not exist "04_Tech_Lab" (echo ❌ ERROR: 04_Tech_Lab missing! && goto FAIL)
+echo ✅ 4-Fala Root Topography: HEALTHY [cite: 132]
+echo.
+
+:: Test Local Port Accessibility
+echo [2/4] Verifying Local Server Port Registries...
+netstat -ano | findstr /R "3000" >nul
+if %errorlevel% neq 0 (echo ⚠️ WARNING: Agent OS Dashboard Port :3000 is Offline. [cite: 111, 155]) else (echo ✅ Dashboard Server (:3000): ONLINE [cite: 111, 155])
+
+netstat -ano | findstr /R "3737" >nul
+if %errorlevel% neq 0 (echo ❌ ERROR: Node API Server Port :3737 is Offline! [cite: 111]) else (echo ✅ Node API Gateway (:3737): ONLINE [cite: 111])
+
+netstat -ano | findstr /R "51763" >nul
+if %errorlevel% neq 0 (echo ⚠️ WARNING: M7 Python Service Port :51763 is Offline.) else (echo ✅ Python Backend (:51763): ONLINE [cite: 201])
+echo.
+
+:: Scan GSC Config JSON File
+echo [3/4] Testing Google Search Console (GSC) Credentials...
+if not exist "04_Tech_Lab\config\gsc_m7_config.json" (
+    echo ❌ ERROR: gsc_m7_config.json not found in 04_Tech_Lab\config! [cite: 111]
+    goto FAIL
+)
+:: Call Python companion diagnostics checker
+python -c "import json; f=open('04_Tech_Lab/config/gsc_m7_config.json'); data=json.load(f); exit(1 if 'PASTE_YOUR' in data['google_client_id'] or 'PASTE_YOUR' in data['google_client_secret'] else 0)"
+if %errorlevel% neq 0 (
+    echo ⚠️ WARNING: gsc_m7_config.json still contains placeholder credentials! [cite: 32]
+    echo Make sure to replace them with your keys from Google Cloud Console. [cite: 32]
+) else (
+    echo ✅ Google API OAuth Configuration: VALIDATED [cite: 32, 221]
+)
+echo.
+
+:: Enforce Brand Law Styles Verification
+echo [4/4] Executing Brand Law Compliance Check...
+python 04_Tech_Lab/scripts/brand_firewall.py "01_Command_Center/GROUNDING.md" >nul
+if %errorlevel% neq 0 (
+    echo ❌ ERROR: Brand Law check failed on GROUNDING.md! Check your colors or lexicon. [cite: 90, 114]
+    goto FAIL
+) else (
+    echo ✅ M7 Compliance & Quality Firewalls: ACTIVE [cite: 90]
+)
+
+echo.
+echo =====================================================================
+echo 👑 ALL PM7 LOCAL SERVICES: OPERATIONAL (Mālō e lelei!) [cite: 8, 186]
+echo =====================================================================
+pause
+exit
+
+:FAIL
+echo =====================================================================
+echo ❌ SYSTEM CHECK FAILED! Fix the errors above and restart your services. [cite: 117]
+echo =====================================================================
+pause
+exit

@@ -1,0 +1,24 @@
+graph TD
+    %% Define Nodes with Brand Color Classes
+    A[GSC Scout Node<br>gsc_frisco_scan.py] -->|1. Keyword Gaps| B(Copywriting Station<br>jcode / Claude)
+    B -->|2. Staged Drafts| C{Compliance Firewall<br>brand_firewall-v2.py}
+    
+    %% Decision Fork
+    C -->|FAIL: Violation Detected| D[Slack/Discord Webhook<br>Immediate Block]
+    C -->|PASS: Safe Draft| E[n8n Webhook Bridge<br>m7_n8n_webhook_bridge-v2.py]
+    
+    %% Post-Pass Distribution Flow
+    E -->|3. Calculate score| F[Lead Scorer Module<br>m7_scoring.py]
+    F -->|If Score >= 80| G[Desktop Hot Leads File<br>Desktop/HOT_LEADS.txt]
+    F -->|All leads synced| H[CRM Leads Database<br>Leads Google Sheet]
+    
+    E -->|4. Push Approved Pages| I[WordPress Deployer<br>wp_deployer.py / rest]
+    I -->|5. Check Indexing Link Health| J[Sitemap Validator<br>sitemap_validator.py]
+
+    %% Color Enforcements (Royal Navy & Pineapple Gold theme)
+    classDef default fill:#1A365D,stroke:#FBC02D,stroke-width:2px,color:#F8FAFC;
+    classDef decision fill:#0e1629,stroke:#00BFFF,stroke-width:2px,color:#00BFFF;
+    classDef fail fill:#6e0e0e,stroke:#dc2626,stroke-width:2px,color:#fca5a5;
+    
+    class C decision;
+    class D fail;

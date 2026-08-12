@@ -1,0 +1,65 @@
+// C:\Pineapple Contractors M7\04_Tech_Lab\scripts\seo_pipeline.ts
+// Coordinates build & deploy processes across your local static site silos
+
+import * as fs from 'fs';
+import * as path from 'path';
+
+interface StaticSiteSilo {
+  id: string;
+  name: string;
+  localPath: string;
+  liveUrl: string;
+  netlifySiteId: string;
+}
+
+export const SEO_FLYWHEEL_CONFIG = {
+  version: "v0.20.0-Herald",
+  primaryFlagship: "https://pineappleroofingllc.com",
+  outboxDraftsDir: "C:\\Pineapple Contractors M7\\01_Command_Center\\Outbox_Drafts",
+  
+  // 🎡 REGISTERING THE 5 SITES ON THE FLYWHEEL
+  silos: [
+    {
+      id: "site-1",
+      name: "Pineapple Roofing Flagship",
+      localPath: "C:\\Pineapple Contractors M7\\02_Workspaces\\site-1-main",
+      liveUrl: "https://pineappleroofingllc.com",
+      netlifySiteId: "netlify-flagship-id"
+    },
+    {
+      id: "site-2",
+      name: "Frisco Storm Repair",
+      localPath: "C:\\Pineapple Contractors M7\\02_Workspaces\\site-2-frisco",
+      liveUrl: "https://friscoroomdamage.com",
+      netlifySiteId: "netlify-satellite-2"
+    },
+    {
+      id: "site-3",
+      name: "North Texas Roofing Pros",
+      localPath: "C:\\Pineapple Contractors M7\\02_Workspaces\\site-3-ntx",
+      liveUrl: "https://northtexasroofingexperts.com",
+      netlifySiteId: "netlify-satellite-3"
+    },
+    {
+      id: "site-4",
+      name: "Collin County Restoration Info",
+      localPath: "C:\\Pineapple Contractors M7\\02_Workspaces\\site-4-collin",
+      liveUrl: "https://collincountyrestorations.com",
+      netlifySiteId: "netlify-satellite-4"
+    },
+    {
+      id: "site-5",
+      name: "Polynesian Roofing Heritage Hub",
+      localPath: "C:\\Pineapple Contractors M7\\02_Workspaces\\site-5-heritage",
+      liveUrl: "https://thepineapplestandard.com",
+      netlifySiteId: "netlify-satellite-5"
+    }
+  ] as StaticSiteSilo[],
+
+  // 🛡️ ENFORCING M7 BRAND COMPLIANCE BEFORE DEPLOYMENT
+  complianceValidation: {
+    enforceNoGreen: true,
+    enforceCppaLexicon: true,
+    requiredCredentials: ["RCAT #03-0637", "IKO Certified", "972-928-0788"]
+  }
+};

@@ -1,0 +1,16 @@
+# Check out the preflight integration in your new v2 script!
+def run_lead_scoring_integration(payload):
+    print("📊 [PREFLIGHT SCORING] Running lead evaluation matrix...")
+    try:
+        sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+        import m7_scoring # Calls your Tech Lab scoring code natively!
+        
+        scores = m7_scoring.calculate_lead_score(payload)
+        payload["calculated_score"] = scores["score"]
+        payload["routing_tier"] = scores["tier"]
+        payload["sms_dispatch_alert"] = scores["trigger_sms"]
+        payload["scoring_breakdown"] = scores["breakdown"]
+        
+        print(f"   ↳ Lead Score: {scores['score']}/100 ({scores['tier']})")
+    except ImportError:
+        print("⚠️ m7_scoring.py not found in local path. Skipping preflight scoring.")

@@ -1,0 +1,3 @@
+[Install WP MCP Ultimate] ──► [Build Pages as Elementor Canvas] ──► [Paste HTML Code]
+                                                                            │
+   [Test Live URLs & Links]  ◄── [Import M7_Redirect_Map.csv]     ◄── [Publish Drafts]

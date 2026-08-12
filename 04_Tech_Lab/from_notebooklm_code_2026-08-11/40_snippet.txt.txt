@@ -1,0 +1,6 @@
+Act as the Lead Operations Manager for PM7 [cite: 206]. Scan our local directory at C:\Pineapple Contractors M7 [cite: 76, 132].
+1. Read our active task pipeline inside '01_Command_Center/M7_Agent_Kanban.md' [cite: 66, 76].
+2. Organize our active project tasks cleanly into our 5-column Kanban layout: [Triage] -> [Backlog] -> [In Progress] -> [Outbox Review] -> [Shipped] [cite: 66, 120].
+3. For our upcoming Frisco SEO campaign [cite: 17], create a dedicated task card to audit our homepage and draft 3 striking-distance city pages (Allen, Grapevine, Euless) [cite: 17, 127].
+4. Enforce strict M7 Brand Laws: Ensure every task inherits our visual color codes (Royal Navy #1A365D, Pineapple Gold #FBC02D, Status Cyan #00BFFF), blocks the color green entirely, and mandates the use of CPPA instead of "free inspection" [cite: 87, 126].
+5. Update 'M7_Agent_Kanban.md' locally and report back with a clean markdown overview of our workspace [cite: 66, 76].

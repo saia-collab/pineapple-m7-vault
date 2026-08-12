@@ -1,0 +1,12 @@
+#!/bin/bash
+        # Pipeline fetch and Hermes summarization script
+        API_URL="http://localhost:8080/api/v1/leads/active"
+        RAW_LEADS=$(curl -s -X GET "$API_URL" -H "Authorization: Bearer LocalKey_M7_Prod")
+        if [ -z "$RAW_LEADS" ]; then
+            echo '{"status": "error", "message": "Leadstack API unreachable"}'
+            exit 1
+        fi
+        # Escaping payload cleanly via jq
+        ESC_LEADS=$(echo "$RAW_LEADS" | jq -R .)
+        # Querying local Hermes model
+        hermes --profile main -z "Read this lead pipeline payload: $ESC_LEADS. Summarize our active high-ticket deals, flag speed-to-lead status, and output a clean markdown financial matrix." > /workspace/scratch/pipeline_recaps/weekly_report.md

@@ -1,0 +1,6 @@
+@echo off
+:: PINEAPPLE M7 — DAILY 9:00 PM DATA REPO BACKUP
+cd "C:\Pineapple Contractors M7"
+git add .
+git commit -m "Automated daily backup - %date% %time%"
+git push origin main

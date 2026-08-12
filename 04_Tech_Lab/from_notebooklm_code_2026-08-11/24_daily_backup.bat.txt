@@ -1,0 +1,77 @@
+@echo off
+:: ============================================================================
+:: PINEAPPLE M7 — AUTOMATED DAILY BACKUP & LINK HEALTH MONITOR
+:: File: daily_backup.bat
+:: ============================================================================
+:: Automatically backs up your active local directory and executes
+:: sitemap_validator.py to check site crawler health before closing.
+:: ============================================================================
+
+title PINEAPPLE M7 — DAILY BACKUP MANAGER
+color 0E
+
+echo ===================================================================
+echo   🍍 PINEAPPLE M7 — ACTIVE BACKUP ^& MONITOR MANAGER 🍍
+echo ===================================================================
+echo   Enforcing RCAT License #03-0637 ^& Polynesian Family Standards [cite: 18, 126, 256]
+echo   Corporate HQ: 1 Cowboys Way, Ste 270W, Frisco, TX 75034 [cite: 54]
+echo ===================================================================
+echo.
+
+:: 1. Navigate to local project root folder
+cd "C:\Pineapple Contractors M7" 2>nul
+if %errorlevel% neq 0 (
+    echo [ERROR] Root directory C:\Pineapple Contractors M7 was not found!
+    echo Please make sure this script is located or run inside your vault root.
+    pause
+    exit /b
+)
+
+:: 2. Set date stamp (Format: YYYY-MM-DD)
+for /f "tokens=2 delims==" %%I in ('wmic os get localdatetime /value') do set datetime=%%I
+set stamp=%datetime:~0,4%-%datetime:~4,2%-%datetime:~6,2%
+
+set "BACKUP_DIR=_Backup_Vault\%stamp%"
+echo [SYSTEM] Creating secure daily backup station at: %BACKUP_DIR%...
+if not exist "%BACKUP_DIR%" (
+    mkdir "%BACKUP_DIR%"
+)
+
+:: 3. Backing up folders to Backup_Vault using xcopy
+echo.
+echo [BACKING UP] Copying active workspace directories...
+xcopy "01_Command_Center" "%BACKUP_DIR%\01_Command_Center\" /S /E /Y /I /Q >nul 2>&1
+xcopy "03_Knowledge_Mat" "%BACKUP_DIR%\03_Knowledge_Mat\" /S /E /Y /I /Q >nul 2>&1
+xcopy "04_Tech_Lab" "%BACKUP_DIR%\04_Tech_Lab\" /S /E /Y /I /Q >nul 2>&1
+echo ✅ Workspace folder backup completed successfully!
+
+:: 4. Run sitemap crawler verification
+echo.
+echo ===================================================================
+echo 🛰️  LAUNCHING SITEMAP VALIDATOR (Daily Pre-Flight Sweep)
+echo ===================================================================
+echo.
+
+where python >nul 2>nul
+if %errorlevel% neq 0 (
+    echo [WARNING] Python was not found on your system path.
+    echo Skipping live XML sitemap crawling audit...
+) else (
+    if exist "04_Tech_Lab\scripts\sitemap_validator.py" (
+        python "04_Tech_Lab\scripts\sitemap_validator.py" "https://pineappleroofingllc.com/wp-sitemap.xml"
+        echo.
+        echo ✅ Live sitemap validation sweep executed! 
+        echo    Diagnostic report generated inside 01_Command_Center\Outbox_Drafts\
+    ) else (
+        echo [ERROR] sitemap_validator.py was not found in 04_Tech_Lab\scripts\!
+    )
+)
+
+echo.
+echo ===================================================================
+echo   ✅ M7 DAILY SECURITY RUN COMPLETED!
+echo   Backup Stamped: %stamp%
+echo   Sitemap Health Checked! Stay safe, Saia!
+echo ===================================================================
+timeout /t 10
+exit

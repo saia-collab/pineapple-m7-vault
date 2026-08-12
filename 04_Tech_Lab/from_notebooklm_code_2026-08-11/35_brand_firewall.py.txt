@@ -1,0 +1,8 @@
+/goal "Act as the Lead Systems Engineer for PM7 [cite: 50, 197]. We need to install and configure the 'Understand Anything' visual codebase plugin [cite: 265]. Please perform these actions in order [cite: 6]:
+1. Run the Claude Code plugin marketplace commands to add and install the utility:
+   /plugin marketplace add Egonex-AI/Understand-Anything
+   /plugin install understand-anything [cite: 266]
+2. Once installed, verify that the directories '.understand-anything/' are successfully initialized [cite: 265].
+3. Create a clean system documentation note in '03_Knowledge_Mat/00_Atlas/SOP_Understand_Anything.md' outlining usage guidelines [cite: 186, 201].
+4. Run our local '04_Tech_Lab/scripts/brand_firewall.py' scan over the configuration directory to ensure zero green color styling leaks or banned terms [cite: 4, 80].
+5. Respond with a completed checklist, then pause and wait for Saia's review [cite: 192, 205]."

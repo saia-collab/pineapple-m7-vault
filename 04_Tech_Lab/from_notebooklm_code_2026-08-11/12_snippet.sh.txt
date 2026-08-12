@@ -1,0 +1,7 @@
+#!/bin/bash
+# Safe-pack the markdown report and POST to local CRM API
+REPORT_BODY=$(cat /workspace/scratch/pipeline_recaps/weekly_report.md | jq -s -R .)
+curl -s -X POST "http://localhost:8080/api/v1/deals/notes" \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer LocalKey_M7_Prod" \
+  -d "{\"note_type\": \"internal_audit\", \"body\": $REPORT_BODY}"

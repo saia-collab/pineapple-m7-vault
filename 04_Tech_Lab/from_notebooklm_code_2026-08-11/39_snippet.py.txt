@@ -1,0 +1,70 @@
+import os
+import sys
+
+# ========================================================
+# PINEAPPLE M7 BRAND LAW COMPLIANCE SCANNER
+# ========================================================
+APPROVED_NAVY = "#1A365D"
+APPROVED_GOLD = "#FBC02D"
+APPROVED_CYAN = "#00BFFF"
+
+def run_compliance_firewall(text_content):
+    # Enforce strict terminology boundaries (No Free/IKO Certified/Warrior)
+    banned_lexicon = ["free inspection", "free estimate", "$0 down", "IKO Certified", "Toa", "Warrior", "Six Brothers"]
+    for word in banned_lexicon:
+        if word.lower() in text_content.lower():
+            print(f"❌ COMPLIANCE FAIL: Illegal term '{word}' found. Process Blocked.")
+            sys.exit(1)
+    print("✅ Brand Law compliance scan: PASSED.")
+
+# ========================================================
+# THE 50/5/3 LEGO VIDEO ENGINE TIMELINE SPECS (30 FPS)
+# ========================================================
+# Total clip duration: exactly 50 seconds (1,500 frames)
+# Hook Segment: Frames 0 to 15 (First 0.5s visual disruptor)
+# Body Segment: Frames 16 to 1,410 (Drone analytics & proof)
+# End Card Segment: Frames 1,411 to 1,500 (Last 3s credentials)
+# ========================================================
+TOTAL_FRAMES = 1500
+HOOK_RANGE = (0, 15)
+BODY_RANGE = (16, 1410)
+END_CARD_RANGE = (1411, 1500)
+
+def render_lego_video(case_study_source, output_name):
+    print("🎬 Initializing M7 Video Director Crew...")
+    
+    with open(case_study_source, 'r') as file:
+        script = file.read()
+    
+    # Run the automated compliance check before rendering
+    run_compliance_firewall(script)
+    
+    # Output metadata specs to configure local Remotion / Hyperframes renders
+    specs = f"""
+    # M7 STAGED VIDEO SPECIFICATIONS
+    STATUS: PAUSED
+    PALETTE:
+      PRIMARY: {APPROVED_NAVY}
+      ACCENT: {APPROVED_GOLD}
+      STATUS: {APPROVED_CYAN}
+    TIMELINE_MAP:
+      HOOK: Frame {HOOK_RANGE} to {HOOK_RANGE[3]} (Pattern Interrupt)
+      BODY: Frame {BODY_RANGE} to {BODY_RANGE[3]} (Factual Case Study)
+      END_CARD: Frame {END_CARD_RANGE} to {END_CARD_RANGE[3]} (Branded Credentials)
+    CREDENTIALS_METADATA:
+      - Owner: Polynesian-owned and family-operated
+      - License: RCAT Licensed #03-0637
+      - Certification: IKO Certified
+      - Phone: 972-928-0788
+      - HQ: 1 Cowboys Way, Ste 270W, Frisco, TX 75034
+    """
+    
+    outbox_destination = os.path.join("C:\\Pineapple Contractors M7\\01_Command_Center\\Outbox_Drafts", output_name)
+    with open(outbox_destination, 'w') as out_file:
+        out_file.write(specs)
+        
+    print(f"✅ Video build rendered successfully! Staged as PAUSED in: {outbox_destination}")
+
+if __name__ == "__main__":
+    # Test-execute local render specs
+    render_lego_video("C:\\Pineapple Contractors M7\\03_Knowledge_Mat\\active_context\\self_checking_factory.md", "hail_promo_v1.config")

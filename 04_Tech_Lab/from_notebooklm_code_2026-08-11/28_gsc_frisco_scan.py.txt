@@ -1,0 +1,47 @@
+@echo off
+TITLE M7 24/7 Background SEO Traffic Engine
+color 0C
+
+:loop
+cls
+echo ===================================================================
+echo   🛰️  M7 24/7 BACKGROUND TRAFFIC ENGINE IS ACTIVE
+echo   Enforcing 0%% Green visual laws and strict CPPA naming schemas [cite: 9, 126, 127]
+echo ===================================================================
+echo [SYSTEM] Local Time: %date% %time%
+echo.
+
+:: 1. Scan GSC for trending keywords in Frisco/Plano
+echo [STEP 1/4] Scanning Google Search Console for impression spikes...
+python "C:\Pineapple Contractors M7\04_Tech_Lab\scripts\gsc_frisco_scan.py" [cite: 80]
+timeout /t 5 >nul
+
+:: 2. Execute JCode to write a new local static landing page
+echo.
+echo [STEP 2/4] Initializing jcode Swarm to generate optimized city copy... [cite: 386]
+jcode --role "builder" --task "Generate a new HTML location page for Frisco ZIP 75035 using IKO Dynasty metrics [cite: 150, 256]. Use no green styles [cite: 127]." [cite: 391]
+timeout /t 10 >nul
+
+:: 3. Force Compliance Check
+echo.
+echo [STEP 3/4] Passing page to Brand Firewall...
+python "C:\Pineapple Contractors M7\04_Tech_Lab\scripts\brand-firewall.py" "C:\Pineapple Contractors M7\01_Command_Center\Outbox_Drafts" [cite: 80]
+if %errorlevel% neq 0 (
+    echo [CRITICAL ERROR] Brand Firewall flagged a violation! Halting deploy.
+    goto sleep_cycle
+)
+
+:: 4. Deploy and Index
+echo.
+echo [STEP 4/4] Publishing page and submitting to Indexceptional API...
+python "C:\Pineapple Contractors M7\04_Tech_Lab\scripts\sitemap_validator.py" [cite: 80]
+
+:sleep_cycle
+echo.
+echo ===================================================================
+echo   💤 CYCLE COMPLETE. Sleeping for 6 hours before next check...
+echo ===================================================================
+:: Sleeps for 21,600 seconds (6 hours)
+timeout /t 21600
+
+goto loop

@@ -1,0 +1,6 @@
+Act as the Systems Deployment Engineer for PM7. Connect to our self-hosted WordPress site using our active 'wordpress' MCP server connection:
+1. Locate and read our staged location page draft from: 'C:\Pineapple Contractors M7\01_Command_Center\Outbox_Drafts\Website_Pages\frisco_hail_damage_page.md'.
+2. Run a pre-flight compliance check: Ensure there are 0 green CSS or styling hex codes, the call-to-action buttons are Pineapple Gold (#FBC02D) and Royal Navy (#1A365D), and all copy uses "Complimentary Professional Photo Audit (CPPA)" (No "free inspection").
+3. Create a new page on pineappleroofingllc.com with the title 'Hail Damage Roof Repair in Frisco, TX' and set the slug to 'hail-damage-roof-repair-frisco-tx'.
+4. Upload and inject the compliant HTML body content, and publish the page as an invisible, paused draft for our final administrative check.
+5. Report the deployment transaction log in our Memory Galaxy.

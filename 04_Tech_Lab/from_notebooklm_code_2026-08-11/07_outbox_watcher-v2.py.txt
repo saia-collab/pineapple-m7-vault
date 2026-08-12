@@ -1,0 +1,36 @@
+@echo off
+:: PINEAPPLE M7 — OUTBOX REAL-TIME WATCHER STARTUP LAUNCHER
+:: Target: Launches outbox_watcher-v2.py in a dedicated background window upon computer boot.
+
+title PINEAPPLE M7 — AUTOMATED WATCHER DAEMON ACTIVE
+echo ===================================================
+echo 🍍 PINEAPPLE M7 — INITIALIZING BRAND WATCHDOG
+echo ===================================================
+
+:: 1. Navigate to your local project root folder
+cd "C:\Pineapple Contractors M7" 2>nul
+if %errorlevel% neq 0 (
+    echo [ERROR] Root folder C:\Pineapple Contractors M7 was not found!
+    echo Please verify your local folder path is correct and restart.
+    pause
+    exit /b
+)
+
+:: 2. Pre-flight check: ensure the upgraded watcher script is present
+if not exist "04_Tech_Lab\scripts\outbox_watcher-v2.py" (
+    echo [ERROR] Upgraded outbox_watcher-v2.py was not found in 04_Tech_Lab\scripts\!
+    echo Please download it from your Studio Panel and save it locally.
+    pause
+    exit /b
+)
+
+echo [STARTING] Launching live daemon in a separate guard window...
+start "M7 Outbox Guard-Dog Daemon" cmd /k "python \"04_Tech_Lab\scripts\outbox_watcher-v2.py\""
+
+echo ===================================================
+echo ✅ BRAND FIREWALL ACTIVE AND GUARDING YOUR WORKSPACE!
+echo This startup launcher will now close. Keep the puppy window open!
+echo Stay safe, Saia!
+echo ===================================================
+timeout /t 5
+exit

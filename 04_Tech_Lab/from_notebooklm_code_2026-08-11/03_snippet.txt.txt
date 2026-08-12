@@ -1,0 +1,78 @@
+{
+  "name": "Pineapple Roofing - GBP Review Responder & Reputation Intercept",
+  "description": "Automated workflow blueprint for positive review replies and negative review interception for local service businesses.",
+  "platform": "Pably Connect",
+  "version": "1.0.0",
+  "trigger": {
+    "app": "Google Business Profile",
+    "event": "New Review",
+    "trigger_type": "Webhook",
+    "variables": {
+      "location_name": "Pineapple Roofing - Frisco, TX",
+      "license_number": "RCAT #03-0637"
+    }
+  },
+  "routers": [
+    {
+      "name": "Reputation Router (Reputation Firewall)",
+      "description": "Splits inbound reviews based on star rating to protect brand authority.",
+      "routes": [
+        {
+          "route_name": "Route A (Positive Feedback - 4 or 5 Stars)",
+          "conditions": [
+            {
+              "field": "{{star_rating}}",
+              "operator": "Greater Than or Equal To",
+              "value": "4"
+            }
+          ],
+          "actions": [
+            {
+              "step_number": 1,
+              "app": "OpenRouter / OpenAI",
+              "action": "Create Chat Completion",
+              "model": "gpt-4o-mini",
+              "parameters": {
+                "temperature": 0.3,
+                "max_tokens": 150,
+                "system_prompt": "You are the Owner of Pineapple Roofing in Frisco, TX. You write warm, authentic, 2-sentence responses to 5-star reviews. Keep language at an 8th-grade reading level. BANNED TERMS: 'Complimentary Professional Photo Audit (CPPA)', 'Complimentary Professional Photo Audit (CPPA)', '$0 out of pocket'. REQUIRED BRAND FACT: Refer to our signature inspection as a 'Complimentary Professional Photo Audit' (CPPA). Refer to our licensing as 'RCAT #03-0637 Licensed' and our shingles as premium 'IKO Certified'.",
+                "user_prompt": "Reviewer Name: {{reviewer_name}}\nReview Text: {{review_comment}}\n\nWrite the reply following the operational system prompt."
+              }
+            },
+            {
+              "step_number": 2,
+              "app": "PostProxy / Google Business Profile",
+              "action": "Publish Review Reply",
+              "parameters": {
+                "reply_text": "{{choices.message.content}}",
+                "review_id": "{{review_id}}"
+              }
+            }
+          ]
+        },
+        {
+          "route_name": "Route B (Negative Feedback - 3 Stars or Below)",
+          "conditions": [
+            {
+              "field": "{{star_rating}}",
+              "operator": "Less Than or Equal To",
+              "value": "3"
+            }
+          ],
+          "actions": [
+            {
+              "step_number": 1,
+              "app": "Gmail / Email Notification",
+              "action": "Send Email",
+              "parameters": {
+                "to": "owner@pineapple-roofing.com",
+                "subject": "⚠️ GBP NEGATIVE REVIEW INTERCEPTED: {{reviewer_name}} - {{star_rating}} Stars",
+                "body_html": "<p><strong>Nico,</strong></p><p>A negative review has been intercepted on our Google Business Profile to protect our RCAT #03-0637 brand authority. This has NOT been posted publicly.</p><p><strong>Reviewer:</strong> {{reviewer_name}}<br><strong>Rating:</strong> {{star_rating}} Stars<br><strong>Comment:</strong> {{review_comment}}</p><p><strong>Proposed Action:</strong> Reach out to the client directly or manually copy-paste this response once the issue is investigated:</p><blockquote>'Hello {{reviewer_name}}, we take your feedback seriously. Pineapple Roofing is an RCAT #03-0637 licensed contractor, and we strive to hit premium standards on every project. Please contact us directly at info@pineappleroofingllc.com so we can make this right immediately.'</blockquote>"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

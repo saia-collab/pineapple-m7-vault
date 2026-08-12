@@ -1,0 +1,25 @@
+# =========================================================================
+    # 🔥 DESKTOP HOT LEADS STASH (TOA TIER SPECIAL DISPATCH)
+    # =========================================================================
+    if tier == "TOA_TIER":
+        try:
+            # Dynamically resolves the active user's Desktop path on Windows
+            desktop_path = os.path.join(os.environ["USERPROFILE"], "Desktop", "HOT_LEADS.txt")
+            
+            with open(desktop_path, "a", encoding="utf-8") as hf:
+                hf.write("====================================================\n")
+                hf.write(f"🔥 HOT LEAD ALERT: TOA TIER QUALIFIED (Score: {score}/100)\n")
+                hf.write("====================================================\n")
+                hf.write(f"👤 Name:     {lead_payload.get('customer_name', 'N/A')}\n")
+                hf.write(f"📞 Phone:    {lead_payload.get('phone', 'N/A')}\n")
+                hf.write(f"📍 ZIP Code: {lead_payload.get('zip_code', 'N/A')}\n")
+                hf.write(f"🏢 Comm:     {lead_payload.get('is_commercial', False)}\n")
+                hf.write(f"💰 Est. Val: ${property_value:,.2f}\n")
+                hf.write(f"⛈️ Services: {lead_payload.get('services_requested', 'N/A')}\n")
+                hf.write(f"📝 Notes:    {lead_payload.get('notes', 'N/A')}\n")
+                hf.write(f"🕒 Timestamp: 2026-08-11 18:48:55\n")
+                hf.write("====================================================\n\n")
+                
+            print(f"\n🔥 {RED}[DESKTOP ALERT] Hot Lead instantly written to Desktop/HOT_LEADS.txt!{RESET}")
+        except Exception as de:
+            print(f"\n⚠️ [DESKTOP WRITE ERROR] Could not save hot lead: {de}")

@@ -1,0 +1,7 @@
+Act as the Systems Deployment Engineer for PM7 [cite: 130]. We are ready to push our validated assets live [cite: 81].
+1. Connect to our self-hosted WordPress site using our active 'wordpress' MCP server connection [cite: 155, 161].
+2. Read the staged location page draft from our local outbox: 'C:\Pineapple Contractors M7\01_Command_Center\Outbox_Drafts\Website_Pages\roof_repair_frisco.md' [cite: 76, 80].
+3. Execute a brand-compliance scan: Verify there are 0 green visual hex codes, the CTA button is set to Pineapple Gold (#FBC02D), and there are no instances of the banned term 'Complimentary Professional Photo Audit (CPPA)' (must use CPPA) [cite: 87, 126].
+4. Create a new page on pineappleroofingllc.com with the title 'Hail Damage Roof Repair in Frisco, TX' and slug 'hail-damage-roof-repair-frisco-tx' [cite: 15, 124].
+5. Inject the compliant HTML body content and publish the page as a PAUSED draft [cite: 87, 126].
+6. Verify the page creation was successful, log the transaction in our Memory Galaxy, and report back [cite: 66, 162].
