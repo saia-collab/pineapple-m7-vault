@@ -128,6 +128,22 @@ Every morning 7am, check DFW roofing/storm news + my top 3 priorities, send me a
 Read my Obsidian vault (03_Knowledge_Mat). Based on my goals + what I worked on, give 3 priorities today + which Studio tab for each. Roofing context only.
 ```
 
+## 🏆 THE "RANK #1" METHOD (Goldie Ranking Stack — from the 11-hour video)
+The exact loop that ranked a page #1 (Google + AI Mode) in 11h:
+1. **Low-competition long-tail keyword WITH intent** (e.g. "hail damage roof repair [suburb] TX").
+2. **Keyword + YOUR case study** → agent writes the page (case study = unique to you, not generic AI).
+3. **AI-SEO skill = a checklist** the agent follows every time: keyword in title + first paragraph, one-sentence-per-line, CTAs, a real case study block, auto internal + external links, LocalBusiness/FAQ schema, 1,000–1,500 words.
+4. **Deploy PAUSED → your GO → publish**, then **fast-index** (Indexceptional API, indexceptional.com — needs a key) so Google sees it in hours not weeks.
+5. **Rinse + repeat** across the 5-site flywheel.
+> M7 rule: step 4 is gated — pages land in Outbox_Drafts; Saia clicks publish.
+
+## 🖥️ HERMES WORKSPACE (the command center — better than the terminal)
+Free open-source dashboard (`localhost:3000`) = a real home for your agents. Install: paste its one-line command, then in Hermes say *"launch hermes workspace."* Sections: **Chat · Memory · Skills · Files · Terminal · Jobs (scheduled) · Kanban · Conductor (give a mission, agents plan it) · Swarm (run all 17 profiles in parallel) · Settings**.
+- **Smart routing:** set a smart brain (Claude/GPT-5.6) + auto-route simple queries to a free local (Ollama) → cheap + fast.
+- **Jobs:** name + schedule + prompt + skills + delivery (local/Telegram/Discord) — your cron in a UI.
+- *Note:* this is the Julian/terminal alternative; your **M7 Studio at :3737** already gives you Chat/Kanban/Goal Mode/Swarm, so use whichever UI you prefer — same Hermes underneath.
+- **Goldie Agent Empire (5 layers):** Command Center (workspace) → Brain (Obsidian+OMI context) → Skill Stack (your 5–10 core skills) → Automation Engine (swarm) → You = the architect.
+
 ## 🔒 STANDING RULES
 - Brand: CPPA · IKO Certified · Full Restoration Coverage · The Pineapple Standard · Navy/Gold/Cyan, **zero green** · **no Tongan proverbs** · (972) 928-0788 · RCAT #03-0637.
 - **Outbox Shield:** every output PAUSED in `Outbox_Drafts/`. Saia is sole publisher.
