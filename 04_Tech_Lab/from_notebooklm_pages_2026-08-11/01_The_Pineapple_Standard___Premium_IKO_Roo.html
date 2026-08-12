@@ -1,0 +1,286 @@
+import os
+import sys
+
+# ============================================================================
+# PINEAPPLE M7 — ONE-TAKE WEBSITE ENGINE: SCROLL-ROTATION BUILDER
+# File: one_take_builder.py
+# ============================================================================
+
+def compile_one_take_page(output_path, video_filename="shingle_rotation_30s.mp4"):
+    """
+    Compiles an interactive scroll-scrubbing HTML page.
+    Utilizes 100% compliant brand colors (0% Green, Royal Navy & Gold) [cite: 9, 127].
+    """
+    print("=================================================================")
+    print("🍍 PINEAPPLE M7 — ONE-TAKE WEBSITE ENGINE ACTIVE")
+    print(f"📁 Compiling scroll-rotation template to: {output_path}")
+    print("=================================================================")
+
+    html_content = f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Pineapple Standard — Premium IKO Roof Restoration</title>
+    
+    <!-- Local Geographic SEO Metadata -->
+    <meta name="geo.region" content="US-TX">
+    <meta name="geo.placename" content="Frisco, TX">
+    <meta name="geo.position" content="33.1507;-96.8236">
+    <meta name="ICBM" content="33.1507, -96.8236">
+
+    <style>
+        /* 🎨 PINEAPPLE M7 CORPORATE COLOR MATRIX (0% GREEN ALLOWED) */
+        :root {{
+            --navy: #1A365D;      /* Royal Navy - Dominates Headers & Base */
+            --gold: #FBC02D;      /* Pineapple Gold - Hero CTAs & Borders */
+            --cyan: #00BFFF;      /* Status Cyan - Hyperlinks & Dynamic Focus */
+            --dark: #0F172A;      /* Deep Slate Base */
+            --light: #F8FAFC;     /* Off-White Text Elements */
+        }}
+
+        * {{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+        }}
+
+        body {{
+            background-color: var(--dark);
+            color: var(--light);
+            overflow-x: hidden;
+            font-size: 16px;
+            line-height: 1.6;
+        }}
+
+        /* 🎬 SCROLL CONTAINER (Controls scroll depth and play speed) */
+        #scroll-container {{
+            position: relative;
+            height: 400vh; /* 4 pages of scroll depth for comfortable scrubbing */
+        }}
+
+        /* 📹 STICKY VIDEO VIEWPORT (Stays locked on screen during scrub) */
+        #video-viewport {{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            z-index: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: radial-gradient(circle, var(--navy) 0%, var(--dark) 100%);
+        }}
+
+        video {{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0.55; /* Blends visual contrast with overlay text */
+            pointer-events: none;
+        }}
+
+        /* 📑 HERO CONTENT OVERLAYS */
+        .content-section {{
+            position: relative;
+            z-index: 2;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 0 10%;
+            max-width: 800px;
+        }}
+
+        /* 💥 HORMOZI-STYLE TYPOGRAPHY RULES */
+        h1 {{
+            font-size: 3.5rem;
+            color: var(--gold);
+            line-height: 1.1;
+            margin-bottom: 20px;
+            font-weight: 900;
+            text-transform: uppercase;
+            text-shadow: 2px 4px 10px rgba(0,0,0,0.8);
+        }}
+
+        p {{
+            font-size: 1.25rem;
+            color: #FFFFFF;
+            margin-bottom: 25px;
+            text-shadow: 1px 2px 5px rgba(0,0,0,0.8);
+        }}
+
+        .intro-hook {{
+            font-weight: bold;
+            color: var(--cyan);
+            letter-spacing: 1px;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+        }}
+
+        /* 💰 PREMIUM CTA DESIGN (No green, high contrast) */
+        .cta-btn {{
+            display: inline-block;
+            background-color: var(--gold);
+            color: var(--navy);
+            padding: 18px 36px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 50px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border: 2px solid var(--gold);
+            transition: all 0.25s ease;
+            box-shadow: 0 4px 15px rgba(251, 192, 45, 0.4);
+            align-self: flex-start;
+        }}
+
+        .cta-btn:hover {{
+            background-color: transparent;
+            color: var(--gold);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(251, 192, 45, 0.6);
+        }}
+
+        /* 📜 TRUST CARD BLOCK */
+        .trust-card {{
+            background: rgba(26, 54, 93, 0.85); /* 85% Navy Opacity */
+            border-left: 5px solid var(--gold);
+            padding: 25px;
+            border-radius: 4px;
+            margin-top: 20px;
+            backdrop-filter: blur(10px);
+        }}
+
+        .trust-meta {{
+            font-size: 0.9rem;
+            color: var(--cyan);
+            margin-top: 10px;
+            font-weight: bold;
+        }}
+
+        /* 📜 SCROLL DOWN INDICATOR */
+        .scroll-down {{
+            position: absolute;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: var(--gold);
+            font-weight: bold;
+            letter-spacing: 2px;
+            animation: bounce 2s infinite;
+        }}
+
+        @keyframes bounce {{
+            0%, 20%, 50%, 80%, 100% {{ transform: translate(-50%, 0); }}
+            40% {{ transform: translate(-50%, -10px); }}
+            60% {{ transform: translate(-50%, -5px); }}
+        }}
+    </style>
+</head>
+<body>
+
+    <!-- 📹 THE SCROLL-DRIVEN STICKY REEL VIEWPORT -->
+    <div id="video-viewport">
+        <video id="scrollVideo" playsinline muted preload="auto">
+            <source src="{video_filename}" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+    </div>
+
+    <!-- 📑 HERO SCROLL CONTAINER -->
+    <div id="scroll-container">
+        
+        <!-- SECTION 1: THE DISRUPTIVE HOOK -->
+        <div class="content-section" style="height: 100vh;">
+            <span class="intro-hook">Let's Be Real</span>
+            <h1>Frisco Roof Damage<br>Is Invisible.</h1>
+            <p>North Texas winds shear off shingles. Hidden hail micro-cracks go unnoticed. Until water ruins your living room ceiling.</p>
+            <a href="#audit" class="cta-btn">Book Your Photo Audit</a>
+            <div class="scroll-down">🔽 SCROLL TO ROTATE ACCENT</div>
+        </div>
+
+        <!-- SECTION 2: THE DATA REVEAL -->
+        <div class="content-section" style="height: 100vh;">
+            <span class="intro-hook">We Tested It</span>
+            <h1>ArmourZone®<br>Strong Defense.</h1>
+            <p>As you scroll, notice the premium reinforced backing. Standard shingles tear at the nail line. IKO Dynasty shingles hold fast in 130 mph hurricanes.</p>
+            <div class="trust-card">
+                We standardized strictly on IKO Certified systems to shield your family equity. [cite: 18, 126, 256]
+                <div class="trust-meta">RCAT License #03-0637 | Polynesian-Run Since 2005 [cite: 18, 126, 256]</div>
+            </div>
+        </div>
+
+        <!-- SECTION 3: THE CASE STUDY PROOF -->
+        <div class="content-section" style="height: 100vh;">
+            <span class="intro-hook">$571,000 Recovered</span>
+            <h1>595 Local Homes<br>Fully Restored.</h1>
+            <p>We completed a massive 9-month restoration sprint across North Texas. That is 595 families protected from predatory storm chasers.</p>
+            <a href="tel:972-928-0788" class="cta-btn">Call Saia: 972-928-0788</a>
+        </div>
+
+        <!-- SECTION 4: THE AUDIT FORM CLOSE -->
+        <div class="content-section" style="height: 100vh;" id="audit">
+            <span class="intro-hook">Get Objective Proof</span>
+            <h1>Complimentary<br>Photo Audit.</h1>
+            <p>We perform a detailed, drone-assisted survey of your complete roof decking. You get a full, high-definition photographic record for your insurance files.</p>
+            <div class="trust-card">
+                🗺️ <strong>Pineapple Contractors HQ:</strong><br>
+                1 Cowboys Way, Ste 270W, Frisco, TX 75034 [cite: 54]<br>
+                📞 Phone: 972-928-0788 [cite: 54]
+            </div>
+        </div>
+
+    </div>
+
+    <!-- ⚙️ SCROLL SCRUBBING ENGINE -->
+    <script>
+        const video = document.getElementById("scrollVideo");
+        const container = document.getElementById("scroll-container");
+
+        // Smooth Easing Interpolation variables
+        let targetScrubTime = 0;
+        let currentScrubTime = 0;
+        const interpolationFactor = 0.1; // Lower is smoother (creates easing)
+
+        window.addEventListener("scroll", () => {
+            const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+            const maxScroll = container.scrollHeight - window.innerHeight;
+            
+            // Calculate progress percentage (0.0 to 1.0)
+            const scrollPercent = Math.max(0, Math.min(1, scrollTop / maxScroll));
+            
+            // Map scroll ratio to video timeline duration
+            if (video.duration) {
+                targetScrubTime = video.duration * scrollPercent;
+            }
+        });
+
+        // Fluid Easing Animation Loop
+        function animateScrub() {
+            if (video.duration) {
+                // Interpolate current time toward target time
+                currentScrubTime += (targetScrubTime - currentScrubTime) * interpolationFactor;
+                video.currentTime = Math.max(0, Math.min(video.duration - 0.05, currentScrubTime));
+            }
+            requestAnimationFrame(animateScrub);
+        }
+
+        // Initialize easing animation frame loop
+        requestAnimationFrame(animateScrub);
+    </script>
+</body>
+</html>
+"""
+    with open(output_path, "w", encoding="utf-8") as f:
+        f.write(html_content)
+        
+    print(f"🎉 [SUCCESS] One-Take scroll template completed! Saved to: {output_path}")
+
+if __name__ == "__main__":
+    out_dir = r"C:\Pineapple Contractors M7\01_Command_Center\Outbox_Drafts\Website_Pages"
+    os.makedirs(out_dir, exist_ok=True)
+    compile_one_take_page(os.path.join(out_dir, "one_take_scroll_landing.html"))
