@@ -13,7 +13,12 @@ note: Live checklist of EVERY tab, tool, and key. ✅ done · 🔧 installing ·
 - **Installs complete:** jcode v0.75.3 (`~\AppData\Local\jcode\bin`), App Lab (`~\Developer\awesome-llm-apps`), Open Design (`~\open-design`), opencode.
 - **6 core keys TESTED against their provider = all VALID (HTTP 200):** OpenRouter · OpenAI · Groq · ElevenLabs · Gemini · Firecrawl. (Not just present — actually authenticated.)
 - **3 more keys verified:** HeyGen ✅ (video avatars) · Hunter ✅ (leads) · z.ai/GLM ✅. **Suno ⚠️ pending** — `SUNO_API_KEY` empty; get it from **musicapi.org** (Google sign-in), then paste. **OmniRoute key** goes in its **dashboard → Providers** (localhost:20128), NOT a config file. Free coding runs on Ollama, so OmniRoute is optional.
-- **Installing:** prime-agent (primeintellect) + repos pi/rtk/caveman/ponytail/OmniRoute → `~/agent-tools/`.
+- **prime-agent v0.7.2 ✅ installed** (`~\AppData\Roaming\npm\prime-agent`); 5 repos cloned → `~/agent-tools/`.
+- **🔒 Leak-proof compression engine CONFIGURED:** Caveman ✅ + Ponytail ✅ (Claude plugins, enabled) + RTK v0.45.0 ✅ (`~\.local\bin`, hook registered via `~/.claude/RTK.md`) — stacked on OmniRoute → compounding token savings (~80%).
+- **Login-only tabs (cannot be done for you — a human login, not a key):**
+  - **Hermes Astros** — works KEYLESS right now (RSS + scrape). Optional richer data: paste a YouTube Data API key into `YT_API_KEY` (Google Cloud console), or run the Google-OAuth helper `~/.agentic-os/astros-youtube-auth.py`.
+  - **Radar** — needs a Grok / SuperGrok (X Premium) login.
+  - **Claude / Codex tabs** — run `claude login` / `codex login` once (browser sign-in).
 - **Free coding:** Ollama (`qwen2.5-coder`) proven answering. Studio + OmniRoute + fcc online.
 - **Remaining:** paste HeyGen/Suno/z.ai/Hunter into `~\.hermes\.env`, then verify those + wire OmniRoute providers.
 
