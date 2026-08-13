@@ -47,4 +47,4 @@ foreach ($m in $map) {
 
 Write-Host ""
 Write-Host "  Done. READY-TO-POST first: 'WhyPineappleRoofing' + 'PropertyManagers'." -ForegroundColor Cyan
-Write-Host "  Ko e hala 'o e fononga ko e faka'apa'apa." -ForegroundColor Cyan
+Write-Host "  ." -ForegroundColor Cyan

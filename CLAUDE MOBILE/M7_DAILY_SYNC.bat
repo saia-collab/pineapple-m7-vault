@@ -5,7 +5,6 @@ REM  Runs the whole maintenance loop so the OS updates itself into the workflow:
 REM    intake new drops -> firewall M7 output -> index + catalog -> telemetry
 REM    -> mobile snapshot -> sync-status for the dashboard -> git snapshot.
 REM  Outbox Shield stays on. Register with REGISTER_DAILY_SYNC.bat (Task Scheduler).
-REM  Ko e hala 'o e fononga ko e faka'apa'apa.
 REM ============================================================================
 setlocal
 set ROOT=C:\Pineapple Contractors M7

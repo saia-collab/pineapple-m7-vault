@@ -3,7 +3,6 @@
  PINEAPPLE CONTRACTORS M7 — SCAFFOLDER & PRE-FLIGHT  (setup_m7.ps1)
  Builds/repairs the immutable 4-Fala topography, verifies dependencies,
  and arms the Brand Firewall. Idempotent — safe to re-run. Zero directory drift.
- Ko e hala 'o e fononga ko e faka'apa'apa.
 ================================================================================
 #>
 
@@ -59,4 +58,4 @@ if (Test-Path $fw) {
   else { Write-Host "  FIREWALL flagged items — run: python `"$fw`" --fix" -ForegroundColor Yellow }
 }
 
-Write-Host "`nScaffold complete. Ko e hala 'o e fononga ko e faka'apa'apa." -ForegroundColor Yellow
+Write-Host "`nScaffold complete. ." -ForegroundColor Yellow

@@ -4,7 +4,6 @@
 # Keeps the Hermes agent + M7 engine alive, re-arms the brand firewall watcher,
 # and runs the telemetry refresh on a cron-like interval. Outbox Shield enforced:
 # this daemon NEVER publishes live or moves money.
-# Ko e hala 'o e fononga ko e faka'apa'apa.
 # =============================================================================
 set -euo pipefail
 ROOT="${M7_ROOT:-/c/Pineapple Contractors M7}"
