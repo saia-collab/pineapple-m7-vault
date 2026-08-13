@@ -1327,7 +1327,7 @@
       "line": 19,
       "kind": "lexicon",
       "label": "Warrior",
-      "snippet": "BRAND RULES: never \"free\" (use CPPA), no \"GAF\" (use IKO Certified), no \"Toa/Warrior\", no green, phone 972-928-0788. End with: Ko e hala 'o e fononga ko e faka'a",
+      "snippet": "BRAND RULES: never \"free\" (use CPPA), no \"GAF\" (use IKO Certified), no \"Toa/Warrior\", no green, phone 972-928-0788. ",
       "severity": "warn"
     },
     {
@@ -1335,7 +1335,7 @@
       "line": 19,
       "kind": "lexicon",
       "label": "Toa",
-      "snippet": "BRAND RULES: never \"free\" (use CPPA), no \"GAF\" (use IKO Certified), no \"Toa/Warrior\", no green, phone 972-928-0788. End with: Ko e hala 'o e fononga ko e faka'a",
+      "snippet": "BRAND RULES: never \"free\" (use CPPA), no \"GAF\" (use IKO Certified), no \"Toa/Warrior\", no green, phone 972-928-0788. ",
       "severity": "warn"
     },
     {
@@ -1343,7 +1343,7 @@
       "line": 19,
       "kind": "lexicon",
       "label": "Free (standalone)",
-      "snippet": "BRAND RULES: never \"free\" (use CPPA), no \"GAF\" (use IKO Certified), no \"Toa/Warrior\", no green, phone 972-928-0788. End with: Ko e hala 'o e fononga ko e faka'a",
+      "snippet": "BRAND RULES: never \"free\" (use CPPA), no \"GAF\" (use IKO Certified), no \"Toa/Warrior\", no green, phone 972-928-0788. ",
       "severity": "warn"
     },
     {
@@ -1351,7 +1351,7 @@
       "line": 19,
       "kind": "green",
       "label": "green reference",
-      "snippet": "BRAND RULES: never \"free\" (use CPPA), no \"GAF\" (use IKO Certified), no \"Toa/Warrior\", no green, phone 972-928-0788. End with: Ko e hala 'o e fononga ko e faka'a",
+      "snippet": "BRAND RULES: never \"free\" (use CPPA), no \"GAF\" (use IKO Certified), no \"Toa/Warrior\", no green, phone 972-928-0788. ",
       "severity": "critical"
     },
     {
