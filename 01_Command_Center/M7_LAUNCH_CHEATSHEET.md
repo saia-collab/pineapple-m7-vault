@@ -39,14 +39,21 @@ Wait ~30 seconds. Your browser opens to the Studio automatically. **Done.**
 
 ---
 
-## 🆓 HOW FREE MODELS WORK NOW (this was the broken part — it's fixed)
-- **Free coding = Free Claude Code (:8082) → Groq's free tier** (a cloud model, `llama-3.3-70b`).
-- **$0. No login. Uses no computer memory.** This is why it now "just works."
-- You had **3 half-connected routers fighting each other** (OmniRoute, 9Router, and this). I turned OFF the two empty ones and pointed everything at the one that has your keys.
-- **If it ever says "rate limited":** open `http://127.0.0.1:8082/admin` → Model Config → pick another free model (e.g. `groq/llama-3.1-8b-instant`). That's the only knob you'll ever touch.
+## 🩹 THE ROOT CAUSE OF "TWO STUDIOS" (fixed)
+OmniRoute was starting on **port 3737 — the Studio's own port**. It inherited `PORT=3737` from the launcher, so OmniRoute and the Studio fought over 3737: sometimes you got the OS, sometimes OmniRoute's dashboard "as" the Studio. **Fixed:** OmniRoute is now pinned to **20128**, the Studio owns **3737**, and the launcher no longer opens a second browser tab if the Studio is already up.
 
-### The Studio's in-app "Free Claude Code" TAB (the one that showed OFFLINE)
-That specific chat tab is wired to **OmniRoute**, which is empty until you connect one provider **once** (a login + click I can't do for you). **You don't need it** — use the normal **Claude** tab for chat, and free coding runs through button 1's engine. If you *do* want that tab: click button 2, then in the OmniRoute dashboard open **Providers/Discovery** and connect one free provider (e.g. OpenCode "big-pickle"). One time only.
+## 🆓 FREE MODELS — TWO PATHS (one reliable, one bonus)
+There are two free systems. Here's the honest truth about each:
+
+**① RELIABLE — Free Claude Code CLI / VS Code → `fcc` (:8082) → Groq free tier.**
+- Uses YOUR Groq key. $0, cloud, no RAM. **Verified working.** This is the one to trust for real free coding.
+- If it ever rate-limits: `http://127.0.0.1:8082/admin` → Model Config → pick another (e.g. `groq/llama-3.1-8b-instant`).
+
+**② BONUS — the Studio's in-app "Free Claude Code" tab → OmniRoute (:20128) keyless pool.**
+- Truly free, no key, 92 models. **But** it's a *keyless* pool — it gets **rate-limited constantly** (429/502 errors) and is NOT dependable for real work. Great when it's up, dead when it's throttled. That's the nature of free-for-nothing pools, not a bug I can fix.
+- It now at least *connects* (port fixed, model set to `auto/best-coding`). If it errors, just retry — or use path ① / your **Claude** tab.
+
+**👉 Practical rule:** for real work use your **Claude** / **gpt56** tabs (your subscriptions). For free coding use path ① (fcc/Groq). Treat OmniRoute's in-app tab as a free bonus, not a workhorse.
 
 ---
 
@@ -66,7 +73,7 @@ That specific chat tab is wired to **OmniRoute**, which is empty until you conne
 | 9119 | Hermes agent | ✅ core |
 | 8082 | Free Claude Code → Groq free | ✅ free models |
 | 11434 | Ollama (local models) | ⬜ optional, auto-starts |
-| 20128 | OmniRoute (in-app free chat tab) | ⬜ optional, needs 1 connect |
+| 20128 | OmniRoute (in-app free tab) | ⬜ optional, keyless pool (often throttled) |
 | 20129 | 9Router | ⬜ ignore |
 
 ---
@@ -79,10 +86,11 @@ That specific chat tab is wired to **OmniRoute**, which is empty until you conne
 
 ---
 
-## 🔧 WHAT I CHANGED TODAY (2026-08-13)
-1. Pointed Free Claude Code (:8082) off the RAM-heavy local model onto **Groq free tier** — verified a real reply came back.
-2. Fixed the launcher so :8082 actually starts (it was silently failing).
-3. Fixed the "two Studios" — button 1 now kills any old :3000 Studio.
-4. Made 3 clean Desktop buttons + this cheat sheet.
+## 🔧 WHAT I CHANGED (2026-08-13)
+1. **Fixed the real "two studios":** OmniRoute was grabbing port **3737** (the Studio's own port, inherited from the launcher) — now pinned to **20128**. This was THE bug.
+2. Launcher no longer opens a duplicate browser tab when the Studio is already up; also kills any old :3000 studio.
+3. Pointed reliable free coding (`fcc` :8082) to **Groq free tier** — verified a real reply.
+4. Wired the Studio's in-app free tab to a model that exists on OmniRoute (`auto/best-coding`) so it connects (the pool's throttling is OmniRoute's, not something I can fix).
+5. Fixed the launcher so :8082 (free engine) actually starts. Made 3 Desktop buttons + this cheat sheet.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference (launch doc; "free" = free-tier models, not customer wording) -->
