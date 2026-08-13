@@ -12,7 +12,7 @@ hook_color: Pineapple Gold #FBC02D
 credential_bar: Royal Navy #1A365D · RCAT #03-0637 · IKO Certified
 cta_offer: Complimentary Professional Photo Audit (CPPA)
 phone: 972-928-0788
-sign_off: Ko e hala 'o e fononga ko e faka'apa'apa
+sign_off:
 source: M7_INTEGRATED_CAMPAIGN.md §3 (Hook Bank) + §7 (This Week) · M7_CONTENT_FACTORY.md Step 4
 color_primary: "#1A365D"
 color_secondary: "#FBC02D"
@@ -49,7 +49,6 @@ we protect its roof.
 📞 Book your Complimentary Professional Photo Audit (CPPA): **972-928-0788**
 🪪 RCAT #03-0637 · IKO Certified
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 ---
 
@@ -69,7 +68,6 @@ and let the photos do the talking.
 📞 Schedule your Complimentary Professional Photo Audit: **972-928-0788**
 🪪 RCAT #03-0637 · IKO Certified
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 ---
 
@@ -89,7 +87,6 @@ proposal, every truck, and every end card.
 📞 Complimentary Professional Photo Audit (CPPA): **972-928-0788**
 🪪 RCAT #03-0637 · IKO Certified
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 ---
 
@@ -110,7 +107,6 @@ outlasts the storm.
 📞 Book your Complimentary Professional Photo Audit: **972-928-0788**
 🪪 RCAT #03-0637 · IKO Certified
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 ---
 
@@ -131,7 +127,6 @@ protects your investment tomorrow.
 📞 Start with a Complimentary Professional Photo Audit: **972-928-0788**
 🪪 RCAT #03-0637 · IKO Certified
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 ---
 
@@ -152,7 +147,6 @@ then call us for a CPPA and see the work in person.
 📞 Complimentary Professional Photo Audit (CPPA): **972-928-0788**
 🪪 RCAT #03-0637 · IKO Certified
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 ---
 
@@ -173,13 +167,12 @@ and relationships. We carry it onto every roof.
 📞 Book your Complimentary Professional Photo Audit: **972-928-0788**
 🪪 RCAT #03-0637 · IKO Certified
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 ---
 
-## 8. HERITAGE — Founder's note: "Si'i pe kae ha'u" (small but mighty)
+## 8. HERITAGE — Founder's note: "" (small but mighty)
 
-> Hook: "Si'i pe kae ha'u — small but mighty."
+> Hook: " — small but mighty."
 
 We are not the biggest roofer in North Texas. We don't want to be.
 We are a family team that handles 40 to 60 restorations a year with our own
@@ -194,7 +187,6 @@ the work and to the family we keep.
 📞 Complimentary Professional Photo Audit (CPPA): **972-928-0788**
 🪪 RCAT #03-0637 · IKO Certified
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 ---
 
@@ -232,5 +224,3 @@ batch (out of scope for this card — separate Kanban card: "Repurpose VSL → 6
 > Brand Firewall result (see the run log entry in this draft):
 > `brand_firewall.py --check` was run on this draft and returned **STATUS: OK**
 > (0 lexicon mutations, 0 critical color violations).
-
-Ko e hala 'o e fononga ko e faka'apa'apa.

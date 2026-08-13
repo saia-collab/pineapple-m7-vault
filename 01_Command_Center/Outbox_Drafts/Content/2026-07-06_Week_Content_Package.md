@@ -7,7 +7,7 @@
 
 1. **(Authority)** The #1 reason roof claims get denied? Weak documentation. Our Complimentary Professional Photo Audit gives you drone + close-up proof of every slope — carrier-ready, no cost. 📞 972-928-0788 #FriscoRoofing #IKOCertified
 2. **(Proof)** Two identical roofs. One had documentation. One didn't. Guess which claim got covered. We document first — you decide second. RCAT #03-0637.
-3. **(Heritage)** Ko e hala 'o e fononga ko e faka'apa'apa — the path of the journey is respect. Polynesian, family &amp; minority-owned, serving North Texas since 2005. 🍍
+3. **(Heritage)**. Polynesian, family &amp; minority-owned, serving North Texas since 2005. 🍍
 4. **(Education)** Hail bruises shingles invisibly — you can't see it from the driveway. That's why we fly a drone and shoot close-ups on every CPPA. Know your roof's real condition. 
 5. **(Authority)** IKO Certified. RCAT Licensed #03-0637. 5.0★. 20+ years. You can verify every one of those. That's the Pineapple Standard.
 6. **(Proof)** "We document. You decide." No pressure, no scare tactics — just a full photo report of your roof. Book a Complimentary Professional Photo Audit today.
@@ -34,5 +34,3 @@
 2. "[Real 5★ quote about professionalism / no-pressure experience]" — [Customer], [City]
 3. "[Real 5★ quote about the finished roof / workmanship]" — [Customer], [City]
 > Pull these from your Google/LSA profile. Frame: Navy background, Gold quote marks, Cyan stars, RCAT #03-0637 credential bar.
-
-Ko e hala 'o e fononga ko e faka'apa'apa.

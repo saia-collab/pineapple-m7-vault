@@ -98,6 +98,5 @@ Each drops output PAUSED to Outbox. You review on the dashboard, approve, publis
 Open Claude Fable 5, paste **FABLE TASK 1** (rebuild the roofing site). By end of day you'll own your website
 in code — the thing your brother wanted, done without hiring out. Then Tasks 2–3 fill the SEO + ad funnel.
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

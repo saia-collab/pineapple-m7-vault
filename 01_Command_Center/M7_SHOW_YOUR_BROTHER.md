@@ -92,6 +92,5 @@ Everything sits **PAUSED** until Saia says GO. **That's the safety net** — no 
 
 The AI writes, cuts, schedules, and checks. **The family knocks the door, climbs the roof, and asks for the review.** That's the part no competitor can copy.
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: brother-walkthrough -->

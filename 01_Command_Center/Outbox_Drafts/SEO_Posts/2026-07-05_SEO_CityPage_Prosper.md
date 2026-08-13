@@ -40,7 +40,6 @@ Yes — comprehensive documentation for a successful claim, with evidence of cov
 IKO Certified and RCAT Licensed #03-0637, serving Prosper and North Texas since 2005.
 
 ---
-*Ko e hala 'o e fononga ko e faka'apa'apa — the path of the journey is respect.*
 
 For a documented, right-sized **roof replacement in Prosper, TX**, book your Complimentary Professional Photo Audit today.
 

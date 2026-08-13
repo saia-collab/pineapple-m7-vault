@@ -49,7 +49,6 @@ classification: M7_Command_Level_1
 * **Minimum Baseline Entry:** $18,000+ project minimum.
 * **Speed-to-Lead Directive:** Terminal-velocity response (< 5 minutes).
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 """
 
 with open(playbook_path, "w", encoding="utf-8") as f:
@@ -74,7 +73,6 @@ You are an active sub-module of the Pineapple Contractors M7 Agentic OS. Before 
 ### STEP 3: HIGH-TICKET DISPATCH RULE
 - Any incoming web lead routed via n8n with a property valuation over $700k or localized in Frisco ZIP codes (75033, 75034, 75035) must immediately bypass standard workflows and trigger an elevated Priority Alert to Saia.
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 """
 
 with open(cheatsheet_path, "w", encoding="utf-8") as f:

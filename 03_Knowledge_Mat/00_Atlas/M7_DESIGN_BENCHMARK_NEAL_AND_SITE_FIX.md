@@ -75,6 +75,5 @@ CTA everywhere = "Reserve Your Complimentary Professional Photo Audit" (never "f
 - **Live WordPress site** — still says "FREE." **Fix per the table above — this is the one to do today.**
 - **Next build** — city location pages (Neal model) via Fable/Free Claude Code, all CPPA, all PAUSED.
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference (find/replace table lists banned words as fix definitions) -->

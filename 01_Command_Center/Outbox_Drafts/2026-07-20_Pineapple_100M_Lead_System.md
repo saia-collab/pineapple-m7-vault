@@ -99,5 +99,3 @@ Job done  →  ask for the review + a before/after clip  →  that clip becomes 
 2. Knock **one** storm street for 2 hours.
 3. Answer every lead in **5 minutes**.
 That's the whole engine. Everything else is extra.
-
-Ko e hala 'o e fononga ko e faka'apa'apa.

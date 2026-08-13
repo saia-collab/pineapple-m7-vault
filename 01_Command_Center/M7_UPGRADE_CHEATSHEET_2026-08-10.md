@@ -48,6 +48,5 @@ No mojibake in your `03_Knowledge_Mat` docs (the corrupted characters were only 
 - **Fetch the 5 agentos.guide guides** you listed (five-site-flywheel, ai-movie-machine, agent-assembly-line, train-once-engine, prime-agent) → scrub → append to knowledge.
 - **`/watch` more videos** from the Skool/community list.
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

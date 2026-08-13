@@ -6,7 +6,6 @@ No Drive API calls needed — Drive's own desktop sync client pushes this
 file to the cloud automatically because it lives inside the vault root.
 
 Place at: 04_Tech_Lab/Scripts/m7_mobile_snapshot.py
-Ko e hala 'o e fononga ko e faka'apa'apa.
 """
 
 import json
@@ -89,7 +88,6 @@ def main():
         lines.append("- No scoring data yet.")
 
     lines += ["", "## Daily Sync Log (tail)", "```", log_tail, "```", "",
-              "Ko e hala 'o e fononga ko e faka'apa'apa.", "",
               "<!-- M7-FIREWALL-EXEMPT: governance-reference -->"]
 
     md_path = os.path.join(CC, "MOBILE_STATUS.md")

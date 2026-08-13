@@ -354,5 +354,3 @@ Some of these are partially answered; "gap" means missing or under-served.
 > This `intent.json` is the **only** `output/` artifact this brief produces in its DRAFT
 > state. Once Saia fills the `[TO INGEST]` placeholders, the JSON can be regenerated with
 > the live numbers and the envelope advanced to READY.
-
-Ko e hala 'o e fononga ko e faka'apa'apa.

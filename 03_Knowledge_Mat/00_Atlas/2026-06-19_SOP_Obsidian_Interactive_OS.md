@@ -70,6 +70,5 @@ Distilled from SOP_Video_Markdown_SOURCE. Covers transforming Obsidian from a st
 
 ---
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

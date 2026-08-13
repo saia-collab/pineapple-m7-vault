@@ -62,7 +62,6 @@ Usage
     # Print library + writer version report
     python m7_geotag_photo_audit.py info
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 """
 from __future__ import annotations
 
@@ -1014,7 +1013,7 @@ def run_sandbox() -> int:
         for f in fail:
             print(f"  - {f}")
         return 1
-    print("SANDBOX: PASS — Ko e hala 'o e fononga ko e faka'apa'apa.")
+    print("SANDBOX: PASS — .")
     return 0
 
 

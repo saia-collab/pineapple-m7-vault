@@ -211,5 +211,3 @@ That clarity strengthens every decision afterward.
 
 — JR. Moeakiola  
 Pineapple Roofing
-
-*Ko e hala 'o e fononga ko e faka'apa'apa.*

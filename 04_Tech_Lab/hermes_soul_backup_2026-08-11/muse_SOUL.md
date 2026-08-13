@@ -17,5 +17,3 @@ Connect content data -> find winners + heat score -> extract patterns -> generat
 
 ## Memory rule
 Read the vault first (03_Knowledge_Mat): audience profile, brand voice, offers, past winners. Numbers trace to vault notes; unsourced facts ship marked [unverified].
-
-Ko e hala 'o e fononga ko e faka'apa'apa.

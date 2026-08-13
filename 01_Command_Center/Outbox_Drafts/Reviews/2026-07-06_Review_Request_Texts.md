@@ -22,5 +22,3 @@
 - One request thread per job · max 3 touches (same-day + 3-day + 7-day) · cease immediately on "Stop" or any negative signal (route unhappy customers to a private call, not a public review).
 - Never incentivize reviews (against platform policy). Ask for honest feedback only.
 - Log each send in the CRM (Master_Lead_Tracker) for attribution.
-
-Ko e hala 'o e fononga ko e faka'apa'apa.

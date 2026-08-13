@@ -14,7 +14,6 @@ INTENT: Append-only changelog of agent workspace-remediation and compliance acti
 Read/verified all 27 `install/*.md` guides against actual config. Result: system is fully set up. Verified live: dashboard :3000/:3737, Paperclip :3100, FCC :8082, Ollama :11434 all UP. Keys tested VALID: OpenAI, Groq, Google/Gemini, Firecrawl, Hunter, OpenRouter. Deps present: ffmpeg, claude/hermes/nlm CLIs. Model routing correct (Hermes default = deepseek-coder, NOT Gemma2 — guide-0 rule honored). Leads tab pre-configured (Hunter+Firecrawl). NotebookLM authenticated (100 notebooks). Branding applied: M7 theme (zero green), userName=Saia, vaultRoot=03_Knowledge_Mat, Outbox Shield, brand_firewall.
 Only gap: ElevenLabs key 401 (optional — Jarvis speaks via OpenAI Ash voice). Documented in `01_Command_Center/M7_AGENT_OS_SETUP_AUDIT.md`.
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 ---
 
@@ -27,7 +26,6 @@ Ko e hala 'o e fononga ko e faka'apa'apa.
 
 Known/optional (user screenshots): Jarvis Realtime needs OPENAI_API_KEY; Studio MiniMax needs `hermes auth add minimax-oauth` (or use Grok).
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 ---
 
@@ -40,7 +38,6 @@ Ko e hala 'o e fononga ko e faka'apa'apa.
 
 Pending Saia: (a) GSC auth, (b) Docker/OpenSEO start, (c) create private backup repo, (d) Drive Desktop for media offload.
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 ---
 
@@ -56,7 +53,6 @@ Built the fix (non-destructive, nothing deleted):
 
 Pending Saia GO: archive ~1,157 Atlas daily-duplicates to `_Archive/` (keep one canonical each, ~80% reduction, zero deletion).
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 ---
 
@@ -69,7 +65,6 @@ Ran the pack per its own README quick-start (steps 3–9), adapted for M7 compli
 - **Rebuilt + restarted** (clean build, BUILD_ID present). Verified: `/api/seo/research` + `/api/seo/sites` → Pineapple only; `/api/seo/skill` → Pineapple skill.
 - **Batch generated** (draft-to-Outbox, DEC-005): hail-damage-roof-repair-frisco-tx, iko-certified-roofer-frisco-tx (Roofing); water-damage-restoration-frisco-tx (Restorations). All `brand_firewall.py --check = STATUS OK`, 0 banned/green hits.
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 ---
 
@@ -85,7 +80,6 @@ Adapted Julian Goldie's AIPB 5-site SEO pack into an M7-compliant, single-purpos
 
 Open confirmations: real domains (assumed pineapplecontractors.com / pineapplerestorations.com per CLAUDE.md); GSC/OpenSEO left disconnected (optional, power Research tab only).
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 ---
 
@@ -98,7 +92,6 @@ Ko e hala 'o e fononga ko e faka'apa'apa.
    - Dashboard page: `…/source/public/build-guide.html` → live at **http://localhost:3000/build-guide.html** (HTTP 200). On-brand (Navy/Gold/Cyan), ZERO green. (Required a :3000 restart so `next start` re-read `public/`.)
 3. **Shareable zip** — `C:\Users\estim\OneDrive\Desktop\Pineapple_M7_Dashboard.zip` (11 MB, 821 files). Contents = the customized dashboard app (`source/`) + README + build guide. Stripped: `node_modules`, `.next`, `.env*`. VP call: bundled the *dashboard app*, NOT the full vault — the vault holds confidential Command Center business content that must not go in a shareable zip.
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 ---
 
@@ -117,7 +110,6 @@ Ko e hala 'o e fononga ko e faka'apa'apa.
 
 ⚠ Paperclip persistence: currently under this session's shell; a real boot via `LAUNCH_ALL.bat` (`start /b`) detaches it properly.
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 ---
 
@@ -146,7 +138,7 @@ Ko e hala 'o e fononga ko e faka'apa'apa.
 
 ⚠ Live-state note: the currently-running :3000 process (PID 4620) is still the Downloads copy; the vault repoint takes effect on next launch / hot-relaunch of `LAUNCH_ALL.bat`. Downloads copy retained as fallback (not deleted).
 
-**MATRIX LOCKED.** Ko e hala 'o e fononga ko e faka'apa'apa.
+**MATRIX LOCKED.** .
 
 ---
 
@@ -160,7 +152,6 @@ Ko e hala 'o e fononga ko e faka'apa'apa.
 
 ⚠ Caveats: (a) taskkill `WINDOWTITLE eq npm*` filter may miss `start /b` procs (no window title) — port-based `taskkill /PID` would be more reliable. (b) Batch remains cold-boot-safe; not executed live (would disrupt running services).
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 ---
 
@@ -182,7 +173,6 @@ Ko e hala 'o e fononga ko e faka'apa'apa.
 - All four ports single-bound (no double-binding / no dependency collisions).
 - ⚠ Note: :3000 in `LAUNCH_ALL.bat` runs `server.js` (2nd Command Center), NOT the Agentic OS Next.js dashboard that currently occupies :3000. Flagged for operator decision.
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 ---
 
@@ -195,7 +185,6 @@ Ko e hala 'o e fononga ko e faka'apa'apa.
 
 **Result:** All 3 enhancements complete and verified.
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 ---
 
@@ -210,7 +199,6 @@ Ko e hala 'o e fononga ko e faka'apa'apa.
 
 **Result:** Tune-up complete. All 5 operations verified.
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 ---
 
@@ -244,7 +232,6 @@ Ko e hala 'o e fononga ko e faka'apa'apa.
 
 **Result:** Structural alignment complete. Workspace conforms to the 4-Fala + Core Constitution.
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 n**2026-07-04 - Jarvis Realtime SDP proxy.** Fixed 'Couldn't open the realtime audio link' - browser was blocked calling api.openai.com directly for the WebRTC handshake. Added localhost relay POST /api/hermes/realtime/sdp (src/app/api/hermes/realtime/sdp/route.ts); JarvisRealtime.tsx now posts the SDP offer to localhost instead of OpenAI. Verified LOCAL: :3000 up, ephemeral minted, proxy relay reaches OpenAI (OpenAI-side offer parse confirms path). Both files added to update_agent_os.ps1 CUSTOMS. GCP not provisioned - local only.
 
 ---

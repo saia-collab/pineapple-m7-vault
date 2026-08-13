@@ -96,6 +96,5 @@ Watch it write a PAUSED draft, approve one, send it. That's your first Hermes wi
 - Hermes can't see the vault → confirm Obsidian is open + Local REST API on (port 27123) + key matches.
 - Nothing should ever publish live — if a goal tries, that's a bug; keep delivery_state PAUSED.
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

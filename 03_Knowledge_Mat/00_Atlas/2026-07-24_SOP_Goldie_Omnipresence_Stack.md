@@ -88,6 +88,5 @@ Kanban Orchestrator (`01_Command_Center/M7_Agent_Kanban.md`) → 5 synchronized 
 
 ---
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

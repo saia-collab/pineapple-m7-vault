@@ -144,5 +144,3 @@ I'm **JR. Moeakiola** with **Pineapple Contractors** — a Polynesian-owned, fam
 Do not gamble your home on a business card and a low bid.
 
 Protect your warranty, your claim, and your peace of mind by hiring a licensed, IKO certified roofer in Frisco TX.
-
-*Ko e hala 'o e fononga ko e faka'apa'apa — the path of the journey is respect.* 🌺

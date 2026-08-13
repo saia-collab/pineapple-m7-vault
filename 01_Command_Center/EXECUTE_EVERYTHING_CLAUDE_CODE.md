@@ -60,13 +60,12 @@ STEP 5 — VERIFY + COMPILE:
   - python 04_Tech_Lab\Scripts\brand_firewall.py --report   (whole vault; must PASS, zero green)
   - Print the folder tree + a status matrix (EXISTS / COMPLIANT) for every key file.
 
-Conclude with: Ko e hala 'o e fononga ko e faka'apa'apa.
+Conclude with: .
 ```
 
 ## Even simpler (no terminal): double-click
 `INGEST_AND_INDEX.bat` in the vault root — does Step 1 + Step 2 (intake all 79 items,
 firewall, index, build CATALOG.md) in one click on your local disk.
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

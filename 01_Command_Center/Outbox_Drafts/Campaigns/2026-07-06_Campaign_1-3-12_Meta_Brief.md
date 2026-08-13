@@ -36,7 +36,7 @@
 ### Angle 3 — Local Trust / Heritage (Social Proof)
 9. **Hook:** "350+ North Texas families. 20+ years. Polynesian family-owned." **Body:** We treat your home like our own. Start with a no-cost CPPA. RCAT #03-0637, IKO Certified, 5.0★. **CTA:** Book your CPPA →
 10. **Hook:** "Frisco's documentation-first roofing team." **Body:** Since 2005, we've led with evidence, not scare tactics. See why families choose the Pineapple Standard. **CTA:** Get documented →
-11. **Hook:** "The way of the journey is respect — Ko e hala 'o e fononga ko e faka'apa'apa." **Body:** Family &amp; minority-owned, rooted in our community. Honest documentation, premium workmanship. **CTA:** Meet the standard →
+11. **Hook:** "The way of the journey is respect — ." **Body:** Family &amp; minority-owned, rooted in our community. Honest documentation, premium workmanship. **CTA:** Meet the standard →
 12. **Hook:** "5.0★, IKO Certified, and local since 2005." **Body:** A no-cost photo audit from a team you can actually verify (RCAT #03-0637). **CTA:** Book your CPPA →
 
 ## RULES (enforce weekly — Wednesday Forensic Audit)
@@ -45,5 +45,3 @@
 - **Cost:** target CPL < $50; absolute max $250.
 - **Meta Pixel:** fire conversion ONLY on completed qualified form / CPPA booking / call to 972-928-0788 — never on TOF clicks/views.
 - **Retargeting ("Hammer Them"):** testimonials to 30-day engagers, micro-budget.
-
-Ko e hala 'o e fononga ko e faka'apa'apa.

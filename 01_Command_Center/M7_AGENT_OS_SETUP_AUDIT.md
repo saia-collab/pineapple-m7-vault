@@ -64,5 +64,3 @@ OpenAI ✅ · Groq ✅ · Google/Gemini ✅ · Firecrawl ✅ · Hunter ✅ · Op
 
 ## 🛑 Nothing broken in the build
 Every required component is installed, keyed, and running. The only ❗ item is the **ElevenLabs key (401)** — and that's cosmetic (a nicer voice), not a blocker; Jarvis already speaks via OpenAI's Ash voice.
-
-*Ko e hala 'o e fononga ko e faka'apa'apa — the path of the journey is respect.* 🌺

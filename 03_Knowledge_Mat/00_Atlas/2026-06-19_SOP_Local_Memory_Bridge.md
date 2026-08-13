@@ -74,6 +74,5 @@ All outputs from this bridge pass the brand firewall before write:
 
 ---
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

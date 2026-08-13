@@ -188,6 +188,5 @@ One-Person Empire · Local Memory & Execution Bridge · Agent OS Contractor Play
 with Gemini & NotebookLM. Plus the 48 kits in `04_Tech_Lab/skills_inbox/` (catalogued in M7_SKILLS_CATALOG.md).
 If Saia references an SOP not here, search the vault for it before saying it's missing.
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

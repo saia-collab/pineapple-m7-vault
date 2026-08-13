@@ -62,6 +62,5 @@ We run **two sites** and it's splitting our SEO:
 ## 🍍 Why this is the highest-leverage move
 Right now Marco's 455 visits (Scorpion) and our 12 optimized pages (WordPress) are two separate half-strength sites. **Merge them and you get one full-strength site** — the reviews, the authority, the branded traffic, AND the optimized storm pages all in one place. That's when the rankings actually move.
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: cowork-brief -->

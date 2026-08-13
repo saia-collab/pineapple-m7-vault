@@ -49,5 +49,3 @@ out of content, because the work makes the content. Post 4×/week and the leads 
 ## 🌅 THIS WEEK (start here)
 Post **Wk1 Sat (Why-Pineapple, Offer)** first — it's your best brand reel. Then Wk1 Mon (value) and Wk1 Wed
 (proof). Cross-post all three to your personal accounts. That's Door 3 lit.
-
-Ko e hala 'o e fononga ko e faka'apa'apa.

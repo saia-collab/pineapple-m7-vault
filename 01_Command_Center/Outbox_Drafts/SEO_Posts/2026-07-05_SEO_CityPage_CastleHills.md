@@ -40,7 +40,6 @@ Yes — the Pineapple Standard is built for premium estate and commercial portfo
 We prioritize storm-impacted Castle Hills neighborhoods for fast CPPA scheduling — call 972-928-0788.
 
 ---
-*Ko e hala 'o e fononga ko e faka'apa'apa — the path of the journey is respect.*
 
 Choose a documentation-first **roofing contractor in Castle Hills, TX** — book your Complimentary Professional Photo Audit today.
 

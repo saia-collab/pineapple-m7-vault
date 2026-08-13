@@ -170,5 +170,3 @@ Report the checklist result to Saia with the draft path.
 - ❌ No 5-site deploy · ❌ no Netlify · ❌ no Omega Indexer (that key was Julian's) · ❌ no Google Sheet edit · ❌ no Julian Goldie bio/voice/CTAs · ❌ no AI-Profit-Boardroom/Skool/Mastermind links.
 
 ---
-
-*Ko e hala 'o e fononga ko e faka'apa'apa — the path of the journey is respect.* 🌺

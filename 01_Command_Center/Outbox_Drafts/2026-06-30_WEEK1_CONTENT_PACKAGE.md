@@ -50,7 +50,7 @@ If your property experienced a hail event in the last 30 days, you have a docume
 📋 RCAT Licensed #03-0637 · IKO Certified RoofPro · 5-Star Rated · Since 2005
 📞 972-928-0788 | pineapplecontractors.com
 
-— Ko e hala 'o e fononga ko e faka'apa'apa. (The way of the journey is respect.)
+— . (The way of the journey is respect.)
 
 #FriscoRoofing #StormDamage #PropertyManager #CPPA #IKOCertified #RoofingFrisco #HailDamage #PineappleContractors"
 
@@ -135,7 +135,6 @@ Today, our crew has restored 350+ homes across Frisco. RCAT Licensed #03-0637. I
 
 We're not the biggest. We're the most trusted. And every job we take, we take like the whole neighborhood is watching.
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 *The way of the journey is respect.*
 
 📞 972-928-0788 | 📋 RCAT #03-0637 · IKO Certified
@@ -266,6 +265,5 @@ RCAT Licensed #03-0637. IKO Certified. 5-Star rated. Polynesian-owned.
 
 ---
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

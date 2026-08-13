@@ -75,6 +75,5 @@ Daily Money Loop still runs for whichever businesses have live leads.
 - New AI tool drops this week? Write it on a "later" list. Do NOT install it. Ship first.
 - The dashboard is your external brain. If it's not on the dashboard or a task list, it doesn't exist today.
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

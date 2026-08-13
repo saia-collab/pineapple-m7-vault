@@ -13,7 +13,6 @@ Usage
     python m7_factory.py --demo          # run with sample intent
     python m7_factory.py                 # consume 10_Research_Stage/output/intent.json
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 """
 from __future__ import annotations
 import argparse, hashlib, json, re, sys, uuid
@@ -56,7 +55,7 @@ def envelope(stage, nxt, producer, payload, state="READY"):
         "producer": {"agent": producer}, "state": state,
         "payload": payload, "signature": sha(payload),
         "outbox_shield": {"delivery_state": "PAUSED", "human_authorization_required": True},
-        "closing": "Ko e hala 'o e fononga ko e faka'apa'apa.",
+        "closing": ".",
     }
 
 
@@ -142,7 +141,7 @@ def main(argv=None):
                   f"created: {today}\nfirewall_pass: true\n---\n\n"
                   f"# {d['avatar']} — {d['angle']}\n\n{mutated}\n\n"
                   f"> DELIVERY STATE: PAUSED. Human authorization required (Outbox Shield).\n\n"
-                  f"Ko e hala 'o e fononga ko e faka'apa'apa.\n")
+                  f".\n")
             (outbox / f"{today}_Outbox_{d['avatar']}_{i}.md").write_text(md, encoding="utf-8")
         else:
             rejected.append({"ref": f"draft#{i}", "green_violations": g})
@@ -159,7 +158,7 @@ def main(argv=None):
         "drafted": len(drafts), "approved": len(approved), "rejected": len(rejected),
         "outbox_written": [p.name for p in outbox.glob(f"{today}_Outbox_*.md")],
         "delivery_state": "PAUSED (Outbox Shield)",
-        "closing": "Ko e hala 'o e fononga ko e faka'apa'apa.",
+        "closing": ".",
     }, indent=2))
     return 0
 

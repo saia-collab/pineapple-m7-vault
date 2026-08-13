@@ -78,5 +78,3 @@ Every agent, every session, every tab follows the same 4 beats:
 > ⚠️ **Cleanup pending your GO:** 00_Atlas has ~1,157 files that are the same SOPs re-saved daily. I can archive the old dated copies to `_Archive/` and keep one canonical each — cutting the mess ~80% without deleting anything. Say "clean the Atlas" and I'll do it.
 
 ---
-
-*Ko e hala 'o e fononga ko e faka'apa'apa — the path of the journey is respect.* 🌺

@@ -153,6 +153,5 @@ me tomorrow's ONE priority. Do not publish or spend.
 4. **Outbox_Drafts/** (where you approve + publish from).
 5. **OpenSEO tracking** (watch positions climb).
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference (brand-law lines list banned words as rule definitions) -->

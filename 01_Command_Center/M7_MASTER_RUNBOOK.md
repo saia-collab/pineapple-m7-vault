@@ -107,6 +107,5 @@ Non-negotiable rules:
 Go one step at a time. Verify each step succeeded before moving on. If anything fails, stop and show me the error.
 ```
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

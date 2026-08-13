@@ -39,6 +39,5 @@ Atlas index · CATALOG · Hermes skills + daemon · models.json (64k) · MCP reg
 You spent 3 weeks building the factory. The factory doesn't make money — the products it
 ships do. The hardest, highest-value move now is to stop adding and start selling.
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

@@ -15,4 +15,4 @@ DO:
 
 OUTPUT: save to C:\Pineapple Contractors M7\01_Command_Center\Outbox_Drafts\<YYYY-MM-DD>_Lead_Enrichment.md with a banner "STATUS: draft notes — Saia approves before any CRM edit."
 
-BRAND RULES: never "Complimentary" (CPPA), no "GAF" (IKO), no "The Pineapple Standard/The Pineapple Standard", no green, phone 972-928-0788. End with: Ko e hala 'o e fononga ko e faka'apa'apa. Then a 3-line chat summary.
+BRAND RULES: never "Complimentary" (CPPA), no "GAF" (IKO), no "The Pineapple Standard/The Pineapple Standard", no green, phone 972-928-0788. End with: . Then a 3-line chat summary.

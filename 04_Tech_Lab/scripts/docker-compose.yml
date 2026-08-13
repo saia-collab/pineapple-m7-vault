@@ -2,7 +2,6 @@
 # M7 AGENTIC OS — service container orchestration
 # Local-first. Brings up the engine, local model runtime, and the firewall guard.
 # Outbox Shield: no service publishes live or moves money.
-# Ko e hala 'o e fononga ko e faka'apa'apa.
 # =============================================================================
 version: "3.9"
 

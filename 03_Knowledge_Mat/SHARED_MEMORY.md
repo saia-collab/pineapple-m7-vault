@@ -109,7 +109,7 @@ No loose files in root. No directory drift. All `.py` utilities → `04_Tech_Lab
 3. **Verify compliance:** "Does this violate the brand constitution above?"
 4. **Verify outbox:** "Is this outbound content? If yes — PAUSED state only."
 5. **Log action:** POST to `/api/memory/log` after any significant file write or stage transition.
-6. **Cultural anchor:** Include `Ko e hala 'o e fononga ko e faka'apa'apa` on significant consumer-facing outputs.
+6. **Cultural anchor:** Include `` on significant consumer-facing outputs.
 
 ---
 
@@ -127,7 +127,6 @@ No loose files in root. No directory drift. All `.py` utilities → `04_Tech_Lab
 - Advantage+ creative enhancements hardcoded OFF.
 - OUTBOX SHIELD: all ad/web/social output written to `01_Command_Center/Outbox_Drafts/` in a PAUSED state. Live activation requires explicit human authorization. No agent may publish live or move money.
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->
 
@@ -135,7 +134,6 @@ Ko e hala 'o e fononga ko e faka'apa'apa.
 
 - 2026-06-17 — Consolidated playbooks, built firewall/scoring/factory/intake, wired AI fleet + Hermes dispatch, merged Master Execution Spec, added hermes_skills + daemon + compose.
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->
 

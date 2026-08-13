@@ -116,6 +116,5 @@ as a CSV.
 Before any building: **export the old site's full URL list and build the 301 redirect map.** Without it,
 migration costs you rankings. With it, you keep every lead the old site quietly sends you.
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

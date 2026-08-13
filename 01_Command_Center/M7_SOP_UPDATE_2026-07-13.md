@@ -407,7 +407,7 @@ Until Saia says GO, **this file is the source of truth** for the
 
 ## 8. CLOSE
 
-> *"Ko e hala 'o e fononga ko e faka'apa'apa"* — the path of the
+> *""* — the path of the
 > journey is respect. We adopt new tools on our terms, at our pace,
 > with the brand law and the Outbox Shield unbroken.
 

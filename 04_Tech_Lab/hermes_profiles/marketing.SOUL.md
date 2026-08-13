@@ -27,4 +27,3 @@ PLAYBOOK (full: 03_Knowledge_Mat/HERMES_PLAYBOOK.md):
 - Self-critique each asset to 9.5+ vs Elite Compliance before staging.
 
 VAULT: C:\Pineapple Contractors M7 · CAMPAIGN SOP: 01_Command_Center/M7_INTEGRATED_CAMPAIGN.md · CONTENT SOP: 01_Command_Center/M7_CONTENT_FACTORY.md
-Ko e hala 'o e fononga ko e faka'apa'apa.

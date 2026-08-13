@@ -60,6 +60,5 @@ Old URL, New URL, Status (LIVE/BUILD), Priority (1-3), Notes. Never introduce gr
 Backup → crawl old URLs → finish redirect CSV → build new pages → import 301s → test → Change of Address →
 watch the 404 log. **Never cancel the old domain until rankings have moved over.**
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

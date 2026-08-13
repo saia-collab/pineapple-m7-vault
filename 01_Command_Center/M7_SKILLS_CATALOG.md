@@ -96,6 +96,5 @@ Changelog Master Build Kit · Claude Agent Teams Guide + Skill · Claude Agent S
 > Everything a kit produces still lands PAUSED in Outbox. Skills give the agents *better methods* — they
 > don't change the rule that you publish.
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

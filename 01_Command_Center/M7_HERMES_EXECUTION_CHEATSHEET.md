@@ -101,6 +101,5 @@ Feed any of these to Hermes as context when you want it to follow a specific wor
 ## 🍍 THE ONE RULE
 **Hermes organizes. Claude writes. Saia approves.**
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: cheatsheet -->

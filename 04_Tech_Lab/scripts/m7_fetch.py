@@ -10,7 +10,6 @@ Usage
     python m7_fetch.py --url https://example.com
     python m7_fetch.py --url https://example.com --out custom.md
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 """
 from __future__ import annotations
 import argparse, json, re, sys
@@ -71,7 +70,7 @@ def main(argv=None):
         "ok": True, "url": args.url, "title": title,
         "chars": len(text), "saved": str(dest.relative_to(root)),
         "next": "Run brand_firewall.py --fix then feed to 10_Research_Stage.",
-        "closing": "Ko e hala 'o e fononga ko e faka'apa'apa.",
+        "closing": ".",
     }, indent=2))
     return 0
 

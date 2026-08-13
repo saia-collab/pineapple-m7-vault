@@ -111,5 +111,3 @@ Because the setup guides live **inside your vault**, Claude can read them and fi
 **Welcome to your AI command center.** 🍍🚀
 
 ---
-
-*Ko e hala 'o e fononga ko e faka'apa'apa — the path of the journey is respect.* 🌺

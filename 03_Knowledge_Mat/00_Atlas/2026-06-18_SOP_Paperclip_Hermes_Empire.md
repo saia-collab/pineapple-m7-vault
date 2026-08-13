@@ -33,6 +33,5 @@ Capture (OMI / Paperclip) → Vault (Obsidian memory) → Orchestrate (Hermes) �
 Execute (Claude Code / scripts) → Compliance (Brand Firewall) → Outbox (PAUSED) →
 Human publish → Track (scorer + dashboard) → Double down. Repeat daily via the auto-sync.
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

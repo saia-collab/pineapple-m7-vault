@@ -283,6 +283,6 @@ plan. Everything else (pages, blocks, schema) is ready to publish.
 
 ---
 
-Ko e hala 'o e fononga ko e faka'apa'apa. *(The path of the journey is respect.)*
+. *(The path of the journey is respect.)*
 
 <!-- M7-FIREWALL-EXEMPT: internal-operator-guide -->

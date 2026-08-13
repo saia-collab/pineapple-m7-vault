@@ -88,5 +88,3 @@ I'm **JR. Moeakiola** with **Pineapple Contractors** — a Polynesian-owned, fam
 ---
 
 If the storm hit your street, you do not have to face the insurance maze alone, and you do not have to trust a stranger — that is what real storm relief in Frisco TX looks like.
-
-*Ko e hala 'o e fononga ko e faka'apa'apa — the path of the journey is respect.* 🌺

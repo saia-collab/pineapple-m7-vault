@@ -53,6 +53,5 @@ OpenSEO isn't bundled with the pack and needs a **paid DataForSEO API key**. Goo
 the same rank/keyword truth for free, tied to our own site. Revisit OpenSEO only if we ever want bulk
 competitor backlink data — and only with a funded DataForSEO key.
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

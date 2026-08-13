@@ -175,6 +175,5 @@ We've been a family-owned company in North Texas since 2005. RCAT License #03-06
 **Book your Complimentary Professional Photo Audit — (972) 928-0788.**
 
 — The Pineapple Roofing family
-*Ko e hala 'o e fononga ko e faka'apa'apa.*
 
 <!-- M7-FIREWALL-EXEMPT: asset-pack -->

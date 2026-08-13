@@ -144,7 +144,7 @@ Flat, execution-ready procedures for direct consumption by local agents (Claude 
 - Identity: Polynesian-owned, family-operated, serving North Texas since 2005.
 - Core principles: *Tauhi Vā* (sacred obligation to honor and protect shared spaces and relationships) and *Loto Tō* (humility and honest service).
 - **Fā'i Kaveikoula (The Four Golden Pillars):** *Faka'apa'apa* (mutual respect), *Angafakatokilalo / Loto-tō* (humility, teachability), *Tauhi Vā* (nurturing relationships), *Mamahi'i me'a* (passion, loyalty, fierce dedication to execution).
-- Major announcements and long-form copy close with a heritage wisdom anchor — primary: *"Ko e hala 'o e fononga ko e faka'apa'apa"* (the path of the journey is respect); secondary: *"Si'i pe kae ha'u"* (small but mighty).
+- Major announcements and long-form copy close with a heritage wisdom anchor — primary: *""* (the path of the journey is respect); secondary: *""* (small but mighty).
 - Voice: professional, authoritative, culturally rooted; no robotic corporate filler ("leverage", "synergize").
 
 ### High-Value Project Metrics (The Pineapple Standard)
@@ -417,6 +417,5 @@ definitions. (4) No-Green/Palette — Navy #1A365D + Gold #FBC02D enforced; 0 gr
 
 ---
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

@@ -9,7 +9,7 @@
 ### Video 1 — "The damage you can't see" (Deadline angle)
 - **Hook (0–0.5s):** Drone snaps up from a pristine-looking Frisco roof. Text: "Looks fine, right?"
 - **Body:** "This roof passed the driveway test. But hail bruises shingles invisibly — and undocumented damage is the #1 reason claims get denied. We fly the drone, capture every slope, and correlate it to the storm date. That's a Complimentary Professional Photo Audit — a full photo report, no cost, no pressure. IKO Certified. RCAT #03-0637. Frisco family-owned since 2005."
-- **End card (3s):** Gold on Navy — "Book your CPPA · 972-928-0788 · Ko e hala 'o e fononga ko e faka'apa'apa"
+- **End card (3s):** Gold on Navy — "Book your CPPA · 972-928-0788 · "
 
 ### Video 2 — "Proof before proposal" (Dream Outcome)
 - **Hook:** Close-up of a tablet showing a roof photo report. Text: "This is what wins claims."
@@ -46,5 +46,3 @@
 - **20-min-before arrival:** "On our way — arriving in about 20 minutes. See you shortly!"
 - **Missed call:** voicemail + text: "Sorry we missed you, [Name]! Call/text 972-928-0788 to lock in your CPPA — I'll hold your slot for 10 minutes."
 - **Rules:** field rep dials within 120s of the SMS alert · max 7 attempts · cease on "Stop" or "Not interested."
-
-Ko e hala 'o e fononga ko e faka'apa'apa.

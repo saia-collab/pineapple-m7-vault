@@ -57,5 +57,3 @@ claude --dangerously-skip-permissions
 ## Security
 The API key lives only in local config files (gitignored, never cloud-mirrored).
 Rotate it from the Local REST API plugin settings if it is ever exposed.
-
-Ko e hala 'o e fononga ko e faka'apa'apa.

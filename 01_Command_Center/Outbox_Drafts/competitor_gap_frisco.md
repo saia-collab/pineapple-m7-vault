@@ -159,5 +159,3 @@ Suggested first-40-word answer block:
 
 Pineapple Roofing · RCAT License #03-0637 · IKO Certified · 5-Star · Since 2005 · 972-928-0788  
 Author: JR. Moeakiola
-
-Ko e hala 'o e fononga ko e faka'apa'apa.

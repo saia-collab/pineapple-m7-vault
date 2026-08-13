@@ -66,6 +66,5 @@ named in the task. Tick the task's checkbox in this file, append one line to m7_
 ```
 That's it. Add the line, fire the STANDING FIRE PROMPT, done.
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

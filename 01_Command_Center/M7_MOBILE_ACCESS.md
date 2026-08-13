@@ -43,6 +43,5 @@ Two clean options:
   publishing is the one deliberate human gate.
 - The realistic mobile workflow: **capture ideas + review drafts on phone → publish from desktop.**
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

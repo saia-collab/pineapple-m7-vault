@@ -82,6 +82,5 @@ before/after) or a pile that needs an AI classification pass first. With those, 
 > If a pile is un-sorted, an agent (Hermes/Claude Code with Drive access) can classify by filename/date first
 > — but the actual bytes move via rclone, not the chat agent.
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

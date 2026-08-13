@@ -76,6 +76,5 @@ Feed these into the pipeline as the seed layer for all content and video generat
 
 ---
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

@@ -40,6 +40,5 @@ Never compress these (safety over brevity):
 - Claude Code / Cowork: prefix `caveman:` for setup/fix/status turns to save your session tokens.
 - Result: the *volume* (logs, builds, execution) costs 75% less; the *quality* (your marketing) stays full.
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

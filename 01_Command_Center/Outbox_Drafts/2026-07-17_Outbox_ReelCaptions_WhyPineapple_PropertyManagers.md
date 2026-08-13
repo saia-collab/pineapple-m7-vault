@@ -110,5 +110,3 @@ deny. You keep the report either way."
 **Form:** Name · Phone · Address · Roof age · Carrier · Storm? (owner qualifier).
 **Trust bar:** Polynesian-owned · 350+ North Texas families · 972-928-0788 · Navy #1A365D + Gold #FBC02D, no green.
 **Button:** "Reserve my CPPA" (Gold on Navy).
-
-Ko e hala 'o e fononga ko e faka'apa'apa.

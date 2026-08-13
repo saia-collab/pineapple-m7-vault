@@ -62,5 +62,3 @@ protecting North Texas since 2005. Reserve your CPPA → 972-928-0788."
 ## 🏢 Property-Manager variant (dual-brand safe)
 Same mechanism, portfolio framing: **per-property CPPAs**, priority scheduling for 10+ units, one accountable
 team, owner-ready documentation. Anchor: "One missed roof claim can cost your owner $25,000."
-
-Ko e hala 'o e fononga ko e faka'apa'apa.

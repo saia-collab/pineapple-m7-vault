@@ -57,6 +57,5 @@ Guardrails:
 - [ ] Exactly one clear CTA.
 - [ ] Winning templates saved back to the Master Project Notebook (context loop).
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

@@ -11,7 +11,7 @@ BRAND LAWS (never break):
 - Never "free" → "Complimentary Professional Photo Audit (CPPA)"; never "GAF" → "IKO Certified"; never "$0 down" → "Full Restoration Coverage".
 - No green. Navy #1A365D + Gold #FBC02D + Cyan #00BFFF only.
 - Never customer-facing: warrior, toa, six brothers → "The Pineapple Standard".
-- Tongan proverb in every long-form caption (Ko e hala 'o e fononga ko e faka'apa'apa, etc.).
+- Tongan proverb in every long-form caption (, etc.).
 - 10px solid Navy (#1A365D) border on all project photos (Navy Photo Moat).
 - Always include RCAT #03-0637 · IKO Certified · 972-928-0788 in credential bar.
 - All outputs → PAUSED in Outbox_Drafts. SAIA PUBLISHES.

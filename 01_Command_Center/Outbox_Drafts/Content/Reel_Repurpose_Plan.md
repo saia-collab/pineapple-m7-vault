@@ -44,7 +44,7 @@ This isn't a roofing ad — it's **trust content.** It shows the real humans beh
 
 ### Short B2 — Pride / community
 - **Cut:** a proud cultural moment (dance, gathering, 15s).
-- **Caption:** Rooted in family, faith, and doing it right. That's the standard we bring to every DFW roof. Ko e hala 'o e fononga ko e faka'apa'apa.
+- **Caption:** Rooted in family, faith, and doing it right. That's the standard we bring to every DFW roof. .
 
 > Culture clips build the TRUST that makes the storm/CPPA ads convert. Post 1 culture short for every 2 sales shorts.
 

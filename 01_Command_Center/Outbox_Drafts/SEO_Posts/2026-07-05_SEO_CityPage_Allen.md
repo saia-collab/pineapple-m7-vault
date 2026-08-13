@@ -40,7 +40,6 @@ IKO Certified and RCAT Licensed #03-0637, serving Allen and North Texas since 20
 We fast-track storm-impacted Allen neighborhoods — call 972-928-0788.
 
 ---
-*Ko e hala 'o e fononga ko e faka'apa'apa — the path of the journey is respect.*
 
 For a right-sized, documented **roof replacement in Allen, TX**, book your Complimentary Professional Photo Audit today.
 

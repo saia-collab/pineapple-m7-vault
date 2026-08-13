@@ -47,7 +47,7 @@ def main():
         header = f"\n---\n## File: {f.relative_to(TECH_LAB)}\n---\n"
         all_parts.append(header + "\n" + content)
     # Append closing mandate
-    closing = "\n\nKo e hala 'o e fononga ko e faka'apa'apa."
+    closing = "\n\n."
     final_content = "# MASTER PLAYBOOK\n" + "\n".join(all_parts) + closing
     # Write out
     os.makedirs(COMMAND_CENTER, exist_ok=True)

@@ -110,6 +110,5 @@ Your OpenRouter API key was visible in an earlier session screenshot. Treat it a
 
 ---
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

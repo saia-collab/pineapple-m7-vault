@@ -73,5 +73,3 @@ _No competitor URL provided. Re-run with `--competitor-url` to add._
 - Lexicon: CPPA, IKO Certified (RCAT #03-0637), The Pineapple Standard, Full Restoration Coverage Evaluation. No banned terms.
 - Visual: Royal Navy #1A365D, Pineapple Gold #FBC02D, Process Status Cyan #00BFFF. No green.
 - Outbox Shield: this file is PAUSED in `05_Campaign_Factory/10_Research_Stage/`. No outbound publish from this stage.
-
-Ko e hala 'o e fononga ko e faka'apa'apa.

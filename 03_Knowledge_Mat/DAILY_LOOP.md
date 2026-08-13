@@ -59,4 +59,4 @@ Paste to Claude:
 **Capture messy all week → Claude files it into shared memory → the router serves it back to every tab.**
 You never organise. You just talk. The system remembers.
 
-*Si'i pe kae ha'u — small but mighty.* 🌺
+* — small but mighty.* 🌺

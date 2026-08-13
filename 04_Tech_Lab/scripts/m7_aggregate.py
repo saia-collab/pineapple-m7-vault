@@ -9,7 +9,6 @@ Usage
     python m7_aggregate.py                # process raw/ -> 00_Atlas/
     python m7_aggregate.py --root <path>
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 """
 from __future__ import annotations
 import argparse, hashlib, json, sys
@@ -66,13 +65,13 @@ def main(argv=None):
             continue
         index.append(f"- [[{f.stem}]]")
     index.append("")
-    index.append("Ko e hala 'o e fononga ko e faka'apa'apa.")
+    index.append(".")
     (atlas / "INDEX.md").write_text("\n".join(index), encoding="utf-8")
 
     print(json.dumps({
         "root": str(root), "processed": processed,
         "deduped": skipped, "atlas_files": len(list(atlas.glob('*.md'))),
-        "closing": "Ko e hala 'o e fononga ko e faka'apa'apa.",
+        "closing": ".",
     }, indent=2))
     return 0
 

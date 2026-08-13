@@ -58,6 +58,5 @@ Design a progression: **Beginner → Developing Practitioner → Advanced Practi
 
 ---
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

@@ -23,6 +23,5 @@ The factory runs a strict 3-stage asynchronous pipeline. Work advances only when
 - `firewall_pass` must be true and `green_violations` zero to advance.
 - Delivery state stays PAUSED until human authorization (Outbox Shield).
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

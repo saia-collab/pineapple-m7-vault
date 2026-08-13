@@ -96,6 +96,6 @@ Tool: `pably-gbp-responder.json` (import into Pably, plug in the API key).
 
 ---
 
-Ko e hala 'o e fononga ko e faka'apa'apa. *(The path of the journey is respect.)*
+. *(The path of the journey is respect.)*
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

@@ -77,6 +77,5 @@ AI finds the storm, writes the page, drafts the post and the reply.
 **You** knock the door, climb the roof, and look the homeowner in the eye.
 That's how a family business wins the digital game without losing what made it work.
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: playbook -->

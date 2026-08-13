@@ -74,6 +74,5 @@ Log which hook + clip drove leads in the CRM → that's your data for the weekly
 Higgsfield "Advantage+"-style auto-enhancements OFF for brand control. No green, no banned terms —
 the firewall checks every caption. All ad spend stays human-approved (Outbox Shield).
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

@@ -258,7 +258,6 @@ I am **JR. Moeakiola** with **Pineapple Contractors** — a Polynesian-owned, fa
 
 ---
 
-*Ko e hala 'o e fononga ko e faka'apa'apa — the path of the journey is respect.*
 
 When a **storm damage roof inspection in Frisco TX** is the next call you need to make, call **972-928-0788** and book a **Complimentary Professional Photo Audit** with Pineapple Contractors — IKO Certified, RCAT Licensed, and protecting Frisco's commercial and multi-unit properties since 2005.
 

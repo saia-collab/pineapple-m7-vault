@@ -76,6 +76,5 @@ When ready to leave the Scorpion/WordPress look behind, hand ChatGPT/Fable the c
 and say: *"Rebuild pineappleroofingllc.com as a clean multi-page site in this exact style, CPPA everywhere,
 zero green, then I'll host it free on Cloudflare Pages."*
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

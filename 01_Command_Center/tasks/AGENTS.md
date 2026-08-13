@@ -171,6 +171,5 @@ State machine: DRAFT -> READY -> APPROVED|REJECTED -> Outbox_Drafts (PAUSED) -> 
 Hermes skills live in 04_Tech_Lab/hermes_skills/ (brand_compliance_check, generate_cppa_proposal, social_content_batch).
 Hard rule: no agent flips delivery_state off PAUSED — only an authorized human, at the Outbox.
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

@@ -386,7 +386,6 @@
 ```
 
 ---
-*Ko e hala 'o e fononga ko e faka'apa'apa.*
 
 ---
 

@@ -75,6 +75,5 @@ Do that, and everything Marco measured on Scorpion + everything we built on Word
 ## 🍍 THE HEADLINE FOR YOUR BROTHER
 **"Marco's report proves our strategy is right — and we've already built the fixes he's selling. We don't need to pay an agency. We need to consolidate our two sites into one and turn ours on."**
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: strategic-brief -->

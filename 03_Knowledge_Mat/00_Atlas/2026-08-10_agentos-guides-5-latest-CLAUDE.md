@@ -53,6 +53,5 @@ scrub: Julian branding (aubergine/molten-gold/emerald) -> M7 Navy #1A365D + Gold
 2. **The checker rule** (Assembly Line): a separate reviewer agent brand-checks every draft before Outbox; run Kanban in waves of 6.
 3. **Vault-first + evidence rules** (Train-Once): every skill reads the vault + sources its numbers — no hallucinated claims.
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference (extract cites banned words as rule definitions) -->

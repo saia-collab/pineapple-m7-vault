@@ -98,7 +98,7 @@ def main() -> None:
 ## CONTENT GOVERNANCE RULES
 - **Anti-Slop Language Ban**: Permanently block the word "FREE" in consumer-facing copy. Use "Complimentary Professional Photo Audit" instead.
 - **Visual Law Compliance**: All personal content that references branded layouts must honor the active standards in `01_Command_Center/design.md` including 180px top banner, 42px hook font, 860px wrap envelope, and 95px bottom credential bar.
-- **Proverb Anchor**: Seal authority posts with: *Ko e hala 'o e fononga ko e faka'apa'apa* (The path of the journey is respect).
+- **Proverb Anchor**: Seal authority posts with: ** (The path of the journey is respect).
 """
 
     design_template = """
@@ -145,7 +145,7 @@ All short vertical reels processed natively via local computer hardware must map
 - **Choice**: Embedded Tatafu Nunumoveisini Moeakiola Veehala's verified 28-day performance profile directly into our contextual memory loops: Views 6,266 (+9%), Engagement 772 (+27%), Net Follows 8 (+500%).
 - **Strategic Direction**: Because engagement momentum is growing significantly faster than views, all content creation models must prioritize deep behind-the-scenes trade authority, raw project summaries, and client reviews rather than hollow awareness layouts.
 - **Facebook Stars Blueprint**: Queue a native 3-post introduction sequence inside our content sheets to promote the activation of fan support and virtual gifts to turn high interactions into direct community rapport.
-- **Cultural Proverb Anchor**: Seal major statements with our signature Tongan Proverb to project absolute brand authenticity: *"Ko e hala 'o e fononga ko e faka'apa'apa"* (The path of the journey is respect).
+- **Cultural Proverb Anchor**: Seal major statements with our signature Tongan Proverb to project absolute brand authenticity: *""* (The path of the journey is respect).
 """
 
     mana_map_template = """

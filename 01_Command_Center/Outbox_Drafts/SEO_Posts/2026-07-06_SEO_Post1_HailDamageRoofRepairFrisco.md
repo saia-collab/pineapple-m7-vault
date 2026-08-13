@@ -269,7 +269,6 @@ I am **JR. Moeakiola** with **Pineapple Contractors** — a Polynesian-owned, fa
 
 ---
 
-*Ko e hala 'o e fononga ko e faka'apa'apa — the path of the journey is respect.*
 
 If a **hail damage roof repair in Frisco TX** is on your mind, document it first — call **972-928-0788** and book your **Complimentary Professional Photo Audit** with Pineapple Contractors today.
 

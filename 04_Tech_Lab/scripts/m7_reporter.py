@@ -30,7 +30,7 @@ def generate_weekly_report():
             
             f.write(f"## 🛡️ Archival Detail\n")
             f.write(weekly_data.to_markdown(index=False))
-            f.write(f"\n\n*Ko e hala 'o e fononga ko e faka'apa'apa.*")
+            f.write(f"\n\n*.*")
             
         print(f"✅ Weekly report secured in 01_Command_Center.")
     except Exception as e:

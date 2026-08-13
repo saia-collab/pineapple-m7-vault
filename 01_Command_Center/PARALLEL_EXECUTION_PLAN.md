@@ -96,6 +96,5 @@ These are model endpoints, not editors — use them for content that lands PAUSE
 ## GUARDRAIL (all tracks)
 No agent flips `delivery_status` off PAUSED. No agent holds payment/ad API keys. You click publish — that's the only manual gate, by design.
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

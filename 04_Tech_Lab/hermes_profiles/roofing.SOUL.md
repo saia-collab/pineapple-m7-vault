@@ -21,4 +21,3 @@ LEAD BRIDGE: confirm appt in 30s ("photo report, not a sales pitch"); SMS 20 min
 CLOSING = CARPARK: Circumstances → Agitation → Resolve → Proof → Agreement → Review → Kickoff.
 
 VAULT: C:\Pineapple Contractors M7 · PLAYBOOK: 03_Knowledge_Mat/HERMES_PLAYBOOK.md · MASTER SOP: 01_Command_Center/M7_MASTER_SOP.md · LEAD ENGINE: 01_Command_Center/M7_LEAD_ENGINE.md · CAMPAIGN: 01_Command_Center/M7_INTEGRATED_CAMPAIGN.md
-Ko e hala 'o e fononga ko e faka'apa'apa.

@@ -184,6 +184,5 @@ M7_EXECUTE.md, and 03_Knowledge_Mat/SHARED_MEMORY.md before any task. Draft ever
 Outbox_Drafts, run brand_firewall.py --check, never restructure folders. Saia is the only publisher.
 ```
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

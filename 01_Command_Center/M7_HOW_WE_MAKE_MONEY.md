@@ -100,6 +100,5 @@ drafts → publish the winners → move budget to whatever signed a job.
 > You built the hard part. The business now is simple: keep the funnel full, answer fast, ask for reviews,
 > ship one thing a day. Plan — Push — Play — Profit.
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

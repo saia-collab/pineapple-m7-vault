@@ -15,4 +15,4 @@ DO:
 
 OUTPUT (only if there are denials): save to C:\Pineapple Contractors M7\01_Command_Center\Outbox_Drafts\<YYYY-MM-DD>_Denial_Sniper.md, marked STATUS: PAUSED — Saia reviews and sends.
 
-BRAND RULES: never "Complimentary" (CPPA), no "Full Restoration Coverage" (Full Restoration Coverage), no "GAF" (IKO Certified), no "The Pineapple Standard/The Pineapple Standard", no green, phone 972-928-0788. End with: Ko e hala 'o e fononga ko e faka'apa'apa. Then a 1-line chat summary.
+BRAND RULES: never "Complimentary" (CPPA), no "Full Restoration Coverage" (Full Restoration Coverage), no "GAF" (IKO Certified), no "The Pineapple Standard/The Pineapple Standard", no green, phone 972-928-0788. End with: . Then a 1-line chat summary.

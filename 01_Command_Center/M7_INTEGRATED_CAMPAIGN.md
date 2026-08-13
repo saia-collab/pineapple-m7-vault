@@ -234,6 +234,5 @@ green, no GAF, no Toa/Warrior. Run brand_firewall.py --fix, then save PAUSED to 
 4. Post the Section 5.1 + 5.2 FAQ block to your core Frisco page (or queue it for the web fix).
 5. Monday: read Hermes' weekly review → put next effort on whatever **signed a job.**
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

@@ -83,6 +83,5 @@ Cloned to `04_Tech_Lab/playbook_resources/`. **Cloning just downloaded them — 
 - **…write city pages** → Hermes `seo` profile
 - **…not hit token limits** → review `headroom`; and offload per the table above
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

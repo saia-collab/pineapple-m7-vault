@@ -353,7 +353,7 @@ When Saia authorizes, the gap matrix in §5 flips from "predicted" to "measured"
 - Outbox Shield (DEC-005): this file is **PAUSED** in `01_Command_Center/Outbox_Drafts/`. No live publishing, no ad-spend authorization, no live GBP posts, no live site edits, no live SERP pulls. Saia is the only publisher and the only spender.
 - Author byline: **JR. Moeakiola.**
 - Trust signals stamped: **RCAT #03-0637 · IKO Certified · 5-Star · Since 2005 · 972-928-0788 · HUB #1861616404400.**
-- Heritage close: **Ko e hala 'o e fononga ko e faka'apa'apa.**
+- Heritage close: **.**
 
 ---
 
@@ -365,5 +365,3 @@ When Saia authorizes, the gap matrix in §5 flips from "predicted" to "measured"
 - Publish any of the 38 page-opportunities to the live web.
 - Move this artifact from the Outbox_Drafts PAUSED state to a LIVE state.
 - Spend any money, run any Meta or Google Ads campaign, or activate any GBP post.
-
-Ko e hala 'o e fononga ko e faka'apa'apa.

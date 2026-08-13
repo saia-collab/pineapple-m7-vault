@@ -148,5 +148,3 @@ I'm **JR. Moeakiola** with **Pineapple Restorations** — a Polynesian-owned, fa
 Do not let a wet floor turn into a mold invoice.
 
 Move fast, document everything, and call a licensed local team for your water damage restoration in Frisco TX.
-
-*Ko e hala 'o e fononga ko e faka'apa'apa — the path of the journey is respect.* 🌺

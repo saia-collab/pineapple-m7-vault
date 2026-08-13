@@ -62,6 +62,5 @@ Hand these whole projects to Cowork — each has a brief already written:
 Agents draft, research, and build. **You** knock the door, climb the roof, and ask for the review.
 The weekly rhythm is 70% human (reviews, photos, GBP) because that's what rings the phone.
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: sop -->

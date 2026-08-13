@@ -169,7 +169,7 @@ outbox_shield: DEC-005 — this document is PAUSED. Nothing herein authorizes pu
 - **28-day metrics (verified):** Views 6,266 (+9%) · Engagement 772 (+27%) · Net Follows +500%
 - **Signal:** Engagement velocity > view growth = trust depth compounding. Repeat drone + family heritage content.
 - **Facebook Stars:** 3-post launch roadmap drafted — PAUSED awaiting Saia GO
-- **Proverb anchor active:** *Ko e hala 'o e fononga ko e faka'apa'apa* (The path of the journey is respect)
+- **Proverb anchor active:** ** (The path of the journey is respect)
 - **Tatafu content assigned in 30-Day Calendar:** Wk2 Sat — Poly Fest / family clip (Tauhi Vā)
 
 ---
@@ -205,7 +205,6 @@ outbox_shield: DEC-005 — this document is PAUSED. Nothing herein authorizes pu
 
 ---
 
-*Si'i pe kae ha'u · Ko e hala 'o e fononga ko e faka'apa'apa*
 *Polynesian-owned · Frisco TX · RCAT #03-0637 · IKO Certified · Since 2005 · 972-928-0788*
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference — internal ops doc, not consumer-facing -->

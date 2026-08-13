@@ -28,7 +28,6 @@ Usage:
     python m7_notebook_watcher.py --raw <file>.md --dry-run
     python m7_notebook_watcher.py --batch 03_Knowledge_Mat/raw/
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 """
 
 from __future__ import annotations
@@ -334,7 +333,7 @@ def render_study_guide(source_path: Path, rows: list, scanned_chars: int) -> str
         "This file is **PAUSED** in `01_Command_Center/Outbox_Drafts/`. It will not\n"
         "be promoted to the wiki, published, or used to spin up campaigns without\n"
         "explicit Saia authorization. No outbound API call leaves this draft.\n\n"
-        "Ko e hala 'o e fononga ko e faka'apa'apa.\n"
+        ".\n"
     )
 
     return frontmatter + banner + table + anchor_section

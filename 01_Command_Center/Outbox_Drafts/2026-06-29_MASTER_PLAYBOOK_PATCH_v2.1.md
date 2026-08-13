@@ -314,6 +314,5 @@ Key patterns extracted from the 50 unique skill kits in `04_Tech_Lab/skills_inbo
 
 ---
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

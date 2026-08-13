@@ -118,6 +118,5 @@ You have built the factory. The factory doesn't pay you — the roofs it books d
 new AI tool every week forever; you do NOT need them. **Freeze v1.0. Ship the campaign. Book CPPAs.**
 Everything in this guide exists to serve that one outcome.
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

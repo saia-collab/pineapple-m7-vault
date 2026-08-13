@@ -262,7 +262,6 @@ I am **JR. Moeakiola** with **Pineapple Restorations** — a Polynesian-owned, f
 
 ---
 
-*Ko e hala 'o e fononga ko e faka'apa'apa — the path of the journey is respect.*
 
 When **water damage restoration in Frisco TX** is the next call you need to make, call **972-928-0788** now — 24/7 emergency dispatch within 60 minutes, IICRC-trained crews, and a Full Restoration Coverage Evaluation that protects your family's investment from the first hour through the rebuild.
 

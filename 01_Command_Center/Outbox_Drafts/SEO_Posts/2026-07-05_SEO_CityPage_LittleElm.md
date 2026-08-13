@@ -40,7 +40,6 @@ IKO Certified and RCAT Licensed #03-0637, serving Little Elm and North Texas sin
 We prioritize storm-impacted Little Elm neighborhoods for fast CPPA scheduling — call 972-928-0788.
 
 ---
-*Ko e hala 'o e fononga ko e faka'apa'apa — the path of the journey is respect.*
 
 For documented **storm damage roof repair in Little Elm, TX**, book your Complimentary Professional Photo Audit today.
 

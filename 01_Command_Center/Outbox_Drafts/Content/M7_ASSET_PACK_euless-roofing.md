@@ -208,5 +208,3 @@ Ready to see what your roof is actually saying?
 
 — JR. Moeakiola  
 Pineapple Roofing
-
-*Ko e hala 'o e fononga ko e faka'apa'apa.*

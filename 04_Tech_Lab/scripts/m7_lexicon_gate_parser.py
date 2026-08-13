@@ -25,7 +25,7 @@ LEXICON_GATES = {
 # human should rewrite the sentence rather than have a word silently deleted).
 BANNED_FLAG = [r"(?i)\bwarrior\b", r"(?i)\btoa\b", r"(?i)\bsix brothers\b",
                r"(?i)\bcheap\b", r"(?i)\bbargain\b", r"(?i)\bdiscount\b", r"(?i)\bgreen\b"]
-SIGNATURE = "Ko e hala 'o e fononga ko e faka'apa'apa."
+SIGNATURE = "."
 
 
 def scrub(text: str) -> str:

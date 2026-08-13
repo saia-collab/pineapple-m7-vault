@@ -34,6 +34,5 @@ Paste it somewhere handy (Notes). This is what goes in the review texts Hermes d
 ## REMEMBER
 Answer leads in 5 min · ask for reviews · 1 hero action/day. Everything else is bonus.
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

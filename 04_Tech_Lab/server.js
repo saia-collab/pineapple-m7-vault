@@ -7,7 +7,6 @@
 //   /api/ollama     proxy a prompt to a local Ollama model
 //   /api/trigger    legacy action map (kept)
 //   /api/log        recent log lines (kept)
-// Ko e hala 'o e fononga ko e faka'apa'apa.
 
 const express = require('express');
 const fs = require('fs');

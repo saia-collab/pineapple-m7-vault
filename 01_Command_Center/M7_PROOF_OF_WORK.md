@@ -63,6 +63,5 @@ Marco (Bullseye) audited the OLD Scorpion site and flagged these gaps. **We alre
 
 **Headline for your brother:** *"The pages are live, Google-readable, and brand-clean — verified today. The agency's fix list is already on our site. Now we submit the sitemap, add review stars, and merge the two domains."*
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: proof-report -->

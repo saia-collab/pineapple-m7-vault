@@ -22,6 +22,6 @@ STEP 3 — Save the result as a PAUSED draft to:
 C:\Pineapple Contractors M7\01_Command_Center\Outbox_Drafts\<YYYY-MM-DD>_Weekly_Social_Captions.md
 Use today's date. At the top put a clear banner: "STATUS: PAUSED — review and post manually. Nothing here is published automatically." Add YAML frontmatter with status: PAUSED.
 
-STEP 4 — If the brand firewall script exists at C:\Pineapple Contractors M7\04_Tech_Lab\Scripts\brand_firewall.py, run it with --check on your captions to confirm 0 violations before saving; fix any flagged wording. Append the firewall result at the bottom of the file. End the file with: Ko e hala 'o e fononga ko e faka'apa'apa.
+STEP 4 — If the brand firewall script exists at C:\Pineapple Contractors M7\04_Tech_Lab\Scripts\brand_firewall.py, run it with --check on your captions to confirm 0 violations before saving; fix any flagged wording. Append the firewall result at the bottom of the file. End the file with: .
 
 Then give me a 3-line summary: how many captions, which pillars, and the file path. Do not post to any platform.

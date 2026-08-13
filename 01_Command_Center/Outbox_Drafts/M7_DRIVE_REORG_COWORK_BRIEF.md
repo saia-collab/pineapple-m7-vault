@@ -46,6 +46,5 @@ PINEAPPLE_MEDIA_HUB/
 ## Why this first (VP note)
 This is the **safest, highest-relief** Cowork job — it needs the Drive/Dropbox connectors (Cowork's strength), carries no SEO risk, and once done, every future reel/post is a 30-second grab from `01_READY_TO_POST`. Run this before the domain consolidation.
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: cowork-brief -->

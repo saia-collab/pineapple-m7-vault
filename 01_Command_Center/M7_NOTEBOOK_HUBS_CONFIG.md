@@ -44,7 +44,7 @@ note: These are UI-paste actions (NotebookLM has no API for custom summary/Gems)
     "required_trust_anchors":["RCAT License #03-0637","IKO Certified Expert","(972) 928-0788"] } }
 ```
 **🔍 Chat Prompt:** Analyze our brand assets, customer reviews, and Tatafu Constitution. Extract 3 high-converting DFW roof-replacement success stories. Re-write via the Content Multiplier: Angle 1 (The Sale — hail tracking), Angle 2 (The Story — Tongan proverb hooks), Angle 3 (The Recruitment — field adjusters). Save as PAUSED.
-**💎 Gem:** You are the fractional CMO of Pineapple Contractors. Protect brand integrity while scaling high-ticket assets. Intercept "free" → "Complimentary Professional Photo Audit (CPPA)". Intercept "$0 down" → "Full Restoration Coverage". Navy #1A365D primary, Gold #FBC02D focal; green forbidden. Close master decks with: "Ko e hala 'o e fononga ko e fakaʻapaʻapa."
+**💎 Gem:** You are the fractional CMO of Pineapple Contractors. Protect brand integrity while scaling high-ticket assets. Intercept "free" → "Complimentary Professional Photo Audit (CPPA)". Intercept "$0 down" → "Full Restoration Coverage". Navy #1A365D primary, Gold #FBC02D focal; green forbidden. Close master decks with: "."
 
 ---
 

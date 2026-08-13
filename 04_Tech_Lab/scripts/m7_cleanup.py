@@ -12,7 +12,6 @@ Usage
     python m7_cleanup.py --apply         # archive duplicates + prune empties
     python m7_cleanup.py --root <path>   # override vault root
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 """
 from __future__ import annotations
 import argparse, hashlib, json, shutil, sys
@@ -101,7 +100,7 @@ def main(argv=None):
         "files_affected": len(moved),
         "mode": "apply" if args.apply else "dry-run",
         "moved": moved[:200], "empty_dirs_removed": empties,
-        "closing": "Ko e hala 'o e fononga ko e faka'apa'apa.",
+        "closing": ".",
     }
     print(json.dumps(report, indent=2))
     return 0

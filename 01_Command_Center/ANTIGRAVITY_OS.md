@@ -32,6 +32,5 @@ color_status: "#00BFFF"
 - Output raw, vault-ready Markdown. Suppress conversational filler.
 - See `03_Knowledge_Mat/00_Atlas/2026-06-17_SOP_Agent_Tooling_Environments.md` for the tooling implementation.
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

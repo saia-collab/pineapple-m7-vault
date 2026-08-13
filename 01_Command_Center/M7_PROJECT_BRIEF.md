@@ -62,5 +62,3 @@ Pineapple Contractors M7 is a **local-first, zero-cloud AI operating system** fo
 3. `m7_core_rules.config` — machine-readable rules (brand, lexicon, ports, Outbox).
 4. `m7_execution_manifest.md` — the engineering ledger (every build cycle).
 5. `03_Knowledge_Mat/SHARED_MEMORY.md` + `log.md` — shared agent memory.
-
-Ko e hala 'o e fononga ko e faka'apa'apa.

@@ -73,6 +73,5 @@ This is your unfair advantage — real drone + before/after + testimonial footag
 4. GBP: 2 posts + fresh photos/week from your media.
 5. Log every lead in the new CRM `Google_LSA_Leads` tab.
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

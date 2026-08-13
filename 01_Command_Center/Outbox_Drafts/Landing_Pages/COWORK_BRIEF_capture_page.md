@@ -10,7 +10,7 @@ status: give this to Claude Cowork alongside cppa-capture-page.html
 ## HARD RULES (do not break — this is a real brand)
 1. **Colors ONLY:** Royal Navy #1A365D, Pineapple Gold #FBC02D, Status Cyan #00BFFF, warm paper #F7F5EF. **The color GREEN is forbidden.**
 2. **Lexicon:** never "free" (use "Complimentary Professional Photo Audit / CPPA"), never "GAF" (use "IKO Certified"). Keep RCAT #03-0637 and (972) 928-0788 visible.
-3. **Keep the Tongan seal** in the footer: "Ko e hala 'o e fononga ko e faka'apa'apa."
+3. **Keep the Tongan seal** in the footer: "."
 4. **Keep it ONE page**, keep the lead form, keep the phone click-to-call.
 
 ## ANTI-SLOP RULES (the whole point)

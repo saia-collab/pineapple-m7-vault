@@ -87,6 +87,5 @@ _Last snapshot: Wed 2026-07-22 16:46_
 (no log yet)
 ```
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

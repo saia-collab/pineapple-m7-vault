@@ -204,5 +204,3 @@ If you want evidence before opinions, reserve your Grapevine CPPA today.
 
 — JR. Moeakiola  
 Pineapple Roofing
-
-*Ko e hala 'o e fononga ko e faka'apa'apa.*

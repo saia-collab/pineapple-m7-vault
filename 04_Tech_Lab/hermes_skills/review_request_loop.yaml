@@ -28,6 +28,6 @@ guardrails:
   - delivery_state always PAUSED; a human sends from their phone (Outbox Shield).
   - Ask 100% of completed jobs; never re-ask the same customer within 14 days.
   - Reply-to-every-review is a separate human task (good and bad reviews).
-closing: "Ko e hala 'o e fononga ko e faka'apa'apa."
+closing: "."
 
 # M7-FIREWALL-EXEMPT: governance-reference

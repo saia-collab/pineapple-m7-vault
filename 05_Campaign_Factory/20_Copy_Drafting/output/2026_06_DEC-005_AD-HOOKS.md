@@ -23,7 +23,7 @@ These hooks are designed based on the **Hormozi 3-Angle Ad Matrix** and the **Sa
 - **Visual Note:** Must use 140px Pineapple Gold (#FBC02D) top banner ("DFW Trusted") and 95px Royal Navy (#1A365D) bottom banner ("Pineapple Contractors | RCAT Licensed #03-0637 | IKO Certified RoofPro Team").
 - **Pattern Interrupt (Hook):** Why do 350+ DFW families trust our Polynesian heritage to protect their homes?
 - **Burning Intrigue:** Because we believe in *Faka'apa'apa* (Respect) and treating your property like our own, ensuring the hard work is done right the first time.
-- **Big Specific Benefit:** Join the community that relies on our RCAT Licensed experts. Let us provide a permanent structural solution that protects your family's investment. Ko e hala 'o e fononga ko e faka'apa'apa.
+- **Big Specific Benefit:** Join the community that relies on our RCAT Licensed experts. Let us provide a permanent structural solution that protects your family's investment. .
 
 ---
 **Compliance Verification Checklist:**

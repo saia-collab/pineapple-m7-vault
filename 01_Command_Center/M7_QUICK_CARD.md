@@ -40,6 +40,5 @@ claude mcp add --transport http obsidian http://127.0.0.1:27123/mcp/ --header "A
 - No green. No banned words (Free, Warrior, Toa, GAF…). Firewall handles it.
 - New AI tool this week? Ignore it. **Ship the campaign.**
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

@@ -72,6 +72,5 @@ Goal: when someone (or ChatGPT/Google AI) asks "best Frisco roofer for hail clai
 ## THE ONLY METRIC THAT MATTERS
 **Cost per booked CPPA → signed job, per source.** Everything above exists to lower it. Track it in the CRM Attribution tab; shift budget to the winner monthly.
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

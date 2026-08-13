@@ -26,5 +26,3 @@
 - [[CATALOG]]
 
 > Front door for the whole system: [[COMMAND_CENTER_OS]] · Laws: [[AGENT_READ_ME_FIRST]] · Brain: [[SHARED_MEMORY]]
-
-Ko e hala 'o e fononga ko e faka'apa'apa.

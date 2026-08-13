@@ -52,6 +52,5 @@ note: Sales-pitch/community-plug content stripped. Kept the mechanics + how they
 - **Adopt the CHECKER rule:** a *separate, fresh* reviewer agent must brand-check every draft (against CPPA/IKO/zero-green) before it lands in the Outbox — never the agent that wrote it. That's your Outbox Shield done right.
 - **Pace + cache:** run Kanban jobs in small waves (~6), use free/cheap models (Hermes gpt-5.6-sol, Groq, Cerebras) for the grunt stations and a strong model only on the final brand/quality checker.
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference (internal SEO notes; "free" = free/organic traffic concept, not marketing copy) -->

@@ -70,10 +70,10 @@ Points: **+25** Frisco ZIP · **+30** Property Manager · **+20** $700K+ estate 
 
 ## HERITAGE ANCHORS
 - Polynesian-owned, family-operated, North Texas since 2005. Principles: *Tauhi Vā* (honor shared spaces/relationships), *Loto Tō* (humility, honest service). Four Golden Pillars: *Faka'apa'apa*, *Angafakatokilalo*, *Tauhi Vā*, *Mamahi'i me'a*.
-- Close long-form with a proverb: *"Ko e hala 'o e fononga ko e faka'apa'apa"* (the path of the journey is respect); alt *"Si'i pe kae ha'u"* (small but mighty).
+- Close long-form with a proverb: *""* (the path of the journey is respect); alt *""* (small but mighty).
 - Voice: professional, authoritative, culturally rooted. No corporate filler ("leverage", "synergize").
 
 ## REGIONAL
 - Hub: 10–15 mi around Frisco HQ. ZIPs 75033/75034/75035/75067/75068. Enclaves: Starwood, Newman Village. Territories: Frisco, Lewisville, McKinney, Plano, Allen, The Colony, Castle Hills. Expansion: Austin (I-35). **Rule of 100:** 100 physical touchpoints per activated ZIP.
 
-Full source: `01_Command_Center/MASTER_PLAYBOOK.md`. Ko e hala 'o e fononga ko e faka'apa'apa.
+Full source: `01_Command_Center/MASTER_PLAYBOOK.md`. .

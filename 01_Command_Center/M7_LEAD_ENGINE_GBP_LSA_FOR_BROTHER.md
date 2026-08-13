@@ -83,6 +83,5 @@ When hail hits a DFW ZIP: post on GBP that day, and **knock that street.** Digit
 
 **Leads come from Tier 1. Do Tier 1 every week. That's the engine.**
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: sop -->

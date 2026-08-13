@@ -68,6 +68,5 @@ Pineapple Gold text on Royal Navy ground: "Complimentary Professional Photo Audi
 > leave PAUSED until you press publish. Then track which avatar/angle pulls leads and shift
 > budget to the winners (1.5% Scale) and kill the laggards (1% Kill).
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

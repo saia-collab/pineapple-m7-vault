@@ -26,7 +26,6 @@ Usage:
     python m7_omnichannel_swarm.py --source 05_Campaign_Factory/10_Research_Stage/output/<...>.md
     python m7_omnichannel_swarm.py --source <...>.intent.json --dry-run
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 """
 
 from __future__ import annotations
@@ -58,7 +57,7 @@ BRAND = {
     "color_secondary": "#FBC02D",    # Pineapple Gold
     "color_status": "#00BFFF",       # Process Status Cyan
     "colors_allowed_extra": ("#FFFFFF", "#1F2937", "#475569"),  # White, dark grays
-    "signoff": "Ko e hala 'o e fononga ko e faka'apa'apa",
+    "signoff": "",
 }
 
 FRISCO_CORE_ZIPS = ("75033", "75034", "75035")

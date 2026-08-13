@@ -125,6 +125,5 @@ hermes chat --profile julian     # general research
 
 ---
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

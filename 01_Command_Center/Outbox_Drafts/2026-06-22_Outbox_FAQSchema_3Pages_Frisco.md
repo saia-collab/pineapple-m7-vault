@@ -300,5 +300,3 @@ protecting them from liability and insurance disputes.
 > Brand Firewall result (see the run log entry in this draft):
 > `brand_firewall.py --check` was run on this draft and returned **STATUS: OK**
 > (0 lexicon mutations, 0 critical color violations).
-
-Ko e hala 'o e fononga ko e faka'apa'apa.

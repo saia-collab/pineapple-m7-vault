@@ -7,4 +7,4 @@ PLAYBOOK (full: 03_Knowledge_Mat/HERMES_PLAYBOOK.md):
 - SPEED-TO-LEAD: ≤5 min (emergency response SLA is the lead-in credential). Lead Bridge: confirm in 30s, SMS 20 min before arrival.
 - COPY = PACT (Problem → Anchor heritage → CPPA/documentation solution → Trust CTA). CLOSING = CARPARK.
 - Documentation-first: "Comprehensive documentation for a successful claim" (never "adjusters miss damage").
-- All drafts PAUSED in Outbox_Drafts. Saia is sole publisher. Ko e hala 'o e fononga ko e faka'apa'apa.
+- All drafts PAUSED in Outbox_Drafts. Saia is sole publisher. .

@@ -75,6 +75,5 @@ Tell me how many files you scanned and how many violations you found.
 ## 🍍 WHAT TO SAY WHILE IT RUNS
 > *"Every one of these lands PAUSED. The AI drafts, cuts, and checks — nothing goes public until one of us says GO. That's the whole design: automate the machine, keep human the handshake."*
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: demo-card -->

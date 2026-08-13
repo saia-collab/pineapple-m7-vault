@@ -193,7 +193,7 @@ Create the core system rule file at `C:\Pineapple-Mana-Global\CLAUDE.md` to defi
 - Word Replacement: The term "free" must be replaced with "Complimentary Professional Photo Audit" in all instances.[1, 1]
 - Pricing Restraints: Never disclose specific pricing, the $18,000 threshold, or the "Toa/Warrior Standard" in public content.[1]
 - Post Signature: Every written deliverable must conclude with the proverb:
-  "Ko e hala o e fononga ko e faka'apa'apa" (The path of the journey is respect).[1]
+  "" (The path of the journey is respect).[1]
 - Ad Status: All programmatically generated ad campaigns must land in a PAUSED state for manual review.[1, 1]
 
 ## Core Workflows
@@ -978,7 +978,7 @@ Based on the verified source documents and pinned notes, here is the complete ex
 - The word "FREE" or "$0 Out of Pocket" must be replaced with "Complimentary Professional Photo Audit" or "Full restoration coverage" in all public-facing materials.
 - Never disclose specific pricing, the $18,000 threshold, or the "Toa/Warrior Standard" in any public-facing campaigns.
 - Every programmatically staged advertisement must land in a **PAUSED** state for manual verification before deployment.
-- Every written deliverable must conclude with the cultural proverb: *"Ko e hala o e fononga ko e faka'apa'apa"* (The path of the journey is respect).
+- Every written deliverable must conclude with the cultural proverb: *""* (The path of the journey is respect).
 
 #### OPERATIONAL WORKFLOWS
 1. **Initialize Root Compliance Check:** Execute the VS Code setup command to audit system compliance: `claude --model ollama/gemma4-pineapple "Check my root directory for CLAUDE.md, design.md, and the /memory folder. Report any missing A.N.T. layers."`
@@ -991,7 +991,7 @@ Based on the verified source documents and pinned notes, here is the complete ex
   - **Accent Color:** Pineapple Gold (`#FBC02D`)
   - **Trust Support:** Heritage Green (`#2D7D46`)
   - **Permitted Replacement Offer:** "Complimentary Professional Photo Audit"
-  - **Mandatory Proverb Anchor:** *"Ko e hala o e fononga ko e faka'apa'apa"*
+  - **Mandatory Proverb Anchor:** *""*
 
 ---
 

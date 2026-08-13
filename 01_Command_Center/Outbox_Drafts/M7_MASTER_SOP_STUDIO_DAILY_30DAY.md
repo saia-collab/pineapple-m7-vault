@@ -158,6 +158,5 @@ The vault `C:\Pineapple Contractors M7` is the single brain. GitHub is the share
 ### The rule that ties it together
 **GitHub is the shared memory.** Every session ends with `git push`. So the desktop Studio, this Claude chat, a Cowork cloud agent, and your phone all read the same vault. No screen is ever stale.
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

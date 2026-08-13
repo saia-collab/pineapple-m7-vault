@@ -99,6 +99,5 @@ The FCC admin adds **API keys + model URLs**, *not* CLIs. The agent **CLIs** (Cl
 - **Missing key (optional):** Mistral, Codestral, Wafer, Fireworks — add only if you want them.
 - **Bottom line:** you already have plenty of free routes wired. For $0 coding, set **Model Config → `open_router/qwen/qwen3-coder:free`** (or `ollama/gemma2` for unlimited local), make sure **fcc-server is running**, and you're set.
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference (technical doc; "free" = free AI models/tiers, not marketing copy) -->

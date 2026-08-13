@@ -19,6 +19,6 @@ outputs:
 guardrails:
   - Green references are critical and fail the build.
   - Banned lexicon is auto-mutated with --fix; never published live.
-closing: "Ko e hala 'o e fononga ko e faka'apa'apa."
+closing: "."
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

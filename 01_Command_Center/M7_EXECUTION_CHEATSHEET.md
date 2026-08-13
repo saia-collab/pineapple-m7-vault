@@ -152,6 +152,5 @@ python 04_Tech_Lab\Scripts\m7_skill_intake.py --watch
 
 ---
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

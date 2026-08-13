@@ -85,4 +85,3 @@ When executing tasks, agents must first parse this index file, utilize clean mar
 
 ## 6. CULTURAL ANCHOR
 Close significant consumer-facing outputs with a heritage anchor when appropriate:
-*"Ko e hala 'o e fononga ko e faka'apa'apa"* — the path of the journey is respect.

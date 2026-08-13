@@ -126,6 +126,5 @@ The error "session busy — /interrupt the current turn before switching models"
 mid-run. Type **`/interrupt`** in Hermes, wait for it to stop, THEN switch the model. After switching
 off a tiny model (gemma:e2b) back to a flagship, re-issue your command.
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

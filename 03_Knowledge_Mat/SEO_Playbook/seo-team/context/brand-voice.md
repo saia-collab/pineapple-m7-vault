@@ -35,4 +35,4 @@ Authoritative, family-proud, zero-fluff. (Polynesian-owned, hardworking, honest.
 > "Most hail damage is invisible from the ground. We document every hit with photos your insurance can actually use."
 > "The name on the truck is the name on the license."
 
-**Close consumer-facing master pieces with:** *Ko e hala 'o e fononga ko e faka'apa'apa.*
+**Close consumer-facing master pieces with:** *.*

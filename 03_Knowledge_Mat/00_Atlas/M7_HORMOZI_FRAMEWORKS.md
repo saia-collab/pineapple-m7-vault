@@ -70,6 +70,5 @@ no green, RCAT #03-0637, 972-928-0788. All output lands PAUSED in `Outbox_Drafts
 > You are Hormozi. Here's my decision: [DESCRIBE]. Filter it through: does it grow leads, conversion, or price?
 > What's the constraint? Highest-leverage action? What would you cut? Give me the 80/20 and the one move.
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

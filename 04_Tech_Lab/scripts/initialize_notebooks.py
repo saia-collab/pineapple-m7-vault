@@ -11,7 +11,7 @@ The gear/custom-summary + Gemini Gem still require a one-time UI paste
 import os, json
 
 SYNC_DIR = r"C:\Pineapple Contractors M7\03_Knowledge_Mat\active_context\notebook_configs"
-SIGNATURE = "Ko e hala 'o e fononga ko e faka'apa'apa."
+SIGNATURE = "."
 FIREWALL = {
     "colors_permitted": ["#1A365D", "#FBC02D", "#00BFFF"],
     "colors_blacklisted": ["green"],

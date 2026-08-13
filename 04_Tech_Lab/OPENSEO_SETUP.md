@@ -51,6 +51,5 @@ OpenSEO runs, but keyword/backlink/rank data needs a DataForSEO key (new account
 - Everything drafts PAUSED to Outbox; Saia publishes. OpenSEO reads data only — it never posts or spends
   beyond the DataForSEO per-query cost you control.
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

@@ -21,6 +21,6 @@ outputs:
 guardrails:
   - Recommends budget shifts; does NOT change live spend. Human executes in Meta/LSA.
   - Track cost per SIGNED JOB, not per click.
-closing: "Ko e hala 'o e fononga ko e faka'apa'apa."
+closing: "."
 
 # M7-FIREWALL-EXEMPT: governance-reference

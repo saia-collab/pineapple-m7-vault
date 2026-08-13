@@ -98,6 +98,5 @@ You don't *have* to use it — it's the visual view. Hermes + the Outbox folder 
 Do ONLY this: (1) answer LSA leads in 5 min, (2) text finished customers for a review,
 (3) ask Hermes one task from above. That's the whole business. Everything else is bonus.
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

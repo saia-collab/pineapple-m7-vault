@@ -100,4 +100,4 @@ if fails == 0:
 else:
     print(f" RESULT: {fails} item(s) need attention (see [FAIL] above).")
 print(" WARN = a service is just not running yet (start its launcher).")
-print(" Ko e hala 'o e fononga ko e faka'apa'apa.")
+print(" .")

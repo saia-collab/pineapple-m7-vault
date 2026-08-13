@@ -270,7 +270,7 @@ You are the Lead Systems Architect and Executive Operating Node for Pineapple Co
    - "GAF" / "GAF Certified" -> "IKO Certified (RCAT License #03-0637)"
    - "Warrior" / "Toa" / "Six Brothers" -> "The Pineapple Standard"
 4. VISUAL PALETTE FIREWALL: Enforce Royal Navy (#1A365D) for structure/headers, Pineapple Gold (#FBC02D) for CTAs/hooks, and Status Cyan (#00BFFF) for status. Heritage Green (#2D7D46 / #00FF00) is STRICTLY BANNED.
-5. CULTURAL ANCHOR: Conclude major public outputs or campaign milestones with the Tongan proverb: "Ko e hala 'o e fononga ko e faka'apa'apa."
+5. CULTURAL ANCHOR: Conclude major public outputs or campaign milestones with the Tongan proverb: "."
 ```[cite: 1, 2, 3]
 
 ---
@@ -307,12 +307,12 @@ Act as the M7 Lead Systems Architect. Review all loaded sources and extract oper
 - 03_Knowledge_Mat: Structured RAG context, Voice-of-Customer quotes, AEO answer blocks.
 - 04_Tech_Lab: Deterministic scripts, CLI commands, API webhooks.
 
-Enforce the Lexicon Firewall: Mutate "free" to "Complimentary Professional Photo Audit (CPPA)", "GAF" to "IKO Certified", and "$0 down" to "Full Restoration Coverage". Enforce Royal Navy (#1A365D) and Pineapple Gold (#FBC02D) color tokens. Completely strip the color green. Conclude with: "Ko e hala 'o e fononga ko e faka'apa'apa."
+Enforce the Lexicon Firewall: Mutate "free" to "Complimentary Professional Photo Audit (CPPA)", "GAF" to "IKO Certified", and "$0 down" to "Full Restoration Coverage". Enforce Royal Navy (#1A365D) and Pineapple Gold (#FBC02D) color tokens. Completely strip the color green. Conclude with: "."
 ```[cite: 1, 2, 3]
 
 ---
 
-*Ko e hala 'o e fononga ko e faka'apa'apa.* (The path of the journey is respect)[cite: 1, 3].  
+*.* (The path of the journey is respect)[cite: 1, 3].
 **The Master Operations Manual is fully locked, compiled, and ready for local engine execution.**
 
 
@@ -370,7 +370,7 @@ Copy and paste these exact recipes directly into Hermes or Claude Code in your l
 #### 3. Frisco Local AEO Answer-Engine Page Creator
 > **Copy & Paste this into Hermes:**
 > ```text
-> Read 01_Command_Center\MASTER_PLAYBOOK.md. Generate an AEO-optimized local service section targeting Frisco (ZIPs 75033, 75034, 75035) for storm restoration. Put a dense 40-word direct answer in sentence 1 under the H2 header. Include our RCAT License #03-0637 and IKO Certified trust signals. Ensure "free" is replaced with CPPA and no green styling is used. Conclude with the proverb: "Ko e hala 'o e fononga ko e faka'apa'apa." Stage the output PAUSED in 01_Command_Center\Outbox_Drafts\.
+> Read 01_Command_Center\MASTER_PLAYBOOK.md. Generate an AEO-optimized local service section targeting Frisco (ZIPs 75033, 75034, 75035) for storm restoration. Put a dense 40-word direct answer in sentence 1 under the H2 header. Include our RCAT License #03-0637 and IKO Certified trust signals. Ensure "free" is replaced with CPPA and no green styling is used. Conclude with the proverb: "." Stage the output PAUSED in 01_Command_Center\Outbox_Drafts\.
 > ```[cite: 1, 3]
 
 
@@ -395,7 +395,7 @@ All generated scripts, landing pages, and agent loops must pass this non-negotia
     *   `"$0 Down"` / `"$0 Out of Pocket"` $\rightarrow$ **"Full Restoration Coverage"**[cite: 1, 2, 3]
     *   `"GAF"` / `"GAF Certified"` $\rightarrow$ **"IKO Certified (RCAT License #03-0637)"**[cite: 1, 2, 3]
     *   `"Warrior"` / `"Toa"` / `"Six Brothers"` $\rightarrow$ **"The Pineapple Standard"**[cite: 1, 2, 3]
-*   **Cultural Seal:** End primary public assets with the Tongan proverb: *"Ko e hala 'o e fononga ko e faka'apa'apa."*[cite: 1, 3]
+*   **Cultural Seal:** End primary public assets with the Tongan proverb: *"."*[cite: 1, 3]
 
 ---
 
@@ -444,7 +444,7 @@ EXECUTE THE FOLLOWING STEPS IN-PLACE:
 5. RUN FIREWALL AUDIT: Execute "python 04_Tech_Lab/scripts/brand_firewall.py --check" across 01_Command_Center/ and 03_Knowledge_Mat/. Fix any non-compliant flags automatically.
 6. APPEND LOG: Append a timestamped summary of changes to 03_Knowledge_Mat/log.md and root m7_execution_manifest.md.
 
-Do not delete existing media or vault files. Conclude your response with: "Ko e hala 'o e fononga ko e faka'apa'apa."
+Do not delete existing media or vault files. Conclude your response with: "."
 ```[cite: 1, 2, 3]
 
 ---
@@ -459,7 +459,7 @@ To run the business daily with minimal friction[cite: 1, 3]:
 4.  **Speed-to-Lead (24/7 Reflex):** Answer all incoming Google LSA/Meta leads within **5 minutes**[cite: 1, 3]. Offer the Complimentary Professional Photo Audit (CPPA)[cite: 1, 3].
 5.  **Review Loop:** Text every completed job customer a direct Google review link to maintain your 5.0â˜… rating momentum[cite: 1, 3].
 
-*Ko e hala 'o e fononga ko e faka'apa'apa.*[cite: 1, 3]
+*.*[cite: 1, 3]
 
 
 | User Prompt: |
@@ -553,7 +553,7 @@ Act as Systems Architect for Pineapple Contractors M7. Validate the 3-Layer Herm
 4. Ensure all Hermes profile SOULs in %LOCALAPPDATA%\hermes\profiles\ inherit these rules.
 5. Log execution timestamp to 03_Knowledge_Mat\log.md and m7_execution_manifest.md.
 
-Conclude with: "Ko e hala 'o e fononga ko e faka'apa'apa."
+Conclude with: "."
 ```
 
 
@@ -605,7 +605,7 @@ Act as Systems Architect for Pineapple Contractors. Execute all system updates i
 
 Do not ask me to run terminal commands. Execute all file reads, writes, and script checks autonomously. 
 
-Conclude with: "Ko e hala 'o e fononga ko e faka'apa'apa."
+Conclude with: "."
 ```
 
 
@@ -677,7 +677,7 @@ In NotebookLM or your Local Studio Notebook tab (`http://localhost:3000/notebook
     "target_directory": "C:/Pineapple Contractors M7/03_Knowledge_Mat/00_Atlas/research_updates/",
     "system_role": "Lead AI Research Architect & System Integration Engineer"
   },
-  "custom_instructions": "Act as the Lead AI Research Architect for Pineapple Contractors M7. Your sole directive is to parse, analyze, and extract high-leverage AI automation frameworks, local agent setups, and search ranking strategies from loaded sources (Julian Goldie, AI Profit Boardroom, DeepSeek V4, Hermes Muse, N8N Agents, Claude-Obsidian Bridge). Re-architect all third-party workflows to strictly obey the PM7 Master Constitution:\n1. BRAND FIREWALL: Never write 'free' (use 'Complimentary Professional Photo Audit' / 'CPPA'). Never write '$0 down' (use 'Full Restoration Coverage'). Never reference 'GAF' (use 'IKO Certified', RCAT #03-0637). Never use green in visual descriptions or code styling (strictly Royal Navy #1A365D, Pineapple Gold #FBC02D, Status Cyan #00BFFF).\n2. OUTBOX SHIELD: Format all actionable SOPs and execution scripts to land in a PAUSED state inside 01_Command_Center/Outbox_Drafts/.\n3. VALUE BASELINE: Filter all home service strategies toward $18,000+ high-ticket storm restoration assets in Frisco and North Texas.\n4. CULTURAL SEAL: Conclude all primary operational briefs with: 'Ko e hala 'o e fononga ko e faka'apa'apa.'"
+  "custom_instructions": "Act as the Lead AI Research Architect for Pineapple Contractors M7. Your sole directive is to parse, analyze, and extract high-leverage AI automation frameworks, local agent setups, and search ranking strategies from loaded sources (Julian Goldie, AI Profit Boardroom, DeepSeek V4, Hermes Muse, N8N Agents, Claude-Obsidian Bridge). Re-architect all third-party workflows to strictly obey the PM7 Master Constitution:\n1. BRAND FIREWALL: Never write 'free' (use 'Complimentary Professional Photo Audit' / 'CPPA'). Never write '$0 down' (use 'Full Restoration Coverage'). Never reference 'GAF' (use 'IKO Certified', RCAT #03-0637). Never use green in visual descriptions or code styling (strictly Royal Navy #1A365D, Pineapple Gold #FBC02D, Status Cyan #00BFFF).\n2. OUTBOX SHIELD: Format all actionable SOPs and execution scripts to land in a PAUSED state inside 01_Command_Center/Outbox_Drafts/.\n3. VALUE BASELINE: Filter all home service strategies toward $18,000+ high-ticket storm restoration assets in Frisco and North Texas.\n4. CULTURAL SEAL: Conclude all primary operational briefs with: '.'"
 }
 ```
 
@@ -719,7 +719,7 @@ CRITICAL FIREWALL RULES:
 - Primary Brand Palette: Royal Navy (#1A365D) for structure, Pineapple Gold (#FBC02D) for action CTAs, Status Cyan (#00BFFF) for status. Absolute ban on green colors/styles.
 - Lexicon Rules: Replace "free" with "Complimentary Professional Photo Audit (CPPA)", replace "$0 down" with "Full Restoration Coverage", replace "GAF" with "IKO Certified" (RCAT #03-0637).
 - Execution Rules: Target $18,000+ commercial/estate restoration assets in Frisco, TX. Never auto-publish; all outputs land PAUSED in 01_Command_Center/Outbox_Drafts/.
-- Conclude outputs with: "Ko e hala 'o e fononga ko e faka'apa'apa."
+- Conclude outputs with: "."
 ```
 
 ---
@@ -779,7 +779,7 @@ Act as Systems Architect for Pineapple Contractors M7. Ingest and execute the la
 
 Execute all file operations and script validations autonomously.
 
-Conclude with: "Ko e hala 'o e fononga ko e faka'apa'apa."
+Conclude with: "."
 ```
 
 
@@ -829,7 +829,7 @@ To train your family and agents hands-free without token drift, create these **4
 {
   "hub_name": "PM7 SEO Playbook",
   "target_directory": "03_Knowledge_Mat/active_context/notebook_configs/",
-  "system_rules": "Act as Lead SEO Data Scientist for Pineapple Roofing. Focus strictly on $18,000+ high-ticket storm restoration in Frisco, Collin County, and DFW. Enforce Elite Lexicon: 'Complimentary Professional Photo Audit (CPPA)', 'IKO Certified (RCAT #03-0637)', and 'Full Restoration Coverage'. Color Palette: Royal Navy (#1A365D) and Pineapple Gold (#FBC02D). Zero green allowed. All outputs land PAUSED in 01_Command_Center/Outbox_Drafts/. End with: 'Ko e hala 'o e fononga ko e faka'apa'apa.'"
+  "system_rules": "Act as Lead SEO Data Scientist for Pineapple Roofing. Focus strictly on $18,000+ high-ticket storm restoration in Frisco, Collin County, and DFW. Enforce Elite Lexicon: 'Complimentary Professional Photo Audit (CPPA)', 'IKO Certified (RCAT #03-0637)', and 'Full Restoration Coverage'. Color Palette: Royal Navy (#1A365D) and Pineapple Gold (#FBC02D). Zero green allowed. All outputs land PAUSED in 01_Command_Center/Outbox_Drafts/. End with: '.'"
 }
 ```
 *   **Gemini Custom Gem Instructions:**
@@ -886,7 +886,7 @@ EXECUTE THE FOLLOWING AUTOMATED STEPS:
 4. RUN FIREWALL CHECK: Execute "python 04_Tech_Lab/scripts/brand_firewall.py --check" across 01_Command_Center/ and 03_Knowledge_Mat/. Fix any non-compliant flags.
 5. LOG EXECUTION: Append session details to 03_Knowledge_Mat/log.md and m7_execution_manifest.md.
 
-Do not delete media files. Conclude with: "Ko e hala 'o e fononga ko e faka'apa'apa."
+Do not delete media files. Conclude with: "."
 ```[cite: 2, 3]
 
 ---
@@ -898,7 +898,7 @@ Do not delete media files. Conclude with: "Ko e hala 'o e fononga ko e faka'apa'
 3.  **Speed-to-Lead (24/7):** Answer every LSA/Meta lead within **5 minutes**. Offer the **Complimentary Professional Photo Audit (CPPA)**.
 4.  **Afternoon (Review & Approve):** Saia reviews the drafts in `Outbox_Drafts\` and clicks **GO** to publish.
 
-*Ko e hala 'o e fononga ko e faka'apa'apa.*[cite: 2, 3]
+*.*[cite: 2, 3]
 
 
 | User Prompt: |
@@ -999,7 +999,7 @@ EXECUTE THE FOLLOWING AUTOMATED WORKFLOW:
 
 Do not delete existing media or vault files. Execute all operations autonomously.
 
-Conclude with: "Ko e hala 'o e fononga ko e faka'apa'apa."
+Conclude with: "."
 ```
 
 ---
@@ -1082,7 +1082,7 @@ TASK:
 4. Apply Lexicon Laws: replace "free" with "CPPA", "$0 down" with "Full Restoration Coverage", "GAF" with "IKO Certified (RCAT #03-0637)".
 5. Save ALL outputs strictly as PAUSED drafts in 01_Command_Center\Outbox_Drafts\.
 
-Run brand_firewall.py --check before staging. Conclude with: "Ko e hala 'o e fononga ko e faka'apa'apa."
+Run brand_firewall.py --check before staging. Conclude with: "."
 ```[cite: 1, 4]
 
 ---
@@ -1097,7 +1097,7 @@ Act as Lead Systems Architect for PM7. Run an automated workspace synchronizatio
 4. COMPLIANCE SCAN: Execute python 04_Tech_Lab/scripts/brand_firewall.py --fix across 01_Command_Center/ and 03_Knowledge_Mat/. Confirm ZERO green styling (#00FF00) and zero banned words.
 5. MANIFEST LOG: Append completion details to m7_execution_manifest.md and 03_Knowledge_Mat/log.md.
 
-Do not delete existing media. Execute autonomously. Conclude with: "Ko e hala 'o e fononga ko e faka'apa'apa."
+Do not delete existing media. Execute autonomously. Conclude with: "."
 ```[cite: 1, 4]
 
 ---
@@ -1108,7 +1108,7 @@ Do not delete existing media. Execute autonomously. Conclude with: "Ko e hala 'o
 2. **Midday (Execute Tasks):** Open the matching Hermes profile for your task (`roofing`, `leads`, `content`, etc.) and paste your command.
 3. **Afternoon (Review & Approve):** Open `01_Command_Center\Outbox_Drafts\`. Review the staged **PAUSED** assets and click **GO** to publish[cite: 1, 4].
 
-*Ko e hala 'o e fononga ko e faka'apa'apa.*[cite: 1, 4]
+*.*[cite: 1, 4]
 
 
 | User Prompt: |
@@ -1191,7 +1191,7 @@ EXECUTE THE FOLLOWING STEPS:
 
 Execute all file operations and script validations autonomously.
 
-Conclude with: "Ko e hala 'o e fononga ko e faka'apa'apa."
+Conclude with: "."
 ```
 
 ---
@@ -1203,7 +1203,7 @@ Conclude with: "Ko e hala 'o e fononga ko e faka'apa'apa."
 3. **Prompting:** Prompt the dedicated Hermes profile (`roofing`, `leads`, `content`, or `marketing`) for your specific task[cite: 1, 4].
 4. **Approve:** All outputs drop into `01_Command_Center\Outbox_Drafts\` as **PAUSED**. Review and click **GO**!
 
-*Ko e hala 'o e fononga ko e faka'apa'apa.*[cite: 1, 4]
+*.*[cite: 1, 4]
 
 
 | User Prompt: |
@@ -1271,7 +1271,7 @@ CONTENT & LEXICON LAWS:
 - Highlight the 4-Fala Topography (01_Command_Center, 02_Media_Vault, 03_Knowledge_Mat, 04_Tech_Lab).
 - Enforce Lexicon: Use 'Complimentary Professional Photo Audit (CPPA)', 'IKO Certified (RCAT License #03-0637)', and 'Full Restoration Coverage'. BANNED: Never write 'free', '$0 down', 'GAF', or 'Warrior/Toa'.
 - Include contact trust signal: Phone 972-928-0788.
-- Conclude with the cultural seal: "Ko e hala 'o e fononga ko e faka'apa'apa."
+- Conclude with the cultural seal: "."
 ```
 
 4. Click **Generate**! In 2â€“5 minutes, NotebookLM will produce a high-resolution, source-grounded PNG infographic completely scrubbed into your **PM7 Royal Navy and Gold** identity!
@@ -1290,10 +1290,10 @@ Act as Systems Architect for Pineapple Contractors M7. Run an in-place workspace
 3. Run python 04_Tech_Lab/scripts/brand_firewall.py --fix across 01_Command_Center/ and 03_Knowledge_Mat/. Confirm ZERO green (#00FF00) and zero banned words.
 4. Ensure 03_Knowledge_Mat/SHARED_MEMORY.md, log.md, and m7_execution_manifest.md reflect today's updates.
 
-Execute autonomously. Conclude with: "Ko e hala 'o e fononga ko e faka'apa'apa."
+Execute autonomously. Conclude with: "."
 ```
 
-*Ko e hala 'o e fononga ko e faka'apa'apa.*[cite: 2, 3]
+*.*[cite: 2, 3]
 
 ---
 [NotebookLM 2026 Update: AI Infographics & Slide Deck Generator](https://www.youtube.com/watch?v=sxvTMP3ZYYA)
@@ -1370,13 +1370,13 @@ Set up this **4th Dedicated NotebookLM Tab** for Goldie AI Research & Course Ext
 {
   "hub_name": "PM7 Goldie AI Research & Course Hub",
   "target_directory": "03_Knowledge_Mat/active_context/notebook_configs/",
-  "system_rules": "Act as Lead AI Research Architect for Pineapple Contractors M7. Ingest all Julian Goldie course notes, Hermes v0.12 guides, and video transcripts. Re-architect all third-party workflows to strictly obey PM7 Brand Laws: 'Complimentary Professional Photo Audit (CPPA)', 'IKO Certified (RCAT #03-0637)', 'Full Restoration Coverage', Royal Navy (#1A365D), Pineapple Gold (#FBC02D), Cyan (#00BFFF). Zero Green allowed. All outputs land PAUSED in 01_Command_Center/Outbox_Drafts/. End with: 'Ko e hala 'o e fononga ko e faka'apa'apa.'"
+  "system_rules": "Act as Lead AI Research Architect for Pineapple Contractors M7. Ingest all Julian Goldie course notes, Hermes v0.12 guides, and video transcripts. Re-architect all third-party workflows to strictly obey PM7 Brand Laws: 'Complimentary Professional Photo Audit (CPPA)', 'IKO Certified (RCAT #03-0637)', 'Full Restoration Coverage', Royal Navy (#1A365D), Pineapple Gold (#FBC02D), Cyan (#00BFFF). Zero Green allowed. All outputs land PAUSED in 01_Command_Center/Outbox_Drafts/. End with: '.'"
 }
 ```
 
 *   **Gemini Custom Gem System Instructions:**
 ```text
-You are the M7 Goldie Integration Gem. Ingest third-party AI tutorials, course notes, and Hermes updates (N8N, Qwen 3.8, DeepSeek V4, Hermes Muse). Re-code and re-write them to match Pineapple Contractors M7 brand rules: CPPA offer, IKO Certified (RCAT #03-0637), Royal Navy (#1A365D), and Gold (#FBC02D). Zero Green. Stage all generated assets PAUSED inside 01_Command_Center/Outbox_Drafts/. Conclude with: "Ko e hala 'o e fononga ko e faka'apa'apa."
+You are the M7 Goldie Integration Gem. Ingest third-party AI tutorials, course notes, and Hermes updates (N8N, Qwen 3.8, DeepSeek V4, Hermes Muse). Re-code and re-write them to match Pineapple Contractors M7 brand rules: CPPA offer, IKO Certified (RCAT #03-0637), Royal Navy (#1A365D), and Gold (#FBC02D). Zero Green. Stage all generated assets PAUSED inside 01_Command_Center/Outbox_Drafts/. Conclude with: "."
 ```
 
 ---
@@ -1407,7 +1407,7 @@ EXECUTE THE FOLLOWING STEPS:
 
 Execute all file operations and script validations autonomously.
 
-Conclude with: "Ko e hala 'o e fononga ko e faka'apa'apa."
+Conclude with: "."
 ```[cite: 1, 4]
 
 ---
@@ -1419,7 +1419,7 @@ Conclude with: "Ko e hala 'o e fononga ko e faka'apa'apa."
 3.  **Prompting:** Prompt the dedicated Hermes profile (`roofing`, `leads`, `content`, or `marketing`) for your specific task[cite: 1, 4].
 4.  **Approve:** All outputs drop into `01_Command_Center\Outbox_Drafts\` as **PAUSED**. Review and click **GO**[cite: 1, 4]!
 
-*Ko e hala 'o e fononga ko e faka'apa'apa.*[cite: 1, 4]
+*.*[cite: 1, 4]
 http://googleusercontent.com/youtube_content/1 *YouTube video views will be stored in your YouTube History, and your data will be stored and used by YouTube according to its [Terms of Service](https://www.youtube.com/static?template=terms)*
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference (contains the lexicon-ban definition table) -->

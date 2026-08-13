@@ -23,7 +23,6 @@ Usage
     python m7_skill_intake.py --watch    # keep watching the inbox (poll)
     python m7_skill_intake.py --keep     # don't delete source after intake
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 """
 from __future__ import annotations
 import argparse, json, re, shutil, sys, time, zipfile
@@ -174,7 +173,7 @@ def run_once(root: Path, keep: bool):
     log_path = root / "04_Tech_Lab" / "logs" / "skill_intake_log.json"
     log_path.parent.mkdir(parents=True, exist_ok=True)
     record = {"run": datetime.now().isoformat(), "processed": len(log), "results": log,
-              "closing": "Ko e hala 'o e fononga ko e faka'apa'apa."}
+              "closing": "."}
     log_path.write_text(json.dumps(record, indent=2), encoding="utf-8")
     print(json.dumps(record, indent=2))
     return len(log)

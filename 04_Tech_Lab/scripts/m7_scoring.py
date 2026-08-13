@@ -17,7 +17,6 @@ Usage
     python m7_scoring.py --compliance-text "..."   # run M7 Elite Compliance Filter
     python m7_scoring.py --demo                     # run built-in sample
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 """
 
 from __future__ import annotations

@@ -49,6 +49,5 @@ Reel / door-knock / LSA / referral  →  lead in CRM  →  YOU call in 5 min  �
 ## 🌅 START THIS WEEK (3 moves)
 1. Post **"Why Pineapple"** with the CPPA link. 2. Knock **one storm street** for 2 hours. 3. **Wire the capture page** so leads hit the CRM.
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

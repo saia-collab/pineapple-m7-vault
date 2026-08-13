@@ -84,6 +84,5 @@ So the doc is the **story**; your `vendor/` folder is the **executable version o
 2. **Turn on `seo-ops` + the AEO format** for the next Location Page — run it as a Claude Code skill, land it PAUSED, compare to the Hermes version.
 3. **Decide the 3 cloud-watcher agents** (Deal Reviver, LSA Review, Ads Optimizer): confirm they run in **Cloud Co-Work, draft-only**, wired to your Meta→Zapier→Sheet. I'll write the 3 mission prompts (brand-safe, calibration-loop) on your GO.
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference (lists banned words as rule definitions) -->

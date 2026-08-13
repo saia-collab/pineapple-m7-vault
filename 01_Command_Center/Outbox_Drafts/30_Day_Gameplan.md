@@ -119,6 +119,5 @@ If only the reflexes happen on a given day, the day still counted.
 
 ---
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: planning-document -->

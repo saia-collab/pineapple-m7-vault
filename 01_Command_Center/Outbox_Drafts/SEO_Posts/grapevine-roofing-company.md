@@ -94,7 +94,6 @@ Storm-impacted Grapevine and Tarrant County properties are fast-tracked. Call **
 **IKO Certified · RCAT #03-0637 · North Texas since 2005 · 5-Star Rated · 972-928-0788**
 **[→ Book your CPPA here](https://pineapplecontractors.com)**
 
-*Ko e hala 'o e fononga ko e faka'apa'apa — the path of the journey is respect.*
 
 For a documented, fully-covered restoration from a verified **Grapevine roofing company**, book your Complimentary Professional Photo Audit today.
 

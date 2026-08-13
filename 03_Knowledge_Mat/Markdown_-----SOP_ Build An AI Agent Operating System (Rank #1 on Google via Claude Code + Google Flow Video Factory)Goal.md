@@ -220,5 +220,5 @@ PHASE 4: The Karpathy Autoresearch Loop (Zero Hallucination)
 
 **Before you step away, remember: The system is hardcoded to keep every single file in the `Outbox_Drafts/` folder in a PAUSED/DRAFT state. No live ads will launch, and no content will post to the web until you manually open these files in the morning and switch the status to `APPROVED`.**
 
-**The machine is ready. "Ko e hala 'o e fononga ko e faka'apa'apa." ensure they perfectly match the M7 Master Playbook before you push them live?** 
+**The machine is ready. "." ensure they perfectly match the M7 Master Playbook before you push them live?**
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

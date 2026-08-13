@@ -81,6 +81,5 @@ Follow M7 brand law (CPPA, IKO, no green, RCAT #03-0637, 972-928-0788). Save the
 - [ ] Export OpenSEO top 20 → hand to ChatGPT/Codex for the rest.
 - [ ] Watch positions weekly in OpenSEO.
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

@@ -87,6 +87,5 @@ Tonight: paste **Step 1** into Hermes `seo` Goal Mode (FREE) and close the lapto
 in Outbox. Tomorrow: **Step 2** rebuilds the site for $0. Fable only touches the homepage (Step 4). You just
 replaced most of Scorpion for free.
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

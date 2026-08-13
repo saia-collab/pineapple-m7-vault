@@ -40,7 +40,7 @@ Execute autonomously, in order, fixing any error you hit:
 5. Ingest any zips: python 04_Tech_Lab\Scripts\m7_skill_intake.py
 6. Start the engine: node 04_Tech_Lab\server.js   (dashboard + APIs on :3000)
 7. Print the final folder tree and a summary of what changed.
-Conclude with: Ko e hala 'o e fononga ko e faka'apa'apa.
+Conclude with: .
 ```
 
 ## To ADD a new playbook (from a Claude chat, a doc, or a paste)
@@ -52,6 +52,5 @@ sections. Apply the brand firewall lexicon + green ban. Preserve the 4-section s
 Then run brand_firewall.py --fix and report what merged.
 ```
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

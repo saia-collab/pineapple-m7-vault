@@ -380,6 +380,5 @@ Start by reading the files and giving me a 5-bullet summary of the Command Deck 
 you will gate Higgsfield credit spend. Change no files yet except to confirm the Kanban lanes.
 ```
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

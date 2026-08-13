@@ -44,5 +44,3 @@ Turns storm-season attention into booked **Complimentary Professional Photo Audi
 - 🎨 Royal Navy `#1A365D` + Pineapple Gold `#FBC02D` + Status Cyan `#00BFFF`. **Zero green.**
 - 🚦 Outbox Shield (DEC-005): nothing publishes without owner GO.
 - ✍️ Author voice: **JR. Moeakiola**.
-
-*Ko e hala 'o e fononga ko e faka'apa'apa — the path of the journey is respect.* 🌺

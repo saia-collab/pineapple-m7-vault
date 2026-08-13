@@ -85,6 +85,5 @@ Put next week's budget on the source with the lowest **cost per signed job** (no
 3. Make the attribution sheet; log every lead this week.
 That's the whole growth engine. The AI just makes it faster.
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

@@ -58,6 +58,5 @@ your focus.)
 > Hand-off line: *"Read 01_Command_Center/M7_EXECUTE.md and execute this week's content. Draft everything
 > PAUSED to Outbox_Drafts, firewall-checked. Don't touch folders. Summarize what you made."*
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

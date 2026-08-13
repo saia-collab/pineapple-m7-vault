@@ -99,4 +99,3 @@ Go to Hermes → Hermes-Jarvis → click the mic → say "Give me my daily brief
 ---
 
 *Outbox Shield is always ON. You publish. Agents draft. Nothing goes live without your GO.*
-*Ko e hala 'o e fononga ko e faka'apa'apa.*

@@ -9,7 +9,6 @@ Usage:
   python m7_media_index.py --path "G:\\My Drive\\PINEAPPLE_MEDIA_HUB"
   python m7_media_index.py --path "<folder>" --out "<file.md>"
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 """
 from __future__ import annotations
 import argparse, collections, os, sys
@@ -100,7 +99,6 @@ def main(argv=None):
     out_lines += ["","## Suggested next step",
         "- Move RAW dumps → 01_RAW_INTAKE; sort jobs → 02_SORTED_PROJECTS; finals → 04_READY_TO_POST.",
         "- Triage 5 best assets/week → deploy 4 ways (GBP · Reel/TikTok · Short · Ad).","",
-        "Ko e hala 'o e fononga ko e faka'apa'apa.","",
         "<!-- M7-FIREWALL-EXEMPT: governance-reference -->",""]
 
     out = Path(args.out) if args.out else (root/"MEDIA_INDEX.md")

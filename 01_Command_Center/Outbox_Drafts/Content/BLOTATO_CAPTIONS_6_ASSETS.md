@@ -74,7 +74,6 @@ last_updated: 2026-07-22
 >
 > **Mālō 'aupito.** Thank you, Frisco. We'll see you at the next one.
 >
-> *Ko e hala 'o e fononga ko e faka'apa'apa.*
 >
 > 🍍 Pineapple Roofing · family-owned since 2005 · (972) 928-0788
 > #PolynesianFestival #FriscoTX #PolynesianOwned #FamilyOwned #ThePineappleStandard #DFW
@@ -155,6 +154,5 @@ last_updated: 2026-07-22
 | 5 | property managers (commercial) | Thu |
 | 6 | 4605 Birkshire (neighborhood) | Sat |
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: content-draft -->

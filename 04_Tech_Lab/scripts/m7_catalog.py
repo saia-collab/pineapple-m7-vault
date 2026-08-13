@@ -6,7 +6,6 @@ Lists every skill and template by name with counts. Pure-stdlib, fast, idempoten
 Usage:  python m7_catalog.py            (auto-detects vault root)
         python m7_catalog.py --root <path>
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 """
 from __future__ import annotations
 import argparse, sys
@@ -45,7 +44,7 @@ def main(argv=None):
     out += ["", f"## Templates ({len(templates)})", "", "| # | Template Name |", "|---|--------------|"]
     for i, t in enumerate(templates, 1):
         out.append(f"| {i} | {t} |")
-    out += ["", "Ko e hala 'o e fononga ko e faka'apa'apa.", "",
+    out += ["", ".", "",
             "<!-- M7-FIREWALL-EXEMPT: governance-reference -->", ""]
 
     dest = root / "03_Knowledge_Mat" / "00_Atlas" / "CATALOG.md"

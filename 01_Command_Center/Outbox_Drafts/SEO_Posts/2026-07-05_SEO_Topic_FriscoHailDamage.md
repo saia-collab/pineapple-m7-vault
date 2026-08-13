@@ -42,7 +42,6 @@ Yes — the CPPA is a no-cost, no-obligation documentation service.
 IKO Certified and RCAT Licensed #03-0637, serving Frisco since 2005.
 
 ---
-*Ko e hala 'o e fononga ko e faka'apa'apa — the path of the journey is respect.*
 
 If you have a **hail damage roof in Frisco, TX**, document it first — book your Complimentary Professional Photo Audit today.
 

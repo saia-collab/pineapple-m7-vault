@@ -54,6 +54,5 @@ On the live site + GBP, change these:
 4) FAQ schema + first-40-words answers.
 5) Embed reviews + trust bar.
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

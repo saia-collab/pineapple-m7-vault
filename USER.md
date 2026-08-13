@@ -24,6 +24,5 @@ color_status: "#00BFFF"
 - Reconciling multiple source playbooks into one MASTER_PLAYBOOK (single source of truth).
 - Vault is the Obsidian vault and is Google-Drive-synced; let Drive settle before launching.
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

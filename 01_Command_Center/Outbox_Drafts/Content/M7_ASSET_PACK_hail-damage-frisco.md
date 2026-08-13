@@ -200,6 +200,5 @@ We've been a family-owned, Polynesian-owned company in North Texas since 2005. R
 Proof before opinions.
 
 — The Pineapple Roofing family
-*Ko e hala 'o e fononga ko e faka'apa'apa.*
 
 <!-- M7-FIREWALL-EXEMPT: asset-pack -->

@@ -1316,6 +1316,5 @@ classification: M7_Command_Level_1
 | 1277 | seo-pack |
 | 1278 | vault-setup-SKILL |
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

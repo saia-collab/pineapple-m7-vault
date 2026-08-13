@@ -44,6 +44,5 @@ A client calls/texts → the agent answers, talks, and books the slot. Two setup
 2. **Use `/save` + `/wiki-ingest`** to bank good agent outputs + sources into the vault (grounding = no hallucinated claims in your SOPs).
 3. **Wire the voice-booking path** (Hermes + Google Workspace) as the CPPA speed-to-lead front door — PAUSED/confirmed by you.
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

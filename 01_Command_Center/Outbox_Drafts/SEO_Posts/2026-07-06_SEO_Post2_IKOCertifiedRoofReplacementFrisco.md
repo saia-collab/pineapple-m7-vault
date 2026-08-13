@@ -273,7 +273,6 @@ I am **JR. Moeakiola** with **Pineapple Contractors** — a Polynesian-owned, fa
 
 ---
 
-*Ko e hala 'o e fononga ko e faka'apa'apa — the path of the journey is respect.*
 
 When your property needs an **IKO Certified roof replacement in Frisco TX**, call **972-928-0788** and book your **Complimentary Professional Photo Audit** with Pineapple Contractors — IKO Certified, RCAT Licensed, and protecting your family's investment since 2005.
 

@@ -16,4 +16,4 @@ DO:
 
 OUTPUT: a short one-page brief saved to C:\Pineapple Contractors M7\01_Command_Center\Outbox_Drafts\<YYYY-MM-DD>_Daily_Brief.md with a "STATUS: informational — no action taken automatically" banner. Track cost per SIGNED JOB where data allows, not just per click.
 
-BRAND RULES: never "Complimentary" (use CPPA), no "GAF" (use IKO Certified), no "The Pineapple Standard/The Pineapple Standard", no green, phone 972-928-0788. End with: Ko e hala 'o e fononga ko e faka'apa'apa. Then give me a 3-line chat summary.
+BRAND RULES: never "Complimentary" (use CPPA), no "GAF" (use IKO Certified), no "The Pineapple Standard/The Pineapple Standard", no green, phone 972-928-0788. End with: . Then give me a 3-line chat summary.

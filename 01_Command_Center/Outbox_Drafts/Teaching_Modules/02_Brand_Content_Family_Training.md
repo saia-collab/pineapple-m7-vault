@@ -41,6 +41,5 @@ Take one photo. Make three posts:
   "colors": {"navy": "#1A365D", "gold": "#FBC02D"} }
 ```
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: teaching-module -->

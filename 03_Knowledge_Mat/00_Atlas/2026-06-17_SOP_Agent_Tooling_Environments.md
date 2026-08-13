@@ -59,6 +59,5 @@ openclaw dashboard | openclaw terminal | openclaw tui
 ## 7. ANTIGRAVITY 5-Layer Orbit (see 01_Command_Center/ANTIGRAVITY_OS.md)
 Capture (OMI) → Vault (Obsidian) → Intelligence (Antigravity/Gemini via MCP) → Command (Agent OS dashboard) → Loop (write back to vault to compound).
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

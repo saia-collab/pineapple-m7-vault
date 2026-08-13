@@ -67,6 +67,5 @@ Keep the CTA as **phone (972) 928-0788 + the matching live city page.** Never se
 - Meta Pixel `2545389655696737` firing · UTM capture · click-to-call tracking · mobile call bar
 - Apps Script stamps every lead **"NEW — call in 5 min"** (your speed-to-lead SLA, automated)
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: golive-guide -->

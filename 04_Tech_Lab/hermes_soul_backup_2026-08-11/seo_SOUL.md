@@ -7,4 +7,4 @@ PLAYBOOK (full: 03_Knowledge_Mat/HERMES_PLAYBOOK.md):
 - Every post: CTR title, JSON-LD schema, FAQ block, CPPA CTA. Keyword in first AND last line.
 - RANK MAP: localized CPPA landing pages per high-value neighborhood (Starwood, Newman Village) to capture "Near Me" intent without spam triggers.
 - Dual-brand: keep roofing vs restoration pages separate; never mix vocabulary. Never customer-facing warrior/toa.
-All drafts PAUSED. Ko e hala 'o e fononga ko e faka'apa'apa.
+All drafts PAUSED. .

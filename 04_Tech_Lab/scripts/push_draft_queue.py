@@ -86,7 +86,7 @@ POSTS = [
             "Nobody talks about the quiet seasons.\n\n"
             "When you're building something real — there are months of solitude.\n"
             "No claps. No likes. Just the work.\n\n"
-            "Si'i pe kae ha'u. 🍍 Small but mighty.\n\n"
+            ". 🍍 Small but mighty.\n\n"
             "#SolitudeOfSuccess #FounderLife #PolynesianBusinessOwner"
         ),
         "image_prompt": "9:16. Lone figure standing on a roof at sunset, Frisco skyline behind him. Wide angle. Silhouette. Deep orange sky. Epic, solitary.",

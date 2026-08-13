@@ -36,7 +36,7 @@ outbox_shield: DEC-005 — all output PAUSED. No live publishing, no ad-spend au
 | Luxury enclaves | Starwood, Newman Village | MASTER_PLAYBOOK § Regional |
 | Brand Law | M7 constitution (CPPA / IKO Certified (RCAT #03-0637) / Navy #1A365D + Gold #FBC02D + Cyan #00BFFF / zero green / phone 972-928-0788) | MASTER_PLAYBOOK § Brand Firewall + HERMES_PLAYBOOK |
 | Author byline | JR. Moeakiola | HERMES_PLAYBOOK |
-| Heritage close | "Ko e hala 'o e fononga ko e faka'apa'apa" | MASTER_PLAYBOOK § Heritage Anchors |
+| Heritage close | "" | MASTER_PLAYBOOK § Heritage Anchors |
 | Cite target | Local pack + organic blue-link + AEO citation (answer in first 40 words) | HERMES_PLAYBOOK § Local SEO / GEO Engine |
 | Trust signals on every layout | RCAT #03-0637 · IKO Certified · 5-Star · Since 2005 · 972-928-0788 · HUB #1861616404400 | HERMES_PLAYBOOK |
 | Minimum project baseline | $18,000+ (rejects below) | HERMES_PLAYBOOK § High-Value Metrics |
@@ -255,7 +255,7 @@ For every silo page (Phase 4), ship these copy blocks:
 9. **Photo + EXIF-stamped gallery** — 3–6 photos from Phase 2, each with `imageObject` JSON-LD.
 10. **Service area footer** — explicit ZIP + city list (75033, 75034, 75035, 75067, 75068; Starwood, Newman Village, Stonebriar, Phillips Creek Ranch, Lawler Park; plus Lewisville, McKinney, Plano, Allen, The Colony, Castle Hills).
 11. **Trust bar** — Royal Navy `#1A365D` strip, Gold `#FBC02D` text: "Pineapple Contractors | RCAT Licensed #03-0637 | IKO Certified RoofPro Team | 972-928-0788".
-12. **Heritage close** — "Ko e hala 'o e fononga ko e faka'apa'apa" (with English translation: "the path of the journey is respect") — on every long-form page.
+12. **Heritage close** — "" (with English translation: "the path of the journey is respect") — on every long-form page.
 
 ### 3.4 Compliance gate (per asset)
 
@@ -442,7 +442,7 @@ Tracking: each touchpoint tagged with a UTM and a unique short code, logged in `
 - [x] Royal Navy photo moat (10px `#1A365D` border on all before/after) noted for Phase 2 / 4.
 - [x] Trust signals stamped: RCAT #03-0637 · IKO Certified · 5-Star · Since 2005 · 972-928-0788 · HUB #1861616404400.
 - [x] Author byline: JR. Moeakiola.
-- [x] Heritage close: "Ko e hala 'o e fononga ko e faka'apa'apa".
+- [x] Heritage close: "".
 - [x] Dual-brand firewall: zero Restorations terminology in this Pineapple Roofing SOP.
 - [x] Outbox Shield (DEC-005): all outputs PAUSED. No live publishing, no ad-spend, no site deploy, no GBP post.
 
@@ -458,5 +458,3 @@ Tracking: each touchpoint tagged with a UTM and a unique short code, logged in `
 - Move any Kanban card from `⛔ Human Approval` to `🛠️ Implementation` or `🏛️ Shipped Gallery` without your per-step "GO".
 - Modify the dual-brand firewall to allow cross-linking to Pineapple Restorations assets.
 - Apply EXIF geotags to any image that is not owned by Pineapple Contractors (no stock, no competitor, no user-submitted).
-
-Ko e hala 'o e fononga ko e faka'apa'apa.

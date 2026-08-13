@@ -62,7 +62,7 @@ Negative space = white `#FFFFFF`. Any green hex/rgba/named/Tailwind class = crit
 - **One sentence per line** in markdown/chat drafts (kills the wall-of-text look).
 - **Name the framework**: "The ___ Method™" or "The ___ Engine™" — 3 rhythmic, chantable steps.
 - **M7 lexicon is non-negotiable:** CPPA (never "free") · IKO Certified (never "GAF") · "Full Restoration Coverage" (never "$0 down") · The Pineapple Standard (never warrior/toa) · RCAT #03-0637 · IKO · 5-Star · Since 2005 · 972-928-0788.
-- **Close long-form** with the proverb: *Ko e hala 'o e fononga ko e faka'apa'apa*.
+- **Close long-form** with the proverb: **.
 - **Every asset PAUSED** to `01_Command_Center/Outbox_Drafts/` — Saia publishes.
 
 ## HERO / LAYOUT ENVELOPES (Brand Firewall visual law)
@@ -72,6 +72,5 @@ Negative space = white `#FFFFFF`. Any green hex/rgba/named/Tailwind class = crit
 ## THE M7 NAME FOR THIS SKILL
 **The Documentation-First Engine™** — *Show. Don't sell. Prove.* (Problem → Proof → Path.)
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference (palette table lists banned hexes as definitions) -->

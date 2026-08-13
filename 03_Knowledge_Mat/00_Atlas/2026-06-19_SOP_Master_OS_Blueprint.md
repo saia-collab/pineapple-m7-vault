@@ -115,6 +115,5 @@ Run scoping prompt: define output type, topic, audience, goal → convert to for
 
 ---
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

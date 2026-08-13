@@ -53,7 +53,7 @@ Every artifact crossing a stage gate is wrapped in this envelope. Required field
     "human_authorization_required": true
   },
   "signature": "sha256:<hash-of-payload>",
-  "closing": "Ko e hala 'o e fononga ko e faka'apa'apa."
+  "closing": "."
 }
 ```
 
@@ -163,6 +163,5 @@ Each `05_Campaign_Factory` stage folder's `CONTEXT.md` declares which envelope `
 
 ---
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

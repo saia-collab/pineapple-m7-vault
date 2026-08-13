@@ -109,6 +109,5 @@ grounding files, and it produces PAUSED drafts on schedule. Your only standing j
 Say: *"Make a loop that every [when] does [what], saved to Outbox."* I'll wire it, firewall it, and
 it shows up in your `Scheduled/` panel. You review the first run and approve its tools once.
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

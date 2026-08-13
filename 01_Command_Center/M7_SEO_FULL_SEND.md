@@ -69,6 +69,5 @@ with you. Use the `M7_CHATGPT_HANDOFF.md` city-page prompt.
 - [ ] Build Allen, Grapevine, Euless, Frisco, Plano city pages (in that order).
 - [ ] Track positions weekly in OpenSEO. Anything that moves to top 5 → repeat the play on the next keyword.
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

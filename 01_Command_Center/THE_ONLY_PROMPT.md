@@ -49,7 +49,7 @@ Do this:
 4. node --check 04_Tech_Lab\server.js and python -m py_compile on any script you touched.
 5. Give me a short plain-English report: what you merged, what you filed, what changed,
    and anything that needs MY decision. Do NOT make me edit files.
-Conclude with: Ko e hala 'o e fononga ko e faka'apa'apa.
+Conclude with: .
 ```
 
 ## That's it
@@ -57,6 +57,5 @@ Conclude with: Ko e hala 'o e fononga ko e faka'apa'apa.
 - No manual editing. No IDE to learn. No copy-pasting code.
 - If Claude Code ever asks permission, it's safe to say yes for anything inside this vault.
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

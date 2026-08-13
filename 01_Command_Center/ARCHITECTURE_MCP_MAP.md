@@ -204,5 +204,3 @@ C:\Pineapple Contractors M7\.obsidian\
 > Obsidian canvas color tokens used: `3` (gold-family) and `5` (cyan-family). Color `4` (green) is intentionally never used.
 
 ---
-
-Ko e hala 'o e fononga ko e faka'apa'apa.

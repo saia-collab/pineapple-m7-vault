@@ -39,5 +39,5 @@
     "default_state": "PAUSED_PENDING_HUMAN_REVIEW",
     "target_directory": "01_Command_Center/Outbox_Drafts/"
   },
-  "system_signature": "Ko e hala 'o e fononga ko e faka'apa'apa."
+  "system_signature": "."
 }

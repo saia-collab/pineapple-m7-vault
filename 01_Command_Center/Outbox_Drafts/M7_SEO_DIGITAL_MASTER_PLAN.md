@@ -104,6 +104,5 @@ You have 39GB of field media + client testimonials — that's a year of content 
 ## ✅ THE ONE-LINE STRATEGY (corrected)
 **Build roofingllc.com into the fast, review-rich, storm-page-heavy flagship, 301 the old agency site into it, then fire Scorpion — while the 39GB media becomes your always-on social engine. Get found by people who DON'T know your name yet.**
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

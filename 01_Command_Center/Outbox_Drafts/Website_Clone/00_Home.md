@@ -50,7 +50,7 @@ Button (Gold): Start My CPPA →
 - **IKO Certified craftsmanship** — certified installs, 50-year product warranties.
 - **Insurance claims handled** — we document the damage and work with your adjuster.
 - **Clear communication** — you always know what's happening and why.
-> Proverb line (brand voice): *Ko e hala 'o e fononga ko e faka'apa'apa* — the path of the
+> Proverb line (brand voice): ** — the path of the
 > journey is respect.
 
 ## SECTION 7 — Service Areas (links to the pages that already rank)

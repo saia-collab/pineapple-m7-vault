@@ -68,6 +68,5 @@ Play with these — nothing goes live, it just builds your muscle memory:
 ## 🟢 LOWEST-PRIORITY (stop spending energy here)
 Rebuilding/cloning the flagship, chasing the "$10M autonomous" directive, and perfecting brand copy before Sione's doc — all blocked or low-ROI right now.
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

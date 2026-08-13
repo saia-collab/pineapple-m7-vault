@@ -40,6 +40,5 @@ brand_check: CPPA · IKO Certified · RCAT #03-0637 · 972-928-0788 · zero gree
   "colors": {"navy": "#1A365D", "gold": "#FBC02D"} }
 ```
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: teaching-module -->

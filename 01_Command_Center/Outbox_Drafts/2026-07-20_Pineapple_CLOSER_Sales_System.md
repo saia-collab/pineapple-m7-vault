@@ -86,5 +86,3 @@ your only urgency — and it's true. Don't invent fake discounts.
 - **Day 2:** "Quick one — did you have a chance to look at the damage photos? Happy to walk through what they mean."
 - **Day 5:** "Reminder your claim window is still open. Want me to hold a spot to file this week?"
 - **Day 10:** "Closing out my storm list for this neighborhood — want me to keep your spot or release it?"
-
-Ko e hala 'o e fononga ko e faka'apa'apa.

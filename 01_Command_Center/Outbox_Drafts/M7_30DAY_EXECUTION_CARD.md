@@ -69,6 +69,5 @@ Upload video → paste caption from the pack → select all platforms → **Sche
 > We cut 5 clips a week in the Video Editor, each becomes 3 posts, Blotato schedules them,
 > and nothing goes live until you say GO."*
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: execution-card -->

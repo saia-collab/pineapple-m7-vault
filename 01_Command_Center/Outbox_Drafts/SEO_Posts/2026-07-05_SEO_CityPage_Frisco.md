@@ -45,7 +45,6 @@ Pineapple Contractors is IKO Certified and holds RCAT License #03-0637, serving 
 We prioritize storm-impacted Frisco ZIPs (75033/75034/75035) for rapid CPPA scheduling — call 972-928-0788.
 
 ---
-*Ko e hala 'o e fononga ko e faka'apa'apa — the path of the journey is respect.*
 
 For a documented, fully-covered **roof replacement in Frisco, TX**, book your Complimentary Professional Photo Audit today.
 

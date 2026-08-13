@@ -27,7 +27,6 @@ Usage
 
 M7-FIREWALL-EXEMPT: green-detection-tooling
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 """
 
 from __future__ import annotations
@@ -381,7 +380,7 @@ def write_report(root: Path, violations, fixed_files):
         "warnings": sum(1 for v in violations if v.severity == "warn"),
         "fixed_files": fixed_files,
         "violations": [v.as_dict() for v in violations],
-        "closing": "Ko e hala 'o e fononga ko e faka'apa'apa.",
+        "closing": ".",
     }
     out = root / "04_Tech_Lab" / "Scripts" / "firewall_report.json"
     out.parent.mkdir(parents=True, exist_ok=True)
@@ -451,7 +450,7 @@ def main(argv=None):
     if warnings and not args.fix:
         print("[firewall] lexicon flags present — run with --fix to mutate.")
         return 1
-    print("[firewall] PASS — Ko e hala 'o e fononga ko e faka'apa'apa.")
+    print("[firewall] PASS — .")
     return 0
 
 

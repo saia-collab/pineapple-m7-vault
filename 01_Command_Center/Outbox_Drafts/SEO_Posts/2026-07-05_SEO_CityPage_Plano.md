@@ -40,7 +40,6 @@ IKO Certified and RCAT Licensed #03-0637, serving Plano and North Texas since 20
 We prioritize storm-impacted Plano neighborhoods for fast CPPA scheduling.
 
 ---
-*Ko e hala 'o e fononga ko e faka'apa'apa — the path of the journey is respect.*
 
 For an evidence-based **hail damage roof inspection in Plano, TX**, book your Complimentary Professional Photo Audit today.
 

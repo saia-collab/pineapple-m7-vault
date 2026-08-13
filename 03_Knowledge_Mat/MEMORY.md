@@ -32,6 +32,5 @@ Baseline $18,000+. Speed-to-lead 5 min. 1-3-12 Meta (1% Kill / 1.5% Scale, CPL $
 ## Session log
 - 2026-06-17 — Consolidated playbooks, built firewall/scoring/factory/intake, wired AI fleet + Hermes dispatch, merged Master Execution Spec, added hermes_skills + daemon + compose.
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

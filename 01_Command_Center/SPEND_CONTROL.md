@@ -31,6 +31,5 @@ Run every Monday (or let the daily sync surface it):
 - Cost per CPPA booked, not just clicks. A $40 CPL that books $18k+ jobs beats a $20 CPL that doesn't.
 - Track booked-CPPA → signed-job rate per avatar. Double down on the avatar that converts to signed restoration work.
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

@@ -183,5 +183,3 @@ I'm **JR. Moeakiola** with **Pineapple Contractors** — a Polynesian-owned, fam
 If a storm has passed over your property, do not wait for the leak to prove the damage.
 
 Book your CPPA today, protect your claim, and let a certified local team handle your hail damage roof repair in Frisco TX.
-
-*Ko e hala 'o e fononga ko e faka'apa'apa — the path of the journey is respect.* 🌺

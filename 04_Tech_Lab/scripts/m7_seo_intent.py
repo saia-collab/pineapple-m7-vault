@@ -33,7 +33,6 @@ Usage:
     python m7_seo_intent.py --target-zip 75034 --competitor-url https://example.com
     python m7_seo_intent.py --target-zip 75034 --dry-run
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 """
 
 from __future__ import annotations
@@ -410,7 +409,7 @@ def render_intent_markdown(target_zip: str, keywords: list, competitor_url: str 
         "No green.\n"
         "- Outbox Shield: this file is PAUSED in `05_Campaign_Factory/10_Research_Stage/`. "
         "No outbound publish from this stage.\n\n"
-        "Ko e hala 'o e fononga ko e faka'apa'apa.\n"
+        ".\n"
     )
 
     return frontmatter + banner + cred + kw_section + rubric_section + hook_section + bait_section + comp_section + firewall_section

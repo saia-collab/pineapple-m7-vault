@@ -47,6 +47,5 @@ Save to 01_Command_Center/Outbox_Drafts/30_Day_Gameplan.md. Keep all rules (CPPA
 2. Text finished customers for a Google review.
 3. Give Hermes one task above.
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

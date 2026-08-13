@@ -50,5 +50,3 @@ Open Claude Code and paste:
 > "Read `m7_execution_manifest.md` and `03_Knowledge_Mat/SHARED_MEMORY.md`, then show me what Hermes drafted overnight in the Outbox and what needs my GO."
 
 Everything is waiting for you, PAUSED. You approve, then it ships.
-
-*Ko e hala 'o e fononga ko e faka'apa'apa — the path of the journey is respect.* 🌺

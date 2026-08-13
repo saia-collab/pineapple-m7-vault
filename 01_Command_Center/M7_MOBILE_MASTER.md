@@ -52,7 +52,7 @@ This file is the immutable law every agent (Claude Code, Hermes, OpenClaw, Noteb
 ## 3. HERITAGE ANCHORS
 - Identity: Polynesian-owned, family-operated, serving North Texas since 2005.
 - Principles: *Tauhi Vā* (honor shared spaces and relationships) and *Loto Tō* (humility, honest service).
-- Heritage wisdom sign-off: *"Ko e hala 'o e fononga ko e faka'apa'apa"* (primary); *"Si'i pe kae ha'u"* (secondary).
+- Heritage wisdom sign-off: *""* (primary); *""* (secondary).
 - Voice: professional, authoritative, culturally rooted; no robotic corporate filler.
 
 ## 4. HIGH-VALUE METRICS
@@ -67,7 +67,6 @@ This file is the immutable law every agent (Claude Code, Hermes, OpenClaw, Noteb
 - Advantage+ creative enhancements hardcoded OFF.
 - OUTBOX SHIELD: all ad/web/social output written to `01_Command_Center/Outbox_Drafts/` in a PAUSED state. Live activation requires explicit human authorization. No agent may publish live or move money.
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 
 ---
@@ -203,7 +202,7 @@ Flat, execution-ready procedures for direct consumption by local agents (Claude 
 - Identity: Polynesian-owned, family-operated, serving North Texas since 2005.
 - Core principles: *Tauhi Vā* (sacred obligation to honor and protect shared spaces and relationships) and *Loto Tō* (humility and honest service).
 - **Fā'i Kaveikoula (The Four Golden Pillars):** *Faka'apa'apa* (mutual respect), *Angafakatokilalo / Loto-tō* (humility, teachability), *Tauhi Vā* (nurturing relationships), *Mamahi'i me'a* (passion, loyalty, fierce dedication to execution).
-- Major announcements and long-form copy close with a heritage wisdom anchor — primary: *"Ko e hala 'o e fononga ko e faka'apa'apa"* (the path of the journey is respect); secondary: *"Si'i pe kae ha'u"* (small but mighty).
+- Major announcements and long-form copy close with a heritage wisdom anchor — primary: *""* (the path of the journey is respect); secondary: *""* (small but mighty).
 - Voice: professional, authoritative, culturally rooted; no robotic corporate filler ("leverage", "synergize").
 
 ### High-Value Project Metrics (The Pineapple Standard)
@@ -306,7 +305,6 @@ The single source of truth references these detailed Atlas SOPs (merged from the
 - Raw source playbooks preserved in `03_Knowledge_Mat/raw/` (zero-loss).
 
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 
 ---
@@ -815,7 +813,6 @@ green, no GAF, no Toa/Warrior. Run brand_firewall.py --fix, then save PAUSED to 
 4. Post the Section 5.1 + 5.2 FAQ block to your core Frisco page (or queue it for the web fix).
 5. Monday: read Hermes' weekly review → put next effort on whatever **signed a job.**
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 
 ---
@@ -919,7 +916,6 @@ grounding files, and it produces PAUSED drafts on schedule. Your only standing j
 Say: *"Make a loop that every [when] does [what], saved to Outbox."* I'll wire it, firewall it, and
 it shows up in your `Scheduled/` panel. You review the first run and approve its tools once.
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 
 ---
@@ -1000,7 +996,6 @@ Put next week's budget on the source with the lowest **cost per signed job** (no
 3. Make the attribution sheet; log every lead this week.
 That's the whole growth engine. The AI just makes it faster.
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 
 ---
@@ -1068,7 +1063,6 @@ Goal: when someone (or ChatGPT/Google AI) asks "best Frisco roofer for hail clai
 ## THE ONLY METRIC THAT MATTERS
 **Cost per booked CPPA → signed job, per source.** Everything above exists to lower it. Track it in the CRM Attribution tab; shift budget to the winner monthly.
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 
 ---
@@ -1142,7 +1136,6 @@ Log which hook + clip drove leads in the CRM → that's your data for the weekly
 Higgsfield "Advantage+"-style auto-enhancements OFF for brand control. No green, no banned terms —
 the firewall checks every caption. All ad spend stays human-approved (Outbox Shield).
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 
 ---
@@ -1215,7 +1208,6 @@ This is your unfair advantage — real drone + before/after + testimonial footag
 4. GBP: 2 posts + fresh photos/week from your media.
 5. Log every lead in the new CRM `Google_LSA_Leads` tab.
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 
 ---
@@ -1310,7 +1302,6 @@ You don't *have* to use it — it's the visual view. Hermes + the Outbox folder 
 Do ONLY this: (1) answer LSA leads in 5 min, (2) text finished customers for a review,
 (3) ask Hermes one task from above. That's the whole business. Everything else is bonus.
 
-Ko e hala 'o e fononga ko e faka'apa'apa.
 
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->

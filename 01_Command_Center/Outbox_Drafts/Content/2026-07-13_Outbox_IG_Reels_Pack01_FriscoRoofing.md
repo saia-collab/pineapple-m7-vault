@@ -209,7 +209,7 @@ CPPA — comprehensive documentation for a successful claim.
 **Caption:**
 We started in 2005 because North Texas families deserved a contractor who built the way we'd build for our own. Twenty years later, that's still the only Standard we know.
 
-Ko e hala 'o e fononga ko e faka'apa'apa — the path of the journey is respect. Every roof, every family, every Frisco ZIP.
+. Every roof, every family, every Frisco ZIP.
 
 If that's how you want to be treated, we're ready when you are.
 
@@ -249,4 +249,3 @@ To publish, schedule, or push to Blotato, Saia must explicitly say **"GO"** for 
 Once GO, the Blotato schedule should be staged **12 months out** per the 12-Month Safety Rule — Saia drags posts to Today on the desired publish date.
 
 — JR. Moeakiola · Pineapple Roofing · pineapplecontractors.com
-Ko e hala 'o e fononga ko e faka'apa'apa.

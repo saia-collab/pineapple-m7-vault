@@ -40,7 +40,6 @@ IKO Certified and RCAT Licensed #03-0637, serving The Colony and North Texas sin
 We prioritize storm-impacted The Colony neighborhoods for fast CPPA scheduling — call 972-928-0788.
 
 ---
-*Ko e hala 'o e fononga ko e faka'apa'apa — the path of the journey is respect.*
 
 For documented **roof repair in The Colony, TX**, book your Complimentary Professional Photo Audit today.
 
