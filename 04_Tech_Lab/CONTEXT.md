@@ -1,25 +1,8 @@
----
-type: stage_contract
-room: 04_Tech_Lab — Execution Engine
-status: active
-color_primary: "#1A365D"
-color_secondary: "#FBC02D"
-color_status: "#00BFFF"
----
+# CONTEXT.md — 04_Tech_Lab (ICM Layer 4 — the engine room)
+**One job:** run the mechanical scripts (video render, scraping, Meta/Google uploaders). Deterministic — NO AI copywriting happens here. Configs, `.env`, and CLI tools live here.
 
-# CONTEXT — 04_Tech_Lab — Execution Engine
-
-**Accepts envelope state:** n/a
-**Emits envelope state:** n/a
-
-## Input Criteria
-- Verified MCPs and vetted Python/Node scripts.
-
-## Output Criteria
-- Flawless terminal execution with zero unhandled exceptions.
-
-> Compliance gate: `brand_firewall.py` must return PASS (0 green violations) before any artifact advances. All outbound delivery remains PAUSED (Outbox Shield).
-
-Ko e hala 'o e fononga ko e faka'apa'apa.
-
-<!-- M7-FIREWALL-EXEMPT: governance-reference -->
+## Rules
+- Scripts read inputs (JSON contracts from `03_Knowledge_Mat`, assets from `02_Media_Vault`) and write outputs to a pipeline `output/` or `Outbox_Drafts/`.
+- Anything customer-facing that a script produces is still **PAUSED** — e.g. Meta campaigns upload in a PAUSED state; nothing spends without Saia's GO.
+- Keep `.env` / keys here; never print or commit secrets.
+- This is where `icm-architect` (installed skill) can scaffold new pipelines with the "walk test".

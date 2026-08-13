@@ -3,8 +3,9 @@
 ## READ THIS FIRST — Every session starts here
 When Claude Code opens in this folder, immediately:
 1. Read `01_Command_Center/M7_MASTER_SOP.md` — this is your operating manual
-2. Read `03_Knowledge_Mat/SHARED_MEMORY.md` — shared context across all agents
-3. Confirm to Saia: "M7 OS loaded. Ready. Here are the SOPs I can run: [list them]"
+2. Read `CONTEXT.md` (root) — the ICM router: which folder handles what. Load only the room you need. (Method: `01_Command_Center/M7_ICM_FOLDER_SOP.md`; live state: `_memory/`)
+3. Read `03_Knowledge_Mat/SHARED_MEMORY.md` — shared context across all agents
+4. Confirm to Saia: "M7 OS loaded. Ready. Here are the SOPs I can run: [list them]"
 
 ## Working Directory
 **Always operate from: `C:\Pineapple Contractors M7`**

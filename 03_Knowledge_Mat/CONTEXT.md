@@ -1,25 +1,17 @@
----
-type: stage_contract
-room: 03_Knowledge_Mat — Neural Substrate (RAG)
-status: active
-color_primary: "#1A365D"
-color_secondary: "#FBC02D"
-color_status: "#00BFFF"
----
+# CONTEXT.md — 03_Knowledge_Mat (ICM Layer 3/4 — the woven brain)
+**One job:** turn raw research + homeowner/competitor intel into structured contracts (JSON) and script drafts. This is the Obsidian second brain.
 
-# CONTEXT — 03_Knowledge_Mat — Neural Substrate (RAG)
+## Inputs
+- Working (this run): research notes, transcripts, scrapes dropped here
+- Reference (every run): `Brand_DNA/` voice + any content templates
 
-**Accepts envelope state:** DRAFT
-**Emits envelope state:** READY
+## Process
+1. Read the research.
+2. Weave into a structured contract (e.g. hooks/offers/CTAs as JSON) OR a script draft.
+3. Link notes in Obsidian; keep the Map-of-Content index current.
 
-## Input Criteria
-- Unstructured transcripts, field data, historical debriefs (into raw/).
+## Output
+- JSON contracts + script drafts → this folder's working area, then `Outbox_Drafts/` when customer-facing.
 
-## Output Criteria
-- Flattened, deduplicated markdown mapped to 00_Atlas for low-latency RAG.
-
-> Compliance gate: `brand_firewall.py` must return PASS (0 green violations) before any artifact advances. All outbound delivery remains PAUSED (Outbox Shield).
-
-Ko e hala 'o e fononga ko e faka'apa'apa.
-
-<!-- M7-FIREWALL-EXEMPT: governance-reference -->
+## Human check
+Read the draft aloud. Verify the argument survived from research and brand voice held. Edit in place — the next step reads what you leave.

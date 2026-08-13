@@ -1,25 +1,17 @@
----
-type: stage_contract
-room: 01_Command_Center — Strategic Brain
-status: active
-color_primary: "#1A365D"
-color_secondary: "#FBC02D"
-color_status: "#00BFFF"
----
+# CONTEXT.md — 01_Command_Center (ICM Layer 2)
+**One job:** hold the strategy + brand law. You write no code and touch no media here — you read playbooks and `Brand_DNA/` to set direction, then hand off.
 
-# CONTEXT — 01_Command_Center — Strategic Brain
+## Inputs
+- Reference (every run): `Brand_DNA/` (BRAND_KIT, voice, colors) + root `CLAUDE.md` (brand law)
+- Reference: the playbooks / SOPs in this folder + `M7_PROMPT_CONTROL_PANEL.md`
 
-**Accepts envelope state:** n/a
-**Emits envelope state:** READ-ONLY
+## Process
+1. Read the relevant playbook + brand law.
+2. Decide the strategic direction / offer / angle.
+3. Write the brief or campaign spec.
 
-## Input Criteria
-- Authorized strategic updates from the Lead Systems Architect only.
+## Output
+- Briefs, specs, approved copy → `Outbox_Drafts/` (PAUSED until Saia's GO).
 
-## Output Criteria
-- Immutable, read-only .md rulesets for all local agents to ground against.
-
-> Compliance gate: `brand_firewall.py` must return PASS (0 green violations) before any artifact advances. All outbound delivery remains PAUSED (Outbox Shield).
-
-Ko e hala 'o e fononga ko e faka'apa'apa.
-
-<!-- M7-FIREWALL-EXEMPT: governance-reference -->
+## Human check
+Saia reads the direction. Confirms brand law held (CPPA not "free", IKO not GAF, Navy/Gold/Cyan, zero green). Edit in place.
