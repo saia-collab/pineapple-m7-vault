@@ -175,6 +175,24 @@ It'll write a real post, in our voice, in seconds — and it lands paused for yo
 
 ---
 
+## 12) 📱💻 HOW WE BOTH GET TO THE PLAYBOOK (phone + computer)
+The whole playbook lives in one place and copies itself to the cloud every time we finish a session — so you and Saia both see the **same, always-current** binder, on any device.
+
+| Way in | Best for | On your computer | On your phone |
+|---|---|---|---|
+| **This handoff link** | A quick read, share with anyone | open the link in any browser | same link opens on any phone — no login |
+| **GitHub** (`pineapple-m7-vault`) | The **whole** playbook, always current | github.com in any browser | free **GitHub app** → sign in → open `pineapple-m7-vault` |
+| **Obsidian** | Reading + editing it nicely | the Obsidian app on the Mac (already set up) | Obsidian mobile app, synced to the same vault |
+
+**Simplest setup for you (just want to see it on your phone):**
+1. Install the **GitHub app** (free, iOS/Android).
+2. Saia adds you once: GitHub → `pineapple-m7-vault` → Settings → Collaborators → add your username.
+3. Done — the entire playbook is in your pocket, and it **updates itself** every time we say *"commit and push"* (which we do at the end of every session).
+
+**One thing to know:** the **Studio itself** (the coaching room) only runs on the **Mac** — that's where the assistant coaches do the work. Your **phone is for viewing the playbook and approving plays**, not running the studio. The film room stays at the facility; the playbook goes in everyone's pocket.
+
+---
+
 ## THE ONE RULE (again, because it matters)
 **Nothing publishes, posts, sends, or spends without a brother's GO.** The AI is the best assistant coach we've ever had — but you and Saia are the only ones who send a play onto the field. 🍍
 
