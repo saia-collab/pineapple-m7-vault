@@ -1,1 +1,1 @@
-﻿# Areas — PARA lane (claude-obsidian files new notes here)
+# Areas — PARA lane (claude-obsidian files new notes here)
