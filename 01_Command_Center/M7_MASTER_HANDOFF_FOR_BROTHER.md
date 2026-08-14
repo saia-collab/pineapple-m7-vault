@@ -3,7 +3,7 @@ type: master_handoff
 title: M7 MASTER HANDOFF — the whole playbook, for Naa Sione (brother)
 audience: non-technical co-owner
 date: 2026-08-14
-brand_lock: CPPA (never "free") · IKO (never GAF) · Navy #1A365D + Gold #FBC02D + Cyan #00BFFF · zero green · RCAT #03-0637 · (972) 928-0788 · Since 2005 · Polynesian family-owned
+brand_lock (updated 2026-08-14 per Naa Sione): IKO Certified (never GAF) · Blue #003299 + Yellow #ffdd17 · zero green · "free inspection/estimate" OK — never "free" tied to repairs, deductibles, or claims · RCAT #03-0637 · (972) 928-0788 · Founded 2021 · Frisco HQ (Lewisville secondary) · Polynesian family-owned · "Roofing Made Sweeter"
 one_rule: Nothing goes live without a brother's GO. Every draft waits in the Outbox.
 ---
 
@@ -29,7 +29,7 @@ one_rule: Nothing goes live without a brother's GO. Every draft waits in the Out
 **Our scoring drive (the flywheel):**
 ```
 Google / LSA / Yelp  →  a City+Service page  →  they call/text for a
-Complimentary Photo Audit (CPPA)  →  we answer in 60 seconds  →  signed roof
+free roof inspection / storm damage report  →  we answer in 60 seconds  →  signed roof
  →  we ask for a review + post the before/after  →  that brings the next lead
 ```
 Every task in this whole system is just one lap around that drive.
@@ -93,7 +93,7 @@ Each folder has its own little "CONTEXT.md" card that says: what comes IN, what 
 | Phase | The goal | The plays |
 |---|---|---|
 | **Weekly** | Keep the drive moving | 1 new city page · this week's social · reply all reviews · check Google Search Console |
-| **🥇 First 30 days** | **Fix the stadium + run the plays already on the bench** | Fix the 4 broken menu links · fix the "Moss Landscape" identity (§7) · scrub "free"→CPPA on the live site · publish the 3 city pages already written · install tracking |
+| **🥇 First 30 days** | **Fix the stadium + run the plays already on the bench** | Fix the 4 broken menu links · fix the "Moss Landscape" identity (§7) · add the Frisco HQ address to the site · fix only the "free" wording that implies free repairs/waived deductibles (keep "free inspection/estimate") · publish the 3 city pages · install tracking |
 | **🥈 60 days** | **Turn jobs into leads on autopilot** | Connect the studio to WordPress as a **draft-only** helper · every finished job → post + review + neighborhood social |
 | **🥉 90 days** | **Consolidate + scale** | Migrate the old site's best pages to the new one (with redirects) · pour more money only into channels that produce **signed roofs** |
 
@@ -128,7 +128,7 @@ Our website's hidden ID tag (the thing Google reads to know *who we are*) says:
 | Priority | Problem | Fix |
 |---|---|---|
 | **P0** | Address doesn't match — the site footer says **Lewisville (4400 SH-121)**, our records say **Frisco (1 Cowboys Way)** | You confirm the ONE real public address |
-| **P0** | "Free inspection" language all over the live site | Replace every one with **CPPA** |
+| **P0** | "Free" used where it implies free repairs / waived deductibles (TX insurance-law risk) | Keep "free inspection/estimate"; remove any free-repair / deductible wording |
 | **P0** | Roofing and **Restorations** (water/fire/mold) are tangled on the same site | Split Restorations to its own site |
 | **P0** | 2 leftover **green** color presets hiding in the theme | Remove them |
 | **P0** | The "thank you" page + an empty blog are confusing Google | Hide the thank-you page from search; fill or hide the blog |
