@@ -57,6 +57,8 @@ It's a private control room on the Mac (opens at `localhost:3737`). Think of eac
 
 **How an SOP actually runs here:** open the Claude tab → paste the play (e.g. *"draft a Frisco roofing page, brand rules on, save to Outbox"*) → it writes it → it lands **paused** in the Outbox → you read it → you say GO. That's it. No code, no terminal.
 
+> 📖 **Every feature, one by one** (all 28 tabs + all 28 Hermes profiles, with use / goal / pro / con): see **`M7_STUDIO_FEATURES_MASTER_SOP.md`**.
+
 > ⚠️ **What broke this week (and the lesson):** two coaches (the "offline team" and the Ollama model) tried to run **on the Mac itself** and failed because **the disk was 100% full**. Lesson: we don't need those. The **cloud coaches (Claude, Free Claude Code) always work** even when the computer is full. When in doubt → **Claude tab.**
 
 ---
