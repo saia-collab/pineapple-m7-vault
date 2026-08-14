@@ -9,7 +9,7 @@ Responsibilities
 1.  Scan markdown / html / css / js / txt files across the vault.
 2.  Intercept and MUTATE banned lexicon to mandated replacements.
 3.  Enforce absolute exclusion of the color green (hex, rgb, named, Tailwind).
-4.  Validate the brand palette (#1A365D, #FBC02D, #00BFFF, #FFFFFF).
+4.  Validate the brand palette (#003299 blue, #ffdd17 yellow, #FFFFFF). [updated 2026-08-14 per Naa Sione]
 5.  Optionally run as a live file-system listener (watchdog) on the 4-Fala rooms.
 
 Exit codes
@@ -89,9 +89,11 @@ EXCLUDE_DIRS = {
 # Machine-generated output files that must never be self-scanned.
 EXCLUDE_FILENAMES = {"firewall_report.json", "skill_intake_log.json"}
 
-# Approved brand palette (lowercase hex).
-APPROVED_HEX = {"#1a365d", "#001122", "#001a33", "#fbc02d", "#ffd700",
-                "#e5a93c", "#00bfff", "#ffffff", "#ffe12d", "#000000"}
+# Approved brand palette (lowercase hex). Primary = Naa Sione brand 2026-08-14.
+APPROVED_HEX = {"#003299", "#ffdd17",                        # PRIMARY: Pineapple Blue + Yellow
+                "#1a365d", "#fbc02d", "#00bfff",             # legacy navy/gold/cyan (still allowed)
+                "#001122", "#001a33", "#ffd700",
+                "#e5a93c", "#ffffff", "#ffe12d", "#000000"}
 
 # --------------------------------------------------------------------------- #
 # RULE SET 1 — BANNED LEXICON (ordered: most specific first)
@@ -101,21 +103,27 @@ APPROVED_HEX = {"#1a365d", "#001122", "#001a33", "#fbc02d", "#ffd700",
 
 LEXICON_RULES = [
     # (regex pattern, mandated replacement, human label)
-    (r"free\s+inspection",            "Complimentary Professional Photo Audit (CPPA)", "free inspection"),
-    (r"free\s+quote",                 "Complimentary Professional Photo Audit (CPPA)", "free quote"),
-    (r"free\s+estimate",              "Complimentary Professional Photo Audit (CPPA)", "free estimate"),
+    # Brand law updated 2026-08-14 per Naa Sione (Brand_DNA/NAA_SIONE_BRAND_VOICE.md).
+    # KEY CHANGE: "free roof inspection/estimate/quote" is ALLOWED (approved CTA) — no rule.
+    # We ONLY police "free" where it implies free repair work or waived deductibles,
+    # which is a Texas Dept. of Insurance legal risk, not a style preference.
+    # --- LEGAL: never imply free roof work / repairs / waived deductible ---
+    (r"free\s+roof\s+replacement",    "roof replacement",                              "free roof replacement (illegal inducement)"),
+    (r"free\s+(?:new\s+)?roof\b(?!\s+(?:inspection|estimate|report|audit|quote))",
+                                      "new roof",                                      "free roof work (illegal inducement)"),
+    (r"free\s+repairs?\b",            "roof repair",                                   "free repair (illegal inducement)"),
+    (r"(?:waive[ds]?|waiving|absorb(?:ed|ing)?|cover(?:ed|ing)?|no|zero|free)\s+(?:your\s+)?deductible",
+                                      "document the full scope for your claim",        "deductible inducement (illegal)"),
     (r"\$0\s*(down|out\s*of\s*pocket)", "Full Restoration Coverage",                   "$0 down / out of pocket"),
     (r"zero\s+out\s+of\s+pocket",     "Full Restoration Coverage",                     "zero out of pocket"),
-    (r"adjusters?\s+miss\s+damage",   "Comprehensive documentation for a successful claim", "adjusters miss damage"),
-    (r"save\s+money",                 "Protecting your family's investment",           "save money"),
+    # --- Manufacturer ---
     (r"gaf\s+master\s+elite\s+certified", "IKO Certified (RCAT License #03-0637)",     "GAF Master Elite Certified"),
     (r"gaf\s+certified",              "IKO Certified (RCAT License #03-0637)",         "GAF Certified"),
+    (r"\bgaf\b",                      "IKO Certified",                                 "GAF"),
+    # --- Positioning ---
     (r"six\s+brothers",               "The Pineapple Standard",                        "Six Brothers"),
     (r"\bwarrior\b",                  "The Pineapple Standard",                        "Warrior"),
     (r"\btoa\b",                      "The Pineapple Standard",                        "Toa"),
-    (r"\bconsultation\b",             "Complimentary Professional Photo Audit (CPPA)", "Consultation"),
-    # Bare "Free" handled last so compounds above win first.
-    (r"\bfree\b",                     "Complimentary",                                 "Free (standalone)"),
 ]
 
 # Compile once. Word-level rules use IGNORECASE.
