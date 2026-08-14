@@ -11,6 +11,10 @@ one_rule: Every output lands PAUSED in the Outbox. Nothing goes live without a b
 # 🍍 STUDIO FEATURES MASTER SOP — THE COMPLETE LIST
 **Every single AI feature on our Local Studio — what it's for, what you get, the pro, the con, and the old way vs the new way.** Nothing summarized away. Look at any tab and know exactly why it exists.
 
+**📄 About the shareable link (Artifact):** this document also opens as a private **web page** (an "Artifact") that works on any phone or computer — no app, no login — so anyone can read it. It's the viewable copy of this vault file; update the file and the link updates.
+
+**🖥️ Desktop or phone?** The **Studio below runs only on the Mac desktop** — that's where the coaches build. Your **phone is for reading this + approving plays**, not running the studio.
+
 ## 🏈 The one idea first
 The Studio (`localhost:3737` on the Mac) is our **coaching facility.** Four kinds of staff:
 1. **Coder agents** = **position coaches** (different brains for a task).

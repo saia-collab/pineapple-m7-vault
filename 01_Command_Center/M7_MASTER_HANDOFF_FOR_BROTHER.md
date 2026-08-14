@@ -186,6 +186,10 @@ The whole playbook lives in one place and copies itself to the cloud every time 
 | **GitHub** (`pineapple-m7-vault`) | The **whole** playbook, always current | github.com in any browser | free **GitHub app** → sign in → open `pineapple-m7-vault` |
 | **Obsidian** | Reading + editing it nicely | the Obsidian app on the Mac (already set up) | Obsidian mobile app, synced to the same vault |
 
+**📄 What is that "link"?** It's an **Artifact** — a private web page of this exact document, hosted by Claude. Purpose: read the whole playbook on any phone or computer with **no app and no login**, and share it with anyone you choose. It's the *viewable copy* of the file that lives in our vault; when we update the file, the link updates too. (Private until you hit Share on the page.)
+
+**🖥️ Desktop or phone — which do we use?** The **Studio** (where the AI coaches build things) runs **only on the Mac desktop**. **Reading** the playbook and **approving** plays happens **anywhere** — phone, these links, or GitHub. You don't need the desktop just to read.
+
 **Simplest setup for you (just want to see it on your phone):**
 1. Install the **GitHub app** (free, iOS/Android).
 2. Saia adds you once: GitHub → `pineapple-m7-vault` → Settings → Collaborators → add your username.
