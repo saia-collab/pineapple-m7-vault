@@ -14,7 +14,7 @@ one_rule: Nothing goes live without a brother's GO. Every draft waits in the Out
 | In football | In our business |
 |---|---|
 | **Head coaches** | You + Saia. You call the plays. Nothing runs without your signal. |
-| **Coaching staff + film room** | The **Local Studio OS** on the Mac — a room full of AI "assistant coaches" that draw up plays, break down film, and write the game plan. They never take the field alone. |
+| **Coaching staff + film room** | The **Local Studio OS** on Saia's Windows PC — a room full of AI "assistant coaches" that draw up plays, break down film, and write the game plan. They never take the field alone. |
 | **The playbook binder** | Our **vault** (the folders) — every play, SOP, and scouting report, organized so any coach can find it. |
 | **Home stadium** | Our **website**. Right now the stadium has problems (wrong signs out front — more below). |
 | **Points on the board** | **Leads → signed roofs.** Everything we do is to score these. |
@@ -44,7 +44,7 @@ Every task in this whole system is just one lap around that drive.
 ---
 
 ## 2) THE LOCAL STUDIO OS — our coaching facility
-It's a private control room on the Mac (opens at `localhost:3737`). Think of each **tab as a specialist assistant coach.** They're free to run, they save everything to our playbook automatically, and **they run in the cloud so a full or slow computer doesn't stop them.**
+It's a private control room on Saia's Windows PC (opens at `localhost:3737`). Think of each **tab as a specialist assistant coach.** They're free to run, they save everything to our playbook automatically, and **they run in the cloud so a full or slow computer doesn't stop them.**
 
 | Tab (assistant coach) | What it's best at |
 |---|---|
@@ -59,7 +59,7 @@ It's a private control room on the Mac (opens at `localhost:3737`). Think of eac
 
 > 📖 **Every feature, one by one** (all 28 tabs + all 28 Hermes profiles, with use / goal / pro / con): see **`M7_STUDIO_FEATURES_MASTER_SOP.md`**.
 
-> ⚠️ **What broke this week (and the lesson):** two coaches (the "offline team" and the Ollama model) tried to run **on the Mac itself** and failed because **the disk was 100% full**. Lesson: we don't need those. The **cloud coaches (Claude, Free Claude Code) always work** even when the computer is full. When in doubt → **Claude tab.**
+> ⚠️ **What broke this week (and the lesson):** two coaches (the "offline team" and the Ollama model) tried to run **on Saia's Windows PC itself** and failed because **the disk was 100% full**. Lesson: we don't need those. The **cloud coaches (Claude, Free Claude Code) always work** even when the computer is full. When in doubt → **Claude tab.**
 
 ---
 
@@ -184,18 +184,23 @@ The whole playbook lives in one place and copies itself to the cloud every time 
 |---|---|---|---|
 | **This handoff link** | A quick read, share with anyone | open the link in any browser | same link opens on any phone — no login |
 | **GitHub** (`pineapple-m7-vault`) | The **whole** playbook, always current | github.com in any browser | free **GitHub app** → sign in → open `pineapple-m7-vault` |
-| **Obsidian** | Reading + editing it nicely | the Obsidian app on the Mac (already set up) | Obsidian mobile app, synced to the same vault |
+| **Obsidian** | Reading + editing it nicely | the Obsidian app on Saia's Windows PC (already set up) | Obsidian mobile app, synced to the same vault |
 
 **📄 What is that "link"?** It's an **Artifact** — a private web page of this exact document, hosted by Claude. Purpose: read the whole playbook on any phone or computer with **no app and no login**, and share it with anyone you choose. It's the *viewable copy* of the file that lives in our vault; when we update the file, the link updates too. (Private until you hit Share on the page.)
 
-**🖥️ Desktop or phone — which do we use?** The **Studio** (where the AI coaches build things) runs **only on the Mac desktop**. **Reading** the playbook and **approving** plays happens **anywhere** — phone, these links, or GitHub. You don't need the desktop just to read.
+**🖥️ Desktop or phone — which do we use?** The **Studio** (where the AI coaches build things) runs **only on Saia's Windows PC desktop**. **Reading** the playbook and **approving** plays happens **anywhere** — phone, these links, or GitHub. You don't need the desktop just to read.
 
 **Simplest setup for you (just want to see it on your phone):**
 1. Install the **GitHub app** (free, iOS/Android).
 2. Saia adds you once: GitHub → `pineapple-m7-vault` → Settings → Collaborators → add your username.
 3. Done — the entire playbook is in your pocket, and it **updates itself** every time we say *"commit and push"* (which we do at the end of every session).
 
-**One thing to know:** the **Studio itself** (the coaching room) only runs on the **Mac** — that's where the assistant coaches do the work. Your **phone is for viewing the playbook and approving plays**, not running the studio. The film room stays at the facility; the playbook goes in everyone's pocket.
+**Who's on what device:**
+- **Saia — Windows PC:** home base. The Studio + vault run right here.
+- **Naa Sione — Mac:** view the playbook (browser, Obsidian, or the link) and approve plays. You can run your own studio on your Mac later.
+- **Both — iPhone:** read via the link, the GitHub app, or Obsidian mobile — and approve from your pocket.
+
+The Studio (the coaching room) runs on **Saia's Windows PC** — that's where the coaches do the work. The Mac and the iPhones are for **viewing the playbook and approving plays.** The film room stays at the facility; the playbook goes in everyone's pocket.
 
 ---
 

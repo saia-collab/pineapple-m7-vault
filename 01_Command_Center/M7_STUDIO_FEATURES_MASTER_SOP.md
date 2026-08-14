@@ -13,10 +13,10 @@ one_rule: Every output lands PAUSED in the Outbox. Nothing goes live without a b
 
 **📄 About the shareable link (Artifact):** this document also opens as a private **web page** (an "Artifact") that works on any phone or computer — no app, no login — so anyone can read it. It's the viewable copy of this vault file; update the file and the link updates.
 
-**🖥️ Desktop or phone?** The **Studio below runs only on the Mac desktop** — that's where the coaches build. Your **phone is for reading this + approving plays**, not running the studio.
+**🖥️ Desktop or phone?** The **Studio below runs only on Saia's Windows PC desktop** — that's where the coaches build. Your **phone is for reading this + approving plays**, not running the studio.
 
 ## 🏈 The one idea first
-The Studio (`localhost:3737` on the Mac) is our **coaching facility.** Four kinds of staff:
+The Studio (`localhost:3737` on Saia's Windows PC) is our **coaching facility.** Four kinds of staff:
 1. **Coder agents** = **position coaches** (different brains for a task).
 2. **Hermes** = the **front office** — one cockpit that swaps in a **roster of 28 personas** (Muse, Roofing, SEO, Leads…).
 3. **Creative studio** = the **media department**.
@@ -38,7 +38,7 @@ The Studio (`localhost:3737` on the Mac) is our **coaching facility.** Four kind
 | 7 | **GLM 5.2** | Cheap heavy lifting, coding | Bulk output on a budget | Strong + free/cheap | Better at code than customer words |
 | 8 | **Prime Agent** | A lead/premium orchestrator agent | Larger tasks coordinated | Handles bigger jobs | Keep it scoped |
 | 9 | **Grok Build** | Anything needing **live/real-time** info (trends, X) | Current, of-the-moment takes | Sees today's signals | Needs X Premium; less brand-disciplined |
-| 10 | **Free Claude Code** | Quick drafts that don't need to be perfect | A fast rough draft | **Free** (cloud), works when Mac is full | Smaller brain — not final customer copy |
+| 10 | **Free Claude Code** | Quick drafts that don't need to be perfect | A fast rough draft | **Free** (cloud), works when the PC is full | Smaller brain — not final customer copy |
 | 11 | **Free AI Coder** | A second free coding option | A free code/text draft | No cost | Lighter than the paid coders |
 
 **Pick rule:** customer-facing/brand → **Claude.** Free + quick → **Free Claude Code.** Live trends → **Grok.** Big team build → **Antigravity.** Unsure → **Claude.**
@@ -76,7 +76,7 @@ Hermes is **one cockpit** where a **"profile"** = a saved combo of *(a job perso
 | **kimi-k2-7** | Moonshot Kimi K2 | Long context, cheap |
 | **qwen-3-7** | Alibaba Qwen 3 | Free multilingual/coding |
 | **hermes-cloud** | Nous Hermes (cloud) | Reliable free default |
-| **local** | A model on the Mac | Offline (needs disk/RAM) |
+| **local** | A model on Saia's Windows PC | Offline (needs disk/RAM) |
 | **ollama-glm-512** | Local Ollama GLM | Fully offline GLM |
 | **omniroute** | OmniRoute free pool | Free, but flaky |
 | **north-mini** | A small fast model | Quick cheap answers |
