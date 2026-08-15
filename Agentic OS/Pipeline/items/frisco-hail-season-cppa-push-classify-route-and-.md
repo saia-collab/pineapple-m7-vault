@@ -1,12 +1,12 @@
 ---
 slug: frisco-hail-season-cppa-push-classify-route-and-
 title: Frisco hail-season CPPA push — classify, route, and draft a plan.
-stage: review
+stage: building
 route: escalate
 confidence: 0.5
 tags: []
 created: '2026-08-11T01:29:53.582Z'
-updated: '2026-08-11T01:30:45.105Z'
+updated: '2026-08-14T16:59:16.914Z'
 ---
 
 ## Idea
