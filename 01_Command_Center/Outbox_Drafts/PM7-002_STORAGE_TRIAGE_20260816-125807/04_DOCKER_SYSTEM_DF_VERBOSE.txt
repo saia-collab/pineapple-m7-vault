@@ -1,0 +1,33 @@
+﻿Images space usage:
+
+REPOSITORY                     TAG       IMAGE ID       CREATED         SIZE      SHARED SIZE   UNIQUE SIZE   CONTAINERS
+ghcr.io/every-app/open-seo     latest    c84e9ffa847d   6 weeks ago     3.01GB    0B            3.013GB       1
+<none>                         <none>    cde0813c4187   3 months ago    1.43GB    0B            1.425GB       0
+ollama/ollama                  latest    2038a264392a   3 months ago    10.1GB    0B            10.08GB       1
+<none>                         <none>    1a8dde377f92   3 months ago    294MB     0B            294MB         0
+postgres                       15        36388d068f46   3 months ago    633MB     0B            632.7MB       1
+<none>                         <none>    fc37a12a21f4   10 months ago   252MB     0B            252.1MB       0
+<none>                         <none>    0eba4c05742a   14 months ago   215MB     0B            215.1MB       0
+docker/labs-vscode-installer   0.0.9     e2ad35612109   22 months ago   53.8MB    0B            53.78MB       1
+
+Containers space usage:
+
+CONTAINER ID   IMAGE                                COMMAND                  LOCAL VOLUMES   SIZE      CREATED        STATUS                  NAMES
+0074e12e116a   ghcr.io/every-app/open-seo:latest    "docker-entrypoint.s…"   1               49.2MB    4 weeks ago    Up 25 hours             open-seo-open-seo-1
+0252c654cada   postgres:15                          "docker-entrypoint.s…"   1               20.5kB    3 months ago   Up 25 hours (healthy)   pineapplehq-db-1
+7bcf3e86e42c   ollama/ollama:latest                 "/bin/ollama serve"      1               16.4kB    3 months ago   Up 25 hours             pineapple-local-worker
+55848b14aae1   docker/labs-vscode-installer:0.0.9   "/bin/sh -c '/servic…"   0               12.3kB    4 months ago   Up 25 hours             docker_labs-vscode-installer-desktop-extension-service
+
+Local Volumes space usage:
+
+VOLUME NAME                         LINKS     SIZE
+open-seo_open_seo_data              1         725.6kB
+pineapple-marketing_postgres_data   0         72.12MB
+pineapplehq_ollama_data             1         10.93GB
+pineapplehq_pineapple_data          1         47.73MB
+docker-lsp                          0         1.588MB
+
+Build cache usage: 0B
+
+CACHE ID   CACHE TYPE   SIZE      CREATED   LAST USED   USAGE     SHARED
+

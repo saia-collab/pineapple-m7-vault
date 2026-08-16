@@ -62,6 +62,13 @@ desktop.ini
 # third-party skill/plugin reference library (clone-only)
 04_Tech_Lab/playbook_resources/
 
+# Codex local scratch/session data (never commit — may hold tokens/history)
+.codex/
+**/.codex/
+
+# third-party marketing-skills clone (has its own .git — clone-only, don't embed)
+03_Knowledge_Mat/corey_marketing_skills/
+
 # third-party skill clones (review before running)
 04_Tech_Lab/vendor/claude-obsidian/
 04_Tech_Lab/vendor/claude-watch/

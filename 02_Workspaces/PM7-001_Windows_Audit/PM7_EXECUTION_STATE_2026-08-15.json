@@ -1,0 +1,90 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-08-15",
+  "owner": "Saia",
+  "system": "Pineapple M7",
+  "canonical_root": "C:\\Pineapple Contractors M7",
+  "status_rule": "DONE requires tested execution plus validator plus PASS receipt",
+  "current_task_id": "PM7-001",
+  "current_task": {
+    "title": "Install the ADHD command center and run the read-only Windows audit",
+    "status": "READY_NOT_RUN",
+    "saia_action": "Extract the PM7 ADHD Execution Pack and double-click START_PM7_ADHD_EXECUTION_SETUP.bat",
+    "expected_receipts": [
+      "00_READ_ME_FIRST.md",
+      "PM7_WINDOWS_STORAGE_AUDIT.json"
+    ],
+    "stop_after": "Upload both receipts to ChatGPT and do not begin another PM7 task"
+  },
+  "canonical_paths": {
+    "command_center": "C:\\Pineapple Contractors M7\\01_Command_Center",
+    "outbox": "C:\\Pineapple Contractors M7\\01_Command_Center\\Outbox_Drafts",
+    "workspaces": "C:\\Pineapple Contractors M7\\02_Workspaces",
+    "knowledge": "C:\\Pineapple Contractors M7\\03_Knowledge_Mat",
+    "tech_lab": "C:\\Pineapple Contractors M7\\04_Tech_Lab",
+    "agent_os_root": "C:\\Pineapple Contractors M7\\04_Tech_Lab\\Pineapple_Agent_OS",
+    "agent_os_live": "C:\\Pineapple Contractors M7\\04_Tech_Lab\\Pineapple_Agent_OS\\current",
+    "agent_os_staging": "C:\\Pineapple Contractors M7\\04_Tech_Lab\\Pineapple_Agent_OS\\staging",
+    "agent_os_incoming": "C:\\Pineapple Contractors M7\\04_Tech_Lab\\Pineapple_Agent_OS\\incoming",
+    "agent_os_backups": "C:\\Pineapple Contractors M7\\04_Tech_Lab\\Pineapple_Agent_OS\\backups",
+    "shared_memory": "C:\\Pineapple Contractors M7\\_memory"
+  },
+  "four_rooms": [
+    {"order": 1, "path": "01_Command_Center", "job": "decide_route_approve_record"},
+    {"order": 2, "path": "02_Workspaces", "job": "perform_one_active_assignment"},
+    {"order": 3, "path": "03_Knowledge_Mat", "job": "supply_stable_truth_and_references"},
+    {"order": 4, "path": "04_Tech_Lab", "job": "isolate_code_agent_os_and_tests"}
+  ],
+  "execution_truth": [
+    {"id": "playbooks", "status": "DOCUMENTS_READY", "receipt_required_next": false},
+    {"id": "august_14_zip_integrity", "status": "PASS_FOR_CONTROLLED_STAGING_ONLY", "receipt_required_next": true},
+    {"id": "windows_storage_installer_audit", "status": "READY_NOT_RUN", "receipt_required_next": true},
+    {"id": "duplicate_cleanup", "status": "NOT_EXECUTED", "receipt_required_next": true},
+    {"id": "sione_brand_authority_decision", "status": "APPROVED_LOCAL_RECONCILIATION_PENDING", "receipt_required_next": true},
+    {"id": "icm_four_room_design", "status": "VALID_POLISH_PENDING", "receipt_required_next": true},
+    {"id": "agent_os_august_14_staging_build", "status": "NOT_EXECUTED", "receipt_required_next": true},
+    {"id": "agent_os_live_switch", "status": "NOT_AUTHORIZED_NOT_EXECUTED", "receipt_required_next": true},
+    {"id": "minimum_revenue_studio", "status": "NOT_VERIFIED", "receipt_required_next": true},
+    {"id": "website_seo_marketing_release", "status": "PLANNED_DRAFTS_EXIST_EXTERNAL_ACTIONS_NOT_AUTHORIZED", "receipt_required_next": true}
+  ],
+  "ordered_phases": [
+    {"id": "PM7-001", "name": "Windows audit and scoped cleanup", "status": "CURRENT"},
+    {"id": "PM7-010", "name": "Live baseline and rollback", "status": "LOCKED"},
+    {"id": "PM7-020", "name": "ICM authority and shared-memory alignment", "status": "LOCKED"},
+    {"id": "PM7-030", "name": "August 14 Agent OS staging build", "status": "LOCKED"},
+    {"id": "PM7-040", "name": "Minimum Revenue Studio configuration", "status": "LOCKED"},
+    {"id": "PM7-050", "name": "Controlled live switch", "status": "LOCKED_GO_LIVE_SWITCH_REQUIRED"},
+    {"id": "PM7-060", "name": "Revenue playbook execution", "status": "LOCKED_SEPARATE_RELEASE_APPROVALS_REQUIRED"}
+  ],
+  "active_authority": {
+    "brand_field_authority": "Naa Sione",
+    "scope_approver": "Saia",
+    "brand_source": "NAA_SIONE_BRAND_VOICE.md",
+    "local_status": "ACTIVE_LOCAL_RECONCILIATION_PENDING",
+    "customer_facing_output_state": "PAUSED_PENDING_HUMAN_REVIEW"
+  },
+  "provider_starting_team": {
+    "windows_engineer": "Codex through ChatGPT subscription",
+    "brand_reviewer": "Claude",
+    "orchestrator": "Hermes",
+    "local_fallback": "one approved Ollama model only after disk recovery",
+    "rule": "No provider is considered configured until a harmless test produces a receipt"
+  },
+  "approval_gates": {
+    "cleanup": "Exact paths and hashes required",
+    "live_switch": "GO_LIVE_SWITCH",
+    "publish_send_index_spend_access": "Separate scoped human GO for the exact action and version",
+    "secrets": "Human enters secrets directly in the official login or secret store; never place values in shared memory"
+  },
+  "parked_until_later": [
+    "Docker",
+    "WSL",
+    "VPS",
+    "Google Cloud Storage runtime",
+    "Paperclip",
+    "Wayfinder",
+    "additional agent personas",
+    "autonomous publishing",
+    "full media automation"
+  ]
+}

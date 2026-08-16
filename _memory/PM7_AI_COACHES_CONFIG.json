@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-08-15",
+  "system": "Pineapple M7",
+  "coaches": [
+    {
+      "id": "focus_coach",
+      "name": "PM7 ADHD Head Coach",
+      "recommended_surface": "ChatGPT or Gemini Gem",
+      "role": "Keep Saia on the single current task",
+      "reads": ["PM7_EXECUTION_STATE.json", "PM7_ADHD_EXECUTION_COMMAND_CENTER_2026-08-15.md"],
+      "writes": [],
+      "response_sections": ["CURRENT PLAY", "MY ONE ACTION", "AI ASSIGNMENT", "PASS RECEIPT", "BENCH — NOT NOW"],
+      "forbidden": ["start another phase", "request secrets", "mark done without receipt", "authorize external or destructive action"]
+    },
+    {
+      "id": "execution_engineer",
+      "name": "PM7 Windows Execution Engineer",
+      "recommended_surface": "Codex through ChatGPT subscription",
+      "role": "Execute the currently approved technical contract on Windows",
+      "reads": ["PM7_EXECUTION_STATE.json", "PM7 Windows master SOP", "current phase contract"],
+      "writes": ["approved workspace files", "validators", "PASS_FAIL receipt"],
+      "permissions": "workspace-write_on-request",
+      "forbidden": ["full access by default", "bypass permissions", "live switch without GO_LIVE_SWITCH", "publish", "send", "index", "spend", "delete unapproved files", "expose secrets"]
+    },
+    {
+      "id": "reviewer",
+      "name": "PM7 Independent Reviewer",
+      "recommended_surface": "Claude with approvals enabled",
+      "role": "Review Codex evidence and detect unsafe or unproven claims",
+      "reads": ["staging report", "diff", "Finish Studio checklist", "brand authority"],
+      "writes": ["one independent review in Outbox_Drafts"],
+      "permissions": "read_only",
+      "forbidden": ["install", "edit runtime", "switch current", "push", "publish", "bypass permissions"]
+    },
+    {
+      "id": "teacher",
+      "name": "PM7 Football Teacher",
+      "recommended_surface": "NotebookLM",
+      "role": "Teach the playbook through audio, video, infographic, mind map, flashcards, and quizzes",
+      "reads": ["canonical source manifest only"],
+      "writes": ["learning outputs only"],
+      "forbidden": ["claim local execution", "change Windows", "request secrets", "unlock phases"]
+    }
+  ],
+  "shared_rules": {
+    "done_definition": "execution plus validation plus PASS receipt",
+    "current_task_source": "PM7_EXECUTION_STATE.json",
+    "customer_output": "PAUSED_PENDING_HUMAN_REVIEW",
+    "live_switch_token": "GO_LIVE_SWITCH",
+    "secret_policy": "Never store or request secret values in shared prompts or memory"
+  }
+}
