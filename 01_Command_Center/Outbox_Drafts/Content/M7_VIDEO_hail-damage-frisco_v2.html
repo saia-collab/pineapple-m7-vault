@@ -1,0 +1,246 @@
+<title>Roofing Made Sweeter</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  /* Pineapple Roofing — Hail Damage / Frisco. Single committed visual world (storm-blue night),
+     painted explicitly so it holds on any host ground. Brand law: Blue #003299 + Yellow #ffdd17, ZERO green. */
+  :root{
+    --ground:#061027; --ground2:#0b1c44; --blue:#003299; --blueGlow:#3a5fd9;
+    --yellow:#ffdd17; --paper:#f7f5ef; --ink:#eef3ff; --dim:#8ea3cf;
+    --serif:Georgia,'Times New Roman',serif;
+    --sans:'Segoe UI',system-ui,-apple-system,sans-serif;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{height:100%;background:#02060f;overflow:hidden}
+  #fit{position:fixed;inset:0;display:grid;place-items:center}
+  #stage{
+    position:relative;width:1080px;height:1920px;transform-origin:center center;
+    background:
+      radial-gradient(120% 80% at 50% -10%, #14275c 0%, var(--ground2) 34%, var(--ground) 68%, #03081a 100%);
+    color:var(--ink);font-family:var(--sans);overflow:hidden;
+    box-shadow:0 40px 120px rgba(0,0,0,.6);
+  }
+  /* grain + vignette overlays */
+  #stage::before{
+    content:"";position:absolute;inset:0;pointer-events:none;z-index:60;
+    background:radial-gradient(130% 100% at 50% 42%, transparent 52%, rgba(2,6,15,.72) 100%);
+  }
+  #stage::after{
+    content:"";position:absolute;inset:-50%;pointer-events:none;z-index:61;opacity:.05;mix-blend-mode:overlay;
+    background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='140' height='140'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2'/></filter><rect width='140' height='140' filter='url(%23n)'/></svg>");
+  }
+  /* progress line */
+  #prog{position:absolute;top:0;left:0;height:8px;width:100%;transform-origin:left center;transform:scaleX(0);
+    background:linear-gradient(90deg,var(--yellow),#fff0a0);z-index:70;box-shadow:0 0 22px rgba(255,221,23,.6)}
+  /* persistent wordmark */
+  #mark{position:absolute;left:64px;bottom:60px;z-index:50;display:flex;align-items:center;gap:18px;
+    letter-spacing:.16em;font-size:24px;text-transform:uppercase;color:var(--dim);font-weight:600}
+  #mark .pin{width:34px;height:34px;flex:0 0 auto}
+
+  .scene{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;
+    padding:0 96px;opacity:0;will-change:opacity;z-index:10}
+  .eyebrow{font-size:26px;letter-spacing:.30em;text-transform:uppercase;color:var(--yellow);font-weight:700;
+    margin-bottom:38px;display:flex;align-items:center;gap:20px}
+  .eyebrow::before{content:"";width:54px;height:2px;background:var(--yellow);display:inline-block}
+  .display{font-family:var(--serif);font-weight:700;line-height:.98;letter-spacing:-.015em;text-wrap:balance;
+    font-size:104px;color:#fff}
+  .display .y{color:var(--yellow)}
+  .sub{font-size:38px;line-height:1.32;color:var(--dim);margin-top:40px;max-width:820px;font-weight:400}
+
+  /* S1 */
+  #s1 .l2{display:inline-block;color:var(--yellow);
+    clip-path:inset(0 calc((1 - clamp(0,(var(--p) - .18)*2.6,1)) * 100%) 0 0)}
+  #s1 .rake{position:absolute;inset:0;z-index:-1;pointer-events:none;
+    background:linear-gradient(105deg,transparent 30%,rgba(255,221,23,.10) calc(42% + var(--p)*14%),transparent 60%)}
+
+  /* S2 cross-section */
+  .art{margin-top:64px}
+  #frac{stroke-dasharray:560;stroke-dashoffset:calc((1 - clamp(0,(var(--p) - .22)*1.7,1)) * 560)}
+  #s2 .lbl{opacity:clamp(0,(var(--p) - .58)*4,1);transform:translateY(calc((1 - clamp(0,(var(--p)-.58)*4,1))*10px))}
+
+  /* S3 drone */
+  #roofPath{stroke-dasharray:1200;stroke-dashoffset:calc((1 - clamp(0,(var(--p) - .08)*1.25,1)) * 1200)}
+  #drone{offset-path:path("M120 300 L540 92 L960 300");
+    offset-distance:calc(clamp(0,(var(--p) - .08)*1.25,1) * 100%)}
+
+  /* S4 frames */
+  .frames{display:grid;grid-template-columns:1fr 1fr;gap:34px;margin-top:70px;max-width:860px}
+  .frame{aspect-ratio:4/3;border-radius:16px;background:linear-gradient(150deg,#0f2455,#0a1838);
+    border:2px solid rgba(255,221,23,.35);display:grid;place-items:center;
+    opacity:clamp(0,(var(--p) - .10 - .13*var(--i))*7,1);
+    transform:scale(calc(.9 + clamp(0,(var(--p) - .10 - .13*var(--i))*7,1)*.1));
+    box-shadow:0 24px 60px rgba(0,0,0,.4)}
+  .frame svg{width:96px;height:96px;opacity:.85}
+
+  /* S5 ledger */
+  .ledger{margin-top:56px;display:flex;flex-direction:column;gap:30px;max-width:840px}
+  .row{display:flex;align-items:center;gap:34px;font-size:46px;font-family:var(--serif);color:#fff;
+    opacity:clamp(0,(var(--p) - .12 - .14*var(--i))*8,1);
+    transform:translateX(calc((1 - clamp(0,(var(--p) - .12 - .14*var(--i))*8,1))*-40px))}
+  .row .chk{width:54px;height:54px;flex:0 0 auto}
+  .row .chk path{stroke-dasharray:44;stroke-dashoffset:calc((1 - clamp(0,(var(--p) - .16 - .14*var(--i))*10,1))*44)}
+
+  /* S6 yours */
+  #s6 .trust{margin-top:56px;display:flex;flex-wrap:wrap;gap:18px 40px;font-size:30px;color:var(--dim);
+    letter-spacing:.04em;opacity:clamp(0,(var(--p) - .45)*3,1)}
+  #s6 .trust b{color:var(--ink);font-weight:700}
+  #s6 .seal{position:absolute;right:96px;top:150px;width:150px;height:150px;
+    opacity:clamp(0,(var(--p) - .30)*4,1);transform:scale(calc(.6 + clamp(0,(var(--p)-.30)*4,1)*.4))}
+
+  /* S7 CTA */
+  #s7{align-items:center;text-align:center;justify-content:center;
+    background:radial-gradient(120% 90% at 50% 30%, #ffe86b 0%, var(--yellow) 46%, #f4c800 100%)}
+  #s7 .kicker{color:var(--blue);font-weight:800;letter-spacing:.28em;text-transform:uppercase;font-size:30px}
+  #s7 .big{font-family:var(--serif);color:var(--blue);font-weight:700;font-size:110px;line-height:1;margin:26px 0 14px;
+    transform:scale(calc(.94 + clamp(0,var(--p)*3,1)*.06))}
+  #s7 .phone{font-size:92px;font-weight:800;color:#06122b;font-variant-numeric:tabular-nums;letter-spacing:.01em;
+    transform:scale(calc(1 + .03*max(0,sin(var(--p)*14rad))))}
+  #s7 .slogan{font-family:var(--serif);font-style:italic;font-size:44px;color:var(--blue);margin-top:34px}
+  #s7 .pinbig{width:118px;height:118px;margin:0 auto 30px}
+
+  @media (prefers-reduced-motion: reduce){
+    #prog{transform:scaleX(1)}
+    .scene{transition:none}
+    #s7{opacity:1 !important}
+    .scene:not(#s7){opacity:0 !important}
+  }
+</style>
+
+<div id="fit">
+  <div id="stage">
+    <div id="prog"></div>
+
+    <!-- S1 HOOK -->
+    <section class="scene" id="s1" style="--p:0">
+      <div class="rake"></div>
+      <div class="eyebrow">Frisco, TX · Hail Season</div>
+      <h1 class="display">Your roof<br>looks fine.<br><span class="l2">From the ground.</span></h1>
+      <p class="sub">Most hail damage is invisible from your driveway — and that's exactly where claims get lost.</p>
+    </section>
+
+    <!-- S2 PROBLEM -->
+    <section class="scene" id="s2" style="--p:0">
+      <div class="eyebrow">What hail actually does</div>
+      <h1 class="display">It bruises the<br>layer that keeps<br><span class="y">water out.</span></h1>
+      <svg class="art" width="880" height="360" viewBox="0 0 880 360" fill="none">
+        <rect x="40" y="230" width="800" height="70" rx="6" fill="#0f2455" stroke="#24407f" stroke-width="2"/>
+        <rect x="40" y="170" width="800" height="64" rx="6" fill="#132b63" stroke="#2a4a8f" stroke-width="2"/>
+        <rect x="40" y="112" width="800" height="62" rx="6" fill="#183474" stroke="#3355aa" stroke-width="2"/>
+        <ellipse cx="430" cy="120" rx="70" ry="26" fill="#003299" opacity="0.85"/>
+        <path id="frac" d="M360 150 L410 108 L455 158 L505 112 L548 150" stroke="var(--yellow)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+        <g class="lbl">
+          <line x1="430" y1="120" x2="640" y2="60" stroke="var(--yellow)" stroke-width="2"/>
+          <text x="648" y="58" fill="var(--yellow)" font-family="Segoe UI, sans-serif" font-size="30" font-weight="700" letter-spacing="3">MAT FRACTURE</text>
+        </g>
+      </svg>
+    </section>
+
+    <!-- S3 DOCUMENT -->
+    <section class="scene" id="s3" style="--p:0">
+      <div class="eyebrow">So we go up</div>
+      <h1 class="display">We document<br><span class="y">every impact.</span></h1>
+      <svg class="art" width="1080" height="380" viewBox="0 0 1080 380" fill="none">
+        <path id="roofPath" d="M120 300 L540 92 L960 300" stroke="#3355aa" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M120 300 L540 92 L960 300 L960 330 L120 330 Z" fill="#0a1838" opacity="0.55"/>
+        <g id="drone">
+          <circle r="15" fill="var(--yellow)"/>
+          <circle r="30" fill="none" stroke="var(--yellow)" stroke-width="2" opacity="0.5"/>
+        </g>
+      </svg>
+      <p class="sub">Drone and ground. Slope by slope. Every bruise, seam, and dent — photographed.</p>
+    </section>
+
+    <!-- S4 SLOPE BY SLOPE -->
+    <section class="scene" id="s4" style="--p:0">
+      <div class="eyebrow">Drone + ground</div>
+      <h1 class="display">Slope by slope.</h1>
+      <div class="frames">
+        <div class="frame" style="--i:0"><svg viewBox="0 0 24 24" fill="none" stroke="var(--yellow)" stroke-width="1.5"><path d="M3 9l9-6 9 6v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1z"/><circle cx="12" cy="13" r="3"/></svg></div>
+        <div class="frame" style="--i:1"><svg viewBox="0 0 24 24" fill="none" stroke="var(--yellow)" stroke-width="1.5"><rect x="3" y="6" width="18" height="13" rx="2"/><circle cx="12" cy="12.5" r="3.4"/><path d="M8 6l1.5-2h5L16 6"/></svg></div>
+        <div class="frame" style="--i:2"><svg viewBox="0 0 24 24" fill="none" stroke="var(--yellow)" stroke-width="1.5"><path d="M4 20V7l8-4 8 4v13"/><path d="M4 20h16M9 20v-6h6v6"/></svg></div>
+        <div class="frame" style="--i:3"><svg viewBox="0 0 24 24" fill="none" stroke="var(--yellow)" stroke-width="1.5"><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/><circle cx="12" cy="12" r="5"/></svg></div>
+      </div>
+    </section>
+
+    <!-- S5 PROOF -->
+    <section class="scene" id="s5" style="--p:0">
+      <div class="eyebrow">A consistent story</div>
+      <h1 class="display">Evidence they<br><span class="y">can't wave off.</span></h1>
+      <div class="ledger">
+        <div class="row" style="--i:0"><svg class="chk" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" stroke="var(--blueGlow)" stroke-width="1.5"/><path d="M7 12.5l3.2 3.2L17 9" stroke="var(--yellow)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Gutters &amp; downspouts</div>
+        <div class="row" style="--i:1"><svg class="chk" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" stroke="var(--blueGlow)" stroke-width="1.5"/><path d="M7 12.5l3.2 3.2L17 9" stroke="var(--yellow)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Vents &amp; flashing</div>
+        <div class="row" style="--i:2"><svg class="chk" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" stroke="var(--blueGlow)" stroke-width="1.5"/><path d="M7 12.5l3.2 3.2L17 9" stroke="var(--yellow)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>A/C fins &amp; screens</div>
+        <div class="row" style="--i:3"><svg class="chk" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" stroke="var(--blueGlow)" stroke-width="1.5"/><path d="M7 12.5l3.2 3.2L17 9" stroke="var(--yellow)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>The storm date, corroborated</div>
+      </div>
+    </section>
+
+    <!-- S6 YOURS -->
+    <section class="scene" id="s6" style="--p:0">
+      <div class="eyebrow">The file is yours</div>
+      <h1 class="display">Your storm<br>damage report —<br><span class="y">yours to keep.</span></h1>
+      <p class="sub">Even if you never hire us. Because evidence beats opinions.</p>
+      <div class="trust"><span><b>RCAT #03-0637</b></span><span><b>IKO Certified</b></span><span>Family-owned · <b>Founded 2021</b></span><span><b>Frisco, TX</b></span></div>
+      <svg class="seal" viewBox="0 0 120 120" fill="none">
+        <circle cx="60" cy="60" r="56" stroke="var(--yellow)" stroke-width="3"/>
+        <circle cx="60" cy="60" r="46" stroke="var(--blueGlow)" stroke-width="1.5" opacity="0.6"/>
+        <path d="M40 61l13 13 27-29" stroke="var(--yellow)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </section>
+
+    <!-- S7 CTA -->
+    <section class="scene" id="s7" style="--p:0">
+      <svg class="pinbig" viewBox="0 0 64 64" fill="none" aria-label="Pineapple Roofing mark">
+        <path d="M32 6 L20 20 H44 Z" fill="#003299"/>
+        <path d="M24 15 L32 6 L40 15" fill="none" stroke="#003299" stroke-width="3" stroke-linejoin="round"/>
+        <rect x="18" y="20" width="28" height="34" rx="13" fill="#003299"/>
+        <path d="M24 26 L40 42 M40 26 L24 42 M32 22 L32 52 M20 34 H44" stroke="#ffdd17" stroke-width="2.2" opacity="0.9"/>
+      </svg>
+      <div class="kicker">No cost · No obligation</div>
+      <div class="big">Free Roof Inspection</div>
+      <div class="phone">(972) 928-0788</div>
+      <div class="slogan">Roofing Made Sweeter.™</div>
+    </section>
+
+    <div id="mark">
+      <svg class="pin" viewBox="0 0 64 64" fill="none"><path d="M32 6 L20 20 H44 Z" fill="#ffdd17"/><rect x="18" y="20" width="28" height="34" rx="13" fill="#ffdd17"/><path d="M24 26 L40 42 M40 26 L24 42" stroke="#003299" stroke-width="2.4"/></svg>
+      Pineapple Roofing
+    </div>
+  </div>
+</div>
+
+<script>
+  const scenes=[
+    {id:'s1',a:0,b:8},{id:'s2',a:8,b:18},{id:'s3',a:18,b:28},
+    {id:'s4',a:28,b:38},{id:'s5',a:38,b:46},{id:'s6',a:46,b:54},{id:'s7',a:54,b:60}
+  ].map(s=>({...s,el:document.getElementById(s.id)}));
+  const DUR=60, prog=document.getElementById('prog'), stage=document.getElementById('stage'), fit=document.getElementById('fit');
+
+  function resize(){
+    const s=Math.min(fit.clientWidth/1080, fit.clientHeight/1920);
+    stage.style.transform='scale('+s+')';
+  }
+  addEventListener('resize',resize); resize();
+
+  function render(t){
+    prog.style.transform='scaleX('+(t/DUR)+')';
+    for(const s of scenes){
+      const dur=s.b-s.a; let o=0;
+      if(t>=s.a-0.0001 && t<s.b){
+        const p=(t-s.a)/dur;
+        s.el.style.setProperty('--p', Math.max(0,Math.min(1,p)).toFixed(4));
+        const fin=Math.min(1,(t-s.a)/0.5), fout=Math.min(1,(s.b-t)/0.45);
+        o=Math.max(0,Math.min(fin,fout));
+      }
+      s.el.style.opacity=o.toFixed(3);
+    }
+  }
+
+  // Render mode for local MP4: ?t=SECONDS freezes one exact frame.
+  const q=new URLSearchParams(location.search);
+  if(q.has('t')){ render(parseFloat(q.get('t'))||0); }
+  else {
+    let start=null;
+    function loop(now){ if(start==null)start=now; const t=((now-start)/1000)%DUR; render(t); requestAnimationFrame(loop); }
+    const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if(reduce){ render(57); } else { requestAnimationFrame(loop); }
+  }
+</script>
