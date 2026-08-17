@@ -25,9 +25,9 @@ action: MERGE these sections INTO MASTER_PLAYBOOK.md after Saia review
 
 Pending confirmation, the authoritative rule from the master playbook is:
 
-- **Gold Law:** Top-of-frame hooks/banners = **140px** height · Royal Navy Impact font · Pineapple Gold `#FBC02D` fill.
+- **Gold Law:** Top-of-frame hooks/banners = **140px** height · Pineapple Blue Impact font · Pineapple Yellow `#ffdd17` fill.
 - **Navy Law:** Bottom credential bar = **95px** height · Yellow Arial Bold · text: "Pineapple Contractors | RCAT Licensed #03-0637 | IKO Certified RoofPro Team"
-- **Navy Photo Moat:** All before/after project photos must include a **10px solid Royal Navy `#1A365D` border** to signal engineering documentation authority.
+- **Navy Photo Moat:** All before/after project photos must include a **10px solid Pineapple Blue `#003299` border** to signal engineering documentation authority.
 
 ---
 
@@ -125,7 +125,7 @@ All automated social media posts must be pushed to Blotato as **drafts scheduled
 ## SECTION: META PIXEL CONDITIONING RULE
 
 Never fire the Meta Pixel for top-of-funnel signals (clicks, page views, DMs). Only fire the conversion pixel when a qualified prospect completes a high-friction action:
-- Books a Complimentary Professional Photo Audit (CPPA)
+- Books a free roof inspection
 - Completes the full Instant Form with all qualifier fields
 - Calls 972-928-0788 from a tracked number
 
@@ -268,7 +268,7 @@ Key patterns extracted from the 50 unique skill kits in `04_Tech_Lab/skills_inbo
 | `Agentic OS_ Local AI Mission Control.md` | `01_Command_Center/` | Imported reference doc | Same |
 | `hermes-dashboard-all-prompts.md` | `01_Command_Center/` | Hermes prompt reference — green hex `#5EE2B5` (a teal, not brand green) | Add exempt header; the hex is teal/cyan not true green |
 | `hermes-student-companion-all-prompts.md` | `01_Command_Center/` | Hermes reference — "green" as word in UI description | Add exempt header |
-| `KomputerMechanic-Hermes-Student-Companion-Template.html` | `01_Command_Center/` | 3rd-party HTML template with green UI components | Add exempt header or replace green hex values with Cyan `#00BFFF` (recommended) |
+| `KomputerMechanic-Hermes-Student-Companion-Template.html` | `01_Command_Center/` | 3rd-party HTML template with green UI components | Add exempt header or replace green hex values with Cyan `#003299` (recommended) |
 
 **None of these are active campaign output.** All are imported reference/configuration files. They do not appear in customer-facing content. The firewall correctly flags them; the decision on whether to exempt or purge belongs to Saia.
 

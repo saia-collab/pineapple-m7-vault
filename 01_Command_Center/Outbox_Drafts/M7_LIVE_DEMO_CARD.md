@@ -2,7 +2,7 @@
 title: Live Demo Card — 5 things to run in front of your sibling
 status: PAUSED — demos only, nothing publishes
 last_updated: 2026-07-22
-brand_check: CPPA · IKO Certified · RCAT #03-0637 · zero green
+brand_check: free roof inspection · IKO Certified · RCAT #03-0637 · zero green
 ---
 
 # 🎬 5 LIVE DEMOS (each under 5 minutes)
@@ -28,7 +28,7 @@ Hidden hail damage on a Frisco roof — what homeowners miss
 ```
 Hit **Generate 6**.
 **The wow:** six on-brand concepts, and it learns your style each round.
-> ⚠️ Then check: if any come back with green, regenerate — our palette is Navy #1A365D + Gold #FBC02D only.
+> ⚠️ Then check: if any come back with green, regenerate — our palette is Navy #003299 + Gold #ffdd17 only.
 
 ---
 
@@ -38,8 +38,8 @@ Brief:
 ```
 Why hail damage is invisible from the ground — and how documented photos protect a
 homeowner's insurance claim. Pineapple Roofing, IKO Certified, RCAT License #03-0637,
-family-owned in Frisco since 2005. Close by telling viewers to call 972-928-0788 to
-book a Complimentary Professional Photo Audit. Never say "free". No green anywhere.
+family-owned in Frisco since 2021. Close by telling viewers to call 972-928-0788 to
+book a free roof inspection. Never say "free". No green anywhere.
 ```
 Hit **Write the script** → review → run through Avatar + B-roll → Edit + Render.
 **The wow:** topic in, finished MP4 out.
@@ -49,8 +49,8 @@ Hit **Write the script** → review → run through Avatar + B-roll → Edit + R
 ## 4️⃣ HERMES STUDIO — "make me a branded graphic"
 **Tab:** Hermes → Studio → **Image** (Grok or MiniMax).
 ```
-A clean, premium graphic for a roofing company: deep navy background (#1A365D),
-gold accent (#FBC02D), a North Texas home with a new architectural shingle roof after
+A clean, premium graphic for a roofing company: deep navy background (#003299),
+gold accent (#ffdd17), a North Texas home with a new architectural shingle roof after
 a storm, dramatic sky clearing. Editorial, high-end, no text, no green.
 ```
 **The wow:** on-brand assets with zero design software.

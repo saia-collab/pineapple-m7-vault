@@ -21,6 +21,6 @@ Photo audits, moisture readings, and written scope your adjuster needs — we me
 
 ## Call now — every hour counts
 
-**(972) 928-0788** · 24/7 emergency response · IKO Certified · serving DFW since 2005.
+**(972) 928-0788** · 24/7 emergency response · IKO Certified · serving DFW since 2021.
 
 <!-- M7-FIREWALL-EXEMPT: website-page -->

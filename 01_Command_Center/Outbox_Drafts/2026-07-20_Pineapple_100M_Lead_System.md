@@ -7,7 +7,7 @@ created: 2026-07-20
 framework: Hormozi $100M Leads (plain-English / tone-12)
 ---
 
-> **PAUSED — this is your plan; you run it.** Brand law: CPPA (never "free"), IKO, RCAT #03-0637, 972-928-0788.
+> **PAUSED — this is your plan; you run it.** Brand law: free roof inspection (never "free"), IKO, RCAT #03-0637, 972-928-0788.
 
 # 🎯 PINEAPPLE $100M LEAD SYSTEM — explained simple
 
@@ -28,19 +28,19 @@ They already trust you, so they say yes fastest.
 ### Door 2 — COLD (people who don't know you yet) 🟡 your superpower
 This is knocking storm-hit streets. You're a 10-year door-to-door master — **this is the thing you're best at.**
 After a hail storm, whole neighborhoods have damage they can't see.
-- **Do:** pick a neighborhood that got hit, knock every door, offer the CPPA (drone + ground audit).
+- **Do:** pick a neighborhood that got hit, knock every door, offer the free roof inspection (drone + ground audit).
 - **Do:** cold-DM/call property managers + HOAs with the "one missed claim costs your owner $25k" angle.
 - **Leads/day:** 5–8 when you knock a fresh storm street. **Cost:** free (your time + gas).
 
 ### Door 3 — CONTENT (posts that bring people to you) 🟡 free, grows over time
 Your reels ("Why Pineapple," "Property Managers"), before/afters, and testimonials.
 You post → people watch → some raise their hand. It's a machine that keeps working after you post.
-- **Do:** post 4× a week (the 70/20/10 mix), every post ends with "tap the form for your CPPA."
+- **Do:** post 4× a week (the 70/20/10 mix), every post ends with "tap the form for your free roof inspection."
 - **Leads/day:** 0–1 at first, then 1–3 a day once it builds. **Cost:** free.
 
 ### Door 4 — PAID ADS (pay to get in front of people) 🔴 costs money, scales fast
 Google LSA (already on and working) + Meta ads with the Instant Form.
-- **Do:** keep LSA running; add a Meta ad at **$250/week** pointing to the CPPA Instant Form.
+- **Do:** keep LSA running; add a Meta ad at **$250/week** pointing to the free roof inspection Instant Form.
 - **Leads/day:** as many as you pay for. **Cost:** money (start small, keep the winners).
 
 ---
@@ -48,7 +48,7 @@ Google LSA (already on and working) + Meta ads with the Instant Form.
 ## 🏆 YOUR FASTEST PATH TO 100 LEADS/MONTH (pick 2 doors)
 You're a door-knocking master AND your LSA + 200 reviews already bring leads. So your fastest combo is:
 
-**Door 2 (knock storm streets) + Door 3 (reels → CPPA form).**
+**Door 2 (knock storm streets) + Door 3 (reels → free roof inspection form).**
 - Knock 4 days a week, ~5 hands up a day = **~80 leads/month** from your own skill.
 - Post reels 4×/week = **~20+ leads/month** that come to you while you sleep.
 - **= 100+ leads/month.** LSA + reviews (always-on) are the bonus on top.
@@ -62,7 +62,7 @@ You're a door-knocking master AND your LSA + 200 reviews already bring leads. So
 | Day | Do this |
 |-----|---------|
 | **Mon** | Post Reel #1 ("Why Pineapple") + form link. Text 5 past customers for reviews. |
-| **Tue** | Knock a storm street (2–3 hrs). Log every CPPA in the CRM. |
+| **Tue** | Knock a storm street (2–3 hrs). Log every free roof inspection in the CRM. |
 | **Wed** | Post Reel #2 ("Property Managers"). DM 5 property managers. |
 | **Thu** | Knock a storm street. Post a before/after. |
 | **Fri** | Post a testimonial. Follow up every lead from the week. |
@@ -84,7 +84,7 @@ Someone raises their hand
    (knock · reel form · LSA · referral)
         │
         ▼
-Lead lands in CRM  →  YOU call/text in 5 minutes  →  Book the CPPA (drone + ground)
+Lead lands in CRM  →  YOU call/text in 5 minutes  →  Book the free roof inspection (drone + ground)
         │
         ▼
 Show the damage (proof)  →  We handle the insurance claim  →  New roof, homeowner pays deductible
@@ -95,7 +95,7 @@ Job done  →  ask for the review + a before/after clip  →  that clip becomes 
 ```
 
 ## 🌅 START TOMORROW (only this)
-1. Post the **"Why Pineapple"** reel with the CPPA form link.
+1. Post the **"Why Pineapple"** reel with the free roof inspection form link.
 2. Knock **one** storm street for 2 hours.
 3. Answer every lead in **5 minutes**.
 That's the whole engine. Everything else is extra.

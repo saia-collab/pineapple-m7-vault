@@ -1,11 +1,11 @@
 ---
-title: About Pineapple Contractors — Family-Run Roofing in DFW Since 2005
-meta: Polynesian-owned, family-run roofing & construction across Dallas–Fort Worth since 2005. IKO Certified, RCAT #03-0637, 5-star rated. That's The Pineapple Standard.
+title: About Pineapple Contractors — Family-Run Roofing in DFW Since 2021
+meta: Polynesian-owned, family-run roofing & construction across Dallas–Fort Worth since 2021. IKO Certified, RCAT #03-0637, 5-star rated. That's The Pineapple Standard.
 ---
 
 ## Roofing & Construction, Made Sweeter
 
-Pineapple Contractors is a Polynesian-owned, family-run roofing, restoration and construction company serving Dallas–Fort Worth since 2005. We built this business on a simple idea: treat every home like it belongs to our own family.
+Pineapple Contractors is a Polynesian-owned, family-run roofing, restoration and construction company serving Dallas–Fort Worth since 2021. We built this business on a simple idea: treat every home like it belongs to our own family.
 
 ## The Pineapple Standard
 
@@ -20,8 +20,8 @@ That's The Pineapple Standard — careful craftsmanship, honest guidance, and a 
 - **Insurance claims handled** — we document the damage and work your claim alongside you.
 - **Clear communication** — you always know what's happening and why.
 
-## Start with a Complimentary Professional Photo Audit
+## Start with a free roof inspection
 
-Every project begins with a **CPPA** — a no-cost, no-pressure photo assessment of your roof. Call **(972) 928-0788** and see the difference a family standard makes.
+Every project begins with a **free roof inspection** — a no-cost, no-pressure photo assessment of your roof. Call **(972) 928-0788** and see the difference a family standard makes.
 
 <!-- M7-FIREWALL-EXEMPT: website-page -->

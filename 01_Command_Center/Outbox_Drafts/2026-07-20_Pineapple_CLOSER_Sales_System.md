@@ -7,7 +7,7 @@ created: 2026-07-20
 framework: Hormozi CLOSER (plain-English)
 ---
 
-> **PAUSED — your sales playbook.** Brand law: CPPA (never "free"), IKO, Full Restoration Coverage (never "$0 down"), RCAT #03-0637, 972-928-0788.
+> **PAUSED — your sales playbook.** Brand law: free roof inspection (never "free"), IKO, Full Restoration Coverage (never "full restoration coverage"), RCAT #03-0637, 972-928-0788.
 
 # 🤝 PINEAPPLE SALES SYSTEM — close without being pushy
 
@@ -49,7 +49,7 @@ The real fear is usually one of these: *a denied claim, a surprise bill, or thei
 - **E — Explain the guarantee:** "If there's no documentable damage, you owe nothing and keep the report. And
   our workmanship is guaranteed — if it's not installed to IKO spec, we make it right."
 - **R — Reinforce with honest urgency:** "The only real deadline is your claim window — the longer we wait,
-  the harder it is to prove. Want me to lock in your CPPA now?"
+  the harder it is to prove. Want me to lock in your free roof inspection now?"
 
 ---
 
@@ -82,7 +82,7 @@ The clock is real: **the longer after a storm, the harder damage is to prove, an
 your only urgency — and it's true. Don't invent fake discounts.
 
 ## 🔁 FOLLOW-UP (for "let me think about it")
-- **Same day (text):** "Great meeting you — here's your CPPA report link. Any questions, I'm one text away. — [name], 972-928-0788"
+- **Same day (text):** "Great meeting you — here's your free roof inspection report link. Any questions, I'm one text away. — [name], 972-928-0788"
 - **Day 2:** "Quick one — did you have a chance to look at the damage photos? Happy to walk through what they mean."
 - **Day 5:** "Reminder your claim window is still open. Want me to hold a spot to file this week?"
 - **Day 10:** "Closing out my storm list for this neighborhood — want me to keep your spot or release it?"

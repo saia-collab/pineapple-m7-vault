@@ -50,7 +50,7 @@ You'll glance at **Paperclip** to check health and cost.
 
 ## 2. HERMES — the brain that already knows your business
 
-**Status: already loaded.** Hermes has memorized the Master Playbook (CPPA, no-green,
+**Status: already loaded.** Hermes has memorized the Master Playbook (free roof inspection, no-green,
 RCAT #03-0637, Outbox Shield, the 4-Fala map, the $18k floor, speed-to-lead). You do NOT
 need to teach it again. Proof: `03_Knowledge_Mat/HERMES_PLAYBOOK.md` + all 4 profiles.
 
@@ -59,7 +59,7 @@ need to teach it again. Proof: `03_Knowledge_Mat/HERMES_PLAYBOOK.md` + all 4 pro
    - In the Self-Kanban, type a goal into the box and hit Add → it lands in TRIAGE → the
      orchestrator breaks it into cards and runs them.
    - Example goal to paste:
-     > "Write 3 brand-compliant social posts for the Grapevine hail keyword, CPPA offer,
+     > "Write 3 brand-compliant social posts for the Grapevine hail keyword, free roof inspection offer,
      > (972) 928-0788, zero green, land them PAUSED in Outbox_Drafts."
 2. **Chat Mode** — you talk to it like a coworker in the Hermes dashboard (localhost:9119)
    for one-off questions or edits.
@@ -157,8 +157,8 @@ The machine does the rest.
 - Everything lands PAUSED in `01_Command_Center/Outbox_Drafts/`. Nothing ships without your GO.
 
 **Brand law (baked into every agent already)**
-- CPPA (never "free") · IKO Certified (never "GAF") · zero green · Navy #1A365D + Gold #FBC02D
-- RCAT #03-0637 · Since 2005 · (972) 928-0788 · $18k+ floor · 5-min speed-to-lead
+- free roof inspection (never "free") · IKO Certified (never "GAF") · zero green · Navy #003299 + Gold #ffdd17
+- RCAT #03-0637 · Since 2021 · (972) 928-0788 · $18k+ floor · 5-min speed-to-lead
 
 **If something breaks**
 - Hermes "Failed to fetch"/402 → switch to a LOCAL model in the dropdown (free).
@@ -255,7 +255,7 @@ Everything else (Loop, Mastermind, Video Director, Game Studio, Hy3, Antigravity
 
 # PART 3 — THE SEO SITE MIGRATION (imported & verified 2026-07-23)
 **Location:** `02_Workspaces/2026-07-23_SEO_Site_Migration/pineapple-migration-build/`
-**Firewall:** ✅ zero green · zero banned terms · RCAT/phone/CPPA on every page.
+**Firewall:** ✅ zero green · zero banned terms · RCAT/phone/free roof inspection on every page.
 
 **Contents:** 33 pages (7 core, 13 services, 13 cities) + 33 Elementor blocks + redirect CSVs
 + click-by-click WordPress guide. Meta Pixel `2545389655696737` preserved.

@@ -11,7 +11,7 @@ source_audit: 2026-08-10_SEO_On-Page_Audit_PineappleRoofingLLC.md
 
 # Pineapple Roofing — Corrected JSON-LD Draft
 
-Trust baseline: RCAT License #03-0637 · IKO Certified · 5-Star · Since 2005 · (972) 928-0788
+Trust baseline: RCAT License #03-0637 · IKO Certified · 5-Star · Since 2021 · (972) 928-0788
 
 STATUS: PAUSED
 

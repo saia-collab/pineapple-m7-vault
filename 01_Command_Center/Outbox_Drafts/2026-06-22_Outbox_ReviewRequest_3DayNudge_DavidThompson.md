@@ -39,7 +39,7 @@ mean the world to our family business: [GOOGLE_REVIEW_LINK]. Thank you!
 
 - [x] No banned lexicon (no "Free", "Warrior", "Toa", "Six Brothers", "Consultation")
 - [x] No pressured CTA — soft ask per template spec
-- [x] CPPA / IKO / RCAT credentials not required (review ask only)
+- [x] free roof inspection / IKO / RCAT credentials not required (review ask only)
 - [x] Phone 972-928-0788 not required here (review ask only)
 - [ ] **Compliance audit pass:** ___________ (initial)
 

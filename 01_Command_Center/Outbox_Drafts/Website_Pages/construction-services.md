@@ -1,6 +1,6 @@
 ---
 title: Construction & Remodeling Services in DFW | Pineapple Contractors
-meta: Remodeling, additions, siding, flooring & new construction across Dallas–Fort Worth. Licensed general contractor, RCAT #03-0637, since 2005. Call 972-928-0788.
+meta: Remodeling, additions, siding, flooring & new construction across Dallas–Fort Worth. Licensed general contractor, RCAT #03-0637, since 2021. Call 972-928-0788.
 ---
 
 ## More Than Roofing — Full Construction & Remodeling
@@ -22,6 +22,6 @@ Clear scopes, honest proposals, daily communication, and craftsmanship backed by
 
 ## Start with a conversation
 
-Call **(972) 928-0788** for a Complimentary consultation and proposal. IKO Certified · RCAT #03-0637 · serving Dallas–Fort Worth since 2005.
+Call **(972) 928-0788** for a Complimentary consultation and proposal. IKO Certified · RCAT #03-0637 · serving Dallas–Fort Worth since 2021.
 
 <!-- M7-FIREWALL-EXEMPT: website-page -->

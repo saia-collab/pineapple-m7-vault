@@ -8,12 +8,12 @@ meta: Multi-unit, HOA & portfolio hail-damage roofing across Frisco TX. 72-hour 
 target_keyword: commercial hail damage portfolio Frisco
 clusters: E5
 status: PAUSED — Outbox review before deploy
-brand_check: CPPA · IKO Certified · The Pineapple Standard · RCAT #03-0637 · 972-928-0788 · 75034 · zero green
+brand_check: free roof inspection · IKO Certified · The Pineapple Standard · RCAT #03-0637 · 972-928-0788 · 75034 · zero green
 ---
 
 # Commercial Hail Damage Portfolio Roofing Frisco TX — IKO Certified (RCAT #03-0637)
 
-**Pineapple Roofing (RCAT Licensed #03-0637 · IKO Certified) is the multi-unit, HOA and commercial-portfolio hail-damage roofer for Frisco, McKinney, Plano and Allen. Priority-tier portfolio agreements with a 72-hour storm-response SLA. Every property starts with a Complimentary Professional Photo Audit (CPPA). Call (972) 928-0788.**
+**Pineapple Roofing (RCAT Licensed #03-0637 · IKO Certified) is the multi-unit, HOA and commercial-portfolio hail-damage roofer for Frisco, McKinney, Plano and Allen. Priority-tier portfolio agreements with a 72-hour storm-response SLA. Every property starts with a free roof inspection. Call (972) 928-0788.**
 
 When North Texas hail hits, a property manager's problem multiplies by the number of buildings. Tenants call, insurers stall, and every day of delay compounds water intrusion and liability. You need one accountable roofer who can assess an entire portfolio fast, document it for insurance, and execute across every building to the same standard.
 
@@ -29,13 +29,13 @@ When North Texas hail hits, a property manager's problem multiplies by the numbe
 - **Commercial owners** — retail, office, industrial and hospitality across Frisco and DFW.
 
 ## How a portfolio engagement works
-1. **Complimentary Professional Photo Audit (CPPA)** — full documented assessment across every building.
+1. **free roof inspection** — full documented assessment across every building.
 2. **Prioritized scope & schedule** — highest-severity roofs first, phased to minimize disruption.
 3. **Claims managed with you** — we meet adjusters on site, per building, and advocate for fair, full coverage.
 4. **IKO Certified execution** — consistent craftsmanship across the portfolio, backed by warranty and a maintenance program.
 
 ## Why property managers choose Pineapple Roofing
-- **20+ years** in North Texas — local since 2005, through every storm season.
+- **20+ years** in North Texas — local since 2021, through every storm season.
 - **IKO Certified · RCAT #03-0637** — verifiable, accountable, insured.
 - **Single point of contact** — one roofer, one standard, across every building.
 
@@ -59,7 +59,7 @@ TPO, PVC, modified bitumen and metal — matched to each building's slope, use a
 **Do you offer ongoing maintenance for portfolios?**
 Yes. Scheduled inspections and minor repairs extend roof life and protect your manufacturer warranties.
 
-## Book a portfolio Complimentary Professional Photo Audit
+## Book a portfolio free roof inspection
 Protect every building the right way — start with one call.
 📞 **Call (972) 928-0788** — IKO Certified · RCAT #03-0637 · The Pineapple Standard.
 

@@ -2,7 +2,7 @@
 type: content_batch
 title: Social Media Content — Batch 1 (10 posts, all platforms)
 status: PAUSED — pair with media from 01_READY_TO_POST → schedule via Blotato
-brand_check: CPPA (no "free") · IKO Certified · The Pineapple Standard · RCAT #03-0637 · 972-928-0788 · zero green
+brand_check: free roof inspection (no "free") · IKO Certified · The Pineapple Standard · RCAT #03-0637 · 972-928-0788 · zero green
 last_updated: 2026-07-15
 ---
 
@@ -13,7 +13,7 @@ last_updated: 2026-07-15
 
 ## 1 — Educational (hidden hail damage) · [Reel: drone/roof] · IG/TikTok/FB
 **Hook:** Your roof "looks fine" after that storm? That's exactly the problem. 👀
-Hail can bruise shingles and strip granules while nothing shows from the ground — until a leak proves it months later. Book a Complimentary Professional Photo Audit and know for sure.
+Hail can bruise shingles and strip granules while nothing shows from the ground — until a leak proves it months later. Book a free roof inspection and know for sure.
 📞 (972) 928-0788 · IKO Certified · RCAT #03-0637
 #FriscoRoofing #HailDamage #NorthTexasRoofing #DFWroofer #StormDamage
 
@@ -25,7 +25,7 @@ We photograph every damage point and meet your adjuster on site — so your clai
 
 ## 3 — Social proof · [Photo: finished roof] · all
 **Hook:** ⭐⭐⭐⭐⭐ "They documented everything and handled our insurance claim start to finish."
-400+ North Texas families trust Pineapple Roofing. Family-owned, IKO Certified, here since 2005. That's The Pineapple Standard.
+400+ North Texas families trust Pineapple Roofing. Family-owned, IKO Certified, here since 2021. That's The Pineapple Standard.
 📞 (972) 928-0788
 #5StarRoofer #FriscoRoofing #DFW #IKOCertified
 
@@ -43,13 +43,13 @@ Our IKO Certified crew, daily cleanup, magnetic nail sweep, and a final walkthro
 
 ## 6 — Local pride · [Photo: DFW/team] · all
 **Hook:** Polynesian-owned. Family-run. North Texas proud. 🍍
-From Frisco to Grapevine, Allen to Euless — we're your neighbors, not a storm-chasing crew from out of state. Here since 2005, here after every storm.
+From Frisco to Grapevine, Allen to Euless — we're your neighbors, not a storm-chasing crew from out of state. Here since 2021, here after every storm.
 📞 (972) 928-0788
 #FriscoTX #FamilyOwned #DFWroofing #LocalBusiness
 
 ## 7 — Seasonal / storm alert · [Reel: storm sky] · all
 **Hook:** Storm rolled through DFW? Don't wait for the leak. ⛈️
-The smartest first step costs you nothing: a Complimentary Professional Photo Audit. We document the damage before the claim window closes.
+The smartest first step costs you nothing: a free roof inspection. We document the damage before the claim window closes.
 📞 (972) 928-0788
 #StormDamage #NorthTexasWeather #Roofing #HailSeason
 
@@ -67,7 +67,7 @@ Shingles = budget-friendly, classic. Metal = 40–70 yr lifespan, energy savings
 
 ## 10 — Direct CTA · [Photo: happy home] · all
 **Hook:** Roof damage? An aging roof? Let's take a look — on us. 🏠
-Book your Complimentary Professional Photo Audit. No cost, no pressure, real answers within 24 hours.
+Book your free roof inspection. No cost, no pressure, real answers within 24 hours.
 📞 (972) 928-0788 · IKO Certified · RCAT #03-0637
 #BookNow #ComplimentaryAudit #FriscoRoofing #NorthTexas
 

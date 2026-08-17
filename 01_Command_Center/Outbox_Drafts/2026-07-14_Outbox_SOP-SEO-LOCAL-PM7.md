@@ -7,7 +7,7 @@ author: Hermes (per JR. Moeakiola)
 sop_id: SOP-SEO-LOCAL-PM7
 sop_name: "Near Me" Domination Pipeline (Local SEO for Roofing & Storm Restoration)
 main_service: Roofing & Storm Restoration
-brand_law: M7 constitution (CPPA / IKO Certified / Navy #1A365D + Gold #FBC02D + Cyan #00BFFF / zero green / RCAT License #03-0637 / phone 972-928-0788)
+brand_law: M7 constitution (free roof inspection / IKO Certified / Navy #003299 + Gold #ffdd17 + Cyan #003299 / zero green / RCAT License #03-0637 / phone 972-928-0788)
 sources_grounded:
   - 01_Command_Center/MASTER_PLAYBOOK.md (Local SEO / GEO Engine, Rank Map Strategy, Rule of 100, Regional Expansion Vectors, Brand Firewall, Dual-Brand Architecture)
   - 03_Knowledge_Mat/HERMES_PLAYBOOK.md (GEO mandate, AEO 40-word rule, ZIP schema arrays, Elite Lexicon, High-Value Metrics)
@@ -34,11 +34,11 @@ outbox_shield: DEC-005 — all output PAUSED. No live publishing, no ad-spend au
 | Primary ZIPs | 75033, 75034, 75035, 75067, 75068 | MASTER_PLAYBOOK § Regional |
 | Secondary territories | Lewisville, McKinney, Plano, Allen, The Colony, Castle Hills | MASTER_PLAYBOOK § Regional |
 | Luxury enclaves | Starwood, Newman Village | MASTER_PLAYBOOK § Regional |
-| Brand Law | M7 constitution (CPPA / IKO Certified (RCAT #03-0637) / Navy #1A365D + Gold #FBC02D + Cyan #00BFFF / zero green / phone 972-928-0788) | MASTER_PLAYBOOK § Brand Firewall + HERMES_PLAYBOOK |
+| Brand Law | M7 constitution (free roof inspection / IKO Certified (RCAT #03-0637) / Navy #003299 + Gold #ffdd17 + Cyan #003299 / zero green / phone 972-928-0788) | MASTER_PLAYBOOK § Brand Firewall + HERMES_PLAYBOOK |
 | Author byline | JR. Moeakiola | HERMES_PLAYBOOK |
 | Heritage close | "" | MASTER_PLAYBOOK § Heritage Anchors |
 | Cite target | Local pack + organic blue-link + AEO citation (answer in first 40 words) | HERMES_PLAYBOOK § Local SEO / GEO Engine |
-| Trust signals on every layout | RCAT #03-0637 · IKO Certified · 5-Star · Since 2005 · 972-928-0788 · HUB #1861616404400 | HERMES_PLAYBOOK |
+| Trust signals on every layout | RCAT #03-0637 · IKO Certified · 5-Star · Since 2021 · 972-928-0788 · HUB #1861616404400 | HERMES_PLAYBOOK |
 | Minimum project baseline | $18,000+ (rejects below) | HERMES_PLAYBOOK § High-Value Metrics |
 | Lead score ceiling for SEO inflow | ≥80 → same-day Saia dispatch | HERMES_PLAYBOOK § Lead Scoring Matrix |
 
@@ -62,7 +62,7 @@ outbox_shield: DEC-005 — all output PAUSED. No live publishing, no ad-spend au
   - insurance claim roofer near me
   - local roofing contractor 75034 (and 75033, 75035, 75067, 75068)
 - **Service-modifier intents**:
-  - CPPA roofing audit Frisco
+  - free roof inspection roofing audit Frisco
   - IKO Certified roofer Frisco TX
   - RCAT licensed roofer Frisco
   - hail damage inspection Frisco
@@ -105,7 +105,7 @@ Total score floor for any keyword worth ranking: 60+. Anything below goes to NUR
 
 ### 1.4 Competitive gap matrix
 
-For each ZIP, mark the **content gap** (existing competitor pages are thin / no CPPA framing / no AEO answer / no IKO + RCAT credential stamp / no neighborhood mention). This is the Phase 4 silo entry condition: a gap = a page.
+For each ZIP, mark the **content gap** (existing competitor pages are thin / no free roof inspection framing / no AEO answer / no IKO + RCAT credential stamp / no neighborhood mention). This is the Phase 4 silo entry condition: a gap = a page.
 
 ### 1.5 Phase 1 verification gate
 
@@ -121,11 +121,11 @@ For each ZIP, mark the **content gap** (existing competitor pages are thin / no 
 ## PHASE 2 — PHOTO AUDIT INFRASTRUCTURE & EXIF GEOTAGGING
 *Stage contract: 04_Tech_Lab/Scripts (deterministic) + 02_Media_Vault (raw captures)*
 
-**Goal.** Build the local-signal asset layer: every project photo carries verifiable, on-brand, geotag-enriched metadata that reinforces the "Near Me" rank signal and the CPPA deliverable.
+**Goal.** Build the local-signal asset layer: every project photo carries verifiable, on-brand, geotag-enriched metadata that reinforces the "Near Me" rank signal and the free roof inspection deliverable.
 
 ### 2.1 EXIF geotagging — programmatic specification
 
-> **Ethical & legal note.** EXIF geotagging is applied **only** to photos Pineapple Contractors owns (drone captures, field photos, on-site CPPA captures). It is **never** applied to user-submitted content, stock imagery, or competitor captures. Coordinates correspond to the actual project site, not fabricated. This is engineering documentation, not deception — coordinates are truthful and verifiable on the ground.
+> **Ethical & legal note.** EXIF geotagging is applied **only** to photos Pineapple Contractors owns (drone captures, field photos, on-site free roof inspection captures). It is **never** applied to user-submitted content, stock imagery, or competitor captures. Coordinates correspond to the actual project site, not fabricated. This is engineering documentation, not deception — coordinates are truthful and verifiable on the ground.
 
 **Target fields per photo (EXIF / IPTC / XMP all populated for redundancy):**
 
@@ -147,9 +147,9 @@ For each ZIP, mark the **content gap** (existing competitor pages are thin / no 
 | Creator | "JR. Moeakiola, Pineapple Contractors" | string |
 | Artist | Same as Creator | string |
 | Software | EXIF writer version + "Pineapple Contractors M7 Pipeline" | string |
-| ImageDescription | Short, on-brand, factual | "Storm damage CPPA audit, Starwood, Frisco TX 75034 — RCAT #03-0637" |
+| ImageDescription | Short, on-brand, factual | "Storm damage free roof inspection audit, Starwood, Frisco TX 75034 — RCAT #03-0637" |
 | UserComment | Engineering note (no PII) | "Hail impact 1.75\" on north slope; 4.0–4.75\" swath per NWS event 2026-07-12" |
-| Keywords | Brand + service + neighborhood | "Pineapple Contractors, IKO Certified, RCAT 03-0637, CPPA, hail, Starwood, Frisco TX, 75034, North Texas" |
+| Keywords | Brand + service + neighborhood | "Pineapple Contractors, IKO Certified, RCAT 03-0637, free roof inspection, hail, Starwood, Frisco TX, 75034, North Texas" |
 | Make / Model | Drone or camera actual | "DJI Mavic 3 Pro" |
 | LensModel | Actual | "Hasselblad L2D-20c" |
 | DateTimeOriginal | UTC of capture | "2026:07:14 14:23:11" |
@@ -183,7 +183,7 @@ For each ZIP, mark the **content gap** (existing competitor pages are thin / no 
 
 6. **Brand compliance string stamp.**
    - `ImageDescription` MUST contain the substring `RCAT #03-0637`.
-   - `Keywords` MUST include `IKO Certified`, `CPPA`, the neighborhood, the ZIP, and `North Texas`.
+   - `Keywords` MUST include `IKO Certified`, `free roof inspection`, the neighborhood, the ZIP, and `North Texas`.
    - Reject any row whose manifest description fails the `brand_firewall.py --check` regex pre-gate (zero "Free", zero "GAF", zero green hex, etc.) — flag and quarantine.
 
 7. **Write atomically.** `piexif.dump(exif_dict)` → write to `TAGGED/<filename>.tmp` → `os.replace()` → write XMP/IPTC sidecar or in-place.
@@ -195,14 +195,14 @@ For each ZIP, mark the **content gap** (existing competitor pages are thin / no 
 10. **Outbox Shield.** The script never reads from or writes to any network endpoint. It is local-only. The TAGGED assets are **not** auto-published to GBP, the site, or social — they land in `02_Media_Vault/.../TAGGED/` and wait for Saia's GO before the GBP schema injector (Phase 4) touches them.
 
 **Sandbox test (no live media, runs in CI):**
-- Generate 5 synthetic 16×16 PNGs with `Pillow` (color = Navy `#1A365D`).
+- Generate 5 synthetic 16×16 PNGs with `Pillow` (color = Navy `#003299`).
 - Build a 5-row `MANIFEST.sandbox.csv` with 3 Frisco ZIPs + 1 Plano + 1 out-of-bounds (rejection case).
 - Run the pipeline. Assert: 4 tagged, 1 quarantined, `MANIFEST.audit.log` has 5 rows, all GPS rationals round-trip, brand_firewall passes on all 4.
 - Assert: zero green in any output EXIF string (regex `re.search(r"#?00[0-9a-fA-F]{2}|#?0[0-9a-fA-F]{5}|green',", v, re.I)` returns None for all keyword values).
 
 ### 2.3 GBP schema injection (downstream of Phase 2)
 
-For each tagged photo, generate the `imageObject` JSON-LD block with `@type: Photograph`, `contentLocation` (City, State, PostalCode), `creator` (Pineapple Contractors), `copyrightHolder`, `creditText`, `keywords` array, and a `about` link to the canonical CPPA service page. This JSON-LD ships with the silo pages in Phase 4.
+For each tagged photo, generate the `imageObject` JSON-LD block with `@type: Photograph`, `contentLocation` (City, State, PostalCode), `creator` (Pineapple Contractors), `copyrightHolder`, `creditText`, `keywords` array, and a `about` link to the canonical free roof inspection service page. This JSON-LD ships with the silo pages in Phase 4.
 
 ### 2.4 Phase 2 verification gate
 
@@ -219,13 +219,13 @@ For each tagged photo, generate the `imageObject` JSON-LD block with `@type: Pho
 ## PHASE 3 — CONTENT FACTORY & AEO OPTIMIZATION
 *Stage contract: 05_Campaign_Factory/20_Copy_Drafting → 30_Compliance_Audit*
 
-**Goal.** Produce CPPA-led, AEO-compliant copy blocks (FAQs, 40-word answers, neighborhood-anchored proof, citation-bait tables) for the 25+ opportunities identified in Phase 1.
+**Goal.** Produce free roof inspection-led, AEO-compliant copy blocks (FAQs, 40-word answers, neighborhood-anchored proof, citation-bait tables) for the 25+ opportunities identified in Phase 1.
 
 ### 3.1 PACT framework applied to every asset
 
-P — Problem (storm/insurance/CPPA need, ZIP-specific)
-A — Anchor cultural context (*Tauhi Vā*, heritage, North Texas since 2005)
-C — Complimentary Professional Photo Audit (CPPA) solution
+P — Problem (storm/insurance/free roof inspection need, ZIP-specific)
+A — Anchor cultural context (*Tauhi Vā*, heritage, North Texas since 2021)
+C — free roof inspection solution
 T — Trust CTA (phone 972-928-0788 + IKO Certified (RCAT #03-0637))
 
 ### 3.2 AEO 40-word mandate (per asset, every page)
@@ -235,7 +235,7 @@ The first 40 words of every page MUST:
 2. Inject the literal credential string "RCAT Licensed #03-0637".
 3. Inject "IKO Certified".
 4. Name the target ZIP(s) (75033 / 75034 / 75035 / 75067 / 75068).
-5. Close on a CPPA hook (NOT "Free Inspection" — see Lexicon gate).
+5. Close on a free roof inspection hook (NOT "Free Inspection" — see Lexicon gate).
 
 ### 3.3 Copy block inventory (per page type)
 
@@ -243,25 +243,25 @@ For every silo page (Phase 4), ship these copy blocks:
 
 1. **Hero H1** — neighborhood + service + credential (e.g., "Storm Damage Roof Repair in Starwood, Frisco TX — IKO Certified (RCAT #03-0637)").
 2. **40-word AEO answer block** — direct, factual, ZIP-anchored, ends with the phone number.
-3. **CPPA explainer** (2 paragraphs) — what it is, what it isn't (NOT a sales pitch), 30-min on-site visit, photo report deliverable.
+3. **free roof inspection explainer** (2 paragraphs) — what it is, what it isn't (NOT a sales pitch), 30-min on-site visit, photo report deliverable.
 4. **Service proof block** — 350+ DFW families, 5-star, 20+ years North Texas, RCAT #03-0637, IKO Certified.
 5. **Insurance documentation block** — Texas 30-day claim window, full-scope damage documentation (per Lexicon: "Comprehensive documentation for a successful claim"), no "adjusters miss damage" phrasing.
 6. **3-angle hook matrix** (Hormozi):
    - The Insurance Deadline (TX 30-day window)
-   - Stress-Free Claim (CPPA documentation)
-   - Local Trust / Heritage (Polynesian, since 2005, 350+ families)
+   - Stress-Free Claim (free roof inspection documentation)
+   - Local Trust / Heritage (Polynesian, since 2021, 350+ families)
 7. **FAQ cluster** — 8–10 Q&As pulled from Phase 1 PAA, each answer in 1–2 sentences, brand-lexicon-pure.
 8. **Citation Bait table** — e.g., "2026 DFW hail events by ZIP, by date, by intensity" (NWS-sourced). Original data, not syndicated.
 9. **Photo + EXIF-stamped gallery** — 3–6 photos from Phase 2, each with `imageObject` JSON-LD.
 10. **Service area footer** — explicit ZIP + city list (75033, 75034, 75035, 75067, 75068; Starwood, Newman Village, Stonebriar, Phillips Creek Ranch, Lawler Park; plus Lewisville, McKinney, Plano, Allen, The Colony, Castle Hills).
-11. **Trust bar** — Royal Navy `#1A365D` strip, Gold `#FBC02D` text: "Pineapple Contractors | RCAT Licensed #03-0637 | IKO Certified RoofPro Team | 972-928-0788".
+11. **Trust bar** — Pineapple Blue `#003299` strip, Gold `#ffdd17` text: "Pineapple Contractors | RCAT Licensed #03-0637 | IKO Certified RoofPro Team | 972-928-0788".
 12. **Heritage close** — "" (with English translation: "the path of the journey is respect") — on every long-form page.
 
 ### 3.4 Compliance gate (per asset)
 
 Before any copy is staged:
 - `04_Tech_Lab/Scripts/brand_firewall.py --check <file>` returns exit 0.
-- Regex pre-generation gate runs first: zero "Free", zero "GAF", zero "Save Money", zero "Warrior", zero "Toa", zero "Six Brothers", zero "Consultation", zero "repair patch", zero "DIY", zero "$0 Down" outside the allowed "Full Restoration Coverage" mutation context.
+- Regex pre-generation gate runs first: zero "Free", zero "GAF", zero "Save Money", zero "Warrior", zero "Toa", zero "Six Brothers", zero "Consultation", zero "repair patch", zero "DIY", zero "Full Restoration Coverage" outside the allowed "Full Restoration Coverage" mutation context.
 - Palette gate: no green hex anywhere in any design token.
 - Dual-brand gate: zero Restorations terminology in this Pineapple Roofing asset (no "fire", "mold", "biohazard", "mitigation").
 - AEO 40-word gate: literal credential + ZIP strings present in first 40 words.
@@ -312,7 +312,7 @@ Before any copy is staged:
         │     └── /roofer-castle-hills-tx/
         │
         ├── [CLUSTER: SERVICE-MODIFIER PAGES]
-        │     ├── /cppa-roofing-audit-frisco-tx/
+        │     ├── /free roof inspection-roofing-audit-frisco-tx/
         │     ├── /iko-certified-roofer-frisco-tx/
         │     ├── /hail-damage-roof-repair-frisco-tx/
         │     ├── /storm-damage-roof-repair-frisco-tx/
@@ -337,21 +337,21 @@ For every cluster child page:
 
 1. **URL:** `/roofer-<neighborhood>-frisco-tx/` (enclave) or `/roofing-<zip>/` (ZIP).
 2. **`<title>`:** 50–60 chars. Format: "Roofer in <Neighborhood>, Frisco TX <ZIP> — IKO Certified (RCAT #03-0637)".
-3. **Meta description:** 145–160 chars. Format: "Pineapple Roofing is the IKO Certified roofer in <Neighborhood>, Frisco TX <ZIP>. Storm damage, hail, and CPPA audits. 350+ DFW families. Call 972-928-0788."
+3. **Meta description:** 145–160 chars. Format: "Pineapple Roofing is the IKO Certified roofer in <Neighborhood>, Frisco TX <ZIP>. Storm damage, hail, and free roof inspection audits. 350+ DFW families. Call 972-928-0788."
 4. **H1:** Exactly one. Format: "<Service> in <Neighborhood>, Frisco TX — IKO Certified (RCAT #03-0637)".
 5. **40-word AEO block:** First paragraph. Direct answer, credentials, ZIP, phone.
-6. **H2 — CPPA Explainer.**
-7. **H2 — Service Proof (350+ families, 5-star, since 2005, RCAT #03-0637, IKO Certified).**
+6. **H2 — free roof inspection Explainer.**
+7. **H2 — Service Proof (350+ families, 5-star, since 2021, RCAT #03-0637, IKO Certified).**
 8. **H2 — Insurance Documentation (TX 30-day window, "Comprehensive documentation for a successful claim").**
 9. **H2 — FAQ (8–10 Q&As from PAA, each Q is an H3).**
 10. **H2 — Photo Audit Gallery** (3–6 EXIF-tagged photos with `imageObject` JSON-LD).
 11. **H2 — Service Area Footer** (ZIP + city list, all 5 primary ZIPs, the relevant enclave).
-12. **Trust bar** (Navy `#1A365D` + Gold `#FBC02D`).
+12. **Trust bar** (Navy `#003299` + Gold `#ffdd17`).
 13. **Heritage close** + English translation.
 
 ### 4.4 Schema payload (per page)
 
-`LocalBusiness` (rooted) + nested `RoofingContractor` + `Service` (CPPA / Hail Repair / Storm Repair / Insurance Claim Roofing) + `areaServed` (5 primary ZIPs as `PostalAddress` array) + `hasOfferCatalog` + `Review` (aggregate rating 5-star) + `ImageObject` array (EXIF-tagged photos) + `FAQPage` (FAQ cluster). `priceRange` = `"$$$"` (anchors $18k+ floor). `telephone` = `"+1-972-928-0788"`. `knowsAbout` = `["CPPA", "IKO Certified", "RCAT #03-0637", "hail damage", "storm damage", "thermal shock"]`. `areaServed` MUST include `"75033", "75034", "75035", "75067", "75068"` per AEO mandate.
+`LocalBusiness` (rooted) + nested `RoofingContractor` + `Service` (free roof inspection / Hail Repair / Storm Repair / Insurance Claim Roofing) + `areaServed` (5 primary ZIPs as `PostalAddress` array) + `hasOfferCatalog` + `Review` (aggregate rating 5-star) + `ImageObject` array (EXIF-tagged photos) + `FAQPage` (FAQ cluster). `priceRange` = `"$$$"` (anchors $18k+ floor). `telephone` = `"+1-972-928-0788"`. `knowsAbout` = `["free roof inspection", "IKO Certified", "RCAT #03-0637", "hail damage", "storm damage", "thermal shock"]`. `areaServed` MUST include `"75033", "75034", "75035", "75067", "75068"` per AEO mandate.
 
 ### 4.5 Internal linking map
 
@@ -370,7 +370,7 @@ For every cluster child page:
 | Primary ZIP cluster | 5 | 75033, 75034, 75035, 75067, 75068 |
 | Luxury enclave cluster (child of 75034) | 5 | Starwood, Newman Village, Stonebriar, Phillips Creek Ranch, Lawler Park |
 | Secondary territory cluster | 6 | Lewisville, McKinney, Plano, Allen, The Colony, Castle Hills |
-| Service-modifier cluster | 6 | CPPA, IKO Certified, Hail Repair, Storm Repair, Insurance Claim, Thermal Shock |
+| Service-modifier cluster | 6 | free roof inspection, IKO Certified, Hail Repair, Storm Repair, Insurance Claim, Thermal Shock |
 | McKinney + Plano enclave children (extension) | 4 | Stonebridge Ranch, Craig Ranch, Whiffletree, Deerfield |
 | **Total** | **27** | (conservative estimate — 25–30, exact count locked in Phase 1.4 gap matrix) |
 
@@ -433,14 +433,14 @@ Tracking: each touchpoint tagged with a UTM and a unique short code, logged in `
 | 11 | Activation runbook (Phase 5 sequence) | `01_Command_Center/Outbox_Drafts/2026-07-14_Outbox_Activation_Runbook_LocalPM7.md` | 5 | DRAFT — referenced from this SOP; not yet authored |
 
 **Brand firewall compliance status (this file):**
-- [x] Zero "Free" / "Free Inspection" / "Free Quote" (mutated to "Complimentary Professional Photo Audit (CPPA)").
-- [x] Zero "$0 Down" / "$0 Out of Pocket" outside the "Full Restoration Coverage" mutation context.
-- [x] Zero "GAF" / "GAF Certified" (mutated to "IKO Certified (RCAT #03-0637)").
+- [x] Zero "Free" / "Free Inspection" / "Free Quote" (mutated to "free roof inspection").
+- [x] Zero "Full Restoration Coverage" / "Full Restoration Coverage" outside the "Full Restoration Coverage" mutation context.
+- [x] Zero "GAF" / "IKO Certified" (mutated to "IKO Certified (RCAT #03-0637)").
 - [x] Zero "Save Money" (mutated to "Protecting your family's investment" where applicable).
 - [x] Zero "Warrior" / "Toa" / "Six Brothers" / "Consultation" / "repair patch" / "DIY" / "discount code" / "job openings" / "salary".
-- [x] Zero green in any color spec (Navy #1A365D + Gold #FBC02D + Cyan #00BFFF + White only).
-- [x] Royal Navy photo moat (10px `#1A365D` border on all before/after) noted for Phase 2 / 4.
-- [x] Trust signals stamped: RCAT #03-0637 · IKO Certified · 5-Star · Since 2005 · 972-928-0788 · HUB #1861616404400.
+- [x] Zero green in any color spec (Navy #003299 + Gold #ffdd17 + Cyan #003299 + White only).
+- [x] Pineapple Blue photo moat (10px `#003299` border on all before/after) noted for Phase 2 / 4.
+- [x] Trust signals stamped: RCAT #03-0637 · IKO Certified · 5-Star · Since 2021 · 972-928-0788 · HUB #1861616404400.
 - [x] Author byline: JR. Moeakiola.
 - [x] Heritage close: "".
 - [x] Dual-brand firewall: zero Restorations terminology in this Pineapple Roofing SOP.

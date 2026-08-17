@@ -3,7 +3,7 @@ type: strategic_brief
 title: Bullseye Assessment — VP Validation + Brother Brief + Reply Draft
 status: PAUSED — internal brief for Junior. Reply to Marco is a DRAFT, needs GO.
 author: Claude (VP Marketing seat, 20-yr lens)
-brand_check: CPPA · IKO Certified · RCAT #03-0637 · zero green
+brand_check: free roof inspection · IKO Certified · RCAT #03-0637 · zero green
 last_updated: 2026-07-20
 ---
 
@@ -24,11 +24,11 @@ last_updated: 2026-07-20
 | **0 storm-damage / insurance pages** | ✅ **DONE** — we published 12 storm/hail location pages on pineappleroofingllc.com |
 | **Missing schema; 430 reviews invisible** | ✅ **DONE** — we injected RoofingContractor JSON-LD on all 12 pages (just need your real review count to light up stars) |
 | **97% duplicate city-page content, 0 local signals** | ✅ **DONE** — our pages carry unique hail/county/neighborhood signals (Starwood, Newman Village, Collin/Denton County) |
-| **Differentiators (license, financing) not featured** | ✅ We lead with RCAT #03-0637 + IKO + CPPA on every page |
+| **Differentiators (license, financing) not featured** | ✅ We lead with RCAT #03-0637 + IKO + free roof inspection on every page |
 | **Never ran Google Ads; a controlled pilot is viable** | ✅ Documented in our GBP/LSA lead engine — LSA first, then a small search pilot |
-| **No conversion tracking (GA4)** | ✅ **DONE** — we built the GA4 phone-click + CPPA event snippet + Site Kit |
+| **No conversion tracking (GA4)** | ✅ **DONE** — we built the GA4 phone-click + free roof inspection event snippet + Site Kit |
 | **McKinney has no GBP; 24% of McKinney roofers have no site** | 📋 Noted — easy expansion win (verify McKinney GBP) |
-| **"Free inspection" is commoditized** | ✅ We replaced it with CPPA — our differentiator, not the herd's |
+| **"Free inspection" is commoditized** | ✅ We replaced it with free roof inspection — our differentiator, not the herd's |
 
 **Translation: Marco just wrote us a $2,000 to-do list. We'd already done ~80% of it.**
 

@@ -2,7 +2,7 @@
 title: Brand & Content — Family Training Module
 hub: PM7_BRAND_CONTENT
 status: PAUSED
-brand_check: CPPA · IKO Certified · RCAT #03-0637 · 972-928-0788 · zero green
+brand_check: free roof inspection · IKO Certified · RCAT #03-0637 · 972-928-0788 · zero green
 ---
 
 # 🎨 BRAND & CONTENT — Family Training
@@ -12,12 +12,12 @@ brand_check: CPPA · IKO Certified · RCAT #03-0637 · 972-928-0788 · zero gree
 ## ✈️ PRE-FLIGHT CHECKLIST
 - [ ] You have one real asset: a before/after, a crew shot, or a review.
 - [ ] Brand voice locked: family-proud, honest, zero hype.
-- [ ] Never "free" → CPPA. Never "$0 down" → Full Restoration Coverage. No green.
+- [ ] Never "free" → free roof inspection. Never "full restoration coverage" → Full Restoration Coverage. No green.
 - [ ] Output lands PAUSED. Saia approves before it posts.
 
 ## 🪜 THE STEPS — The Content Multiplier
 Take one photo. Make three posts:
-1. **The Sale.** "Hail hit your street. Book your CPPA." → for buyers.
+1. **The Sale.** "Hail hit your street. Book your free roof inspection." → for buyers.
 2. **The Story.** "The name on the truck is the name on the license." → for trust.
 3. **The Recruitment.** "We hire people who clean the jobsite." → for hiring.
 
@@ -28,17 +28,17 @@ Take one photo. Make three posts:
 
 ## 🎬 SOP-V VIDEO SCRIPT (50 sec · 50/5/3)
 - **0–5s (hook, Gold on Navy):** "20 years. One family. One standard."
-- **5–47s (value):** Real field footage — storm, restoration, cleanup. "IKO Certified. RCAT License #03-0637. Family-owned since 2005."
-- **47–50s (CTA):** "Call (972) 928-0788 for your Complimentary Professional Photo Audit."
+- **5–47s (value):** Real field footage — storm, restoration, cleanup. "IKO Certified. RCAT License #03-0637. Family-owned since 2021."
+- **47–50s (CTA):** "Call (972) 928-0788 for your free roof inspection."
 
 ## 📱 BLOTATO JSON (Content Multiplier)
 ```json
 { "hub": "BRAND", "output_status": "PAUSED", "cultural_anchor": "'Oua lau e kafo kae lau e lava",
   "angles": {
-    "sale": "Same storm hit your block. Book your CPPA — (972) 928-0788.",
+    "sale": "Same storm hit your block. Book your free roof inspection — (972) 928-0788.",
     "story": "Polynesian-owned. Family-run. IKO Certified. The Pineapple Standard.",
     "recruitment": "The crew IS the company. We're hiring. DM PINEAPPLE." },
-  "colors": {"navy": "#1A365D", "gold": "#FBC02D"} }
+  "colors": {"navy": "#003299", "gold": "#ffdd17"} }
 ```
 
 

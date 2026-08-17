@@ -11,14 +11,14 @@ needs_footage_rows: 14
 
 **STATUS: PAUSED — Outbox Shield. Saia approval is required before any post.**
 
-**Trust signals:** RCAT #03-0637 · IKO Certified · 5-Star · Since 2005 · 972-928-0788
+**Trust signals:** RCAT #03-0637 · IKO Certified · 5-Star · Since 2021 · 972-928-0788
 
 | DAY | POST TYPE | CAPTION FILE + WHICH POST | SUGGESTED MEDIA FILE | PLATFORM | STATUS |
 |---:|---|---|---|---|---|
 | 1 | Reel | `Social_Hormozi_CaptionPack.md` — Post 1: insurance documentation | NEEDS FOOTAGE | Instagram Reels · Facebook Reels · TikTok | PAUSED |
 | 2 | Reel | `Social_Hormozi_CaptionPack.md` — Post 2: three-step roof process | `03_Marketing_Reels_Pool/5104 Mohawk Dr ].mp4` | Instagram Reels · Facebook Reels · TikTok | PAUSED |
 | 3 | Carousel | `Social_Hormozi_CaptionPack.md` — Post 3: credential checklist | NEEDS FOOTAGE | Instagram · Facebook · LinkedIn | PAUSED |
-| 4 | Photo | `Social_Hormozi_CaptionPack.md` — Post 4: CPPA value stack | NEEDS FOOTAGE | Instagram · Facebook | PAUSED |
+| 4 | Photo | `Social_Hormozi_CaptionPack.md` — Post 4: free roof inspection value stack | NEEDS FOOTAGE | Instagram · Facebook | PAUSED |
 | 5 | Reel | `Reel_Repurpose_Plan.md` — Short A1: family trust hook | `03_Marketing_Reels_Pool/why pineapple roofing.MP4` | Instagram Reels · Facebook Reels · TikTok | PAUSED |
 | 6 | Reel | `Reel_Repurpose_Plan.md` — Short A2: credential proof | `03_Marketing_Reels_Pool/why pineapple roofing.MP4` | LinkedIn · Facebook Reels | PAUSED |
 | 7 | Reel | `Reel_Repurpose_Plan.md` — Short A3: family story | `03_Marketing_Reels_Pool/why pineapple roofing.MP4` | Instagram Reels · Facebook Reels · TikTok | PAUSED |
@@ -39,7 +39,7 @@ needs_footage_rows: 14
 | 22 | Credential Reel | `Social_Content_Batch1.md` — Post 8: license and certification | `03_Marketing_Reels_Pool/why pineapple roofing.MP4` | Facebook Reels · LinkedIn | PAUSED |
 | 23 | Commercial Reel | `Social_Content_Batch2.md` — Post 2: commercial roof audience | `03_Marketing_Reels_Pool/property managers.MP4` | LinkedIn · Facebook Reels | PAUSED |
 | 24 | Crew Reel | `Social_Content_Batch2.md` — Post 3: Euless crew spotlight | NEEDS FOOTAGE | Instagram Reels · TikTok · Facebook Reels | PAUSED |
-| 25 | GBP Update | `GBP_Posts_and_Reviews_Batch1.md` — Post 1: storm and CPPA | NEEDS FOOTAGE | Google Business Profile | PAUSED |
+| 25 | GBP Update | `GBP_Posts_and_Reviews_Batch1.md` — Post 1: storm and free roof inspection | NEEDS FOOTAGE | Google Business Profile | PAUSED |
 | 26 | GBP Update | `GBP_Posts_and_Reviews_Batch1.md` — Post 2: trust and authority | `03_Marketing_Reels_Pool/why pineapple roofing.MP4` | Google Business Profile | PAUSED |
 | 27 | GBP Update | `GBP_Posts_and_Reviews_Batch1.md` — Post 4: commercial roofing | `03_Marketing_Reels_Pool/property managers.MP4` | Google Business Profile | PAUSED |
 | 28 | GBP Update | `GBP_Posts_Batch2.md` — Post 6: metal roofing | NEEDS FOOTAGE | Google Business Profile | PAUSED |

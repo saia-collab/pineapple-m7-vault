@@ -7,8 +7,8 @@ created: 2026-07-20
 framework: Hormozi $100M Offers (value equation)
 ---
 
-> **PAUSED — Saia approves before this becomes the site/ad/script copy.** Brand-locked: CPPA, IKO,
-> Full Restoration Coverage (never "$0 down"), no green, RCAT #03-0637, 972-928-0788.
+> **PAUSED — Saia approves before this becomes the site/ad/script copy.** Brand-locked: free roof inspection, IKO,
+> Full Restoration Coverage (never "full restoration coverage"), no green, RCAT #03-0637, 972-928-0788.
 
 # 🏆 PINEAPPLE GRAND SLAM OFFER (roofing / storm restoration)
 
@@ -24,7 +24,7 @@ no documentable damage, you owe nothing and keep the report."**
 ## 📦 Core deliverables (each with standalone value)
 | # | Deliverable | Standalone value |
 |---|-------------|------------------|
-| 1 | **Complimentary Professional Photo Audit (CPPA)** — drone + ground, every slope | $350 |
+| 1 | **free roof inspection** — drone + ground, every slope | $350 |
 | 2 | **Claim-ready documentation file** built for your adjuster | $500 |
 | 3 | **Insurance claim advocacy** — we meet the adjuster and defend the scope | $750 |
 | 4 | **IKO Certified installation** — premium materials, 50-year warranty | job value |
@@ -38,7 +38,7 @@ no documentable damage, you owe nothing and keep the report."**
 5. **Lifetime Workmanship Check-Ins** — we come back and verify, for as long as you own the home.
 
 ## 💵 Price / positioning
-- **Insurance funds the approved scope. Your cost = your deductible.** (Never "$0 down" → **Full Restoration Coverage**.)
+- **Insurance funds the approved scope. Your cost = your deductible.** (Never "full restoration coverage" → **Full Restoration Coverage**.)
 - **Anchor:** "An out-of-pocket roof replacement in North Texas runs $15,000–$25,000. With a documented,
   approved claim, your cost is your deductible — often a fraction of that."
 
@@ -51,14 +51,14 @@ removes the fear.)*
 
 ## 💬 DM / landing pitch (one paragraph)
 "Storm season hit North Texas — and the roof damage you can't see from the driveway is exactly what insurers
-deny later. We run a **Complimentary Professional Photo Audit**: a 20-minute drone + ground scan that
+deny later. We run a **free roof inspection**: a 20-minute drone + ground scan that
 documents every slope and builds a claim-ready file your adjuster can't wave off. If there's damage, we
 handle the claim and restore your roof to IKO spec through your insurance — you pay your deductible, not
 $20,000. If there's no damage, you owe nothing and keep the report. RCAT #03-0637 · IKO Certified · 5.0★ ·
-protecting North Texas since 2005. Reserve your CPPA → 972-928-0788."
+protecting North Texas since 2021. Reserve your free roof inspection → 972-928-0788."
 
 ---
 
 ## 🏢 Property-Manager variant (dual-brand safe)
-Same mechanism, portfolio framing: **per-property CPPAs**, priority scheduling for 10+ units, one accountable
+Same mechanism, portfolio framing: **per-property free roof inspections**, priority scheduling for 10+ units, one accountable
 team, owner-ready documentation. Anchor: "One missed roof claim can cost your owner $25,000."

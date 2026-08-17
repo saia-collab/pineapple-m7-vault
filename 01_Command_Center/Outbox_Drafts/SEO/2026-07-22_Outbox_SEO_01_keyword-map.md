@@ -8,7 +8,7 @@ agent: keyword-research-manager
 created: 2026-07-22
 sources_skipped: [DataForSEO MCP — not wired to this profile. Volume + difficulty + competitor_gap numbers are placeholders; rebuild this run after DataForSEO is configured.]
 ---
-> **PAUSED — drafts only, never publish or spend.** Brand law: CPPA (never "free"), IKO Certified (never GAF), The Pineapple Standard (never warrior/toa/six brothers), Navy #1A365D + Gold #FBC02D, ZERO green, RCAT #03-0637, 972-928-0788.
+> **PAUSED — drafts only, never publish or spend.** Brand law: free roof inspection (never "free"), IKO Certified (never GAF), The Pineapple Standard (never warrior/toa/six brothers), Navy #003299 + Gold #ffdd17, ZERO green, RCAT #03-0637, 972-928-0788.
 
 # Keyword Map: Pineapple Roofing (2026-07-22)
 
@@ -45,7 +45,7 @@ sources_skipped: [DataForSEO MCP — not wired to this profile. Volume + difficu
 | "frisco roofer" | 210 | another owner-op with 5.0★, 400+ reviews, photos uploaded weekly | velocity of GBP photo + review flow | Beat them on **answer-first** AEO; Google AI Overviews is thin on this query |
 | "best roofer in frisco" | 90 | directories (Yelp, Angi) | directories always win the "best of" SERP | Skip; redirect that intent to the Frisco hub page + 3 reviews on-page |
 | "roof repair near me" | 6,600 (local pack only) | 3-pack winners rotate | Google Local Pack is decided by proximity + review velocity | Drive review velocity via `M7_LEAD_ENGINE` review_request_loop; the OS already has the cadence |
-| "free roof inspection" | 590 | competitors will say "free" | **WE CANNOT SAY "FREE" — brand law.** | Outcompete on "Complimentary Professional Photo Audit" exact-match — the lexicon mutation is our moat |
+| "free roof inspection" | 590 | competitors will say "free" | **WE CANNOT SAY "FREE" — brand law.** | Outcompete on "free roof inspection" exact-match — the lexicon mutation is our moat |
 
 > Need a real gap list. After DataForSEO is wired, run `dataforseo_labs/google/ranked_keywords/live` once for client + 3 competitors and rebuild this table.
 
@@ -93,7 +93,7 @@ Grouped by service. Each set is the cheap related-search + PAA proxy (per the pl
 ## Top 10 priorities (the hit-list)
 1. **Fix home title + H1 from "Dallas" to "Frisco"** — single biggest CTR + relevance lever, brand-HQ mismatch.
 2. **Add `IKO Certified` to the home H1 and meta description** — currently missing, highest-credential signal we own.
-3. **Add "Complimentary Professional Photo Audit (CPPA)" to the home hero** — replaces any "free" language; pulls all hail/restoration traffic through the conversion lever.
+3. **Add "free roof inspection" to the home hero** — replaces any "free" language; pulls all hail/restoration traffic through the conversion lever.
 4. **Publish `/roofing-frisco-tx/`** (the Frisco city hub) — missing entirely, links to all 8 service × Frisco pages.
 5. **Publish `/roof-replacement-frisco-tx/`** (the IKO Certified sell) — sells the credential.
 6. **Publish Allen, Grapevine, Euless city pages** — already drafted PAUSED; brand-check + ship.
@@ -103,7 +103,7 @@ Grouped by service. Each set is the cheap related-search + PAA proxy (per the pl
 10. **Wire Indexceptional** — pings new pages for crawl on the day they ship, not 2 weeks later.
 
 ## Handoff
-- On-Page Copywriter: priority-cluster targets are above; start with home title/H1/IKO/CPPA as the cheapest 1-page fix.
+- On-Page Copywriter: priority-cluster targets are above; start with home title/H1/IKO/free roof inspection as the cheapest 1-page fix.
 - Blog Writer: question + fan-out queries above; build the cluster around hail (highest Frisco demand) and insurance (highest Frisco pain).
 - Local SEO Manager: local modifiers list is the geo-modifier library for every city page.
 - AI Search / GEO Specialist: reuse the fan-out seed set so you don't re-derive the same PAA + related-search tree.

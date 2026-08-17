@@ -20,7 +20,7 @@ canonical_url: "[VERIFY AGAINST LIVE CMS INVENTORY]"
 
 **SEO title:** Roofing Company Frisco TX | Pineapple Contractors
 
-**Meta description:** Need a roofing company Frisco TX property owners can call? Pineapple Roofing offers a CPPA. IKO Certified, RCAT #03-0637. Call 972-928-0788.
+**Meta description:** Need a roofing company Frisco TX property owners can call? Pineapple Roofing offers a free roof inspection. IKO Certified, RCAT #03-0637. Call 972-928-0788.
 
 **Suggested slug:** `/service-areas/frisco-roofing/`
 
@@ -36,19 +36,19 @@ canonical_url: "[VERIFY AGAINST LIVE CMS INVENTORY]"
 
 # Roofing Company in Frisco, TX for Estates and Managed Properties
 
-Pineapple Roofing is a roofing company Frisco TX property owners can call for a Complimentary Professional Photo Audit (CPPA). We are Frisco-based, IKO Certified, RCAT #03-0637, and available at 972-928-0788.
+Pineapple Roofing is a roofing company Frisco TX property owners can call for a free roof inspection. We are Frisco-based, IKO Certified, RCAT #03-0637, and available at 972-928-0788.
 
-**RCAT #03-0637 · IKO Certified · 5-Star · Since 2005 · 972-928-0788**
+**RCAT #03-0637 · IKO Certified · 5-Star · Since 2021 · 972-928-0788**
 
 A roof decision should begin with clear, observable conditions—not pressure or assumptions. From our headquarters at 1 Cowboys Way, Suite 270W, Pineapple Roofing helps Frisco estate owners, multi-unit property managers, and commercial owners establish that starting point through professional photo documentation.
 
-**Protect your property investment with clear roof documentation. Request a Complimentary Professional Photo Audit (CPPA) from Pineapple Roofing: IKO Certified, RCAT #03-0637. Call 972-928-0788.**
+**Protect your property investment with clear roof documentation. Request a free roof inspection from Pineapple Roofing: IKO Certified, RCAT #03-0637. Call 972-928-0788.**
 
 ## A Frisco-based roofing conversation should start with documentation
 
 Frisco properties are not all managed the same way. An estate owner may be weighing appearance, system selection, and long-term investment protection. A property manager may need organized information that can be shared with owners and other decision-makers. A commercial owner may need a clear basis for deciding what to investigate next.
 
-The common need is reliable documentation before scope. Pineapple Roofing uses the CPPA to document observable roof conditions so the property owner can have a more informed conversation about roofing options. The CPPA does not determine insurance coverage, promise a project outcome, or replace the written terms of a selected roofing system.
+The common need is reliable documentation before scope. Pineapple Roofing uses the free roof inspection to document observable roof conditions so the property owner can have a more informed conversation about roofing options. The free roof inspection does not determine insurance coverage, promise a project outcome, or replace the written terms of a selected roofing system.
 
 That documentation-first approach is especially relevant in Pineapple Roofing's home city. Our Frisco headquarters is in ZIP 75034, and the approved M7 service-area records identify 75033, 75034, and 75035 as Frisco target ZIPs. Starwood and Newman Village are also named in the approved M7 regional guidance as estate-focused Frisco communities.
 
@@ -60,7 +60,7 @@ A productive first conversation should answer three practical questions:
 2. Which roofing path deserves further discussion for this property?
 3. Which credentials, product documents, warranty terms, and written scope should the owner verify before deciding?
 
-The CPPA creates a disciplined starting point for those questions without turning an initial condition review into a claim about coverage or a guarantee about the final scope.
+The free roof inspection creates a disciplined starting point for those questions without turning an initial condition review into a claim about coverage or a guarantee about the final scope.
 
 ## Frisco estate roofing: protect the property by clarifying the decision
 
@@ -70,7 +70,7 @@ Pineapple Roofing's approved service focus includes estate roofing. For Frisco h
 
 ### Questions an estate owner can bring to the roofing discussion
 
-- What observable conditions are documented in the CPPA?
+- What observable conditions are documented in the free roof inspection?
 - Which IKO roofing options fit the goals established for the property?
 - What is included in the written scope?
 - Which warranty documents apply to the selected product and system?
@@ -82,7 +82,7 @@ Ask how IKO Certified installation and the available IKO warranty options apply 
 
 A multi-unit or managed property creates a different decision environment from a single estate. Property managers may need to communicate documented conditions, credential information, and next-step questions to several stakeholders. Clear records help keep that conversation focused.
 
-Pineapple Roofing's approved roofing scope includes commercial portfolio roofing and property-manager needs. A CPPA can provide a documented starting point for reviewing observable conditions before the parties discuss scope. This page does not claim a specific report format, technology list, service level, or turnaround because those details are not present in the approved source pack.
+Pineapple Roofing's approved roofing scope includes commercial portfolio roofing and property-manager needs. A free roof inspection can provide a documented starting point for reviewing observable conditions before the parties discuss scope. This page does not claim a specific report format, technology list, service level, or turnaround because those details are not present in the approved source pack.
 
 ### A practical framework for managed properties
 
@@ -94,7 +94,7 @@ Pineapple Roofing's approved roofing scope includes commercial portfolio roofing
 
 **Separate documentation from coverage.** Carrier decisions depend on the policy, carrier evaluation, documented cause of loss, and applicable terms.
 
-**Need a clear starting point for a managed property? Request a CPPA from Pineapple Roofing — IKO Certified, RCAT #03-0637, 5-Star. Call 972-928-0788.**
+**Need a clear starting point for a managed property? Request a free roof inspection from Pineapple Roofing — IKO Certified, RCAT #03-0637, 5-Star. Call 972-928-0788.**
 
 ## Roofing services aligned with Frisco property decisions
 
@@ -127,9 +127,9 @@ Credential visibility does not replace careful review of the proposed scope, pro
 
 **Contextual link:** Visit `[ABOUT OR CREDENTIALS PAGE — VERIFY LIVE URL]` using the anchor **Pineapple Roofing credentials and family-operated history**.
 
-## How a CPPA supports an insurance evaluation
+## How a free roof inspection supports an insurance evaluation
 
-A Complimentary Professional Photo Audit documents observable roof conditions. Pineapple Roofing provides comprehensive documentation for a successful claim, but neither Pineapple Roofing nor the CPPA determines whether a loss is covered.
+A free roof inspection documents observable roof conditions. Pineapple Roofing provides comprehensive documentation for a successful claim, but neither Pineapple Roofing nor the free roof inspection determines whether a loss is covered.
 
 Coverage depends on the policy, carrier evaluation, documented cause of loss, and applicable terms. Property owners should confirm policy requirements, timing, deductible responsibilities, and coverage questions directly through the applicable policy and carrier process.
 
@@ -161,9 +161,9 @@ Do not add body links to Pineapple Restorations. This page is exclusively for Pi
 
 A Frisco-based company can present local identity and access alongside verifiable credentials. Pineapple Roofing is headquartered at 1 Cowboys Way, Suite 270W, in Frisco, and is IKO Certified with RCAT #03-0637. Property owners should still compare documentation, written scope, system options, and applicable warranty terms before deciding.
 
-### What is a Complimentary Professional Photo Audit (CPPA)?
+### What is a free roof inspection?
 
-A CPPA is Pineapple Roofing's documentation-first starting point for observable roof conditions. It helps a homeowner, commercial owner, or property manager organize the next roofing conversation. A CPPA does not determine insurance coverage, guarantee a project outcome, or establish final scope without the applicable written agreement.
+A free roof inspection is Pineapple Roofing's documentation-first starting point for observable roof conditions. It helps a homeowner, commercial owner, or property manager organize the next roofing conversation. A free roof inspection does not determine insurance coverage, guarantee a project outcome, or establish final scope without the applicable written agreement.
 
 ### Which Frisco ZIPs are listed in Pineapple Roofing's approved service-area records?
 
@@ -175,19 +175,19 @@ They are verified Pineapple Roofing credentials: the company is IKO Certified an
 
 ### How can roof documentation support an insurance evaluation?
 
-Pineapple Roofing provides comprehensive documentation for a successful claim by recording observable roof conditions. Coverage depends on the policy, carrier evaluation, documented cause of loss, and applicable terms. A CPPA does not decide coverage, approval, payment, deductible responsibility, or claim timing.
+Pineapple Roofing provides comprehensive documentation for a successful claim by recording observable roof conditions. Coverage depends on the policy, carrier evaluation, documented cause of loss, and applicable terms. A free roof inspection does not decide coverage, approval, payment, deductible responsibility, or claim timing.
 
 ### Does Pineapple Roofing work with Frisco property managers?
 
-Yes. Property managers are an approved Pineapple Roofing audience, and commercial portfolio roofing is part of the approved service focus. A CPPA can establish documented observable conditions for stakeholder review. Specific deliverables, service levels, building counts, and turnaround must be confirmed in a written scope rather than assumed from this page.
+Yes. Property managers are an approved Pineapple Roofing audience, and commercial portfolio roofing is part of the approved service focus. A free roof inspection can establish documented observable conditions for stakeholder review. Specific deliverables, service levels, building counts, and turnaround must be confirmed in a written scope rather than assumed from this page.
 
 ## Start with documented roof conditions
 
 If you are comparing a roofing company Frisco TX property owners can call for estate, multi-unit, or commercial portfolio needs, begin with verified credentials and documented conditions.
 
-**Protect your property investment with clear roof documentation. Request a Complimentary Professional Photo Audit (CPPA) from Pineapple Roofing: IKO Certified, RCAT #03-0637. Call 972-928-0788.**
+**Protect your property investment with clear roof documentation. Request a free roof inspection from Pineapple Roofing: IKO Certified, RCAT #03-0637. Call 972-928-0788.**
 
-**RCAT #03-0637 · IKO Certified · 5-Star · Since 2005 · 972-928-0788**
+**RCAT #03-0637 · IKO Certified · 5-Star · Since 2021 · 972-928-0788**
 
 **Author:** JR. Moeakiola
 
@@ -199,9 +199,9 @@ If you are comparing a roofing company Frisco TX property owners can call for es
 
 ### Visual direction
 
-- Royal Navy `#1A365D`: navigation, headings, structural bars, and credential bar.
-- Pineapple Gold `#FBC02D`: CTA button, emphasis, and top banner.
-- Status Cyan `#00BFFF`: PAUSED indicators only; remove draft indicators before approved implementation.
+- Pineapple Blue `#003299`: navigation, headings, structural bars, and credential bar.
+- Pineapple Yellow `#ffdd17`: CTA button, emphasis, and top banner.
+- Status Cyan `#003299`: PAUSED indicators only; remove draft indicators before approved implementation.
 - White `#FFFFFF`: negative space.
 - Use a Navy credential bar with Gold text and a Gold CTA treatment.
 - No unapproved project photography, award badge, review count, before/after result, or image provenance claim.

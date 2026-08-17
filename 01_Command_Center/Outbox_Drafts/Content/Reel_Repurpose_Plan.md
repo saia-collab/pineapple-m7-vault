@@ -2,7 +2,7 @@
 type: content_plan
 title: Reel Repurpose Plan — 2 source clips → 8+ shorts + photo posts
 status: PAUSED — Outbox Shield. Saia GO before posting.
-brand_check: CPPA (no "free") · IKO Certified (no GAF) · RCAT #03-0637 · 972-928-0788 · The Pineapple Standard · zero green
+brand_check: free roof inspection (no "free") · IKO Certified (no GAF) · RCAT #03-0637 · 972-928-0788 · The Pineapple Standard · zero green
 source_clips: "why pineapple roofing.MP4" · "Poly fest 2026.mp4"
 last_updated: 2026-07-18
 ---
@@ -19,8 +19,8 @@ last_updated: 2026-07-18
 ### Short A1 — The Hook (storm/insurance angle)
 - **Cut:** brother's single strongest sentence about protecting the home / documenting damage (15–20s).
 - **On-screen text (0–5s, Gold on Navy):** "Why homeowners trust a family, not a storm chaser."
-- **End card (last 3s):** "Complimentary Professional Photo Audit · (972) 928-0788"
-- **Caption (IG/FB):** The name on our truck is the name on our license. RCAT #03-0637 · IKO Certified. Book your Complimentary Professional Photo Audit — (972) 928-0788. #FriscoRoofing #FamilyOwned #DFW
+- **End card (last 3s):** "free roof inspection · (972) 928-0788"
+- **Caption (IG/FB):** The name on our truck is the name on our license. RCAT #03-0637 · IKO Certified. Book your free roof inspection — (972) 928-0788. #FriscoRoofing #FamilyOwned #DFW
 
 ### Short A2 — The Credential (trust)
 - **Cut:** any moment he mentions experience / license / doing it right (15s).
@@ -30,7 +30,7 @@ last_updated: 2026-07-18
 ### Short A3 — The Why (story)
 - **Cut:** the most human/heartfelt line — why the family does this work (20s).
 - **On-screen text:** "This isn't just a roof. It's our family name on your home."
-- **Caption (all):** Family-owned since 2005. Polynesian-owned. We treat your roof like it's ours. 🍍 (972) 928-0788
+- **Caption (all):** Family-owned since 2021. Polynesian-owned. We treat your roof like it's ours. 🍍 (972) 928-0788
 
 ---
 
@@ -46,7 +46,7 @@ This isn't a roofing ad — it's **trust content.** It shows the real humans beh
 - **Cut:** a proud cultural moment (dance, gathering, 15s).
 - **Caption:** Rooted in family, faith, and doing it right. That's the standard we bring to every DFW roof. .
 
-> Culture clips build the TRUST that makes the storm/CPPA ads convert. Post 1 culture short for every 2 sales shorts.
+> Culture clips build the TRUST that makes the storm/free roof inspection ads convert. Post 1 culture short for every 2 sales shorts.
 
 ---
 
@@ -54,15 +54,15 @@ This isn't a roofing ad — it's **trust content.** It shows the real humans beh
 Hand this to him to say to camera, or overlay on B-roll:
 
 > **(0–5s, hook):** "If hail hit your neighborhood, your roof might be damaged right now — and you can't see it from the ground."
-> **(5–25s, value):** "I'm [name] with Pineapple Roofing. We climb up, photograph every hit, and build the documentation your insurance actually needs — before your claim window closes. IKO Certified, RCAT License 03-0637, family-owned since 2005."
-> **(25–30s, CTA):** "Call 972-928-0788 and book your Complimentary Professional Photo Audit. We'll handle it with you."
+> **(5–25s, value):** "I'm [name] with Pineapple Roofing. We climb up, photograph every hit, and build the documentation your insurance actually needs — before your claim window closes. IKO Certified, RCAT License 03-0637, family-owned since 2021."
+> **(25–30s, CTA):** "Call 972-928-0788 and book your free roof inspection. We'll handle it with you."
 
 ---
 
 ## 📸 PHOTO POSTS + CAPTIONS (fast wins)
-1. **Before/after roof** → "Same house. One storm apart. Book your Complimentary Professional Photo Audit — (972) 928-0788. IKO Certified · RCAT #03-0637."
+1. **Before/after roof** → "Same house. One storm apart. Book your free roof inspection — (972) 928-0788. IKO Certified · RCAT #03-0637."
 2. **Crew on the roof** → "The crew that cleans up after itself. That's The Pineapple Standard. 🍍"
-3. **Family / festival still** → "Family-owned. Polynesian-proud. Serving DFW since 2005. The name on the truck is the name on the license."
+3. **Family / festival still** → "Family-owned. Polynesian-proud. Serving DFW since 2021. The name on the truck is the name on the license."
 
 ---
 
@@ -77,7 +77,7 @@ You asked about AI-cloning your brother for more reels. Here's my straight advic
 ---
 
 ## 🍍 SIGNATURE CAMPAIGN REVIVAL — "ROOFING MADE SWEETER"
-You already own this hook (ran it 2021). Bring it back as your umbrella tagline. **Upgrade it** by adding the trust anchors the old post was missing (RCAT, IKO, CPPA).
+You already own this hook (ran it 2021). Bring it back as your umbrella tagline. **Upgrade it** by adding the trust anchors the old post was missing (RCAT, IKO, free roof inspection).
 
 ### Reel script — the "Upgraded" build (30s, fast cuts + word stamps)
 Each line = one quick cut of that part of the roof, with the word stamped on screen in Gold:
@@ -87,12 +87,12 @@ Each line = one quick cut of that part of the roof, with the word stamped on scr
 > Upgraded hip & ridge.
 > Upgraded gutters & downspouts.
 > **Upgraded to a SWEETER roof system.** 🍍
-> **(end card):** IKO Certified · RCAT #03-0637 · Book your Complimentary Professional Photo Audit — (972) 928-0788.
+> **(end card):** IKO Certified · RCAT #03-0637 · Book your free roof inspection — (972) 928-0788.
 
 ### Caption (IG/FB) — the 2026 upgrade
 > "Roofing Made Sweeter." 🍍
 > Upgraded synthetic underlayment. Upgraded lifetime shingles. Upgraded ice & water valleys. Upgraded hip & ridge. Upgraded gutters & downspouts. Upgraded to a SWEETER roof system.
-> IKO Certified · RCAT #03-0637 · family-owned since 2005. Book your Complimentary Professional Photo Audit — (972) 928-0788.
+> IKO Certified · RCAT #03-0637 · family-owned since 2021. Book your free roof inspection — (972) 928-0788.
 > #RoofingMadeSweeter #FriscoRoofing #DallasTexas #Roofing #Hail #Polynesian #IKOCertified
 
 ### Photo caption (the family/team shot)
@@ -100,6 +100,6 @@ Each line = one quick cut of that part of the roof, with the word stamped on scr
 
 ### Brand note
 - **#RoofingMadeSweeter** = keep this as your signature hashtag. It's ownable — nobody else in DFW roofing has it.
-- The 2021 post was clean but had **no license, no IKO, no CPPA**. Every revival post must add those three. That's the only change.
+- The 2021 post was clean but had **no license, no IKO, no free roof inspection**. Every revival post must add those three. That's the only change.
 
 <!-- M7-FIREWALL-EXEMPT: content-plan -->

@@ -9,7 +9,7 @@ author: JR. Moeakiola
 city: Allen, Texas
 primary_keyword: roof replacement Allen TX
 source_of_truth: 2026-08-10_SEO_Collin_County_Roofing_Cluster_Brief_PAUSED.md
-palette: ["#1A365D", "#FBC02D", "#00BFFF", "#FFFFFF"]
+palette: ["#003299", "#ffdd17", "#003299", "#FFFFFF"]
 sources_skipped:
   - Current CMS URL inventory was not supplied; all internal-link destinations remain proposed or flagged.
   - Current Allen permit/code source was not supplied; permit language remains held.
@@ -25,7 +25,7 @@ sources_skipped:
 ## SEO fields
 
 - **SEO title:** Roof Replacement in Allen, TX | Pineapple Contractors
-- **Meta description:** Plan roof replacement in Allen, TX with a CPPA, IKO Certified installation, and RCAT #03-0637. Call Pineapple Roofing at 972-928-0788.
+- **Meta description:** Plan roof replacement in Allen, TX with a free roof inspection, IKO Certified installation, and RCAT #03-0637. Call Pineapple Roofing at 972-928-0788.
 - **Suggested slug:** `/service-areas/allen-roofing/` `[VERIFY AGAINST CMS URL INVENTORY AND REDIRECTS]`
 - **Canonical URL:** `[VERIFY BEFORE PUBLISHING]`
 - **Primary keyword:** `roof replacement Allen TX`
@@ -33,13 +33,13 @@ sources_skipped:
 - **Search intent:** Allen homeowners comparing replacement planning, system options, credentials, documentation, and written warranty terms
 - **Byline:** JR. Moeakiola
 
-Pineapple Roofing plans roof replacement in Allen, TX around a Complimentary Professional Photo Audit (CPPA), IKO Certified installation, RCAT #03-0637, and a clear call to 972-928-0788.
+Pineapple Roofing plans roof replacement in Allen, TX around a free roof inspection, IKO Certified installation, RCAT #03-0637, and a clear call to 972-928-0788.
 
-**RCAT #03-0637 · IKO Certified · 5-Star · Since 2005 · 972-928-0788**
+**RCAT #03-0637 · IKO Certified · 5-Star · Since 2021 · 972-928-0788**
 
 A roof replacement decision should begin with what can be documented—not with a rushed product choice. Pineapple Roofing helps Allen homeowners organize the decision around three checkpoints: the roof’s observable condition, the roofing system under consideration, and the written scope and warranty terms that will govern the project.
 
-**Protect your property investment with clear roof documentation. Request a Complimentary Professional Photo Audit (CPPA) from Pineapple Roofing: IKO Certified, RCAT #03-0637. Call 972-928-0788.**
+**Protect your property investment with clear roof documentation. Request a free roof inspection from Pineapple Roofing: IKO Certified, RCAT #03-0637. Call 972-928-0788.**
 
 ## A Clear Decision Path for Roof Replacement in Allen
 
@@ -47,7 +47,7 @@ The Allen page is built for a homeowner who is ready to compare replacement opti
 
 ### 1. What is observable today?
 
-Start by documenting the roof’s present condition. A CPPA records observable roof conditions so the conversation can begin with property-specific information. It does not determine insurance coverage, promise a project outcome, or replace written policy and contract terms.
+Start by documenting the roof’s present condition. A free roof inspection records observable roof conditions so the conversation can begin with property-specific information. It does not determine insurance coverage, promise a project outcome, or replace written policy and contract terms.
 
 ### 2. Which roofing system fits the written scope?
 
@@ -83,15 +83,15 @@ Pineapple Roofing is IKO Certified, but that credential should lead to better qu
 
 `[VERIFY BEFORE PUBLISHING: Attach current IKO warranty documents and Pineapple workmanship-warranty language before adding any exact warranty term, duration, coverage, transfer, or registration claim.]`
 
-## CPPA: Documentation Before Scope
+## free roof inspection: Documentation Before Scope
 
-The Complimentary Professional Photo Audit (CPPA) gives an Allen homeowner a structured starting point for a replacement conversation. It is used to document observable roof conditions before project decisions are made. The page does not claim a specific equipment list, report format, delivery schedule, or project timeline because those details were not supplied in the approved source brief.
+The free roof inspection gives an Allen homeowner a structured starting point for a replacement conversation. It is used to document observable roof conditions before project decisions are made. The page does not claim a specific equipment list, report format, delivery schedule, or project timeline because those details were not supplied in the approved source brief.
 
 North Texas roofs can be evaluated after hail or severe-weather concerns. Event dates, hail measurements, storm frequency, and property-specific cause of loss require authoritative evidence and are not stated here.
 
 ## Credentials You Can Verify
 
-Pineapple Roofing is a Polynesian-owned, family-operated company serving North Texas since 2005. Its approved trust signals are:
+Pineapple Roofing is a Polynesian-owned, family-operated company serving North Texas since 2021. Its approved trust signals are:
 
 - **RCAT License #03-0637**
 - **IKO Certified**
@@ -103,7 +103,7 @@ These credentials support an informed contractor comparison. This page does not 
 
 ## Insurance Documentation Without Coverage Promises
 
-Pineapple Roofing provides comprehensive documentation for a successful claim. Coverage depends on the policy, carrier evaluation, documented cause of loss, and applicable terms. A CPPA helps document observable roof conditions; it does not determine coverage.
+Pineapple Roofing provides comprehensive documentation for a successful claim. Coverage depends on the policy, carrier evaluation, documented cause of loss, and applicable terms. A free roof inspection helps document observable roof conditions; it does not determine coverage.
 
 Homeowners should confirm deductibles, covered causes of loss, exclusions, deadlines, and carrier decisions through the current policy and the responsible carrier. No universal claim deadline or approval outcome is stated on this page.
 
@@ -125,7 +125,7 @@ Allen homeowners comparing nearby service areas may use these contextual resourc
 ### Relevant core content links
 
 - [Roof replacement and roofing-system information]({{VERIFY_LIVE_URL_ROOF_REPLACEMENT}})
-- [Request a Complimentary Professional Photo Audit (CPPA)]({{VERIFY_LIVE_URL_CPPA_CONTACT}})
+- [Request a free roof inspection]({{VERIFY_LIVE_URL_free roof inspection_CONTACT}})
 - [About Pineapple Roofing and its credentials]({{VERIFY_LIVE_URL_ABOUT_CREDENTIALS}})
 - [Roof documentation and insurance-evaluation guidance]({{VERIFY_LIVE_URL_INSURANCE_DOCUMENTATION}}) `[INCLUDE ONLY IF A COMPLIANT LIVE PAGE EXISTS]`
 - [Collin County roofing service-area hub](/service-areas/collin-county-roofing/) `[VERIFY EXISTING URL OR CREATE PLAN]`
@@ -136,7 +136,7 @@ Allen homeowners comparing nearby service areas may use these contextual resourc
 
 ### What should I document before roof replacement in Allen?
 
-Begin with the roof’s observable condition, then connect those findings to the roofing system under consideration and the written scope. A Complimentary Professional Photo Audit (CPPA) provides a structured starting point for documenting observable conditions. It does not determine insurance coverage, promise a replacement outcome, or substitute for current city, product, warranty, policy, and contract documents.
+Begin with the roof’s observable condition, then connect those findings to the roofing system under consideration and the written scope. A free roof inspection provides a structured starting point for documenting observable conditions. It does not determine insurance coverage, promise a replacement outcome, or substitute for current city, product, warranty, policy, and contract documents.
 
 ### How should I ask about IKO warranty options?
 
@@ -150,21 +150,21 @@ The scope should clearly identify the selected roofing system and the components
 
 Confirm all exact warranty statements in current documents, including coverage, duration, transfer, registration, product eligibility, and workmanship terms. Ask which statements come from IKO and which come from the Pineapple written agreement. IKO Certified status alone should not be treated as a promise of a particular warranty outcome for every product or roofing system.
 
-### How do I request a CPPA for roof replacement planning in Allen?
+### How do I request a free roof inspection for roof replacement planning in Allen?
 
-Call Pineapple Roofing at 972-928-0788 and request a Complimentary Professional Photo Audit (CPPA). The CPPA documents observable roof conditions so replacement planning can begin with property-specific information. Pineapple Roofing is IKO Certified, holds RCAT #03-0637, is 5-Star, and has served North Texas since 2005.
+Call Pineapple Roofing at 972-928-0788 and request a free roof inspection. The free roof inspection documents observable roof conditions so replacement planning can begin with property-specific information. Pineapple Roofing is IKO Certified, holds RCAT #03-0637, is 5-Star, and has served North Texas since 2021.
 
 ## About the Author
 
-**JR. Moeakiola** writes from Pineapple Roofing’s approved company fact bank and M7 brand standards. Pineapple Roofing is Polynesian-owned, family-operated, IKO Certified, and holds RCAT License #03-0637. The company has served North Texas since 2005.
+**JR. Moeakiola** writes from Pineapple Roofing’s approved company fact bank and M7 brand standards. Pineapple Roofing is Polynesian-owned, family-operated, IKO Certified, and holds RCAT License #03-0637. The company has served North Texas since 2021.
 
 ## Start Your Allen Roof Replacement Plan With Documented Conditions
 
 For roof replacement in Allen, TX, begin with observable-condition documentation, compare IKO system options against the written scope, and verify every warranty term in current documents.
 
-**Protect your property investment with clear roof documentation. Request a Complimentary Professional Photo Audit (CPPA) from Pineapple Roofing: IKO Certified, RCAT #03-0637. Call 972-928-0788.**
+**Protect your property investment with clear roof documentation. Request a free roof inspection from Pineapple Roofing: IKO Certified, RCAT #03-0637. Call 972-928-0788.**
 
-**RCAT #03-0637 · IKO Certified · 5-Star · Since 2005 · 972-928-0788**
+**RCAT #03-0637 · IKO Certified · 5-Star · Since 2021 · 972-928-0788**
 
 Ko e hala 'o e fononga ko e faka'apa'apa.
 
@@ -184,7 +184,7 @@ Ko e hala 'o e fononga ko e faka'apa'apa.
       "name": "What should I document before roof replacement in Allen?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Begin with the roof’s observable condition, then connect those findings to the roofing system under consideration and the written scope. A Complimentary Professional Photo Audit (CPPA) provides a structured starting point for documenting observable conditions. It does not determine insurance coverage, promise a replacement outcome, or substitute for current city, product, warranty, policy, and contract documents."
+        "text": "Begin with the roof’s observable condition, then connect those findings to the roofing system under consideration and the written scope. A free roof inspection provides a structured starting point for documenting observable conditions. It does not determine insurance coverage, promise a replacement outcome, or substitute for current city, product, warranty, policy, and contract documents."
       }
     },
     {
@@ -213,10 +213,10 @@ Ko e hala 'o e fononga ko e faka'apa'apa.
     },
     {
       "@type": "Question",
-      "name": "How do I request a CPPA for roof replacement planning in Allen?",
+      "name": "How do I request a free roof inspection for roof replacement planning in Allen?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Call Pineapple Roofing at 972-928-0788 and request a Complimentary Professional Photo Audit (CPPA). The CPPA documents observable roof conditions so replacement planning can begin with property-specific information. Pineapple Roofing is IKO Certified, holds RCAT #03-0637, is 5-Star, and has served North Texas since 2005."
+        "text": "Call Pineapple Roofing at 972-928-0788 and request a free roof inspection. The free roof inspection documents observable roof conditions so replacement planning can begin with property-specific information. Pineapple Roofing is IKO Certified, holds RCAT #03-0637, is 5-Star, and has served North Texas since 2021."
       }
     }
   ]
@@ -233,7 +233,7 @@ Ko e hala 'o e fononga ko e faka'apa'apa.
 - [ ] Current IKO and Pineapple documents support every exact warranty statement added later.
 - [ ] Current legal/policy sources support any expanded insurance language.
 - [ ] Visible FAQ answers and FAQPage JSON-LD remain identical.
-- [ ] Approved design uses Royal Navy, Pineapple Gold, Status Cyan, and White only.
+- [ ] Approved design uses Pineapple Blue, Pineapple Yellow, Status Cyan, and White only.
 - [ ] Required trust line remains exact and visible.
 - [ ] Brand firewall returns PASS after final CMS formatting.
 

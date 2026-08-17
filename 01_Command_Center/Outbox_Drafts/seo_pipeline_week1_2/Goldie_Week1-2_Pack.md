@@ -2,7 +2,7 @@
 type: seo_pipeline_output
 title: Goldie SEO Pipeline — Week 1 & 2 (GBP Audit · Reviews · Schema)
 status: PAUSED — review, then apply to GBP + WordPress
-brand_check: CPPA (no "free") · IKO Certified · The Pineapple Standard · RCAT #03-0637 · zero green
+brand_check: free roof inspection (no "free") · IKO Certified · The Pineapple Standard · RCAT #03-0637 · zero green
 last_updated: 2026-07-14
 verify_before_publish: HQ address (The Star), geo-coordinates, final website URL
 ---
@@ -33,7 +33,7 @@ HQ The Star, 1 Cowboys Way Ste 270W, Frisco TX 75034 *(verify)* · Site: pineapp
 - **Accessibility / planning:** Appointment required (if true)
 - **Payments:** Accepts cards · Financing available (if true)
 - **Highlights:** Licensed (RCAT #03-0637) · Insured · IKO Certified
-- **Add a booking/CTA link** → your CPPA request page.
+- **Add a booking/CTA link** → your free roof inspection request page.
 
 **Action:** apply in business.google.com → Edit profile → Categories / Attributes.
 

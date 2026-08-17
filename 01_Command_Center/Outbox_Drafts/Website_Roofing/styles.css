@@ -1,10 +1,10 @@
 /* ============================================================
    Pineapple Contractors — M7 Website Design System
-   Royal Navy #1A365D · Pineapple Gold #FBC02D · Status Cyan #00BFFF · ZERO green
+   Pineapple Blue #003299 · Pineapple Yellow #ffdd17 · Status Cyan #003299 · ZERO green
    DRAFT — PAUSED (Outbox Shield DEC-005). Author: JR. Moeakiola.
    ============================================================ */
 :root{
-  --navy:#1A365D; --navy-deep:#0f2444; --gold:#FBC02D; --cyan:#00BFFF;
+  --navy:#003299; --navy-deep:#0f2444; --gold:#ffdd17; --cyan:#003299;
   --ink:#12233f; --muted:#5b6b82; --line:#e4e9f1; --bg:#ffffff; --bg-soft:#f5f8fc;
   --radius:12px; --wrap:1080px; --shadow:0 8px 30px rgba(16,35,63,.10);
 }

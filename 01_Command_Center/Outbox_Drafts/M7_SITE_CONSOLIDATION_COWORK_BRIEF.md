@@ -2,7 +2,7 @@
 type: cowork_brief
 title: Site Consolidation — Cowork Project Brief (merge 2 domains → 1 flagship)
 status: PAUSED — hand to Claude Cowork. Requires Saia GO + domain/DNS access.
-brand_check: CPPA · IKO Certified · RCAT #03-0637 · zero green
+brand_check: free roof inspection · IKO Certified · RCAT #03-0637 · zero green
 last_updated: 2026-07-20
 ---
 
@@ -55,7 +55,7 @@ We run **two sites** and it's splitting our SEO:
 ## 🚫 HARD RULES for Cowork
 - **Measure backlinks before choosing the redirect direction.**
 - **301 before cancel.** Never cancel Scorpion first.
-- **Brand law:** every migrated/rewritten page → CPPA (never "free"), IKO Certified (never GAF), RCAT #03-0637, zero green.
+- **Brand law:** every migrated/rewritten page → free roof inspection (never "free"), IKO Certified (never GAF), RCAT #03-0637, zero green.
 - **Nothing goes live without Saia's GO** (Outbox Shield).
 - Preserve the GBP reviews at all costs.
 

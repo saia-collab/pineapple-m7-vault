@@ -4,8 +4,8 @@ status: PAUSED — Outbox Shield. Saia's GO before publishing.
 sop: Unified AI Marketing, Memory & Video Engine
 target_keyword: hail damage roof repair frisco tx
 audience: DFW homeowners post-storm + Frisco property managers
-offer: Complimentary Professional Photo Audit (CPPA) · (972) 928-0788
-brand_check: CPPA (no "free") · IKO Certified (no GAF) · RCAT #03-0637 · zero green
+offer: free roof inspection · (972) 928-0788
+brand_check: free roof inspection (no "free") · IKO Certified (no GAF) · RCAT #03-0637 · zero green
 ---
 
 # 🔌 API MAP (what each layer needs — read first)
@@ -59,7 +59,7 @@ That last one matters. Adjusters look for a *consistent story* across the whole 
 ### H3 — The claim-window problem nobody explains
 Texas policies generally require you to report damage promptly, and every storm that passes makes it harder to prove *which* storm caused *what*. Wait long enough and a legitimate claim starts to look like deferred maintenance. **Documentation is time-sensitive — that's the honest urgency.**
 
-## H2 — The Complimentary Professional Photo Audit (CPPA)
+## H2 — The free roof inspection
 About 20 minutes on site. Drone and ground. Slope by slope.
 
 You get:
@@ -78,7 +78,7 @@ We organize the evidence, and we meet your adjuster on site so the documented sc
 ## H2 — Then we restore it right
 IKO Certified installation. 50-year product warranty. Daily site cleanup. One accountable North Texas team from first photo to final walkthrough.
 
-We're a Polynesian family-owned company, in DFW since 2005. The name on the truck is the name on the license.
+We're a Polynesian family-owned company, in DFW since 2021. The name on the truck is the name on the license.
 
 ## H2 — Frequently asked questions
 **Can hail damage exist before I see a leak?** Yes. Hail can fracture the mat without an immediate leak. By the time water shows on your ceiling, it has usually been traveling a while.
@@ -92,11 +92,11 @@ We're a Polynesian family-owned company, in DFW since 2005. The name on the truc
 **Are you licensed?** RCAT License #03-0637, IKO Certified. Look it up.
 
 ## CTA
-**Book your Complimentary Professional Photo Audit — (972) 928-0788.**
+**Book your free roof inspection — (972) 928-0788.**
 Proof before opinions.
 
 ### Internal link placeholders
-→ `/roofing-storm-restoration-frisco-tx/` · `/commercial-hail-damage-portfolio-frisco-tx/` · `/roofer-starwood-frisco-tx/` · `/roofer-newman-village-frisco-tx/` · `/cppa/`
+→ `/roofing-storm-restoration-frisco-tx/` · `/commercial-hail-damage-portfolio-frisco-tx/` · `/roofer-starwood-frisco-tx/` · `/roofer-newman-village-frisco-tx/` · `/free roof inspection/`
 ### External link placeholders
 → NOAA/NWS Fort Worth storm reports · Texas Department of Insurance consumer guidance
 
@@ -108,15 +108,15 @@ Proof before opinions.
 ```
 Editorial architectural photograph, low golden-hour sun raking across an asphalt shingle
 roof in a North Texas suburb. Visible hail bruising and granule loss on the shingle
-surface, shallow depth of field. Deep navy sky (#1A365D) with clearing storm clouds,
-a single warm gold highlight (#FBC02D) on the roof edge. Documentary, high-end, serious.
+surface, shallow depth of field. Deep navy sky (#003299) with clearing storm clouds,
+a single warm gold highlight (#ffdd17) on the roof edge. Documentary, high-end, serious.
 No text, no logos, no people, no green anywhere. 16:9.
 ```
 
 ## 3 social graphic prompts
-1. **Quote card** — `Minimal editorial poster, deep navy (#1A365D) background, fine gold (#FBC02D) hairline rule, generous whitespace, elegant serif display type reading "Proof before opinions." Small caps footer line. No green. 4:5.`
-2. **Infographic** — `Clean diagram of an asphalt shingle cross-section showing granule loss and mat fracture from hail impact. Navy background, gold callout lines, cyan (#00BFFF) accent dots. Technical but beautiful, no clutter, no green. 1:1.`
-3. **Credential card** — `Premium badge layout on warm paper (#F7F5EF): "RCAT #03-0637 · IKO Certified · Since 2005 · 5.0★" in navy, one gold underline. Editorial, restrained, no green. 1:1.`
+1. **Quote card** — `Minimal editorial poster, deep navy (#003299) background, fine gold (#ffdd17) hairline rule, generous whitespace, elegant serif display type reading "Proof before opinions." Small caps footer line. No green. 4:5.`
+2. **Infographic** — `Clean diagram of an asphalt shingle cross-section showing granule loss and mat fracture from hail impact. Navy background, gold callout lines, cyan (#003299) accent dots. Technical but beautiful, no clutter, no green. 1:1.`
+3. **Credential card** — `Premium badge layout on warm paper (#F7F5EF): "RCAT #03-0637 · IKO Certified · Since 2021 · 5.0★" in navy, one gold underline. Editorial, restrained, no green. 1:1.`
 
 ---
 
@@ -129,8 +129,8 @@ No text, no logos, no people, no green anywhere. 16:9.
 > **(12–24s):** "From the driveway, you'd never see it. So we go up. Drone and ground, slope by slope, every impact photographed."
 > **(24–36s):** "Then we build the file — hail, wind, flashing, and the dents on your gutters that prove the storm date."
 > **(36–48s):** "You keep that file. Even if you never hire us. Because evidence beats opinions."
-> **(48–56s):** "IKO Certified. RCAT License 03-0637. Family-owned in North Texas since 2005."
-> **(56–60s):** "Book your Complimentary Professional Photo Audit. Nine seven two, nine two eight, oh seven eight eight."
+> **(48–56s):** "IKO Certified. RCAT License 03-0637. Family-owned in North Texas since 2021."
+> **(56–60s):** "Book your free roof inspection. Nine seven two, nine two eight, oh seven eight eight."
 
 ## 7-scene breakdown
 | # | Scene | On screen | Motion (GSAP) |
@@ -141,12 +141,12 @@ No text, no logos, no people, no green anywhere. 16:9.
 | 4 | **Solution 2** | "SLOPE BY SLOPE" + 4 photo frames snap in | `stagger .12`, `scale .9→1`, subtle rotate |
 | 5 | **Proof points** | Ledger rows: gutters · vents · flashing · A/C fins | rows wipe in L→R, gold check per row |
 | 6 | **Results screen** | "THE FILE IS YOURS." + RCAT #03-0637 · IKO Certified | counter-up on `03-0637`, seal scale-in |
-| 7 | **CTA** | Gold full-bleed → "RESERVE YOUR CPPA" + (972) 928-0788 | background color tween navy→gold .6s, phone pulses 2× |
+| 7 | **CTA** | Gold full-bleed → "RESERVE YOUR free roof inspection" + (972) 928-0788 | background color tween navy→gold .6s, phone pulses 2× |
 
 ## CSS / motion guidance
 ```css
 :root{
-  --navy:#1A365D; --gold:#FBC02D; --cyan:#00BFFF; --paper:#F7F5EF;
+  --navy:#003299; --gold:#ffdd17; --cyan:#003299; --paper:#F7F5EF;
   /* NO green anywhere — brand law */
 }
 /* Type: Libre Caslon Display (display) + DM Sans (body) — matches the capture page */
@@ -172,7 +172,7 @@ No text, no logos, no people, no green anywhere. 16:9.
 >
 > **5/** Then we hand the homeowner the file. Theirs to keep, hired or not. Evidence beats opinions.
 >
-> **6/** Pineapple Roofing · IKO Certified · RCAT #03-0637 · North Texas since 2005 · (972) 928-0788
+> **6/** Pineapple Roofing · IKO Certified · RCAT #03-0637 · North Texas since 2021 · (972) 928-0788
 
 ## Email newsletter (≈300 words)
 **Subject:** The damage you can't see from the driveway
@@ -185,7 +185,7 @@ Hail doesn't always crack a shingle. More often it bruises it — fracturing the
 
 Here's the part most homeowners find out too late: **damage gets harder to prove with every storm that passes.** Wait long enough and a legitimate claim starts to look like ordinary wear.
 
-That's why we lead with documentation instead of a sales pitch. Our Complimentary Professional Photo Audit takes about 20 minutes. We fly the roof, walk it, and photograph every impact — plus the gutters, vents, and flashing that corroborate the storm date.
+That's why we lead with documentation instead of a sales pitch. Our free roof inspection takes about 20 minutes. We fly the roof, walk it, and photograph every impact — plus the gutters, vents, and flashing that corroborate the storm date.
 
 Then we hand you the file. It's yours whether or not you ever hire us. If we don't find documentable damage, we'll tell you that too.
 
@@ -193,9 +193,9 @@ If the damage is real, we organize the evidence and meet your adjuster on site s
 
 And if it's time to rebuild, we install IKO Certified systems with a 50-year product warranty, clean the site daily, and stand behind the workmanship.
 
-We've been a family-owned, Polynesian-owned company in North Texas since 2005. RCAT License #03-0637. The name on our truck is the name on our license.
+We've been a family-owned, Polynesian-owned company in North Texas since 2021. RCAT License #03-0637. The name on our truck is the name on our license.
 
-**Book your Complimentary Professional Photo Audit — (972) 928-0788.**
+**Book your free roof inspection — (972) 928-0788.**
 
 Proof before opinions.
 

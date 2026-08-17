@@ -8,15 +8,15 @@ tag: #Hermes
 brand: Pineapple Contractors M7
 voice: simple, conversational, clear, actionable
 themes: Authority (3) · Proof (3) · Heritage (2)
-hook_color: Pineapple Gold #FBC02D
-credential_bar: Royal Navy #1A365D · RCAT #03-0637 · IKO Certified
-cta_offer: Complimentary Professional Photo Audit (CPPA)
+hook_color: Pineapple Yellow #ffdd17
+credential_bar: Pineapple Blue #003299 · RCAT #03-0637 · IKO Certified
+cta_offer: free roof inspection
 phone: 972-928-0788
 sign_off:
 source: M7_INTEGRATED_CAMPAIGN.md §3 (Hook Bank) + §7 (This Week) · M7_CONTENT_FACTORY.md Step 4
-color_primary: "#1A365D"
-color_secondary: "#FBC02D"
-color_status: "#00BFFF"
+color_primary: "#003299"
+color_secondary: "#ffdd17"
+color_status: "#003299"
 ---
 
 # Week 1 Social Captions — Authority / Proof / Heritage
@@ -26,9 +26,9 @@ color_status: "#00BFFF"
 > Eight captions: 3 Authority · 3 Proof · 2 Heritage. One Tongan proverb anchor each.
 
 **Shared brand rails (applied to every caption below):**
-- Pineapple Gold (#FBC02D) hook in the first 0.3s.
-- Royal Navy (#1A365D) credential bar at the bottom: **RCAT #03-0637 · IKO Certified · 972-928-0788**.
-- CTA: book a **Complimentary Professional Photo Audit (CPPA)** — the brand phrase, used in full.
+- Pineapple Yellow (#ffdd17) hook in the first 0.3s.
+- Pineapple Blue (#003299) credential bar at the bottom: **RCAT #03-0637 · IKO Certified · 972-928-0788**.
+- CTA: book a **free roof inspection** — the brand phrase, used in full.
 - All captions pass the elite lexicon: IKO Certified (RCAT #03-0637), no banned phrases, no banned color references.
 
 ---
@@ -46,7 +46,7 @@ We do the work, file the photo record, and walk your adjuster through it line by
 **Proverb anchor:** *Tauhi Vā* — honor the shared space. Your home protects your family;
 we protect its roof.
 
-📞 Book your Complimentary Professional Photo Audit (CPPA): **972-928-0788**
+📞 Book your free roof inspection: **972-928-0788**
 🪪 RCAT #03-0637 · IKO Certified
 
 
@@ -60,12 +60,12 @@ Texas gives you up to 12 months to file, but the *evidence* window is much short
 Sun, wind, and the next storm degrade the bruising on your shingles every week it sits.
 
 If your home took hail in the last 30 days, the documentation clock is already running.
-A CPPA locks the photo record in place before the trail goes cold.
+A free roof inspection locks the photo record in place before the trail goes cold.
 
 **Proverb anchor:** *Loto Tō* — humble, honest service. We show up, do the work,
 and let the photos do the talking.
 
-📞 Schedule your Complimentary Professional Photo Audit: **972-928-0788**
+📞 Schedule your free roof inspection: **972-928-0788**
 🪪 RCAT #03-0637 · IKO Certified
 
 
@@ -84,7 +84,7 @@ proposal, every truck, and every end card.
 
 **Proverb anchor:** *Faka'apa'apa* — mutual respect starts with doing the work right.
 
-📞 Complimentary Professional Photo Audit (CPPA): **972-928-0788**
+📞 free roof inspection: **972-928-0788**
 🪪 RCAT #03-0637 · IKO Certified
 
 
@@ -95,7 +95,7 @@ proposal, every truck, and every end card.
 > Hook: "I thought my claim would be denied. They proved me wrong."
 
 After two other roofers told a Frisco homeowner the storm hadn't done enough damage
-to qualify, our team ran a CPPA, walked the adjuster through the photo record,
+to qualify, our team ran a free roof inspection, walked the adjuster through the photo record,
 and got the claim re-opened and approved. Full restoration, Full Restoration Coverage,
 zero out-of-pocket stress for the family.
 
@@ -104,7 +104,7 @@ The pattern repeats more often than people think. Documentation is the differenc
 **Proverb anchor:** *Tauhi Vā* — we treat your home like our own, so the relationship
 outlasts the storm.
 
-📞 Book your Complimentary Professional Photo Audit: **972-928-0788**
+📞 Book your free roof inspection: **972-928-0788**
 🪪 RCAT #03-0637 · IKO Certified
 
 
@@ -115,7 +115,7 @@ outlasts the storm.
 > Hook: "Same storm. Two houses. One filed a claim in time."
 
 Two Starwood homes, one storm, one weekend apart in scheduling.
-The family that booked the CPPA within 30 days of the hail event has a new roof
+The family that booked the free roof inspection within 30 days of the hail event has a new roof
 and a closed claim. The other is still waiting on a re-inspection.
 
 This is what 4 to 6 weeks of documentation discipline looks like in side-by-side photos.
@@ -124,7 +124,7 @@ Swipe to see the difference.
 **Proverb anchor:** *Loto Tō* — the humble work of taking photos today is what
 protects your investment tomorrow.
 
-📞 Start with a Complimentary Professional Photo Audit: **972-928-0788**
+📞 Start with a free roof inspection: **972-928-0788**
 🪪 RCAT #03-0637 · IKO Certified
 
 
@@ -140,17 +140,17 @@ the truth about the experience. We do not buy reviews. We do not chase stars.
 We document. We communicate. We clean up the yard when we're done.
 
 If you're comparing roofers after a hail event, read the words our customers used,
-then call us for a CPPA and see the work in person.
+then call us for a free roof inspection and see the work in person.
 
 **Proverb anchor:** *Faka'apa'apa* — respect is given back in equal measure.
 
-📞 Complimentary Professional Photo Audit (CPPA): **972-928-0788**
+📞 free roof inspection: **972-928-0788**
 🪪 RCAT #03-0637 · IKO Certified
 
 
 ---
 
-## 7. HERITAGE — Family-owned, Polynesian-rooted, North Texas since 2005
+## 7. HERITAGE — Family-owned, Polynesian-rooted, North Texas since 2021
 
 > Hook: "We treat your home like our own — that's Tauhi Vā."
 
@@ -164,7 +164,7 @@ final walk-through. That's the difference heritage makes.
 **Proverb anchor:** *Tauhi Vā* — the sacred obligation to honor shared spaces
 and relationships. We carry it onto every roof.
 
-📞 Book your Complimentary Professional Photo Audit: **972-928-0788**
+📞 Book your free roof inspection: **972-928-0788**
 🪪 RCAT #03-0637 · IKO Certified
 
 
@@ -184,7 +184,7 @@ estimator. Every yard gets raked before we leave.
 **Proverb anchor:** *Mamahi'i me'a* — passion, loyalty, fierce dedication to
 the work and to the family we keep.
 
-📞 Complimentary Professional Photo Audit (CPPA): **972-928-0788**
+📞 free roof inspection: **972-928-0788**
 🪪 RCAT #03-0637 · IKO Certified
 
 
@@ -214,9 +214,9 @@ batch (out of scope for this card — separate Kanban card: "Repurpose VSL → 6
 
 ## Firewall + compliance trail
 
-- Lexicon: every caption uses CPPA, IKO Certified (RCAT #03-0637), Pineapple Standard naming,
+- Lexicon: every caption uses free roof inspection, IKO Certified (RCAT #03-0637), Pineapple Standard naming,
   and the brand-mandated mutations. No banned phrases, no banned color references.
-- Visual: Pineapple Gold #FBC02D hooks, Royal Navy #1A365D credential bar, brand palette only.
+- Visual: Pineapple Yellow #ffdd17 hooks, Pineapple Blue #003299 credential bar, brand palette only.
 - Heritage: Tongan proverb anchors used per `M7_CONTENT_FACTORY.md` Step 4 + the
   Hook Bank in `M7_INTEGRATED_CAMPAIGN.md` §3.
 - Outbox Shield: this file is **PAUSED**. No post, send, schedule, or render triggered.

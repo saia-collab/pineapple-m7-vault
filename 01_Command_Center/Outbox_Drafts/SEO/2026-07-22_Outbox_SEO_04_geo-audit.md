@@ -8,7 +8,7 @@ agent: ai-search-geo-specialist
 created: 2026-07-22
 sources_skipped: [DataForSEO AI Mode / AI Overview / organic SERP with PAA — not wired. No call to `serp/google/ai_mode/live/advanced` or `serp/google/organic/live/advanced` was made. Real PAA + AI Overview reference data comes from a public SERP read, which is a weaker signal. Re-run with DataForSEO for production-grade citation pull.]
 ---
-> **PAUSED — drafts only, never publish or spend.** Brand law: CPPA (never "free"), IKO Certified (never GAF), The Pineapple Standard (never warrior/toa/six brothers), Navy #1A365D + Gold #FBC02D, ZERO green, RCAT #03-0637, 972-928-0788.
+> **PAUSED — drafts only, never publish or spend.** Brand law: free roof inspection (never "free"), IKO Certified (never GAF), The Pineapple Standard (never warrior/toa/six brothers), Navy #003299 + Gold #ffdd17, ZERO green, RCAT #03-0637, 972-928-0788.
 
 # AI Search / GEO Audit: Pineapple Roofing (2026-07-22)
 
@@ -26,7 +26,7 @@ sources_skipped: [DataForSEO AI Mode / AI Overview / organic SERP with PAA — n
 
 The three biggest reasons (each is a fix on this list):
 1. **Home page title + H1 say "Dallas"** — when an AI engine reads the page's primary heading, the city does not match the brand HQ. AI engines are biased toward answering the user's city; "Dallas" lowers the citability for Frisco users.
-2. **The home page body copy still contains the word "free"** — the constitution requires the mutation to "Complimentary Professional Photo Audit (CPPA)." AI engines quoting "free roof inspection" carry that wording into the answer; we want them quoting "CPPA" with a phone number.
+2. **The home page body copy still contains the word "free"** — the constitution requires the mutation to "free roof inspection." AI engines quoting "free roof inspection" carry that wording into the answer; we want them quoting "free roof inspection" with a phone number.
 3. **No quotable-fact block on the home page** — there is no "costs between $X and $Y" or "takes N weeks" or "warranty is N years" sentence in the first 200 words. AI engines lift verbatim sentences. The IKO 50-yr product warranty + the RCAT #03-0637 + (972) 928-0788 form a quotable triple — but the home page does not lead with them.
 
 ## Fan-out query map (Blog Writer brief)
@@ -76,7 +76,7 @@ Per service, the sub-questions AI engines will thread together when a Frisco use
 
 | URL (or planned URL) | What blocks citation today | The fix (one change per row) |
 |---|---|---|
-| `/` (home) | title/H1 say "Dallas"; no IKO; has "free" in body; no quotable-fact block in first 200 words | Flip city to "Frisco", add IKO + CPPA + RCAT + phone + 50-yr warranty as the first 200-word block |
+| `/` (home) | title/H1 say "Dallas"; no IKO; has "free" in body; no quotable-fact block in first 200 words | Flip city to "Frisco", add IKO + free roof inspection + RCAT + phone + 50-yr warranty as the first 200-word block |
 | `/services/roof-replacement-dallas-tx/` | city-mismatch in URL slug; no IKO in title; no quotable cost-range | Rename or 301 → `/roof-replacement-frisco-tx/`, put "costs $X–$Y" + "warranty N years" in sentence 1 |
 | `/services/roof-repair-dallas-tx/` | same city-mismatch | Rename or 301 → `/roof-repair-frisco-tx/` |
 | `/services/storm-damage-repair-dallas-tx/` | same | Rename or 301 → `/storm-damage-roof-repair-frisco-tx/` |
@@ -86,22 +86,22 @@ Per service, the sub-questions AI engines will thread together when a Frisco use
 | `/locations/euless-tx/` (PAUSED) | striking-distance page; same | Brand-fw check + ship |
 | `/roofing-frisco-tx/` (MISSING) | the city hub does not exist; AI engines have nothing to cite | Build it. The single most-citable page we don't have. |
 | `/insurance-claims-frisco-tx/` (PAUSED) | good draft; ensure FAQPage schema is on it | Brand-fw check + schema check + ship |
-| `/about/` | AI engines use the About page for "is this a real business" checks; needs founder name + year founded + NAP | Strengthen the "Polynesian-owned, family-operated, since 2005" + add (972) 928-0788 + RCAT #03-0637 + IKO Certified in first 100 words |
+| `/about/` | AI engines use the About page for "is this a real business" checks; needs founder name + year founded + NAP | Strengthen the "Polynesian-owned, family-operated, since 2021" + add (972) 928-0788 + RCAT #03-0637 + IKO Certified in first 100 words |
 | `/reviews/` | if real review count + names exist, AI Overview citations will pick this up | Add `Review` + `AggregateRating` schema (only if Saia has confirmed the count) |
 
 ## Quotable-facts inventory (facts the brand HAS that pages don't surface)
 
 These are the sentences an AI engine could lift verbatim. Today, almost none of them appear on the home page.
 
-- "Pineapple Roofing is a Polynesian-owned, family-operated roofing contractor serving North Texas since 2005."  → goes on home and About.
-- "Every Pineapple Roofing project starts with a Complimentary Professional Photo Audit (CPPA) — a documented, itemized roof assessment that insurance companies accept."  → goes on home, hail page, and storm page.
+- "Pineapple Roofing is a Polynesian-owned, family-operated roofing contractor serving North Texas since 2021."  → goes on home and About.
+- "Every Pineapple Roofing project starts with a free roof inspection — a documented, itemized roof assessment that insurance companies accept."  → goes on home, hail page, and storm page.
 - "Pineapple Roofing is IKO Certified and licensed by the Roofing Contractors Association of Texas (RCAT License #03-0637)."  → goes on home, every service page, every city hub.
 - "Pineapple Roofing is HUB-certified (HUB #1861616404400) — a recognized minority-owned business."  → goes on About, used in the property-manager and HOA sales motions.
 - "Pineapple Roofing's IKO Certified installations carry a 50-year product warranty."  → goes on roof-replacement pages.
-- "Call (972) 928-0788 to book a Complimentary Professional Photo Audit in Frisco, Plano, McKinney, Allen, Lewisville, Denton, Grapevine, Euless, Melissa, and across the DFW metroplex."  → goes on home hero, every city page footer, every blog post CTA.
+- "Call (972) 928-0788 to book a free roof inspection in Frisco, Plano, McKinney, Allen, Lewisville, Denton, Grapevine, Euless, Melissa, and across the DFW metroplex."  → goes on home hero, every city page footer, every blog post CTA.
 - "We document every hail hit with photos your insurance can actually use. Most hail damage is invisible from the ground."  → already on the PAUSED hail page, lift to home and FAQ.
 
-> **> CONFIRM:** "200+ five-star reviews" / "400+ North Texas families" / "since 2005" / "Polynesian-owned" — verify each before it goes on a customer-facing page. The constitution forbids invented counts.
+> **> CONFIRM:** "200+ five-star reviews" / "400+ North Texas families" / "since 2021" / "Polynesian-owned" — verify each before it goes on a customer-facing page. The constitution forbids invented counts.
 
 ## Schema gaps (what to add, with type names)
 

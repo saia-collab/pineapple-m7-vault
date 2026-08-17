@@ -1,8 +1,8 @@
 ---
-title: CPPA Capture Page — Go-Live (15 min) + UTM links for every social asset
+title: free roof inspection Capture Page — Go-Live (15 min) + UTM links for every social asset
 status: PAUSED — 2 placeholders + deploy, then the links below go in Blotato
 last_updated: 2026-07-22
-brand_check: page verified CLEAN — free:0 · GAF:0 · green:0 · CPPA + RCAT present
+brand_check: page verified CLEAN — free:0 · GAF:0 · green:0 · free roof inspection + RCAT present
 ---
 
 # 🚀 GO LIVE IN 15 MINUTES (all Google clicks — only you can do these)
@@ -17,7 +17,7 @@ brand_check: page verified CLEAN — free:0 · GAF:0 · green:0 · CPPA + RCAT p
    - Execute as: **Me**
    - Who has access: **Anyone**
    - Deploy → **copy the `/exec` URL**.
-5. Open it in a browser — you should see *"Pineapple CPPA endpoint is live."* ✅
+5. Open it in a browser — you should see *"Pineapple free roof inspection endpoint is live."* ✅
 
 ## STEP 2 — Wire the page (2 min)
 In `index.html`, replace the two placeholders:
@@ -28,8 +28,8 @@ const GA4_ID = "G-XXXXXXX";                                             ← your
 > GA4 ID: analytics.google.com → Admin → Data Streams → your stream → **Measurement ID** (starts `G-`).
 
 ## STEP 3 — Publish it (5 min) — pick ONE
-- **Easiest:** WordPress → new page `/cppa/` → paste the HTML into a **Custom HTML / Code** block.
-- **Cleanest:** Cloudflare Pages (free) → drag the folder in → get a URL → point `cppa.pineappleroofingllc.com` at it.
+- **Easiest:** WordPress → new page `/free roof inspection/` → paste the HTML into a **Custom HTML / Code** block.
+- **Cleanest:** Cloudflare Pages (free) → drag the folder in → get a URL → point `free roof inspection.pineappleroofingllc.com` at it.
 
 ## STEP 4 — Test before you spend a dollar
 - Submit the form yourself → confirm a row lands in the **Google_LSA_Leads** tab.
@@ -39,18 +39,18 @@ const GA4_ID = "G-XXXXXXX";                                             ← your
 
 # 🔗 THE UTM LINKS — one per social asset (paste into Blotato)
 Once live, replace every 🔗 in the caption pack with the matching link below.
-**Base:** `https://pineappleroofingllc.com/cppa/` *(swap if you host elsewhere)*
+**Base:** `https://pineappleroofingllc.com/free roof inspection/` *(swap if you host elsewhere)*
 
 | Asset | Link to use |
 |---|---|
-| **why pineapple roofing** (insurance hook) | `…/cppa/?utm_source=instagram&utm_medium=social&utm_campaign=cppa_storm&utm_content=why_pineapple` |
-| **2432 W 6th St** (underlayment proof) | `…/cppa/?utm_source=instagram&utm_medium=social&utm_campaign=cppa_storm&utm_content=underlayment_proof` |
-| **5104 Mohawk Dr** (3-step process) | `…/cppa/?utm_source=facebook&utm_medium=social&utm_campaign=cppa_storm&utm_content=three_steps` |
-| **4605 Birkshire Ln** (neighborhood) | `…/cppa/?utm_source=facebook&utm_medium=social&utm_campaign=cppa_storm&utm_content=birkshire` |
-| **property managers** (commercial) | `…/cppa/?utm_source=linkedin&utm_medium=social&utm_campaign=cppa_commercial&utm_content=property_managers` |
-| **Poly fest 2026** (culture) | `…/cppa/?utm_source=instagram&utm_medium=social&utm_campaign=cppa_brand&utm_content=polyfest` |
-| **Google Business Profile posts** | `…/cppa/?utm_source=gbp&utm_medium=organic&utm_campaign=cppa_storm&utm_content=gbp_post` |
-| **Meta ads (when you run them)** | `…/cppa/?utm_source=meta&utm_medium=paid&utm_campaign=cppa_storm&utm_content=<ad_name>` |
+| **why pineapple roofing** (insurance hook) | `…/free roof inspection/?utm_source=instagram&utm_medium=social&utm_campaign=free roof inspection_storm&utm_content=why_pineapple` |
+| **2432 W 6th St** (underlayment proof) | `…/free roof inspection/?utm_source=instagram&utm_medium=social&utm_campaign=free roof inspection_storm&utm_content=underlayment_proof` |
+| **5104 Mohawk Dr** (3-step process) | `…/free roof inspection/?utm_source=facebook&utm_medium=social&utm_campaign=free roof inspection_storm&utm_content=three_steps` |
+| **4605 Birkshire Ln** (neighborhood) | `…/free roof inspection/?utm_source=facebook&utm_medium=social&utm_campaign=free roof inspection_storm&utm_content=birkshire` |
+| **property managers** (commercial) | `…/free roof inspection/?utm_source=linkedin&utm_medium=social&utm_campaign=free roof inspection_commercial&utm_content=property_managers` |
+| **Poly fest 2026** (culture) | `…/free roof inspection/?utm_source=instagram&utm_medium=social&utm_campaign=free roof inspection_brand&utm_content=polyfest` |
+| **Google Business Profile posts** | `…/free roof inspection/?utm_source=gbp&utm_medium=organic&utm_campaign=free roof inspection_storm&utm_content=gbp_post` |
+| **Meta ads (when you run them)** | `…/free roof inspection/?utm_source=meta&utm_medium=paid&utm_campaign=free roof inspection_storm&utm_content=<ad_name>` |
 
 ## 🎯 WHY THIS MATTERS
 The page writes `utm_content` straight into your lead sheet. So after two weeks you can open the sheet and see
@@ -63,7 +63,7 @@ between "posting content" and running a measurable lead engine.
 Keep the CTA as **phone (972) 928-0788 + the matching live city page.** Never send traffic to an unwired form.
 
 ## ✅ ALREADY DONE (nothing to fix)
-- Page is brand-clean (free:0 · GAF:0 · green:0), CPPA + RCAT #03-0637 present
+- Page is brand-clean (free:0 · GAF:0 · green:0), free roof inspection + RCAT #03-0637 present
 - Meta Pixel `2545389655696737` firing · UTM capture · click-to-call tracking · mobile call bar
 - Apps Script stamps every lead **"NEW — call in 5 min"** (your speed-to-lead SLA, automated)
 

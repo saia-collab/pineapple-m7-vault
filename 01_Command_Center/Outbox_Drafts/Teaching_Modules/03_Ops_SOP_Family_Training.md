@@ -2,7 +2,7 @@
 title: Ops & SOP — Family Training Module
 hub: PM7_OPS_SOP_MANUAL
 status: PAUSED
-brand_check: CPPA · IKO Certified · RCAT #03-0637 · 972-928-0788 · zero green
+brand_check: free roof inspection · IKO Certified · RCAT #03-0637 · 972-928-0788 · zero green
 ---
 
 # 🏙️ OPS & SOP — Family Training
@@ -13,7 +13,7 @@ brand_check: CPPA · IKO Certified · RCAT #03-0637 · 972-928-0788 · zero gree
 - [ ] You know the Outbox Shield: nothing goes live without Saia's GO.
 - [ ] Roofing and Restoration stay separate. Never mix them.
 - [ ] You know today's job (see the weekly rhythm below).
-- [ ] Brand law on: CPPA, IKO Certified, no green.
+- [ ] Brand law on: free roof inspection, IKO Certified, no green.
 
 ## 🪜 THE WEEKLY RHYTHM (one 10-min job a day)
 - **Mon:** SEO check + 1 GBP post.
@@ -30,14 +30,14 @@ brand_check: CPPA · IKO Certified · RCAT #03-0637 · 972-928-0788 · zero gree
 
 ## 🎬 SOP-V VIDEO SCRIPT (50 sec · 50/5/3)
 - **0–5s (hook, Gold on Navy):** "A lead just came in. The clock is running."
-- **5–47s (value):** "Five minutes. That's our window. We answer, we book the Complimentary Professional Photo Audit, we document everything. RCAT License #03-0637."
+- **5–47s (value):** "Five minutes. That's our window. We answer, we book the free roof inspection, we document everything. RCAT License #03-0637."
 - **47–50s (CTA):** "Call (972) 928-0788. We answer."
 
 ## 📱 BLOTATO JSON (Ops cadence)
 ```json
 { "hub": "OPS", "output_status": "PAUSED", "system_gate": "OUTBOX_SHIELD_ACTIVE",
   "schedule": {"mon": "SEO + GBP post", "tue": "photos", "wed": "ask reviews", "thu": "reply reviews", "fri": "LSA <5min", "sun": "snapshot"},
-  "colors": {"navy": "#1A365D", "gold": "#FBC02D"} }
+  "colors": {"navy": "#003299", "gold": "#ffdd17"} }
 ```
 
 

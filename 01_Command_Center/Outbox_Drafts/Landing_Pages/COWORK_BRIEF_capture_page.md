@@ -1,15 +1,15 @@
 ---
-title: Cowork Hand-off Brief — polish the CPPA capture page (keep brand law)
-status: give this to Claude Cowork alongside cppa-capture-page.html
+title: Cowork Hand-off Brief — polish the free roof inspection capture page (keep brand law)
+status: give this to Claude Cowork alongside free roof inspection-capture-page.html
 ---
 
 # 🎯 Brief for Claude Cowork — upgrade the capture page
 
-**File:** `cppa-capture-page.html` (attached). It's already brand-correct and conversion-structured. Your job is to **elevate the design polish with the frontend-design skill — NOT redesign from scratch, and NOT introduce AI-slop.**
+**File:** `free roof inspection-capture-page.html` (attached). It's already brand-correct and conversion-structured. Your job is to **elevate the design polish with the frontend-design skill — NOT redesign from scratch, and NOT introduce AI-slop.**
 
 ## HARD RULES (do not break — this is a real brand)
-1. **Colors ONLY:** Royal Navy #1A365D, Pineapple Gold #FBC02D, Status Cyan #00BFFF, warm paper #F7F5EF. **The color GREEN is forbidden.**
-2. **Lexicon:** never "free" (use "Complimentary Professional Photo Audit / CPPA"), never "GAF" (use "IKO Certified"). Keep RCAT #03-0637 and (972) 928-0788 visible.
+1. **Colors ONLY:** Pineapple Blue #003299, Pineapple Yellow #ffdd17, Status Cyan #003299, warm paper #F7F5EF. **The color GREEN is forbidden.**
+2. **Lexicon:** never "free" (use "free roof inspection / free roof inspection"), never "GAF" (use "IKO Certified"). Keep RCAT #03-0637 and (972) 928-0788 visible.
 3. **Keep the Tongan seal** in the footer: "."
 4. **Keep it ONE page**, keep the lead form, keep the phone click-to-call.
 

@@ -8,9 +8,9 @@ tag: #NotebookLM
 brand: Pineapple Contractors M7
 service_region: ZIPs 75033, 75034, 75035, 75067, 75068
 time_window: 2026-05-23 → 2026-06-22 (last 30 days)
-color_primary: "#1A365D"
-color_secondary: "#FBC02D"
-color_status: "#00BFFF"
+color_primary: "#003299"
+color_secondary: "#ffdd17"
+color_status: "#003299"
 ---
 
 # Frisco Storm & Hail — 30-Day Research Brief
@@ -62,9 +62,9 @@ Listed in ingestion order. Every source is either **(A)** in-vault and already v
   heritage storytelling + drone/family hybrid visuals compounding.
 - Top 5 repeatable formats: drone reveal Reels (≈22K plays, 5.8% engagement), before/after
   carousels (4.2% save rate), family/heritage videos (+340% comment velocity), Pacific
-  Heritage tie-ins (2.1× organic reach), CPPA offer posts (6.4% DM conversion).
-- Tongan proverb anchors drove save behavior; Pineapple Gold #FBC02D hook stopped the scroll
-  in the first 0.3s; Royal Navy #1A365D credential bar built bottom-of-creative trust.
+  Heritage tie-ins (2.1× organic reach), free roof inspection offer posts (6.4% DM conversion).
+- Tongan proverb anchors drove save behavior; Pineapple Yellow #ffdd17 hook stopped the scroll
+  in the first 0.3s; Pineapple Blue #003299 credential bar built bottom-of-creative trust.
 
 ### 2. `M7_INTEGRATED_CAMPAIGN.md` §2 (audience segments)
 - **Segment A — Frisco Property Managers**: ZIPs 75033/75034/75035; HOA + multi-unit; one
@@ -75,13 +75,13 @@ Listed in ingestion order. Every source is either **(A)** in-vault and already v
 
 ### 3. `M7_INTEGRATED_CAMPAIGN.md` §5 (FAQ — claim-window language)
 - "Typically 12 months from the date of loss, and two years to file suit if disputed." Per
-  the SOP, schedule a CPPA within 30 days of a significant storm.
+  the SOP, schedule a free roof inspection within 30 days of a significant storm.
 - Texas non-licensed-contractor rule: "Yes. In Texas, using an unlicensed contractor after
   a hail claim can void your claim and your material warranty."
 - RCAT #03-0637 + IKO Certified are the two credentials cited in every FAQ answer.
 
 ### 4. `GROUNDING.md` (heritage, high-value metrics, Outbox Shield)
-- Identity: Polynesian-owned, family-operated, serving North Texas since 2005.
+- Identity: Polynesian-owned, family-operated, serving North Texas since 2021.
 - Minimum project baseline: $18,000+ (auto-reject below). Speed-to-lead: 5 minutes.
 - Lead matrix: +25 Frisco ZIP, +30 Property Manager, +20 $700K+ estate, +20 storm mention;
   ≥80 → dispatch to Saia same day.
@@ -178,7 +178,7 @@ not answer** (per the existing copy in `M7_INTEGRATED_CAMPAIGN.md` and the §5 F
 Some of these are partially answered; "gap" means missing or under-served.
 
 1. **"How do I know if my Frisco roof actually needs replacement or just repair?"**
-   — Not answered anywhere in the current copy. Needs a CPPA-vs-internal-inspection explainer.
+   — Not answered anywhere in the current copy. Needs a free roof inspection-vs-internal-inspection explainer.
 2. **"What if my HOA requires a specific shingle brand or color?"**
    — Not answered. HOA compliance is a real objection for the luxury-estate segment.
 3. **"What happens if my insurance company's adjuster already came out and said no?"**
@@ -226,7 +226,7 @@ Some of these are partially answered; "gap" means missing or under-served.
   `[TO INGEST — NotebookLM]`.
 - **IKO Certified Contractor status:** Source: same as above. **(in-vault, verified)**
   Tier + product line: `[TO INGEST — NotebookLM]`.
-- **Years in business:** Since 2005. Source: `GROUNDING.md` §3 + `MASTER_PLAYBOOK.md`
+- **Years in business:** Since 2021. Source: `GROUNDING.md` §3 + `MASTER_PLAYBOOK.md`
   (Heritage Anchors). **(in-vault, verified)**
 
 ### E.3 Performance (May 2026 — the "what worked" base rate)
@@ -236,7 +236,7 @@ Some of these are partially answered; "gap" means missing or under-served.
 - **Before/After carousels:** 4.2% save rate. Source: same. **(in-vault, verified)**
 - **Family/heritage videos:** +340% comment velocity vs. avg. Source: same. **(in-vault, verified)**
 - **Pacific Heritage tie-ins:** 2.1× organic reach. Source: same. **(in-vault, verified)**
-- **CPPA-offer posts:** 6.4% DM conversion. Source: same. **(in-vault, verified)**
+- **free roof inspection-offer posts:** 6.4% DM conversion. Source: same. **(in-vault, verified)**
 - **Google reviews (5.0★):** 209. Source: same. **(in-vault, verified)**
 
 ### E.4 Last 30 days — storm / hail (DRAFT for the Node to complete)
@@ -249,7 +249,7 @@ Some of these are partially answered; "gap" means missing or under-served.
 ### E.5 Last 30 days — insurance / regulatory (DRAFT)
 - **Texas hail-claim window (statutory):** typically 12 months from date of loss; 2 years to
   file suit. Source: `M7_INTEGRATED_CAMPAIGN.md` §5.3. **(in-vault, verified)**
-- **Documentation discipline (recommended):** CPPA within 30 days of a significant storm.
+- **Documentation discipline (recommended):** free roof inspection within 30 days of a significant storm.
   Source: same. **(in-vault, verified)**
 - **TDI bulletins on contractor fraud or unlicensed roofers in the window:**
   `[TO INGEST — NotebookLM]`

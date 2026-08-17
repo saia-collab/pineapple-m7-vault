@@ -2,7 +2,7 @@
 title: CodeX Technical SEO — Family Training Module
 hub: PM7_CODEX_TECHNICAL_SEO
 status: PAUSED
-brand_check: CPPA · IKO Certified · RCAT #03-0637 · 972-928-0788 · zero green
+brand_check: free roof inspection · IKO Certified · RCAT #03-0637 · 972-928-0788 · zero green
 ---
 
 # 💻 CODEX TECHNICAL SEO — Family Training
@@ -12,7 +12,7 @@ brand_check: CPPA · IKO Certified · RCAT #03-0637 · 972-928-0788 · zero gree
 ## ✈️ PRE-FLIGHT CHECKLIST
 - [ ] This is advanced — it's fine to just watch and learn here.
 - [ ] Real data source connected (DataForSEO) if we're pulling keywords.
-- [ ] Brand law on: CPPA, IKO Certified, no green, license #03-0637.
+- [ ] Brand law on: free roof inspection, IKO Certified, no green, license #03-0637.
 - [ ] Output PAUSED. Nothing touches the live site without Saia's GO.
 
 ## 🪜 THE STEPS (plain version)
@@ -30,14 +30,14 @@ brand_check: CPPA · IKO Certified · RCAT #03-0637 · 972-928-0788 · zero gree
 ## 🎬 SOP-V VIDEO SCRIPT (50 sec · 50/5/3)
 - **0–5s (hook, Gold on Navy):** "What's hiding under your shingles right now?"
 - **5–47s (value):** "We use forensic documentation to find storm damage the eye misses — then prove it for your claim. IKO Certified. RCAT License #03-0637."
-- **47–50s (CTA):** "Call (972) 928-0788 for your Complimentary Professional Photo Audit."
+- **47–50s (CTA):** "Call (972) 928-0788 for your free roof inspection."
 
 ## 📱 BLOTATO JSON (programmatic)
 ```json
 { "hub": "CODEX", "output_status": "PAUSED", "required_license": "RCAT #03-0637",
   "target_keywords": ["Roof Replacement Frisco 75034", "Storm Restoration Lewisville"],
   "output_directory": "Outbox_Drafts/schema/",
-  "colors": {"navy": "#1A365D", "gold": "#FBC02D"} }
+  "colors": {"navy": "#003299", "gold": "#ffdd17"} }
 ```
 
 

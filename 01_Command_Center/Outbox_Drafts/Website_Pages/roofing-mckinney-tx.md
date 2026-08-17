@@ -6,13 +6,13 @@ title: Roofing in McKinney, TX — IKO Certified (RCAT #03-0637) | Pineapple Roo
 meta: Roofing & storm restoration in McKinney, TX & Collin County. Hail repair, roof replacement, insurance help. IKO Certified, RCAT #03-0637, 430 5-star reviews. Call 972-928-0788.
 target_keyword: roofing mckinney tx
 status: PAUSED — ready to deploy (say GO). New page → lands as WordPress draft.
-brand_check: CPPA · IKO Certified · The Pineapple Standard · RCAT #03-0637 · 972-928-0788 · zero green
+brand_check: free roof inspection · IKO Certified · The Pineapple Standard · RCAT #03-0637 · 972-928-0788 · zero green
 gap_note: Marco/Bullseye flagged McKinney as open territory — 24% of McKinney roofers have no website.
 ---
 
 # Roofing in McKinney, TX — IKO Certified (RCAT #03-0637)
 
-**Pineapple Roofing serves McKinney and all of Collin County with storm damage repair, roof replacement, and full restoration — IKO Certified, RCAT Licensed #03-0637, and backed by 430 five-star reviews across DFW. Every project starts with a Complimentary Professional Photo Audit (CPPA). Call (972) 928-0788.**
+**Pineapple Roofing serves McKinney and all of Collin County with storm damage repair, roof replacement, and full restoration — IKO Certified, RCAT Licensed #03-0637, and backed by 430 five-star reviews across DFW. Every project starts with a free roof inspection. Call (972) 928-0788.**
 
 McKinney sits right in North Texas hail alley. When a storm rolls through Stonebridge Ranch, Craig Ranch, or historic downtown McKinney, the damage is often invisible from the ground — and your insurance claim depends on documenting it fast. That's what we do.
 
@@ -25,12 +25,12 @@ McKinney sits right in North Texas hail alley. When a storm rolls through Stoneb
 
 ## Why McKinney chooses Pineapple
 - **IKO Certified · RCAT License #03-0637** — verifiable, accountable, insured.
-- **430 five-star reviews** across DFW · family-owned since 2005.
+- **430 five-star reviews** across DFW · family-owned since 2021.
 - **Polynesian-owned · The Pineapple Standard** — careful work, clean sites, clear communication.
 - **Collin County local knowledge** — permits, HOA rules, and the storm history that shapes every McKinney roof.
 
 ## How it works
-1. **Complimentary Professional Photo Audit (CPPA)** — documented photos of your roof, at no cost.
+1. **free roof inspection** — documented photos of your roof, at no cost.
 2. **Written scope** — what's urgent, what can wait, and why.
 3. **IKO Certified repair, replacement, or restoration** — warranty-backed, done to spec.
 
@@ -44,7 +44,7 @@ McKinney, Stonebridge Ranch, Craig Ranch, Adriatica, Frisco, Allen, Melissa, Pro
 **How long does a roof replacement take?** Most homes 1–3 days once the crew is on site.
 **Is the photo audit really no-cost?** Yes — documented, honest, no obligation.
 
-## Book your Complimentary Professional Photo Audit
+## Book your free roof inspection
 Your McKinney roofer is one call away.
 📞 **Call (972) 928-0788** — IKO Certified · RCAT #03-0637 · The Pineapple Standard.
 

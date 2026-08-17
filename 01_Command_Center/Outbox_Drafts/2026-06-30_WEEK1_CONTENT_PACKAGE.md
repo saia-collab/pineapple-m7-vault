@@ -36,28 +36,28 @@ segments: Property Managers (Tue–Thu 7–9 AM) · Luxury Estates
 > "This is what your insurance adjuster doesn't see.
 > From the ground — it looks fine.
 > From above — hail pockmarks on every panel, granule loss on the south face, and a ridge cap that won't survive the next storm.
-> We're Pineapple Contractors — RCAT Licensed #03-0637, IKO Certified, serving Frisco since 2005.
+> We're Pineapple Contractors — RCAT Licensed #03-0637, IKO Certified, serving Frisco since 2021.
 > We document what they miss. That documentation is what gets your claim approved.
-> Book a Complimentary Professional Photo Audit — link in bio. 972-928-0788."
+> Book a free roof inspection — link in bio. 972-928-0788."
 
 ### Caption
 "From the driveway it looks perfect. From 80 feet up, the story's different. 🍍
 
-Our drone-assisted Complimentary Professional Photo Audit (CPPA) documents hail damage that adjusters routinely miss — the kind that gets claims denied.
+Our drone-assisted free roof inspection documents hail damage that adjusters routinely miss — the kind that gets claims denied.
 
 If your property experienced a hail event in the last 30 days, you have a documentation window closing right now.
 
-📋 RCAT Licensed #03-0637 · IKO Certified RoofPro · 5-Star Rated · Since 2005
+📋 RCAT Licensed #03-0637 · IKO Certified RoofPro · 5-Star Rated · Since 2021
 📞 972-928-0788 | pineapplecontractors.com
 
 — . (The way of the journey is respect.)
 
-#FriscoRoofing #StormDamage #PropertyManager #CPPA #IKOCertified #RoofingFrisco #HailDamage #PineappleContractors"
+#FriscoRoofing #StormDamage #PropertyManager #free roof inspection #IKOCertified #RoofingFrisco #HailDamage #PineappleContractors"
 
 ### Visual Direction
 - Opens: drone rising from driveway level revealing roof damage
-- Gold (#FBC02D) hook text overlay: "YOUR ROOF HAS DAMAGE YOU CAN'T SEE FROM THE DRIVEWAY"
-- Navy (#1A365D) credential bar at bottom: "Pineapple Contractors | RCAT #03-0637 | IKO Certified | 972-928-0788"
+- Gold (#ffdd17) hook text overlay: "YOUR ROOF HAS DAMAGE YOU CAN'T SEE FROM THE DRIVEWAY"
+- Navy (#003299) credential bar at bottom: "Pineapple Contractors | RCAT #03-0637 | IKO Certified | 972-928-0788"
 - 10px Navy border on all before/after photo inserts
 - Close: pineapple logo fade + phone number
 
@@ -77,7 +77,7 @@ If your property experienced a hail event in the last 30 days, you have a docume
 *[Insert before photo — geotagged Frisco, 10px Navy border]*
 
 ### Slide 3 (During — Drone documentation)
-**Overlay:** "CPPA DOCUMENTATION — What our drone reveals"
+**Overlay:** "free roof inspection DOCUMENTATION — What our drone reveals"
 **Caption on slide:** "147 impact points. 3 compromised ridge caps. Granule loss on 4 panels. Full photo package submitted to insurer."
 *[Insert drone shot with damage highlighted, 10px Navy border]*
 
@@ -86,10 +86,10 @@ If your property experienced a hail event in the last 30 days, you have a docume
 **Caption on slide:** "Final settlement: $34,700. IKO Certified premium materials. 0 disruption to the household."
 *[Insert finished roof photo, 10px Navy border]*
 
-### Slide 5 (CTA — Royal Navy background)
+### Slide 5 (CTA — Pineapple Blue background)
 **Headline:** "Don't leave your claim on the table."
-**Body:** "Book your Complimentary Professional Photo Audit → 972-928-0788"
-**Footer:** "RCAT #03-0637 · IKO Certified · 5-Star Rated · Since 2005"
+**Body:** "Book your free roof inspection → 972-928-0788"
+**Footer:** "RCAT #03-0637 · IKO Certified · 5-Star Rated · Since 2021"
 
 ### Caption
 "Same storm hit both homes on the same block in Frisco.
@@ -102,7 +102,7 @@ The difference?
 
 Your claim window is open right now — but it won't be for long.
 
-→ Book a Complimentary Professional Photo Audit (CPPA). We document, we submit, we fight for your coverage.
+→ Book a free roof inspection. We document, we submit, we fight for your coverage.
 
 📋 RCAT Licensed #03-0637 · IKO Certified · 972-928-0788
 
@@ -124,7 +124,7 @@ Your claim window is open right now — but it won't be for long.
 >
 > We're Polynesian owned. Family operated. And we do this work like the whole neighborhood is watching — because in Frisco, it is.
 >
-> If you've had a storm, don't wait. Call us at 972-928-0788 or DM us for a Complimentary Professional Photo Audit. Let's protect your investment the right way."
+> If you've had a storm, don't wait. Call us at 972-928-0788 or DM us for a free roof inspection. Let's protect your investment the right way."
 
 ### Caption
 "This is why we do what we do. 🍍
@@ -148,12 +148,12 @@ We're not the biggest. We're the most trusted. And every job we take, we take li
 **Category:** Offer / Service Update
 
 ### Title (100 chars max)
-"Complimentary Professional Photo Audit — Frisco Storm Documentation | Pineapple Contractors"
+"free roof inspection — Frisco Storm Documentation | Pineapple Contractors"
 
 ### Body (1,500 chars max)
 "Frisco experienced significant hail activity this season. If your property is in ZIP 75033, 75034, or 75035, your insurance claim window is open — but not indefinitely.
 
-Pineapple Contractors is offering Complimentary Professional Photo Audits (CPPA) for Frisco homeowners and property managers. Our drone-assisted documentation produces a complete photographic record of storm damage used to support insurance claims and prevent denials.
+Pineapple Contractors is offering free roof inspections (free roof inspection) for Frisco homeowners and property managers. Our drone-assisted documentation produces a complete photographic record of storm damage used to support insurance claims and prevent denials.
 
 What you receive:
 • Drone-assisted roof inspection and photo documentation
@@ -161,7 +161,7 @@ What you receive:
 • RCAT Licensed (#03-0637) assessment with IKO Certified standards
 • 48-hour scheduling window from your request
 
-We've helped 350+ Frisco families document, file, and recover from storm damage since 2005. Our 209 Google reviews at 5.0★ reflect that track record.
+We've helped 350+ Frisco families document, file, and recover from storm damage since 2021. Our 209 Google reviews at 5.0★ reflect that track record.
 
 📞 Call or text: 972-928-0788
 📍 Serving Frisco, Lewisville & Collin County
@@ -184,11 +184,11 @@ After that window, even valid claims get denied.
 
 Pineapple Contractors (RCAT #03-0637) will come to your property, document everything with drone photography, and submit it directly to your insurer.
 
-At no cost to you. It's called a Complimentary Professional Photo Audit.
+At no cost to you. It's called a free roof inspection.
 
 → Tap to book. We're scheduling within 48 hours.
 
-📞 972-928-0788 | RCAT #03-0637 | IKO Certified | Since 2005"
+📞 972-928-0788 | RCAT #03-0637 | IKO Certified | Since 2021"
 
 **Call-to-Action:** Book Now
 **Targeting:** Frisco TX 75033/75034/75035, homeowners 35–65, recent storm event interest
@@ -203,13 +203,13 @@ At no cost to you. It's called a Complimentary Professional Photo Audit.
 
 Not ours.
 
-A Pineapple Contractors CPPA is a documentation service. Our team photographs the damage, builds the report, and hands it to your insurance company. That's it.
+A Pineapple Contractors free roof inspection is a documentation service. Our team photographs the damage, builds the report, and hands it to your insurance company. That's it.
 
 You decide what happens next. We're Polynesian-owned, RCAT Licensed (#03-0637), and IKO Certified — we don't need to pressure you. Our reviews speak for themselves.
 
-209 reviews. 5.0 stars. Since 2005.
+209 reviews. 5.0 stars. Since 2021.
 
-→ Book a Complimentary Professional Photo Audit.
+→ Book a free roof inspection.
 
 📞 972-928-0788"
 
@@ -231,7 +231,7 @@ Because we treat every roof like our grandmother's house.
 
 RCAT Licensed #03-0637. IKO Certified. 5-Star rated. Polynesian-owned.
 
-→ Book your Complimentary Professional Photo Audit and experience the Pineapple Standard.
+→ Book your free roof inspection and experience the Pineapple Standard.
 
 972-928-0788"
 
@@ -252,9 +252,9 @@ RCAT Licensed #03-0637. IKO Certified. 5-Star rated. Polynesian-owned.
 ---
 
 ## FIREWALL PRE-CHECK
-- [x] No "free" → all CPPA ✓
+- [x] No "free" → all free roof inspection ✓
 - [x] No "GAF" → IKO Certified ✓
-- [x] No green — Navy #1A365D + Gold #FBC02D + Cyan #00BFFF ✓
+- [x] No green — Navy #003299 + Gold #ffdd17 + Cyan #003299 ✓
 - [x] RCAT #03-0637 present ✓
 - [x] IKO Certified present ✓
 - [x] Phone 972-928-0788 present ✓

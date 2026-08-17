@@ -2,7 +2,7 @@
 title: SEO Playbook — Family Training Module
 hub: PM7_SEO_PLAYBOOK
 status: PAUSED
-brand_check: CPPA · IKO Certified · RCAT #03-0637 · 972-928-0788 · zero green
+brand_check: free roof inspection · IKO Certified · RCAT #03-0637 · 972-928-0788 · zero green
 ---
 
 # 🏆 SEO PLAYBOOK — Family Training
@@ -12,7 +12,7 @@ brand_check: CPPA · IKO Certified · RCAT #03-0637 · 972-928-0788 · zero gree
 ## ✈️ PRE-FLIGHT CHECKLIST (do before running anything)
 - [ ] Search Console is open and connected.
 - [ ] You know this week's target city (Frisco / Plano / Lewisville).
-- [ ] Brand law in your head: never "free" → CPPA. Never "GAF" → IKO Certified. No green.
+- [ ] Brand law in your head: never "free" → free roof inspection. Never "GAF" → IKO Certified. No green.
 - [ ] Everything you make lands PAUSED in Outbox. Nobody publishes without Saia's GO.
 
 ## 🪜 THE STEPS (do them in order)
@@ -31,16 +31,16 @@ brand_check: CPPA · IKO Certified · RCAT #03-0637 · 972-928-0788 · zero gree
 ## 🎬 SOP-V VIDEO SCRIPT (50 sec · 50/5/3)
 - **0–5s (hook, Gold on Navy):** "Your roof's fine? Google might disagree."
 - **5–47s (value):** Show the inspection. "Most storm damage hides from the ground. We document every hit — photos your insurance can use. IKO Certified. RCAT License #03-0637. Twenty years in DFW."
-- **47–50s (CTA):** "Call (972) 928-0788. Book your Complimentary Professional Photo Audit."
+- **47–50s (CTA):** "Call (972) 928-0788. Book your free roof inspection."
 
 ## 📱 BLOTATO JSON (Content Multiplier)
 ```json
-{ "hub": "SEO", "output_status": "PAUSED", "cta": "Book your Complimentary Professional Photo Audit (CPPA) at (972) 928-0788",
+{ "hub": "SEO", "output_status": "PAUSED", "cta": "Book your free roof inspection at (972) 928-0788",
   "angles": {
-    "sale": "Hail hit your street. Book your CPPA before the damage spreads. (972) 928-0788.",
+    "sale": "Hail hit your street. Book your free roof inspection before the damage spreads. (972) 928-0788.",
     "story": "20 years finding the damage other roofers miss. That's The Pineapple Standard.",
     "recruitment": "We're hiring roofers who document every step. DM PINEAPPLE." },
-  "colors": {"navy": "#1A365D", "gold": "#FBC02D"} }
+  "colors": {"navy": "#003299", "gold": "#ffdd17"} }
 ```
 
 

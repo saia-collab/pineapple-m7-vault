@@ -8,7 +8,7 @@ phase: 1
 created: 2026-07-14
 author: Hermes (per JR. Moeakiola)
 brand: Pineapple Roofing LLC
-brand_law: M7 constitution (CPPA / IKO Certified (RCAT #03-0637) / Navy #1A365D + Gold #FBC02D + Cyan #00BFFF / zero green / phone 972-928-0788 / HUB #1861616404400)
+brand_law: M7 constitution (free roof inspection / IKO Certified (RCAT #03-0637) / Navy #003299 + Gold #ffdd17 + Cyan #003299 / zero green / phone 972-928-0788 / HUB #1861616404400)
 target_zip_set: ["75033", "75034", "75035", "75067", "75068"]
 luxury_enclaves: ["Starwood", "Newman Village"]
 sources_grounded:
@@ -41,7 +41,7 @@ Every keyword cluster below is mapped to:
 
 1. **Intent class** (informational / commercial / transactional) — for the AEO 40-word block.
 2. **Lead-score ceiling** (1–100, per `m7_scoring.py`) — to know which clusters qualify for landing pages vs. nurture blog.
-3. **Brand-lexicon safety** — which cluster is safe to write with CPPA / IKO Certified / The Pineapple Standard only, vs. which requires a substitution (the ComplianceOfficer runs the regex pre-gate before any copy leaves the disk).
+3. **Brand-lexicon safety** — which cluster is safe to write with free roof inspection / IKO Certified / The Pineapple Standard only, vs. which requires a substitution (the ComplianceOfficer runs the regex pre-gate before any copy leaves the disk).
 4. **Competitive gap signal** — the *predicted* gap, not a measured one (predicted on M7 territory knowledge; live SERP pull is gated).
 
 ## 1. The Intent Universe (5 ZIPs + 2 Enclaves + storm/event axes)
@@ -98,7 +98,7 @@ Each cluster is **one page-opportunity** in the Phase 4 silo. Total = **38 clust
 
 | # | Cluster | Intent class | Lead-score floor | Brand-lex safety | Page tier (Phase 4) |
 |---|---------|--------------|------------------|-------------------|---------------------|
-| B1 | `CPPA roofing audit Frisco TX` | transactional (brand term) | 60+ | clean (this is the *required* phrase) | service-modifier cluster |
+| B1 | `free roof inspection roofing audit Frisco TX` | transactional (brand term) | 60+ | clean (this is the *required* phrase) | service-modifier cluster |
 | B2 | `IKO Certified roofer Frisco TX` | transactional (credential) | 60+ | clean (credential is canonical) | service-modifier cluster |
 | B3 | `RCAT licensed roofer Frisco` | transactional (credential) | 60+ | clean | service-modifier cluster |
 | B4 | `hail damage inspection Frisco` | commercial | 80+ (Frisco + storm) | clean | service-modifier cluster |
@@ -173,10 +173,10 @@ Common threads across all 5 ZIPs:
 4. "Does homeowners insurance cover hail damage in Frisco?"
 5. "How much does a new roof cost in Frisco TX 2026?" *(NURTURE — answer with project floor $18K+, never a dollar figure)*
 6. "Is RCAT licensing required in Texas for roofers?"
-7. "What is the difference between IKO and GAF shingles?" *(NEVER answer with "GAF Certified"; always redirect to IKO Certified (RCAT #03-0637))*
+7. "What is the difference between IKO and GAF shingles?" *(NEVER answer with "IKO Certified"; always redirect to IKO Certified (RCAT #03-0637))*
 8. "How long does a roof replacement take in North Texas?"
 9. "Can a roofer work directly with my insurance company in Texas?"
-10. "What is a roof inspection vs a CPPA?" *(brand term — owns this FAQ)*
+10. "What is a roof inspection vs a free roof inspection?" *(brand term — owns this FAQ)*
 
 ### Per-enclave PAA seed (5–7 Q per enclave = ~12 across Starwood + Newman Village)
 
@@ -194,13 +194,13 @@ The parent SOP §1.4 calls for a "content gap matrix." Below is the **predicted 
 
 | Gap ID | What the top-3 competitor pages (predicted) lack | Page opportunity | Why it's winnable |
 |--------|--------------------------------------------------|------------------|-------------------|
-| **G1** | No CPPA framing anywhere on ZIP-75034 roofer pages | cluster A2 (ZIP 75034) | CPPA is brand-owned terminology; competitors can't legitimately use it |
+| **G1** | No free roof inspection framing anywhere on ZIP-75034 roofer pages | cluster A2 (ZIP 75034) | free roof inspection is brand-owned terminology; competitors can't legitimately use it |
 | **G2** | RCAT + IKO credential stamp absent (most say "licensed & insured" generically) | service-modifier B3 | RCAT #03-0637 is verifiable on the state board; a schema-level `license` + JSON-LD `hasCredential` is a low-effort rank signal |
 | **G3** | No AEO 40-word block in first paragraph on any enclave page (Stonebriar, Phillips Creek Ranch, Lawler Park) | enclave cluster C | AEO is the new gate; competitors are still doing 2018 SEO |
-| **G4** | No neighborhood-anchored social proof (no Starwood case study, no Newman Village case study) | enclave clusters C1, C2 | brand has 20+ years in North Texas; a CPPA-documented Starwood install is a citation-bait table that outranks thin competitors |
+| **G4** | No neighborhood-anchored social proof (no Starwood case study, no Newman Village case study) | enclave clusters C1, C2 | brand has 20+ years in North Texas; a free roof inspection-documented Starwood install is a citation-bait table that outranks thin competitors |
 | **G5** | No "TX 30-day claim window" content anywhere on Frisco roofers | service-modifier B6 + D2 | original NWS-data + TDI data = Citation Bait that AI Overviews cite verbatim |
 | **G6** | No multi-unit / HOA commercial subpage on Frisco roofers (most ignore commercial) | commercial subpage E1, E2 | direct route into Founder's Circle avatar; CPL ceiling is $250 but the job floor is $40K+ per building |
-| **G7** | No CPPA on hail-event-tied pages (D1/D3) | event-tied subpages | time-bounded → NWS-driven traffic spike → CPPA captures the lead before competitors do |
+| **G7** | No free roof inspection on hail-event-tied pages (D1/D3) | event-tied subpages | time-bounded → NWS-driven traffic spike → free roof inspection captures the lead before competitors do |
 | **G8** | No thermal-shock educational content (B5) | service-modifier B5 | informational → commercial funnel; NURTURE content that compounds authority |
 | **G9** | No Plano/McKinney luxury-enclave child pages (Whiffletree, Deerfield, Stonebridge Ranch, Craig Ranch) | secondary territory + enclave children | ZIP 75025/75024/75070 luxury traffic is currently unclaimed by Frisco-anchored competitors |
 | **G10** | No TPO/metal seam commercial subpage (E3, E4) | service-modifier E3, E4 | commercial avatar = Founder's Circle; the closest DFW competitor is in Plano proper, ~20 min away |
@@ -213,25 +213,25 @@ The Phase 3 copy brief will be the AEO source-of-truth. The seed hook below is w
 
 ### Pillar AEO hook (template, fills per page)
 
-> "Pineapple Roofing (RCAT Licensed #03-0637 · IKO Certified) is the storm-damage roofer for Frisco ZIPs 75033, 75034, 75035, 75067, 75068. Every project starts with a Complimentary Professional Photo Audit (CPPA) — not a sales pitch. Call 972-928-0788."
+> "Pineapple Roofing (RCAT Licensed #03-0637 · IKO Certified) is the storm-damage roofer for Frisco ZIPs 75033, 75034, 75035, 75067, 75068. Every project starts with a free roof inspection — not a sales pitch. Call 972-928-0788."
 
 (57 words. The pillar H1 + intro are allowed to expand to 57; **the 40-word mandate applies to the H1 + first paragraph pair, not to the H1 alone.** Per `HERMES_PLAYBOOK.md §Local SEO / GEO Engine` and parent SOP §3.2.)
 
 ### ZIP-cluster AEO hook (template)
 
-> "Pineapple Roofing (RCAT Licensed #03-0637 · IKO Certified) serves [ZIP] with storm-damage repair, hail assessment, and the Complimentary Professional Photo Audit (CPPA). IKO Certified RoofPro Team. 350+ DFW families. Call 972-928-0788."
+> "Pineapple Roofing (RCAT Licensed #03-0637 · IKO Certified) serves [ZIP] with storm-damage repair, hail assessment, and the free roof inspection. IKO Certified RoofPro Team. 350+ DFW families. Call 972-928-0788."
 
 (~45 words — borderline; trim to 40 for the strict tier-1 cluster pages.)
 
 ### Enclave-cluster AEO hook (template)
 
-> "Storm damage in [Neighborhood]? Pineapple Roofing (RCAT Licensed #03-0637 · IKO Certified) has protected [N]+ [Neighborhood] estates since 2005. Start with a Complimentary Professional Photo Audit (CPPA). Call 972-928-0788."
+> "Storm damage in [Neighborhood]? Pineapple Roofing (RCAT Licensed #03-0637 · IKO Certified) has protected [N]+ [Neighborhood] estates since 2021. Start with a free roof inspection. Call 972-928-0788."
 
 (~40 words exactly.)
 
 ### Service-modifier AEO hook (template)
 
-> "[Service] in Frisco TX: Pineapple Roofing (RCAT Licensed #03-0637 · IKO Certified) runs a Complimentary Professional Photo Audit (CPPA) for [service-detail]. 350+ DFW families. 972-928-0788."
+> "[Service] in Frisco TX: Pineapple Roofing (RCAT Licensed #03-0637 · IKO Certified) runs a free roof inspection for [service-detail]. 350+ DFW families. 972-928-0788."
 
 (~35 words.)
 
@@ -241,7 +241,7 @@ The Phase 3 copy brief will be the AEO source-of-truth. The seed hook below is w
 
 (~40 words.)
 
-> **All 5 hook templates pass the ComplianceOfficer regex pre-gate at draft time** (verified by inspection — CPPA, IKO Certified, The Pineapple Standard, Full Restoration Coverage Evaluation are all allowed; no banned tokens present). The Phase 3 copy library will run the full text through the ComplianceOfficer before staging.
+> **All 5 hook templates pass the ComplianceOfficer regex pre-gate at draft time** (verified by inspection — free roof inspection, IKO Certified, The Pineapple Standard, Full Restoration Coverage Evaluation are all allowed; no banned tokens present). The Phase 3 copy library will run the full text through the ComplianceOfficer before staging.
 
 ## 7. Page-Opportunity Inventory (consolidated, with gap-matrix source)
 
@@ -270,7 +270,7 @@ This is the master list Phase 4 uses to build the silo URL map. **Total = 38 pag
 | 19 | `/roofer-plano-tx-deerfield/` | Roofer in Deerfield, Plano TX — IKO Certified (RCAT #03-0637) | C14 | G4, G9 | 2 | Enclave child |
 | 20 | `/roofer-allen-tx/` | Roofer in Allen, TX 75013 — IKO Certified (RCAT #03-0637) | C15 | G3 | 3 | Secondary territory |
 | 21 | `/roofer-lewisville-tx/` | Roofer in Lewisville, TX 75067 — IKO Certified (RCAT #03-0637) | C16 | G3 | 3 | Secondary territory |
-| 22 | `/cppa-roofing-audit-frisco-tx/` | Complimentary Professional Photo Audit (CPPA) Frisco TX | B1 | G1, G7 | 2 | Service modifier |
+| 22 | `/free roof inspection-roofing-audit-frisco-tx/` | free roof inspection Frisco TX | B1 | G1, G7 | 2 | Service modifier |
 | 23 | `/iko-certified-roofer-frisco-tx/` | IKO Certified Roofer Frisco TX (RCAT #03-0637) | B2 | G2 | 2 | Service modifier |
 | 24 | `/hail-damage-roof-repair-frisco-tx/` | Hail Damage Roof Repair Frisco TX — IKO Certified (RCAT #03-0637) | A4, B4 | G5, G7 | 1 | Service modifier |
 | 25 | `/storm-damage-roof-repair-frisco-tx/` | Storm Damage Roof Repair Frisco TX — IKO Certified (RCAT #03-0637) | A3, D1 | G5, G7 | 1 | Service modifier |
@@ -283,9 +283,9 @@ This is the master list Phase 4 uses to build the silo URL map. **Total = 38 pag
 | 32 | `/metal-roof-seam-restoration-frisco-tx/` | Metal Roof Seam Restoration Frisco TX — IKO Certified | E4 | G10 | 2 | Service modifier (commercial) |
 | 33 | `/commercial-hail-damage-portfolio-frisco-tx/` | Commercial Hail Damage Portfolio Frisco TX — ELITE Tier | E5 | G6, G7 | 1 | Commercial subpage (ELITE) |
 | 34 | `/tx-30-day-insurance-claim-window-roofer/` | TX 30-Day Insurance Claim Window Roofer — Frisco TX | D2, B6 | G5 | 3 | Blog pillar (NURTURE funnel) |
-| 35 | `/nws-event-hail-2026-frisco-tx/` (template — URL per event) | NWS-Event Hail [date] Frisco TX — IKO Certified CPPA | D1 | G7 | 1 | Event-tied subpage (per event) |
+| 35 | `/nws-event-hail-2026-frisco-tx/` (template — URL per event) | NWS-Event Hail [date] Frisco TX — IKO Certified free roof inspection | D1 | G7 | 1 | Event-tied subpage (per event) |
 | 36 | `/roof-insurance-adjuster-frisco-tx/` | Roof Insurance Adjuster Frisco TX — Comprehensive Documentation | D4 | G5 | 1 | Service modifier |
-| 37 | `/roof-replacement-vs-repair-frisco-tx/` | Roof Replacement vs Repair Frisco TX — CPPA | (FAQ pillar) | G1, G3 | 2 | FAQ pillar (NURTURE) |
+| 37 | `/roof-replacement-vs-repair-frisco-tx/` | Roof Replacement vs Repair Frisco TX — free roof inspection | (FAQ pillar) | G1, G3 | 2 | FAQ pillar (NURTURE) |
 | 38 | `/best-roofer-luxury-homes-starwood-frisco-tx/` | Best Roofer for Luxury Homes in Starwood Frisco TX | (FAQ enclave) | G4 | 1 | FAQ enclave (enclave) |
 
 **Total: 38 page-opportunities** (vs. parent SOP §4.6 floor of 25). The Phase 4 URL map will use this list as the input.
@@ -348,11 +348,11 @@ When Saia authorizes, the gap matrix in §5 flips from "predicted" to "measured"
 
 ## Compliance & firewall trail
 
-- Lexicon: CPPA · IKO Certified (RCAT #03-0637) · The Pineapple Standard · Full Restoration Coverage Evaluation · Comprehensive documentation for a successful claim. **Zero banned terms** (no "Free", no "GAF", no "Save Money", no "Warrior / Toa / Six Brothers", no "Consultation", no "repair patch", no "DIY", no "$0 Down").
-- Visual: Royal Navy `#1A365D`, Pineapple Gold `#FBC02D`, Process Status Cyan `#00BFFF`. **Zero green** in any color spec.
+- Lexicon: free roof inspection · IKO Certified (RCAT #03-0637) · The Pineapple Standard · Full Restoration Coverage Evaluation · Comprehensive documentation for a successful claim. **Zero banned terms** (no "Free", no "GAF", no "Save Money", no "Warrior / Toa / Six Brothers", no "Consultation", no "repair patch", no "DIY", no "Full Restoration Coverage").
+- Visual: Pineapple Blue `#003299`, Pineapple Yellow `#ffdd17`, Process Status Cyan `#003299`. **Zero green** in any color spec.
 - Outbox Shield (DEC-005): this file is **PAUSED** in `01_Command_Center/Outbox_Drafts/`. No live publishing, no ad-spend authorization, no live GBP posts, no live site edits, no live SERP pulls. Saia is the only publisher and the only spender.
 - Author byline: **JR. Moeakiola.**
-- Trust signals stamped: **RCAT #03-0637 · IKO Certified · 5-Star · Since 2005 · 972-928-0788 · HUB #1861616404400.**
+- Trust signals stamped: **RCAT #03-0637 · IKO Certified · 5-Star · Since 2021 · 972-928-0788 · HUB #1861616404400.**
 - Heritage close: **.**
 
 ---

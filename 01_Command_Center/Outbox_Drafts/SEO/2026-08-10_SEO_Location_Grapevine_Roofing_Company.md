@@ -10,7 +10,7 @@ proposed_slug: "/service-areas/tarrant-county-tx/grapevine/"
 deployment_target: "Revision of the existing indexed Grapevine service-area URL"
 author: "JR. Moeakiola"
 draft_date: "2026-08-10"
-palette: "#1A365D · #FBC02D · #00BFFF · #FFFFFF"
+palette: "#003299 · #ffdd17 · #003299 · #FFFFFF"
 publish_state: "Human review and Saia GO required"
 ---
 
@@ -18,7 +18,7 @@ publish_state: "Human review and Saia GO required"
 
 SEO title: Grapevine Roofing Company | RCAT Licensed & IKO Certified
 
-Meta description: Need a Grapevine roofing company? Choose photo-documented guidance from Pineapple Roofing, RCAT #03-0637 and IKO Certified. Schedule a CPPA: 972-928-0788.
+Meta description: Need a Grapevine roofing company? Choose photo-documented guidance from Pineapple Roofing, RCAT #03-0637 and IKO Certified. Schedule a free roof inspection: 972-928-0788.
 
 Canonical: https://www.pineapplecontractors.com/service-areas/tarrant-county-tx/grapevine/
 
@@ -32,30 +32,30 @@ Recommended page type: Revision of the existing indexed service-area page. Prese
 
 # Grapevine Roofing Company Built Around Clear Roof Documentation
 
-Pineapple Roofing is a Grapevine roofing company providing photo-documented roof evaluations, replacement planning, storm-condition documentation, and residential and commercial roofing guidance. We are IKO Certified, RCAT Licensed #03-0637, 5-Star, and family-operated in North Texas since 2005.
+Pineapple Roofing is a Grapevine roofing company providing photo-documented roof evaluations, replacement planning, storm-condition documentation, and residential and commercial roofing guidance. We are IKO Certified, RCAT Licensed #03-0637, 5-Star, and family-operated in North Texas since 2021.
 
-**Schedule your Complimentary Professional Photo Audit (CPPA): call 972-928-0788.**
+**Schedule your free roof inspection: call 972-928-0788.**
 
 ## A Grapevine roofing decision should begin with evidence
 
 Choosing a roofer is difficult when every proposal appears to promise the same result. The better question is not simply, “What will this cost?” It is, “What did you observe, how was it documented, and why does the proposed scope fit this property?”
 
-Pineapple Roofing begins with a CPPA because a roof cannot be responsibly understood from a quick look at the driveway. Accessible slopes, roof coverings, flashing, penetrations, drainage paths, ventilation components, and visible collateral conditions each add context. Organized photographs give the owner a record that can be reviewed after the appointment instead of relying on memory or pressure.
+Pineapple Roofing begins with a free roof inspection because a roof cannot be responsibly understood from a quick look at the driveway. Accessible slopes, roof coverings, flashing, penetrations, drainage paths, ventilation components, and visible collateral conditions each add context. Organized photographs give the owner a record that can be reviewed after the appointment instead of relying on memory or pressure.
 
 That documentation-first approach is The Pineapple Standard. We separate visible conditions from recommendations, explain practical next steps in plain language, and keep the property owner involved in the decision.
 
-## What does a Grapevine CPPA include?
+## What does a Grapevine free roof inspection include?
 
-A Complimentary Professional Photo Audit is a property-specific review designed to create clarity before a major roofing decision. The exact access method depends on the building, roof geometry, weather, and safe operating conditions. When appropriate, documentation may include ground-level images, close-range roof photographs, and aerial images.
+A free roof inspection is a property-specific review designed to create clarity before a major roofing decision. The exact access method depends on the building, roof geometry, weather, and safe operating conditions. When appropriate, documentation may include ground-level images, close-range roof photographs, and aerial images.
 
-The CPPA is organized around four questions:
+The free roof inspection is organized around four questions:
 
 1. **What is visible now?** Photographs record accessible roof-system components and areas that deserve attention.
 2. **What does the evidence mean?** The findings are explained without turning every mark into an emergency.
 3. **What should happen next?** The recommendation may be monitoring, maintenance planning, a defined roofing scope, or further specialist evaluation.
 4. **What can the owner keep?** A documented baseline helps homeowners and property managers compare future changes and review the reasoning behind a proposed project.
 
-A CPPA is not an insurance coverage decision, engineering report, or promise that a carrier will approve a claim. Insurance carriers interpret policies and determine coverage. Pineapple Roofing provides roofing observations, photographs, scope guidance, and project documentation within the role of a roofing contractor.
+A free roof inspection is not an insurance coverage decision, engineering report, or promise that a carrier will approve a claim. Insurance carriers interpret policies and determine coverage. Pineapple Roofing provides roofing observations, photographs, scope guidance, and project documentation within the role of a roofing contractor.
 
 ## Roofing services for Grapevine homes and commercial properties
 
@@ -92,7 +92,7 @@ A trustworthy proposal should make the decision clearer. Use these questions whe
 - **Will you receive property-specific photographs?** Ask how images will be labeled, explained, and connected to the proposed scope.
 - **Does the proposal address the complete system?** Look for roofing materials, underlayment, flashing, ventilation, penetrations, drainage details, cleanup, and final review as applicable.
 - **Are insurance statements responsible?** A roofing contractor can document conditions and prepare a roofing scope, but the carrier determines policy coverage.
-- **Is the business identity clear?** Pineapple Roofing is a Polynesian-owned, family-operated North Texas company serving the region since 2005.
+- **Is the business identity clear?** Pineapple Roofing is a Polynesian-owned, family-operated North Texas company serving the region since 2021.
 - **Will the team explain what does not require immediate action?** Honest guidance should distinguish urgent conditions from items that can be monitored.
 - **Are city requirements being checked?** Permit and contractor-registration requirements can depend on project scope and current municipal rules.
 
@@ -109,12 +109,12 @@ The trust signals are straightforward:
 - **RCAT License #03-0637**
 - **IKO Certified**
 - **5-Star**
-- **Serving North Texas since 2005**
+- **Serving North Texas since 2021**
 - **Direct scheduling line: 972-928-0788**
 
-Credentials are not a substitute for good work, but they give an owner a better starting point for verification. Combine those credentials with the CPPA, a written scope, and clear project communication to make a more informed choice.
+Credentials are not a substitute for good work, but they give an owner a better starting point for verification. Combine those credentials with the free roof inspection, a written scope, and clear project communication to make a more informed choice.
 
-## What happens after the CPPA?
+## What happens after the free roof inspection?
 
 After the documentation is organized, a Pineapple Roofing representative reviews the visible conditions and answers questions. If no immediate roofing project is supported, the owner can keep the findings as a baseline. If work is recommended, the next step is a written scope that connects the evidence to the proposed roofing system and project sequence.
 
@@ -126,11 +126,11 @@ Before authorization, ask for clarification on any line that is not clear. A hig
 
 ### What should I look for in a Grapevine roofing company?
 
-Look for verifiable credentials, manufacturer training, property-specific documentation, a written scope, responsible insurance language, and clear communication. Pineapple Roofing is IKO Certified, RCAT Licensed #03-0637, 5-Star, and has served North Texas since 2005.
+Look for verifiable credentials, manufacturer training, property-specific documentation, a written scope, responsible insurance language, and clear communication. Pineapple Roofing is IKO Certified, RCAT Licensed #03-0637, 5-Star, and has served North Texas since 2021.
 
-### What is a Complimentary Professional Photo Audit?
+### What is a free roof inspection?
 
-A CPPA is a documentation-first evaluation of accessible roofing conditions. It may include ground, close-range, and aerial photographs when appropriate and safe. Pineapple Roofing organizes the visible findings, explains practical next steps, and gives the owner a clearer basis for a roofing decision.
+A free roof inspection is a documentation-first evaluation of accessible roofing conditions. It may include ground, close-range, and aerial photographs when appropriate and safe. Pineapple Roofing organizes the visible findings, explains practical next steps, and gives the owner a clearer basis for a roofing decision.
 
 ### Does Pineapple Roofing have an office in Grapevine?
 
@@ -152,15 +152,15 @@ Pineapple Roofing operates under RCAT License #03-0637 and is IKO Certified. Pro
 
 Estimates are generally valid for 7–14 days because material pricing and availability can change. The exact validity period should appear on the written estimate provided for the property.
 
-### How do I schedule a Grapevine CPPA?
+### How do I schedule a Grapevine free roof inspection?
 
-Call Pineapple Roofing at 972-928-0788 and request a Grapevine Complimentary Professional Photo Audit. The team will collect the property details needed to determine the appropriate next step and scheduling options.
+Call Pineapple Roofing at 972-928-0788 and request a Grapevine free roof inspection. The team will collect the property details needed to determine the appropriate next step and scheduling options.
 
-## Schedule a Grapevine CPPA
+## Schedule a Grapevine free roof inspection
 
-Get photographs and clear roofing guidance before deciding on a major scope. Call **972-928-0788** to schedule a **Complimentary Professional Photo Audit (CPPA)** for a Grapevine home or commercial property.
+Get photographs and clear roofing guidance before deciding on a major scope. Call **972-928-0788** to schedule a **free roof inspection** for a Grapevine home or commercial property.
 
-**Pineapple Roofing · RCAT License #03-0637 · IKO Certified · 5-Star · Since 2005 · 972-928-0788**
+**Pineapple Roofing · RCAT License #03-0637 · IKO Certified · 5-Star · Since 2021 · 972-928-0788**
 
 By JR. Moeakiola
 
@@ -212,7 +212,7 @@ By JR. Moeakiola
         "Commercial roofing",
         "Roof replacement",
         "Storm-condition roof documentation",
-        "Complimentary Professional Photo Audit"
+        "free roof inspection"
       ]
     },
     {
@@ -224,15 +224,15 @@ By JR. Moeakiola
           "name": "What should I look for in a Grapevine roofing company?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Look for verifiable credentials, manufacturer training, property-specific documentation, a written scope, responsible insurance language, and clear communication. Pineapple Roofing is IKO Certified, RCAT Licensed #03-0637, 5-Star, and has served North Texas since 2005."
+            "text": "Look for verifiable credentials, manufacturer training, property-specific documentation, a written scope, responsible insurance language, and clear communication. Pineapple Roofing is IKO Certified, RCAT Licensed #03-0637, 5-Star, and has served North Texas since 2021."
           }
         },
         {
           "@type": "Question",
-          "name": "What is a Complimentary Professional Photo Audit?",
+          "name": "What is a free roof inspection?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "A CPPA is a documentation-first evaluation of accessible roofing conditions. It may include ground, close-range, and aerial photographs when appropriate and safe. Pineapple Roofing organizes the visible findings, explains practical next steps, and gives the owner a clearer basis for a roofing decision."
+            "text": "A free roof inspection is a documentation-first evaluation of accessible roofing conditions. It may include ground, close-range, and aerial photographs when appropriate and safe. Pineapple Roofing organizes the visible findings, explains practical next steps, and gives the owner a clearer basis for a roofing decision."
           }
         },
         {
@@ -277,10 +277,10 @@ By JR. Moeakiola
         },
         {
           "@type": "Question",
-          "name": "How do I schedule a Grapevine CPPA?",
+          "name": "How do I schedule a Grapevine free roof inspection?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Call Pineapple Roofing at 972-928-0788 and request a Grapevine Complimentary Professional Photo Audit. The team will collect the property details needed to determine the appropriate next step and scheduling options."
+            "text": "Call Pineapple Roofing at 972-928-0788 and request a Grapevine free roof inspection. The team will collect the property details needed to determine the appropriate next step and scheduling options."
           }
         }
       ]

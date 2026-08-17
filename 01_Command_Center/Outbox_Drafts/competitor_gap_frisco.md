@@ -14,7 +14,7 @@ STATUS: PAUSED — research draft only. No publishing, posting, sending, or spen
 
 ## Executive finding
 
-The ranking contractor pages cover broad roofing services, storm damage, and estimate CTAs, but most stop short of showing the actual evidence package a Frisco owner receives. Pineapple Roofing can own the query by making its CPPA deliverable, claim-documentation workflow, high-value property expertise, and Frisco-specific evidence unmistakably concrete.
+The ranking contractor pages cover broad roofing services, storm damage, and estimate CTAs, but most stop short of showing the actual evidence package a Frisco owner receives. Pineapple Roofing can own the query by making its free roof inspection deliverable, claim-documentation workflow, high-value property expertise, and Frisco-specific evidence unmistakably concrete.
 
 ## Methodology and scope
 
@@ -71,7 +71,7 @@ The ranking contractor pages cover broad roofing services, storm damage, and est
 7. Why Homeowners Choose Frisco Roofing Company
 8. Serving Frisco and the Surrounding DFW Metro
 9. Frequently Asked Questions
-10. Get Your Complimentary Professional Photo Audit (CPPA) Today [competitor phrasing normalized to M7 lexicon]
+10. Get Your free roof inspection Today [competitor phrasing normalized to M7 lexicon]
 
 ### 3. Griffith Roofing
 
@@ -118,9 +118,9 @@ The ranking contractor pages cover broad roofing services, storm damage, and est
 
 ## The five gaps Pineapple Roofing can own
 
-### 1. Make the CPPA a visible evidence product, not a generic inspection promise
+### 1. Make the free roof inspection a visible evidence product, not a generic inspection promise
 
-None of the five pages clearly shows the complete artifact a homeowner or property manager receives. Own this with a redacted sample CPPA containing annotated photographs, roof-plane map, observed-condition legend, material notes, priority levels, and next-step checklist. Redact the owner’s name, street number, claim number, policy data, signatures, image metadata, and any identifying interior views; preserve the document structure so visitors can judge its usefulness. Answer the query in the first 40 words and make “what you receive” a dedicated H2.
+None of the five pages clearly shows the complete artifact a homeowner or property manager receives. Own this with a redacted sample free roof inspection containing annotated photographs, roof-plane map, observed-condition legend, material notes, priority levels, and next-step checklist. Redact the owner’s name, street number, claim number, policy data, signatures, image metadata, and any identifying interior views; preserve the document structure so visitors can judge its usefulness. Answer the query in the first 40 words and make “what you receive” a dedicated H2.
 
 ### 2. Publish the definitive Frisco hail-and-claim documentation workflow
 
@@ -136,26 +136,26 @@ HonestRoof lists neighborhoods and ZIP codes, but the field lacks original, cita
 
 ### 5. Build the strongest trust-and-answer layer in the SERP
 
-The competitors separate credentials, FAQs, reviews, and CTAs instead of combining them into direct answers. Pineapple can place a concise answer block, Frisco-specific FAQs, verified review excerpts, and a CPPA CTA beside the full trust stack: RCAT License #03-0637 · IKO Certified · 5-Star · Since 2005 · 972-928-0788. Use direct answers first, then supporting detail, so both homeowners and answer engines can extract the page cleanly.
+The competitors separate credentials, FAQs, reviews, and CTAs instead of combining them into direct answers. Pineapple can place a concise answer block, Frisco-specific FAQs, verified review excerpts, and a free roof inspection CTA beside the full trust stack: RCAT License #03-0637 · IKO Certified · 5-Star · Since 2021 · 972-928-0788. Use direct answers first, then supporting detail, so both homeowners and answer engines can extract the page cleanly.
 
 ## Recommended page blueprint
 
 1. H1: Roofing Companies in Frisco, TX — What Property Owners Should Compare
 2. First-40-word answer: direct selection criteria plus Pineapple Roofing’s Frisco credentials
-3. H2: What a CPPA Includes — with a redacted sample artifact
+3. H2: What a free roof inspection Includes — with a redacted sample artifact
 4. H2: Frisco Hail and Insurance Documentation Workflow
 5. H2: Estate Roofing in Starwood and Newman Village
 6. H2: Commercial Portfolio Roofing for Frisco Property Managers
 7. H2: Verified Frisco Project Evidence by ZIP
 8. H2: Roofing Company Comparison Checklist
 9. H2: Frisco Roofing FAQs
-10. H2: Request Your CPPA — 972-928-0788
+10. H2: Request Your Free Roof Inspection — 972-928-0788
 
 Suggested first-40-word answer block:
 
-> Compare Frisco roofing companies by local licensing, manufacturer credentials, documented hail experience, photo-based findings, verified reviews, warranties, and a clear project process. Pineapple Roofing is RCAT License #03-0637, IKO Certified, 5-Star, and serving North Texas since 2005.
+> Compare Frisco roofing companies by local licensing, manufacturer credentials, documented hail experience, photo-based findings, verified reviews, warranties, and a clear project process. Pineapple Roofing is RCAT License #03-0637, IKO Certified, 5-Star, and serving North Texas since 2021.
 
 ## Pineapple Roofing trust block
 
-Pineapple Roofing · RCAT License #03-0637 · IKO Certified · 5-Star · Since 2005 · 972-928-0788  
+Pineapple Roofing · RCAT License #03-0637 · IKO Certified · 5-Star · Since 2021 · 972-928-0788  
 Author: JR. Moeakiola

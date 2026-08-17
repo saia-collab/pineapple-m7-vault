@@ -60,7 +60,7 @@ striking-distance data), so the highest-value pages are live and indexing first:
 5. Set the page **slug** to match the manifest (e.g. `locations/allen-tx`) so redirects line up
 6. **Publish**
 
-> The pages are already firewall-clean (zero green, zero banned terms, RCAT/phone/CPPA on every
+> The pages are already firewall-clean (zero green, zero banned terms, RCAT/phone/free roof inspection on every
 > one) and the phone CTA works. The form needs the `/exec` URL from Pre-flight step 3.
 
 ---

@@ -5,8 +5,8 @@ title: M7 — SEO RUN NOW (Agent Kanban / Hermes Goal Mode — striking-distance
 created: 2026-07-21
 ---
 
-> **PAUSED — agents draft to Outbox, Saia publishes.** Brand law: CPPA (never "free"), IKO (never GAF),
-> Navy #1A365D + Gold #FBC02D, ZERO green, RCAT #03-0637, 972-928-0788.
+> **PAUSED — agents draft to Outbox, Saia publishes.** Brand law: free roof inspection (never "free"), IKO (never GAF),
+> Navy #003299 + Gold #ffdd17, ZERO green, RCAT #03-0637, 972-928-0788.
 
 # 🚀 SEO RUN NOW — the striking-distance attack (paste these)
 
@@ -34,8 +34,8 @@ Write a Location Service Page for Pineapple Roofing targeting the keyword "flat 
 URL: pineappleroofingllc.com/locations/allen-tx/ (this replaces the old pineapplecontractors.com Allen page —
 we will 301 the old URL to this one). Rules: put the exact keyword in the title, the H1, the first 40 words,
 and the last line. 1200+ words, Allen-specific (neighborhoods, DFW hail). Add LocalBusiness + FAQPage JSON-LD
-schema. 4-6 FAQs. Internal links to /services/ and /contact/. CPPA call-to-action (never "free"). IKO
-Certified (never GAF), RCAT #03-0637, 972-928-0788. Navy #1A365D + Gold #FBC02D, ZERO green. Save the draft
+schema. 4-6 FAQs. Internal links to /services/ and /contact/. free roof inspection call-to-action (never "free"). IKO
+Certified (never GAF), RCAT #03-0637, 972-928-0788. Navy #003299 + Gold #ffdd17, ZERO green. Save the draft
 PAUSED to C:\Pineapple Contractors M7\01_Command_Center\Outbox_Drafts\SEO_Pages\allen-tx.html
 ```
 **Target #2 — Grapevine (pos 16.3, 127 impressions):** same goal, keyword `"grapevine roofing company"`, URL `/locations/grapevine-tx/`, file `grapevine-tx.html`.
@@ -44,7 +44,7 @@ PAUSED to C:\Pineapple Contractors M7\01_Command_Center\Outbox_Drafts\SEO_Pages\
 ```
 Upgrade the Pineapple Roofing HOMEPAGE to rank #1 for our own brand ("pineapple roofing", "pineapple
 contractors"). Strengthen the title tag, H1, meta description, and add Organization + LocalBusiness JSON-LD.
-Internal-link to top service + city pages. CPPA CTA, IKO, RCAT #03-0637, no green. Save PAUSED to Outbox_Drafts/SEO_Pages/homepage-brand.md
+Internal-link to top service + city pages. free roof inspection CTA, IKO, RCAT #03-0637, no green. Save PAUSED to Outbox_Drafts/SEO_Pages/homepage-brand.md
 ```
 
 > After all 4 land in Outbox: brand-check → publish to pineappleroofingllc.com → import the 301s → watch
@@ -57,8 +57,8 @@ Internal-link to top service + city pages. CPPA CTA, IKO, RCAT #03-0637, no gree
 Attached: my OpenSEO "Striking distance (100)" export (keywords at positions 5-20 with impressions) and my
 M7 brand rules. For the top 20 keywords, write one Location Service Page each for pineappleroofingllc.com in
 this format: exact keyword in title/H1/first-40-words/last-line, 1200+ words, LocalBusiness + FAQPage JSON-LD,
-4-6 FAQs, internal links, CPPA CTA (never "free"), IKO (never GAF), RCAT #03-0637, 972-928-0788, Navy #1A365D
-+ Gold #FBC02D, zero green. URL pattern /locations/<city>-tx/. Also output the old->new 301 redirect for each
+4-6 FAQs, internal links, free roof inspection CTA (never "free"), IKO (never GAF), RCAT #03-0637, 972-928-0788, Navy #003299
++ Gold #ffdd17, zero green. URL pattern /locations/<city>-tx/. Also output the old->new 301 redirect for each
 (old pineapplecontractors.com/service-areas/... -> new). Save each as its own .html; output redirects as CSV.
 ```
 > To install Codex (fixes the ENOENT): `npm i -g @openai/codex` then `codex login` with your ChatGPT account
@@ -70,7 +70,7 @@ this format: exact keyword in title/H1/first-40-words/last-line, 1200+ words, Lo
 Paste into Hermes **Goal Mode** (profile: the matching one — `seo`, `content`, `roofing`), on **Kimi K3**:
 ```
 Read C:\Pineapple Contractors M7\01_Command_Center\M7_MASTER_SOP.md and M7_EXECUTE.md. Then do: [YOUR TASK].
-Follow M7 brand law (CPPA, IKO, no green, RCAT #03-0637, 972-928-0788). Save the result PAUSED to
+Follow M7 brand law (free roof inspection, IKO, no green, RCAT #03-0637, 972-928-0788). Save the result PAUSED to
 01_Command_Center\Outbox_Drafts\. Do not publish or spend. When done, append a line to 03_Knowledge_Mat\log.md.
 ```
 

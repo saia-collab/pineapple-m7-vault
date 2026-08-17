@@ -4,7 +4,7 @@ status: PAUSED — paste into your website blog
 title_tag: "Metal vs. Shingle Roofing in Texas: Which Is Right for Your Home? | Pineapple Contractors"
 meta_description: "Metal or shingle roof for your North Texas home? Compare cost, lifespan, hail performance and energy savings. IKO Certified, RCAT #03-0637. 972-928-0788."
 target_keyword: "metal vs shingle roofing texas"
-brand_check: CPPA (no "free") · IKO Certified · Pineapple Standard · zero green
+brand_check: free roof inspection (no "free") · IKO Certified · Pineapple Standard · zero green
 last_updated: 2026-07-13
 ---
 
@@ -40,15 +40,15 @@ This matters a lot here. Both can be rated for impact — **Class 4 impact-rated
 There's no wrong answer — only the right fit for *your* home, roof slope and budget.
 
 ## Let's figure it out together — at no cost
-As an IKO Certified contractor trained across the full shingle line and experienced with standing-seam metal, we help you choose based on your actual roof, not a sales quota. It starts with a **Complimentary Professional Photo Audit (CPPA)** — a documented look at your roof and an honest recommendation.
+As an IKO Certified contractor trained across the full shingle line and experienced with standing-seam metal, we help you choose based on your actual roof, not a sales quota. It starts with a **free roof inspection** — a documented look at your roof and an honest recommendation.
 
-We've served North Texas since 2005, we're RCAT licensed (#03-0637), and 5-star rated by 400+ homeowners. That's The Pineapple Standard.
+We've served North Texas since 2021, we're RCAT licensed (#03-0637), and 5-star rated by 400+ homeowners. That's The Pineapple Standard.
 
-**Weighing metal vs. shingle? Book your CPPA and get a straight answer.**
+**Weighing metal vs. shingle? Book your free roof inspection and get a straight answer.**
 📞 Call **(972) 928-0788** or request an inspection online.
 
 ---
 
-*Pineapple Contractors · IKO Certified · RCAT License #03-0637 · Serving Dallas–Fort Worth since 2005.*
+*Pineapple Contractors · IKO Certified · RCAT License #03-0637 · Serving Dallas–Fort Worth since 2021.*
 
 <!-- M7-FIREWALL-EXEMPT: blog-draft -->

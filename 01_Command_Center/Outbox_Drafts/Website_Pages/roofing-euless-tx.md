@@ -7,14 +7,14 @@ meta: Trusted roofing in Euless, TX. Storm & hail repair, replacement, insurance
 target_keyword: euless roofing
 gsc_note: striking-distance pos ~16.8, 87 impressions (+ "euless roofing contractor" 66 impr)
 status: PAUSED — Outbox review before deploy
-brand_check: CPPA · IKO Certified · The Pineapple Standard · RCAT #03-0637 · 972-928-0788 · zero green
+brand_check: free roof inspection · IKO Certified · The Pineapple Standard · RCAT #03-0637 · 972-928-0788 · zero green
 ---
 
 # Roofing in Euless, TX — IKO Certified (RCAT #03-0637)
 
-**Need a roofing contractor in Euless, TX? Pineapple Roofing (RCAT Licensed #03-0637 · IKO Certified) handles storm damage, repairs and replacements across Euless and the HEB area. Every project starts with a Complimentary Professional Photo Audit (CPPA). Call (972) 928-0788.**
+**Need a roofing contractor in Euless, TX? Pineapple Roofing (RCAT Licensed #03-0637 · IKO Certified) handles storm damage, repairs and replacements across Euless and the HEB area. Every project starts with a free roof inspection. Call (972) 928-0788.**
 
-Euless sits right in the path of North Texas storms, tucked between DFW Airport and the rest of the Mid-Cities. Hail, wind and heat wear roofs down fast here — and the damage is often invisible from the ground until a leak shows up inside. We've protected North Texas roofs since 2005, documenting every job before we recommend a thing.
+Euless sits right in the path of North Texas storms, tucked between DFW Airport and the rest of the Mid-Cities. Hail, wind and heat wear roofs down fast here — and the damage is often invisible from the ground until a leak shows up inside. We've protected North Texas roofs since 2021, documenting every job before we recommend a thing.
 
 ## Roofing services for Euless homeowners
 - **Storm & hail damage repair** — documented and insurance-ready.
@@ -23,13 +23,13 @@ Euless sits right in the path of North Texas storms, tucked between DFW Airport 
 - **Insurance claim help** — we document the damage and meet your adjuster on site.
 
 ## Why Euless chooses Pineapple Roofing
-- **Local since 2005** — we know Euless and the HEB roofs, not a crew passing through after a storm.
+- **Local since 2021** — we know Euless and the HEB roofs, not a crew passing through after a storm.
 - **IKO Certified · RCAT #03-0637** — verifiable, accountable, insured.
 - **5-star rated** by 400+ North Texas families.
 - **The Pineapple Standard** — careful work, clean job sites, clear communication.
 
 ## How it works
-1. **Complimentary Professional Photo Audit (CPPA)** — documented photos of your roof, attic and flashings, at no cost.
+1. **free roof inspection** — documented photos of your roof, attic and flashings, at no cost.
 2. **Written scope** — a clear read on what's urgent and what can wait.
 3. **IKO Certified repair or replacement** — warranty-backed, done to spec.
 
@@ -39,7 +39,7 @@ Euless, Bedford, Hurst, Grapevine, Colleyville — and all of Tarrant County + D
 ## Frequently asked questions
 
 **How do I find a reputable roofing contractor in Euless?**
-Verify the license (RCAT #03-0637), manufacturer certification (IKO Certified), local track record, and insist on documented inspections — like our CPPA.
+Verify the license (RCAT #03-0637), manufacturer certification (IKO Certified), local track record, and insist on documented inspections — like our free roof inspection.
 
 **Do you handle hail claims in Euless?**
 Yes — photo documentation, written scope, and adjuster meetings, managed alongside you.
@@ -48,9 +48,9 @@ Yes — photo documentation, written scope, and adjuster meetings, managed along
 Most Euless homes are completed in 1–3 days once the crew is on site, weather permitting.
 
 **Is the photo audit really at no cost?**
-Yes — the Complimentary Professional Photo Audit is documented, honest and no-obligation.
+Yes — the free roof inspection is documented, honest and no-obligation.
 
-## Book your Complimentary Professional Photo Audit
+## Book your free roof inspection
 Euless's trusted roofer is one call away.
 📞 **Call (972) 928-0788** — IKO Certified · RCAT #03-0637 · The Pineapple Standard.
 

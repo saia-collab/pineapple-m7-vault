@@ -5,7 +5,7 @@ meta: Roofing, restoration & construction across DFW — Frisco, Lewisville, Pla
 
 ## Serving Dallas–Fort Worth
 
-Pineapple Contractors is local, licensed (**RCAT #03-0637**), and IKO Certified — proudly serving homeowners and businesses across North Texas since 2005. Our HQ is at The Star in Frisco.
+Pineapple Contractors is local, licensed (**RCAT #03-0637**), and IKO Certified — proudly serving homeowners and businesses across North Texas since 2021. Our HQ is at The Star in Frisco.
 
 ## Areas we cover
 

@@ -2,7 +2,7 @@
 type: content_batch
 title: Social Media Content — Batch 2 (6 posts, promotes new city pages)
 status: PAUSED — pair with media → schedule via Blotato
-brand_check: CPPA (no banned words) · IKO Certified · The Pineapple Standard · RCAT #03-0637 · 972-928-0788 · zero green
+brand_check: free roof inspection (no banned words) · IKO Certified · The Pineapple Standard · RCAT #03-0637 · 972-928-0788 · zero green
 last_updated: 2026-07-15
 ---
 
@@ -10,7 +10,7 @@ last_updated: 2026-07-15
 
 ## 1 — Grapevine · [Photo: Grapevine job] · IG/FB
 **Hook:** Grapevine homeowners — is your roof storm-ready? 🏠
-From Lake Grapevine to Main Street, we've got North Texas roofs covered. IKO Certified, documented, insurance-ready. Book your Complimentary Professional Photo Audit.
+From Lake Grapevine to Main Street, we've got North Texas roofs covered. IKO Certified, documented, insurance-ready. Book your free roof inspection.
 📞 (972) 928-0788 · RCAT #03-0637
 #GrapevineTX #Roofing #DFW #HailDamage
 
@@ -22,7 +22,7 @@ TPO, PVC, modified bitumen — built to shed North Texas rain and stand up to ha
 
 ## 3 — Euless · [Reel: crew] · TikTok/Reels
 **Hook:** Euless & the HEB area — this is how we do roofs. 🔨
-IKO Certified crew, daily cleanup, documented every step. Local since 2005. Storm damage? We'll photograph it and handle the claim with you.
+IKO Certified crew, daily cleanup, documented every step. Local since 2021. Storm damage? We'll photograph it and handle the claim with you.
 📞 (972) 928-0788
 #EulessTX #HEB #Roofing #NorthTexas
 
@@ -40,7 +40,7 @@ We assess your whole portfolio fast, document each roof for insurance, and execu
 
 ## 6 — Trust / close · [Photo: team/family] · all
 **Hook:** 20 years. 400+ 5-star reviews. One family standard. 🍍
-Polynesian-owned, IKO Certified, RCAT Licensed (#03-0637), serving DFW since 2005. When we say The Pineapple Standard, we mean it.
+Polynesian-owned, IKO Certified, RCAT Licensed (#03-0637), serving DFW since 2021. When we say The Pineapple Standard, we mean it.
 📞 (972) 928-0788
 #FamilyOwned #FriscoRoofing #IKOCertified #DFW
 

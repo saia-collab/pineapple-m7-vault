@@ -7,14 +7,14 @@ meta: Trusted roofing company in Grapevine, TX. Storm & hail repair, replacement
 target_keyword: grapevine roofing company
 gsc_note: striking-distance pos ~16, 114 impressions
 status: PAUSED — Outbox review before deploy
-brand_check: CPPA · IKO Certified · The Pineapple Standard · RCAT #03-0637 · 972-928-0788 · zero green
+brand_check: free roof inspection · IKO Certified · The Pineapple Standard · RCAT #03-0637 · 972-928-0788 · zero green
 ---
 
 # Roofing Company in Grapevine, TX — IKO Certified (RCAT #03-0637)
 
-**Looking for a trusted roofing company in Grapevine, TX? Pineapple Roofing (RCAT Licensed #03-0637 · IKO Certified) handles storm damage, repairs and replacements across Grapevine and Tarrant County. Every project starts with a Complimentary Professional Photo Audit (CPPA). Call (972) 928-0788.**
+**Looking for a trusted roofing company in Grapevine, TX? Pineapple Roofing (RCAT Licensed #03-0637 · IKO Certified) handles storm damage, repairs and replacements across Grapevine and Tarrant County. Every project starts with a free roof inspection. Call (972) 928-0788.**
 
-From the historic homes near Main Street to the newer builds around Lake Grapevine, Grapevine roofs take the full force of North Texas weather — spring hail, summer heat, and the wind that rolls through near DFW Airport. We've protected North Texas roofs since 2005, and we treat every Grapevine home like it's our own.
+From the historic homes near Main Street to the newer builds around Lake Grapevine, Grapevine roofs take the full force of North Texas weather — spring hail, summer heat, and the wind that rolls through near DFW Airport. We've protected North Texas roofs since 2021, and we treat every Grapevine home like it's our own.
 
 ## Roofing services for Grapevine homeowners
 - **Storm & hail damage repair** — documented, insurance-ready.
@@ -23,13 +23,13 @@ From the historic homes near Main Street to the newer builds around Lake Grapevi
 - **Insurance claim help** — we document the damage and meet your adjuster on site.
 
 ## Why Grapevine chooses Pineapple Roofing
-- **Local since 2005** — we know Grapevine and Tarrant County roofs, not a storm-chasing crew passing through.
+- **Local since 2021** — we know Grapevine and Tarrant County roofs, not a storm-chasing crew passing through.
 - **IKO Certified · RCAT #03-0637** — verifiable, accountable, insured.
 - **5-star rated** by 400+ North Texas families.
 - **The Pineapple Standard** — careful work, clear communication, clean job sites.
 
 ## How it works
-1. **Complimentary Professional Photo Audit (CPPA)** — we document your roof, attic and flashings with photos, at no cost.
+1. **free roof inspection** — we document your roof, attic and flashings with photos, at no cost.
 2. **Written scope** — a clear read on what's urgent and what can wait.
 3. **IKO Certified repair or replacement** — backed by warranty and our workmanship commitment.
 
@@ -39,7 +39,7 @@ Grapevine, Euless, Colleyville, Southlake, Bedford — and all of Tarrant County
 ## Frequently asked questions
 
 **How do I choose a reputable roofing company in Grapevine?**
-Look for a verifiable license (RCAT #03-0637), manufacturer certification (IKO Certified), local track record, and documented inspections — like our CPPA. Avoid crews that can't show credentials.
+Look for a verifiable license (RCAT #03-0637), manufacturer certification (IKO Certified), local track record, and documented inspections — like our free roof inspection. Avoid crews that can't show credentials.
 
 **Do you handle hail and storm claims in Grapevine?**
 Yes. We photograph and document the damage, provide a written scope, and meet your adjuster on site to advocate for a fair, fully-covered claim.
@@ -48,9 +48,9 @@ Yes. We photograph and document the damage, provide a written scope, and meet yo
 Most single-family homes are completed in 1–3 days once the crew is on site, weather permitting.
 
 **Is a roof inspection really at no cost?**
-Yes — the Complimentary Professional Photo Audit is documented, honest, and no-obligation.
+Yes — the free roof inspection is documented, honest, and no-obligation.
 
-## Book your Complimentary Professional Photo Audit
+## Book your free roof inspection
 Grapevine's trusted roofing company is one call away.
 📞 **Call (972) 928-0788** — IKO Certified · RCAT #03-0637 · The Pineapple Standard.
 

@@ -4,8 +4,8 @@ status: PAUSED — Outbox Shield. Saia's GO before publishing.
 target_keyword: flat roofing allen tx
 current_position: 8.8 · 123 impressions/28d · 0 clicks
 audience: Allen/Collin County commercial property managers, HOA boards, business owners
-offer: Complimentary Professional Photo Audit (CPPA) · (972) 928-0788
-brand_check: CPPA (no "free") · IKO Certified (no GAF) · RCAT #03-0637 · zero green
+offer: free roof inspection · (972) 928-0788
+brand_check: free roof inspection (no "free") · IKO Certified (no GAF) · RCAT #03-0637 · zero green
 ---
 
 # 🔌 API MAP
@@ -54,7 +54,7 @@ By the time a tenant reports a ceiling stain, water has usually traveled a long 
 ## H2 — Hail on a flat roof is a documentation problem
 On shingles, hail leaves marks anyone can photograph. On TPO or modified bitumen, it leaves **bruises and micro-fractures** that require you to know exactly what you're looking at — and to photograph it in a way an adjuster accepts.
 
-That's why our Complimentary Professional Photo Audit covers the whole assembly: field membrane, seams, curbs, drains, coping, and the collateral hits on HVAC fins and vents that corroborate the storm date.
+That's why our free roof inspection covers the whole assembly: field membrane, seams, curbs, drains, coping, and the collateral hits on HVAC fins and vents that corroborate the storm date.
 
 **You keep the file, hired or not.**
 
@@ -83,13 +83,13 @@ Allen, Fairview, Lucas, Plano, McKinney, Frisco, Wylie — and the wider DFW met
 
 **Will my tenants be disrupted?** We phase the work and schedule around your operation.
 
-**Are you licensed?** RCAT License #03-0637, IKO Certified, in DFW since 2005.
+**Are you licensed?** RCAT License #03-0637, IKO Certified, in DFW since 2021.
 
 ## CTA
-**Book your Complimentary Professional Photo Audit — (972) 928-0788.**
+**Book your free roof inspection — (972) 928-0788.**
 
 ### Internal links
-→ `/commercial-hail-damage-portfolio-frisco-tx/` · `/hail-damage-roof-repair-frisco-tx/` · `/roofing-mckinney-tx/` · `/cppa/`
+→ `/commercial-hail-damage-portfolio-frisco-tx/` · `/hail-damage-roof-repair-frisco-tx/` · `/roofing-mckinney-tx/` · `/free roof inspection/`
 
 ---
 
@@ -99,12 +99,12 @@ Allen, Fairview, Lucas, Plano, McKinney, Frisco, Wylie — and the wider DFW met
 ```
 Editorial aerial photograph of a white TPO commercial flat roof at golden hour, HVAC
 curbs and roof drains visible, faint ponding reflecting a clearing navy storm sky
-(#1A365D). One warm gold (#FBC02D) highlight along the parapet edge. Documentary,
+(#003299). One warm gold (#ffdd17) highlight along the parapet edge. Documentary,
 architectural, serious. No text, no logos, no people, no green. 16:9.
 ```
 
 **3 social graphics**
-1. `Technical cutaway of a TPO roof assembly — membrane, insulation, deck — with a gold callout on a separated seam. Navy background, cyan (#00BFFF) measurement lines. Clean, no clutter, no green. 1:1.`
+1. `Technical cutaway of a TPO roof assembly — membrane, insulation, deck — with a gold callout on a separated seam. Navy background, cyan (#003299) measurement lines. Clean, no clutter, no green. 1:1.`
 2. `Bold editorial poster, navy background, serif display type: "Water doesn't run off a flat roof. It waits." Gold hairline rule. No green. 4:5.`
 3. `Split panel: left "PONDING" with standing water on membrane, right "DOCUMENTED" with a photo-report overlay. Navy/gold, no green. 1:1.`
 
@@ -119,7 +119,7 @@ architectural, serious. No text, no logos, no people, no green. 16:9.
 > **(26–38s):** "We document the whole assembly — field, seams, drains, curbs — and the dents on your HVAC that prove the storm date."
 > **(38–48s):** "Then we phase the work so your tenants never stop operating."
 > **(48–56s):** "TPO. PVC. Modified bitumen. IKO Certified. RCAT License 03-0637."
-> **(56–60s):** "Book your Complimentary Professional Photo Audit. Nine seven two, nine two eight, oh seven eight eight."
+> **(56–60s):** "Book your free roof inspection. Nine seven two, nine two eight, oh seven eight eight."
 
 ## 7 scenes
 | # | Scene | On screen | GSAP |
@@ -133,7 +133,7 @@ architectural, serious. No text, no logos, no people, no green. 16:9.
 | 7 | CTA | Navy→gold full bleed, phone number | bg tween .6s, phone pulse ×2 |
 
 ```css
-:root{ --navy:#1A365D; --gold:#FBC02D; --cyan:#00BFFF; --paper:#F7F5EF; }
+:root{ --navy:#003299; --gold:#ffdd17; --cyan:#003299; --paper:#F7F5EF; }
 /* Libre Caslon Display + DM Sans · ease power3.out · 0.5–0.8s · never bounce · no green */
 ```
 `hyperframes render scene.html --duration 60 --fps 30 --out allen-flat.mp4`
@@ -166,13 +166,13 @@ Water doesn't run off a flat roof — it manages its way off. When that manageme
 
 Hail makes it harder. On a membrane roof, hail doesn't crack the surface — it bruises the reinforcement underneath. A crew trained on shingles will walk across it and see nothing. An adjuster won't approve what nobody documented.
 
-Our Complimentary Professional Photo Audit covers the whole assembly: field membrane, seams, drains, curbs, coping — plus the collateral dents on HVAC fins and vents that help establish the storm date. You keep the report whether or not you hire us.
+Our free roof inspection covers the whole assembly: field membrane, seams, drains, curbs, coping — plus the collateral dents on HVAC fins and vents that help establish the storm date. You keep the report whether or not you hire us.
 
 If it's repairable, we'll tell you. If it needs replacement, we install TPO, PVC, or modified bitumen with IKO Certified workmanship — phased around your operation so tenants keep working, with the site cleaned every evening.
 
-We've been a family-owned company in North Texas since 2005. RCAT License #03-0637.
+We've been a family-owned company in North Texas since 2021. RCAT License #03-0637.
 
-**Book your Complimentary Professional Photo Audit — (972) 928-0788.**
+**Book your free roof inspection — (972) 928-0788.**
 
 — The Pineapple Roofing family
 

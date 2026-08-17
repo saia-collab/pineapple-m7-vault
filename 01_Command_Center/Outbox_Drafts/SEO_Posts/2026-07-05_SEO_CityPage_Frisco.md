@@ -1,19 +1,19 @@
-<!-- DRAFT — DO NOT SEND · PAUSED (Outbox Shield DEC-005) · Author: JR. Moeakiola · Brand: Navy #1A365D + Gold #FBC02D + Cyan #00BFFF, zero green -->
+<!-- DRAFT — DO NOT SEND · PAUSED (Outbox Shield DEC-005) · Author: JR. Moeakiola · Brand: Navy #003299 + Gold #ffdd17 + Cyan #003299, zero green -->
 <!-- Target keyword: roof replacement Frisco TX · AEO city landing page · Brand A (Pineapple Roofing) -->
 
-# Roof Replacement in Frisco, TX — Complimentary Professional Photo Audit (CPPA)
+# Roof Replacement in Frisco, TX — free roof inspection
 
-**Roof replacement in Frisco, TX** starts with documentation, not a proposal. Pineapple Contractors is a Polynesian-owned, IKO Certified roofing team (RCAT License #03-0637) serving Frisco since 2005. We begin every project with a Complimentary Professional Photo Audit — a full photo report of your roof's real condition, with zero cost and zero pressure to you.
+**Roof replacement in Frisco, TX** starts with documentation, not a proposal. Pineapple Contractors is a Polynesian-owned, IKO Certified roofing team (RCAT License #03-0637) serving Frisco since 2021. We begin every project with a free roof inspection — a full photo report of your roof's real condition, with zero cost and zero pressure to you.
 
 ## Why Frisco homeowners choose the Pineapple Standard
-Frisco's 4.0"–4.75" hail swaths and thermal-shock cycles quietly age premium roofs across Starwood, Newman Village, and the estates near The Star. Insurance claims fail most often for one reason: **weak documentation**. Our CPPA produces comprehensive engineering-grade evidence for a successful claim — the difference between a denied file and a fully covered restoration.
+Frisco's 4.0"–4.75" hail swaths and thermal-shock cycles quietly age premium roofs across Starwood, Newman Village, and the estates near The Star. Insurance claims fail most often for one reason: **weak documentation**. Our free roof inspection produces comprehensive engineering-grade evidence for a successful claim — the difference between a denied file and a fully covered restoration.
 
 - **IKO Certified** installation on every premium roof system.
 - **RCAT Licensed #03-0637** — verifiable, accountable workmanship.
-- **Since 2005** — 20+ years protecting North Texas families, 5-star rated.
+- **Since 2021** — 20+ years protecting North Texas families, 5-star rated.
 - **Family-owned & minority-owned** — you deal with the people who stand behind the work.
 
-## What the CPPA covers
+## What the free roof inspection covers
 1. Full drone + close-up photo documentation of every slope, valley, and penetration.
 2. Storm-date and hail-swath correlation for your Frisco ZIP (75033, 75034, 75035).
 3. A plain-English condition report you can hand directly to your carrier.
@@ -22,31 +22,31 @@ Frisco's 4.0"–4.75" hail swaths and thermal-shock cycles quietly age premium r
 ## Serving all of Frisco
 We cover 75033, 75034, and 75035 and the surrounding luxury enclaves, with rapid scheduling for storm-impacted neighborhoods. Property managers of multi-unit portfolios: ask about our documentation package built for successful, fully-covered claims.
 
-## Book your Complimentary Professional Photo Audit
-**📋 Ready for your CPPA?** Pineapple Contractors documents your roof with a full photo report — no pressure, no cost to you.
-**IKO Certified · RCAT #03-0637 · North Texas since 2005 · 972-928-0788**
-**[→ Book your CPPA here](https://pineapplecontractors.com)**
+## Book your free roof inspection
+**📋 Ready for your free roof inspection?** Pineapple Contractors documents your roof with a full photo report — no pressure, no cost to you.
+**IKO Certified · RCAT #03-0637 · North Texas since 2021 · 972-928-0788**
+**[→ Book your free roof inspection here](https://pineapplecontractors.com)**
 
 ## Frequently Asked Questions
 
 ### How much does a roof replacement in Frisco, TX cost?
-Premium roof replacement in Frisco varies by size, pitch, and material, and is frequently covered by a properly documented insurance claim. Your CPPA establishes the real scope first, so pricing reflects your actual roof — not a guess.
+Premium roof replacement in Frisco varies by size, pitch, and material, and is frequently covered by a properly documented insurance claim. Your Free Roof Inspection establishes the real scope first, so pricing reflects your actual roof — not a guess.
 
-### Is the Complimentary Professional Photo Audit really no cost?
-Yes. The CPPA is a documentation service, not a sales visit. You receive a full photo report of your roof with no cost and no obligation.
+### Is the free roof inspection really no cost?
+Yes. The free roof inspection is a documentation service, not a sales visit. You receive a full photo report of your roof with no cost and no obligation.
 
 ### Do you work with insurance claims?
 We provide comprehensive documentation for a successful claim. We are not public adjusters, but our engineering-grade photo evidence gives your carrier everything needed to evaluate covered storm damage.
 
 ### Are you licensed and certified?
-Pineapple Contractors is IKO Certified and holds RCAT License #03-0637, serving Frisco since 2005 with a 5-star rating.
+Pineapple Contractors is IKO Certified and holds RCAT License #03-0637, serving Frisco since 2021 with a 5-star rating.
 
 ### How fast can you inspect after a storm?
-We prioritize storm-impacted Frisco ZIPs (75033/75034/75035) for rapid CPPA scheduling — call 972-928-0788.
+We prioritize storm-impacted Frisco ZIPs (75033/75034/75035) for rapid free roof inspection scheduling — call 972-928-0788.
 
 ---
 
-For a documented, fully-covered **roof replacement in Frisco, TX**, book your Complimentary Professional Photo Audit today.
+For a documented, fully-covered **roof replacement in Frisco, TX**, book your free roof inspection today.
 
 <!-- JSON-LD -->
 ```json
@@ -66,10 +66,10 @@ For a documented, fully-covered **roof replacement in Frisco, TX**, book your Co
     {
       "@type": "FAQPage",
       "mainEntity": [
-        {"@type": "Question", "name": "How much does a roof replacement in Frisco, TX cost?", "acceptedAnswer": {"@type": "Answer", "text": "Premium roof replacement in Frisco varies by size, pitch, and material and is frequently covered by a properly documented insurance claim. Your CPPA establishes the real scope first."}},
-        {"@type": "Question", "name": "Is the Complimentary Professional Photo Audit really no cost?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. The CPPA is a documentation service with no cost and no obligation — a full photo report of your roof."}},
+        {"@type": "Question", "name": "How much does a roof replacement in Frisco, TX cost?", "acceptedAnswer": {"@type": "Answer", "text": "Premium roof replacement in Frisco varies by size, pitch, and material and is frequently covered by a properly documented insurance claim. Your Free Roof Inspection establishes the real scope first."}},
+        {"@type": "Question", "name": "Is the free roof inspection really no cost?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. The free roof inspection is a documentation service with no cost and no obligation — a full photo report of your roof."}},
         {"@type": "Question", "name": "Do you work with insurance claims?", "acceptedAnswer": {"@type": "Answer", "text": "We provide comprehensive documentation for a successful claim, giving your carrier engineering-grade photo evidence of covered storm damage."}},
-        {"@type": "Question", "name": "Are you licensed and certified?", "acceptedAnswer": {"@type": "Answer", "text": "Pineapple Contractors is IKO Certified and holds RCAT License #03-0637, serving Frisco since 2005."}}
+        {"@type": "Question", "name": "Are you licensed and certified?", "acceptedAnswer": {"@type": "Answer", "text": "Pineapple Contractors is IKO Certified and holds RCAT License #03-0637, serving Frisco since 2021."}}
       ]
     }
   ]

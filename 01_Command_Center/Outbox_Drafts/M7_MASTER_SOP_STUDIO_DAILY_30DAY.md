@@ -4,7 +4,7 @@ type: master_sop
 status: PAUSED — review, then move to 01_Command_Center/ when approved
 for: Saia · Naa Sione · VA · Hermes (/learn this) · Claude Code
 build: Agent OS 2026-08-06 (Pineapple brand paint) · Hermes v0.20.0
-brand_law: CPPA (never "free") · IKO Certified (never GAF) · Full Restoration Coverage (never "$0 down") · The Pineapple Standard · RCAT #03-0637 · Navy #1A365D + Gold #FBC02D + Cyan #00BFFF · ZERO GREEN · Outbox Shield
+brand_law: free roof inspection (never "free") · IKO Certified (never GAF) · Full Restoration Coverage (never "full restoration coverage") · The Pineapple Standard · RCAT #03-0637 · Navy #003299 + Gold #ffdd17 + Cyan #003299 · ZERO GREEN · Outbox Shield
 last_updated: 2026-08-06
 ---
 
@@ -24,7 +24,7 @@ Open the tab, paste the prompt, fill the [BRACKETS]. Every output stays PAUSED.
 | Tab | Use it for | Paste this |
 |---|---|---|
 | **Hermes → Chat** | Daily driver. Runs SOPs, drafts, files. Switch persona in the profile bar. | *"Load the `seo` profile. Read HERMES_PLAYBOOK.md. Draft [task]. Brand law + PAUSED to Outbox."* |
-| **Claude** tab | Final brand/voice QC before anything is staged. | *"Brand-check this draft against CPPA/IKO/no-green/RCAT #03-0637. Flag every violation, rewrite clean."* |
+| **Claude** tab | Final brand/voice QC before anything is staged. | *"Brand-check this draft against free roof inspection/IKO/no-green/RCAT #03-0637. Flag every violation, rewrite clean."* |
 | **AI Agent Mastermind** | Cross-critique a plan with several models before building. | *"Debate this campaign plan as Research/Writer/Editor/Judge until airtight. Pineapple voice."* |
 
 ### 🏗️ BUILD & CODE (pick the cheapest that fits)
@@ -88,7 +88,7 @@ Paste into **Hermes → Goal Mode**. Each ends PAUSED in Outbox.
 ```
 Load the seo profile. Read HERMES_PLAYBOOK.md + M7_SEO_DAILY_SOP.md.
 1. Pull today's top 3 striking-distance keywords (pos 5-20) for Frisco/DFW roofing.
-2. Draft ONE optimized page improvement for the #1 keyword (CPPA, IKO, RCAT #03-0637, zero green, AEO first-40-words).
+2. Draft ONE optimized page improvement for the #1 keyword (free roof inspection, IKO, RCAT #03-0637, zero green, AEO first-40-words).
 3. Draft 1 GBP post + 1 review-reply for any 4-5 star review.
 Save all PAUSED to Outbox_Drafts/SEO. Give me a 3-bullet recap. Publish nothing.
 ```

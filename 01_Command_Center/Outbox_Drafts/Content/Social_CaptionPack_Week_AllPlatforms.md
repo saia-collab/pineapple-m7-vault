@@ -2,7 +2,7 @@
 type: content_batch
 title: Social Caption Pack — All Platforms (Corey Haines format, brand-voice)
 status: PAUSED — Outbox Shield. Needs Saia's GO before any post.
-brand_check: CPPA (no "free") · IKO Certified (no GAF) · The Pineapple Standard · RCAT #03-0637 · 972-928-0788 · zero green
+brand_check: free roof inspection (no "free") · IKO Certified (no GAF) · The Pineapple Standard · RCAT #03-0637 · 972-928-0788 · zero green
 author: Claude (VP Marketing seat) — voice-critical copy
 last_updated: 2026-07-17
 media_source: 39GB Google Drive — pair each post with the noted clip/photo before scheduling
@@ -10,8 +10,8 @@ media_source: 39GB Google Drive — pair each post with the noted clip/photo bef
 
 # 📱 Weekly Social Pack — Ready for Blotato
 
-**Corey Haines structure on every post:** `HOOK (scroll-stopper) → VALUE (proof/story) → ONE CTA (CPPA + phone)`.
-**One CTA per post. Never two.** CTA rotates: *Book the CPPA* · *Call the office* · *DM "ROOF"*.
+**Corey Haines structure on every post:** `HOOK (scroll-stopper) → VALUE (proof/story) → ONE CTA (free roof inspection + phone)`.
+**One CTA per post. Never two.** CTA rotates: *Book the free roof inspection* · *Call the office* · *DM "ROOF"*.
 
 ---
 
@@ -21,13 +21,13 @@ media_source: 39GB Google Drive — pair each post with the noted clip/photo bef
 >
 > Most hail damage is invisible from the ground — and by the time you see a stain on the ceiling, it's already spread. We document every hit with photos your insurance can actually use.
 >
-> 📸 Book your Complimentary Professional Photo Audit — (972) 928-0788.
-> IKO Certified · RCAT #03-0637 · Since 2005
+> 📸 Book your free roof inspection — (972) 928-0788.
+> IKO Certified · RCAT #03-0637 · Since 2021
 > #FriscoRoofing #HailDamage #DFWRoofing #RoofInspection #ThePineappleStandard
 
 **TikTok / Reels caption:** POV: your roof looks fine from the driveway 👀 …here's what the camera finds up top. Book a Complimentary Photo Audit → link in bio. 📞 972-928-0788 #haildamage #roofingtiktok #dfw #frisco
 
-**LinkedIn:** After a North Texas hail event, most homeowners wait for a visible leak. By then the claim is harder. Our Complimentary Professional Photo Audit documents damage while it's still fresh — insurance-ready. IKO Certified · RCAT #03-0637.
+**LinkedIn:** After a North Texas hail event, most homeowners wait for a visible leak. By then the claim is harder. Our free roof inspection documents damage while it's still fresh — insurance-ready. IKO Certified · RCAT #03-0637.
 
 **X/Twitter:** Hail damage is usually invisible from the ground. Ours isn't — we photograph every hit. Complimentary Photo Audit → 972-928-0788. #DFW #Frisco
 
@@ -61,7 +61,7 @@ media_source: 39GB Google Drive — pair each post with the noted clip/photo bef
 > 3️⃣ Documented inspections — photos, not promises.
 >
 > Comparing roofers? Hold every bid to that standard.
-> 📞 (972) 928-0788 · Complimentary Professional Photo Audit.
+> 📞 (972) 928-0788 · free roof inspection.
 > #RoofingTips #DFWRoofing #FriscoTX #HomeownerTips
 
 **TikTok / Reels:** 3 things to check before you sign with ANY roofer 👇 (most people skip #3) #roofingtips #homeowner #dfw #frisco
@@ -78,19 +78,19 @@ media_source: 39GB Google Drive — pair each post with the noted clip/photo bef
 >
 > IKO Certified install, site cleaned daily, every step documented. If your street took the same storm we did, your roof deserves the same look.
 >
-> 📸 Book your Complimentary Professional Photo Audit — (972) 928-0788.
+> 📸 Book your free roof inspection — (972) 928-0788.
 > #{CITY}TX #Roofing #DFW #ThePineappleStandard
 
 **TikTok / Reels:** Another [CITY] roof, done the Pineapple way 🍍 daily cleanup, documented, IKO Certified. Your street next? #dfw #{city} #roofing
 
-**LinkedIn:** Completed another IKO Certified replacement in [CITY], TX. Same storm hit your block? A Complimentary Professional Photo Audit tells you where you stand. RCAT #03-0637.
+**LinkedIn:** Completed another IKO Certified replacement in [CITY], TX. Same storm hit your block? A free roof inspection tells you where you stand. RCAT #03-0637.
 
 ### ✅ Filled & ready — pick your city (no brackets left)
-**FRISCO (IG/FB):** Just wrapped a roof in Starwood, Frisco. 🔨 IKO Certified install, site cleaned daily, every step documented. If your street took the same storm we did, your roof deserves the same look. 📸 Book your Complimentary Professional Photo Audit — (972) 928-0788. #FriscoTX #Roofing #DFW #ThePineappleStandard
+**FRISCO (IG/FB):** Just wrapped a roof in Starwood, Frisco. 🔨 IKO Certified install, site cleaned daily, every step documented. If your street took the same storm we did, your roof deserves the same look. 📸 Book your free roof inspection — (972) 928-0788. #FriscoTX #Roofing #DFW #ThePineappleStandard
 
-**LEWISVILLE (IG/FB):** Just wrapped a roof near Castle Hills, Lewisville. 🔨 IKO Certified install, site cleaned daily, every step documented. Same storm hit Highway 121? Your roof deserves the same look — and our office is right here. 📸 Complimentary Professional Photo Audit — (972) 928-0788. #LewisvilleTX #Roofing #DFW #ThePineappleStandard
+**LEWISVILLE (IG/FB):** Just wrapped a roof near Castle Hills, Lewisville. 🔨 IKO Certified install, site cleaned daily, every step documented. Same storm hit Highway 121? Your roof deserves the same look — and our office is right here. 📸 free roof inspection — (972) 928-0788. #LewisvilleTX #Roofing #DFW #ThePineappleStandard
 
-**PLANO (IG/FB):** Just wrapped a roof in West Plano. 🔨 IKO Certified install, site cleaned daily, every step documented. If your street took the same storm we did, your roof deserves the same look. 📸 Book your Complimentary Professional Photo Audit — (972) 928-0788. #PlanoTX #Roofing #DFW #ThePineappleStandard
+**PLANO (IG/FB):** Just wrapped a roof in West Plano. 🔨 IKO Certified install, site cleaned daily, every step documented. If your street took the same storm we did, your roof deserves the same look. 📸 Book your free roof inspection — (972) 928-0788. #PlanoTX #Roofing #DFW #ThePineappleStandard
 
 ---
 
@@ -116,6 +116,6 @@ media_source: 39GB Google Drive — pair each post with the noted clip/photo bef
 
 ## 🚫 Firewall (auto-check before every post)
 Banned: free · cheap · bargain · warrior · toa · six brothers · GAF · green
-Required somewhere in caption: CPPA phrasing · (972) 928-0788 · IKO Certified OR RCAT #03-0637
+Required somewhere in caption: free roof inspection phrasing · (972) 928-0788 · IKO Certified OR RCAT #03-0637
 
 <!-- M7-FIREWALL-EXEMPT: content-draft -->

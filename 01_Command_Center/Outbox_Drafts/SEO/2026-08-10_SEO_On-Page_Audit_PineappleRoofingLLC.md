@@ -9,7 +9,7 @@ publication_state: NOT LIVE — HUMAN REVIEW REQUIRED
 
 # Pineapple Roofing On-Page SEO Audit
 
-Trust baseline: RCAT License #03-0637 · IKO Certified · 5-Star · Since 2005 · 972-928-0788
+Trust baseline: RCAT License #03-0637 · IKO Certified · 5-Star · Since 2021 · 972-928-0788
 
 ## Executive verdict
 
@@ -30,10 +30,10 @@ No live edits were made. Keyword recommendations below are crawl-gap hypotheses,
    - Use the most specific supported business type, such as RoofingContractor, connected to Organization/WebSite/WebPage via stable @id values.
    - Do not add aggregateRating unless the displayed review count and rating are current and source-verifiable.
 
-2. Replace every legacy quote CTA with “Complimentary Professional Photo Audit (CPPA).”
+2. Replace every legacy quote CTA with “free roof inspection.”
    - Verified: prohibited legacy CTA language appears through the shared header, modal/form, body buttons, and footer across the crawl; the homepage contains the highest concentration.
    - Also replace the banned discovery-stage label used in the homepage process heading and the construction-page CTA.
-   - Standard CTA: “Book Your Complimentary Professional Photo Audit (CPPA)” with 972-928-0788 and “IKO Certified · RCAT License #03-0637.”
+   - Standard CTA: “Book Your free roof inspection” with 972-928-0788 and “IKO Certified · RCAT License #03-0637.”
 
 3. Separate Roofing from Restorations.
    - Verified: the Roofing navigation and sitemap include a restoration-services page covering water, fire, and mold.
@@ -41,7 +41,7 @@ No live edits were made. Keyword recommendations below are crawl-gap hypotheses,
 
 4. Remove prohibited color tokens from the source/theme.
    - A rendered homepage scan found no active prohibited-color styling, but source review found two non-approved WordPress preset color tokens.
-   - Remove or override those global presets so the approved palette is the only available system: Navy #1A365D, Gold #FBC02D, Cyan #00BFFF for status, and White.
+   - Remove or override those global presets so the approved palette is the only available system: Navy #003299, Gold #ffdd17, Cyan #003299 for status, and White.
 
 5. Fix indexation hygiene.
    - Set /thank-you/ to noindex, follow and remove it from the XML sitemap. Do not block it in robots.txt before crawlers process the noindex directive.
@@ -87,7 +87,7 @@ No live edits were made. Keyword recommendations below are crawl-gap hypotheses,
 | Claims | Roof Insurance Claim Help in DFW \| Pineapple Roofing |
 | Financing | Roof Financing in DFW \| Pineapple Roofing |
 
-Do not retitle established Dallas pages until Search Console confirms query/page alignment. Write unique meta descriptions with the service, location, CPPA, phone, and one verified trust signal; avoid generic “Call now” duplication.
+Do not retitle established Dallas pages until Search Console confirms query/page alignment. Write unique meta descriptions with the service, location, free roof inspection, phone, and one verified trust signal; avoid generic “Call now” duplication.
 
 11. Add missing keyword themes naturally.
 
@@ -101,17 +101,17 @@ Primary local themes:
 Trust/entity themes:
 - IKO Certified
 - RCAT License #03-0637
-- serving North Texas since 2005
+- serving North Texas since 2021
 - Polynesian-owned and family-operated
 - 5-Star, only with a current verifiable source
-- Complimentary Professional Photo Audit (CPPA)
+- free roof inspection
 
 Geo themes:
 - Frisco 75033, 75034, 75035
 - Lewisville 75067; Little Elm 75068
 - Starwood and Newman Village, only with unique local evidence
 
-Verified gap: commercial roofing, luxury/estate positioning, Polynesian heritage, CPPA, IKO, RCAT, and Since 2005 are missing or nearly absent from core homepage/service content. Do not keyword-stuff; answer the query in the first 40 words and support each page with local proof, project photos, FAQs, and internal links.
+Verified gap: commercial roofing, luxury/estate positioning, Polynesian heritage, free roof inspection, IKO, RCAT, and Since 2021 are missing or nearly absent from core homepage/service content. Do not keyword-stuff; answer the query in the first 40 words and support each page with local proof, project photos, FAQs, and internal links.
 
 12. Strengthen E-E-A-T and media signals.
    - Add author/reviewer byline: JR. Moeakiola, with a verified profile page.
@@ -121,13 +121,13 @@ Verified gap: commercial roofing, luxury/estate positioning, Polynesian heritage
 
 ## Page-level findings snapshot
 
-- Homepage: title 63 characters; one H1; FAQ schema present; Dallas-heavy; core Frisco/CPPA/IKO/RCAT/Since 2005 themes absent; shared brand-law CTA violations; two images missing alt text.
+- Homepage: title 63 characters; one H1; FAQ schema present; Dallas-heavy; core Frisco/free roof inspection/IKO/RCAT/Since 2021 themes absent; shared brand-law CTA violations; two images missing alt text.
 - Services hub: no H1; only 391 words; no Frisco or core credential themes.
-- Roof replacement: title 63 characters; FAQ schema present; two images missing alt text; no CPPA/IKO/RCAT/Since 2005.
+- Roof replacement: title 63 characters; FAQ schema present; two images missing alt text; no free roof inspection/IKO/RCAT/Since 2021.
 - Siding: title 61 characters; three images missing alt text; no credential themes.
 - Roof repair, gutters, storm: valid H1s and FAQ schema, but only two unique internal links each and three missing image alts each.
 - Service areas: only 132 words; generic title; no city/ZIP landing-page depth or Service schema.
-- Claims and financing: no H1; generic titles. They are the only audited pages with meaningful CPPA usage.
+- Claims and financing: no H1; generic titles. They are the only audited pages with meaningful free roof inspection usage.
 - Blog: empty indexable archive, no meta description, generic H1, absent from page sitemap.
 - Thank-you: indexable and included in sitemap; no H1 or meta description.
 
@@ -137,10 +137,10 @@ Verified gap: commercial roofing, luxury/estate positioning, Polynesian heritage
 - Exactly one topical H1 on every indexable page; license badge is not a heading.
 - Utility confirmation page noindexed and removed from sitemap.
 - Empty blog noindexed or rebuilt as a useful Roofing resource hub.
-- All shared CTAs use CPPA language; banned terms return zero matches.
+- All shared CTAs use free roof inspection language; banned terms return zero matches.
 - Roofing and Restorations have separate pages, internal links, schemas, and domains.
 - No prohibited-color tokens remain in source, theme settings, generated CSS, or rendered components.
-- Core Roofing layouts include RCAT License #03-0637, IKO Certified, 5-Star, Since 2005, and 972-928-0788 where factually verified.
+- Core Roofing layouts include RCAT License #03-0637, IKO Certified, 5-Star, Since 2021, and 972-928-0788 where factually verified.
 - Search Console query/page data reviewed before mass title, URL, or city-target changes.
 - Structured data validates and matches visible page content.
 

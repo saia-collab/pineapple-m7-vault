@@ -12,9 +12,9 @@ status: "DRAFT — PAUSED — awaiting Saia GO (DEC-005 Outbox Shield)"
 
 > ⏸ DRAFT — PAUSED. Do not publish. Awaiting Saia's explicit GO. (Outbox Shield / DEC-005)
 
-> 🍍 Brand envelope: Royal Navy `#1A365D` · Pineapple Gold `#FBC02D` · Status Cyan `#00BFFF` · White. **Zero green.** Author: **JR. Moeakiola**. RCAT #03-0637 · HUB #1861616404400 · Since 2005 · 972-928-0788.
+> 🍍 Brand envelope: Pineapple Blue `#003299` · Pineapple Yellow `#ffdd17` · Status Cyan `#003299` · White. **Zero green.** Author: **JR. Moeakiola**. RCAT #03-0637 · HUB #1861616404400 · Since 2021 · 972-928-0788.
 
-![Pineapple Restorations — Mold Remediation in Frisco TX — IICRC S520 Containment since 2005](https://pineapplerestorations.com/og/mold-remediation-frisco-tx.png)
+![Pineapple Restorations — Mold Remediation in Frisco TX — IICRC S520 Containment since 2021](https://pineapplerestorations.com/og/mold-remediation-frisco-tx.png)
 
 # Mold Remediation in Frisco TX — IICRC S520 Containment, The Pineapple Standard
 
@@ -24,7 +24,7 @@ A small water leak under a master bath sink ran for six months. A Frisco ISD tea
 
 Each of those calls ends up at **972-928-0788**. Each one is a mold remediation project, not just a water-damage project. And the difference between "we sprayed something" and "we contained, removed, treated, and verified per IICRC S520" is the difference between a re-occurrence in six months and a project you can close.
 
-I am **JR. Moeakiola** with **Pineapple Restorations** — the restoration arm of **Pineapple Contractors**, a Polynesian-owned, family-run company serving Frisco and North Texas since 2005. **RCAT License #03-0637 · HUB #1861616404400 · IICRC Certified Firm · 5-Star Rated.** This post is the playbook we hand every Frisco homeowner, property manager, and commercial owner-operator who calls **972-928-0788** when the test comes back positive. It is what we wish every Frisco family knew before they hired the first contractor who quoted them over the phone.
+I am **JR. Moeakiola** with **Pineapple Restorations** — the restoration arm of **Pineapple Contractors**, a Polynesian-owned, family-run company serving Frisco and North Texas since 2021. **RCAT License #03-0637 · HUB #1861616404400 · IICRC Certified Firm · 5-Star Rated.** This post is the playbook we hand every Frisco homeowner, property manager, and commercial owner-operator who calls **972-928-0788** when the test comes back positive. It is what we wish every Frisco family knew before they hired the first contractor who quoted them over the phone.
 
 <div style="text-align:center; margin: 24px 0;">
   <iframe width="848" height="485" src="https://www.youtube.com/embed/MSJaGroxnB4" title="Pineapple Contractors — Client Testimonial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -133,7 +133,7 @@ Pineapple Restorations is built around containment. The affected area is sealed 
 
 > **🍍 Spotted mold or got a positive test in your Frisco property?**
 > Call **972-928-0788**. Pineapple Restorations dispatches a 60-minute on-site assessment, contains the area to IICRC S520, and protects your family's investment from the first hour through the rebuild.
-> **[→ Book your CPPA — 972-928-0788](tel:+19729280788)**
+> **[→ Book your free roof inspection — 972-928-0788](tel:+19729280788)**
 
 ## The 7 stages of Pineapple Restorations mold remediation
 
@@ -166,8 +166,8 @@ The Pineapple crew does not declare the project complete. An independent IAQ con
 When the clearance certificate lands, Pineapple Restorations prepares a **Full Restoration Coverage Evaluation** — a value-engineered line-item scope that matches the carrier's scope, adds any code-required upgrades, and protects your family's investment through the rebuild phase. The Pineapple team handles the rebuild, the paint, the drywall, the flooring, and the contents pack-out and pack-back. One phone call, one project manager, one standard.
 
 > **🍍 Frisco property manager with a tenant complaint?**
-> Pineapple Restorations runs a priority response for multi-unit and hospitality portfolios. Same 60-minute dispatch, plus a written executive summary and a Complimentary Professional Photo Audit (CPPA) that supports a successful claim and the tenant's right to a safe unit.
-> **[→ Book your CPPA — 972-928-0788](tel:+19729280788)**
+> Pineapple Restorations runs a priority response for multi-unit and hospitality portfolios. Same 60-minute dispatch, plus a written executive summary and a free roof inspection that supports a successful claim and the tenant's right to a safe unit.
+> **[→ Book your free roof inspection — 972-928-0788](tel:+19729280788)**
 
 ## What the IICRC S520 standard means on your Frisco loss
 
@@ -244,13 +244,13 @@ For covered losses, out-of-pocket is typically your policy deductible. Pineapple
 
 > **🍍 Spotted mold or got a positive test?**
 > Call **972-928-0788** — 60-minute on-site assessment, IICRC S520 containment, post-remediation verification. Pineapple Restorations protects your family's investment from the first hour through the rebuild.
-> **[→ Book your CPPA — 972-928-0788](tel:+19729280788)**
+> **[→ Book your free roof inspection — 972-928-0788](tel:+19729280788)**
 
 ---
 
 ## About the Author
 
-I am **JR. Moeakiola** with **Pineapple Restorations** — a Polynesian-owned, family-run restoration company serving Frisco and North Texas since 2005. Pineapple Restorations is the sister brand of Pineapple Roofing, sharing the same RCAT license, the same HUB certification, and the same family standard.
+I am **JR. Moeakiola** with **Pineapple Restorations** — a Polynesian-owned, family-run restoration company serving Frisco and North Texas since 2021. Pineapple Restorations is the sister brand of Pineapple Roofing, sharing the same RCAT license, the same HUB certification, and the same family standard.
 
 - RCAT Licensed **#03-0637** · HUB Certified **#1861616404400**
 - IICRC Certified Firm · 5-Star Rated
@@ -263,4 +263,4 @@ I am **JR. Moeakiola** with **Pineapple Restorations** — a Polynesian-owned, f
 
 When **mold remediation in Frisco TX** is the next call you need to make, call **972-928-0788** now — IICRC S520 containment, independent post-remediation verification, and a Full Restoration Coverage Evaluation that protects your family's investment from the first hour through the rebuild.
 
-<!-- DRAFT — DO NOT SEND · PAUSED (Outbox Shield DEC-005) · Author: JR. Moeakiola · Brand: Navy #1A365D + Gold #FBC02D + Cyan #00BFFF, zero green -->
+<!-- DRAFT — DO NOT SEND · PAUSED (Outbox Shield DEC-005) · Author: JR. Moeakiola · Brand: Navy #003299 + Gold #ffdd17 + Cyan #003299, zero green -->

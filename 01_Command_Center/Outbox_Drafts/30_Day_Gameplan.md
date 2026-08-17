@@ -29,12 +29,12 @@ activation_required: YES — this is a plan; ad spend and live posting stay manu
 
 ## RULES I WILL NEVER BREAK
 
-- "Free" / "Free Inspection" / "Free Quote" → **CPPA** (Complimentary Professional Photo Audit).
-- "$0 Down" → **Full Restoration Coverage**.
+- "Free" / "Free Inspection" / "Free Quote" → **free roof inspection** (free roof inspection).
+- "Full Restoration Coverage" → **Full Restoration Coverage**.
 - "Save Money" → **Protecting your family's investment**.
-- "GAF Certified" → **IKO Certified (RCAT License #03-0637)**.
+- "IKO Certified" → **IKO Certified (RCAT License #03-0637)**.
 - Banned outright: Warrior, Toa, Six Brothers, Consultation.
-- Colors only: Royal Navy `#1A365D` + Pineapple Gold `#FBC02D` + Cyan `#00BFFF` + White. **Green is banned.**
+- Colors only: Pineapple Blue `#003299` + Pineapple Yellow `#ffdd17` + Cyan `#003299` + White. **Green is banned.**
 - **Ad spend stays manual.** I will never push a budget live, flip a campaign from PAUSED, or publish to Meta/Google without your explicit "go."
 - Minimum job baseline: **$18,000+**. Walk away from anything smaller.
 
@@ -44,11 +44,11 @@ activation_required: YES — this is a plan; ad spend and live posting stay manu
 **Focus:** Lock the plumbing so every later week has water.
 
 - **Day 1 — Monday.** Pin the instant text-back on your phone. Open Google Business Profile → grab your short review link → paste it into the three PAUSED drafts in `Outbox_Drafts/`.
-- **Day 2 — Tuesday.** Make the Attribution Google Sheet (Date, Name, Source, Job $, CPPA booked?, Job signed?, Review asked?, Review left?). Add "How did you hear about us?" to every intake form.
+- **Day 2 — Tuesday.** Make the Attribution Google Sheet (Date, Name, Source, Job $, free roof inspection booked?, Job signed?, Review asked?, Review left?). Add "How did you hear about us?" to every intake form.
 - **Day 3 — Wednesday.** Sweep your site, GBP, BBB, Yelp, Facebook for NAP. Phone must read **972-928-0788** everywhere.
-- **Day 4 — Thursday.** Replace every "Free Inspection" / "Free Quote" on your site and GBP with **CPPA**. (Ask me to draft the rewrites — they're already PAUSED in `Outbox_Drafts/`.)
+- **Day 4 — Thursday.** Replace every "Free Inspection" / "Free Quote" on your site and GBP with **free roof inspection**. (Ask me to draft the rewrites — they're already PAUSED in `Outbox_Drafts/`.)
 - **Day 5 — Friday.** Text the review link to **every finished customer this week.** Log which ones left reviews in the Attribution sheet.
-- **Day 6 — Saturday.** Quiet day. Review the Attribution sheet. Which source produced the most booked CPPAs this week? Don't act — just notice.
+- **Day 6 — Saturday.** Quiet day. Review the Attribution sheet. Which source produced the most booked free roof inspections this week? Don't act — just notice.
 - **Day 7 — Sunday.** Rest. Reviews, replies, and any missed 5-minute replies only.
 
 ---
@@ -59,10 +59,10 @@ activation_required: YES — this is a plan; ad spend and live posting stay manu
 - **Day 8 — Monday.** Approve the Local Fan ad set draft in `Outbox_Drafts/2026-06-18_Campaign_Storm_Launch.md`. **You** are the one who flips PAUSED → live in Meta Ads Manager. I won't.
 - **Day 9 — Tuesday.** Set the budget: **$250/week CBO**. Hardcode Advantage+ creative enhancements **OFF** in the ad set settings.
 - **Day 10 — Wednesday.** Post your first GBP post of the week (photo + 2 lines of heritage copy). Use the asset library in `02_Media_Vault`.
-- **Day 11 — Thursday.** Seed 3 Q&A entries on your GBP: "Do you do free inspections?" → "We do a Complimentary Professional Photo Audit…" (and 2 more like it).
+- **Day 11 — Thursday.** Seed 3 Q&A entries on your GBP: "Do you do free inspections?" → "We do a free roof inspection…" (and 2 more like it).
 - **Day 12 — Friday.** Text review requests again. Tag the link with `?utm_source=meta&utm_campaign=storm&utm_content=local_fan` for any lead that came from Meta.
 - **Day 13 — Saturday.** Reply to every new Google review (good or bad). One paragraph each.
-- **Day 14 — Sunday.** Log week 2 numbers in Attribution: leads, booked CPPAs, signed jobs, cost per signed job, by source.
+- **Day 14 — Sunday.** Log week 2 numbers in Attribution: leads, booked free roof inspections, signed jobs, cost per signed job, by source.
 
 ---
 
@@ -70,7 +70,7 @@ activation_required: YES — this is a plan; ad spend and live posting stay manu
 **Focus:** Get cited by AI search. NotebookLM research → answer in your voice → publish as FAQ.
 
 - **Day 15 — Monday.** In NotebookLM, load: your 5 best competitor pages + Google "People Also Ask" for "Frisco roofer hail claim" + your best 10 reviews. Ask: *"List the 15 questions Frisco homeowners ask about hail roof claims, and the gaps competitors don't answer well. Cite sources."*
-- **Day 16 — Tuesday.** Pick 3 of those 15 questions. Hand them to your "Pineapple Roofing Writer" Gem with PACT framing: Problem → Anchor (*Tauhi Vā*) → CPPA → Trust CTA.
+- **Day 16 — Tuesday.** Pick 3 of those 15 questions. Hand them to your "Pineapple Roofing Writer" Gem with PACT framing: Problem → Anchor (*Tauhi Vā*) → free roof inspection → Trust CTA.
 - **Day 17 — Wednesday.** Publish the 3 answers as FAQ entries on your Frisco service-area page. Add FAQ schema. Answer the question in the **first 40 words.** Inject "RCAT Licensed #03-0637" and "IKO Certified" naturally.
 - **Day 18 — Thursday.** Embed 2–3 real Google reviews into that Frisco page (fresh, keyword-rich).
 - **Day 19 — Friday.** Repeat the review-request reflex. Check the Attribution sheet — is Meta CPL under $50?

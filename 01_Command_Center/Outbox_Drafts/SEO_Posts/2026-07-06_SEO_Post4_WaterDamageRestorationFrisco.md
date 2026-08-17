@@ -12,9 +12,9 @@ status: "DRAFT — PAUSED — awaiting Saia GO (DEC-005 Outbox Shield)"
 
 > ⏸ DRAFT — PAUSED. Do not publish. Awaiting Saia's explicit GO. (Outbox Shield / DEC-005)
 
-> 🍍 Brand envelope: Royal Navy `#1A365D` · Pineapple Gold `#FBC02D` · Status Cyan `#00BFFF` · White. **Zero green.** Author: **JR. Moeakiola**. RCAT #03-0637 · HUB #1861616404400 · Since 2005 · 972-928-0788.
+> 🍍 Brand envelope: Pineapple Blue `#003299` · Pineapple Yellow `#ffdd17` · Status Cyan `#003299` · White. **Zero green.** Author: **JR. Moeakiola**. RCAT #03-0637 · HUB #1861616404400 · Since 2021 · 972-928-0788.
 
-![Pineapple Restorations — Water Damage Restoration in Frisco TX — Emergency Rapid-Response since 2005](https://pineapplerestorations.com/og/water-damage-restoration-frisco-tx.png)
+![Pineapple Restorations — Water Damage Restoration in Frisco TX — Emergency Rapid-Response since 2021](https://pineapplerestorations.com/og/water-damage-restoration-frisco-tx.png)
 
 # Water Damage Restoration in Frisco TX — Emergency Rapid-Response
 
@@ -24,7 +24,7 @@ The supply line under the master bath failed at 2:14 a.m. The upstairs neighbor'
 
 Secondary damage is the real cost. It is the warped hardwood that buckles after the carpet dries. It is the black mold that blooms inside the wall cavity at hour 96. It is the subfloor that has to come out at month two because the mitigation company was three days late. A Frisco water damage restoration call that gets answered in the first 60 minutes is a different project than a call answered on day four.
 
-I am **JR. Moeakiola** with **Pineapple Restorations** — the restoration arm of **Pineapple Contractors**, a Polynesian-owned, family-run company serving Frisco and North Texas since 2005. **RCAT License #03-0637 · HUB #1861616404400 · IKO Certified · 5-Star Rated.** This post is the playbook we hand every Frisco homeowner, property manager, and hotel operator who calls **972-928-0788** when water is on the floor. It is what we wish every Frisco family had on the refrigerator before the supply line failed.
+I am **JR. Moeakiola** with **Pineapple Restorations** — the restoration arm of **Pineapple Contractors**, a Polynesian-owned, family-run company serving Frisco and North Texas since 2021. **RCAT License #03-0637 · HUB #1861616404400 · IKO Certified · 5-Star Rated.** This post is the playbook we hand every Frisco homeowner, property manager, and hotel operator who calls **972-928-0788** when water is on the floor. It is what we wish every Frisco family had on the refrigerator before the supply line failed.
 
 <div style="text-align:center; margin: 24px 0;">
   <iframe width="848" height="485" src="https://www.youtube.com/embed/MSJaGroxnB4" title="Pineapple Contractors — Client Testimonial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -166,8 +166,8 @@ Commercial dehumidifiers and high-CFM air movers run 24/7 under a psychrometric 
 When the structure is dry, Pineapple Restorations prepares a **Full Restoration Coverage Evaluation** — a value-engineered line-item scope that matches the carrier's scope, adds any code-required upgrades, and protects your family's investment through the rebuild phase. The Pineapple team handles the rebuild, the paint, the flooring, and the contents pack-out and pack-back. One phone call, one project manager, one standard.
 
 > **🍍 Frisco property manager or hotel operator?**
-> Pineapple Restorations runs a priority emergency response for multi-unit and hospitality portfolios. Same 60-minute dispatch, plus a written executive summary and a Complimentary Professional Photo Audit (CPPA) that your asset manager can hand the carrier.
-> **[→ Book your CPPA — 972-928-0788](tel:+19729280788)**
+> Pineapple Restorations runs a priority emergency response for multi-unit and hospitality portfolios. Same 60-minute dispatch, plus a written executive summary and a free roof inspection that your asset manager can hand the carrier.
+> **[→ Book your free roof inspection — 972-928-0788](tel:+19729280788)**
 
 ## What the IICRC standard means on your Frisco loss
 
@@ -252,7 +252,7 @@ For covered losses, out-of-pocket is typically your policy deductible. Pineapple
 
 ## About the Author
 
-I am **JR. Moeakiola** with **Pineapple Restorations** — a Polynesian-owned, family-run restoration company serving Frisco and North Texas since 2005. Pineapple Restorations is the sister brand of Pineapple Roofing, sharing the same RCAT license, the same HUB certification, and the same family standard.
+I am **JR. Moeakiola** with **Pineapple Restorations** — a Polynesian-owned, family-run restoration company serving Frisco and North Texas since 2021. Pineapple Restorations is the sister brand of Pineapple Roofing, sharing the same RCAT license, the same HUB certification, and the same family standard.
 
 - RCAT Licensed **#03-0637** · HUB Certified **#1861616404400**
 - IICRC Certified Firm · 5-Star Rated
@@ -265,4 +265,4 @@ I am **JR. Moeakiola** with **Pineapple Restorations** — a Polynesian-owned, f
 
 When **water damage restoration in Frisco TX** is the next call you need to make, call **972-928-0788** now — 24/7 emergency dispatch within 60 minutes, IICRC-trained crews, and a Full Restoration Coverage Evaluation that protects your family's investment from the first hour through the rebuild.
 
-<!-- DRAFT — DO NOT SEND · PAUSED (Outbox Shield DEC-005) · Author: JR. Moeakiola · Brand: Navy #1A365D + Gold #FBC02D + Cyan #00BFFF, zero green -->
+<!-- DRAFT — DO NOT SEND · PAUSED (Outbox Shield DEC-005) · Author: JR. Moeakiola · Brand: Navy #003299 + Gold #ffdd17 + Cyan #003299, zero green -->

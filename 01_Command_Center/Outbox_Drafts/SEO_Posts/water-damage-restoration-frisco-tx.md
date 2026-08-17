@@ -1,6 +1,6 @@
 ---
 title: "Water Damage Restoration in Frisco TX (Act Fast)"
-description: "Water damage restoration in Frisco TX is a race against mold. Rapid-response mitigation, full-scope documentation, RCAT #03-0637, since 2005. Call 972-928-0788."
+description: "Water damage restoration in Frisco TX is a race against mold. Rapid-response mitigation, full-scope documentation, RCAT #03-0637, since 2021. Call 972-928-0788."
 brand: "Pineapple Restorations"
 site: "pineapplerestorations.com"
 category: "Water Mitigation"
@@ -90,7 +90,7 @@ An unusable unit or a closed floor costs money every single day.
 
 We are Polynesian-owned, family operated, RCAT Licensed #03-0637, HUB Certified #1861616404400, and 5-Star rated.
 
-We have served Frisco, Lewisville, and Austin since 2005.
+We have served Frisco, Lewisville, and Austin since 2021.
 
 That means a licensed, accountable local team that shows up fast and communicates clearly, which is exactly what a property manager needs at 2 a.m.
 
@@ -135,7 +135,7 @@ We document the full scope from the very first visit.
 
 ## About the Author
 
-I'm **JR. Moeakiola** with **Pineapple Restorations** — a Polynesian-owned, family-run restoration company serving Frisco and North Texas since 2005.
+I'm **JR. Moeakiola** with **Pineapple Restorations** — a Polynesian-owned, family-run restoration company serving Frisco and North Texas since 2021.
 
 - RCAT Licensed #03-0637 · HUB Certified #1861616404400
 - 5-Star Rated · Rapid-Response Mitigation

@@ -16,10 +16,10 @@ A quality roof is one of the most important investments in your home — and it 
 
 ## Start with a clear picture
 
-Before any decision, we give you a **Complimentary Professional Photo Audit (CPPA)** and an honest, itemized proposal — so you know exactly what you're financing and why.
+Before any decision, we give you a **free roof inspection** and an honest, itemized proposal — so you know exactly what you're financing and why.
 
 ## Talk to a real person
 
-Call **(972) 928-0788** and we'll walk you through your options. IKO Certified · RCAT #03-0637 · serving DFW since 2005.
+Call **(972) 928-0788** and we'll walk you through your options. IKO Certified · RCAT #03-0637 · serving DFW since 2021.
 
 <!-- M7-FIREWALL-EXEMPT: website-page -->

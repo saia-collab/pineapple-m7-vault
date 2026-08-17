@@ -8,7 +8,7 @@ agent: analytics-reporting-manager
 created: 2026-07-22
 sources_skipped: [DataForSEO Labs — not wired to this profile. Windsor.ai GSC connection — not configured. Real GSC export — not pulled. All keyword counts, traffic estimates, position distributions, and competitor benchmarks below are honest placeholders, NOT measured numbers. Rebuild this snapshot when DataForSEO + Windsor.ai are wired. Until then this file is the BASELINE SHAPE, not the baseline data.]
 ---
-> **PAUSED — drafts only, never publish or spend.** Brand law: CPPA (never "free"), IKO Certified (never GAF), The Pineapple Standard (never warrior/toa/six brothers), Navy #1A365D + Gold #FBC02D, ZERO green, RCAT #03-0637, 972-928-0788.
+> **PAUSED — drafts only, never publish or spend.** Brand law: free roof inspection (never "free"), IKO Certified (never GAF), The Pineapple Standard (never warrior/toa/six brothers), Navy #003299 + Gold #ffdd17, ZERO green, RCAT #03-0637, 972-928-0788.
 
 # Performance Snapshot: Pineapple Roofing (2026-07-22)
 
@@ -17,7 +17,7 @@ sources_skipped: [DataForSEO Labs — not wired to this profile. Windsor.ai GSC 
 - **Pages shipped vs. pages drafted:** 22 location + service + commercial pages already drafted PAUSED in `01_Command_Center/Outbox_Drafts/Website_Pages/`. Live count: only the home + a small set of WP-default pages.
 - **Migration state:** new domain `pineappleroofingllc.com` is live (200 OK, 0 redirects from /), old `pineapplecontractors.com` redirects map is in `M7_Redirect_Map.csv`. Migration-aware SEO (the 301 pass) is the force multiplier on every other metric.
 - **GBP state:** verified, address + phone correct, but not connected to Windsor.ai (no live review/insight feed). Review request cadence lives in `M7_LEAD_ENGINE` review_request_loop — that exists, the data is just not in this file.
-- **One-line verdict:** the brand has the right assets (RCAT, IKO, since 2005, family-owned) and the right footprint (Frisco HQ, 10–15 mi ring) but the site title/H1 says "Dallas" and the body copy still says "free" — **the next 30 days of SEO are an on-page + migration pass, not a content-from-zero pass.**
+- **One-line verdict:** the brand has the right assets (RCAT, IKO, since 2021, family-owned) and the right footprint (Frisco HQ, 10–15 mi ring) but the site title/H1 says "Dallas" and the body copy still says "free" — **the next 30 days of SEO are an on-page + migration pass, not a content-from-zero pass.**
 
 ## Position distribution (placeholder until DataForSEO)
 
@@ -74,7 +74,7 @@ sources_skipped: [DataForSEO Labs — not wired to this profile. Windsor.ai GSC 
 2. **Estimated organic traffic (DataForSEO `etv`)** — the leading indicator of leads.
 3. **Striking-distance keyword count (positions 5–20)** — the inventory of next-30-day wins.
 4. **Average position for the 10 priority money keywords** (the A–H clusters above) — the brand's actual SERP reality.
-5. **Phone calls + CPPA bookings from organic (UTM-tagged)** — the only number that pays the rent. (Track in CRM Attribution tab per `M7_GROWTH_ENGINE.md`.)
+5. **Phone calls + free roof inspection bookings from organic (UTM-tagged)** — the only number that pays the rent. (Track in CRM Attribution tab per `M7_GROWTH_ENGINE.md`.)
 
 ## Trend (placeholder — no real history without DataForSEO `historical_rank_overview`)
 - Public read: the new domain is fresh, the old domain's positions are decaying as the migration lands, and the city hub pages are still inheriting juice from the old `/service-areas/<county>/<city>/` URLs.

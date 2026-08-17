@@ -7,12 +7,12 @@ meta: Roofing & restoration in Lewisville, TX. Local office on Highway 121. Stor
 target_keyword: roofing lewisville tx
 gbp_note: Verified GBP — Pineapple Roofing Lewisville, 4400 Highway 121, Ste 300, Lewisville, TX 75056
 status: PAUSED — Outbox review before deploy
-brand_check: CPPA · IKO Certified · The Pineapple Standard · RCAT #03-0637 · 972-928-0788 · zero green
+brand_check: free roof inspection · IKO Certified · The Pineapple Standard · RCAT #03-0637 · 972-928-0788 · zero green
 ---
 
 # Roofing in Lewisville, TX — IKO Certified (RCAT #03-0637)
 
-**Pineapple Roofing has a local office in Lewisville — 4400 Highway 121, Suite 300 (RCAT Licensed #03-0637 · IKO Certified). Storm damage, repairs, replacements and full restoration across Lewisville and Denton County. Every project starts with a Complimentary Professional Photo Audit (CPPA). Call (972) 928-0788.**
+**Pineapple Roofing has a local office in Lewisville — 4400 Highway 121, Suite 300 (RCAT Licensed #03-0637 · IKO Certified). Storm damage, repairs, replacements and full restoration across Lewisville and Denton County. Every project starts with a free roof inspection. Call (972) 928-0788.**
 
 We're not a crew that drives in after a storm — we have a **verified office right here on Highway 121**. From the neighborhoods around Lake Lewisville to Castle Hills and The Colony, we know these roofs and this weather.
 
@@ -26,11 +26,11 @@ We're not a crew that drives in after a storm — we have a **verified office ri
 ## Why Lewisville chooses Pineapple
 - **Local office on Hwy 121** — a real, verified location, not a P.O. box.
 - **IKO Certified · RCAT #03-0637** — verifiable, accountable, insured.
-- **Since 2005 · 5-star rated** by 400+ North Texas families.
+- **Since 2021 · 5-star rated** by 400+ North Texas families.
 - **The Pineapple Standard** — careful work, clean sites, clear communication.
 
 ## How it works
-1. **Complimentary Professional Photo Audit (CPPA)** — documented photos of your roof, at no cost.
+1. **free roof inspection** — documented photos of your roof, at no cost.
 2. **Written scope** — what's urgent, what can wait, and why.
 3. **IKO Certified repair, replacement or restoration** — warranty-backed, done to spec.
 
@@ -44,7 +44,7 @@ Lewisville, Castle Hills, The Colony, Flower Mound, Highland Village, Carrollton
 **How long does a roof replacement take?** Most homes 1–3 days once the crew is on site.
 **Is the photo audit really no-cost?** Yes — documented, honest, no obligation.
 
-## Book your Complimentary Professional Photo Audit
+## Book your free roof inspection
 Your local Lewisville roofer is one call away.
 📞 **Call (972) 928-0788** — IKO Certified · RCAT #03-0637 · The Pineapple Standard.
 

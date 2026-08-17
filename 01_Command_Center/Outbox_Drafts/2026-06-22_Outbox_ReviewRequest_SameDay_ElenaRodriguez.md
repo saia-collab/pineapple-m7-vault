@@ -37,7 +37,7 @@ Mālō ‘aupito. — Saia, Pineapple Contractors
 ## Brand Firewall Check
 
 - [x] No banned lexicon (no "Free", "Warrior", "Toa", "Six Brothers", "Consultation")
-- [x] CPPA / IKO / RCAT credentials intact in surrounding context
+- [x] free roof inspection / IKO / RCAT credentials intact in surrounding context
 - [x] Heritage line (*Mālō ‘aupito*) preserved
 - [x] Phone 972-928-0788 not required here (review ask only)
 - [ ] **Compliance audit pass:** ___________ (initial)

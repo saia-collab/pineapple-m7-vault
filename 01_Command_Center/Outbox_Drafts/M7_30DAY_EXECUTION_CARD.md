@@ -20,7 +20,7 @@ GOAL: Build the 30-day content execution tracker.
 4. Fill 30 rows. Where no media matches, write "NEEDS FOOTAGE".
 5. Save to 01_Command_Center/Outbox_Drafts/Content/30DAY_TRACKER.md, mark STATUS: PAUSED.
 
-RULES: don't edit or delete anything. Don't publish. Never "free" (use CPPA),
+RULES: don't edit or delete anything. Don't publish. Never "free" (use free roof inspection),
 never "GAF" (use IKO Certified), never green.
 Stop when 30DAY_TRACKER.md is written; tell me how many rows have media matched.
 ```
@@ -51,7 +51,7 @@ Stop when 30DAY_TRACKER.md is written; tell me how many rows have media matched.
 
 ## 🔁 THE REPURPOSE LOOP (one clip → 3 posts)
 From `Reel_Repurpose_Plan.md` — every clip gives you three:
-1. **The Sale** — storm/insurance hook → CPPA CTA
+1. **The Sale** — storm/insurance hook → free roof inspection CTA
 2. **The Story** — family/heritage → trust
 3. **The Recruitment** — crew/hiring → DM PINEAPPLE
 

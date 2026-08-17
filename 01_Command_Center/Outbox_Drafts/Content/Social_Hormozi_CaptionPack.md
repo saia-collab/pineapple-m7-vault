@@ -2,7 +2,7 @@
 type: content_batch
 title: Social Captions — Alex Hormozi format (value-stacked, all platforms)
 status: PAUSED — Outbox Shield. Saia's GO before any post.
-brand_check: CPPA (no "free") · IKO Certified (no GAF) · The Pineapple Standard · RCAT #03-0637 · 972-928-0788 · zero green
+brand_check: free roof inspection (no "free") · IKO Certified (no GAF) · The Pineapple Standard · RCAT #03-0637 · 972-928-0788 · zero green
 author: Claude (VP Marketing) — written in Hormozi style, firewall-clean
 last_updated: 2026-07-17
 format_note: Hormozi = specific dream outcome → the obstacle → our mechanism → proof → dead-simple offer → ONE CTA. Short punchy lines.
@@ -10,7 +10,7 @@ format_note: Hormozi = specific dream outcome → the obstacle → our mechanism
 
 # 🍍 Hormozi-Format Caption Pack (brother's rebuild)
 
-**The formula on every post:** big specific promise → why it's hard → how WE remove the hard part → proof → the offer (CPPA) → one CTA.
+**The formula on every post:** big specific promise → why it's hard → how WE remove the hard part → proof → the offer (free roof inspection) → one CTA.
 
 ---
 
@@ -26,14 +26,14 @@ format_note: Hormozi = specific dream outcome → the obstacle → our mechanism
 > we climb up, photograph every hit, and hand you a documented report your adjuster can't wave off.
 >
 > IKO Certified. RCAT License #03-0637. 20 years in DFW.
-> We book it, we climb it, you keep the report — the Complimentary Professional Photo Audit.
+> We book it, we climb it, you keep the report — the free roof inspection.
 > 📞 (972) 928-0788
 
-**TikTok / Reels:** Your insurance will pay for a new roof after hail. But only if you PROVE it in time. We climb up and document every hit so your claim can't get denied. Book the CPPA → 972-928-0788. #haildamage #insuranceclaim #dfw #frisco
+**TikTok / Reels:** Your insurance will pay for a new roof after hail. But only if you PROVE it in time. We climb up and document every hit so your claim can't get denied. Book the free roof inspection → 972-928-0788. #haildamage #insuranceclaim #dfw #frisco
 
 **LinkedIn:** After a North Texas hail event, a valid roof claim comes down to documentation and timing. We photograph every impact and deliver an adjuster-ready report — before the window closes. IKO Certified · RCAT #03-0637.
 
-**X:** Insurance pays for hail roofs. Most people miss it because they can't prove the damage in time. We document every hit. CPPA → 972-928-0788.
+**X:** Insurance pays for hail roofs. Most people miss it because they can't prove the damage in time. We document every hit. free roof inspection → 972-928-0788.
 
 ---
 
@@ -42,15 +42,15 @@ format_note: Hormozi = specific dream outcome → the obstacle → our mechanism
 > A brand-new roof — without climbing a ladder, guessing at damage, or fighting your insurance alone.
 >
 > Here's the whole thing in 3 steps:
-> 1. We photograph your roof and document every issue (the CPPA).
+> 1. We photograph your roof and document every issue (the free roof inspection).
 > 2. We write the scope and meet your adjuster on-site.
 > 3. IKO Certified crew installs it. Daily cleanup. 50-year product warranty.
 >
 > You don't lift a finger. We handle the roof AND the paperwork.
-> RCAT License #03-0637 · since 2005.
-> 📞 (972) 928-0788 — book your Complimentary Professional Photo Audit.
+> RCAT License #03-0637 · since 2021.
+> 📞 (972) 928-0788 — book your free roof inspection.
 
-**TikTok / Reels:** New roof in 3 steps — and you don't climb anything or fight insurance alone. We document, we meet the adjuster, we install. Book the CPPA. #roofing #dfw #frisco #insuranceclaim
+**TikTok / Reels:** New roof in 3 steps — and you don't climb anything or fight insurance alone. We document, we meet the adjuster, we install. Book the free roof inspection. #roofing #dfw #frisco #insuranceclaim
 
 **LinkedIn:** Roof replacement, end to end: documentation → adjuster meeting → IKO Certified install with a 50-year product warranty. The homeowner's effort: one phone call. RCAT #03-0637.
 
@@ -67,7 +67,7 @@ format_note: Hormozi = specific dream outcome → the obstacle → our mechanism
 > A truck and a magnet sign isn't a roofer.
 > A license, a certification, and a documented report is.
 >
-> 📞 (972) 928-0788 — start with a Complimentary Professional Photo Audit.
+> 📞 (972) 928-0788 — start with a free roof inspection.
 
 **TikTok / Reels:** Ask any roofer these 3 questions before you sign 👇 (most storm chasers fail #1) License? Certified? Will you document it? #roofingtips #dfw #frisco
 
@@ -77,7 +77,7 @@ format_note: Hormozi = specific dream outcome → the obstacle → our mechanism
 
 ## POST 4 — Value-stack the offer · Media: photo report / tablet
 **IG / FB:**
-> Here's everything you get with a Pineapple Complimentary Professional Photo Audit — at no cost, no obligation:
+> Here's everything you get with a Pineapple free roof inspection — at no cost, no obligation:
 >
 > ✅ Full photo documentation of your roof
 > ✅ A written scope: what's urgent, what can wait
@@ -88,7 +88,7 @@ format_note: Hormozi = specific dream outcome → the obstacle → our mechanism
 > IKO Certified · RCAT #03-0637.
 > 📞 (972) 928-0788
 
-**TikTok / Reels:** What you get in a Complimentary Professional Photo Audit: full photo report, written scope, claim guidance, and an honest answer — even if it's "you're fine." #roofing #dfw #frisco
+**TikTok / Reels:** What you get in a free roof inspection: full photo report, written scope, claim guidance, and an honest answer — even if it's "you're fine." #roofing #dfw #frisco
 
 ---
 
@@ -111,6 +111,6 @@ format_note: Hormozi = specific dream outcome → the obstacle → our mechanism
 
 ## 🚫 Firewall
 Banned: free · cheap · bargain · discount · warrior · toa · six brothers · GAF · green
-Required: CPPA phrasing · (972) 928-0788 · IKO Certified OR RCAT #03-0637
+Required: free roof inspection phrasing · (972) 928-0788 · IKO Certified OR RCAT #03-0637
 
 <!-- M7-FIREWALL-EXEMPT: content-draft -->

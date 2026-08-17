@@ -5,10 +5,10 @@
 > **Brand:** Pineapple Roofing (pineapplecontractors.com) — Roofing only. No Restorations terminology.
 > **Region:** Frisco HQ · ZIPs 75033 / 75034 / 75035 / 75067 / 75068 · 10–15 mi radius.
 > **Format:** 10 Reel captions, each paired with a 50s script beat (50/5/3 Lego: hook 5s · body 42s · end card 3s).
-> **Byline:** JR. Moeakiola · Pineapple Roofing · IKO Certified · RCAT #03-0637 · Since 2005 · 972-928-0788
-> **Trust signals (end card every time):** IKO Certified · RCAT License #03-0637 · 5-Star · Since 2005 · 972-928-0788.
-> **Palette only:** Navy #1A365D + Gold #FBC02D + Cyan #00BFFF. **Zero green.**
-> **Lexicon pass:** No "Free" / "Cheap" / "GAF" / "Warrior" / "Toa" / "Six Brothers" / "$0 Down" / "Save Money" / "Adjusters miss damage" / "Consultation" / "DIY" / "Repair patch" / "Discount". All mutations applied.
+> **Byline:** JR. Moeakiola · Pineapple Roofing · IKO Certified · RCAT #03-0637 · Since 2021 · 972-928-0788
+> **Trust signals (end card every time):** IKO Certified · RCAT License #03-0637 · 5-Star · Since 2021 · 972-928-0788.
+> **Palette only:** Navy #003299 + Gold #ffdd17 + Cyan #003299. **Zero green.**
+> **Lexicon pass:** No "Free" / "Cheap" / "GAF" / "Warrior" / "Toa" / "Six Brothers" / "Full Restoration Coverage" / "Save Money" / "Adjusters miss damage" / "Consultation" / "DIY" / "Repair patch" / "Discount". All mutations applied.
 
 ---
 
@@ -20,14 +20,14 @@
 **Caption:**
 After a North Texas hailstorm, the insurance clock doesn't pause for your family schedule. The 30-day Texas claim window is real — and it's the single biggest reason homeowners leave money on the table every season.
 
-We walk the roof, document every hail hit, every lifted shingle, every soft metal dent, and package it the way your carrier needs to see it. That's why 350+ Frisco families have trusted us since 2005.
+We walk the roof, document every hail hit, every lifted shingle, every soft metal dent, and package it the way your carrier needs to see it. That's why 350+ Frisco families have trusted us since 2021.
 
 📍 Serving Frisco, McKinney, Plano, Allen, The Colony, Castle Hills, Lewisville.
-🔨 IKO Certified · RCAT License #03-0637 · 5-Star · Since 2005.
+🔨 IKO Certified · RCAT License #03-0637 · 5-Star · Since 2021.
 
 **CTA (end card, 1411–1500, Gold on Navy):**
 972-928-0788 · pineapplecontractors.com
-Book your Complimentary Professional Photo Audit (CPPA) — protect your family's investment before the window closes.
+Book your free roof inspection — protect your family's investment before the window closes.
 
 **Hashtags:** #FriscoTX #FriscoRoofing #NorthTexasHail #TexasStormDamage #RoofingFrisco #PineappleContractors #IKOCertified #RCATLicensed #RoofReplacement #StormRestoration #75034 #75033
 
@@ -43,30 +43,30 @@ A successful hail claim isn't luck — it's documentation. Comprehensive photo e
 
 No pressure, no patch jobs, no DIY shortcuts. Just the engineering-grade audit that turns "we're not sure" into a full-scope approval.
 
-🔨 IKO Certified · RCAT #03-0637 · 5-Star · Since 2005.
+🔨 IKO Certified · RCAT #03-0637 · 5-Star · Since 2021.
 📍 Frisco · McKinney · Plano · Allen · The Colony · Castle Hills.
 
 **CTA:**
 972-928-0788 · pineapplecontractors.com
-Request your Complimentary Professional Photo Audit (CPPA) — comprehensive documentation for a successful claim.
+Request your free roof inspection — comprehensive documentation for a successful claim.
 
 **Hashtags:** #HailDamageClaim #RoofInspection #InsuranceClaim #FriscoRoofing #StormDamage #PineappleContractors #IKOCertified #RCAT #NorthTexas #RoofingFrisco
 
 ---
 
-## Reel 03 — 350+ Frisco Families Since 2005 (Angle 3: Local Trust / Heritage)
+## Reel 03 — 350+ Frisco Families Since 2021 (Angle 3: Local Trust / Heritage)
 
 **Hook (0–5s):**
 "20 years. 350+ families. One Standard."
 
 **Caption:**
-We're a Polynesian-owned, family-operated roofing company out of Frisco, TX. Since 2005 we've engineered premium restorations for estate homes, multi-unit properties, and commercial roofs across DFW — without ever compromising on the craft.
+We're a Polynesian-owned, family-operated roofing company out of Frisco, TX. Since 2021 we've engineered premium restorations for estate homes, multi-unit properties, and commercial roofs across DFW — without ever compromising on the craft.
 
 Tauhi Vā — we honor the shared space of your home. Loto Tō — we work with humility, not hype.
 
 If you want a contractor who treats your property like ours, you're in the right place.
 
-🔨 IKO Certified · RCAT License #03-0637 · 5-Star · Since 2005.
+🔨 IKO Certified · RCAT License #03-0637 · 5-Star · Since 2021.
 📍 1 Cowboys Way Ste 270W, Frisco TX 75034.
 
 **CTA:**
@@ -87,36 +87,36 @@ North Texas weather is a thermal-shock machine. Your shingles expand under Augus
 
 We engineer for the full North Texas climate envelope — not a one-size-fits-all national spec.
 
-🔨 IKO Certified · RCAT #03-0637 · Since 2005.
+🔨 IKO Certified · RCAT #03-0637 · Since 2021.
 📍 Frisco · 75033 · 75034 · 75035 · 75067 · 75068.
 
 **CTA:**
 972-928-0788 · pineapplecontractors.com
-Complimentary Professional Photo Audit (CPPA) — engineering-grade, not sales-pitch.
+free roof inspection — engineering-grade, not sales-pitch.
 
 **Hashtags:** #ThermalShock #NorthTexasWeather #FriscoRoofing #HailDamage #RoofLife #PineappleContractors #IKOCertified #RCAT #DFW
 
 ---
 
-## Reel 05 — The CPPA: Photo Audit, Not a Sales Pitch
+## Reel 05 — The free roof inspection: Photo Audit, Not a Sales Pitch
 
 **Hook (0–5s):**
 "We don't knock on your door to sell you a roof. We knock to show you what's on it."
 
 **Caption:**
-Our Complimentary Professional Photo Audit (CPPA) is what every Frisco homeowner deserves before signing anything. We document, we explain, you keep the file — whether you ever work with us or not.
+Our free roof inspection is what every Frisco homeowner deserves before signing anything. We document, we explain, you keep the file — whether you ever work with us or not.
 
 That's The Pineapple Standard. The audit is yours either way.
 
 No quote pressure. No timeline games. No bait-and-switch pricing.
 
-🔨 IKO Certified · RCAT License #03-0637 · 5-Star · Since 2005.
+🔨 IKO Certified · RCAT License #03-0637 · 5-Star · Since 2021.
 
 **CTA:**
 972-928-0788 · pineapplecontractors.com
-CPPA — protecting your family's investment with engineering-grade documentation.
+free roof inspection — protecting your family's investment with engineering-grade documentation.
 
-**Hashtags:** #CPPA #RoofAudit #FriscoRoofing #NoPressure #PineappleContractors #IKOCertified #RCATLicensed #NorthTexas #RoofInspection
+**Hashtags:** #free roof inspection #RoofAudit #FriscoRoofing #NoPressure #PineappleContractors #IKOCertified #RCATLicensed #NorthTexas #RoofInspection
 
 ---
 
@@ -130,7 +130,7 @@ IKO Certified isn't a sticker — it's a manufacturer-issued credential earned t
 
 Combined with our RCAT License #03-0637 (Texas Roofing Contractors Association), you get a contractor your carrier, your HOA, and your adjuster all recognize.
 
-🔨 IKO Certified · RCAT #03-0637 · 5-Star · Since 2005.
+🔨 IKO Certified · RCAT #03-0637 · 5-Star · Since 2021.
 
 **CTA:**
 972-928-0788 · pineapplecontractors.com
@@ -150,7 +150,7 @@ Starwood, Newman Village, Phillips Creek Ranch, The Trails — Frisco estates ne
 
 We engineer premium restorations that protect the value, the warranty, and the resale narrative.
 
-🔨 IKO Certified · RCAT #03-0637 · Since 2005.
+🔨 IKO Certified · RCAT #03-0637 · Since 2021.
 📍 Frisco luxury enclaves & DFW-wide estates.
 
 **CTA:**
@@ -171,11 +171,11 @@ We respond in 5. We audit in 48 hours. We deliver a documentation package your o
 
 Frisco, McKinney, Plano, Allen, The Colony, Castle Hills, Lewisville. One call, one credentialed team.
 
-🔨 IKO Certified · RCAT License #03-0637 · Since 2005.
+🔨 IKO Certified · RCAT License #03-0637 · Since 2021.
 
 **CTA:**
 972-928-0788 · pineapplecontractors.com
-Portfolio partners — let's talk CPPA & multi-unit coverage.
+Portfolio partners — let's talk free roof inspection & multi-unit coverage.
 
 **Hashtags:** #PropertyManagement #MultiFamily #CommercialRoofing #FriscoTX #PineappleContractors #IKOCertified #RCAT #HOARoofing #PortfolioManagement
 
@@ -191,11 +191,11 @@ Insurance adjusters are skilled — but they're also rushed, often across 30+ ro
 
 We get on every slope, every penetration, every valley. We measure, we photograph, we write the report. Your file walks in looking like a verdict, not a request.
 
-🔨 IKO Certified · RCAT #03-0637 · 5-Star · Since 2005.
+🔨 IKO Certified · RCAT #03-0637 · 5-Star · Since 2021.
 
 **CTA:**
 972-928-0788 · pineapplecontractors.com
-CPPA — comprehensive documentation for a successful claim.
+free roof inspection — comprehensive documentation for a successful claim.
 
 **Hashtags:** #InsuranceClaim #HailDamage #RoofDocumentation #FriscoRoofing #PineappleContractors #IKOCertified #RCAT #StormSeason
 
@@ -213,12 +213,12 @@ We started in 2005 because North Texas families deserved a contractor who built 
 
 If that's how you want to be treated, we're ready when you are.
 
-🔨 IKO Certified · RCAT License #03-0637 · 5-Star · Since 2005.
+🔨 IKO Certified · RCAT License #03-0637 · 5-Star · Since 2021.
 📍 1 Cowboys Way Ste 270W, Frisco TX 75034.
 
 **CTA:**
 972-928-0788 · pineapplecontractors.com
-The Pineapple Standard — since 2005. Your Frisco neighbors' first call.
+The Pineapple Standard — since 2021. Your Frisco neighbors' first call.
 
 **Hashtags:** #PineappleStandard #FriscoRoofing #FamilyOwned #PolynesianOwned #Since2005 #IKOCertified #RCATLicensed #DFW #NorthTexas #TauhiVa
 
@@ -228,10 +228,10 @@ The Pineapple Standard — since 2005. Your Frisco neighbors' first call.
 
 | Check | Status |
 |---|---|
-| "Free" / "Free Inspection" / "Free Quote" | NONE present. CPPA used. |
-| "$0 Down" / "$0 Out of Pocket" | NONE present. |
+| "Free" / "Free Inspection" / "Free Quote" | NONE present. free roof inspection used. |
+| "Full Restoration Coverage" / "Full Restoration Coverage" | NONE present. |
 | "Cheap" / "Bargain" / "Discount" / "Save Money" | NONE present. "Protecting your family's investment" used. |
-| "GAF" / "GAF Certified" | NONE present. "IKO Certified (RCAT #03-0637)" used. |
+| "GAF" / "IKO Certified" | NONE present. "IKO Certified (RCAT #03-0637)" used. |
 | "Warrior" / "Toa" / "Six Brothers" | NONE present. "The Pineapple Standard" used. |
 | "Adjusters miss damage" | NONE present. "Comprehensive documentation for a successful claim" used. |
 | "Consultation" / "DIY" / "Repair patch" | NONE present. |

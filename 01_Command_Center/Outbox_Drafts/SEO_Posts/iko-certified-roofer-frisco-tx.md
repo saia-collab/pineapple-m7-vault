@@ -1,6 +1,6 @@
 ---
 title: "IKO Certified Roofer in Frisco TX — The Pineapple Standard"
-description: "Looking for an IKO certified roofer in Frisco TX? RCAT #03-0637, 5-Star rated, family-owned since 2005. Book a Complimentary Professional Photo Audit."
+description: "Looking for an IKO certified roofer in Frisco TX? RCAT #03-0637, 5-Star rated, family-owned since 2021. Book a free roof inspection."
 brand: "Pineapple Roofing"
 site: "pineapplecontractors.com"
 category: "Roofing"
@@ -62,15 +62,15 @@ Pineapple Contractors is RCAT Licensed #03-0637 and HUB Certified #1861616404400
 
 We are Polynesian-owned, family operated, and 5-Star rated here in North Texas.
 
-We have served Frisco, Lewisville, and Austin since 2005.
+We have served Frisco, Lewisville, and Austin since 2021.
 
 Those numbers are not decoration.
 
 They mean a licensed, accountable local company is standing behind your roof, not a storm-chaser who leaves after the check clears.
 
 > **🍍 Want a certified team to look at your Frisco roof?**
-> Book a **Complimentary Professional Photo Audit (CPPA)** — our IKO Certified crew documents every slope so you know exactly what your roof needs before you spend a dollar.
-> **[→ Book your CPPA — call 972-928-0788](tel:+19729280788)**
+> Book a **free roof inspection** — our IKO Certified crew documents every slope so you know exactly what your roof needs before you spend a dollar.
+> **[→ Book your free roof inspection — call 972-928-0788](tel:+19729280788)**
 
 ## How To Vet Any Roofer Before You Hire
 
@@ -80,8 +80,8 @@ Use this quick checklist on every contractor who bids your Frisco roof.
 |-----------------|----------------|--------------------|
 | Are you manufacturer certified? | Protects your shingle warranty | Yes — IKO Certified |
 | Are you state licensed? | Accountability and insurance | RCAT #03-0637 |
-| How long in this market? | Storm-chasers disappear | Serving DFW since 2005 |
-| Do you document before quoting? | Honest scope, real evidence | Yes — the CPPA |
+| How long in this market? | Storm-chasers disappear | Serving DFW since 2021 |
+| Do you document before quoting? | Honest scope, real evidence | Yes — the free roof inspection |
 | Local address and phone? | You can find us later | Frisco HQ · 972-928-0788 |
 
 If a contractor cannot answer these clearly, that is your answer.
@@ -92,7 +92,7 @@ The lowest bid from an uncertified crew is the most expensive roof you will ever
 
 The process should feel calm, clear, and documented from the first call.
 
-We start with your Complimentary Professional Photo Audit so you see your roof the way we see it.
+We start with your free roof inspection so you see your roof the way we see it.
 
 Then we present a Full Restoration Coverage Evaluation with a value-engineered plan, not a pressure pitch.
 
@@ -120,24 +120,24 @@ That is Pineapple Contractors' Texas roofing license number.
 It means we are a licensed, accountable contractor, not an out-of-town storm-chaser.
 
 ### Does a certified roofer help with insurance claims?
-Yes — our Complimentary Professional Photo Audit produces the documentation carriers want for a successful claim.
+Yes — our free roof inspection produces the documentation carriers want for a successful claim.
 
 Certified, documented work is far harder for an adjuster to dispute.
 
 ### How do I start with Pineapple Contractors?
-Call 972-928-0788 and book your Complimentary Professional Photo Audit.
+Call 972-928-0788 and book your free roof inspection.
 
 You keep the photo record whether or not you choose us for the work.
 
 ## About the Author
 
-I'm **JR. Moeakiola** with **Pineapple Contractors** — a Polynesian-owned, family-run roofing and restoration company serving Frisco and North Texas since 2005.
+I'm **JR. Moeakiola** with **Pineapple Contractors** — a Polynesian-owned, family-run roofing and restoration company serving Frisco and North Texas since 2021.
 
 - RCAT Licensed #03-0637 · HUB Certified #1861616404400
 - IKO Certified · 5-Star Rated
 - Serving Frisco, Lewisville, and Austin
 
-**[→ Book your Complimentary Professional Photo Audit — 972-928-0788](tel:+19729280788)**
+**[→ Book your free roof inspection — 972-928-0788](tel:+19729280788)**
 
 ---
 

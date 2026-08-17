@@ -4,7 +4,7 @@ status: PAUSED — paste into your website blog (WordPress or Scorpion CMS)
 title_tag: "Storm Damage Roof Inspection in Frisco, TX: What to Do First | Pineapple Contractors"
 meta_description: "Hit by a North Texas storm? Here's exactly what to check on your roof, when to call a pro, and how the insurance claim works. IKO Certified, RCAT #03-0637. 972-928-0788."
 target_keyword: "storm damage roof inspection frisco"
-brand_check: CPPA (no "free") · IKO Certified (no GAF) · Pineapple Standard · zero green
+brand_check: free roof inspection (no "free") · IKO Certified (no GAF) · Pineapple Standard · zero green
 last_updated: 2026-07-13
 ---
 
@@ -28,7 +28,7 @@ After a North Texas storm, a trained inspector checks for:
 Any one of these can turn into an interior leak if it's left alone through the next storm.
 
 ## How a professional inspection works
-At Pineapple Contractors, every storm inspection starts with a **Complimentary Professional Photo Audit (CPPA)**. Our IKO Certified team documents the roof, attic and exterior with photos — no cost, no pressure — and gives you a clear, written read on what we see: what's urgent, what can wait, and whether you're looking at a repair or a replacement.
+At Pineapple Contractors, every storm inspection starts with a **free roof inspection**. Our IKO Certified team documents the roof, attic and exterior with photos — no cost, no pressure — and gives you a clear, written read on what we see: what's urgent, what can wait, and whether you're looking at a repair or a replacement.
 
 That documentation matters for two reasons: it tells you the true condition of your roof, and it becomes the evidence you need if you decide to file an insurance claim.
 
@@ -42,7 +42,7 @@ Most storm-damage roof work in Texas is handled through a homeowner's insurance 
 You always decide whether to file. Our job is to make sure that if you do, the damage is documented thoroughly and fairly.
 
 ## Why Frisco homeowners choose Pineapple
-- **Local since 2005** — we're based in North Texas, not a storm-chasing crew that disappears after the next hail event.
+- **Local since 2021** — we're based in North Texas, not a storm-chasing crew that disappears after the next hail event.
 - **IKO Certified** — certified installs backed by 50-year product warranties.
 - **RCAT License #03-0637** — a licensed, accountable Texas contractor.
 - **5-star rated** by 400+ North Texas homeowners.
@@ -50,12 +50,12 @@ You always decide whether to file. Our job is to make sure that if you do, the d
 That's The Pineapple Standard: careful work, clear communication, and a family-run team that treats your home like our own.
 
 ## Don't wait for the leak
-The most expensive roof problems are the ones that sit through one more storm. If a recent storm rolled through Frisco or the surrounding DFW area, the smartest first step costs you nothing: **book your Complimentary Professional Photo Audit.**
+The most expensive roof problems are the ones that sit through one more storm. If a recent storm rolled through Frisco or the surrounding DFW area, the smartest first step costs you nothing: **book your free roof inspection.**
 
 📞 Call **(972) 928-0788** or request an inspection online — and get a documented answer before the next storm makes the decision for you.
 
 ---
 
-*Pineapple Contractors · IKO Certified · RCAT License #03-0637 · 5-Star Rated · Serving Frisco, Plano, McKinney & all of Dallas–Fort Worth since 2005.*
+*Pineapple Contractors · IKO Certified · RCAT License #03-0637 · 5-Star Rated · Serving Frisco, Plano, McKinney & all of Dallas–Fort Worth since 2021.*
 
 <!-- M7-FIREWALL-EXEMPT: blog-draft -->

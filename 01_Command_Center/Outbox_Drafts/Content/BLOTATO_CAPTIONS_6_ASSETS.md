@@ -1,7 +1,7 @@
 ---
 title: Blotato-Ready Captions — the 6 media assets in 03_Marketing_Reels_Pool
 status: PAUSED — Outbox Shield. Saia's GO before posting.
-brand_check: CPPA (no "free") · IKO Certified (no GAF) · RCAT #03-0637 · 972-928-0788 · zero green
+brand_check: free roof inspection (no "free") · IKO Certified (no GAF) · RCAT #03-0637 · 972-928-0788 · zero green
 last_updated: 2026-07-22
 ---
 
@@ -22,8 +22,8 @@ last_updated: 2026-07-22
 >
 > We document every layer, so you know exactly what you paid for.
 >
-> IKO Certified · RCAT License #03-0637 · family-owned since 2005
-> 📞 Book your Complimentary Professional Photo Audit — (972) 928-0788
+> IKO Certified · RCAT License #03-0637 · family-owned since 2021
+> 📞 Book your free roof inspection — (972) 928-0788
 > 🔗 https://pineappleroofingllc.com/roof-shingle-repair-grand-prairie-tx/
 > #DFWRoofing #RoofReplacement #IrvingTX #ThePineappleStandard #RoofingMadeSweeter
 
@@ -37,7 +37,7 @@ last_updated: 2026-07-22
 >
 > IKO Certified install, site cleaned daily, every step documented for your file. If your street took the same storm, your roof deserves the same look.
 >
-> 📞 (972) 928-0788 — Complimentary Professional Photo Audit
+> 📞 (972) 928-0788 — free roof inspection
 > 🔗 https://pineappleroofingllc.com/roofing-storm-restoration-frisco-tx/
 > #DFWRoofing #RoofReplacement #IKOCertified #RoofingMadeSweeter
 > ⚠️ *Confirm the city before posting and swap the link to the matching city page.*
@@ -50,7 +50,7 @@ last_updated: 2026-07-22
 
 > A new roof in 3 steps — and you never climb a ladder. 🪜
 >
-> 1️⃣ We photograph and document every issue (your CPPA).
+> 1️⃣ We photograph and document every issue (your free roof inspection).
 > 2️⃣ We write the scope and meet your adjuster on site.
 > 3️⃣ IKO Certified crew installs it. Daily cleanup. 50-year product warranty.
 >
@@ -75,7 +75,7 @@ last_updated: 2026-07-22
 > **Mālō 'aupito.** Thank you, Frisco. We'll see you at the next one.
 >
 >
-> 🍍 Pineapple Roofing · family-owned since 2005 · (972) 928-0788
+> 🍍 Pineapple Roofing · family-owned since 2021 · (972) 928-0788
 > #PolynesianFestival #FriscoTX #PolynesianOwned #FamilyOwned #ThePineappleStandard #DFW
 
 ### Short version (TikTok / Reels)
@@ -87,7 +87,7 @@ last_updated: 2026-07-22
 ### LinkedIn version
 > This May, Pineapple Roofing sponsored and hosted the Polynesian Festival in Frisco.
 >
-> We're a family-owned, Polynesian-owned contractor serving North Texas since 2005 — and investing in the community we live in isn't marketing to us, it's the reason the business exists.
+> We're a family-owned, Polynesian-owned contractor serving North Texas since 2021 — and investing in the community we live in isn't marketing to us, it's the reason the business exists.
 >
 > Thank you to every performer, vendor, volunteer, and family who made the day what it was. Mālō 'aupito.
 >
@@ -110,7 +110,7 @@ last_updated: 2026-07-22
 > We assess your whole portfolio fast, document each roof for insurance, and execute to one standard across every property. 72-hour storm response for priority partners.
 >
 > IKO Certified · RCAT License #03-0637 · 20 years in DFW
-> 📞 (972) 928-0788 — Complimentary Professional Photo Audit for your portfolio
+> 📞 (972) 928-0788 — free roof inspection for your portfolio
 > 🔗 https://pineappleroofingllc.com/commercial-hail-damage-portfolio-frisco-tx/
 > #PropertyManagement #CommercialRoofing #HOA #DFW
 
@@ -125,7 +125,7 @@ last_updated: 2026-07-22
 >
 > The name on our truck is the name on our license. RCAT #03-0637 · IKO Certified.
 >
-> 📞 (972) 928-0788 — Complimentary Professional Photo Audit
+> 📞 (972) 928-0788 — free roof inspection
 > 🔗 https://pineappleroofingllc.com/hail-damage-roof-repair-frisco-tx/
 > #HailDamage #InsuranceClaim #FriscoRoofing #DFW #RoofingMadeSweeter
 
@@ -135,9 +135,9 @@ last_updated: 2026-07-22
 **Right now the strongest CTA is the phone** — it converts fastest and needs zero setup.
 **Second-best:** the matching **live city page** (links above — all verified live).
 
-**Your dedicated capture page** (`Outbox_Drafts/Landing_Pages/cppa-capture-page.html`) is built but **not deployed and its form isn't connected.** To use it as the link:
+**Your dedicated capture page** (`Outbox_Drafts/Landing_Pages/free roof inspection-capture-page.html`) is built but **not deployed and its form isn't connected.** To use it as the link:
 1. Wire the form to Formspree (free) or your CRM — say the word and I'll do it.
-2. Deploy it to `pineappleroofingllc.com/cppa/`.
+2. Deploy it to `pineappleroofingllc.com/free roof inspection/`.
 3. Then swap every 🔗 above to that one URL and track conversions in GA4.
 
 **Until then: phone + city page. Don't send traffic to a dead form.**

@@ -1,6 +1,6 @@
 ---
 title: "Hail Damage Roof Repair in Frisco (What To Do First)"
-description: "Hail damage roof repair in Frisco TX starts with documentation. Book a Complimentary Professional Photo Audit — IKO Certified, RCAT #03-0637, since 2005."
+description: "Hail damage roof repair in Frisco TX starts with documentation. Book a free roof inspection — IKO Certified, RCAT #03-0637, since 2021."
 brand: "Pineapple Roofing"
 site: "pineapplecontractors.com"
 category: "Storm & Hail"
@@ -22,7 +22,7 @@ It bruises the shingle, fractures the mat underneath, and knocks the protective 
 
 Months later that "fine" roof is leaking over a tenant's ceiling, and the storm that caused it is long gone from your insurance window.
 
-I'm JR. Moeakiola with Pineapple Contractors, and I've walked thousands of Frisco roofs since 2005.
+I'm JR. Moeakiola with Pineapple Contractors, and I've walked thousands of Frisco roofs since 2021.
 
 Here is exactly what to do first, in the right order, so a hailstorm doesn't quietly turn into a five-figure repair.
 
@@ -68,7 +68,7 @@ It is a dated, photographic record of the damage.
 
 Insurance claims live and die on documentation, and memory is not evidence.
 
-This is exactly why we built the **Complimentary Professional Photo Audit (CPPA)**.
+This is exactly why we built the **free roof inspection**.
 
 Our IKO Certified team climbs the roof, photographs every slope, and records each hail strike, soft spot, and compromised flashing.
 
@@ -77,8 +77,8 @@ You receive a clear photo record you can hand straight to your carrier.
 That record becomes comprehensive documentation for a successful claim, instead of a "he said, she said" phone call weeks later.
 
 > **🍍 Storm just rolled through your Frisco property?**
-> Book a **Complimentary Professional Photo Audit (CPPA)** — we document every shingle so you have a comprehensive record for a successful claim.
-> **[→ Book your CPPA — call 972-928-0788](tel:+19729280788)**
+> Book a **free roof inspection** — we document every shingle so you have a comprehensive record for a successful claim.
+> **[→ Book your free roof inspection — call 972-928-0788](tel:+19729280788)**
 
 ## Step Two: Understand What Hail Actually Does To a Roof
 
@@ -121,7 +121,7 @@ Very few carry the credentials that protect you when the work is done.
 
 Pineapple Contractors is IKO Certified, RCAT Licensed #03-0637, and HUB Certified #1861616404400.
 
-We are Polynesian-owned, family operated, and we have served Frisco, Lewisville, and Austin since 2005.
+We are Polynesian-owned, family operated, and we have served Frisco, Lewisville, and Austin since 2021.
 
 Those credentials are not decoration.
 
@@ -131,7 +131,7 @@ You can see our recent work and real client projects on Instagram at [@pineapple
 
 ## What Hail Damage Roof Repair in Frisco Usually Involves
 
-Once your CPPA is complete, the path forward is clear and honest.
+Once your free roof inspection is complete, the path forward is clear and honest.
 
 Minor, isolated damage may only need a targeted repair and a monitoring plan.
 
@@ -146,7 +146,7 @@ No surprise scope, no pressure, just a value-engineered plan matched to what the
 ### How do I know if my Frisco roof has hail damage?
 You often cannot tell from the ground, which is the whole problem.
 
-The only reliable way is a close-up inspection of every slope, which is what a Complimentary Professional Photo Audit provides.
+The only reliable way is a close-up inspection of every slope, which is what a free roof inspection provides.
 
 ### Does insurance cover hail damage roof repair in Frisco TX?
 In many cases yes, especially when you have dated documentation tied to a specific storm event.
@@ -158,8 +158,8 @@ Your policy sets a limited window, and waiting weakens your position.
 
 The safest move is to document quickly, which is why we respond within five minutes.
 
-### Is the Complimentary Professional Photo Audit really no cost?
-Yes, the CPPA itself is complimentary and comes with no obligation.
+### Is the free roof inspection really no cost?
+Yes, the free roof inspection itself is complimentary and comes with no obligation.
 
 You keep the photo record whether or not you choose us for the repair.
 
@@ -170,16 +170,16 @@ The lowest bid often skips the layers hail actually damages, and you pay for it 
 
 ## About the Author
 
-I'm **JR. Moeakiola** with **Pineapple Contractors** — a Polynesian-owned, family-run roofing and restoration company serving Frisco and North Texas since 2005.
+I'm **JR. Moeakiola** with **Pineapple Contractors** — a Polynesian-owned, family-run roofing and restoration company serving Frisco and North Texas since 2021.
 
 - RCAT Licensed #03-0637 · HUB Certified #1861616404400
 - IKO Certified · 5-Star Rated
 - Serving Frisco, Lewisville, and Austin
 
-**[→ Book your Complimentary Professional Photo Audit — 972-928-0788](tel:+19729280788)**
+**[→ Book your free roof inspection — 972-928-0788](tel:+19729280788)**
 
 ---
 
 If a storm has passed over your property, do not wait for the leak to prove the damage.
 
-Book your CPPA today, protect your claim, and let a certified local team handle your hail damage roof repair in Frisco TX.
+Book your free roof inspection today, protect your claim, and let a certified local team handle your hail damage roof repair in Frisco TX.

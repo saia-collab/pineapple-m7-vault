@@ -4,7 +4,7 @@ type: strategy_extraction
 status: PAUSED — review; approved items fold into the Playbook/SEO SOPs
 date: 2026-08-07
 source: "H:\\My Drive\\SINGLE BRAIN MARKETING PLAYBOOK" (Google Doc, 13,578 words — read in full)
-brand_law: CPPA (never "free") · IKO (never GAF) · Full Restoration Coverage (never "$0 down") · The Pineapple Standard · RCAT #03-0637 · Navy #1A365D + Gold #FBC02D + Cyan #00BFFF · ZERO green · Outbox Shield
+brand_law: free roof inspection (never "free") · IKO (never GAF) · Full Restoration Coverage (never "full restoration coverage") · The Pineapple Standard · RCAT #03-0637 · Navy #003299 + Gold #ffdd17 + Cyan #003299 · ZERO green · Outbox Shield
 ---
 
 # 🧠 SINGLE BRAIN → M7 — the extraction
@@ -44,7 +44,7 @@ So the doc is the **story**; your `vendor/` folder is the **executable version o
 ---
 
 ## 3) ⚠️ BRAND CONFLICTS in Single Brain (fix before any of this copy goes near a customer)
-- 🛑 **"Free 15-Point Winter Roof Vulnerability Audit"** — the doc's signature offer uses **"free."** Convert to **"Complimentary 15-Point Roof Vulnerability Audit (CPPA)."** The *offer* is great; the *word* is banned.
+- 🛑 **"Free 15-Point Winter Roof Vulnerability Audit"** — the doc's signature offer uses **"free."** Convert to **"Complimentary 15-Point Roof Vulnerability Audit (free roof inspection)."** The *offer* is great; the *word* is banned.
 - 🛑 **"Free Estimate / Free Tools"** — the no-cost calculator is fine to build; any **button/headline** must read Complimentary, never "free."
 - ⚠️ **"Pineapple Contractor"** (singular, used ~40×) → our entity is **Pineapple Roofing / Pineapple Contractors**. Global find-replace when adopting the prompts.
 - 🛑 **"run fully autonomously" / auto-send / auto-reallocate budget** — Single Brain's own safety valve is the **"Calibration Loop"** (agent drafts → human reviews → then trust). **That IS your Outbox Shield.** Keep every money/send agent in draft-only mode. The doc agrees with you.

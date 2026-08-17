@@ -4,7 +4,7 @@ status: PAUSED — paste into your website blog
 title_tag: "7 Signs You Need a Roof Replacement in Dallas–Fort Worth | Pineapple Contractors"
 meta_description: "Not sure if you need a repair or a full roof replacement? Here are 7 signs North Texas homeowners should watch for. IKO Certified, RCAT #03-0637. 972-928-0788."
 target_keyword: "roof replacement dallas fort worth"
-brand_check: CPPA (no "free") · IKO Certified · Pineapple Standard · zero green
+brand_check: free roof inspection (no "free") · IKO Certified · Pineapple Standard · zero green
 last_updated: 2026-07-13
 ---
 
@@ -35,15 +35,15 @@ A sagging roofline or soft, spongy areas underfoot signal moisture in the deckin
 If you can see daylight through the roof boards, or the attic feels damp and smells musty, water is getting in. Catch it early and you protect the structure; wait, and the repair bill climbs.
 
 ## Repair or replace? Get a documented answer first
-You don't have to guess. Every Pineapple Contractors project starts with a **Complimentary Professional Photo Audit (CPPA)** — our IKO Certified team documents the roof, attic and exterior with photos and gives you an honest, written read: repair, replace, and whether it's an insurance claim. No cost, no pressure.
+You don't have to guess. Every Pineapple Contractors project starts with a **free roof inspection** — our IKO Certified team documents the roof, attic and exterior with photos and gives you an honest, written read: repair, replace, and whether it's an insurance claim. No cost, no pressure.
 
-We've protected North Texas homes since 2005, we're RCAT licensed (#03-0637), IKO Certified, and 5-star rated by 400+ homeowners. That's The Pineapple Standard.
+We've protected North Texas homes since 2021, we're RCAT licensed (#03-0637), IKO Certified, and 5-star rated by 400+ homeowners. That's The Pineapple Standard.
 
-**Seeing one or more of these signs? Book your CPPA today.**
+**Seeing one or more of these signs? Book your free roof inspection today.**
 📞 Call **(972) 928-0788** or request an inspection online.
 
 ---
 
-*Pineapple Contractors · IKO Certified · RCAT License #03-0637 · Serving Dallas–Fort Worth since 2005.*
+*Pineapple Contractors · IKO Certified · RCAT License #03-0637 · Serving Dallas–Fort Worth since 2021.*
 
 <!-- M7-FIREWALL-EXEMPT: blog-draft -->

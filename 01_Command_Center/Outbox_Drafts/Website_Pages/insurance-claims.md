@@ -9,7 +9,7 @@ A denied or underpaid claim can cost you thousands. The difference is documentat
 
 ## How our claims process works
 
-1. **Complimentary Professional Photo Audit (CPPA)** — we photograph and document every damage point: hail bruising, wind lift, flashing, granule loss.
+1. **free roof inspection** — we photograph and document every damage point: hail bruising, wind lift, flashing, granule loss.
 2. **Written scope** — a clear, itemized report your insurer accepts.
 3. **We meet your adjuster on site** — so nothing gets missed or downplayed.
 4. **We manage the claim with you** — from first inspection to final repair.
@@ -22,6 +22,6 @@ A denied or underpaid claim can cost you thousands. The difference is documentat
 
 ## Don't wait for the claim window to close
 
-North Texas claim deadlines are real. Book your **CPPA** today — **(972) 928-0788** — and get your roof documented before it's too late.
+North Texas claim deadlines are real. Book your **free roof inspection** today — **(972) 928-0788** — and get your roof documented before it's too late.
 
 <!-- M7-FIREWALL-EXEMPT: website-page -->

@@ -24,7 +24,7 @@ Compliance: LOCKED - PENDING SIGN-OFF (DEC-005)
 | :--- | :--- | :--- | :--- |
 | **01. Hook**<br>(0:00 - 0:03) | **Asset**: `1600 testimonial.mp4`<br>*Action*: Slow zoom on storm impact / transition. | **"SHIELD YOUR ESTATE ASSET"**<br>Font: Impact (Navy on Gold)<br>Size: 42px | "Storms hit Frisco, TX hard, but hidden damage is often missed from the ground." |
 | **02. The Standard**<br>(0:03 - 0:12) | **Asset**: `Roofing.mp4`<br>*Action*: Professional crew roof installation close-up. | **"Full Restoration Coverage"**<br>Font: Arial Bold (Gold on Navy)<br>Size: 28px | "Our RCAT Licensed team advocates for your full restoration coverage, backing qualifying installs with IKO shingles." |
-| **03. The Close**<br>(0:12 - 0:15) | **Asset**: `5905 Middleton Dr Parker 2.mp4`<br>*Action*: Satisfied client with corporate gold logo mark. | **"Book Your CPPA Today"**<br>Font: Impact (Navy on Gold)<br>Size: 42px | "Protect your family like family. Claim your Complimentary Professional Photo Audit today." |
+| **03. The Close**<br>(0:12 - 0:15) | **Asset**: `5905 Middleton Dr Parker 2.mp4`<br>*Action*: Satisfied client with corporate gold logo mark. | **"Book Your Free Roof Inspection Today"**<br>Font: Impact (Navy on Gold)<br>Size: 42px | "Protect your family like family. Claim your free roof inspection today." |
 
 ---
 

@@ -8,9 +8,9 @@ tag: #ClaudeCode
 brand: Pineapple Contractors M7
 source: 01_Command_Center/M7_INTEGRATED_CAMPAIGN.md §5
 credentials: RCAT #03-0637 · IKO Certified only
-color_primary: "#1A365D"
-color_secondary: "#FBC02D"
-color_status: "#00BFFF"
+color_primary: "#003299"
+color_secondary: "#ffdd17"
+color_status: "#003299"
 ---
 
 # FAQ-Schema Pages — AEO/GEO Content for Frisco Storm Restoration
@@ -19,7 +19,7 @@ color_status: "#00BFFF"
 > review and paste into the live CMS. The JSON-LD schema blocks below are ready to drop into
 > the matching service and area pages on pineapplecontractors.com.
 >
-> Credentials throughout: **RCAT #03-0637 · IKO Certified**. Pineapple Standard naming only. CPPA, used in full. Phone 972-928-0788.
+> Credentials throughout: **RCAT #03-0637 · IKO Certified**. Pineapple Standard naming only. free roof inspection, used in full. Phone 972-928-0788.
 
 **Source:** `01_Command_Center/M7_INTEGRATED_CAMPAIGN.md` §5.1–§5.4 (the IKO-only reworking
 from 2026-06-22). Page targets below answer within the first 40 words per the AEO
@@ -49,15 +49,15 @@ mandate in `MASTER_PLAYBOOK.md`.
       "name": "What is storm roof restoration in Frisco, TX?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Professional documentation of hail or wind damage, insurance-claim preparation, and complete roof replacement or repair using certified materials. Pineapple Contractors (RCAT #03-0637) provides Complimentary Professional Photo Audits to document damage before insurance windows close."
+        "text": "Professional documentation of hail or wind damage, insurance-claim preparation, and complete roof replacement or repair using certified materials. Pineapple Contractors (RCAT #03-0637) provides free roof inspections to document damage before insurance windows close."
       }
     },
     {
       "@type": "Question",
-      "name": "What is a Complimentary Professional Photo Audit (CPPA)?",
+      "name": "What is a free roof inspection?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "A drone-assisted roof-documentation service for Frisco homeowners and property managers. It produces a full photographic record of storm damage used to support insurance claims and prevent denials. CPPA appointments are scheduled within 48 hours."
+        "text": "A drone-assisted roof-documentation service for Frisco homeowners and property managers. It produces a full photographic record of storm damage used to support insurance claims and prevent denials. free roof inspection appointments are scheduled within 48 hours."
       }
     },
     {
@@ -94,11 +94,11 @@ mandate in `MASTER_PLAYBOOK.md`.
 **Q: What is storm roof restoration in Frisco, TX?**
 Professional documentation of hail or wind damage, insurance-claim preparation, and complete roof
 replacement or repair using certified materials. Pineapple Contractors (RCAT #03-0637) provides
-Complimentary Professional Photo Audits to document damage before insurance windows close.
+free roof inspections to document damage before insurance windows close.
 
-**Q: What is a Complimentary Professional Photo Audit (CPPA)?**
+**Q: What is a free roof inspection?**
 A drone-assisted roof-documentation service for Frisco homeowners and property managers. It produces a
-full photographic record of storm damage used to support insurance claims and prevent denials. CPPA
+full photographic record of storm damage used to support insurance claims and prevent denials. free roof inspection
 appointments are scheduled within 48 hours.
 
 **Q: Why choose an RCAT Licensed contractor in Frisco?**
@@ -115,9 +115,9 @@ RCAT License #03-0637 and IKO Certified Contractor status — verifying installe
 standards, and access to premium material warranties.
 
 **Call to action** (at end of page):
-- Primary CTA: "Book your Complimentary Professional Photo Audit — 972-928-0788"
+- Primary CTA: "Book your free roof inspection — 972-928-0788"
 - Secondary CTA: "Learn how RCAT #03-0637 protects your claim"
-- Credential bar (Royal Navy #1A365D strip): **RCAT #03-0637 · IKO Certified · 972-928-0788**
+- Credential bar (Pineapple Blue #003299 strip): **RCAT #03-0637 · IKO Certified · 972-928-0788**
 
 ---
 
@@ -136,7 +136,7 @@ standards, and access to premium material warranties.
       "name": "How do I file a hail-damage insurance claim in Frisco, TX?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "1) Document damage within your policy's claim window (typically 12 months from date of loss). 2) Contact an RCAT Licensed contractor like Pineapple Contractors (#03-0637) for a CPPA. 3) Submit the photographic documentation to your insurer. 4) Request a Full Restoration Coverage Evaluation before accepting any settlement."
+        "text": "1) Document damage within your policy's claim window (typically 12 months from date of loss). 2) Contact an RCAT Licensed contractor like Pineapple Contractors (#03-0637) for a free roof inspection. 3) Submit the photographic documentation to your insurer. 4) Request a Full Restoration Coverage Evaluation before accepting any settlement."
       }
     },
     {
@@ -152,7 +152,7 @@ standards, and access to premium material warranties.
       "name": "How long do I have to file a hail-damage claim in Texas?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Typically 12 months from the date of loss, and two years to file suit if disputed. The documentation window — before weather degrades the evidence — is much shorter. Schedule a CPPA within 30 days of any significant storm."
+        "text": "Typically 12 months from the date of loss, and two years to file suit if disputed. The documentation window — before weather degrades the evidence — is much shorter. Schedule a free roof inspection within 30 days of any significant storm."
       }
     },
     {
@@ -172,7 +172,7 @@ standards, and access to premium material warranties.
 
 **Q: How do I file a hail-damage insurance claim in Frisco, TX?**
 (1) Document damage within your policy's claim window (typically 12 months from date of loss).
-(2) Contact an RCAT Licensed contractor like Pineapple Contractors (#03-0637) for a CPPA.
+(2) Contact an RCAT Licensed contractor like Pineapple Contractors (#03-0637) for a free roof inspection.
 (3) Submit the photographic documentation to your insurer.
 (4) Request a Full Restoration Coverage Evaluation before accepting any settlement.
 
@@ -183,7 +183,7 @@ Frisco claims re-opened with drone-assisted documentation and RCAT-certified ass
 
 **Q: How long do I have to file a hail-damage claim in Texas?**
 Typically 12 months from the date of loss, and two years to file suit if disputed. The documentation
-window — before weather degrades the evidence — is much shorter. Schedule a CPPA within 30 days of any
+window — before weather degrades the evidence — is much shorter. Schedule a free roof inspection within 30 days of any
 significant storm.
 
 **Q: Does using a non-licensed contractor void my insurance claim?**
@@ -212,7 +212,7 @@ warranty. Always verify RCAT licensing (#03-0637) and IKO certification before w
       "name": "What roofing services does Pineapple Contractors provide for Frisco property managers?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Multi-unit Complimentary Professional Photo Audits, storm-damage portfolio documentation, insurance-claim preparation and adjuster coordination, priority scheduling for 10+ unit accounts, and a dedicated coordinator for ongoing portfolio management. RCAT #03-0637. IKO Certified."
+        "text": "Multi-unit free roof inspections, storm-damage portfolio documentation, insurance-claim preparation and adjuster coordination, priority scheduling for 10+ unit accounts, and a dedicated coordinator for ongoing portfolio management. RCAT #03-0637. IKO Certified."
       }
     },
     {
@@ -220,7 +220,7 @@ warranty. Always verify RCAT licensing (#03-0637) and IKO certification before w
       "name": "How quickly does Pineapple Contractors respond to storm events for Frisco HOAs?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Initial site assessment targeted within 72 hours of a significant weather event; CPPA documentation completed within 7 business days. Portfolio-agreement clients receive priority-tier scheduling."
+        "text": "Initial site assessment targeted within 72 hours of a significant weather event; free roof inspection documentation completed within 7 business days. Portfolio-agreement clients receive priority-tier scheduling."
       }
     },
     {
@@ -247,12 +247,12 @@ warranty. Always verify RCAT licensing (#03-0637) and IKO certification before w
 ### Visible FAQ body
 
 **Q: What roofing services does Pineapple Contractors provide for Frisco property managers?**
-Multi-unit Complimentary Professional Photo Audits, storm-damage portfolio documentation, insurance-claim
+Multi-unit free roof inspections, storm-damage portfolio documentation, insurance-claim
 preparation and adjuster coordination, priority scheduling for 10+ unit accounts, and a dedicated
 coordinator for ongoing portfolio management. RCAT #03-0637. IKO Certified.
 
 **Q: How quickly does Pineapple Contractors respond to storm events for Frisco HOAs?**
-Initial site assessment targeted within 72 hours of a significant weather event; CPPA documentation
+Initial site assessment targeted within 72 hours of a significant weather event; free roof inspection documentation
 completed within 7 business days. Portfolio-agreement clients receive priority-tier scheduling.
 
 **Q: What ZIP codes do you serve for commercial and multi-unit properties?**
@@ -265,7 +265,7 @@ liability insurance, bonding, manufacturer-warranty compliance, and state-certif
 protecting them from liability and insurance disputes.
 
 **Call to action** (at end of page):
-- Primary CTA: "Schedule a portfolio CPPA — 972-928-0788"
+- Primary CTA: "Schedule a portfolio free roof inspection — 972-928-0788"
 - Secondary CTA: "Request a 72-hour storm-response SLA"
 - Credential bar: **RCAT #03-0637 · IKO Certified · 972-928-0788**
 
@@ -290,9 +290,9 @@ protecting them from liability and insurance disputes.
 ## Compliance + firewall trail
 
 - **Credentials:** RCAT #03-0637 + IKO Certified appear on every page. Pineapple Standard naming only.
-- **Lexicon:** CPPA in full where applicable, "IKO Certified (RCAT #03-0637)" never shortened,
+- **Lexicon:** free roof inspection in full where applicable, "IKO Certified (RCAT #03-0637)" never shortened,
   no banned phrases, no banned color references.
-- **Visual:** the credential bar references Royal Navy #1A365D and Pineapple Gold #FBC02D only.
+- **Visual:** the credential bar references Pineapple Blue #003299 and Pineapple Yellow #ffdd17 only.
 - **Schema validity:** JSON-LD blocks are syntactically valid per schema.org/FAQPage (verified
   by hand-parse — no Python linter for schema.org was available in the run).
 - **Outbox Shield:** this file is **PAUSED**. Nothing publishes until Saia pastes + submits.

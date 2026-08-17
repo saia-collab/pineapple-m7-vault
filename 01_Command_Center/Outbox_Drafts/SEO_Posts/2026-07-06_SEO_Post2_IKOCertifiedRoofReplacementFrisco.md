@@ -12,9 +12,9 @@ status: "DRAFT — PAUSED — awaiting Saia GO (DEC-005 Outbox Shield)"
 
 > ⏸ DRAFT — PAUSED. Do not publish. Awaiting Saia's explicit GO. (Outbox Shield / DEC-005)
 
-> 🍍 Brand envelope: Royal Navy `#1A365D` · Pineapple Gold `#FBC02D` · Status Cyan `#00BFFF` · White. **Zero green.** Author: **JR. Moeakiola**. IKO Certified · RCAT #03-0637 · Since 2005 · 972-928-0788.
+> 🍍 Brand envelope: Pineapple Blue `#003299` · Pineapple Yellow `#ffdd17` · Status Cyan `#003299` · White. **Zero green.** Author: **JR. Moeakiola**. IKO Certified · RCAT #03-0637 · Since 2021 · 972-928-0788.
 
-![Pineapple Contractors — IKO Certified Roof Replacement in Frisco TX — System Warranty since 2005](https://pineapplecontractors.com/og/iko-certified-roof-replacement-frisco-tx.png)
+![Pineapple Contractors — IKO Certified Roof Replacement in Frisco TX — System Warranty since 2021](https://pineapplecontractors.com/og/iko-certified-roof-replacement-frisco-tx.png)
 
 # IKO Certified Roof Replacement in Frisco TX — Why the System Warranty Matters
 
@@ -24,7 +24,7 @@ The shingle is the same. The color is the same. The nailing pattern is the same.
 
 Most homeowners shopping for a re-roof in Frisco, Plano, McKinney, or Prosper never learn the distinction. They get two or three bids, glance at the bottom line, and pick the lowest. Then the storm hits, the manufacturer asks for proof of certified installation, and the homeowner finds out the warranty they thought they had does not exist on paper.
 
-I am **JR. Moeakiola** with **Pineapple Contractors** — a Polynesian-owned, family-run roofing company serving Frisco and North Texas since 2005. **RCAT License #03-0637 · IKO Certified · 5-Star Rated · HUB #1861616404400.** This post is the explanation I give every Frisco homeowner, property manager, and luxury estate owner who calls **972-928-0788** asking what an IKO Certified re-roof actually means and why the system warranty is worth the conversation.
+I am **JR. Moeakiola** with **Pineapple Contractors** — a Polynesian-owned, family-run roofing company serving Frisco and North Texas since 2021. **RCAT License #03-0637 · IKO Certified · 5-Star Rated · HUB #1861616404400.** This post is the explanation I give every Frisco homeowner, property manager, and luxury estate owner who calls **972-928-0788** asking what an IKO Certified re-roof actually means and why the system warranty is worth the conversation.
 
 <div style="text-align:center; margin: 24px 0;">
   <iframe width="848" height="485" src="https://www.youtube.com/embed/MSJaGroxnB4" title="Pineapple Contractors — Client Testimonial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -102,7 +102,7 @@ I am **JR. Moeakiola** with **Pineapple Contractors** — a Polynesian-owned, fa
         {
           "@type": "Question",
           "name": "How long does an IKO roof replacement take in Frisco?",
-          "acceptedAnswer": {"@type": "Answer", "text": "A typical single-family IKO roof replacement in Frisco takes 1 to 3 working days depending on size, slope complexity, and decking repairs. Pineapple Contractors schedules a CPPA (Complimentary Professional Photo Audit) before the install and a final photo audit after the install for warranty registration."}
+          "acceptedAnswer": {"@type": "Answer", "text": "A typical single-family IKO roof replacement in Frisco takes 1 to 3 working days depending on size, slope complexity, and decking repairs. Pineapple Contractors schedules a free roof inspection (free roof inspection) before the install and a final photo audit after the install for warranty registration."}
         },
         {
           "@type": "Question",
@@ -136,8 +136,8 @@ A non-certified contractor can still buy IKO shingles at the lumber yard. The ho
 That gap is the whole point of an IKO Certified roof replacement in Frisco TX.
 
 > **🍍 Considering a re-roof in Frisco, Plano, or McKinney?**
-> Book a **Complimentary Professional Photo Audit (CPPA)** before you sign — Pineapple's IKO Certified team photographs every slope, every penetration, and every ventilation point so you know exactly what your Full Restoration Coverage Evaluation covers.
-> **[→ Book your CPPA — call 972-928-0788](tel:+19729280788)**
+> Book a **free roof inspection** before you sign — Pineapple's IKO Certified team photographs every slope, every penetration, and every ventilation point so you know exactly what your Full Restoration Coverage Evaluation covers.
+> **[→ Book your free roof inspection — call 972-928-0788](tel:+19729280788)**
 
 ## The two warranty tiers side by side
 
@@ -157,9 +157,9 @@ That gap is the whole point of an IKO Certified roof replacement in Frisco TX.
 
 A Frisco IKO Certified roof replacement by Pineapple Contractors is not the same workflow as a non-certified install. The differences are small per step and large in aggregate.
 
-### Step 1 — CPPA before the estimate
+### Step 1 — free roof inspection before the estimate
 
-The project starts with a **Complimentary Professional Photo Audit** — drone and close-up photography of every slope, every valley, every penetration. We do not estimate a re-roof from the driveway. The CPPA captures the actual condition of decking, flashing, ventilation, and code-required upgrades so the Full Restoration Coverage Evaluation is accurate, not aspirational.
+The project starts with a **free roof inspection** — drone and close-up photography of every slope, every valley, every penetration. We do not estimate a re-roof from the driveway. The free roof inspection captures the actual condition of decking, flashing, ventilation, and code-required upgrades so the Full Restoration Coverage Evaluation is accurate, not aspirational.
 
 ### Step 2 — Decking inspection at tear-off
 
@@ -185,7 +185,7 @@ This is where the audit catches the bid-peddler. A non-certified crew reuses exi
 
 ### Step 6 — Final photo audit and warranty registration
 
-When the install is done, Pineapple does a **second CPPA** — a final photo audit of every slope, every flashing, every penetration. That photo set is the documentation that registers the system warranty with IKO. The homeowner gets the warranty certificate, the photo set, and the manufacturer's confirmation in writing.
+When the install is done, Pineapple does a **second free roof inspection** — a final photo audit of every slope, every flashing, every penetration. That photo set is the documentation that registers the system warranty with IKO. The homeowner gets the warranty certificate, the photo set, and the manufacturer's confirmation in writing.
 
 ## The Pineapple Standard on a Frisco re-roof
 
@@ -194,9 +194,9 @@ There is a reason we use the phrase **The Pineapple Standard** instead of "fast,
 - **IKO Certified** installation with documented system warranty
 - **RCAT License #03-0637** — state-issued, requires worker's comp and general liability
 - **HUB Certification #1861616404400** — State of Texas verified
-- **5-Star Rated** — sustained review history since 2005
+- **5-Star Rated** — sustained review history since 2021
 - **Family-owned and minority-owned** — decisions in Frisco, not on a national claims hotline
-- **Documentation-first, never high-pressure** — two CPPAs per project (before and after)
+- **Documentation-first, never high-pressure** — two free roof inspections per project (before and after)
 - **Full Restoration Coverage Evaluation** — value-engineered scope, never the cheapest line on the estimate
 
 > **See recent Pineapple projects on Instagram:** [https://www.instagram.com/pineappleroofing/](https://www.instagram.com/pineappleroofing/)
@@ -205,7 +205,7 @@ There is a reason we use the phrase **The Pineapple Standard** instead of "fast,
 
 There are five reasons a Frisco property owner calls Pineapple for a re-roof:
 
-1. **Hail damage — full-slope replacement.** The 2025–2026 storm season produced multiple 4.0"+ swaths. A CPPA documents the loss; the Full Restoration Coverage Evaluation matches the carrier's scope and adds any code-required upgrades.
+1. **Hail damage — full-slope replacement.** The 2025–2026 storm season produced multiple 4.0"+ swaths. A free roof inspection documents the loss; the Full Restoration Coverage Evaluation matches the carrier's scope and adds any code-required upgrades.
 2. **Age — end of useful life.** Architectural shingles in North Texas have a 20–25 year realistic life under our UV and heat. If the roof is past year 18 and showing granule loss, a re-roof is on the horizon whether or not there is a storm.
 3. **Insurance posture — Class 4 upgrade.** Some Frisco carriers discount the premium for Class 4 impact-resistant shingles (IKO Nordic). The discount is real, the paperwork is documented, and Pineapple registers the certificate.
 4. **Sale of property.** A Frisco estate going on the market benefits from a transferable IKO system warranty — the buyer's inspector flags it, the buyer's lender flags it, and the system warranty is the cleanest answer.
@@ -214,7 +214,7 @@ There are five reasons a Frisco property owner calls Pineapple for a re-roof:
 ## What an IKO Certified Frisco re-roof is NOT
 
 - It is not the lowest bid. The lowest bid in roofing is almost always a material-warranty install with reused flashing, single-layer underlayment, and a 1-year workmanship clause.
-- It is not a same-day complimentary estimate. We do not do drive-by bids. The CPPA is the estimate.
+- It is not a same-day complimentary estimate. We do not do drive-by bids. The free roof inspection is the estimate.
 - It is not a competing-brand roll-up. Pineapple is local, family-owned, and decision-makers answer the phone at **972-928-0788**.
 - It is not a manufacturer-name gimmick. IKO is the manufacturer; the certified label is IKO Certified. We lead with the standard we actually hold.
 
@@ -234,7 +234,7 @@ For most North Texas homes, Pineapple Contractors recommends IKO Cambridge® (ar
 
 ### How long does an IKO roof replacement take in Frisco?
 
-A typical single-family IKO roof replacement in Frisco takes 1 to 3 working days depending on size, slope complexity, and decking repairs. Pineapple schedules a CPPA before the install and a final photo audit after the install for warranty registration.
+A typical single-family IKO roof replacement in Frisco takes 1 to 3 working days depending on size, slope complexity, and decking repairs. Pineapple schedules a free roof inspection before the install and a final photo audit after the install for warranty registration.
 
 ### Do I need a permit for a roof replacement in Frisco TX?
 
@@ -257,23 +257,23 @@ A value-engineered IKO Certified re-roof in Frisco typically starts in the high 
 
 > **🍍 Ready for an IKO Certified re-roof in Frisco?**
 > Call **972-928-0788** or book online. IKO Certified, RCAT Licensed, family-owned — the documentation your property deserves.
-> **[→ Book your Complimentary Professional Photo Audit — 972-928-0788](tel:+19729280788)**
+> **[→ Book your free roof inspection — 972-928-0788](tel:+19729280788)**
 
 ---
 
 ## About the Author
 
-I am **JR. Moeakiola** with **Pineapple Contractors** — a Polynesian-owned, family-run roofing and restoration company serving Frisco and North Texas since 2005.
+I am **JR. Moeakiola** with **Pineapple Contractors** — a Polynesian-owned, family-run roofing and restoration company serving Frisco and North Texas since 2021.
 
 - RCAT Licensed **#03-0637** · HUB Certified **#1861616404400**
 - IKO Certified · 5-Star Rated
 - Serving Frisco, Lewisville, and Austin
 
-**[→ Book your Complimentary Professional Photo Audit — 972-928-0788](tel:+19729280788)**
+**[→ Book your free roof inspection — 972-928-0788](tel:+19729280788)**
 
 ---
 
 
-When your property needs an **IKO Certified roof replacement in Frisco TX**, call **972-928-0788** and book your **Complimentary Professional Photo Audit** with Pineapple Contractors — IKO Certified, RCAT Licensed, and protecting your family's investment since 2005.
+When your property needs an **IKO Certified roof replacement in Frisco TX**, call **972-928-0788** and book your **free roof inspection** with Pineapple Contractors — IKO Certified, RCAT Licensed, and protecting your family's investment since 2021.
 
-<!-- DRAFT — DO NOT SEND · PAUSED (Outbox Shield DEC-005) · Author: JR. Moeakiola · Brand: Navy #1A365D + Gold #FBC02D + Cyan #00BFFF, zero green -->
+<!-- DRAFT — DO NOT SEND · PAUSED (Outbox Shield DEC-005) · Author: JR. Moeakiola · Brand: Navy #003299 + Gold #ffdd17 + Cyan #003299, zero green -->

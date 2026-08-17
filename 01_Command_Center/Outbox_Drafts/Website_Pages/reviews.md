@@ -5,7 +5,7 @@ meta: 400+ North Texas homeowners rate Pineapple Contractors 5 stars. Read revie
 
 ## 5-Star Rated by 400+ North Texas Homeowners
 
-Reviews are how local families find a roofer they can trust — and we're proud of the ones we've earned across Dallas–Fort Worth since 2005.
+Reviews are how local families find a roofer they can trust — and we're proud of the ones we've earned across Dallas–Fort Worth since 2021.
 
 ## What our customers say
 
@@ -23,6 +23,6 @@ Every review reflects The Pineapple Standard: careful craftsmanship, clear commu
 
 ## Ready to join them?
 
-Book your **Complimentary Professional Photo Audit** — **(972) 928-0788**. IKO Certified · RCAT #03-0637.
+Book your **free roof inspection** — **(972) 928-0788**. IKO Certified · RCAT #03-0637.
 
 <!-- M7-FIREWALL-EXEMPT: website-page -->

@@ -6,15 +6,15 @@ deploy_to: "pineappleroofingllc.com/locations/southlake-tx/roof-replacement/"
 type: BOFU_location_service_page
 status: PAUSED — human review before publish (Outbox Shield)
 format: AEO (answer-first H1, CNBC-style bullets) per Single Brain seo-ops play
-brand_law: CPPA (never "free") · IKO Certified (never GAF) · Full Restoration Coverage · RCAT #03-0637 · Navy/Gold/Cyan · ZERO green · (972) 928-0788
+brand_law: free roof inspection (never "free") · IKO Certified (never GAF) · Full Restoration Coverage · RCAT #03-0637 · Navy/Gold/Cyan · ZERO green · (972) 928-0788
 word_count: ~1150
 ---
 
 # How Much Does a Roof Replacement Cost in Southlake, TX?
 
-A full roof replacement in Southlake, TX typically runs **$9,500 to $26,000+**, depending on your roof's size, pitch, and the material you choose. Most Southlake homes with architectural asphalt shingles land in the **$12,000–$18,000** range — and if your roof was hit by hail or wind, a large share of that cost may be covered under your homeowner's policy. The fastest way to get your exact number is a **Complimentary Professional Photo Audit (CPPA)** from a local, RCAT-licensed roofer: **(972) 928-0788**.
+A full roof replacement in Southlake, TX typically runs **$9,500 to $26,000+**, depending on your roof's size, pitch, and the material you choose. Most Southlake homes with architectural asphalt shingles land in the **$12,000–$18,000** range — and if your roof was hit by hail or wind, a large share of that cost may be covered under your homeowner's policy. The fastest way to get your exact number is a **free roof inspection** from a local, RCAT-licensed roofer: **(972) 928-0788**.
 
-Pineapple Roofing has replaced roofs across Southlake and the surrounding DFW communities since 2005. We're **IKO Certified**, **RCAT License #03-0637**, and 5-star rated — and every estimate is a fixed, written scope, not a moving target.
+Pineapple Roofing has replaced roofs across Southlake and the surrounding DFW communities since 2021. We're **IKO Certified**, **RCAT License #03-0637**, and 5-star rated — and every estimate is a fixed, written scope, not a moving target.
 
 ---
 
@@ -38,13 +38,13 @@ Roofing quotes vary for a handful of concrete reasons. Here's what actually move
 - **Standing-seam metal:** 50-year lifespan, excellent in heat and hail, higher upfront cost.
 - **Tile / slate:** premium look and longevity for the right Southlake home; heavier and pricier to install.
 
-Not sure what's on your roof now or what it should be? That's exactly what the CPPA answers.
+Not sure what's on your roof now or what it should be? That's exactly what the free roof inspection answers.
 
 ---
 
 ## The Pineapple Roofing replacement process (what to expect)
 
-1. **Complimentary Professional Photo Audit (CPPA).** We photograph and document your roof's condition — no obligation, no pressure. You get the photos.
+1. **free roof inspection.** We photograph and document your roof's condition — no obligation, no pressure. You get the photos.
 2. **Written scope & options.** A fixed, itemized estimate with material and warranty choices. If it's storm-related, we walk your insurance path with you.
 3. **Schedule & materials.** Most Southlake replacements are completed in **1–2 days** once materials are delivered.
 4. **Tear-off, inspect, install.** Old roof removed, decking inspected and repaired, new IKO system installed to manufacturer spec.
@@ -54,7 +54,7 @@ Not sure what's on your roof now or what it should be? That's exactly what the C
 
 ## Is your roof storm-damaged? (Southlake sits in hail country)
 
-North Texas takes some of the heaviest hail in the country, and Southlake is squarely in it. Hail and wind damage is often **not visible from the ground** — bruised shingles, granule loss, and cracked seals shorten your roof's life quietly. If your roof is 10+ years old or you've had a recent storm, a CPPA tells you whether you're looking at a repair, a replacement, or a valid insurance claim under **Full Restoration Coverage**.
+North Texas takes some of the heaviest hail in the country, and Southlake is squarely in it. Hail and wind damage is often **not visible from the ground** — bruised shingles, granule loss, and cracked seals shorten your roof's life quietly. If your roof is 10+ years old or you've had a recent storm, a free roof inspection tells you whether you're looking at a repair, a replacement, or a valid insurance claim under **Full Restoration Coverage**.
 
 ---
 
@@ -62,7 +62,7 @@ North Texas takes some of the heaviest hail in the country, and Southlake is squ
 
 - **RCAT License #03-0637** — licensed, accountable, and local.
 - **IKO Certified** installers — manufacturer-backed workmanship and warranty.
-- **Roofing DFW since 2005** — 5-star rated, with hundreds of local reviews.
+- **Roofing DFW since 2021** — 5-star rated, with hundreds of local reviews.
 - **Fixed written scope** — the number we quote is the number, in writing.
 - **Insurance-savvy** — we document thoroughly and stand with you through the claim.
 
@@ -74,21 +74,21 @@ North Texas takes some of the heaviest hail in the country, and Southlake is squ
 Most single-family homes are completed in 1–2 days after materials arrive, weather permitting.
 
 **Will insurance cover my roof replacement?**
-If the damage is from hail or wind, often yes. We document the damage in your CPPA and help you pursue Full Restoration Coverage through your policy.
+If the damage is from hail or wind, often yes. We document the damage in your free roof inspection and help you pursue Full Restoration Coverage through your policy.
 
 **How much does a new roof cost in Southlake, TX?**
-Typically $9,500–$26,000+, with most architectural-shingle homes between $12,000 and $18,000. Your exact price depends on size, pitch, and material — the CPPA gives you a firm number.
+Typically $9,500–$26,000+, with most architectural-shingle homes between $12,000 and $18,000. Your exact price depends on size, pitch, and material — the free roof inspection gives you a firm number.
 
 **Are you licensed and certified?**
-Yes — RCAT License #03-0637 and IKO Certified, serving DFW since 2005.
+Yes — RCAT License #03-0637 and IKO Certified, serving DFW since 2021.
 
 ---
 
-## Book your Complimentary Professional Photo Audit
+## Book your free roof inspection
 
 Get a documented, no-obligation look at your Southlake roof and a fixed written estimate.
-**Call (972) 928-0788** or request your CPPA online.
-*Pineapple Roofing · RCAT #03-0637 · IKO Certified · 5-Star Rated · Serving Southlake & DFW since 2005.*
+**Call (972) 928-0788** or request your free roof inspection online.
+*Pineapple Roofing · RCAT #03-0637 · IKO Certified · 5-Star Rated · Serving Southlake & DFW since 2021.*
 
 ---
 

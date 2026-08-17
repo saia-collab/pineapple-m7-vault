@@ -43,12 +43,12 @@ Pass only if all are true:
 
 Pass only if all are true:
 
-- The public offer is written as **“Complimentary Professional Photo Audit (CPPA)”** on first use. It is never marketed as “free.”
+- The public offer is written as **“free roof inspection”** on first use. It is never marketed as “free.”
 - The credential appears exactly as **“IKO Certified.”** The page does not claim GAF certification.
 - The license appears exactly as **“RCAT License #03-0637.”**
 - The copy says Pineapple Roofing **serves Grapevine**; it does not claim an office, headquarters, storefront, mailing address, branch, or physical presence in Grapevine unless an approved source proves that location.
 - No invented or unsupported review quote, reviewer identity, star rating, review count, award, ranking, founding date, customer/project count, price, financing promise, turnaround time, warranty term, manufacturer warranty interpretation, storm date, weather event, insurance coverage decision, claim approval, settlement, deductible outcome, or carrier relationship appears.
-- Insurance language does not promise coverage, payment, approval, replacement, waived deductibles, or a particular claim outcome.
+- Insurance language does not promise coverage, payment, approval, replacement, the full scope the carrier pays fors, or a particular claim outcome.
 - All material trust claims beyond IKO Certified and RCAT #03-0637 either cite the approved source pack or carry a clear editorial `[VERIFY BEFORE PUBLISHING]` flag and are excluded from public-ready copy.
 - No visible design specification, CSS token, SVG fill, icon, button, badge, or image direction uses green. Search case-insensitively for `green`, common green color names, and green hex/RGB/HSL values; visual review is still required.
 
@@ -79,7 +79,7 @@ Score only after Gates A–D pass. Each criterion receives full points only when
 - **6:** The first 80 words directly answer what a Grapevine user needs from a roofing company: service availability, core roofing help, and the next action. No generic brand story before the answer.
 - **4:** “Grapevine roofing company” appears naturally in the H1 or first 100 words, without awkward exact-match repetition.
 - **3:** The opening names IKO Certified and RCAT License #03-0637 accurately.
-- **2:** The opening or first screen contains a clear CPPA action.
+- **2:** The opening or first screen contains a clear free roof inspection action.
 
 ### 2) Local usefulness and original value — 18 points
 
@@ -92,7 +92,7 @@ Score only after Gates A–D pass. Each criterion receives full points only when
 ### 3) Factual trust and compliance — 20 points
 
 - **6:** IKO Certified and RCAT License #03-0637 are visible, accurate, and not embellished.
-- **5:** CPPA is explained clearly and does not use “free.”
+- **5:** free roof inspection is explained clearly and does not use “free.”
 - **5:** No prohibited or unverifiable claims appear in visible copy, metadata, alt text, CTA, or schema.
 - **4:** Trust is built with transparent process, documentation, credential language, and clear contact action—not fabricated social proof.
 
@@ -107,8 +107,8 @@ Score only after Gates A–D pass. Each criterion receives full points only when
 
 ### 5) Conversion and CTA execution — 10 points
 
-- **4:** At least two visible CTAs exist—one above the fold and one after decision-supporting copy—and both offer the CPPA.
-- **2:** First use spells out Complimentary Professional Photo Audit (CPPA); later uses may use CPPA.
+- **4:** At least two visible CTAs exist—one above the fold and one after decision-supporting copy—and both offer the free roof inspection.
+- **2:** First use spells out free roof inspection; later uses may use free roof inspection.
 - **2:** CTA describes what the user receives without overstating insurer acceptance or guaranteeing results.
 - **2:** Phone/link/contact details are included only if verified and are consistent with schema.
 
@@ -123,7 +123,7 @@ Score only after Gates A–D pass. Each criterion receives full points only when
 - **3:** Prose is specific, professional, and understandable; paragraphs are generally short and no section is padded to reach 1,200 words.
 - **2:** Scannable headings, lists, and answer blocks support mobile reading.
 - **2:** Links and CTA labels are descriptive; images have meaningful, non-stuffed alt text; heading order is accessible.
-- **2:** No green appears in design directions or assets; approved brand treatment should use Royal Navy `#1A365D`, Pineapple Gold `#FBC02D`, and optional Status Cyan `#00BFFF`.
+- **2:** No green appears in design directions or assets; approved brand treatment should use Pineapple Blue `#003299`, Pineapple Yellow `#ffdd17`, and optional Status Cyan `#003299`.
 - **1:** No keyword stuffing, doorway-page language, or near-duplicate city-swap prose is evident.
 
 ## 3. Decision thresholds
@@ -157,7 +157,7 @@ Score only after Gates A–D pass. Each criterion receives full points only when
 - Word count is under 1,200 after excluding schema and editorial notes.
 - Draft is missing `STATUS: PAUSED` or implies it is live.
 - Copy says “Grapevine office,” “located in Grapevine,” or supplies a Grapevine address without proof.
-- “Free inspection” replaces the required CPPA wording.
+- “Free inspection” replaces the required free roof inspection wording.
 - GAF certification appears, or IKO Certified / RCAT License #03-0637 is missing or altered.
 - A review, warranty, storm event/date, or insurance outcome is presented without an approved source.
 - LocalBusiness or FAQPage JSON-LD is missing, unparsable, contradictory, or not aligned to visible copy.
@@ -201,7 +201,7 @@ Submit one complete PAUSED location-page file containing:
 
 1. SEO title, meta description, proposed slug, and canonical.
 2. At least 1,200 words of customer-facing body copy.
-3. Answer-first opening and CPPA CTAs.
+3. Answer-first opening and free roof inspection CTAs.
 4. Visible IKO Certified and RCAT License #03-0637 trust signals.
 5. Visible FAQs.
 6. LocalBusiness/RoofingContractor and FAQPage JSON-LD.

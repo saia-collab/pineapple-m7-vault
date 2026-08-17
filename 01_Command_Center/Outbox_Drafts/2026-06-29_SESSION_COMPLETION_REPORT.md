@@ -74,9 +74,9 @@ Or use the `/learn` command to register it.
 - **Tier 2 (Agent Grid):** 6 clickable agent cards (Claude, Hermes, OpenClaw, Paperclip, NotebookLM, Free Claude) with status badges, metadata, open buttons — click any card for a detail modal
 - **Kanban board:** 4 columns (Inbox / In Progress / Review / Done) pre-populated with current task state
 - **Activity Log:** Timestamped system log panel showing today's operations
-- **Tier 3 (95px Navy footer):** Full credential bar (RCAT #03-0637 · IKO Certified · 5-Star · Since 2005 · 972-928-0788) + WIRED bar + OUTBOX SHIELD ACTIVE badge
+- **Tier 3 (95px Navy footer):** Full credential bar (RCAT #03-0637 · IKO Certified · 5-Star · Since 2021 · 972-928-0788) + WIRED bar + OUTBOX SHIELD ACTIVE badge
 
-**Brand compliance:** Navy `#1A365D` · Gold `#FBC02D` · Cyan `#00BFFF` · White `#FFFFFF` — **zero green anywhere**. All M7 lexicon rules respected. No external dependencies.
+**Brand compliance:** Navy `#003299` · Gold `#ffdd17` · Cyan `#003299` · White `#FFFFFF` — **zero green anywhere**. All M7 lexicon rules respected. No external dependencies.
 
 ---
 

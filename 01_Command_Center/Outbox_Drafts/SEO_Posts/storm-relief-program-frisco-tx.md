@@ -1,6 +1,6 @@
 ---
 title: "Storm Relief for Frisco Homeowners — Priority Photo Audit"
-description: "Hit by a North Texas storm? Pineapple Contractors offers priority Complimentary Professional Photo Audits for Frisco families. RCAT #03-0637, since 2005."
+description: "Hit by a North Texas storm? Pineapple Contractors offers priority free roof inspections for Frisco families. RCAT #03-0637, since 2021."
 brand: "Pineapple Roofing"
 site: "pineapplecontractors.com"
 category: "Storm Relief"
@@ -28,7 +28,7 @@ Elderly homeowners get scheduled first.
 
 Property managers with tenants at risk get scheduled first.
 
-Everyone gets the same honest starting point: a Complimentary Professional Photo Audit that documents every slope of your roof.
+Everyone gets the same honest starting point: a free roof inspection that documents every slope of your roof.
 
 You keep that photo record whether or not you ever hire us.
 
@@ -45,7 +45,7 @@ It also protects you from anyone who would pressure you into work you do not nee
 A clear record puts you in control of your own claim.
 
 > **🍍 Storm just hit your Frisco home?**
-> Book a **priority Complimentary Professional Photo Audit (CPPA)** — we document everything so you have a comprehensive record for a successful claim.
+> Book a **priority free roof inspection** — we document everything so you have a comprehensive record for a successful claim.
 > **[→ Get priority storm relief — call 972-928-0788](tel:+19729280788)**
 
 ## Who We Are
@@ -54,14 +54,14 @@ Pineapple Contractors is Polynesian-owned and family operated.
 
 We are RCAT Licensed #03-0637, HUB Certified #1861616404400, and IKO Certified.
 
-We are 5-Star rated and have served Frisco, Lewisville, and Austin since 2005.
+We are 5-Star rated and have served Frisco, Lewisville, and Austin since 2021.
 
 You can see our real work and neighbours we have helped on Instagram at [@pineappleroofing](https://www.instagram.com/pineappleroofing/).
 
 ## Frequently Asked Questions
 
 ### Is the storm relief photo audit really no cost?
-Yes — the Complimentary Professional Photo Audit is exactly that, with no obligation.
+Yes — the free roof inspection is exactly that, with no obligation.
 
 You keep the documentation regardless of what you decide.
 
@@ -77,13 +77,13 @@ Honest evidence, clearly recorded, in your hands.
 
 ## About the Author
 
-I'm **JR. Moeakiola** with **Pineapple Contractors** — a Polynesian-owned, family-run roofing and restoration company serving Frisco and North Texas since 2005.
+I'm **JR. Moeakiola** with **Pineapple Contractors** — a Polynesian-owned, family-run roofing and restoration company serving Frisco and North Texas since 2021.
 
 - RCAT Licensed #03-0637 · HUB Certified #1861616404400
 - IKO Certified · 5-Star Rated
 - Serving Frisco, Lewisville, and Austin
 
-**[→ Book your priority Complimentary Professional Photo Audit — 972-928-0788](tel:+19729280788)**
+**[→ Book your priority free roof inspection — 972-928-0788](tel:+19729280788)**
 
 ---
 

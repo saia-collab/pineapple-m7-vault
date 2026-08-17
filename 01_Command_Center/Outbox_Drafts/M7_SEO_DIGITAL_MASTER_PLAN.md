@@ -3,7 +3,7 @@ title: M7 — SEO / Google / Digital Marketing MASTER PLAN (CEO·VP read)
 type: strategy
 status: PAUSED — decisions needed from Saia + Naa Sione
 date: 2026-08-06
-brand_law: CPPA (never "free") · IKO (never GAF) · Full Restoration Coverage (never "$0 down") · The Pineapple Standard · RCAT #03-0637 · Navy #1A365D + Gold #FBC02D + Cyan #00BFFF · ZERO green · Outbox Shield
+brand_law: free roof inspection (never "free") · IKO (never GAF) · Full Restoration Coverage (never "full restoration coverage") · The Pineapple Standard · RCAT #03-0637 · Navy #003299 + Gold #ffdd17 + Cyan #003299 · ZERO green · Outbox Shield
 ---
 
 # 🏛️ M7 — THE HONEST STRATEGIC READ
