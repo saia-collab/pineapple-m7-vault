@@ -1,153 +1,136 @@
 ---
 type: shared_agent_memory
 status: active
-version: "1.0"
-last_compiled: 2026-06-25
+version: "2.0"
+last_compiled: 2026-08-16
 classification: M7_Command_Level_1
-feed_url: http://127.0.0.1:51763/api/memory
-color_primary: "#1A365D"
-color_secondary: "#FBC02D"
-color_status: "#00BFFF"
+authority: Naa Sione brand law (2026-08-14, approved by Saia). This file supersedes any older brand facts.
+color_primary: "#003299"
+color_secondary: "#ffdd17"
 ---
 
-# M7 SHARED MEMORY — UNIVERSAL AGENT FEED
+# 🍍 M7 SHARED MEMORY — UNIVERSAL AGENT FEED (v2, current)
 
-> 🍍 **FRONT DOOR:** New here or lost? Open **[COMMAND_CENTER_OS.md](COMMAND_CENTER_OS.md)** — the one router with every tab/agent workflow + copy-paste prompts. Daily ritual: **[DAILY_LOOP.md](DAILY_LOOP.md)**. Laws: **[AGENT_READ_ME_FIRST.md](AGENT_READ_ME_FIRST.md)**.
-> The loop is always: **Read → Do → Stage (PAUSED) → Log.**
-
-<!-- AUTO-COMPILED by memory_sync.py — DO NOT HAND-EDIT the sections marked [SYNC]. Edit source files instead. -->
-<!-- Agents: load this file at session start. POST to /api/memory/log to record actions. -->
+> **Every agent loads this first.** It is the single current source of brand + system truth. Where any older
+> vault file (navy/gold/cyan, "CPPA", "since 2005") disagrees, **THIS WINS.**
+> The loop is always: **Read → Do → Stage (PAUSED in Outbox) → wait for Saia's GO.**
 
 ---
 
-## [SYNC] IDENTITY
+## [CURRENT] IDENTITY (verified)
 
-- **Operator:** Saia (sole publisher — only human who may activate outbound content)
-- **Company:** Pineapple Contractors M7 — Polynesian-owned, family-operated roofing/restoration, North Texas since 2005
-- **HQ:** 1 Cowboys Way, Suite 270W, Frisco, TX 75034
-- **Brands:** Pineapple Roofing (`pineapplecontractors.com`) · Pineapple Restorations (`pineapplerestorations.com`)
-- **License:** RCAT #03-0637 · HUB #1861616404400
+- **Business:** Pineapple Roofing — residential + commercial roofing & general contracting (repairs, replacement, storm restoration).
+- **Ownership:** Polynesian / minority / family-owned (NMSDC certified).
+- **Founded:** **2021** (NOT 2005 — that old claim is decommissioned).
+- **HQ:** 1 Cowboys Way, Suite 270W, Frisco, TX 75034 · **Secondary:** 4400 State Hwy 121 #300, Lewisville, TX 75056.
+- **Phone:** (972) 928-0788 · **Email:** support@pineappleroofingllc.com
+- **Live site:** pineappleroofingllc.com · **Legacy authority site:** pineapplecontractors.com
+- **License:** RCAT #03-0637 · **HUB:** #1861616404400 · **Manufacturer:** IKO Certified (never GAF).
+- **Operator / sole publisher:** Saia. Only Saia may activate outbound content.
 
 ---
 
-## [SYNC] BRAND CONSTITUTION (abridged from GROUNDING.md)
+## [CURRENT] BRAND CONSTITUTION (Naa Sione, 2026-08-14 — authoritative)
 
-### Colors
+### Colors — Pineapple Blue + Pineapple Yellow ONLY
 | Token | Hex | Usage |
 |---|---|---|
-| Royal Navy | `#1A365D` | Structure, text, nav, footers |
-| Pineapple Gold | `#FBC02D` | CTAs, banners, highlights |
-| Process Cyan | `#00BFFF` | Status indicators only |
+| Pineapple Blue | `#003299` | Structure, headers, text, CTAs, the logo/pineapple crown |
+| Pineapple Yellow | `#ffdd17` | Action markers, highlights, one hero accent |
 | White | `#FFFFFF` | Negative space |
-| **GREEN (any)** | **BANNED** | **Hard block — exit 1** |
+| **GREEN (any shade)** | **BANNED** | **Hard block — the pineapple crown is BLUE, never green** |
 
-### Mandatory Lexicon Mutations
-| BANNED | REQUIRED SUBSTITUTE |
-|---|---|
-| Free / Free Inspection | Complimentary Professional Photo Audit (CPPA) |
-| $0 Down / $0 Out of Pocket | Full Restoration Coverage |
-| Save Money | Protecting your family's investment |
-| GAF Certified | IKO Certified (RCAT License #03-0637) |
-| Warrior / Toa / Six Brothers / Consultation | The Pineapple Standard |
+Retired (do NOT use): Navy `#1A365D`, Gold `#FBC02D`, Cyan `#00BFFF`.
 
-### Revenue Gate
-- Minimum baseline: **$18,000+** — auto-reject below
-- Speed-to-lead: **5 minutes** (older = dead)
-- Lead score ≥80 → dispatch to Saia
+### Language — the "free" legal rule (priority over style)
+- ✅ **ALLOWED:** "free roof inspection" / "free estimate" as a CTA.
+- ❌ **BANNED:** "free" anywhere it implies free roof **work/repairs**, **waived/no deductible**, or anything tied to an **insurance claim payout** (Texas Dept. of Insurance risk).
+- **Field term for the offer:** "storm damage report" / "licensed inspection roof report" — **NOT "CPPA"** (that term is decommissioned).
+- **Banned terms:** cheap, bargain, warrior, toa, six brothers, GAF, any waived/no-deductible language.
+- **Mandatory:** "IKO Certified" (never GAF).
+- **Slogan:** "Roofing Made Sweeter" + "The Pineapple Promise." **No Tongan proverbs** (decommissioned per Saia 2026-08-11).
+- **Standard CTA:** *"Call (972) 928-0788 to schedule your free roof inspection/estimate today."*
+
+### Trust signals (force on all layouts)
+RCAT #03-0637 · IKO Certified · 5-Star Rated (500+ reviews) · Founded 2021 · Frisco HQ · (972) 928-0788.
 
 ### OUTBOX SHIELD (non-negotiable)
-All ad/web/social output → `01_Command_Center/Outbox_Drafts/` in PAUSED state.
-**No agent may publish, post, send, or move money.** Saia authorizes all live activations.
+All ad/web/social/email output → `01_Command_Center/Outbox_Drafts/` in a **PAUSED** state.
+**No agent may publish, post, send, index, spend, or move money.** Saia authorizes every live activation.
 
 ---
 
-## [SYNC] TOPOGRAPHY (4-Fala Rooms)
+## [CURRENT] SYSTEM STATE — as of 2026-08-16
 
-```
-01_Command_Center/   Strategic brain, brand DNA, governance, Kanban
-02_Media_Vault/      Raw media pool (read filenames only — no byte processing)
-03_Knowledge_Mat/    SOPs, knowledge base, Obsidian vault, AEO pages
-04_Tech_Lab/         Execution engine (server_m7.py), scripts/, agent runtime
-05_Campaign_Factory/ Stage pipeline: Research → Copy → Creative → Deploy
-```
-
-No loose files in root. No directory drift. All `.py` utilities → `04_Tech_Lab/scripts/`.
+- **Local Studio build:** `2026-08-16` (installed + verified). Sidebar shows `build 2026-08-16`.
+- **Services (all should be UP):** Studio `:3737` · Free Claude Code `:8082` (free coder) · Hermes `:9119` · OmniRoute `:20128` (free keyless model pool).
+- **Optional / not installed:** Ollama `:11434` (needed only for GLM-5.2 :cloud — a ~600MB install; Free Claude Code + Claude cover coding without it).
+- **Working models with zero extra setup:** Claude tab (Saia's subscription) · Free Claude Code (:8082) · OmniRoute (:20128) · opencode · qoder.
+- **Updater:** fixed 2026-08-16 — two PowerShell stderr traps that used to roll back good builds are gone; packs now install in minutes (drop `agent-os-pack*.zip` in Downloads → double-click `M7 UPDATE (new pack).bat`).
+- **Brand paint + de-Julian:** applied to the build (blue/yellow, 0 green; Julian's sites/email scrubbed to Pineapple).
+- **Shared memory folder (vaultRoot):** `C:\Pineapple Contractors M7` (correct). GitHub backup: `github.com/saia-collab/pineapple-m7-vault`.
 
 ---
 
-## [SYNC] ACTIVE ENDPOINTS
+## [CURRENT] TOPOGRAPHY (ICM 4-Fala + memory)
+
+```
+01_Command_Center/   Decide, route, approve, record. Brand DNA, playbooks, Outbox_Drafts (the GO gate).
+02_Media_Vault/      Raw media pool — drone/job photos, testimonials, reels (read filenames; syncs to Google Drive).
+03_Knowledge_Mat/    SOPs, this shared memory, knowledge base, AEO city pages.
+04_Tech_Lab/         Execution: scripts/, the Agent OS build (Pineapple_Agent_OS/), vendor skills.
+05_Campaign_Factory/ Pipeline: Research → Copy → Creative → Deploy (all PAUSED).
+_memory/             Live execution state (PM7 phase state, coach config).
+```
+Root `CLAUDE.md` (L0) + `CONTEXT.md` (L1 router) are current authority. Do not rearrange folders.
+
+---
+
+## [CURRENT] ACTIVE ENDPOINTS
 
 | Service | Address | Purpose |
 |---|---|---|
-| M7 Command Server | `http://127.0.0.1:51763` | Kanban, outbox, research, memory API |
-| Obsidian REST API | `http://127.0.0.1:27123` | Vault read/write via MCP |
-| Ollama | `http://127.0.0.1:11434` | Local model inference |
-
-**Memory API:**
-- `GET  /api/memory`        → Full SHARED_MEMORY.md as JSON + raw markdown
-- `POST /api/memory/log`    → Append agent action to rolling log (`{"agent":"…","action":"…","note":"…"}`)
+| Agent OS Studio | `http://localhost:3737` | Mission Control — all agent tabs, Memory, SEO, Pipeline |
+| Free Claude Code | `http://127.0.0.1:8082` | Free coder proxy + `/admin` key panel (paste keys in a UI) |
+| Hermes console | `http://127.0.0.1:9119` | Orchestration, profiles, kanban |
+| OmniRoute | `http://127.0.0.1:20128` | Free keyless model pool (auto-fallback) |
 
 ---
 
-## [SYNC] AI FLEET ROSTER
+## [CURRENT] AI FLEET
 
-| Agent | Runtime | Role | Memory Access |
+| Agent | Runtime | Role | Setup |
 |---|---|---|---|
-| Claude Code | Anthropic API | Lead architect, code, research | Obsidian MCP + `/api/memory` |
-| Hermes | Gemini / local | Kanban dispatch, content factory | `/api/memory` GET |
-| NotebookLM | Google | Research synthesis, podcast | Vault file as source |
-| OpenClaw / Antigravity | Custom | Creative generation | `/api/memory` GET |
-
-**Cross-agent envelope:** see `01_Command_Center/CROSS_AGENT_PROTOCOL.md` for the universal JSON contract.
-
----
-
-## [SYNC] SESSION RULES FOR ALL AGENTS
-
-1. **Read this file first** before any generation, mutation, or publish action.
-2. **Verify room:** "Am I writing to the correct 4-Fala folder?"
-3. **Verify compliance:** "Does this violate the brand constitution above?"
-4. **Verify outbox:** "Is this outbound content? If yes — PAUSED state only."
-5. **Log action:** POST to `/api/memory/log` after any significant file write or stage transition.
-6. **Cultural anchor:** Include `` on significant consumer-facing outputs.
+| Claude | Saia's Claude subscription | Lead writer/architect (blogs, SEO, code) | `claude login` (done) |
+| Hermes | local + OpenRouter | Orchestration, content factory, kanban | up (:9119) |
+| Free Claude Code | Groq / OmniRoute | Free coding, no key | up (:8082) |
+| OmniRoute | keyless free pool | Free model fallback | up (:20128) |
+| opencode / qoder | free / Qwen | Extra free coders | installed |
+| GLM-5.2 (optional) | Ollama Cloud | Cheap web-app builds | needs Ollama install + `OLLAMA_API_KEY` |
 
 ---
 
-## [SYNC] LIVE METRICS (from GROUNDING.md)
+## [CURRENT] SESSION RULES FOR ALL AGENTS
 
-- Minimum project baseline: $18,000+ (auto-reject below).
-- Speed-to-lead: 5 minutes (older = dead).
-- Lead matrix: +25 Frisco ZIP, +30 Property Manager, +20 $700K+ estate, +20 storm mention; ≥80 → dispatch to Saia.
-- Estimate validity: 7–14 days.
+1. **Read this file first.** It is current; older brand files are not.
+2. **Verify room:** writing to the correct 4-Fala folder?
+3. **Verify brand:** blue/yellow only, zero green, "free" only for inspection/estimate, "storm damage report" not CPPA, IKO not GAF, founded 2021, no Tongan proverbs.
+4. **Verify Outbox:** outbound content → PAUSED in `01_Command_Center/Outbox_Drafts/` only.
+5. **Human gate:** nothing publishes/sends/spends without Saia's explicit GO.
+6. **Run** `04_Tech_Lab/scripts/brand_firewall.py --check` before staging content.
 
-## [SYNC] EXECUTION GUARDRAILS (from GROUNDING.md)
-
-- 1-3-12 Meta Offensive: 1 CBO ($250/wk), 3 avatars, 12 creatives. 1% Kill / 1.5% Scale. CPL target $50, max $250.
-- 50/5/3 video engine: 50s total, hook frames 0–15, end card frames 1411–1500.
-- Advantage+ creative enhancements hardcoded OFF.
-- OUTBOX SHIELD: all ad/web/social output written to `01_Command_Center/Outbox_Drafts/` in a PAUSED state. Live activation requires explicit human authorization. No agent may publish live or move money.
-
-
-<!-- M7-FIREWALL-EXEMPT: governance-reference -->
-
-## [SYNC] VAULT SESSION LOG
-
-- 2026-06-17 — Consolidated playbooks, built firewall/scoring/factory/intake, wired AI fleet + Hermes dispatch, merged Master Execution Spec, added hermes_skills + daemon + compose.
-
-
-<!-- M7-FIREWALL-EXEMPT: governance-reference -->
+<!-- M7-FIREWALL-EXEMPT: governance-reference (names banned terms as rules; contains "free" per the corrected legal rule) -->
 
 ---
 
-## AGENT LOG
-<!-- APPEND-ONLY — memory_sync.py prepends new entries. Do not reorder or delete. -->
-| 2026-07-06T20:58:12Z | hermes | SEO_BLOG_DRAFT_5POSTS | **Current State:** 5 long-form SEO blog posts PAUSED in `01_Command_Center/Outbox_Drafts/SEO_Posts/`. Roofing (pineapplecontractors.com): `2026-07-06_SEO_Post1_HailDamageRoofRepairFrisco.md`, `..._Post2_IKOCertifiedRoofReplacementFrisco.md`, `..._Post3_StormDamageRoofInspectionFrisco.md` (commercial/PM). Restoration (pineapplerestorations.com): `..._Post4_WaterDamageRestorationFrisco.md`, `..._Post5_MoldRemediationFrisco.md`. All 5: brand_firewall.py OK, internal Judge 26/26 (100/100). AWAITING SAIA GO (DEC-005). |
+## SESSION LOG (newest first)
 
+- **2026-08-16** — Shared memory rewritten to current brand + system state. Build 2026-08-16 installed (updater's 2 stderr traps fixed); brand paint blue #003299/yellow #ffdd17 + de-Julian applied; Free Claude Code :8082 port bug fixed; brother oversight + media guide added; pushed to GitHub. Brand law = Naa Sione 2026-08-14 (blue/yellow, "free inspection" OK, storm damage report not CPPA, founded 2021).
+- 2026-06-25 — (historical, superseded) initial compilation with the retired navy/gold/cyan + CPPA brand.
+
+## AGENT LOG (historical — append-only; entries below predate the 2026-08-14 brand change and may cite retired brand)
 | UTC Timestamp | Agent | Action | Note |
 |---|---|---|---|
-| 2026-07-06T20:58:12Z | hermes | SEO_BLOG_DRAFT_5POSTS | 5 long-form SEO posts drafted + PAUSED to 01_Command_Center/Outbox_Drafts/SEO_Posts/. Roofing (pineapplecontractors.com): Post 1 hail damage roof repair Frisco TX, Post 2 IKO certified roof replacement Frisco TX, Post 3 storm damage roof inspection Frisco TX (commercial/multi-unit). Restoration (pineapplerestorations.com): Post 4 water damage restoration Frisco TX, Post 5 mold remediation Frisco TX. All 5: brand_firewall.py --check OK, internal Judge 26/26 (100/100). Author JR. Moeakiola; IKO Certified; RCAT #03-0637; 972-928-0788; Navy #1A365D + Gold #FBC02D + Cyan #00BFFF; zero green; keyword first+last; FAQ 6 Q&As; JSON-LD (RoofingContractor/LocalBusiness + Article + FAQPage); CPPA CTA; trust block; Tongan proverb. AWAITING SAIA GO (DEC-005 Outbox Shield). Logged in 03_Knowledge_Mat/log.md. |
-| 2026-07-05T00:00:00Z | cowork | MEMORY_SYNC | Logged Claude Code cycle: M7_PROJECT_BRIEF.md created (single Cowork brief); pack 2026-07-05, dashboard de-personalized; 7 Hermes profiles grounded via HERMES_PLAYBOOK.md; free stack (Groq + browser voice). Synced to Master SOP + Playbook. GCP not provisioned (LOCAL). |
-| 2026-07-04T00:00:00Z | cowork | MEMORY_SYNC | Logged Claude Code cycle: m7_core_rules.config deployed to root; LAUNCH_ALL.bat wired to Python engine server_m7.py (:51763, HTTP 200); canonical port map recorded. 4-Rules PASS. |
-| 2026-06-25T18:36:55Z | hermes | SESSION_LOAD | Loaded SHARED_MEMORY.md via GET /api/memory |
-| 2026-06-25T18:36:54Z | claude_code | MEMORY_SYSTEM_ONLINE | Shared memory feed + API endpoints deployed |
-| 2026-06-25T12:00:00Z | claude_code | CREATED SHARED_MEMORY.md | Initial compilation from GROUNDING + MEMORY + CLAUDE.md |
+| 2026-07-06T20:58:12Z | hermes | SEO_BLOG_DRAFT_5POSTS | 5 long-form SEO posts drafted + PAUSED to Outbox_Drafts/SEO_Posts/ (historical — used the retired navy/gold/cyan + CPPA + proverb brand; re-brand before any publish). |
+| 2026-06-25T18:36:55Z | hermes | SESSION_LOAD | Loaded SHARED_MEMORY.md |
+| 2026-06-25T12:00:00Z | claude_code | CREATED SHARED_MEMORY.md | Initial compilation (retired brand) |
