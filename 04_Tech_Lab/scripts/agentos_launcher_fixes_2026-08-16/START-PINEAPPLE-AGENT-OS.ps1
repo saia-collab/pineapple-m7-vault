@@ -120,7 +120,10 @@ try {
     # gateway doesn't carry (its free pool is the keyless `auto/*` smart-routers). Without
     # this the Studio's Free Claude Code tab errors "ambiguous/unknown model". auto/best-coding
     # is verified working on :20128 with the keyless token. (Change here if the pool changes.)
-    $command = "set HERMES_HOME=$escapedHome&& set PORT=3737&& set OMNIROUTE_MODEL=auto/best-coding&& npm start 1>>`"$escapedLog`" 2>>&1"
+    # VIDEOUSE_RUNNER=anthropic: the Video editor's default runner is glm-5.2:cloud via Ollama Cloud,
+    # which 401s without OLLAMA_API_KEY (not set up). Point it at the `claude` CLI's own login
+    # (Saia's Claude subscription) instead, so the editor works with no extra account.
+    $command = "set HERMES_HOME=$escapedHome&& set PORT=3737&& set OMNIROUTE_MODEL=auto/best-coding&& set VIDEOUSE_RUNNER=anthropic&& npm start 1>>`"$escapedLog`" 2>>&1"
     Start-HiddenCommand $Current $command
   }
 
