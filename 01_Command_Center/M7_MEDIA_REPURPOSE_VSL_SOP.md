@@ -47,6 +47,14 @@ Two jobs: **(A)** turn your 39GB of drone/job/testimonial media into posts that 
 
 A "clone" = your **voice + face** taught to the AI ONCE, so you can produce unlimited onboarding videos from a script — **without filming each one.**
 
+> ▶ **Your studio already HAS this engine: `Studio → Video → The Video Director`** (build 2026-08-16). It's the "Goldie Screening Room" you saw at agentos.guide/video-studio — built in. It runs the whole flow on autopilot:
+> **Brief (a topic) → Research + Script (you edit) → Avatar (HeyGen — your cloned face + voice) + B-roll (your REAL roofing clips in Workspace, or MiniMax/Grok) → Edit + Render → one MP4**, and a **judge scores it and re-cuts until it's good.** The steps below are just what that tab needs connected.
+>
+> **Your advantage:** the Workspace already holds ~20 real roofing videos (Highland Park Metal roofing, Frisco, Sales…). So for most videos you don't even need the AI avatar — the Director can cut YOUR footage into a captioned, music-scored promo. Use the avatar clone only for talking-head onboarding/VSL.
+
+### Step 0 — turn on the crew's board (once)
+The video crew works a live Kanban. Initialise it once in a terminal: `hermes kanban create "Pineapple video crew"` then `hermes kanban list` to confirm. The Studio → Kanban tab then mirrors it.
+
 ### Step 1 — SEED (you, once, ~10 min)
 Record **one clean 60–90s talking-head** of Saia (or Naa Sione): good light, quiet room, brand backdrop, look at the camera. Say anything natural. Drop it in `02_Media_Vault/05_Onboarding_Raw/`. **This is the clone's source** — the better this clip, the better the clone.
 
