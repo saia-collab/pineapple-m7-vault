@@ -66,6 +66,11 @@ desktop.ini
 .codex/
 **/.codex/
 
+# large installers — NEVER commit (GitHub 100MB hard limit; OllamaSetup=1.5GB, Cursor=194MB)
+*.exe
+# stray tilde dir from a misfired ~ path expansion (contains a nested .git)
+/~/
+
 # third-party marketing-skills clone (has its own .git — clone-only, don't embed)
 03_Knowledge_Mat/corey_marketing_skills/
 
