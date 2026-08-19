@@ -1,0 +1,5 @@
+{
+  "openai.baseUrl": "http://127.0.0.1:20128/v1",
+  "openai.apiKey": "sk-pm7-free-local-token",
+  "editor.formatOnSave": true
+}
