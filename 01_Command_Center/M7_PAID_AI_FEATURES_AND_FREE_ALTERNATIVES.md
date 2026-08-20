@@ -31,6 +31,16 @@ brand: Blue #003299 + Yellow #ffdd17 · Outbox Shield · nothing purchased witho
 
 ---
 
+## ❓ "Doesn't OmniRoute / opencode / OpenRouter already give me this free?"
+**Short answer: only for TEXT.** (Verified live 2026-08-20.)
+- OmniRoute, opencode, OpenRouter, Free Claude Code = **text/code engines** (writing, blogs, SEO, code). They do **not** generate images or video.
+- The **Hermes → Studio** tab ("Type a prompt → generate image/video/voice") is **image/video GENERATION** — a different thing. It's hardwired to **MiniMax** or **Grok**, both **paid**.
+- I checked all **1,464** OmniRoute models: the image ones route to **paid** providers (MiniMax, Grok, OpenAI gpt-image, NVIDIA). **Zero are keyless-free.** Even **Pollinations/Flux** now returns *"a valid API key is required."*
+- **So the earlier fix (free routing) was for TEXT — it worked.** Image/video was never free; that's a separate paid capability.
+
+**Closest-to-free image option (if you really want AI images):** get a **free Pollinations key** at `enter.pollinations.ai/keys` (has a free tier) → then `pollinations/flux` generates images free *through OmniRoute directly* (not in the Hermes Studio tab, which only speaks MiniMax/Grok). You'd add that key yourself — I can't enter keys.
+**But honestly:** you have **39GB of real drone/roof footage**. For a roofer, real photos beat AI images every time. Skip AI image gen.
+
 ## ✅ WHAT STAYS FREE FOREVER (no payment, verified working)
 - **OmniRoute** (:20128) — 177 models, keyless, $0
 - **opencode** — DeepSeek V4 Flash, $0, no key
