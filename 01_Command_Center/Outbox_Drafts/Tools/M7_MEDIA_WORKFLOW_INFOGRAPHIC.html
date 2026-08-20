@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!-- M7-FIREWALL-EXEMPT: workflow infographic (names banned terms as rules; brand palette blue/yellow only) -->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pineapple Roofing — Media to Publish Workflow</title>
+<style>
+  :root{ --blue:#003299; --blue-2:#0a1f52; --yellow:#ffdd17; --ink:#0b1220; --paper:#f6f8ff; --line:#d7deef; --muted:#5b6684; }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--paper);color:var(--ink);line-height:1.5;padding:28px}
+  .wrap{max-width:1100px;margin:0 auto}
+  header{background:var(--blue);color:#fff;border-radius:18px;padding:26px 30px;position:relative;overflow:hidden}
+  header::after{content:"";position:absolute;right:-40px;top:-40px;width:180px;height:180px;background:var(--yellow);opacity:.16;border-radius:50%}
+  header .pill{display:inline-block;background:var(--yellow);color:var(--blue);font-weight:800;font-size:12px;letter-spacing:.5px;padding:4px 12px;border-radius:999px;margin-bottom:10px}
+  header h1{font-size:30px;font-weight:900;letter-spacing:-.5px}
+  header p{color:#cdd7f5;margin-top:6px;font-size:14px}
+  .legend{display:flex;gap:16px;flex-wrap:wrap;margin:18px 0 6px;font-size:13px;font-weight:700}
+  .legend span{display:inline-flex;align-items:center;gap:7px}
+  .dot{width:12px;height:12px;border-radius:3px;display:inline-block}
+  .free{background:var(--blue)} .paid{background:var(--yellow);border:1px solid #d9bb00}
+  h2{font-size:15px;letter-spacing:1px;text-transform:uppercase;color:var(--muted);margin:28px 0 12px}
+  /* pipeline */
+  .flow{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+  .step{background:#fff;border:1px solid var(--line);border-left:5px solid var(--blue);border-radius:12px;padding:14px 14px 12px;position:relative}
+  .step .n{position:absolute;top:-10px;right:12px;background:var(--blue);color:#fff;font-weight:800;font-size:12px;width:24px;height:24px;border-radius:50%;display:grid;place-items:center}
+  .step .ic{font-size:22px}
+  .step h3{font-size:14px;font-weight:800;margin:6px 0 3px}
+  .step p{font-size:12px;color:var(--muted)}
+  .step.gate{border-left-color:var(--yellow);background:#fffdf0}
+  .step.pub{border-left-color:var(--yellow)}
+  /* kit map */
+  .kits{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+  .kit{background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px 16px;display:flex;gap:12px;align-items:flex-start}
+  .kit .tag{font-size:10px;font-weight:800;padding:2px 8px;border-radius:999px;white-space:nowrap}
+  .kit .tag.free{background:#e7edff;color:var(--blue)} .kit .tag.paid{background:#fff3bf;color:#7a5c00}
+  .kit b{font-size:14px} .kit p{font-size:12px;color:var(--muted);margin-top:2px}
+  .kit .stage{font-size:11px;color:var(--blue);font-weight:800;margin-top:5px}
+  .rule{background:var(--blue-2);color:#eef2ff;border-radius:14px;padding:16px 20px;margin-top:26px;font-size:13px}
+  .rule b{color:var(--yellow)}
+  .foot{text-align:center;color:var(--muted);font-size:12px;margin-top:18px}
+  @media(max-width:760px){ .flow{grid-template-columns:repeat(2,1fr)} .kits{grid-template-columns:1fr} }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <span class="pill">🍍 PINEAPPLE ROOFING · ROOFING MADE SWEETER</span>
+    <h1>Media → Publish Workflow</h1>
+    <p>From today's drone shoot to a live post — every step, and which tool does it. Nothing goes out without a human "GO".</p>
+  </header>
+
+  <div class="legend">
+    <span><i class="dot free"></i> Free ($0)</span>
+    <span><i class="dot paid"></i> Paid (optional)</span>
+    <span>🛡️ = Outbox Shield / human approval gate</span>
+  </div>
+
+  <h2>The pipeline</h2>
+  <div class="flow">
+    <div class="step"><div class="n">1</div><div class="ic">🚁</div><h3>Shoot</h3><p>Drone photos + reels from the job site.</p></div>
+    <div class="step"><div class="n">2</div><div class="ic">📥</div><h3>Ingest</h3><p>Drop into <b>02_Media_Vault</b>. Google Drive auto-syncs.</p></div>
+    <div class="step"><div class="n">3</div><div class="ic">✂️</div><h3>Cut</h3><p><b>Video Editor</b> → "Tighten + captions" (your paid Claude).</p></div>
+    <div class="step"><div class="n">4</div><div class="ic">🎬</div><h3>Style</h3><p><b>Remotion</b> branded reel · <b>shot-builder</b> shot list ($0).</p></div>
+    <div class="step gate"><div class="n">5</div><div class="ic">🛡️</div><h3>Brand check</h3><p><b>brand_firewall.py</b> — blue/yellow, no green, no "CPPA".</p></div>
+    <div class="step gate"><div class="n">6</div><div class="ic">⏸️</div><h3>Outbox</h3><p>Lands <b>PAUSED</b> in Outbox_Drafts. Nothing auto-posts.</p></div>
+    <div class="step gate"><div class="n">7</div><div class="ic">✅</div><h3>Approve</h3><p>Brother reviews in Drive → says <b>GO</b>.</p></div>
+    <div class="step pub"><div class="n">8</div><div class="ic">📣</div><h3>Publish</h3><p>GBP post · YouTube Short · Reel.</p></div>
+  </div>
+
+  <h2>Your new toolbox (the 8 kits)</h2>
+  <div class="kits">
+    <div class="kit"><span class="tag free">FREE</span><div><b>shot-builder</b><p>Image/video director. Prompt-only mode writes shot lists + hooks at $0.</p><div class="stage">→ Step 4 · Style / plan</div></div></div>
+    <div class="kit"><span class="tag free">FREE</span><div><b>Claude Remotion Blueprint</b><p>Video-as-code — branded reels, captions, lower-thirds, rendered locally.</p><div class="stage">→ Step 3–4 · Cut / brand</div></div></div>
+    <div class="kit"><span class="tag free">FREE</span><div><b>local-ai-care-package</b><p>Immersive Three.js landing pages + a guide to run a free local coding agent.</p><div class="stage">→ Website engine</div></div></div>
+    <div class="kit"><span class="tag free">FREE</span><div><b>100+ Styles Vault</b><p>100+ visual looks for thumbnails + graphics. (Big — keep in Media Vault, not git.)</p><div class="stage">→ Step 4 · Style</div></div></div>
+    <div class="kit"><span class="tag paid">PAY-PER-USE</span><div><b>bench_studio "generate"</b><p>AI image/video at raw API price with a receipts ledger — no monthly sub. Cheapest paid path.</p><div class="stage">→ Optional b-roll</div></div></div>
+    <div class="kit"><span class="tag free">FREE</span><div><b>Codex-SDK Internal Tools</b><p>Turn a workflow into a small internal app (e.g. a lead dashboard).</p><div class="stage">→ Ops tooling</div></div></div>
+  </div>
+
+  <div class="rule">
+    <b>The 5 rules that never change:</b> &nbsp;1) Everything lands PAUSED in Outbox — human GO before publishing. &nbsp;2) Blue #003299 + Yellow #ffdd17, <b>zero green</b>. &nbsp;3) "free roof inspection" OK — never free repairs / waived deductible. &nbsp;4) "storm damage report", never "CPPA". IKO Certified, never GAF. &nbsp;5) Run brand_firewall.py before staging.
+  </div>
+  <div class="foot">RCAT #03-0637 · IKO Certified · Founded 2021 · Frisco HQ · (972) 928-0788 · The Pineapple Promise</div>
+</div>
+</body>
+</html>
