@@ -1,0 +1,1013 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pineapple Roofing | Google Drive & Local AI Repurposing Workflow Map</title>
+  <!-- M7-FIREWALL-EXEMPT: green-detection-tooling — this IS the client-side brand firewall + architecture map. It quotes the banned lexicon (GAF/$0 down/warrior/toa/cheap) as demo scrubber INPUTS and declares the zero-green rule; it contains NO green styling (palette is blue #003299 / yellow #ffdd17 / cyan only). PAUSED — Outbox Shield. -->
+  <!-- SECURITY: apiKey is intentionally EMPTY. Never commit or Drive-sync a copy with a real Gemini key — this repo is public. -->
+  <!-- FIX LOG 2026-08-19 (Claude): emerald(green)->brand blue/yellow/cyan; removed Tongan "Malo e lelei!"; 430+->500+ reviews; dropped unverified "305 clicks/day"; slogan->Roofing Made Sweeter + The Pineapple Promise. -->
+  <!-- BRAND FACT: use only what's verified — RCAT #03-0637, IKO Certified, 500+ 5-star reviews, founded 2021, Frisco HQ, (972) 928-0788. -->
+  <!-- @pineapplecontractors5311 = verify this is the real YouTube handle before publishing. -->
+  <!-- NOTE: this tool calls the Gemini API (needs a key) — it is NOT part of the free OmniRoute stack. Run it locally only. -->
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            pblue: {
+              DEFAULT: '#003299', // Authoritative Pineapple Blue
+              dark: '#001A66',
+              deep: '#020B1D',
+              card: '#081733',
+              border: '#11327A'
+            },
+            pyellow: {
+              DEFAULT: '#FFDD17', // Action Pineapple Yellow
+              bright: '#FFEE55',
+              hover: '#E5C400',
+              glow: 'rgba(255, 221, 23, 0.4)'
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+            mono: ['Fira Code', 'Consolas', 'monospace']
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Fira+Code:wght@400;600&display=swap');
+
+    body {
+      background-color: #020B1D;
+      color: #F8FAFC;
+      font-family: 'Inter', sans-serif;
+    }
+
+    .glass-card {
+      background: rgba(8, 23, 51, 0.85);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(255, 221, 23, 0.3);
+      box-shadow: 0 8px 32px 0 rgba(0, 50, 153, 0.37);
+    }
+
+    .glass-card-interactive:hover {
+      border-color: rgba(255, 221, 23, 0.8);
+      box-shadow: 0 0 25px rgba(255, 221, 23, 0.35);
+    }
+
+    .neon-glow {
+      box-shadow: 0 0 20px rgba(255, 221, 23, 0.4);
+    }
+
+    .neon-text {
+      text-shadow: 0 0 10px rgba(255, 221, 23, 0.7);
+    }
+
+    /* Custom Scrollbar */
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: #020B1D; }
+    ::-webkit-scrollbar-thumb { background: #11327A; border-radius: 3px; }
+    ::-webkit-scrollbar-thumb:hover { background: #FFDD17; }
+
+    .nav-tab-active {
+      background-color: #FFDD17 !important;
+      color: #020B1D !important;
+      font-weight: 800 !important;
+    }
+
+    .loading-spinner {
+      border: 3px solid rgba(255, 221, 23, 0.2);
+      border-left-color: #FFDD17;
+      border-radius: 50%;
+      width: 18px;
+      height: 18px;
+      animation: spin 0.8s linear infinite;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col pb-12 selection:bg-pyellow selection:text-pblue-deep">
+
+  <!-- HEADER -->
+  <header class="w-full border-b border-pblue-border bg-pblue-deep/90 backdrop-blur-md sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex flex-col md:flex-row items-center justify-between gap-4">
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-xl bg-pyellow flex items-center justify-center text-pblue-deep font-black text-2xl shadow-lg neon-glow">
+          🍍
+        </div>
+        <div>
+          <div class="flex items-center gap-2">
+            <h1 class="font-black text-white text-lg tracking-tight uppercase">PINEAPPLE ROOFING</h1>
+            <span class="px-2 py-0.5 text-[10px] font-mono font-bold bg-pyellow/20 text-pyellow border border-pyellow/40 rounded-full">RCAT #03-0637</span>
+          </div>
+          <p class="text-xs text-cyan-400 font-mono">Google Drive Media Engine & Local AI Operating System</p>
+        </div>
+      </div>
+
+      <div class="flex flex-wrap items-center gap-2 text-xs font-mono font-semibold">
+        <span class="px-3 py-1.5 rounded-lg bg-pblue-card border border-pblue-border text-cyan-300 font-bold flex items-center gap-1.5">
+          <i class="fa-solid fa-cloud-arrow-up"></i> Drive Synced (H:\ saia@)
+        </span>
+        <span class="px-3 py-1.5 rounded-lg bg-pblue-card border border-pyellow/50 text-pyellow font-bold flex items-center gap-1.5">
+          <i class="fa-solid fa-wand-magic-sparkles text-pyellow"></i> Gemini 2.5 API Active
+        </span>
+        <span class="px-3 py-1.5 rounded-lg bg-pblue-card border border-pblue-border text-slate-300">
+          <i class="fa-solid fa-microchip text-cyan-400 mr-1"></i> OmniRoute: <span class="text-pyellow">127.0.0.1:20128</span>
+        </span>
+        <span class="px-3 py-1.5 rounded-lg bg-pblue-card border border-pyellow/50 text-pyellow font-bold">
+          🛡️ Outbox Shield: PAUSED
+        </span>
+      </div>
+    </div>
+  </header>
+
+  <!-- NAVIGATION TABS -->
+  <div class="bg-pblue-card/90 border-b border-pblue-border sticky top-[73px] z-40 backdrop-blur-md">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <nav class="flex space-x-2 overflow-x-auto py-3 no-scrollbar">
+        <button onclick="switchMainTab('tab-workflow-map')" id="nav-btn-workflow-map" class="nav-tab-btn px-4 py-2 text-xs sm:text-sm font-bold rounded-xl bg-pblue-deep text-slate-300 hover:text-white transition flex items-center gap-2 whitespace-nowrap border border-pblue-border">
+          <i class="fa-solid fa-diagram-project text-pyellow"></i> Google Drive & AI Map
+        </button>
+        <button onclick="switchMainTab('tab-gemini-studio')" id="nav-btn-gemini-studio" class="nav-tab-btn px-4 py-2 text-xs sm:text-sm font-bold rounded-xl bg-pblue-deep text-slate-300 hover:text-white transition flex items-center gap-2 whitespace-nowrap nav-tab-active border border-pyellow/60">
+          <i class="fa-solid fa-wand-magic-sparkles text-pyellow"></i> Gemini AI Interactive Studio
+        </button>
+      </nav>
+    </div>
+  </div>
+
+  <!-- MAIN CONTAINER -->
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 flex-1 w-full space-y-10">
+
+    <!-- TAB 1: GEMINI AI INTERACTIVE STUDIO -->
+    <div id="tab-gemini-studio" class="space-y-8">
+
+      <!-- HERO -->
+      <div class="text-center space-y-3">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-pblue-card border border-pyellow/40 text-xs font-mono text-pyellow neon-text">
+          <i class="fa-solid fa-cpu"></i> POWERED BY GEMINI 2.5 FLASH & TTS
+        </div>
+        <h2 class="text-3xl sm:text-4xl font-black text-white tracking-tight">
+          PM7 INTERACTIVE GEMINI AI STUDIO
+        </h2>
+        <p class="text-xs sm:text-sm text-slate-300 max-w-3xl mx-auto leading-relaxed font-light">
+          Real-time AI text generation, Naa Sione brand compliance scrubbing, DFW storm lead generation, and spoken voice briefings—built directly with the Google Gemini API.
+        </p>
+      </div>
+
+      <!-- GRID OF GEMINI TOOLS -->
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+
+        <!-- TOOL 1: BRAND COMPLIANCE & COPY SCRUBBER -->
+        <div class="glass-card p-6 rounded-3xl space-y-5 flex flex-col justify-between">
+          <div class="space-y-3">
+            <div class="flex items-center justify-between border-b border-pblue-border pb-3">
+              <div class="flex items-center gap-2">
+                <i class="fa-solid fa-shield-cat text-pyellow text-xl"></i>
+                <h3 class="font-extrabold text-white text-base">PM7 Brand Compliance Scrubber</h3>
+              </div>
+              <span class="px-2 py-0.5 bg-pyellow/20 text-pyellow text-[10px] font-mono font-bold rounded border border-pyellow/40">gemini-2.5-flash</span>
+            </div>
+            <p class="text-xs text-slate-300 leading-relaxed">
+              Paste raw marketing text, social media drafts, or sales copy. Gemini scrubs banned terms (`GAF`, `$0 down`, `cheap`, `toa`, `warrior`, `six brothers`), enforces Naa Sione brand law, and verifies Pineapple Blue (`#003299`) + Yellow (`#FFDD17`) compliance.
+            </p>
+
+            <!-- PRESETS -->
+            <div class="flex flex-wrap gap-2 pt-1">
+              <button onclick="applyScrubPreset('storm')" class="px-2.5 py-1 bg-pblue-deep border border-pblue-border hover:border-pyellow text-slate-300 text-[11px] rounded-lg transition font-mono">
+                ⚡ Storm Post
+              </button>
+              <button onclick="applyScrubPreset('cheap')" class="px-2.5 py-1 bg-pblue-deep border border-pblue-border hover:border-pyellow text-slate-300 text-[11px] rounded-lg transition font-mono">
+                🚨 Cheap Discount Draft
+              </button>
+              <button onclick="applyScrubPreset('estate')" class="px-2.5 py-1 bg-pblue-deep border border-pblue-border hover:border-pyellow text-slate-300 text-[11px] rounded-lg transition font-mono">
+                🏰 Luxury Estate Pitch
+              </button>
+            </div>
+
+            <textarea id="scrub-input-text" rows="4" class="w-full p-3 bg-pblue-deep rounded-xl border border-pblue-border text-white text-xs font-mono focus:border-pyellow focus:outline-none" placeholder="Paste unscrubbed marketing draft here..."></textarea>
+          </div>
+
+          <div class="space-y-3">
+            <button onclick="runBrandComplianceScrubber()" id="btn-run-scrub" class="w-full py-3 bg-pyellow text-pblue-deep font-black text-xs rounded-xl hover:bg-pyellow-hover transition flex items-center justify-center gap-2 shadow-lg">
+              <span>✨ Scrub & Brand-Check with Gemini AI</span>
+            </button>
+
+            <div id="scrub-output-box" class="hidden p-4 bg-pblue-deep rounded-xl border border-pblue-border space-y-2">
+              <div class="flex items-center justify-between text-xs border-b border-pblue-border pb-2">
+                <span class="font-bold text-pyellow flex items-center gap-1.5">
+                  <i class="fa-solid fa-circle-check"></i> PM7 Compliant Output (PAUSED)
+                </span>
+                <button onclick="copyElementText('scrub-result-content')" class="text-pyellow hover:text-white font-bold text-[11px]">
+                  <i class="fa-solid fa-copy"></i> Copy
+                </button>
+              </div>
+              <div id="scrub-result-content" class="text-xs font-mono text-slate-200 leading-relaxed whitespace-pre-wrap max-h-60 overflow-y-auto pt-1"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- TOOL 2: DFW STORM AUDIT & AEO PITCH GENERATOR -->
+        <div class="glass-card p-6 rounded-3xl space-y-5 flex flex-col justify-between">
+          <div class="space-y-3">
+            <div class="flex items-center justify-between border-b border-pblue-border pb-3">
+              <div class="flex items-center gap-2">
+                <i class="fa-solid fa-cloud-bolt text-cyan-400 text-xl"></i>
+                <h3 class="font-extrabold text-white text-base">DFW Storm Audit & AEO Lead Engine</h3>
+              </div>
+              <span class="px-2 py-0.5 bg-cyan-400/20 text-cyan-300 text-[10px] font-mono font-bold rounded border border-cyan-400/40">Search Grounding</span>
+            </div>
+            <p class="text-xs text-slate-300 leading-relaxed">
+              Generate localized AEO direct-answer openings, <5-minute speed-to-lead SMS hooks (<160 chars), and structured `RoofingContractor` JSON-LD schema blocks tailored to DFW ZIP codes.
+            </p>
+
+            <div class="grid grid-cols-2 gap-3 pt-1">
+              <div>
+                <label class="text-[11px] font-bold text-slate-300 block mb-1">Target DFW Location</label>
+                <select id="audit-target-city" class="w-full p-2 bg-pblue-deep rounded-lg border border-pblue-border text-white text-xs font-mono focus:border-pyellow focus:outline-none">
+                  <option value="Frisco, TX (Starwood & Newman Village)">Frisco, TX (75033/75034)</option>
+                  <option value="Lewisville, TX">Lewisville, TX (75067)</option>
+                  <option value="McKinney, TX">McKinney, TX (75070)</option>
+                  <option value="Plano, TX">Plano, TX (75024)</option>
+                  <option value="Grapevine & Allen, TX">Grapevine & Allen, TX</option>
+                </select>
+              </div>
+              <div>
+                <label class="text-[11px] font-bold text-slate-300 block mb-1">Storm Event / Severity</label>
+                <select id="audit-storm-type" class="w-full p-2 bg-pblue-deep rounded-lg border border-pblue-border text-white text-xs font-mono focus:border-pyellow focus:outline-none">
+                  <option value="Golf-Ball Hail & Lifted Shingles">Golf-Ball Hail (1.75 inch)</option>
+                  <option value="High-Wind Granule Shear">High-Wind Granule Shear</option>
+                  <option value="30-Day Insurance Claim Window Closing">30-Day Claim Window Closing</option>
+                  <option value="Commercial TPO / Flat Roof Audit">Commercial TPO/Flat Audit</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="flex items-center gap-2 pt-1">
+              <input type="checkbox" id="use-search-grounding" class="rounded border-pblue-border text-pyellow focus:ring-pyellow bg-pblue-deep" checked>
+              <label for="use-search-grounding" class="text-xs text-slate-300 cursor-pointer">
+                Enable Google Search Grounding for real-time DFW storm & search data
+              </label>
+            </div>
+          </div>
+
+          <div class="space-y-3">
+            <button onclick="runStormAuditGenerator()" id="btn-run-audit" class="w-full py-3 bg-cyan-500 text-pblue-deep font-black text-xs rounded-xl hover:bg-cyan-400 transition flex items-center justify-center gap-2 shadow-lg">
+              <span>✨ Generate AEO Answer, SMS & Schema</span>
+            </button>
+
+            <div id="audit-output-box" class="hidden p-4 bg-pblue-deep rounded-xl border border-pblue-border space-y-2">
+              <div class="flex items-center justify-between text-xs border-b border-pblue-border pb-2">
+                <span class="font-bold text-cyan-300 flex items-center gap-1.5">
+                  <i class="fa-solid fa-bullseye"></i> Generated Pitch, SMS & Schema (< 5m SLA)
+                </span>
+                <button onclick="copyElementText('audit-result-content')" class="text-pyellow hover:text-white font-bold text-[11px]">
+                  <i class="fa-solid fa-copy"></i> Copy
+                </button>
+              </div>
+              <div id="audit-result-content" class="text-xs font-mono text-slate-200 leading-relaxed whitespace-pre-wrap max-h-60 overflow-y-auto pt-1"></div>
+              <div id="grounding-sources-box" class="hidden pt-2 border-t border-pblue-border text-[10px] text-slate-400 font-mono">
+                <strong class="text-pyellow block mb-1">Search Grounding Sources:</strong>
+                <div id="grounding-sources-list" class="space-y-0.5"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- ROW 2: TTS VOICE BRIEFING & DRIVE 50/5/3 LEGO SPEC GENERATOR -->
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+
+        <!-- TOOL 3: GEMINI TTS NATIVE VOICE BRIEFING -->
+        <div class="glass-card p-6 rounded-3xl space-y-5 flex flex-col justify-between">
+          <div class="space-y-3">
+            <div class="flex items-center justify-between border-b border-pblue-border pb-3">
+              <div class="flex items-center gap-2">
+                <i class="fa-solid fa-volume-high text-pyellow text-xl"></i>
+                <h3 class="font-extrabold text-white text-base">PM7 Voice Briefing (Gemini TTS API)</h3>
+              </div>
+              <span class="px-2 py-0.5 bg-pyellow/20 text-pyellow text-[10px] font-mono font-bold rounded border border-pyellow/40">gemini-2.5-flash-preview-tts</span>
+            </div>
+            <p class="text-xs text-slate-300 leading-relaxed">
+              Synthesize natural, professional spoken briefings for phone reps, internal team updates, or video voiceovers directly using Google's native Gemini TTS model.
+            </p>
+
+            <div class="space-y-2 pt-1">
+              <label class="text-[11px] font-bold text-slate-300 block">Briefing Script or Voice Prompt</label>
+              <textarea id="tts-script-input" rows="3" class="w-full p-3 bg-pblue-deep rounded-xl border border-pblue-border text-white text-xs font-mono focus:border-pyellow focus:outline-none">Say cheerfully: Welcome to Pineapple Roofing. Our Frisco team is ready for your free roof inspection today. Call 972-928-0788 to book your appointment!</textarea>
+            </div>
+
+            <div>
+              <label class="text-[11px] font-bold text-slate-300 block mb-1">Select Gemini Voice Persona</label>
+              <select id="tts-voice-persona" class="w-full p-2 bg-pblue-deep rounded-lg border border-pblue-border text-white text-xs font-mono focus:border-pyellow focus:outline-none">
+                <option value="Kore">Kore (Firm Authority)</option>
+                <option value="Puck">Puck (Energetic Lead)</option>
+                <option value="Fenrir">Fenrir (Deep Voice)</option>
+                <option value="Zephyr">Zephyr (Smooth Tone)</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="space-y-3">
+            <button onclick="runGeminiTTS()" id="btn-run-tts" class="w-full py-3 bg-pyellow text-pblue-deep font-black text-xs rounded-xl hover:bg-pyellow-hover transition flex items-center justify-center gap-2 shadow-lg">
+              <span>✨ Synthesize Spoken Voice Briefing</span>
+            </button>
+
+            <div id="tts-player-box" class="hidden p-4 bg-pblue-deep rounded-xl border border-pblue-border flex flex-col sm:flex-row items-center justify-between gap-4">
+              <div class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded-full bg-pyellow/20 flex items-center justify-center text-pyellow text-lg border border-pyellow/40">
+                  <i class="fa-solid fa-play"></i>
+                </div>
+                <div>
+                  <span class="text-xs font-bold text-white block">PM7 Audio Briefing Stream</span>
+                  <span class="text-[10px] text-slate-400 font-mono">Synthesized via Gemini TTS PCM-24kHz</span>
+                </div>
+              </div>
+              <audio id="tts-audio-element" controls class="w-full sm:w-80 h-10"></audio>
+            </div>
+          </div>
+        </div>
+
+        <!-- TOOL 4: GOOGLE DRIVE 50/5/3 LEGO VIDEO SPEC GENERATOR -->
+        <div class="glass-card p-6 rounded-3xl space-y-5 flex flex-col justify-between">
+          <div class="space-y-3">
+            <div class="flex items-center justify-between border-b border-pblue-border pb-3">
+              <div class="flex items-center gap-2">
+                <i class="fa-solid fa-film text-cyan-400 text-xl"></i>
+                <h3 class="font-extrabold text-white text-base">Google Drive 50/5/3 Lego Video Spec</h3>
+              </div>
+              <span class="px-2 py-0.5 bg-cyan-400/20 text-cyan-300 text-[10px] font-mono font-bold rounded border border-cyan-400/40">Media Vault Spec</span>
+            </div>
+            <p class="text-xs text-slate-300 leading-relaxed">
+              Select raw footage from your 39GB Google Drive vault (`02_Media_Vault`). Gemini will write a 50-second vertical video spec (5s hook, 3 meats, 1 CTA) formatted for local FFmpeg rendering.
+            </p>
+
+            <div class="grid grid-cols-2 gap-3 pt-1">
+              <div>
+                <label class="text-[11px] font-bold text-slate-300 block mb-1">Drive Raw Asset Type</label>
+                <select id="lego-asset-type" class="w-full p-2 bg-pblue-deep rounded-lg border border-pblue-border text-white text-xs font-mono focus:border-pyellow focus:outline-none">
+                  <option value="Starwood Frisco 4K Drone Aerial Shot">Starwood Frisco 4K Drone Aerial</option>
+                  <option value="Door-to-Door Walkthrough & Roof Leak Spot">D2D Walkthrough Roof Leak</option>
+                  <option value="Customer Video Testimonial & Review">Customer Video Testimonial</option>
+                  <option value="Before/After IKO Shingle Installation">Before/After IKO Installation</option>
+                </select>
+              </div>
+              <div>
+                <label class="text-[11px] font-bold text-slate-300 block mb-1">Target Ad Angle</label>
+                <select id="lego-ad-angle" class="w-full p-2 bg-pblue-deep rounded-lg border border-pblue-border text-white text-xs font-mono focus:border-pyellow focus:outline-none">
+                  <option value="Harsh Reality (Insurance Window Deadline)">Harsh Reality (Insurance Window)</option>
+                  <option value="Dream Outcome (Full Restoration Coverage)">Dream Outcome (Full Restoration)</option>
+                  <option value="Local Proof (500+ 5-Star DFW Reviews)">Local Proof (500+ 5-Star Reviews)</option>
+                  <option value="Family Heritage (Polynesian Frisco Roofer)">Family Heritage (Frisco Local)</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <div class="space-y-3">
+            <button onclick="runLegoSpecGenerator()" id="btn-run-lego" class="w-full py-3 bg-cyan-500 text-pblue-deep font-black text-xs rounded-xl hover:bg-cyan-400 transition flex items-center justify-center gap-2 shadow-lg">
+              <span>✨ Generate 50/5/3 Lego Video Spec</span>
+            </button>
+
+            <div id="lego-output-box" class="hidden p-4 bg-pblue-deep rounded-xl border border-pblue-border space-y-2">
+              <div class="flex items-center justify-between text-xs border-b border-pblue-border pb-2">
+                <span class="font-bold text-cyan-300 flex items-center gap-1.5">
+                  <i class="fa-solid fa-list-check"></i> Render Spec (Saved PAUSED to Outbox)
+                </span>
+                <button onclick="copyElementText('lego-result-content')" class="text-pyellow hover:text-white font-bold text-[11px]">
+                  <i class="fa-solid fa-copy"></i> Copy
+                </button>
+              </div>
+              <div id="lego-result-content" class="text-xs font-mono text-slate-200 leading-relaxed whitespace-pre-wrap max-h-60 overflow-y-auto pt-1"></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- TAB 2: GOOGLE DRIVE & WORKFLOW MAP -->
+    <div id="tab-workflow-map" class="hidden space-y-10">
+
+      <!-- HERO SECTION -->
+      <div class="text-center space-y-3">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-pblue-card border border-pyellow/40 text-xs font-mono text-pyellow neon-text">
+          <i class="fa-solid fa-diagram-project"></i> ARCHITECTURAL FLOW: RAW MEDIA TO MULTI-CHANNEL REVENUE
+        </div>
+        <h2 class="text-3xl sm:text-5xl font-black text-white tracking-tight">
+          GOOGLE DRIVE & LOCAL AI REPURPOSING ARCHITECTURE
+        </h2>
+        <p class="text-xs sm:text-sm text-slate-300 max-w-3xl mx-auto font-light leading-relaxed">
+          How 39GB of raw drone footage, field photos, and client testimonials stored in <strong class="text-pyellow">Google Drive</strong> flow through your <strong class="text-pyellow">Windows 11 Local AI Studio</strong> and deploy across the <strong class="text-pyellow">Google Ecosystem</strong> with $0 API token costs.
+        </p>
+      </div>
+
+      <!-- BRAND LAW COMPLIANCE BANNER -->
+      <div class="glass-card p-4 rounded-2xl border-l-4 border-pyellow flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div class="flex items-center gap-3">
+          <span class="text-2xl">⚖️</span>
+          <div>
+            <h4 class="text-sm font-bold text-white uppercase tracking-wider">Naa Sione Brand Law (2026-08-14) Active</h4>
+            <p class="text-xs text-slate-300">CTA "Free roof inspection" ALLOWED • Field Copy: "storm damage report" (CPPA internal only) • IKO Certified (never GAF) • Zero Green Rule (#003299 Blue + #FFDD17 Yellow)</p>
+          </div>
+        </div>
+        <span class="px-3 py-1 bg-pyellow/20 text-pyellow text-xs font-mono font-bold rounded-lg border border-pyellow/40">
+          Firewall Status: PASS
+        </span>
+      </div>
+
+      <!-- PIPELINE STEP-BY-STEP MAP (VISUAL BLOCKS) -->
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-6 relative">
+
+        <!-- STAGE 1: INGESTION -->
+        <div class="glass-card glass-card-interactive p-5 rounded-2xl space-y-4 relative flex flex-col justify-between">
+          <div class="space-y-3">
+            <div class="flex items-center justify-between border-b border-pblue-border pb-3">
+              <span class="w-8 h-8 rounded-lg bg-pyellow text-pblue-deep font-black flex items-center justify-center text-sm">01</span>
+              <i class="fa-brands fa-google-drive text-pyellow text-2xl"></i>
+            </div>
+            <h3 class="font-extrabold text-white text-base">Google Drive Ingestion</h3>
+            <p class="text-xs text-slate-300 leading-relaxed">
+              Raw media vault (`02_Media_Vault`) auto-synced via Google Drive Desktop to <code class="text-pyellow font-mono">C:\Pineapple Contractors M7\</code>.
+            </p>
+            <ul class="text-[11px] font-mono space-y-1 text-slate-400">
+              <li>• 39GB 4K Drone Footage</li>
+              <li>• Field Roof Audits & Photos</li>
+              <li>• Audio Voice Notes & Reviews</li>
+              <li class="text-pyellow">• Read-Only Guardrail (Viewer)</li>
+            </ul>
+          </div>
+          <div class="p-2.5 bg-pblue-deep rounded-xl border border-pblue-border text-[10px] font-mono text-cyan-300">
+            Sync: `Drive_Sync_Daemon.ps1`
+          </div>
+        </div>
+
+        <!-- STAGE 2: LOCAL STUDIO ENGINE -->
+        <div class="glass-card glass-card-interactive p-5 rounded-2xl space-y-4 relative flex flex-col justify-between border-2 border-pyellow/70">
+          <div class="space-y-3">
+            <div class="flex items-center justify-between border-b border-pblue-border pb-3">
+              <span class="w-8 h-8 rounded-lg bg-pyellow text-pblue-deep font-black flex items-center justify-center text-sm">02</span>
+              <i class="fa-solid fa-gears text-pyellow text-2xl"></i>
+            </div>
+            <h3 class="font-extrabold text-white text-base">Windows Local AI Harness</h3>
+            <p class="text-xs text-slate-300 leading-relaxed">
+              Local tools process and multiply media via local Python scripts and OmniRoute CLI agents.
+            </p>
+            <ul class="text-[11px] font-mono space-y-1 text-slate-400">
+              <li>• `video-multiplier.py` (FFmpeg)</li>
+              <li>• `brand_firewall.py` (Naa Sione)</li>
+              <li>• 50/5/3 Lego Video Assembly</li>
+              <li>• Remotion React Motion Engine</li>
+            </ul>
+          </div>
+          <div class="p-2.5 bg-pblue-deep rounded-xl border border-pblue-border text-[10px] font-mono text-pyellow font-bold">
+            OmniRoute Proxy @ Port 20128
+          </div>
+        </div>
+
+        <!-- STAGE 3: OUTBOX SHIELD -->
+        <div class="glass-card glass-card-interactive p-5 rounded-2xl space-y-4 relative flex flex-col justify-between border-2 border-cyan-400/60">
+          <div class="space-y-3">
+            <div class="flex items-center justify-between border-b border-pblue-border pb-3">
+              <span class="w-8 h-8 rounded-lg bg-cyan-400 text-pblue-deep font-black flex items-center justify-center text-sm">03</span>
+              <i class="fa-solid fa-shield-halved text-cyan-400 text-2xl"></i>
+            </div>
+            <h3 class="font-extrabold text-white text-base">Outbox Shield Safety Gate</h3>
+            <p class="text-xs text-slate-300 leading-relaxed">
+              All generated videos, ad copy, and landing pages land in a locked, PAUSED state.
+            </p>
+            <ul class="text-[11px] font-mono space-y-1 text-slate-400">
+              <li>• Path: `01_Command_Center/Outbox_Drafts/`</li>
+              <li>• Brand Firewall Inspection Pass</li>
+              <li>• Zero Auto-Publishing / Spend</li>
+              <li class="text-pyellow font-bold">• Human "GO" Token Required</li>
+            </ul>
+          </div>
+          <div class="p-2.5 bg-pblue-deep rounded-xl border border-pblue-border text-[10px] font-mono text-pyellow">
+            State: PAUSED_PENDING_REVIEW
+          </div>
+        </div>
+
+        <!-- STAGE 4: GOOGLE ECOSYSTEM DISPATCH -->
+        <div class="glass-card glass-card-interactive p-5 rounded-2xl space-y-4 relative flex flex-col justify-between">
+          <div class="space-y-3">
+            <div class="flex items-center justify-between border-b border-pblue-border pb-3">
+              <span class="w-8 h-8 rounded-lg bg-pyellow text-pblue-deep font-black flex items-center justify-center text-sm">04</span>
+              <i class="fa-brands fa-google text-pyellow text-2xl"></i>
+            </div>
+            <h3 class="font-extrabold text-white text-base">Google Ecosystem Dispatch</h3>
+            <p class="text-xs text-slate-300 leading-relaxed">
+              Approved assets deploy across Google channels for search domination and lead capture.
+            </p>
+            <ul class="text-[11px] font-mono space-y-1 text-slate-400">
+              <li>• YouTube Channel & Shorts</li>
+              <li>• Google Business Profile (GBP)</li>
+              <li>• Google Local Services Ads (LSA)</li>
+              <li>• NotebookLM Intelligence Engine</li>
+            </ul>
+          </div>
+          <div class="p-2.5 bg-pblue-deep rounded-xl border border-pblue-border text-[10px] font-mono text-cyan-300">
+            Target: Local #1 + steady lead flow
+          </div>
+        </div>
+
+      </div>
+
+      <!-- DETAILED APP WORKFLOW & INTEGRATION MATRIX -->
+      <div class="glass-card p-6 sm:p-8 rounded-3xl space-y-6">
+        <div class="flex items-center justify-between border-b border-pblue-border pb-4">
+          <div>
+            <h3 class="text-xl font-black text-white flex items-center gap-2">
+              <i class="fa-brands fa-google text-pyellow"></i> Google App & Service Integration Matrix
+            </h3>
+            <p class="text-xs text-slate-300 mt-1">Role-specific mapping of every Google tool inside the PM7 Local Studio ecosystem.</p>
+          </div>
+          <span class="px-3 py-1 bg-pyellow/20 text-pyellow font-mono text-xs font-bold rounded-lg border border-pyellow/40">
+            Unified Google Matrix
+          </span>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+          <!-- GOOGLE DRIVE -->
+          <div class="p-4 bg-pblue-deep rounded-2xl border border-pblue-border space-y-2">
+            <div class="flex items-center justify-between font-bold text-white text-sm">
+              <span class="flex items-center gap-2"><i class="fa-brands fa-google-drive text-pyellow"></i> Google Drive</span>
+              <span class="text-[10px] font-mono bg-pyellow/20 text-pyellow px-2 py-0.5 rounded">Media Vault & Oversight</span>
+            </div>
+            <p class="text-xs text-slate-300 leading-relaxed">
+              Auto-syncs `Outbox_Drafts` to <code class="text-pyellow font-mono">H:\My Drive\_DAILY_OVERSIGHT\</code> so Jr. Moeakiola and Naa Sione can review drafts and give the "GO" approval from their phone.
+            </p>
+          </div>
+
+          <!-- YOUTUBE & SHORTS -->
+          <div class="p-4 bg-pblue-deep rounded-2xl border border-pblue-border space-y-2">
+            <div class="flex items-center justify-between font-bold text-white text-sm">
+              <span class="flex items-center gap-2"><i class="fa-brands fa-youtube text-red-500"></i> YouTube & Shorts</span>
+              <span class="text-[10px] font-mono bg-red-500/20 text-red-300 px-2 py-0.5 rounded">AEO Citation Hub</span>
+            </div>
+            <p class="text-xs text-slate-300 leading-relaxed">
+              Channel <code class="text-pyellow font-mono">@pineapplecontractors5311</code> hosts 50/5/3 vertical Shorts and 5-minute educational roof audits. Transcripts are indexed by Gemini and ChatGPT for AI Search citations.
+            </p>
+          </div>
+
+          <!-- NOTEBOOKLM -->
+          <div class="p-4 bg-pblue-deep rounded-2xl border border-pblue-border space-y-2">
+            <div class="flex items-center justify-between font-bold text-white text-sm">
+              <span class="flex items-center gap-2"><i class="fa-solid fa-book-bookmark text-pyellow"></i> Google NotebookLM</span>
+              <span class="text-[10px] font-mono bg-pyellow/20 text-pyellow px-2 py-0.5 rounded">Second Brain</span>
+            </div>
+            <p class="text-xs text-slate-300 leading-relaxed">
+              Connected via NotebookLM MCP (`notebooklm-mcp-cli`). Ingests PM7 SOPs and video transcripts to auto-generate podcasts, slide decks, and study guides for the sales team without hallucinations.
+            </p>
+          </div>
+
+          <!-- GOOGLE BUSINESS PROFILE (GBP) -->
+          <div class="p-4 bg-pblue-deep rounded-2xl border border-pblue-border space-y-2">
+            <div class="flex items-center justify-between font-bold text-white text-sm">
+              <span class="flex items-center gap-2"><i class="fa-solid fa-location-dot text-cyan-400"></i> Business Profile (GBP)</span>
+              <span class="text-[10px] font-mono bg-cyan-400/20 text-cyan-300 px-2 py-0.5 rounded">Local Map Pack</span>
+            </div>
+            <p class="text-xs text-slate-300 leading-relaxed">
+              Primary lead engine for Frisco & Lewisville. Repurposed video clips and storm damage report excerpts are scheduled as weekly GBP updates to maintain "actively maintained" status.
+            </p>
+          </div>
+
+          <!-- GOOGLE SEARCH CONSOLE & OPENSEO -->
+          <div class="p-4 bg-pblue-deep rounded-2xl border border-pblue-border space-y-2">
+            <div class="flex items-center justify-between font-bold text-white text-sm">
+              <span class="flex items-center gap-2"><i class="fa-solid fa-chart-line text-pyellow"></i> Search Console & GSC</span>
+              <span class="text-[10px] font-mono bg-pyellow/20 text-pyellow px-2 py-0.5 rounded">Striking Distance</span>
+            </div>
+            <p class="text-xs text-slate-300 leading-relaxed">
+              Connected to local `OpenSEO` dashboard at `http://localhost:3001`. Identifies page-2 keywords (positions 5–20) with high impressions to trigger targeted `@apollo-seo` content runs.
+            </p>
+          </div>
+
+          <!-- GOOGLE AI STUDIO & GEMINI -->
+          <div class="p-4 bg-pblue-deep rounded-2xl border border-pblue-border space-y-2">
+            <div class="flex items-center justify-between font-bold text-white text-sm">
+              <span class="flex items-center gap-2"><i class="fa-solid fa-wand-magic-sparkles text-pyellow"></i> AI Studio & Gemini 2.5</span>
+              <span class="text-[10px] font-mono bg-pyellow/20 text-pyellow px-2 py-0.5 rounded">Frontend & TTS</span>
+            </div>
+            <p class="text-xs text-slate-300 leading-relaxed">
+              Powers interactive landing pages, 3D WebGL logo elements, and native `gemini-2.5-flash-preview-tts` voice briefings for phone reps and video voiceovers.
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- EXECUTABLE POWERSHELL SCRIPT DEMO -->
+      <div class="glass-card p-6 sm:p-8 rounded-3xl space-y-4">
+        <div class="flex items-center justify-between border-b border-pblue-border pb-3">
+          <h3 class="font-bold text-white text-sm flex items-center gap-2">
+            <i class="fa-solid fa-terminal text-pyellow"></i> 1-Click Drive-to-Studio Repurposing Automation Script
+          </h3>
+          <button onclick="copyScript()" class="px-3 py-1 bg-pyellow text-pblue-deep font-bold text-xs rounded-lg hover:bg-pyellow-hover transition">
+            <i class="fa-solid fa-copy"></i> Copy Script
+          </button>
+        </div>
+
+        <pre id="ps-drive-script" class="p-4 bg-pblue-deep rounded-2xl border border-pblue-border text-cyan-300 font-mono text-xs overflow-x-auto leading-relaxed whitespace-pre-wrap"># PM7 GOOGLE DRIVE MEDIA REPURPOSING PIPELINE
+$DriveFolder = "G:\My Drive\Pineapple-Media-HQ\01-INBOX"
+$LocalVault = "C:\Pineapple Contractors M7\02_Media_Vault\Pineapple-Media-HQ\2026_05_GENERAL_INBOX"
+$Outbox = "C:\Pineapple Contractors M7\01_Command_Center\Outbox_Drafts"
+$DailyOversight = "H:\My Drive\Pineapple Contractors M7\_DAILY_OVERSIGHT\Outbox_Drafts"
+
+# 1. Sync Raw Files from Google Drive
+if (Test-Path $DriveFolder) {
+    Get-ChildItem -Path $DriveFolder -Include *.mov,*.mp4,*.jpg -Recurse | ForEach-Object {
+        $dest = Join-Path $LocalVault $_.Name
+        if (-not (Test-Path $dest)) {
+            Copy-Item -Path $_.FullName -Destination $dest -Force
+            Write-Host "[SYNC] Pulled from Drive: $($_.Name)" -ForegroundColor Cyan
+        }
+    }
+}
+
+# 2. Run Brand Firewall Verification Pass
+python "C:\Pineapple Contractors M7\04_Tech_Lab\scripts\brand_firewall.py" --check
+
+# 3. Mirror Outbox Drafts to Google Drive Oversight for Approval
+if (Test-Path $DailyOversight) {
+    robocopy $Outbox $DailyOversight /MIR /NJH /NJS /NDL /nc /ns
+    Write-Host "[SYNC] Outbox Drafts mirrored to Google Drive Oversight" -ForegroundColor Cyan
+}
+
+Write-Host "`n[PASS] Media Processed & Saved PAUSED in Outbox_Drafts!" -ForegroundColor Yellow</pre>
+      </div>
+
+    </div>
+
+  </main>
+
+  <script>
+    // GEMINI API CONFIGURATION
+    // SECURITY: leave this EMPTY in any committed / shared copy. Paste a key only in a LOCAL copy that is never pushed to GitHub or synced to Drive.
+    const apiKey = "";
+
+    // EXPONENTIAL BACKOFF FETCH HELPER
+    async function callGeminiApi(url, payload) {
+      const delays = [1000, 2000, 4000, 8000, 16000];
+      for (let attempt = 0; attempt <= delays.length; attempt++) {
+        try {
+          const res = await fetch(url, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(payload)
+          });
+          if (res.ok) {
+            return await res.json();
+          }
+        } catch (e) {
+          // Retry silently without console logs
+        }
+        if (attempt < delays.length) {
+          await new Promise(resolve => setTimeout(resolve, delays[attempt]));
+        }
+      }
+      throw new Error("Unable to reach Gemini API after retries. Please check your network connection and that a key is set locally.");
+    }
+
+    // MAIN TAB SWITCHER
+    function switchMainTab(tabId) {
+      document.getElementById('tab-gemini-studio').classList.add('hidden');
+      document.getElementById('tab-workflow-map').classList.add('hidden');
+      document.getElementById('nav-btn-gemini-studio').classList.remove('nav-tab-active');
+      document.getElementById('nav-btn-workflow-map').classList.remove('nav-tab-active');
+
+      document.getElementById(tabId).classList.remove('hidden');
+      document.getElementById('nav-btn-' + tabId.replace('tab-', '')).classList.add('nav-tab-active');
+    }
+
+    function copyScript() {
+      const code = document.getElementById('ps-drive-script').innerText;
+      copyTextToClipboard(code);
+      alert("PowerShell Script Copied to Clipboard!");
+    }
+
+    function copyElementText(id) {
+      const text = document.getElementById(id).innerText;
+      copyTextToClipboard(text);
+      alert("Copied to Clipboard!");
+    }
+
+    function copyTextToClipboard(text) {
+      const ta = document.createElement("textarea");
+      ta.value = text;
+      document.body.appendChild(ta);
+      ta.select();
+      document.execCommand("copy");
+      document.body.removeChild(ta);
+    }
+
+    // FEATURE 1: BRAND COMPLIANCE & COPY SCRUBBER (Gemini 2.5 Flash)
+    function applyScrubPreset(type) {
+      const input = document.getElementById('scrub-input-text');
+      if (type === 'storm') {
+        input.value = "Hey Frisco homeowners! We're offering FREE roof inspections and $0 down roof replacements after the recent hail storm. Our warrior crew is GAF certified and will fight adjusters who missed damage. Call us for a cheap deal today!";
+      } else if (type === 'cheap') {
+        input.value = "Discount roofing in Frisco! Get $0 out of pocket shingle repair today. Free estimate for all neighbors, $0 down guaranteed. Call the six brothers!";
+      } else if (type === 'estate') {
+        input.value = "Luxury property managers in Starwood: Free roof inspection for your commercial estate. $0 out of pocket shingle replacement with GAF materials!";
+      }
+    }
+
+    async function runBrandComplianceScrubber() {
+      const textInput = document.getElementById('scrub-input-text').value.trim();
+      if (!textInput) {
+        alert("Please enter or select a draft script first.");
+        return;
+      }
+
+      const btn = document.getElementById('btn-run-scrub');
+      const originalText = btn.innerHTML;
+      btn.innerHTML = `<div class="loading-spinner"></div><span>✨ Scrubbing & Brand-Checking...</span>`;
+      btn.disabled = true;
+
+      const systemPrompt = `You are the Pineapple Contractors M7 Compliance Firewall.
+
+BRAND IDENTITY & CREDENTIALS
+- Business: Pineapple Roofing — Polynesian family-owned, Frisco HQ, founded 2021
+- Phone: (972) 928-0788 | RCAT #03-0637 | IKO Certified (never GAF)
+- Slogan: "Roofing Made Sweeter" + "The Pineapple Promise"
+- Palette: Primary Blue #003299 + Yellow #FFDD17. STRICT ZERO GREEN.
+
+ALLOWED CTA
+- "Call (972) 928-0788 to schedule your free roof inspection/estimate today."
+
+BANNED TERMS (replace or remove)
+- GAF / GAF Certified -> IKO Certified
+- cheap, bargain, warrior, toa, six brothers
+- $0 down / $0 out of pocket / waived deductible -> "Full Restoration Coverage"
+- "free" ONLY when it implies free roof work, free repairs, or claim inducement
+
+FIELD TERMS (public-facing offer language)
+- Use "storm damage report" or "licensed inspection roof report" — NOT "CPPA" in customer copy
+- CPPA is internal/admin tracking only
+
+HERITAGE & LANGUAGE
+- Polynesian-owned: fine on About Us page, not a lead lever in ads
+- NO Tongan proverbs or Tongan words in public marketing copy
+
+OUTPUT FORMAT
+Return:
+1. Scrubbed Copy
+2. List of Mutations Made
+3. Flags Needing Human Review (if any)
+Mark STATUS: PAUSED — do not imply live publish.`;
+
+      const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=${apiKey}`;
+      const payload = {
+        contents: [{ parts: [{ text: `Raw draft to scrub:\n"${textInput}"` }] }],
+        systemInstruction: { parts: [{ text: systemPrompt }] }
+      };
+
+      try {
+        const data = await callGeminiApi(endpoint, payload);
+        const resultText = data.candidates?.[0]?.content?.parts?.[0]?.text || "Scrubbing completed.";
+        document.getElementById('scrub-result-content').innerText = resultText;
+        document.getElementById('scrub-output-box').classList.remove('hidden');
+      } catch (err) {
+        alert("Error scrubbing text: " + err.message);
+      } finally {
+        btn.innerHTML = originalText;
+        btn.disabled = false;
+      }
+    }
+
+    // FEATURE 2: DFW STORM AUDIT & AEO LEAD GENERATOR (with Google Search Grounding)
+    async function runStormAuditGenerator() {
+      const city = document.getElementById('audit-target-city').value;
+      const stormType = document.getElementById('audit-storm-type').value;
+      const useGrounding = document.getElementById('use-search-grounding').checked;
+
+      const btn = document.getElementById('btn-run-audit');
+      const originalText = btn.innerHTML;
+      btn.innerHTML = `<div class="loading-spinner"></div><span>✨ Generating DFW Storm Lead Engine...</span>`;
+      btn.disabled = true;
+
+      const systemPrompt = `You are Apollo SEO & AEO Lead Architect for Pineapple Roofing ((972) 928-0788 | RCAT #03-0637 | IKO Certified | Frisco HQ).
+Target City: ${city}. Storm Event: ${stormType}.
+
+Generate a 3-part execution pitch:
+1. AEO Direct-Answer Opening Paragraph (Sentence 1 directly answers the query for SearchGPT & Google AI Overviews).
+2. Speed-to-Lead SMS Script (<160 chars) to auto-reply to incoming web forms within 5 minutes.
+3. RoofingContractor & FAQPage JSON-LD Schema Block.
+
+Brand Rules:
+- "Call (972) 928-0788 to schedule your free roof inspection" is ALLOWED in CTA.
+- Use "storm damage report" or "licensed inspection roof report" in public copy.
+- BAN: GAF, $0 down, cheap, warrior, toa, Tongan words in ad copy.
+- STATUS: PAUSED.`;
+
+      const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=${apiKey}`;
+      const payload = {
+        contents: [{ parts: [{ text: `Generate AEO pitch, SMS hook, and JSON-LD schema for ${city} dealing with ${stormType}.` }] }],
+        systemInstruction: { parts: [{ text: systemPrompt }] }
+      };
+
+      if (useGrounding) {
+        payload.tools = [{ "google_search": {} }];
+      }
+
+      try {
+        const data = await callGeminiApi(endpoint, payload);
+        const candidate = data.candidates?.[0];
+        const resultText = candidate?.content?.parts?.[0]?.text || "Generation completed.";
+
+        document.getElementById('audit-result-content').innerText = resultText;
+        document.getElementById('audit-output-box').classList.remove('hidden');
+
+        // Extract grounding sources if available
+        const groundingBox = document.getElementById('grounding-sources-box');
+        const sourcesList = document.getElementById('grounding-sources-list');
+        sourcesList.innerHTML = "";
+
+        const attributions = candidate?.groundingMetadata?.groundingAttributions || [];
+        if (attributions.length > 0) {
+          attributions.forEach(a => {
+            if (a.web?.uri && a.web?.title) {
+              const item = document.createElement("a");
+              item.href = a.web.uri;
+              item.target = "_blank";
+              item.className = "block hover:text-pyellow underline truncate";
+              item.innerText = `• ${a.web.title} (${a.web.uri})`;
+              sourcesList.appendChild(item);
+            }
+          });
+          groundingBox.classList.remove('hidden');
+        } else {
+          groundingBox.classList.add('hidden');
+        }
+
+      } catch (err) {
+        alert("Error generating storm audit: " + err.message);
+      } finally {
+        btn.innerHTML = originalText;
+        btn.disabled = false;
+      }
+    }
+
+    // FEATURE 3: GEMINI TTS NATIVE VOICE BRIEFING
+    async function runGeminiTTS() {
+      const scriptText = document.getElementById('tts-script-input').value.trim();
+      const voiceName = document.getElementById('tts-voice-persona').value;
+
+      if (!scriptText) {
+        alert("Please enter a spoken script first.");
+        return;
+      }
+
+      const btn = document.getElementById('btn-run-tts');
+      const originalText = btn.innerHTML;
+      btn.innerHTML = `<div class="loading-spinner"></div><span>✨ Synthesizing Native Voice...</span>`;
+      btn.disabled = true;
+
+      const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-tts:generateContent?key=${apiKey}`;
+      const payload = {
+        contents: [{ parts: [{ text: scriptText }] }],
+        generationConfig: {
+          responseModalities: ["AUDIO"],
+          speechConfig: {
+            voiceConfig: {
+              prebuiltVoiceConfig: { voiceName: voiceName }
+            }
+          }
+        }
+      };
+
+      try {
+        const data = await callGeminiApi(endpoint, payload);
+        const audioPart = data.candidates?.[0]?.content?.parts?.find(p => p.inlineData && p.inlineData.mimeType?.startsWith("audio/"));
+
+        if (!audioPart || !audioPart.inlineData?.data) {
+          throw new Error("No audio payload returned from Gemini TTS.");
+        }
+
+        const base64Pcm = audioPart.inlineData.data;
+        const mimeType = audioPart.inlineData.mimeType || "audio/L16;rate=24000";
+
+        let sampleRate = 24000;
+        const rateMatch = mimeType.match(/rate=(\d+)/);
+        if (rateMatch) {
+          sampleRate = parseInt(rateMatch[1], 10);
+        }
+
+        const wavUrl = pcmToWav(base64Pcm, sampleRate);
+        const audioElement = document.getElementById('tts-audio-element');
+        audioElement.src = wavUrl;
+        document.getElementById('tts-player-box').classList.remove('hidden');
+        audioElement.play();
+
+      } catch (err) {
+        alert("TTS Synthesis Error: " + err.message);
+      } finally {
+        btn.innerHTML = originalText;
+        btn.disabled = false;
+      }
+    }
+
+    // PCM 16-bit to WAV Helper Function for Gemini TTS
+    function pcmToWav(base64Pcm, sampleRate = 24000) {
+      const binaryString = atob(base64Pcm);
+      const len = binaryString.length;
+      const bytes = new Uint8Array(len);
+      for (let i = 0; i < len; i++) {
+        bytes[i] = binaryString.charCodeAt(i);
+      }
+
+      const numChannels = 1;
+      const bitsPerSample = 16;
+      const byteRate = sampleRate * numChannels * (bitsPerSample / 8);
+      const blockAlign = numChannels * (bitsPerSample / 8);
+      const dataSize = bytes.length;
+
+      const buffer = new ArrayBuffer(44 + dataSize);
+      const view = new DataView(buffer);
+
+      writeString(view, 0, 'RIFF');
+      view.setUint32(4, 36 + dataSize, true);
+      writeString(view, 8, 'WAVE');
+      writeString(view, 12, 'fmt ');
+      view.setUint32(16, 16, true);
+      view.setUint16(20, 1, true); // PCM
+      view.setUint16(22, numChannels, true);
+      view.setUint32(24, sampleRate, true);
+      view.setUint32(28, byteRate, true);
+      view.setUint16(32, blockAlign, true);
+      view.setUint16(34, bitsPerSample, true);
+      writeString(view, 36, 'data');
+      view.setUint32(40, dataSize, true);
+
+      const pcmBytes = new Uint8Array(buffer, 44);
+      pcmBytes.set(bytes);
+
+      const blob = new Blob([buffer], { type: 'audio/wav' });
+      return URL.createObjectURL(blob);
+    }
+
+    function writeString(view, offset, string) {
+      for (let i = 0; i < string.length; i++) {
+        view.setUint8(offset + i, string.charCodeAt(i));
+      }
+    }
+
+    // FEATURE 4: DRIVE 50/5/3 LEGO SPEC GENERATOR
+    async function runLegoSpecGenerator() {
+      const assetType = document.getElementById('lego-asset-type').value;
+      const adAngle = document.getElementById('lego-ad-angle').value;
+
+      const btn = document.getElementById('btn-run-lego');
+      const originalText = btn.innerHTML;
+      btn.innerHTML = `<div class="loading-spinner"></div><span>✨ Building 50/5/3 Video Spec...</span>`;
+      btn.disabled = true;
+
+      const systemPrompt = `You are Astros, Lead Media Strategist for Pineapple Roofing (@pineapplecontractors5311).
+Raw Drive Asset: ${assetType}. Ad Angle: ${adAngle}.
+
+Write a 50-second 50/5/3 vertical video spec formatted for local FFmpeg/Remotion rendering:
+- 0:00–0:05 (Hook): Pattern Interrupt Hook (140px Yellow #FFDD17 banner, Blue Impact font).
+- 0:05–0:40 (Meat): 3 scannable value beats.
+- 0:40–0:50 (CTA): Call (972) 928-0788 to schedule your free roof inspection today.
+- 95px Blue (#003299) bottom credential bar (RCAT #03-0637 · IKO Certified).
+Strictly BAN: GAF, $0 down, cheap, warrior, toa, Tongan words in ad copy.
+STATUS: PAUSED.`;
+
+      const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=${apiKey}`;
+      const payload = {
+        contents: [{ parts: [{ text: `Create a 50/5/3 Lego video spec for ${assetType} using angle ${adAngle}.` }] }],
+        systemInstruction: { parts: [{ text: systemPrompt }] }
+      };
+
+      try {
+        const data = await callGeminiApi(endpoint, payload);
+        const resultText = data.candidates?.[0]?.content?.parts?.[0]?.text || "Spec generation complete.";
+        document.getElementById('lego-result-content').innerText = resultText;
+        document.getElementById('lego-output-box').classList.remove('hidden');
+      } catch (err) {
+        alert("Error generating video spec: " + err.message);
+      } finally {
+        btn.innerHTML = originalText;
+        btn.disabled = false;
+      }
+    }
+  </script>
+
+</body>
+</html>
