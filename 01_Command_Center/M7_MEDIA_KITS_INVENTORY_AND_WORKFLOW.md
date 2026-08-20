@@ -1,13 +1,28 @@
 ---
 title: M7 Media Kits Inventory + Improved Media→Publish Workflow
-status: reference. Kits are in Downloads — NOT auto-installed (some need paid keys or contain agent-behavior directives). Review before adding.
+status: INSTALLED 2026-08-20 — 4 skills live; source kits staged in 02_Media_Vault/_incoming_kits (gitignored).
 date: 2026-08-20
 brand: Blue #003299 + Yellow #ffdd17 · Zero green · Outbox Shield · nothing published without GO
 ---
 
 # 🍍 M7 Media Kits — Master Inventory & Workflow
 
-**8 kits scanned (listing only — nothing was run or installed).** They're all Claude/Remotion video-production + local-AI tooling. Below: what each does, free vs paid, and where it plugs into your pipeline.
+**8 kits scanned, then installed.** Below: what each does, free vs paid, and where it plugs into your pipeline.
+
+## ✅ INSTALLED 2026-08-20 (live now — no restart of this chat needed; studio may need a reload)
+**4 Claude skills → `C:\Users\estim\.claude\skills\`** (invoke by describing the task):
+- **shot-builder** — "build a character sheet / shot list / contact sheet / cinematic video" (prompt-only = $0)
+- **immersive-web** — "build a cinematic/3D/scroll-driven landing page" (turns a video into a scroll-scrubbed site)
+- **editorial-web** — "build a clean/premium/magazine-style site"
+- **generate** — "generate an image/video" via pay-as-you-go models with a receipts ledger (needs your own API key to actually run — paid per use)
+
+**Codex-SDK kit** → `04_Tech_Lab/vendor/codex-sdk-kit/` (reference, gitignored).
+**All 8 source zips/PDFs** (incl. the 784MB Styles Vault) → `02_Media_Vault/_incoming_kits/` (gitignored — too big for GitHub).
+*Skipped:* the "antigravity-protocol" behavior-override skill (aggressive always-on trigger + messy nested structure) — install by hand only if you want it.
+⚠️ `generate` + shot-builder's FAL/Kie modes need **your own paid API key**; shot-builder **prompt-only** and the web skills are $0.
+
+---
+
 
 ## 📦 The 8 kits
 | Kit (in Downloads) | What it is | Free? | Add to M7 for… |

@@ -68,6 +68,10 @@ desktop.ini
 
 # large installers — NEVER commit (GitHub 100MB hard limit; OllamaSetup=1.5GB, Cursor=194MB)
 *.exe
+# staged media-kit zips/PDFs (784MB styles vault etc.) — keep local, never commit
+02_Media_Vault/_incoming_kits/
+# Codex-SDK reference kit (vendor)
+04_Tech_Lab/vendor/codex-sdk-kit/
 # stray tilde dir from a misfired ~ path expansion (contains a nested .git)
 /~/
 
