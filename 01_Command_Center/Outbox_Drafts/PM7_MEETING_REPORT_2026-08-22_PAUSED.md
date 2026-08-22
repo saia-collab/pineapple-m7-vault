@@ -9,7 +9,16 @@ owner_action_required: yes
 
 ## Executive answer
 
-The GitHub recovery configuration is prepared for Local Studio, OmniRoute, Claude Code, Codex, Cursor, OpenCode, Gemini CLI, Google AI Studio provider access, and Antigravity. It is not honest to call those tools installed or live-tested on the Windows computer yet. Claude Code confirmed that the recovery branch was absent locally and safely stopped. After this draft PR is reviewed and merged, the Windows launchers will configure the clients from the live OmniRoute catalog and generate a local verification receipt.
+The recovery branch is now published in [draft PR #2](https://github.com/saia-collab/pineapple-m7-vault/pull/2), and its Windows GitHub Actions check passed. The configuration is prepared for Local Studio, OmniRoute, Claude Code, Codex, Cursor, OpenCode, Gemini CLI, Google AI Studio provider access, and Antigravity. It is not honest to call those tools installed, authenticated, or live-tested on the Windows computer yet. Claude Code confirmed that the recovery branch was absent locally and safely stopped. After PR review and owner approval, the Windows launchers will configure the clients from the live OmniRoute catalog and generate a local verification receipt.
+
+## Publication and validation status
+
+- Draft PR: [PM7 OmniRoute recovery: launchers, routing, security, and Windows verification](https://github.com/saia-collab/pineapple-m7-vault/pull/2)
+- Branch: `codex/pm7-omniroute-recovery-20260822`
+- Published commit: `e60bf81a3fc370d3b3c6834ca0cfaeb93c80730d`
+- Windows GitHub Actions: **PASSED** (`PM7 recovery static checks`, run 2)
+- Main branch: unchanged
+- Merge status: **PAUSED — Claude review, credential rotation, owner GO, and real Windows verification required**
 
 ## Completed in the recovery branch
 
@@ -42,15 +51,16 @@ The GitHub recovery configuration is prepared for Local Studio, OmniRoute, Claud
 
 ## Required completion order after PR review
 
-1. Claude fetches and reviews the draft PR without touching its dirty local `main`.
-2. Saia gives GO to merge.
+1. Claude fetches and reviews draft PR #2 without touching its dirty local `main`.
+2. Revoke and rotate the four previously exposed credentials.
 3. Resolve Google Drive/Git file movement before pulling.
-4. Pull the approved recovery.
-5. Run `LAUNCH_PM7_STUDIO.bat`.
-6. Run `CONFIGURE_PM7_AI_CLIENTS.bat`.
-7. Run `CONFIGURE_PM7_GOOGLE_AI.bat` and complete the owner-only Google/Antigravity login.
-8. Run `PM7_REPAIR_AND_VERIFY.bat`.
-9. Accept completion only from the new Windows receipt showing ports and model outputs.
+4. Saia gives GO to merge only after the review is accepted.
+5. Pull the approved recovery.
+6. Run `LAUNCH_PM7_STUDIO.bat`.
+7. Run `CONFIGURE_PM7_AI_CLIENTS.bat`.
+8. Run `CONFIGURE_PM7_GOOGLE_AI.bat` and complete the owner-only Google/Antigravity login.
+9. Run `PM7_REPAIR_AND_VERIFY.bat`.
+10. Accept completion only from the new Windows receipt showing ports and model outputs.
 
 ## Meeting bottom line
 
