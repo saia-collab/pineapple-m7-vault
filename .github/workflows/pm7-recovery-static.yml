@@ -32,6 +32,7 @@ jobs:
         run: |
           $files = @(
             "04_Tech_Lab/scripts/PM7_OMNIROUTE_REPAIR_AND_VERIFY.ps1",
+            "04_Tech_Lab/scripts/PM7_OBSIDIAN_MEMORY_RECOVERY.ps1",
             "04_Tech_Lab/scripts/agentos_launcher_fixes_2026-08-16/START-PINEAPPLE-AGENT-OS.ps1"
           )
           $failed = $false
@@ -54,5 +55,6 @@ jobs:
         shell: powershell
         run: |
           python -m py_compile 04_Tech_Lab/m7_doctor.py
+          python -m py_compile 04_Tech_Lab/scripts/memory_sync.py 04_Tech_Lab/scripts/sync_memory.py
           python -m json.tool 04_Tech_Lab/config/models.json | Out-Null
           python 04_Tech_Lab/tests/test_pm7_recovery_static.py

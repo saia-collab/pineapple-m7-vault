@@ -96,6 +96,36 @@ class RecoveryStaticTests(unittest.TestCase):
         )
         self.assertEqual(violations, [])
 
+    def test_obsidian_recovery_is_secret_safe_and_scoped(self) -> None:
+        script = self.read("04_Tech_Lab/scripts/PM7_OBSIDIAN_MEMORY_RECOVERY.ps1")
+        launcher = self.read("PM7_OBSIDIAN_RECOVER.bat")
+        playbook = self.read("01_Command_Center/Playbooks/Obsidian_Memory_Recovery_Playbook.md")
+        contract = self.read("03_Knowledge_Mat/OBSIDIAN_MEMORY_CONTRACT.md")
+        self.assertIn('Get-Process -Name "Obsidian"', script)
+        self.assertIn("workspace.json.bak", script)
+        self.assertIn("plugins\\obsidian-local-rest-api", script)
+        self.assertIn("03_Knowledge_Mat", script)
+        self.assertIn("Configuration file exists; its values were intentionally not read.", script)
+        self.assertIn("for ($attempt = 1; $attempt -le 15; $attempt++)", script)
+        self.assertIn('$status = if ($localRestExpected) { "FAIL" } else { "NOT TESTED" }', script)
+        self.assertNotIn("OBSIDIAN_REST_API_KEY", script)
+        self.assertIn("PM7_OBSIDIAN_MEMORY_RECOVERY.ps1", launcher)
+        self.assertIn("Reset all cryptography", playbook)
+        self.assertIn('bearer_token_env_var = "OBSIDIAN_REST_API_KEY"', playbook)
+        self.assertIn("Hermes / Agent OS Memory Galaxy", playbook)
+        self.assertIn("Only an intentionally local runtime such as Ollama", playbook)
+        self.assertIn("Focused AI memory and Memory Galaxy scope", contract)
+        self.assertIn("ChatGPT cloud cannot access Windows `localhost`", contract)
+        verifier = self.read("04_Tech_Lab/scripts/PM7_OMNIROUTE_REPAIR_AND_VERIFY.ps1")
+        self.assertIn('Join-Path $env:USERPROFILE ".agentic-os\\config.json"', verifier)
+        self.assertIn('Add-Result "Shared memory corpus" "PASS"', verifier)
+
+    def test_legacy_memory_sync_delegates_without_retired_paths(self) -> None:
+        compatibility = self.read("04_Tech_Lab/scripts/sync_memory.py")
+        self.assertIn("from memory_sync import main", compatibility)
+        self.assertNotIn("Pineapple-Mana-Global", compatibility)
+        self.assertNotIn("Users/estim", compatibility)
+
 
 if __name__ == "__main__":
     unittest.main(verbosity=2)

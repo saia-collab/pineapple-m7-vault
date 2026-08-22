@@ -54,23 +54,27 @@ flowchart TD
 | Notebook/Obsidian bridge | `http://127.0.0.1:8643` | optional supporting service |
 | Ollama | `http://127.0.0.1:11434/api/tags` | optional lightweight local fallback |
 
+Obsidian desktop recovery and shared-memory configuration are governed by `01_Command_Center/Playbooks/Obsidian_Memory_Recovery_Playbook.md`. The official Local REST API uses loopback HTTPS `https://127.0.0.1:27124`; it is separate from the optional legacy notebook bridge on `:8643`.
+
 ## One-time recovery on the Windows desktop
 
 1. Rotate the exposed Obsidian Local REST API token, OpenAI project key, Google API key, and Omega Indexer key. They appeared in committed public files; removing them from the current tree does not remove them from Git history.
-2. Pull the approved PM7 recovery change into `C:\Pineapple Contractors M7`.
-3. Confirm Node.js and npm are installed.
-4. Install or update OmniRoute from its official package:
+2. Resolve the Google Drive/Git conflict before pulling: pause Drive sync for the repository (or move the Git working copy outside Drive), remove only verified `desktop.ini` junk from `.git/refs`, and confirm `git fetch` succeeds.
+3. Pull the approved PM7 recovery change into `C:\Pineapple Contractors M7`.
+4. Double-click `PM7_OBSIDIAN_RECOVER.bat`; use its receipt to recover the UI workspace and focus Local Studio memory on `03_Knowledge_Mat`.
+5. Confirm Node.js and npm are installed.
+6. Install or update OmniRoute from its official package:
 
    ```powershell
    npm install -g omniroute
    omniroute --version
    ```
 
-5. Start OmniRoute/Studio with `LAUNCH_PM7_STUDIO.bat`.
-6. In the OmniRoute dashboard, create or select a scoped endpoint token if authentication is enabled. Add provider OAuth sessions or keys only inside OmniRoute/provider credential storage.
-7. Double-click `CONFIGURE_PM7_AI_CLIENTS.bat`. It uses the live catalog to generate Claude, Codex, and OpenCode profiles and prints Cursor's exact in-app settings.
-8. Double-click `PM7_REPAIR_AND_VERIFY.bat`.
-9. Open the newest `PM7_LOCAL_VERIFY_*.md` receipt in `01_Command_Center/Outbox_Drafts/`. Do not claim completion unless Studio, Hermes, OmniRoute, and the required model routes pass or authentication is explicitly identified as the only blocker.
+7. Start OmniRoute/Studio with `LAUNCH_PM7_STUDIO.bat`.
+8. In the OmniRoute dashboard, create or select a scoped endpoint token if authentication is enabled. Add provider OAuth sessions or keys only inside OmniRoute/provider credential storage.
+9. Double-click `CONFIGURE_PM7_AI_CLIENTS.bat`. It uses the live catalog to generate Claude, Codex, and OpenCode profiles and prints Cursor's exact in-app settings.
+10. Double-click `PM7_REPAIR_AND_VERIFY.bat`.
+11. Open the newest `PM7_LOCAL_VERIFY_*.md` receipt in `01_Command_Center/Outbox_Drafts/`. Do not claim completion unless Studio, Hermes, OmniRoute, and the required model routes pass or authentication is explicitly identified as the only blocker.
 
 ## Daily launch choices
 
@@ -147,6 +151,7 @@ A Windows recovery is complete only when a fresh receipt from the real desktop s
 - Ollama and other optional services accurately reported without blocking the core stack;
 - no token written to the receipt or repository;
 - Claude subscription and OmniRoute modes launch independently.
+- Obsidian recovery has a separate current receipt, and Local Studio `vaultRoot` targets `03_Knowledge_Mat`.
 
 ## Cloud-audit boundary
 

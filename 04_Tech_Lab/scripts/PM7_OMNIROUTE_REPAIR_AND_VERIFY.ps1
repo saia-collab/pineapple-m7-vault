@@ -126,6 +126,32 @@ foreach ($name in $optionalCommands) {
   Add-Result ("Client {0}" -f $name) ($(if ($command) { "PASS" } else { "OPTIONAL" })) ($(if ($command) { $command.Source } else { "not installed or not on PATH" }))
 }
 
+$expectedMemoryRoot = Join-Path $M7Root "03_Knowledge_Mat"
+$agentConfig = Join-Path $env:USERPROFILE ".agentic-os\config.json"
+if (Test-Path -LiteralPath $agentConfig) {
+  try {
+    $agentSettings = Get-Content -LiteralPath $agentConfig -Raw | ConvertFrom-Json
+    if ([string]$agentSettings.vaultRoot -eq $expectedMemoryRoot) {
+      Add-Result "Local Studio memory scope" "PASS" "vaultRoot targets 03_Knowledge_Mat."
+    } else {
+      Add-Result "Local Studio memory scope" "FAIL" "vaultRoot does not target the focused 03_Knowledge_Mat folder. Run PM7_OBSIDIAN_RECOVER.bat."
+    }
+  } catch {
+    Add-Result "Local Studio memory scope" "FAIL" ".agentic-os config.json could not be parsed."
+  }
+} else {
+  Add-Result "Local Studio memory scope" "FAIL" ".agentic-os config.json is missing. Run PM7_OBSIDIAN_RECOVER.bat."
+}
+
+$sharedMemory = Join-Path $expectedMemoryRoot "SHARED_MEMORY.md"
+$memoryContract = Join-Path $expectedMemoryRoot "OBSIDIAN_MEMORY_CONTRACT.md"
+if ((Test-Path -LiteralPath $sharedMemory -PathType Leaf) -and (Test-Path -LiteralPath $memoryContract -PathType Leaf)) {
+  $noteCount = @(Get-ChildItem -LiteralPath $expectedMemoryRoot -Filter "*.md" -File -Recurse -ErrorAction SilentlyContinue).Count
+  Add-Result "Shared memory corpus" "PASS" ("SHARED_MEMORY.md and OBSIDIAN_MEMORY_CONTRACT.md are present; {0} Markdown notes are available to index." -f $noteCount)
+} else {
+  Add-Result "Shared memory corpus" "FAIL" "SHARED_MEMORY.md or OBSIDIAN_MEMORY_CONTRACT.md is missing from 03_Knowledge_Mat."
+}
+
 $omni = Get-Command omniroute -ErrorAction SilentlyContinue
 if ($omni) {
   try {
@@ -142,6 +168,7 @@ Test-Service "Free Claude proxy" 8082 "http://127.0.0.1:8082" $false
 Test-Service "OmniRoute" 20128 "http://127.0.0.1:20128/v1/models" $true
 Test-Service "M7 backend" 51763 "http://127.0.0.1:51763/api/health" $false
 Test-Service "Notebook/Obsidian bridge" 8643 "http://127.0.0.1:8643" $false
+Test-Service "Obsidian Local REST HTTPS" 27124 "https://127.0.0.1:27124" $false
 Test-Service "Ollama" 11434 "http://127.0.0.1:11434/api/tags" $false
 
 if (Test-Port 11434) {
