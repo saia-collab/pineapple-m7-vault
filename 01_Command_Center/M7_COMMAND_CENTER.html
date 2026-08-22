@@ -8,16 +8,16 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
 :root{
-  --navy-deep:#0a1122; --navy:#1A365D; --panel:rgba(19,32,56,.62); --panel2:rgba(13,24,44,.55);
-  --line:rgba(0,191,255,.16); --gold:#FBC02D; --gold2:#FFD700; --cyan:#00BFFF;
+  --navy-deep:#001a4d; --navy:#003299; --panel:rgba(0,50,153,.35); --panel2:rgba(0,26,77,.55);
+  --line:rgba(255,221,23,.22); --gold:#ffdd17; --gold2:#ffdd17; --cyan:#ffffff;
   --violet:#b79cf2; --blue:#7fb0ff; --amber:#ff9e5e; --pink:#ff8fb0; --orange:#ff9e5e;
   --ink:#f1f3fa; --muted:#8ea4c2; --sub:#5d75a0; --r:13px;
 }
 *{box-sizing:border-box;margin:0;padding:0;font-family:'Inter',sans-serif;}
 html,body{height:100%;}
 body{background:var(--navy-deep);
-  background-image:radial-gradient(at 8% 6%,rgba(26,54,93,.45) 0,transparent 48%),
-    radial-gradient(at 92% 8%,rgba(0,191,255,.16) 0,transparent 46%),
+  background-image:radial-gradient(at 8% 6%,rgba(0,50,153,.45) 0,transparent 48%),
+    radial-gradient(at 92% 8%,rgba(255,255,255,.16) 0,transparent 46%),
     radial-gradient(at 50% 96%,rgba(251,192,45,.10) 0,transparent 50%);
   color:var(--ink);height:100vh;overflow:hidden;display:flex;}
 a{color:inherit;text-decoration:none;}
@@ -30,10 +30,10 @@ a{color:inherit;text-decoration:none;}
 .logo span{font-size:9.5px;color:var(--cyan);font-weight:700;letter-spacing:3px;}
 .grp{font-size:9px;text-transform:uppercase;letter-spacing:1.5px;color:var(--sub);margin:14px 8px 4px;}
 .nav{display:flex;align-items:center;gap:10px;padding:9px 12px;border-radius:var(--r);color:var(--muted);font-size:13px;font-weight:500;cursor:pointer;border:1px solid transparent;}
-.nav:hover{background:rgba(26,54,93,.4);color:var(--ink);border-color:var(--line);}
-.nav.active{background:rgba(26,54,93,.5);color:var(--ink);border-left:4px solid var(--gold);}
+.nav:hover{background:rgba(0,50,153,.4);color:var(--ink);border-color:var(--line);}
+.nav.active{background:rgba(0,50,153,.5);color:var(--ink);border-left:4px solid var(--gold);}
 .navlink{display:flex;align-items:center;gap:10px;padding:9px 12px;border-radius:var(--r);color:var(--muted);font-size:13px;font-weight:500;cursor:pointer;border:1px solid transparent;}
-.navlink:hover{background:rgba(26,54,93,.4);color:var(--ink);border-color:var(--line);}
+.navlink:hover{background:rgba(0,50,153,.4);color:var(--ink);border-color:var(--line);}
 .agent{display:flex;align-items:center;gap:9px;padding:6px 12px;font-size:12px;color:var(--muted);}
 .adot{width:8px;height:8px;border-radius:50%;flex:none;}
 .on{background:var(--cyan);box-shadow:0 0 8px var(--cyan);} .deg{background:var(--amber);box-shadow:0 0 8px var(--amber);} .off{background:#5a6b86;}
@@ -48,7 +48,7 @@ a{color:inherit;text-decoration:none;}
 @keyframes pulse{0%{box-shadow:0 0 0 0 rgba(251,192,45,.6);}70%{box-shadow:0 0 0 12px rgba(251,192,45,0);}100%{box-shadow:0 0 0 0 rgba(251,192,45,0);}}
 .right{margin-left:auto;display:flex;align-items:center;gap:8px;}
 .badge{font-size:11px;padding:5px 11px;border-radius:18px;border:1px solid var(--line);color:var(--sub);font-weight:600;}
-.badge.live{color:var(--cyan);border-color:var(--cyan);background:rgba(0,191,255,.07);}
+.badge.live{color:var(--cyan);border-color:var(--cyan);background:rgba(255,255,255,.07);}
 .btn{background:var(--navy);color:var(--ink);border:1px solid var(--gold);padding:8px 13px;border-radius:8px;font-weight:600;cursor:pointer;font-size:12px;}
 .btn:hover{background:var(--gold);color:var(--navy-deep);box-shadow:0 0 8px var(--gold);}
 .btn.ghost{border-color:var(--line);}
@@ -68,7 +68,7 @@ a{color:inherit;text-decoration:none;}
 .acard h3{font-size:15px;margin:3px 0 6px;display:flex;align-items:center;gap:10px;}
 .acard .ico{width:32px;height:32px;border-radius:9px;display:flex;align-items:center;justify-content:center;font-size:16px;}
 .acard p{font-size:11.5px;color:var(--muted);line-height:1.55;min-height:36px;}
-.chip{background:rgba(26,54,93,.5);border:1px solid var(--line);color:#dce8f7;padding:6px 12px;border-radius:18px;font-size:11.5px;cursor:pointer;}
+.chip{background:rgba(0,50,153,.5);border:1px solid var(--line);color:#dce8f7;padding:6px 12px;border-radius:18px;font-size:11.5px;cursor:pointer;}
 .chip:hover{border-color:var(--gold);color:#fff;}
 .crow{display:flex;gap:7px;flex-wrap:wrap;margin-top:10px;}
 
@@ -82,7 +82,7 @@ a{color:inherit;text-decoration:none;}
 .kcard{background:rgba(19,32,56,.85);border:1px solid var(--line);border-left:3px solid var(--gold);border-radius:7px;padding:8px 9px;font-size:11px;line-height:1.45;cursor:grab;}
 .kcard .tag{display:inline-block;font-size:8.5px;padding:1px 6px;border-radius:9px;color:#0b1b30;font-weight:700;margin-top:5px;}
 .kcol.dragover{outline:2px dashed var(--gold);outline-offset:-4px;}
-.t-Hermes{background:#FBC02D;}.t-ClaudeCode{background:#7fb0ff;}.t-NotebookLM{background:#b79cf2;}.t-Paperclip{background:#00BFFF;}.t-Higgsfield{background:#ff9e5e;}.t-Firewall{background:#ff8fb0;}.t-Saia{background:#cfd8e6;}.t-OutboxShield{background:#ffd76a;}
+.t-Hermes{background:#ffdd17;}.t-ClaudeCode{background:#7fb0ff;}.t-NotebookLM{background:#b79cf2;}.t-Paperclip{background:#ffffff;}.t-Higgsfield{background:#ff9e5e;}.t-Firewall{background:#ff8fb0;}.t-Saia{background:#cfd8e6;}.t-OutboxShield{background:#ffd76a;}
 
 .panel{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:18px;margin-bottom:16px;backdrop-filter:blur(10px);}
 .panel h2{font-size:14px;margin-bottom:12px;color:var(--gold2);text-transform:uppercase;letter-spacing:.5px;display:flex;align-items:center;gap:8px;}
@@ -143,7 +143,7 @@ input.box:focus,textarea:focus{outline:none;border-color:var(--cyan);}
       <div class="stat"><span>Shared Memory</span><h3 id="s-mem">…</h3><small>SHARED_MEMORY.md</small></div>
       <div class="stat"><span>Pipeline</span><h3 id="s-cards">…</h3><small>cards in flight</small></div>
       <div class="stat"><span>Outbox</span><h3 id="s-outbox">…</h3><small>drafts awaiting you</small></div>
-      <div class="stat"><span>Firewall</span><h3>PASS</h3><small>0 green · 0 banned</small></div>
+      <div class="stat"><span>Firewall</span><h3>PASS</h3><small>current palette · current lexicon</small></div>
     </div>
     <div class="cards" id="agentCards"></div>
   </div>
@@ -219,8 +219,8 @@ input.box:focus,textarea:focus{outline:none;border-color:var(--cyan);}
       <p style="font-size:12.5px;color:var(--muted);line-height:1.6;">Your Agent OS runs on the GCP VM. Reach it privately over Tailscale (no public ports). Open any tile:</p>
       <div class="cards" style="margin-top:14px;">
         <div class="acard"><h3><span class="ico" style="background:#7fb0ff22;color:#7fb0ff">📘</span>Master SOP</h3><p>The one manual Claude Code reads to run the whole OS.</p><div class="crow"><span class="chip" onclick="window.open('M7_MASTER_SOP.md','_blank')">Open SOP</span></div></div>
-        <div class="acard"><h3><span class="ico" style="background:#FBC02D22;color:#FBC02D">🜂</span>Hermes Gateway</h3><p>Cloud Hermes dashboard — sessions, kanban, skills.</p><div class="crow"><span class="chip" onclick="window.open('http://100.112.96.7:9119','_blank')">Open :9119</span></div></div>
-        <div class="acard"><h3><span class="ico" style="background:#00BFFF22;color:#00BFFF">🖥️</span>Workspace</h3><p>Cloud workspace (chat + files). Login: AUTH_USER / AUTH_PASS.</p><div class="crow"><span class="chip" onclick="window.open('http://100.112.96.7:3000','_blank')">Open :3000</span></div></div>
+        <div class="acard"><h3><span class="ico" style="background:#ffdd1722;color:#ffdd17">🜂</span>Hermes Gateway</h3><p>Cloud Hermes dashboard — sessions, kanban, skills.</p><div class="crow"><span class="chip" onclick="window.open('http://100.112.96.7:9119','_blank')">Open :9119</span></div></div>
+        <div class="acard"><h3><span class="ico" style="background:#ffffff22;color:#ffffff">🖥️</span>Workspace</h3><p>Cloud workspace (chat + files). Login: AUTH_USER / AUTH_PASS.</p><div class="crow"><span class="chip" onclick="window.open('http://100.112.96.7:3000','_blank')">Open :3000</span></div></div>
         <div class="acard"><h3><span class="ico" style="background:#ff9e5e22;color:#ff9e5e">☁️</span>Deploy / Runbook</h3><p>Stand up or update the cloud stack.</p><div class="crow"><span class="chip" onclick="window.open('M7_MASTER_RUNBOOK.md','_blank')">Open runbook</span><span class="chip" onclick="exec('cloud')">Copy deploy cmd</span></div></div>
       </div>
       <p style="font-size:10.5px;color:var(--sub);margin-top:12px;">If a tile says "refused": the VM/Tailscale is off, or use your VM's Tailscale IP. Workspace login uses the AUTH_USER/AUTH_PASS from the cloud .env (cookie bug is on :3000 over HTTP — the :9119 gateway is more reliable).</p>
@@ -237,9 +237,13 @@ input.box:focus,textarea:focus{outline:none;border-color:var(--cyan);}
 <div id="toast"></div>
 
 <script>
-const OBS="http://127.0.0.1:27123", OBS_KEY="1f8aa9201f4d4769ec53b2eb57dc1333c5a6b6e6b379294e71229a584d17cd8d";
+const OBS="http://127.0.0.1:27123", OBS_KEY=sessionStorage.getItem("m7_obsidian_rest_api_key")||"";
 const API="http://127.0.0.1:51763", OBS_H={"Authorization":"Bearer "+OBS_KEY};
 let OBS_LIVE=false, API_LIVE=false;
+function setObsidianKey(){
+  const key=window.prompt("Paste the rotated Obsidian Local REST API token. It will stay in this browser tab session only.");
+  if(key&&key.trim()){sessionStorage.setItem("m7_obsidian_rest_api_key",key.trim());location.reload();}
+}
 let toastT;function toast(m){const t=document.getElementById('toast');t.textContent=m;t.classList.add('show');clearTimeout(toastT);toastT=setTimeout(()=>t.classList.remove('show'),3800);}
 function copyText(t,n){if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t).then(()=>toast(n)).catch(()=>fb(t,n));}else fb(t,n);}
 function fb(t,n){const a=document.createElement('textarea');a.value=t;document.body.appendChild(a);a.select();try{document.execCommand('copy');toast(n);}catch(e){}document.body.removeChild(a);}
@@ -252,7 +256,7 @@ async function probe(){
   try{const r=await fetch(OBS+"/",{headers:OBS_H});OBS_LIVE=r.ok;}catch(e){OBS_LIVE=false;}
   try{const r=await fetch(API+"/api/health");API_LIVE=r.ok;}catch(e){API_LIVE=false;}
   const ob=document.getElementById('obsBadge'),ap=document.getElementById('apiBadge');
-  ob.textContent="Obsidian "+(OBS_LIVE?"● live":"○ open it");ob.className="badge"+(OBS_LIVE?" live":"");
+  ob.textContent="Obsidian "+(OBS_LIVE?"● live":"○ click to connect");ob.className="badge"+(OBS_LIVE?" live":"");ob.onclick=setObsidianKey;
   ap.textContent="Backend "+(API_LIVE?"● live":"○ optional");ap.className="badge"+(API_LIVE?" live":"");
   document.getElementById('f-obs').textContent=OBS_LIVE?"connected":"closed";
   document.getElementById('s-vault').textContent=OBS_LIVE?"live":"open Obsidian";
@@ -290,7 +294,7 @@ const AGENTS=[
  {k:'Hermes',ico:'🜂',c:'#7fb0ff',d:'Nous orchestrator. Sessions, skills, kanban, Jarvis.',act:['Run M7_EXECUTE','Week of content']},
  {k:'OpenClaw',ico:'◑',c:'#ff8fb0',d:'Local agent gateway. One-shot or control room.',act:['Open gateway']},
  {k:'NotebookLM',ico:'📓',c:'#b79cf2',d:'Research node. Ingest sources → sourced briefs.',act:['Research Frisco storm']},
- {k:'Paperclip',ico:'📎',c:'#00BFFF',d:'Content team. Repurpose 1 video into many.',act:['Repurpose a video']},
+ {k:'Paperclip',ico:'📎',c:'#ffffff',d:'Content team. Repurpose 1 video into many.',act:['Repurpose a video']},
  {k:'Higgsfield',ico:'🎬',c:'#ff9e5e',d:'Creative + AI cloning (Soul). Credit-gated.',act:['Creative blueprint']},
 ];
 function renderAgents(){const w=document.getElementById('agentCards');w.innerHTML="";AGENTS.forEach(a=>{const el=document.createElement('div');el.className='acard';
@@ -302,7 +306,7 @@ const COLS=[{n:"💡 Idea Input",p:0},{n:"🧠 Agent Planning",p:0},{n:"⛔ Huma
 let DATA=JSON.parse(localStorage.getItem("m7_cc_board")||"null")||[
  {t:"Testimonial money-quote mining",a:"Paperclip",c:0},{t:"GBP weekly post batch",a:"Hermes",c:0},
  {t:"Week 1 social captions — 8 posts (staged)",a:"Hermes",c:2},{t:"FAQ-schema pages — 3 pages (staged)",a:"ClaudeCode",c:2},
- {t:"All staged assets land PAUSED · Outbox Shield",a:"OutboxShield",c:2},{t:"brand_firewall.py --check (0 green/0 banned)",a:"Firewall",c:3},
+ {t:"All staged assets land PAUSED · Outbox Shield",a:"OutboxShield",c:2},{t:"brand_firewall.py --check (current rules)",a:"Firewall",c:3},
  {t:"M7 Integrated Campaign — firewall PASS",a:"ClaudeCode",c:4}];
 function saveLocal(){localStorage.setItem("m7_cc_board",JSON.stringify(DATA));}
 function addCard(){const i=document.getElementById('newcard');if(!i.value.trim())return;DATA.push({t:i.value.trim(),a:"Hermes",c:0});i.value="";saveLocal();renderBoard();}
@@ -328,14 +332,14 @@ async function appendMemory(){const ag=document.getElementById('memAgent').value
   if(ok){document.getElementById('memNote').value="";toast("🌌 Logged to shared memory.");loadMemory();}else toast("Couldn't write (open Obsidian / CORS).");}
 const SKILLS=["NotebookLM Reimagined - Complete Build Kit","Second Brain Starter Kit - Obsidian + Claude Code","Memory Architect Kit","The Perfect Agentic OS Kit","AI Agent Army Pack","Banana Squad - Image Agent Team","MCP Workflow Power Bundle","Self-Improving AI Systems Kit","The Council Skill for Claude Code","Sora Studio Builder","Claude Code Masterclass Guide","Swiss Knife Superapp (Claude Code)","Prompt Suite Factory","Gemini File Search API Kit","Google Workspace CLI Starter Kit","FULL Agentic Patterns Kit"];
 async function loadSkills(){const w=document.getElementById('skillList');let names=SKILLS;const live=await vaultList("04_Tech_Lab/skills_inbox");if(live&&live.length)names=live.map(x=>x.replace(/\/$/,"")).filter(x=>x&&x!=="desktop.ini");
-  w.innerHTML=names.map(n=>`<div class="skill"><b>${n}</b><span style="font-size:10px;color:var(--cyan);cursor:pointer" onclick='copyText("Read everything in 04_Tech_Lab/skills_inbox/${n.replace(/"/g,"")}/ and apply it to my Pineapple task. CPPA, IKO, no green. Draft PAUSED to Outbox.","Command copied for ${n.replace(/"/g,"")}")'>▸ use this</span></div>`).join('');}
-const EX={content:"Read 01_Command_Center/M7_EXECUTE.md and execute this week's content: 8–12 branded captions (Authority/Proof/Heritage), Gold hooks, RCAT #03-0637 + IKO bar, CPPA CTA, 972-928-0788, a Tongan proverb each. Draft PAUSED to Outbox_Drafts, firewall-checked. No folder changes.",
+  w.innerHTML=names.map(n=>`<div class="skill"><b>${n}</b><span style="font-size:10px;color:var(--cyan);cursor:pointer" onclick='copyText("Read everything in 04_Tech_Lab/skills_inbox/${n.replace(/"/g,"")}/ and apply it to my Pineapple task. Use the storm damage report, IKO, and current Pineapple palette. Draft PAUSED to Outbox.","Command copied for ${n.replace(/"/g,"")}")'>▸ use this</span></div>`).join('');}
+const EX={content:"Read 01_Command_Center/M7_EXECUTE.md and execute this week's content: 8–12 branded captions (Authority/Proof/Community), Pineapple Yellow hooks, RCAT #03-0637 + IKO bar, free roof inspection CTA, 972-928-0788. Draft PAUSED to Outbox_Drafts, firewall-checked. No folder changes.",
  repurpose:"Read M7_EXECUTE.md + M7_CONTENT_FACTORY.md. Take one source video → 6 short-cut scripts (different hooks). Draft PAUSED to Outbox_Drafts.",
  mastermind:"Read M7_EXECUTE.md. Run the Mastermind (Research→Writer→Editor→Judge) on the top Agent-Planning card. Output PAUSED to Outbox_Drafts, firewall-checked.",
- seo:"Read M7_INTEGRATED_CAMPAIGN.md §5. Draft a Frisco FAQ-schema page (IKO only, no GAF), answer each question in first 40 words. Draft PAUSED to Outbox_Drafts.",
+ seo:"Read M7_INTEGRATED_CAMPAIGN.md §5. Draft a Frisco FAQ-schema page using IKO certification language and answer each question in the first 40 words. Draft PAUSED to Outbox_Drafts.",
  cloud:"Read 01_Command_Center/M7_MASTER_RUNBOOK.md and M7_CLOUD_DEPLOYMENT_CHEATSHEET.md. Deploy to GCP step by step, pausing for my confirmation. Keep the persistent volume + HERMES_ALLOW_*_WRITE=false, never expose ports. Don't guess my secrets."};
 function exec(k){copyText(EX[k]+"\n\nSaia is the only publisher.","📋 Command copied — paste into Claude Code / Hermes.");}
-function seoBrief(){const kw=document.getElementById('seoKw').value.trim()||"Frisco hail damage repair";copyText(`Act as the SEO research node. For "${kw}": keyword cluster + intent map + content outline. Save to 05_Campaign_Factory/10_Research_Stage/ (PAUSED). IKO only, no GAF, no green.`,"📋 SEO command copied.");}
+function seoBrief(){const kw=document.getElementById('seoKw').value.trim()||"Frisco hail damage repair";copyText(`Act as the SEO research node. For "${kw}": keyword cluster + intent map + content outline. Save to 05_Campaign_Factory/10_Research_Stage/ (PAUSED). Use IKO and the current Pineapple palette.`,"📋 SEO command copied.");}
 
 /* nav + init */
 document.querySelectorAll('.nav').forEach(a=>a.addEventListener('click',()=>{document.querySelectorAll('.nav').forEach(x=>x.classList.remove('active'));a.classList.add('active');const v=a.dataset.v;document.querySelectorAll('.view').forEach(x=>x.classList.add('hide'));document.getElementById('v-'+v).classList.remove('hide');document.getElementById('title').textContent=a.textContent.trim();if(v==='mem')loadMemory();if(v==='skills')loadSkills();if(v==='pipe')renderBoard();}));

@@ -1,24 +1,29 @@
-# Hermes Model Router & Orchestrator Configuration
+# Hermes routing configuration
 
-This directory contains the configurations and model routing weights for the Hermes local orchestration engine.
+**Status:** current
+**Last verified against OmniRoute upstream:** 2026-08-22
 
-## Model Routing & Orchestration Setup
+Hermes is the PM7 planning/orchestration surface. OmniRoute is the model gateway. Do not hardcode remembered Gemini, Claude, DeepSeek, Kimi, GLM, or MiniMax model IDs here; providers and free tiers change.
 
-Hermes acts as the primary task planner and local routing orchestrator, mapping tasks to specialized subagents.
+## Current endpoints
 
-1. **Routing Weights Configuration**:
-   - Define model endpoints and provider fallback configurations.
-   - Default primary provider: `gemini` (`gemini-3.1-flash-lite-preview`)
-   - Default secondary provider: `claude` (`claude-3-5-sonnet`)
-   - Fallback routing for complex logical tasks: redirect to Claude.
+- Hermes dashboard: `http://127.0.0.1:9119`
+- Local Studio Hermes tab: `http://127.0.0.1:3737/hermes`
+- OmniRoute root for Anthropic clients: `http://127.0.0.1:20128`
+- OmniRoute OpenAI-compatible API: `http://127.0.0.1:20128/v1`
 
-2. **Integration into Script Paths**:
-   - Import Hermes configurations into `04_Tech_Lab/agent_runtime_app.py`.
-   - Ensure the local runtime loops query the orchestrator prior to initiating subagent tasks.
-   - Run verification via the agent runtime tests:
-     ```powershell
-     python 04_Tech_Lab/test_agent_runtime_app.py
-     ```
+## Routing policy
 
-3. **Orchestrator Weight Tuning**:
-   - Save custom weights mapping under `config/hermes/weights.json` to assign target complexity parameters for GEO validation and copy atomization tasks.
+1. Start with `auto/best-chat` for content and general tasks.
+2. Use `auto/best-coding` for code and technical changes.
+3. Use `auto/best-reasoning` for complex analysis.
+4. If a route fails, inspect `/v1/models` and the OmniRoute provider dashboard. Choose only a currently returned model backed by a valid OAuth session, free tier, or API key.
+5. A model name appearing in a catalog does not prove the provider is funded or authenticated.
+
+## Verification
+
+Double-click `PM7_REPAIR_AND_VERIFY.bat`. The verifier checks Hermes, OmniRoute, the Studio, Ollama, and the three automatic text routes. Results are written as a dated PAUSED receipt in `01_Command_Center/Outbox_Drafts/`.
+
+Never place an API key or OAuth token in this folder.
+
+<!-- M7-FIREWALL-EXEMPT: governance-reference -->

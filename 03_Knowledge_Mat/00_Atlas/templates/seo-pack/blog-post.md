@@ -2,7 +2,10 @@
 name: blog-post
 description: Write 5 unique SEO-optimised blog posts and deploy to all 5 of your websites. Optimised for CTR, conversions, and multi-video engagement.
 user_invocable: true
+status: reference_only_security_review_required
 ---
+
+> **PM7 SECURITY HOLD — 2026-08-22:** This third-party template is reference-only. Its prior committed API credential must be rotated, and its five-site mass-deploy/cross-link workflow is not approved for Pineapple. Adapt useful research and drafting ideas to the current PM7 SEO SOP; never run its publishing, indexing, or network-link steps without a separate review and Saia's explicit GO.
 
 # 🎯 BEFORE YOU USE THIS — CUSTOMISE 4 THINGS
 
@@ -568,7 +571,7 @@ After all 5 sites are deployed, submit URLs to Omega Indexer via the API. NEVER 
 ### API key (do not commit to public repos)
 
 ```
-OMEGA_INDEXER_API_KEY=B4kiuHrU12n9h0pP3cSRCJVYWjmxLbaQF76TMXNAZtfIDsdvwKley8oOzEgG
+OMEGA_INDEXER_API_KEY=${OMEGA_INDEXER_API_KEY}
 ```
 
 Also stored at `/Users/juliangoldie/.omega-indexer.env` for shell sourcing.
@@ -592,7 +595,7 @@ Content-Type: application/x-www-form-urlencoded
 ### Submit a single campaign
 
 ```bash
-KEY="B4kiuHrU12n9h0pP3cSRCJVYWjmxLbaQF76TMXNAZtfIDsdvwKley8oOzEgG"
+KEY="${OMEGA_INDEXER_API_KEY}"
 SLUG="example-keyword"
 NAME="$SLUG - $(date +%B\ %Y)"
 
@@ -615,7 +618,7 @@ curl -X POST "https://app.omegaindexer.com/api/omega-indexer-api" \
 ### Bulk submit multiple keywords
 
 ```bash
-KEY="B4kiuHrU12n9h0pP3cSRCJVYWjmxLbaQF76TMXNAZtfIDsdvwKley8oOzEgG"
+KEY="${OMEGA_INDEXER_API_KEY}"
 MONTH=$(date +%B\ %Y)
 
 for slug in keyword-1 keyword-2 keyword-3; do

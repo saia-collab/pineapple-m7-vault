@@ -1,14 +1,16 @@
 ---
 type: master_sop
 title: M7 MASTER SOP — the one file Claude Code reads to run the whole Agent OS
-status: active
+status: historical — retired as active authority 2026-08-22
 version: "1.0 — consolidated 2026-06-27"
 color_primary: "#1A365D"
 color_secondary: "#FBC02D"
 color_status: "#00BFFF"
 ---
 
-# 🛰️ PINEAPPLE M7 — MASTER SOP (read this, run anything)
+# ⚠️ HISTORICAL — PINEAPPLE M7 MASTER SOP
+
+> **Retired as active authority on 2026-08-22.** This file is preserved as historical evidence. Start with `M7_START_HERE.md`; for Studio, OmniRoute, Hermes, launchers, or models use `M7_SYSTEM_RECOVERY_AND_ROUTING_SOP_2026-08-22.md`. Where this file conflicts with `CLAUDE.md` or `03_Knowledge_Mat/SHARED_MEMORY.md`, the newer authority wins.
 
 **Claude Code / Hermes / any agent:** this is the single map of the Pineapple Contractors M7 Agent OS.
 Read this file first. It tells you what exists, where it lives, how to run each part, and the rules you

@@ -1,103 +1,138 @@
 #!/usr/bin/env python3
-"""
-M7 DOCTOR — non-human connection + health checklist.
-Checks that every part of the Pineapple M7 OS is connected and talking.
-Run:  python m7_doctor.py   (or double-click M7_DOCTOR.bat)
-Standard library only — no installs. Prints a green/red checklist.
-"""
-import json, socket, subprocess, sys, urllib.request
+"""M7 Doctor: local structure, service, and credential-safe health checks."""
+
+from __future__ import annotations
+
+import os
+import socket
+import subprocess
+import sys
+import urllib.error
+import urllib.request
 from pathlib import Path
 
 VAULT = Path(__file__).resolve().parent.parent
-OBSIDIAN_KEY = "1f8aa9201f4d4769ec53b2eb57dc1333c5a6b6e6b379294e71229a584d17cd8d"  # from Local REST API plugin
+OBSIDIAN_KEY = os.environ.get("OBSIDIAN_REST_API_KEY", "").strip()
 OK, BAD, WARN = "[ OK ]", "[FAIL]", "[WARN]"
-rows = []
+rows: list[tuple[str, str, str]] = []
 
-def add(label, status, detail=""):
+
+def add(label: str, status: str, detail: str = "") -> None:
     rows.append((status, label, detail))
 
-# 1) 4-Fala folder structure
-fala = ["01_Command_Center", "02_Media_Vault", "02_Workspaces",
-        "03_Knowledge_Mat", "04_Tech_Lab", "05_Campaign_Factory"]
-missing = [f for f in fala if not (VAULT / f).is_dir()]
-add("4-Fala folder structure", OK if not missing else BAD, "missing: " + ", ".join(missing) if missing else "all present")
 
-# 2) Key files
-keyfiles = ["01_Command_Center/GROUNDING.md", "01_Command_Center/MASTER_PLAYBOOK.md",
-            "01_Command_Center/M7_COMMAND_CENTER.html", "01_Command_Center/M7_Agent_Kanban.md",
-            "02_Workspaces/Pineapple_Mana_Master_CRM_M7.xlsx"]
-miss2 = [f for f in keyfiles if not (VAULT / f).exists()]
-add("Core files present", OK if not miss2 else BAD, "missing: " + ", ".join(miss2) if miss2 else "all present")
+def port_open(host: str, port: int) -> bool:
+    with socket.socket() as sock:
+        sock.settimeout(1)
+        try:
+            sock.connect((host, port))
+            return True
+        except OSError:
+            return False
 
-# 3) brand_firewall present + runs
-fw = None
-for cand in ["04_Tech_Lab/Scripts/brand_firewall.py", "04_Tech_Lab/scripts/brand_firewall.py"]:
-    if (VAULT / cand).exists():
-        fw = VAULT / cand
-if fw:
+
+def http_status(url: str, headers: dict[str, str] | None = None, timeout: int = 3) -> tuple[int | None, str]:
     try:
-        r = subprocess.run([sys.executable, str(fw), "--check", "IKO Certified, CPPA, 972-928-0788"],
-                           capture_output=True, text=True, timeout=20)
-        add("Brand firewall runs", OK if "OK" in (r.stdout + r.stderr) else WARN, "responded")
-    except Exception as e:
-        add("Brand firewall runs", BAD, str(e))
+        request = urllib.request.Request(url, headers=headers or {})
+        with urllib.request.urlopen(request, timeout=timeout) as response:
+            return response.status, response.read(200).decode("utf-8", "ignore")
+    except urllib.error.HTTPError as exc:
+        return exc.code, str(exc)
+    except Exception as exc:  # diagnostic must continue through every check
+        return None, str(exc)
+
+
+required_dirs = [
+    "01_Command_Center",
+    "02_Media_Vault",
+    "02_Workspaces",
+    "03_Knowledge_Mat",
+    "04_Tech_Lab",
+    "05_Campaign_Factory",
+]
+missing_dirs = [name for name in required_dirs if not (VAULT / name).is_dir()]
+add("M7 folder structure", BAD if missing_dirs else OK, ", ".join(missing_dirs) or "all required rooms present")
+
+required_files = [
+    "CLAUDE.md",
+    "CONTEXT.md",
+    "m7_core_rules.config",
+    "01_Command_Center/M7_START_HERE.md",
+    "01_Command_Center/M7_SYSTEM_RECOVERY_AND_ROUTING_SOP_2026-08-22.md",
+    "03_Knowledge_Mat/SHARED_MEMORY.md",
+    "04_Tech_Lab/config/models.json",
+]
+missing_files = [name for name in required_files if not (VAULT / name).exists()]
+add("Current authority files", BAD if missing_files else OK, ", ".join(missing_files) or "all present")
+
+firewall = VAULT / "04_Tech_Lab" / "scripts" / "brand_firewall.py"
+if firewall.exists():
+    try:
+        result = subprocess.run(
+            [sys.executable, str(firewall), "--check", "IKO Certified. Call for a free roof inspection."],
+            capture_output=True,
+            text=True,
+            timeout=20,
+            check=False,
+        )
+        add("Brand firewall", OK if result.returncode == 0 else BAD, "current approved copy test")
+    except Exception as exc:
+        add("Brand firewall", BAD, str(exc))
 else:
-    add("Brand firewall present", BAD, "brand_firewall.py not found")
+    add("Brand firewall", BAD, "script missing")
 
-def http_ok(url, headers=None, timeout=2):
-    try:
-        req = urllib.request.Request(url, headers=headers or {})
-        with urllib.request.urlopen(req, timeout=timeout) as resp:
-            return resp.status, resp.read(200).decode("utf-8", "ignore")
-    except Exception as e:
-        return None, str(e)
+services = [
+    ("Local Studio", 3737, "http://127.0.0.1:3737/hermes", True),
+    ("Hermes", 9119, "http://127.0.0.1:9119", True),
+    ("Free Claude proxy", 8082, "http://127.0.0.1:8082", False),
+    ("OmniRoute", 20128, "http://127.0.0.1:20128/v1/models", True),
+    ("M7 backend", 51763, "http://127.0.0.1:51763/api/health", False),
+    ("Notebook/Obsidian bridge", 8643, "http://127.0.0.1:8643", False),
+    ("Ollama", 11434, "http://127.0.0.1:11434/api/tags", False),
+]
+for label, port, url, core in services:
+    if not port_open("127.0.0.1", port):
+        add(f"{label} (:{port})", BAD if core else WARN, "not listening")
+        continue
+    status, _ = http_status(url)
+    healthy = status is not None and (200 <= status < 500)
+    add(f"{label} (:{port})", OK if healthy else WARN, f"HTTP {status}" if status else "port open; HTTP probe failed")
 
-def port_open(host, port):
-    s = socket.socket(); s.settimeout(1)
-    try:
-        s.connect((host, port)); s.close(); return True
-    except Exception:
-        return False
-
-# 4) M7 backend (51763)
-if port_open("127.0.0.1", 51763):
-    st, body = http_ok("http://127.0.0.1:51763/api/health")
-    add("M7 backend (port 51763)", OK if st == 200 else WARN, "health responded" if st == 200 else body[:60])
-else:
-    add("M7 backend (port 51763)", WARN, "not running — start with START_M7_SERVER.bat")
-
-# 5) Obsidian Local REST API (27123)
 if port_open("127.0.0.1", 27123):
-    st, body = http_ok("http://127.0.0.1:27123/", {"Authorization": "Bearer " + OBSIDIAN_KEY})
-    add("Obsidian REST API (port 27123)", OK if st in (200, 204) else WARN,
-        "connected + authorized" if st in (200, 204) else "reachable but auth/endpoint issue")
+    if OBSIDIAN_KEY:
+        status, _ = http_status(
+            "http://127.0.0.1:27123/",
+            {"Authorization": f"Bearer {OBSIDIAN_KEY}"},
+        )
+        add("Obsidian Local REST API", OK if status in (200, 204) else WARN, f"HTTP {status}")
+    else:
+        add("Obsidian Local REST API", WARN, "reachable; set OBSIDIAN_REST_API_KEY to test authorization")
 else:
-    add("Obsidian REST API (port 27123)", WARN, "Obsidian closed or Local REST API plugin off")
+    add("Obsidian Local REST API", WARN, "not running")
 
-# 6) Outbox writable
-ob = VAULT / "01_Command_Center" / "Outbox_Drafts"
+outbox = VAULT / "01_Command_Center" / "Outbox_Drafts"
 try:
-    ob.mkdir(parents=True, exist_ok=True)
-    t = ob / ".m7_doctor_write_test"
-    t.write_text("ok"); t.unlink()
-    add("Outbox_Drafts writable", OK, str(ob))
-except Exception as e:
-    add("Outbox_Drafts writable", BAD, str(e))
+    outbox.mkdir(parents=True, exist_ok=True)
+    probe = outbox / ".m7_doctor_write_test"
+    probe.write_text("ok", encoding="utf-8")
+    probe.unlink()
+    add("Outbox_Drafts writable", OK, str(outbox))
+except Exception as exc:
+    add("Outbox_Drafts writable", BAD, str(exc))
 
-# ---- print report ----
-print("\n" + "=" * 60)
-print(" 🍍 PINEAPPLE M7 — CONNECTION DOCTOR")
+print("\n" + "=" * 72)
+print(" PINEAPPLE M7 — CONNECTION DOCTOR")
 print(f" Vault: {VAULT}")
-print("=" * 60)
-fails = 0
+print("=" * 72)
 for status, label, detail in rows:
-    if status == BAD:
-        fails += 1
     print(f" {status}  {label:<34} {detail}")
-print("=" * 60)
-if fails == 0:
-    print(" RESULT: healthy — everything that needs to be connected is. ✅")
+print("=" * 72)
+failures = sum(status == BAD for status, _, _ in rows)
+warnings = sum(status == WARN for status, _, _ in rows)
+if failures:
+    print(f" RESULT: FAILED — {failures} required check(s) failed; {warnings} optional warning(s).")
+elif warnings:
+    print(f" RESULT: CORE HEALTHY — {warnings} optional service(s) need attention or are offline.")
 else:
-    print(f" RESULT: {fails} item(s) need attention (see [FAIL] above).")
-print(" WARN = a service is just not running yet (start its launcher).")
-print(" .")
+    print(" RESULT: HEALTHY — all required and optional checks passed.")
+sys.exit(1 if failures else 0)

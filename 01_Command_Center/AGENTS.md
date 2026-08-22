@@ -1,26 +1,45 @@
-# PINEAPPLE BUSINESS BRAIN (AGENTS.md)
+# PINEAPPLE CONTRACTORS M7 — COMMAND CENTER RULES
 
-## SYSTEM IDENTITY & ROOT LEADERSHIP CONTEXT
-- **Corporate Entity Name**: Pineapple Roofing & Restoration (Pineapple Contractors)
-- **Account / Profile Owner**: Tatafu Nunumoveisini Moeakiola Veehala
-- **Co-Owner & Senior Operations Manager**: Saia Moeakiola
-- **The Core Story**: Family-owned and proudly operated by six Polynesian brothers protecting Frisco and North Texas families like family.
-- **Geographic Base Coordinate**: Based natively in Frisco, Texas (Primary HQ address: 1 Cowboys Way, Suite 270W, Frisco, TX 75034). Active regional branch footprints out of Lewisville, TX and Austin, TX. Out-of-state parameters are unauthorized.
-- **Moat Credentials**: RCAT Licensed (#03-0637), Certified Installer of IKO High-Performance Shingle Systems, IKO Certified (RCAT License #03-0637), 5.0-Star regional rating with a 42 verified map review baseline.
-- **Business Certification Layer**: Historically Underutilized Business (HUB #1861616404400) maintained for public-sector and credential-led trust positioning.
+**Status:** active
+**Last verified:** 2026-08-22
+**Precedence:** `CLAUDE.md` and `03_Knowledge_Mat/SHARED_MEMORY.md` override older playbooks.
 
-## MANDATORY COMPLIANCE FILTERS & GUARDRAIL CORES
-- **Outbound Safety Gate (DEC-005)**: Every ad layout payload, social content grid, or technical configuration brief generated locally must enter a fully locked, strictly PAUSED state. Direct live execution or unchecked budget deployment is prohibited without manual human-in-the-loop sign-off.
-- **Anti-Spam Rejection Law**: Ruthlessly block all low-tier discount terms like "Complimentary", "Full Restoration Coverage", or aggressive insurance-chasing strings from consumer-facing copy. Substitute exclusively with elite tradesman terms: "Complimentary Professional Photo Audit" and "Full Restoration Coverage via insurance claim advocacy".
-- **Minimum Target Revenue Parameter**: Only process leads and marketing materials optimized to secure premium storm restoration contracts maintaining a minimum project size of $18,000+ per file.
+## Identity
 
-## VISUAL PALETTE SYSTEM
-- **Master Structural Foundational Color**: Royal Navy Blue (#1A365D) - used for navigation bars, primary headings, text overlays, footers, and core text corporate marks.
-- **Master Action CTA Highlight Color**: Pineapple Gold (#FBC02D) - used exclusively for CTA buttons, scroll-stopping graphic banners, and primary icon leaves highlights.
-- **Visual Logo Assembly Standard**: Modern, geometric pineapple mark. Top leaves (crown) = Royal Navy Blue; Main fruit body = Pineapple Gold faceted grid pattern. Text is clean, bold, all-caps sans-serif.
+- Pineapple Contractors / Pineapple Roofing
+- Polynesian family-owned
+- Frisco, Texas
+- RCAT Licensed Roofing Contractor #03-0637
+- IKO Certified
+- Founded 2021
+- `(972) 928-0788`
 
-## ACTIVE WORKSPACE ROOM ROUTING
-- `01_Command_Center/` -> Strategic brand kit metrics, business profile metadata, playbooks, and local .env keys.
-- `02_Media_Vault/` -> Uncompressed 39GB content pipeline bank (drone sweeps, job sites, and raw clips).
-- `03_Knowledge_Mat/` -> Obsidian local wiki, hyper-local search questions (AEO), and Tongan proverb arrays.
-- `04_Tech_Lab/` -> Executable script handlers, video-multiplier layout codes, and local CLI connectors.
+Do not publish a street address, review count, certification, service territory, or ownership story unless it is verified in a current source.
+
+## Brand and legal rules
+
+- Primary colors: Pineapple Blue `#003299` and Pineapple Yellow `#ffdd17`.
+- Green is prohibited in Pineapple brand output.
+- "Free roof inspection/estimate" is allowed.
+- Never imply free roof work, free repairs, a waived/no deductible, or guaranteed insurance proceeds.
+- Use "storm damage report" or "licensed roof inspection report" as the field offer; CPPA is retired.
+- Use IKO Certified, never GAF.
+- Do not use warrior, toa, six-brothers, or Tongan-proverb positioning.
+- Core slogan: "Roofing Made Sweeter" and "The Pineapple Promise."
+
+## Outbox Shield (DEC-005)
+
+Every ad, page, post, email, message, publishing payload, or spend configuration must land PAUSED in `01_Command_Center/Outbox_Drafts/`. No agent may publish, send, post, or spend without Saia's explicit GO.
+
+Run `python 04_Tech_Lab/scripts/brand_firewall.py --check "<copy>"` before staging consumer-facing copy.
+
+## Current operational map
+
+- `M7_START_HERE.md` — business-system overview
+- `M7_SYSTEM_RECOVERY_AND_ROUTING_SOP_2026-08-22.md` — current Local Studio and OmniRoute recovery SOP
+- `M7_MASTER_SOP_AND_VERIFICATION_MATRIX.md` — historical 2026-08-19 test evidence; re-test before relying on its model counts
+- `Outbox_Drafts/` — human-review gate
+
+Historical files remain evidence, not authority, when they conflict with the active boot chain.
+
+<!-- M7-FIREWALL-EXEMPT: governance-reference -->

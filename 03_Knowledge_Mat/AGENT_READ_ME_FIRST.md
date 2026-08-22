@@ -1,87 +1,56 @@
 ---
-INTENT: Non-negotiable agent anchor — read this FIRST before any generation in the M7 workspace.
+INTENT: Non-negotiable M7 agent anchor
 type: agent_anchor
-generated: 2026-07-02
-source: 01_Command_Center/CLAUDE.md (Constitution) + MASTER_PLAYBOOK.md
-status: CANONICAL — verify against source before overriding
+last_verified: 2026-08-22
+status: ACTIVE
+authority: CLAUDE.md + CONTEXT.md + SHARED_MEMORY.md
 ---
 
-# 🍍 AGENT — READ ME FIRST (Pineapple Contractors M7)
+# AGENT — READ ME FIRST
 
-**Identity:** Polynesian-owned · RCAT License #03-0637 · IKO Certified · 5-Star Rated · Since 2005 · 972-928-0788 · HQ 1 Cowboys Way, Suite 270W, Frisco, TX 75034.
+## Identity and verified constants
 
----
+Pineapple Contractors is a Polynesian family-owned roofing and construction company based in Frisco, Texas. Use RCAT Licensed Roofing Contractor #03-0637, IKO Certified, founded 2021, and `(972) 928-0788`. Do not invent or revive an older founding year, manufacturer credential, address, review count, or family-story claim.
 
-### 🔁 AGENT ACCELERATION PROTOCOL
+## Required execution loop
 
-When executing tasks, agents must first parse this index file, utilize clean markdown formatting arrays, keep prose concise, and never modify or output files to the workspace root.
+1. Read `CLAUDE.md`.
+2. Read root `CONTEXT.md` and enter only the room needed.
+3. Read `SHARED_MEMORY.md` for current decisions.
+4. Work only inside `C:\Pineapple Contractors M7` unless Saia explicitly directs otherwise.
+5. Stage outbound work PAUSED in `01_Command_Center/Outbox_Drafts/`.
+6. Run the brand firewall and relevant technical tests.
+7. Log what was actually tested; label anything else NOT TESTED.
+8. Wait for Saia's explicit GO before publishing, sending, or spending.
 
----
+## Brand rules
 
-## 1. CORE ICP (Ideal Customer Profile)
-
-**Brand A — Pineapple Roofing** (`pineapplecontractors.com`): Premium Estate & Commercial Portfolio Roofing, Thermal Shock, Hail.
-- **Primary avatars:** Frisco Multi-Unit Property Managers; Luxury Homeowners.
-- **Ad-set avatars (1-3-12 Meta):**
-  1. *The Local Fan* — Frisco, age 35–65, near The Star.
-  2. *The Culture Seeker* — heritage / community honor (*Tauhi Vā*).
-  3. *The Founder's Circle* — B2B commercial owners, property managers, hotel operators, high-equity investors.
-
-**Brand B — Pineapple Restorations** (`pineapplerestorations.com`): Fire Recovery, Water Mitigation, Mold, Biohazard.
-- **Primary avatars:** Property Managers (emergency interior); Hotel Management.
-- **NEVER** mix roofing terminology into Restoration workflows or vice versa.
-
-**Target geography:** ZIPs 75033, 75034, 75035, 75067, 75068. Luxury enclaves: Starwood, Newman Village.
-
----
-
-## 2. TARGET PRICING & QUALIFICATION VARIABLES
-
-| Variable | Value |
+| Rule | Current value |
 |---|---|
-| **Minimum project entry** | **$18,000+** — projects below are auto-rejected to protect margins |
-| **Target CPL** | < $50 (absolute maximum threshold $250) |
-| **Campaign budget** | CBO start $250/week |
-| **Speed-to-lead** | Contact within **5 minutes** — older = classified dead |
-| **Estimate validity** | Strict **7–14 day** window (material cost volatility) |
-| **Lead score triggers** | +25 Frisco ZIPs · +30 Property Managers · +20 $700K+ estates · +20 storm-damage mention. **Score ≥80 → same-day dispatch alert to Saia** |
-| **Tagging — Residential Gold** | 3,500+ sq ft / $1M+ estates in 4.0"–4.75" hail swaths |
-| **Tagging — Commercial Blue** | 40,000+ sq ft in 2.0"–2.5" swaths (TPO / metal seam micro-fissures) |
+| Primary color | Pineapple Blue `#003299` |
+| CTA color | Pineapple Yellow `#ffdd17` |
+| Prohibited color | green |
+| Approved manufacturer | IKO Certified |
+| Approved CTA | free roof inspection/estimate |
+| Prohibited inducements | free work/repairs, waived or no deductible, guaranteed claim payout |
+| Field offer | storm damage report / licensed roof inspection report |
+| Retired positioning | CPPA, GAF, warrior, toa, six brothers, proverbs, since 2005 |
 
----
+## Model and routing rules
 
-## 3. BRAND VISUAL RULES (Hard Enforce)
+- OmniRoute is the primary model gateway at `http://127.0.0.1:20128`.
+- Discover providers and model IDs from the running gateway; do not rely on old screenshots or hardcoded provider names.
+- Prefer `auto/best-chat`, `auto/best-coding`, and `auto/best-reasoning` when available.
+- Provider access depends on current free tiers, OAuth sessions, or API keys and is never guaranteed by a model name alone.
+- Ollama is an optional lightweight local fallback on the 16 GB Windows computer. Never auto-download a large model.
+- Never store tokens in Markdown, Python, BAT, JSON, Git, or receipts.
 
-| Token | Hex | Use |
-|---|---|---|
-| Royal Navy | `#1A365D` | Structural authority — nav, headings, overlays, footers |
-| Pineapple Gold | `#FBC02D` | Action markers — CTAs, scroll-stop banners, highlights |
-| Status Cyan | `#00BFFF` | Status / accent |
+## Outbox Shield
 
-- **ZERO GREEN.** The color green (`#00FF00`, `#2D7D46`, and any green fill/stroke/gradient) is **strictly prohibited** across all platforms, designs, and code.
-- Any color outside this palette is rejected.
-- Advantage+ auto creative enhancements are hardcoded **OFF** (no off-palette color injection).
+No agent may call a send, publish, post, deploy, or ad-spend API without explicit human authorization. A technically successful draft is still PAUSED.
 
----
+## Historical-conflict rule
 
-## 4. CORE OPERATIONAL PHRASES (Verbatim — Mandatory Mutation)
+Files containing retired Navy/Gold/Cyan, CPPA, "since 2005," GAF, proverb, warrior/toa, or six-brothers rules are reference material only unless a newer signed decision explicitly reactivates them.
 
-- **"Complimentary Professional Photo Audit (CPPA)"** — NEVER "free", "free inspection", "cheap", or "bargain".
-- **"Full Restoration Coverage Evaluation"** (a.k.a. Full Asset Restoration Coverage Evaluation) — the frame for all project quotes; NEVER "$0 down", "$0 out of pocket", or "price drop".
-- **"IKO Certified"** — NEVER "GAF".
-- **"The Pineapple Standard"** — NEVER "warrior", "toa", or "six brothers".
-- **Banned lexicon (hard block):** free, cheap, bargain, money, price drop, sales pitch, warrior, toa, six brothers, GAF.
-
----
-
-## 5. OUTBOX SHIELD (DEC-005) — NON-NEGOTIABLE
-
-- Every output lands **PAUSED** in `01_Command_Center/Outbox_Drafts/`. Saia is the **only** publisher and the **only** spender.
-- No agent may call any `send` / `publish` / `post` / `transmit` API directly.
-- Run `brand_firewall.py --check` before staging any content.
-- All operational activity restricted to `C:\Pineapple Contractors M7`.
-
----
-
-## 6. CULTURAL ANCHOR
-Close significant consumer-facing outputs with a heritage anchor when appropriate:
+<!-- M7-FIREWALL-EXEMPT: governance-reference -->

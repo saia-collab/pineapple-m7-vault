@@ -1,24 +1,31 @@
 @echo off
-title PM7 -- PAID MODE (Claude Opus subscription)
+setlocal
+title PM7 Claude Subscription Mode
 color 09
-echo ============================================================
-echo   PINEAPPLE M7 -- PAID MODE
-echo   Claude Code runs on your real Claude Opus subscription
-echo   (best quality). No OmniRoute, no free routing.
-echo ============================================================
-echo.
 
-REM Clear any free-routing env vars so Claude Code uses your logged-in subscription.
 set "ANTHROPIC_BASE_URL="
 set "ANTHROPIC_API_KEY="
+set "ANTHROPIC_AUTH_TOKEN="
 set "OPENAI_BASE_URL="
 set "OPENAI_API_KEY="
-set "PM7_CANONICAL_ROOT=C:\Pineapple Contractors M7"
+set "PM7_ROOT=%~dp0"
 
-echo [info] Free-routing env cleared. Using Claude subscription login.
-echo        (If it ever asks you to log in, run:  claude  then /login )
+echo ============================================================
+echo   PINEAPPLE M7 - CLAUDE SUBSCRIPTION MODE
+echo   OmniRoute variables are cleared for this process only.
+echo ============================================================
 echo.
-echo Launching Claude Code (PAID) in %PM7_CANONICAL_ROOT% ...
-cd /d "%PM7_CANONICAL_ROOT%"
-claude
-pause
+
+where claude.cmd >nul 2>nul
+if errorlevel 1 where claude >nul 2>nul
+if errorlevel 1 (
+  echo [STOP] Claude Code is not installed or is not on PATH.
+  pause
+  exit /b 1
+)
+
+cd /d "%PM7_ROOT%"
+call claude
+set "PM7_EXIT=%ERRORLEVEL%"
+if not "%PM7_EXIT%"=="0" pause
+exit /b %PM7_EXIT%

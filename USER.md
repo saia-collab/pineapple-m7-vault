@@ -1,28 +1,32 @@
 ---
 type: user_preferences
 status: active
-last_updated: 2026-06-17
-color_primary: "#1A365D"
-color_secondary: "#FBC02D"
-color_status: "#00BFFF"
+last_updated: 2026-08-22
+color_primary: "#003299"
+color_secondary: "#ffdd17"
 ---
 
 # USER PROFILE & PREFERENCES
 
 ## Operator
-- Name: Saia
-- Email: saia@pineappleroofingllc.com
-- Role: Owner / Lead operator, Pineapple Contractors M7
+
+- Role: PM7 owner/operator, Pineapple Contractors
+- Primary Windows vault: `C:\Pineapple Contractors M7`
+- Computer profile: Windows 11 with 16 GB RAM; prefer low-memory, one-click workflows
 
 ## Working preferences
-- Execute autonomously with minimal back-and-forth; prefer copy-paste / one-click over manual steps.
-- Concise, direct communication. Minimal fluff.
-- Wants the full M7 OS running hands-free EXCEPT live ad spend, which stays human-authorized (Outbox Shield) to prevent costly errors.
+
+- Execute autonomously with minimal back-and-forth.
+- Prefer one-click launchers and plain-English receipts over terminal-heavy setup.
+- Keep the full M7 operating system available, but preserve the human GO gate for publishing, sending, or ad spend.
+- Use OmniRoute cloud/free-tier routing for daily text and coding work; treat Ollama as an optional lightweight local fallback.
+- Keep Claude subscription mode separate from free-routed mode so credentials and billing paths never mix.
 
 ## Standing context
-- Adding Claude Skill + Template zips via 04_Tech_Lab/skills_inbox → INGEST_SKILLS.bat.
-- Reconciling multiple source playbooks into one MASTER_PLAYBOOK (single source of truth).
-- Vault is the Obsidian vault and is Google-Drive-synced; let Drive settle before launching.
 
+- Consolidate competing playbooks into one current authority chain without deleting historical evidence.
+- The vault may sync through Google Drive or Git; allow sync to settle before launch or update operations.
+- Models and providers change. Discover available model IDs from the running gateway instead of hardcoding remembered names.
+- Every technical receipt must distinguish live-tested facts from historical or cloud-only evidence.
 
 <!-- M7-FIREWALL-EXEMPT: governance-reference -->
