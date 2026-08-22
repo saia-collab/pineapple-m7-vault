@@ -116,11 +116,12 @@ try {
   if (-not $studioAlready) {
     $escapedHome = $HermesHome.Replace('"','')
     $escapedLog = $RunLog.Replace('"','')
-    # OMNIROUTE_MODEL override: the app's built-in default is `oc/big-pickle`, which THIS
-    # gateway doesn't carry (its free pool is the keyless `auto/*` smart-routers). Without
-    # this the Studio's Free Claude Code tab errors "ambiguous/unknown model". auto/best-coding
-    # is verified working on :20128 with the keyless token. (Change here if the pool changes.)
-    $command = "set HERMES_HOME=$escapedHome&& set PORT=3737&& set OMNIROUTE_MODEL=auto/best-coding&& npm start 1>>`"$escapedLog`" 2>>&1"
+    # Use a stable virtual route instead of a provider-specific model ID. Provider catalogs,
+    # free tiers, and auth requirements change; OMNIROUTE_MODEL can override this per machine.
+    # Any OMNIROUTE_API_KEY already present in the parent environment is inherited by the app.
+    $routeModel = if ($env:OMNIROUTE_MODEL) { $env:OMNIROUTE_MODEL } else { "auto/best-coding" }
+    $escapedModel = $routeModel.Replace('"','')
+    $command = "set HERMES_HOME=$escapedHome&& set PORT=3737&& set OMNIROUTE_MODEL=$escapedModel&& npm start 1>>`"$escapedLog`" 2>>&1"
     Start-HiddenCommand $Current $command
   }
 

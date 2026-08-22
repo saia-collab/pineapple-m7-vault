@@ -1,53 +1,58 @@
 {
-  "fleet": [
-    {
-      "id": "ollama",
-      "label": "Ollama",
-      "role": "Local inference runtime",
-      "kind": "ollama",
-      "health_url": "http://localhost:11434/api/tags",
-      "generate_url": "http://localhost:11434/api/generate",
-      "default_model": "gemma4-pineapple",
-      "models": ["deepseek-v4", "gemma4-pineapple", "qwen3.6"],
-      "context_length": 65536,
-      "notes": "Local-first; powers offline reasoning, scoring, and copy drafting. 64k context per tooling SOP."
-    },
-    {
-      "id": "hermes",
-      "label": "Hermes",
-      "role": "24/7 orchestrator daemon",
-      "kind": "http",
-      "health_url": "http://localhost:8080/health",
-      "command_url": "http://localhost:8080/goal",
-      "notes": "Background goal loop + MCP router. Set port to your Hermes daemon."
-    },
-    {
-      "id": "antigravity",
-      "label": "Antigravity",
-      "role": "Gemini agent / CLI bridge",
-      "kind": "http",
-      "health_url": "http://localhost:7860/health",
-      "notes": "Cloud-sandbox agent surface. Configure to your Antigravity endpoint."
-    },
-    {
-      "id": "notebooklm",
-      "label": "NotebookLM",
-      "role": "Source-grounded research vault",
-      "kind": "mcp",
-      "health_url": "http://localhost:8765/health",
-      "mcp_command": "npx -y notebooklm-mcp-server start",
-      "notes": "Grounding layer via MCP (stdio). HTTP probe optional if bridged."
-    },
-    {
-      "id": "paperclip",
-      "label": "Paperclip",
-      "role": "Content repurposing engine",
-      "kind": "http",
-      "health_url": "http://localhost:8090/health",
-      "notes": "Batches one idea/source into many assets. Feeds the 1-3-12 creative set; output stays PAUSED (Outbox Shield)."
-    }
-  ],
-  "_palette": { "navy": "#1A365D", "gold": "#FBC02D", "cyan": "#00BFFF" },
-  "_note": "Health URLs probed from the local server only. Adjust ports to match your machine.",
-  "closing": "."
+  "schema_version": 2,
+  "last_verified": "2026-08-22",
+  "machine_profile": {
+    "os": "Windows 11",
+    "ram_gb": 16,
+    "policy": "Prefer one gateway plus cloud/free-tier text models. Do not auto-download large local models."
+  },
+  "gateway": {
+    "id": "omniroute",
+    "version_audited": "3.8.50",
+    "base_url": "http://127.0.0.1:20128",
+    "openai_base_url": "http://127.0.0.1:20128/v1",
+    "anthropic_base_url": "http://127.0.0.1:20128",
+    "models_url": "http://127.0.0.1:20128/v1/models",
+    "credential_policy": "Use OmniRoute endpoint tokens or its active context; never commit tokens."
+  },
+  "routes": {
+    "chat": "auto/best-chat",
+    "coding": "auto/best-coding",
+    "reasoning": "auto/best-reasoning",
+    "fast": "auto/best-fast",
+    "vision": "auto/best-vision"
+  },
+  "clients": {
+    "claude": "omniroute setup-claude; launch with omniroute launch",
+    "codex": "omniroute setup-codex; launch with omniroute launch-codex",
+    "opencode": "omniroute setup-opencode",
+    "cursor": "omniroute setup-cursor; complete the printed in-app steps",
+    "gemini_cli": "omniroute run gemini --model auto/best-chat",
+    "google_ai_studio": "Add a Gemini API key through the OmniRoute provider dashboard; never commit it.",
+    "antigravity": "Connect through normal OAuth only; keep paid credits off; do not enable MITM or stealth."
+  },
+  "services": {
+    "studio": "http://127.0.0.1:3737/hermes",
+    "hermes": "http://127.0.0.1:9119",
+    "free_claude_proxy": "http://127.0.0.1:8082",
+    "m7_backend": "http://127.0.0.1:51763/api/health",
+    "notebook_obsidian": "http://127.0.0.1:8643",
+    "ollama": "http://127.0.0.1:11434/api/tags"
+  },
+  "ollama": {
+    "enabled": "optional",
+    "model_selection": "Discover installed models from /api/tags. Prefer 1.5B-3B quantized models while Studio is open; test memory before using 7B; avoid 9B+ on this machine.",
+    "automatic_pull": false
+  },
+  "provider_policy": {
+    "preferred_families": ["DeepSeek", "Kimi", "GLM", "MiniMax"],
+    "rule": "Select only model IDs returned by the live OmniRoute catalog and backed by an authenticated or currently available provider.",
+    "deepseek_harness": "Not required for routing DeepSeek through OmniRoute; keep separate until the core PM7 stack is stable."
+  },
+  "palette": {
+    "blue": "#003299",
+    "yellow": "#ffdd17",
+    "green": "BANNED"
+  },
+  "_firewall_exempt": "M7-FIREWALL-EXEMPT: governance-reference"
 }

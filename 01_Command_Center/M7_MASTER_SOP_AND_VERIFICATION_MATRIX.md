@@ -1,11 +1,13 @@
 ---
 title: M7 MASTER SOP + LOCAL STUDIO VERIFICATION MATRIX (test-run results)
-status: active — tested 2026-08-19. Real results, not aspirational.
+status: historical verification snapshot — tested 2026-08-19; re-test before reuse
 brand: Pineapple Blue #003299 + Yellow #ffdd17 · zero green · "free roof inspection" OK (never free repairs/deductible) · storm damage report not CPPA · IKO not GAF · founded 2021 · (972) 928-0788 · Outbox Shield
 gateway: OmniRoute http://127.0.0.1:20128/v1 (177 models, keyless, RTK compression) · Studio :3737 · FCC :8082 · Hermes :9119
 ---
 
 # 🍍 M7 MASTER SOP + VERIFICATION MATRIX
+
+> **Historical snapshot:** these are 2026-08-19 results, not proof of current provider availability. Use `M7_SYSTEM_RECOVERY_AND_ROUTING_SOP_2026-08-22.md` and a fresh local verification receipt for current decisions.
 
 **What this is:** one doc that (1) shows how the free stack routes, (2) tests **every AI tab/feature** and marks it ✅ working / 🔑 needs-your-login / 💸 paid / ❌ broken, (3) gives the daily/weekly/monthly loop, (4) lists the Codex/Cursor/mobile to-dos. Tested live 2026-08-19.
 

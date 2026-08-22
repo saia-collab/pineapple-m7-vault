@@ -1,0 +1,58 @@
+name: PM7 recovery static checks
+
+on:
+  pull_request:
+    paths:
+      - "**/*.ps1"
+      - "**/*.py"
+      - "**/*.bat"
+      - "**/*.json"
+      - "CLAUDE.md"
+      - "CONTEXT.md"
+      - "USER.md"
+      - "m7_core_rules.config"
+      - ".github/workflows/pm7-recovery-static.yml"
+  push:
+    branches:
+      - "codex/pm7-omniroute-recovery-*"
+
+permissions:
+  contents: read
+
+jobs:
+  windows-static:
+    runs-on: windows-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Parse recovery PowerShell on Windows
+        shell: powershell
+        run: |
+          $files = @(
+            "04_Tech_Lab/scripts/PM7_OMNIROUTE_REPAIR_AND_VERIFY.ps1",
+            "04_Tech_Lab/scripts/agentos_launcher_fixes_2026-08-16/START-PINEAPPLE-AGENT-OS.ps1"
+          )
+          $failed = $false
+          foreach ($file in $files) {
+            $tokens = $null
+            $errors = $null
+            [void][System.Management.Automation.Language.Parser]::ParseFile(
+              (Resolve-Path $file),
+              [ref]$tokens,
+              [ref]$errors
+            )
+            if ($errors.Count -gt 0) {
+              $errors | ForEach-Object { Write-Error "${file}: $($_.Message)" }
+              $failed = $true
+            }
+          }
+          if ($failed) { exit 1 }
+
+      - name: Run dependency-free recovery tests
+        shell: powershell
+        run: |
+          python -m py_compile 04_Tech_Lab/m7_doctor.py
+          python -m json.tool 04_Tech_Lab/config/models.json | Out-Null
+          python 04_Tech_Lab/tests/test_pm7_recovery_static.py

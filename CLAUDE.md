@@ -2,10 +2,11 @@
 
 ## READ THIS FIRST — Every session starts here
 When Claude Code opens in this folder, immediately:
-1. Read `01_Command_Center/M7_MASTER_SOP.md` — this is your operating manual
+1. Read `01_Command_Center/M7_START_HERE.md` — this is the current front door
 2. Read `CONTEXT.md` (root) — the ICM router: which folder handles what. Load only the room you need. (Method: `01_Command_Center/M7_ICM_FOLDER_SOP.md`; live state: `_memory/`)
 3. Read `03_Knowledge_Mat/SHARED_MEMORY.md` — shared context across all agents
-4. Confirm to Saia: "M7 OS loaded. Ready. Here are the SOPs I can run: [list them]"
+4. For Local Studio, models, launchers, or recovery, read `01_Command_Center/M7_SYSTEM_RECOVERY_AND_ROUTING_SOP_2026-08-22.md`
+5. Confirm to Saia: "M7 OS loaded. Ready. Here are the SOPs I can run: [list them]"
 
 ## Working Directory
 **Always operate from: `C:\Pineapple Contractors M7`**
@@ -38,7 +39,8 @@ RCAT License #03-0637 · IKO Certified · 5-Star Rated (500+ reviews) · Founded
 ## Key Files (read these on demand)
 | File | Purpose |
 |------|---------|
-| `01_Command_Center/M7_MASTER_SOP.md` | Full operating manual — read this for any task |
+| `01_Command_Center/M7_START_HERE.md` | Current operating-system front door |
+| `01_Command_Center/M7_SYSTEM_RECOVERY_AND_ROUTING_SOP_2026-08-22.md` | Current Local Studio, OmniRoute, client setup, and recovery SOP |
 | `01_Command_Center/M7_EXECUTE.md` | Content execution playbook |
 | `01_Command_Center/M7_INTEGRATED_CAMPAIGN.md` | Social + LSA + SEO campaign |
 | `01_Command_Center/M7_CONTENT_FACTORY.md` | Video repurposing pipeline |

@@ -1,22 +1,29 @@
 @echo off
-title PM7 Local Studio Master Launcher
-color 0A
+setlocal
+title PM7 Local Studio
+color 0B
+
+set "PM7_ROOT=%~dp0"
+set "PM7_LAUNCHER=%PM7_ROOT%04_Tech_Lab\Pineapple_Agent_OS\START-PINEAPPLE-AGENT-OS.ps1"
+if not exist "%PM7_LAUNCHER%" set "PM7_LAUNCHER=%PM7_ROOT%04_Tech_Lab\scripts\agentos_launcher_fixes_2026-08-16\START-PINEAPPLE-AGENT-OS.ps1"
+
 echo ============================================================
-echo   PINEAPPLE CONTRACTORS M7 - LOCAL AI STUDIO LAUNCHER
+echo   PINEAPPLE M7 - START LOCAL STUDIO
 echo ============================================================
 echo.
 
-set "ANTHROPIC_BASE_URL=http://127.0.0.1:20128"
-set "ANTHROPIC_API_KEY=sk-pm7-free-local-token"
-set "OPENAI_BASE_URL=http://127.0.0.1:20128/v1"
-set "OPENAI_API_KEY=sk-pm7-free-local-token"
-set "PM7_CANONICAL_ROOT=C:\Pineapple Contractors M7"
+if not exist "%PM7_LAUNCHER%" (
+  echo [STOP] The Local Studio PowerShell launcher is missing.
+  echo        Expected under 04_Tech_Lab\Pineapple_Agent_OS or scripts.
+  pause
+  exit /b 1
+)
 
-echo [1/2] Verifying OmniRoute Gateway on http://127.0.0.1:20128...
-powershell -NoProfile -Command "try { $r = Invoke-RestMethod -Uri 'http://127.0.0.1:20128/v1/models' -TimeoutSec 3; Write-Host '[PASS] OmniRoute Gateway ACTIVE on Port 20128!' -ForegroundColor Green } catch { Write-Host '[WARNING] OmniRoute not responding. Make sure omniroute is running in another terminal.' -ForegroundColor Yellow }"
-
-echo.
-echo [2/2] Launching Claude Code in %PM7_CANONICAL_ROOT%...
-cd /d "%PM7_CANONICAL_ROOT%"
-claude
-pause
+powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -File "%PM7_LAUNCHER%"
+set "PM7_EXIT=%ERRORLEVEL%"
+if not "%PM7_EXIT%"=="0" (
+  echo.
+  echo [FAILED] Local Studio did not become ready. Error %PM7_EXIT%.
+  pause
+)
+exit /b %PM7_EXIT%

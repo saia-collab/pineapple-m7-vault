@@ -1,11 +1,13 @@
 ---
 title: M7 START HERE — the one map (student onboarding to Local Studio + WordPress + Agentic OS)
-status: active — this is the front door. Read this ONE file, ignore the 16 scattered old SOPs until you need a detail.
+status: active navigation — live service statuses below are historical until rechecked
 date: 2026-08-16
 brand: Pineapple Blue #003299 + Yellow #ffdd17 · zero green · "free roof inspection/estimate" OK (never "free" tied to repairs/deductible/claims) · "storm damage report" not CPPA · IKO not GAF · founded 2021 · Frisco · (972) 928-0788
 ---
 
 # 🍍 M7 — START HERE (the whole system, one page)
+
+> **Live-status rule (2026-08-22):** this page explains the business workflow, but its checkmarks are a prior snapshot. For current ports, providers, models, and launcher status, run `PM7_REPAIR_AND_VERIFY.bat` and use `M7_SYSTEM_RECOVERY_AND_ROUTING_SOP_2026-08-22.md`.
 
 You felt lost because you had 16 SOPs each describing one gear. Here's the whole engine.
 
