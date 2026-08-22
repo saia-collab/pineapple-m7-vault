@@ -15,8 +15,8 @@ The recovery branch is now published in [draft PR #2](https://github.com/saia-co
 
 - Draft PR: [PM7 OmniRoute recovery: launchers, routing, security, and Windows verification](https://github.com/saia-collab/pineapple-m7-vault/pull/2)
 - Branch: `codex/pm7-omniroute-recovery-20260822`
-- Published commit: `e60bf81a3fc370d3b3c6834ca0cfaeb93c80730d`
-- Windows GitHub Actions: **PASSED** (`PM7 recovery static checks`, run 2)
+- Recovery implementation commit: `e60bf81a3fc370d3b3c6834ca0cfaeb93c80730d`
+- Windows GitHub Actions: **PASSED** for the recovery and report update
 - Main branch: unchanged
 - Merge status: **PAUSED — Claude review, credential rotation, owner GO, and real Windows verification required**
 
